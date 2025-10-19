@@ -1,6 +1,6 @@
 import requests
 from pprint import pprint
-from credentials import * # WP_BOT_USER_NAME, WP_BOT_PASSWORD, WP_BOT_USER_AGENT
+from credentials import * # WP_BOT_USER_NAME, WP_BOT_PASSWORD, WP_BOT_USER_AGENT, USER_SANDBOX_ARTICLE
 
 WIKIPEDIA_ENDPOINT = "https://en.wikipedia.org/w/api.php"
 
