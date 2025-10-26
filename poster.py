@@ -1,7 +1,7 @@
 import requests
 from pprint import pprint
 from credentials import *  # WP_BOT_USER_NAME, WP_BOT_PASSWORD, WP_BOT_USER_AGENT, USER_SANDBOX_ARTICLE
-from parser import parse_wikitext_sections, print_article_outline
+from parser import parse_wikitext_sections, get_article_outline
 
 WIKIPEDIA_ENDPOINT = "https://en.wikipedia.org/w/api.php"
 
@@ -84,7 +84,7 @@ if __name__ == '__main__':
     article_title = 'Coal County, Oklahoma'
     pageWikitext = fetchArticleWikitext(article_title)
     sections = parse_wikitext_sections(pageWikitext)
-    print(print_article_outline(article_title, sections))
+    print(get_article_outline(article_title, sections))
 
     #const newLine = 'As of the [[2020 United States census|2020 census]], the population of Coal County was 5,266.<ref name="2020-census"/>'
     #csrfToken = getCsrfToken()
