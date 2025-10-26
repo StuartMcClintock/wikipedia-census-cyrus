@@ -112,7 +112,7 @@ def print_wikitext_section_keys(parsed_sections, level=0):
     return "\n".join(lines)
 
 
-def print_article_outline(article_title, parsed_sections):
+def get_article_outline(article_title, parsed_sections):
     """
     Return a formatted outline headed by article_title and indented section keys.
     """
@@ -120,4 +120,3 @@ def print_article_outline(article_title, parsed_sections):
     if body:
         return f"{article_title}\n{body}"
     return article_title
-
