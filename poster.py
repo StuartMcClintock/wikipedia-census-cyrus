@@ -1,11 +1,13 @@
 import requests
 from pprint import pprint
-from credentials import * # WP_BOT_USER_NAME, WP_BOT_PASSWORD, WP_BOT_USER_AGENT, USER_SANDBOX_ARTICLE
+from credentials import *  # WP_BOT_USER_NAME, WP_BOT_PASSWORD, WP_BOT_USER_AGENT, USER_SANDBOX_ARTICLE
+from parser import parse_wikitext_sections, print_article_outline
 
 WIKIPEDIA_ENDPOINT = "https://en.wikipedia.org/w/api.php"
 
 S = requests.Session()
 S.headers.update({"User-Agent": WP_BOT_USER_AGENT})
+
 
 def getLoginToken():
     params = {
@@ -79,6 +81,11 @@ def editArticleWikitext(csrfToken, articleTitle, newText):
 
 if __name__ == '__main__':
     login()
-    pageWikitext = fetchArticleWikitext('Coal County, Oklahoma')
-    csrfToken = getCsrfToken()
-    editArticleWikitext(csrfToken, USER_SANDBOX_ARTICLE, '')
+    article_title = 'Coal County, Oklahoma'
+    pageWikitext = fetchArticleWikitext(article_title)
+    sections = parse_wikitext_sections(pageWikitext)
+    print(print_article_outline(article_title, sections))
+
+    #const newLine = 'As of the [[2020 United States census|2020 census]], the population of Coal County was 5,266.<ref name="2020-census"/>'
+    #csrfToken = getCsrfToken()
+    #editArticleWikitext(csrfToken, USER_SANDBOX_ARTICLE, '')
