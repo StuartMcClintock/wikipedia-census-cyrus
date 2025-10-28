@@ -137,7 +137,7 @@ def unparse_wikitext_sections(sections):
 
             level = depth + 2
             marker = "=" * level
-            parts.append(f"{marker} {heading} {marker}\n")
+            parts.append(f"{marker}{heading}{marker}\n")
 
             if isinstance(content, list):
                 render(content, depth + 1)

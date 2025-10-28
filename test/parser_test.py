@@ -49,6 +49,9 @@ class PrintArticleOutlineTests(unittest.TestCase):
         reconstructed = unparse_wikitext_sections(self.sections)
         reparsed = parse_wikitext_sections(reconstructed)
         self.assertEqual(reparsed, self.sections)
+        self.assertIn("==History==", reconstructed)
+        self.assertIn("==Geography==", reconstructed)
+        self.assertNotIn("== Geography ==", reconstructed)
 
     def test_overwrite_wikitext_section_updates_leaf_content(self):
         sections_copy = copy.deepcopy(self.sections)

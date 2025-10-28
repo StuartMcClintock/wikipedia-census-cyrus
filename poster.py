@@ -92,4 +92,4 @@ if __name__ == '__main__':
     newWikitext = unparse_wikitext_sections(sections)
 
     csrfToken = getCsrfToken()
-    #editArticleWikitext(csrfToken, 'Coal_County,_Oklahoma', newWikitext)
+    editArticleWikitext(csrfToken, 'Coal_County,_Oklahoma', newWikitext)
