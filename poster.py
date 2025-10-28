@@ -1,7 +1,7 @@
 import requests
 from pprint import pprint
 from credentials import *  # WP_BOT_USER_NAME, WP_BOT_PASSWORD, WP_BOT_USER_AGENT, USER_SANDBOX_ARTICLE
-from parser import parse_wikitext_sections, get_article_outline, get_wikitext_section, overwrite_wikitext_section, unparse_wikitext_sections
+from parser import ParsedWikitext
 
 WIKIPEDIA_ENDPOINT = "https://en.wikipedia.org/w/api.php"
 
@@ -81,15 +81,15 @@ def editArticleWikitext(csrfToken, articleTitle, newText):
 
 if __name__ == '__main__':
     login()
-    article_title = 'Coal County, Oklahoma'
+    article_title = 'Coalgate,_Oklahoma'
     pageWikitext = fetchArticleWikitext(article_title)
-    sections = parse_wikitext_sections(pageWikitext)
-    print(get_article_outline(article_title, sections))
+    parsed = ParsedWikitext.from_wikitext(pageWikitext)
+    print(parsed.outline(article_title))
 
-    oldSection = get_wikitext_section(sections, ['Demographics'])
-    newLine = 'As of the [[2020 United States census|2020 census]], the population of Coal County was 5,266.<ref name="2020-census"/>\n\n'
-    overwrite_wikitext_section(sections, ['Demographics'], newLine+oldSection)
-    newWikitext = unparse_wikitext_sections(sections)
+    oldSection = parsed.get_section(['Demographics'])
+    newLine = 'As of the [[2020 United States census|2020 census]], the population of Coalgate was 1,667.\n\n'
+    parsed.overwrite_section(['Demographics'], newLine + oldSection)
+    newWikitext = parsed.to_wikitext()
 
     csrfToken = getCsrfToken()
-    editArticleWikitext(csrfToken, 'Coal_County,_Oklahoma', newWikitext)
+    editArticleWikitext(csrfToken, article_title, newWikitext)
