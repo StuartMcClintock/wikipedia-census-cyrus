@@ -1,0 +1,161 @@
+import unittest
+from unittest.mock import Mock, patch
+
+from poster import WikipediaClient, WIKIPEDIA_ENDPOINT
+
+
+class WikipediaClientTests(unittest.TestCase):
+    @patch('poster.requests.Session')
+    def test_get_login_token_requests_token(self, mock_session_cls):
+        mock_session = mock_session_cls.return_value
+        mock_session.headers = {}
+        mock_response = Mock()
+        mock_response.raise_for_status = Mock()
+        mock_response.json.return_value = {
+            'query': {'tokens': {'logintoken': 'TOKEN123'}}
+        }
+        mock_session.get.return_value = mock_response
+
+        client = WikipediaClient('TestAgent/1.0')
+        token = client.get_login_token()
+
+        self.assertEqual(token, 'TOKEN123')
+        mock_session.get.assert_called_once_with(
+            WIKIPEDIA_ENDPOINT,
+            params={
+                'action': 'query',
+                'meta': 'tokens',
+                'type': 'login',
+                'format': 'json'
+            },
+        )
+
+    @patch('poster.requests.Session')
+    def test_login_successful(self, mock_session_cls):
+        mock_session = mock_session_cls.return_value
+        mock_session.headers = {}
+        client = WikipediaClient('TestAgent/1.0')
+
+        with patch.object(client, 'get_login_token', return_value='TOKEN123'):
+            with patch('poster.print') as mock_print:
+                mock_response = Mock()
+                mock_response.raise_for_status = Mock()
+                mock_response.json.return_value = {'login': {'result': 'Success'}}
+                mock_session.post.return_value = mock_response
+
+                result = client.login('user', 'pass')
+
+            expected_payload = {
+                'action': 'login',
+                'lgname': 'user',
+                'lgpassword': 'pass',
+                'lgtoken': 'TOKEN123',
+                'format': 'json'
+            }
+            mock_session.post.assert_called_once_with(
+                WIKIPEDIA_ENDPOINT,
+                data=expected_payload,
+            )
+            self.assertEqual(result, {'login': {'result': 'Success'}})
+            mock_print.assert_called_once_with("Successfully logged in as user")
+
+    @patch('poster.requests.Session')
+    def test_login_failure_raises(self, mock_session_cls):
+        mock_session = mock_session_cls.return_value
+        mock_session.headers = {}
+        client = WikipediaClient('TestAgent/1.0')
+
+        with patch.object(client, 'get_login_token', return_value='TOKEN123'):
+            mock_response = Mock()
+            mock_response.raise_for_status = Mock()
+            mock_response.json.return_value = {'login': {'result': 'Failed'}}
+            mock_session.post.return_value = mock_response
+
+            with self.assertRaises(Exception):
+                client.login('user', 'pass')
+
+    @patch('poster.requests.Session')
+    def test_fetch_article_wikitext_returns_content(self, mock_session_cls):
+        mock_session = mock_session_cls.return_value
+        mock_session.headers = {}
+        mock_response = Mock()
+        mock_response.raise_for_status = Mock()
+        mock_response.json.return_value = {
+            'query': {
+                'pages': [
+                    {
+                        'revisions': [
+                            {
+                                'slots': {
+                                    'main': {
+                                        'content': 'Sample wikitext'
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+        mock_session.get.return_value = mock_response
+
+        client = WikipediaClient('TestAgent/1.0')
+        wikitext = client.fetch_article_wikitext('Sample')
+
+        self.assertEqual(wikitext, 'Sample wikitext')
+        mock_session.get.assert_called_once_with(
+            WIKIPEDIA_ENDPOINT,
+            params={
+                'action': 'query',
+                'prop': 'revisions',
+                'titles': 'Sample',
+                'rvprop': 'content',
+                'rvslots': 'main',
+                'formatversion': '2',
+                'format': 'json'
+            },
+        )
+
+    @patch('poster.requests.Session')
+    def test_compare_revision_sizes_returns_delta(self, mock_session_cls):
+        mock_session = mock_session_cls.return_value
+        mock_session.headers = {}
+        client = WikipediaClient('TestAgent/1.0')
+
+        compare_response = Mock()
+        compare_response.raise_for_status = Mock()
+        compare_response.json.return_value = {
+            'compare': {'fromsize': 1000, 'tosize': 1300}
+        }
+
+        with patch.object(client, '_get', return_value=compare_response) as mock_get:
+            delta = client.compare_revision_sizes(111, 222)
+
+        self.assertEqual(delta, 300)
+        mock_get.assert_called_once_with(
+            {
+                'action': 'compare',
+                'fromrev': 111,
+                'torev': 222,
+                'prop': 'size',
+                'format': 'json',
+            }
+        )
+
+    @patch('poster.requests.Session')
+    def test_compare_revision_sizes_missing_info_raises(self, mock_session_cls):
+        mock_session = mock_session_cls.return_value
+        mock_session.headers = {}
+        client = WikipediaClient('TestAgent/1.0')
+
+        compare_response = Mock()
+        compare_response.raise_for_status = Mock()
+        compare_response.json.return_value = {'compare': {}}
+
+        with patch.object(client, '_get', return_value=compare_response):
+            with self.assertRaises(ValueError):
+                client.compare_revision_sizes(111, 222)
+
+
+if __name__ == '__main__':
+    unittest.main()
