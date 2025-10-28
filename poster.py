@@ -115,6 +115,31 @@ class WikipediaClient:
             raise ValueError("Revision size information is unavailable.")
         return new_size - old_size
 
+    def edit_article_with_size_check(
+        self,
+        title,
+        parsed_wikitext,
+        summary,
+        tolerance=2,
+        new_text=None,
+    ):
+        """
+        Edit a page and verify the observed size delta roughly matches expectations.
+        """
+        new_text = new_text if new_text is not None else parsed_wikitext.to_wikitext()
+        expected_delta = len(new_text) - parsed_wikitext.original_length
+        response = self.edit_article_wikitext(title, new_text, summary)
+        edit_info = response.get('edit', {})
+        old_rev = edit_info.get('oldrevid')
+        new_rev = edit_info.get('newrevid')
+        if old_rev is not None and new_rev is not None:
+            actual_delta = self.compare_revision_sizes(old_rev, new_rev)
+            if abs(actual_delta - expected_delta) > tolerance:
+                raise ValueError(
+                    f"Revision size delta {actual_delta} differs from expected {expected_delta} by more than {tolerance}."
+                )
+        return response
+
 
 def main():
     client = WikipediaClient(WP_BOT_USER_AGENT)
@@ -128,11 +153,10 @@ def main():
     old_section = parsed.get_section(['Demographics'])
     new_line = 'As of the [[2020 United States census|2020 census]], the population of Coalgate was 1,667.\n\n'
     parsed.overwrite_section(['Demographics'], new_line + old_section)
-    new_wikitext = parsed.to_wikitext()
 
-    result = client.edit_article_wikitext(
+    result = client.edit_article_with_size_check(
         article_title,
-        new_wikitext,
+        parsed,
         'Add 2020 census data'
     )
     pprint(result)

@@ -29,6 +29,7 @@ class PrintArticleOutlineTests(unittest.TestCase):
         self.wikitext = fixture_path.read_text(encoding="utf-8")
         self.parsed = ParsedWikitext.from_wikitext(self.wikitext)
         self.original_sections = copy.deepcopy(self.parsed.sections)
+        self.original_length = len(self.wikitext)
 
     def test_outline_matches_expected_fixture(self):
         outline = self.parsed.outline("Coal County, Oklahoma")
@@ -47,6 +48,9 @@ class PrintArticleOutlineTests(unittest.TestCase):
         self.assertIn("==History==", reconstructed)
         self.assertIn("==Geography==", reconstructed)
         self.assertNotIn("== Geography ==", reconstructed)
+
+    def test_original_length_recorded(self):
+        self.assertEqual(self.parsed.original_length, self.original_length)
 
     def test_overwrite_wikitext_section_updates_leaf_content(self):
         clone = self.parsed.clone()

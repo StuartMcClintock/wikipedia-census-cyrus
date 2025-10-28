@@ -8,11 +8,12 @@ class ParsedWikitext:
     mutation, and serialization back to raw wikitext.
     """
 
-    __slots__ = ("_sections",)
+    __slots__ = ("_sections", "_original_length")
 
-    def __init__(self, sections):
+    def __init__(self, sections, original_length=None):
         # store a deep copy to decouple from external references
         self._sections = copy.deepcopy(sections)
+        self._original_length = original_length if original_length is not None else 0
 
     # @classmethod allows constructing instances without a pre-parsed section list.
     @classmethod
@@ -102,13 +103,18 @@ class ParsedWikitext:
             result.append(("__lead__", root.content))
         for child in root.children:
             result.append(section_to_nested(child))
-        return cls(result)
+        return cls(result, original_length=len(wikitext))
 
     # @property exposes a read-only view of the parsed section structure.
     @property
     def sections(self):
         """Return the underlying parsed sections."""
         return self._sections
+
+    @property
+    def original_length(self):
+        """Return the number of characters the article had when parsed."""
+        return self._original_length
 
     def section_keys(self, level=0):
         """
@@ -184,7 +190,7 @@ class ParsedWikitext:
 
     def clone(self):
         """Return a deep copy of this ParsedWikitext instance."""
-        return ParsedWikitext(copy.deepcopy(self._sections))
+        return ParsedWikitext(copy.deepcopy(self._sections), self._original_length)
 
     def _locate_section(self, key_path):
         """
