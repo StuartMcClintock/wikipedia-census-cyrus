@@ -2,6 +2,7 @@ import unittest
 from unittest.mock import Mock, patch
 
 from poster import WikipediaClient, WIKIPEDIA_ENDPOINT
+from parser import ParsedWikitext
 
 
 class WikipediaClientTests(unittest.TestCase):
@@ -155,6 +156,67 @@ class WikipediaClientTests(unittest.TestCase):
         with patch.object(client, '_get', return_value=compare_response):
             with self.assertRaises(ValueError):
                 client.compare_revision_sizes(111, 222)
+
+    @patch('poster.requests.Session')
+    def test_edit_article_with_size_check_success(self, mock_session_cls):
+        mock_session = mock_session_cls.return_value
+        mock_session.headers = {}
+        client = WikipediaClient('TestAgent/1.0')
+        parsed = ParsedWikitext.from_wikitext("Original lead text.\n")
+        parsed.overwrite_section(["__lead__"], "Updated lead text.\n")
+        expected_delta = len(parsed.to_wikitext()) - parsed.original_length
+
+        with patch.object(
+            client,
+            'edit_article_wikitext',
+            return_value={'edit': {'oldrevid': 1, 'newrevid': 2}},
+        ) as mock_edit, patch.object(
+            client, 'compare_revision_sizes', return_value=expected_delta
+        ) as mock_compare:
+            response = client.edit_article_with_size_check("Sample", parsed, "summary")
+
+        mock_edit.assert_called_once()
+        mock_compare.assert_called_once_with(1, 2)
+        self.assertEqual(response, {'edit': {'oldrevid': 1, 'newrevid': 2}})
+
+    @patch('poster.requests.Session')
+    def test_edit_article_with_size_check_raises_on_mismatch(self, mock_session_cls):
+        mock_session = mock_session_cls.return_value
+        mock_session.headers = {}
+        client = WikipediaClient('TestAgent/1.0')
+        parsed = ParsedWikitext.from_wikitext("Original lead text.\n")
+        parsed.overwrite_section(["__lead__"], "Updated lead text.\n")
+
+        with patch.object(
+            client,
+            'edit_article_wikitext',
+            return_value={'edit': {'oldrevid': 1, 'newrevid': 2}},
+        ), patch.object(
+            client, 'compare_revision_sizes', return_value=9999
+        ):
+            with self.assertRaises(ValueError):
+                client.edit_article_with_size_check("Sample", parsed, "summary", tolerance=10)
+
+    @patch('poster.requests.Session')
+    def test_edit_article_with_size_check_skips_compare_when_ids_missing(self, mock_session_cls):
+        mock_session = mock_session_cls.return_value
+        mock_session.headers = {}
+        client = WikipediaClient('TestAgent/1.0')
+        parsed = ParsedWikitext.from_wikitext("Original lead text.\n")
+        parsed.overwrite_section(["__lead__"], "Updated lead text.\n")
+
+        with patch.object(
+            client,
+            'edit_article_wikitext',
+            return_value={'edit': {'result': 'Success'}},
+        ) as mock_edit, patch.object(
+            client, 'compare_revision_sizes'
+        ) as mock_compare:
+            response = client.edit_article_with_size_check("Sample", parsed, "summary")
+
+        mock_edit.assert_called_once()
+        mock_compare.assert_not_called()
+        self.assertEqual(response, {'edit': {'result': 'Success'}})
 
 
 if __name__ == '__main__':
