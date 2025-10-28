@@ -2,13 +2,7 @@ import copy
 import unittest
 from pathlib import Path
 
-from parser import (
-    parse_wikitext_sections,
-    get_article_outline,
-    unparse_wikitext_sections,
-    overwrite_wikitext_section,
-    get_wikitext_section,
-)
+from parser import ParsedWikitext
 
 COAL_COUNTY_EXPECTED_OUTLINE = '''Coal County, Oklahoma
   __lead__
@@ -33,66 +27,62 @@ class PrintArticleOutlineTests(unittest.TestCase):
     def setUp(self):
         fixture_path = Path(__file__).with_name("Coal_County_test_data.txt")
         self.wikitext = fixture_path.read_text(encoding="utf-8")
-        self.sections = parse_wikitext_sections(self.wikitext)
+        self.parsed = ParsedWikitext.from_wikitext(self.wikitext)
+        self.original_sections = copy.deepcopy(self.parsed.sections)
 
     def test_outline_matches_expected_fixture(self):
-        outline = get_article_outline("Coal County, Oklahoma", self.sections)
+        outline = self.parsed.outline("Coal County, Oklahoma")
         self.assertEqual(outline, COAL_COUNTY_EXPECTED_OUTLINE)
 
     def test_outline_returns_title_when_no_sections(self):
         self.assertEqual(
-            get_article_outline("Empty Article", []),
+            ParsedWikitext([]).outline("Empty Article"),
             "Empty Article",
         )
 
     def test_unparse_round_trip_matches_original_structure(self):
-        reconstructed = unparse_wikitext_sections(self.sections)
-        reparsed = parse_wikitext_sections(reconstructed)
-        self.assertEqual(reparsed, self.sections)
+        reconstructed = self.parsed.to_wikitext()
+        reparsed = ParsedWikitext.from_wikitext(reconstructed).sections
+        self.assertEqual(reparsed, self.original_sections)
         self.assertIn("==History==", reconstructed)
         self.assertIn("==Geography==", reconstructed)
         self.assertNotIn("== Geography ==", reconstructed)
 
     def test_overwrite_wikitext_section_updates_leaf_content(self):
-        sections_copy = copy.deepcopy(self.sections)
+        clone = self.parsed.clone()
         new_text = "new geography content"
-        overwrite_wikitext_section(sections_copy, ["Geography", "__content__"], new_text)
-        geography_entry = next(item for item in sections_copy if item[0] == "Geography")
-        content_entry = next(item for item in geography_entry[1] if item[0] == "__content__")
-        self.assertEqual(content_entry[1], new_text)
+        clone.overwrite_section(["Geography", "__content__"], new_text)
+        updated_text = clone.get_section(["Geography", "__content__"])
+        self.assertEqual(updated_text, new_text)
 
     def test_overwrite_wikitext_section_raises_for_missing_path(self):
-        sections_copy = copy.deepcopy(self.sections)
+        clone = self.parsed.clone()
         with self.assertRaises(KeyError):
-            overwrite_wikitext_section(sections_copy, ["NotASection"], "text")
+            clone.overwrite_section(["NotASection"], "text")
 
     def test_overwrite_wikitext_section_requires_leaf_section(self):
-        sections_copy = copy.deepcopy(self.sections)
+        clone = self.parsed.clone()
         with self.assertRaises(ValueError):
-            overwrite_wikitext_section(sections_copy, ["Geography"], "text")
+            clone.overwrite_section(["Geography"], "text")
 
     def test_overwrite_wikitext_section_raises_when_path_too_deep(self):
-        sections_copy = copy.deepcopy(self.sections)
+        clone = self.parsed.clone()
         with self.assertRaises(ValueError):
-            overwrite_wikitext_section(
-                sections_copy,
-                ["Geography", "__content__", "Extra"],
-                "text",
-            )
+            clone.overwrite_section(["Geography", "__content__", "Extra"], "text")
 
     def test_get_wikitext_section_returns_expected_content(self):
-        text = get_wikitext_section(self.sections, ["Geography", "__content__"])
-        expected_entry = next(item for item in self.sections if item[0] == "Geography")
+        text = self.parsed.get_section(["Geography", "__content__"])
+        expected_entry = next(item for item in self.original_sections if item[0] == "Geography")
         expected_content = next(item for item in expected_entry[1] if item[0] == "__content__")[1]
         self.assertEqual(text, expected_content)
 
     def test_get_wikitext_section_raises_for_missing_path(self):
         with self.assertRaises(KeyError):
-            get_wikitext_section(self.sections, ["NotASection"])
+            self.parsed.get_section(["NotASection"])
 
     def test_get_wikitext_section_raises_for_subsections(self):
         with self.assertRaises(ValueError):
-            get_wikitext_section(self.sections, ["Geography"])
+            self.parsed.get_section(["Geography"])
 
 
 if __name__ == "__main__":
