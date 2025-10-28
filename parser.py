@@ -154,37 +154,54 @@ def overwrite_wikitext_section(parsed_sections, key_path, new_text):
 
     key_path is an iterable of headings leading to the target section.
     """
+    path_str, parent_sections, current, _ = _locate_section(parsed_sections, key_path)
+
+    if isinstance(current[1], list):
+        raise ValueError(f"Section path {path_str} refers to subsections, not content.")
+
+    index = parent_sections.index(current)
+    parent_sections[index] = (current[0], new_text)
+
+
+def get_wikitext_section(parsed_sections, key_path):
+    """
+    Retrieve the text content for a specific section identified by key_path.
+    """
+    path_str, _, current, _ = _locate_section(parsed_sections, key_path)
+
+    if isinstance(current[1], list):
+        raise ValueError(f"Section path {path_str} refers to subsections, not content.")
+
+    return current[1]
+
+
+def _locate_section(parsed_sections, key_path):
+    """
+    Locate a section and return metadata used by section utilities.
+    """
     path_tuple = tuple(key_path)
     if not path_tuple:
-        raise ValueError("key_path must identify a section to overwrite.")
+        raise ValueError("key_path must identify a section.")
 
-    path_for_msg = " > ".join(path_tuple)
+    path_str = " > ".join(path_tuple)
+    parent_sections = None
     current_sections = parsed_sections
-    ancestor = None
-    current = None
+    current_entry = None
 
     for heading in path_tuple:
         if current_sections is None:
-            raise ValueError(f"Section path {path_for_msg} extends beyond available headings.")
+            raise ValueError(f"Section path {path_str} extends beyond available headings.")
+
         for entry in current_sections:
             if entry[0] == heading:
-                ancestor = current_sections
-                current = entry
+                parent_sections = current_sections
+                current_entry = entry
                 break
         else:
-            raise KeyError(f"Section path {path_for_msg} not found.")
+            raise KeyError(f"Section path {path_str} not found.")
 
-        if isinstance(current[1], list):
-            current_sections = current[1]
-        else:
-            current_sections = None
+        current_sections = (
+            current_entry[1] if isinstance(current_entry[1], list) else None
+        )
 
-    if current is None:
-        raise KeyError(f"Section path {path_for_msg} not found.")
-
-    heading, content = current
-    if isinstance(content, list):
-        raise ValueError(f"Section path {path_for_msg} refers to subsections, not content.")
-
-    index = ancestor.index(current)
-    ancestor[index] = (heading, new_text)
+    return path_str, parent_sections, current_entry, current_sections

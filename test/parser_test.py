@@ -7,6 +7,7 @@ from parser import (
     get_article_outline,
     unparse_wikitext_sections,
     overwrite_wikitext_section,
+    get_wikitext_section,
 )
 
 COAL_COUNTY_EXPECTED_OUTLINE = '''Coal County, Oklahoma
@@ -75,6 +76,20 @@ class PrintArticleOutlineTests(unittest.TestCase):
                 ["Geography", "__content__", "Extra"],
                 "text",
             )
+
+    def test_get_wikitext_section_returns_expected_content(self):
+        text = get_wikitext_section(self.sections, ["Geography", "__content__"])
+        expected_entry = next(item for item in self.sections if item[0] == "Geography")
+        expected_content = next(item for item in expected_entry[1] if item[0] == "__content__")[1]
+        self.assertEqual(text, expected_content)
+
+    def test_get_wikitext_section_raises_for_missing_path(self):
+        with self.assertRaises(KeyError):
+            get_wikitext_section(self.sections, ["NotASection"])
+
+    def test_get_wikitext_section_raises_for_subsections(self):
+        with self.assertRaises(ValueError):
+            get_wikitext_section(self.sections, ["Geography"])
 
 
 if __name__ == "__main__":
