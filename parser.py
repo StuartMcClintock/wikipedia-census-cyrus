@@ -120,3 +120,88 @@ def get_article_outline(article_title, parsed_sections):
     if body:
         return f"{article_title}\n{body}"
     return article_title
+
+
+def unparse_wikitext_sections(sections):
+    """
+    Convert parse_wikitext_sections output back into wikitext.
+    """
+    parts = []
+
+    def render(items, depth):
+        for heading, content in items:
+            if heading == "__lead__" or heading == "__content__":
+                if content:
+                    parts.append(content)
+                continue
+
+            level = depth + 2
+            marker = "=" * level
+            parts.append(f"{marker}{heading}{marker}\n")
+
+            if isinstance(content, list):
+                render(content, depth + 1)
+            elif content:
+                parts.append(content)
+
+    render(sections, 0)
+    return "".join(parts)
+
+
+def overwrite_wikitext_section(parsed_sections, key_path, new_text):
+    """
+    Overwrite the content of a specific section in the parsed structure.
+
+    key_path is an iterable of headings leading to the target section.
+    """
+    path_str, parent_sections, current, _ = _locate_section(parsed_sections, key_path)
+
+    if isinstance(current[1], list):
+        raise ValueError(f"Section path {path_str} refers to subsections, not content.")
+
+    index = parent_sections.index(current)
+    parent_sections[index] = (current[0], new_text)
+
+
+def get_wikitext_section(parsed_sections, key_path):
+    """
+    Retrieve the text content for a specific section identified by key_path.
+    """
+    path_str, _, current, _ = _locate_section(parsed_sections, key_path)
+
+    if isinstance(current[1], list):
+        raise ValueError(f"Section path {path_str} refers to subsections, not content.")
+
+    return current[1]
+
+
+def _locate_section(parsed_sections, key_path):
+    """
+    Locate a section and return metadata used by section utilities.
+    """
+    path_tuple = tuple(key_path)
+    if not path_tuple:
+        raise ValueError("key_path must identify a section.")
+
+    path_str = " > ".join(path_tuple)
+    parent_sections = None
+    current_sections = parsed_sections
+    current_entry = None
+
+    for heading in path_tuple:
+        if current_sections is None:
+            raise ValueError(f"Section path {path_str} extends beyond available headings.")
+
+        for entry in current_sections:
+            if entry[0] == heading:
+                parent_sections = current_sections
+                current_entry = entry
+                break
+        else:
+            raise KeyError(f"Section path {path_str} not found.")
+
+        current_sections = (
+            current_entry[1] if isinstance(current_entry[1], list) else None
+        )
+
+    return path_str, parent_sections, current_entry, current_sections
