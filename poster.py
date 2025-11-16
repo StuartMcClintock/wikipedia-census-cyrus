@@ -78,8 +78,19 @@ class WikipediaClient:
         response = self._get(params)
         data = response.json()
         pages = data.get('query', {}).get('pages', [])
-        assert pages and 'revisions' in pages[0], 'revisions field is missing for: ' + title
-        return pages[0]['revisions'][0]['slots']['main']['content']
+        if not pages:
+            raise ValueError(f"Wikipedia API returned no page data for '{title}'.")
+
+        page = pages[0]
+        if 'missing' in page:
+            raise ValueError(f"Wikipedia article '{title}' does not exist.")
+        if 'invalidreason' in page:
+            raise ValueError(f"Invalid article title '{title}': {page['invalidreason']}.")
+        if 'revisions' not in page:
+            raise ValueError(
+                f"Wikipedia API response for '{title}' is missing revisions data: {page}."
+            )
+        return page['revisions'][0]['slots']['main']['content']
 
     def edit_article_wikitext(self, title, new_text, summary):
         token = self.get_csrf_token()
@@ -145,7 +156,7 @@ def main():
     client = WikipediaClient(WP_BOT_USER_AGENT)
     client.login(WP_BOT_USER_NAME, WP_BOT_PASSWORD)
 
-    article_title = 'Coolgate,_Oklahoma'
+    article_title = 'Coalgate,_Oklahoma'
     page_wikitext = client.fetch_article_wikitext(article_title)
     print(page_wikitext)
     # parsed = ParsedWikitext(wikitext=page_wikitext)
