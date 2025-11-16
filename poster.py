@@ -78,8 +78,19 @@ class WikipediaClient:
         response = self._get(params)
         data = response.json()
         pages = data.get('query', {}).get('pages', [])
-        assert pages and 'revisions' in pages[0], 'revisions field is missing for: ' + title
-        return pages[0]['revisions'][0]['slots']['main']['content']
+        if not pages:
+            raise ValueError(f"Wikipedia API returned no page data for '{title}'.")
+
+        page = pages[0]
+        if 'missing' in page:
+            raise ValueError(f"Wikipedia article '{title}' does not exist.")
+        if 'invalidreason' in page:
+            raise ValueError(f"Invalid article title '{title}': {page['invalidreason']}.")
+        if 'revisions' not in page:
+            raise ValueError(
+                f"Wikipedia API response for '{title}' is missing revisions data: {page}."
+            )
+        return page['revisions'][0]['slots']['main']['content']
 
     def edit_article_wikitext(self, title, new_text, summary):
         token = self.get_csrf_token()
@@ -147,19 +158,20 @@ def main():
 
     article_title = 'Coalgate,_Oklahoma'
     page_wikitext = client.fetch_article_wikitext(article_title)
-    parsed = ParsedWikitext.from_wikitext(page_wikitext)
-    print(parsed.outline(article_title))
-
-    old_section = parsed.get_section(['Demographics'])
-    new_line = 'As of the [[2020 United States census|2020 census]], the population of Coalgate was 1,667.\n\n'
-    parsed.overwrite_section(['Demographics'], new_line + old_section)
-
-    result = client.edit_article_with_size_check(
-        article_title,
-        parsed,
-        'Add 2020 census data'
-    )
-    pprint(result)
+    print(page_wikitext)
+    # parsed = ParsedWikitext(wikitext=page_wikitext)
+    # print(parsed.outline(article_title))
+    #
+    # old_section = parsed.get_section(['Demographics'])
+    # new_line = 'As of the [[2020 United States census|2020 census]], the population of Coalgate was 1,667.\n\n'
+    # parsed.overwrite_section(['Demographics'], new_line + old_section)
+    #
+    # result = client.edit_article_with_size_check(
+    #     article_title,
+    #     parsed,
+    #     'Add 2020 census data'
+    # )
+    # pprint(result)
 
 
 if __name__ == '__main__':

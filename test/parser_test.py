@@ -27,7 +27,7 @@ class PrintArticleOutlineTests(unittest.TestCase):
     def setUp(self):
         fixture_path = Path(__file__).with_name("Coal_County_test_data.txt")
         self.wikitext = fixture_path.read_text(encoding="utf-8")
-        self.parsed = ParsedWikitext.from_wikitext(self.wikitext)
+        self.parsed = ParsedWikitext(wikitext=self.wikitext)
         self.original_sections = copy.deepcopy(self.parsed.sections)
         self.original_length = len(self.wikitext)
 
@@ -43,7 +43,7 @@ class PrintArticleOutlineTests(unittest.TestCase):
 
     def test_unparse_round_trip_matches_original_structure(self):
         reconstructed = self.parsed.to_wikitext()
-        reparsed = ParsedWikitext.from_wikitext(reconstructed).sections
+        reparsed = ParsedWikitext(wikitext=reconstructed).sections
         self.assertEqual(reparsed, self.original_sections)
         self.assertIn("==History==", reconstructed)
         self.assertIn("==Geography==", reconstructed)
