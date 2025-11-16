@@ -10,100 +10,25 @@ class ParsedWikitext:
 
     __slots__ = ("_sections", "_original_length")
 
-    def __init__(self, sections, original_length=None):
+    def __init__(self, sections=None, original_length=None, wikitext=None):
+        """
+        Construct a ParsedWikitext either from a precomputed section list or a raw string.
+
+        wikitext takes precedence and triggers parsing when provided. Passing sections
+        allows for direct construction from already parsed structures (e.g., tests).
+        """
+        if wikitext is not None:
+            if sections is not None:
+                raise ValueError("Provide either sections or wikitext, not both.")
+            sections = _parse_wikitext(wikitext)
+            original_length = len(wikitext)
+
+        if sections is None:
+            sections = []
+
         # store a deep copy to decouple from external references
         self._sections = copy.deepcopy(sections)
         self._original_length = original_length if original_length is not None else 0
-
-    # @classmethod allows constructing instances without a pre-parsed section list.
-    @classmethod
-    def from_wikitext(cls, wikitext):
-        """
-        Parse wikitext into nested tuples keyed by headings while preserving order.
-
-        Each entry represents a section as (heading, content) where content is
-        either raw text or a nested list in the same format. Text preceding the
-        first heading is stored under the synthetic "__lead__" heading.
-        """
-        heading_pattern = re.compile(r"^(=+)\s*(.*?)\s*\1\s*$")
-        max_heading_level = 6
-
-        class Section:
-            __slots__ = ("title", "level", "content", "children")
-
-            def __init__(self, title, level):
-                self.title = title
-                self.level = level
-                self.content = ""
-                self.children = []
-
-        root = Section("__root__", 1)
-        stack = [root]
-        pending_lines = []
-
-        def flush_pending():
-            if not pending_lines:
-                return
-            block = "".join(pending_lines)
-            pending_lines.clear()
-            stack[-1].content += block
-
-        for line in wikitext.splitlines(keepends=True):
-            stripped = line.strip()
-            match = heading_pattern.match(stripped)
-            if match:
-                flush_pending()
-                marker, title = match.groups()
-                title = title.strip()
-                original_level = len(marker)
-                normalized_level = original_level
-
-                if normalized_level == 1:
-                    print(f'Encountered H1 heading "{title}"; treating as H2.')
-                    normalized_level = 2
-                if normalized_level > max_heading_level:
-                    print(f'Encountered heading "{title}" beyond H6; treating as H6.')
-                    normalized_level = max_heading_level
-
-                while stack and stack[-1].level >= normalized_level:
-                    stack.pop()
-
-                parent_section = stack[-1]
-                if normalized_level > parent_section.level + 1:
-                    adjusted_level = parent_section.level + 1
-                    print(
-                        f'Adjusted heading "{title}" from H{original_level} to H{adjusted_level} to maintain hierarchy.'
-                    )
-                    normalized_level = adjusted_level
-                    while stack and stack[-1].level >= normalized_level:
-                        stack.pop()
-                    parent_section = stack[-1]
-
-                parent_section = stack[-1]
-                new_section = Section(title, normalized_level)
-                parent_section.children.append(new_section)
-                stack.append(new_section)
-            else:
-                pending_lines.append(line)
-
-        flush_pending()
-
-        def section_to_nested(section):
-            if not section.children:
-                return (section.title, section.content)
-            nested = []
-            if section.content:
-                nested.append(("__content__", section.content))
-            for child in section.children:
-                nested.append(section_to_nested(child))
-            return (section.title, nested)
-
-        result = []
-        if root.content:
-            result.append(("__lead__", root.content))
-        for child in root.children:
-            result.append(section_to_nested(child))
-        return cls(result, original_length=len(wikitext))
 
     # @property exposes a read-only view of the parsed section structure.
     @property
@@ -224,3 +149,88 @@ class ParsedWikitext:
             )
 
         return path_str, parent_sections, current_entry
+
+
+def _parse_wikitext(wikitext):
+    """
+    Parse wikitext into nested tuples keyed by headings while preserving order.
+    """
+    heading_pattern = re.compile(r"^(=+)\s*(.*?)\s*\1\s*$")
+    max_heading_level = 6
+
+    class Section:
+        __slots__ = ("title", "level", "content", "children")
+
+        def __init__(self, title, level):
+            self.title = title
+            self.level = level
+            self.content = ""
+            self.children = []
+
+    root = Section("__root__", 1)
+    stack = [root]
+    pending_lines = []
+
+    def flush_pending():
+        if not pending_lines:
+            return
+        block = "".join(pending_lines)
+        pending_lines.clear()
+        stack[-1].content += block
+
+    for line in wikitext.splitlines(keepends=True):
+        stripped = line.strip()
+        match = heading_pattern.match(stripped)
+        if match:
+            flush_pending()
+            marker, title = match.groups()
+            title = title.strip()
+            original_level = len(marker)
+            normalized_level = original_level
+
+            if normalized_level == 1:
+                print(f'Encountered H1 heading "{title}"; treating as H2.')
+                normalized_level = 2
+            if normalized_level > max_heading_level:
+                print(f'Encountered heading "{title}" beyond H6; treating as H6.')
+                normalized_level = max_heading_level
+
+            while stack and stack[-1].level >= normalized_level:
+                stack.pop()
+
+            parent_section = stack[-1]
+            if normalized_level > parent_section.level + 1:
+                adjusted_level = parent_section.level + 1
+                print(
+                    f'Adjusted heading "{title}" from H{original_level} to H{adjusted_level} to maintain hierarchy.'
+                )
+                normalized_level = adjusted_level
+                while stack and stack[-1].level >= normalized_level:
+                    stack.pop()
+                parent_section = stack[-1]
+
+            parent_section = stack[-1]
+            new_section = Section(title, normalized_level)
+            parent_section.children.append(new_section)
+            stack.append(new_section)
+        else:
+            pending_lines.append(line)
+
+    flush_pending()
+
+    def section_to_nested(section):
+        if not section.children:
+            return (section.title, section.content)
+        nested = []
+        if section.content:
+            nested.append(("__content__", section.content))
+        for child in section.children:
+            nested.append(section_to_nested(child))
+        return (section.title, nested)
+
+    result = []
+    if root.content:
+        result.append(("__lead__", root.content))
+    for child in root.children:
+        result.append(section_to_nested(child))
+    return result

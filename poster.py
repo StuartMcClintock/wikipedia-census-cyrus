@@ -145,21 +145,22 @@ def main():
     client = WikipediaClient(WP_BOT_USER_AGENT)
     client.login(WP_BOT_USER_NAME, WP_BOT_PASSWORD)
 
-    article_title = 'Coalgate,_Oklahoma'
+    article_title = 'Coolgate,_Oklahoma'
     page_wikitext = client.fetch_article_wikitext(article_title)
-    parsed = ParsedWikitext.from_wikitext(page_wikitext)
-    print(parsed.outline(article_title))
-
-    old_section = parsed.get_section(['Demographics'])
-    new_line = 'As of the [[2020 United States census|2020 census]], the population of Coalgate was 1,667.\n\n'
-    parsed.overwrite_section(['Demographics'], new_line + old_section)
-
-    result = client.edit_article_with_size_check(
-        article_title,
-        parsed,
-        'Add 2020 census data'
-    )
-    pprint(result)
+    print(page_wikitext)
+    # parsed = ParsedWikitext(wikitext=page_wikitext)
+    # print(parsed.outline(article_title))
+    #
+    # old_section = parsed.get_section(['Demographics'])
+    # new_line = 'As of the [[2020 United States census|2020 census]], the population of Coalgate was 1,667.\n\n'
+    # parsed.overwrite_section(['Demographics'], new_line + old_section)
+    #
+    # result = client.edit_article_with_size_check(
+    #     article_title,
+    #     parsed,
+    #     'Add 2020 census data'
+    # )
+    # pprint(result)
 
 
 if __name__ == '__main__':

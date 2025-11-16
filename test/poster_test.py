@@ -162,7 +162,7 @@ class WikipediaClientTests(unittest.TestCase):
         mock_session = mock_session_cls.return_value
         mock_session.headers = {}
         client = WikipediaClient('TestAgent/1.0')
-        parsed = ParsedWikitext.from_wikitext("Original lead text.\n")
+        parsed = ParsedWikitext(wikitext="Original lead text.\n")
         parsed.overwrite_section(["__lead__"], "Updated lead text.\n")
         expected_delta = len(parsed.to_wikitext()) - parsed.original_length
 
@@ -184,7 +184,7 @@ class WikipediaClientTests(unittest.TestCase):
         mock_session = mock_session_cls.return_value
         mock_session.headers = {}
         client = WikipediaClient('TestAgent/1.0')
-        parsed = ParsedWikitext.from_wikitext("Original lead text.\n")
+        parsed = ParsedWikitext(wikitext="Original lead text.\n")
         parsed.overwrite_section(["__lead__"], "Updated lead text.\n")
 
         with patch.object(
@@ -202,7 +202,7 @@ class WikipediaClientTests(unittest.TestCase):
         mock_session = mock_session_cls.return_value
         mock_session.headers = {}
         client = WikipediaClient('TestAgent/1.0')
-        parsed = ParsedWikitext.from_wikitext("Original lead text.\n")
+        parsed = ParsedWikitext(wikitext="Original lead text.\n")
         parsed.overwrite_section(["__lead__"], "Updated lead text.\n")
 
         with patch.object(
