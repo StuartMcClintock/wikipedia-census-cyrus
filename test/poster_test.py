@@ -1,11 +1,24 @@
 import unittest
 from unittest.mock import Mock, patch
 
-from poster import WikipediaClient, WIKIPEDIA_ENDPOINT
+from poster import WikipediaClient, WIKIPEDIA_ENDPOINT, ensure_us_location_title
 from parser import ParsedWikitext
 
 
 class WikipediaClientTests(unittest.TestCase):
+    def test_ensure_us_location_title_accepts_us_titles(self):
+        ensure_us_location_title("Coalgate,_Oklahoma")
+        ensure_us_location_title("Springfield,_Illinois")
+        ensure_us_location_title("Washington,_District_of_Columbia")
+
+    def test_ensure_us_location_title_rejects_non_us_titles(self):
+        with self.assertRaises(ValueError):
+            ensure_us_location_title("London")
+        with self.assertRaises(ValueError):
+            ensure_us_location_title("Sydney,_Australia")
+        with self.assertRaises(ValueError):
+            ensure_us_location_title("SomePageWithoutSuffix")
+
     @patch('poster.requests.Session')
     def test_get_login_token_requests_token(self, mock_session_cls):
         mock_session = mock_session_cls.return_value
@@ -173,7 +186,7 @@ class WikipediaClientTests(unittest.TestCase):
         ) as mock_edit, patch.object(
             client, 'compare_revision_sizes', return_value=expected_delta
         ) as mock_compare:
-            response = client.edit_article_with_size_check("Sample", parsed, "summary")
+            response = client.edit_article_with_size_check("Sample,_Oklahoma", parsed, "summary")
 
         mock_edit.assert_called_once()
         mock_compare.assert_called_once_with(1, 2)
@@ -195,7 +208,7 @@ class WikipediaClientTests(unittest.TestCase):
             client, 'compare_revision_sizes', return_value=9999
         ):
             with self.assertRaises(ValueError):
-                client.edit_article_with_size_check("Sample", parsed, "summary", tolerance=10)
+                client.edit_article_with_size_check("Sample,_Oklahoma", parsed, "summary", tolerance=10)
 
     @patch('poster.requests.Session')
     def test_edit_article_with_size_check_skips_compare_when_ids_missing(self, mock_session_cls):
@@ -212,7 +225,7 @@ class WikipediaClientTests(unittest.TestCase):
         ) as mock_edit, patch.object(
             client, 'compare_revision_sizes'
         ) as mock_compare:
-            response = client.edit_article_with_size_check("Sample", parsed, "summary")
+            response = client.edit_article_with_size_check("Sample,_Oklahoma", parsed, "summary")
 
         mock_edit.assert_called_once()
         mock_compare.assert_not_called()
