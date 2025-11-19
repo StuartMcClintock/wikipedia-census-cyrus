@@ -1,0 +1,154 @@
+import unittest
+from copy import deepcopy
+from unittest.mock import patch
+
+from county.generate_county_paragraphs import generate_county_paragraphs
+
+
+class GenerateCountyParagraphsTests(unittest.TestCase):
+    def setUp(self):
+        self.full_data = {
+            "total_population": 12345,
+            "total_households": 4321,
+            "total_families": 3000,
+            "total_housing_units": 5000,
+            "race_white_percent": 60.0,
+            "race_black_percent": 20.0,
+            "race_aian_percent": 5.0,
+            "race_asian_percent": 10.0,
+            "race_some_other_percent": 3.0,
+            "race_two_or_more_percent": 2.0,
+            "hispanic_any_race_percent": 8.5,
+            "households_with_children_under_18_percent": 35.0,
+            "married_couple_households_percent": 50.0,
+            "female_householder_no_spouse_percent": 15.0,
+            "one_person_households_percent": 25.0,
+            "living_alone_65_plus_households_percent": 10.0,
+            "average_household_size": 2.5,
+            "average_family_size": 3.1,
+            "age_under_18_percent": 22.3,
+            "age_65_plus_percent": 15.4,
+            "age_median_years": 38.5,
+            "sex_ratio_males_per_100_females": 96.7,
+            "sex_ratio_18_plus_males_per_100_females": 94.2,
+            "owner_occupied_percent": 65.1,
+            "renter_occupied_percent": 34.9,
+            "vacant_units_percent": 8.2,
+            "homeowner_vacancy_rate_percent": 1.5,
+            "rental_vacancy_rate_percent": 5.4,
+            "group_quarters_percent": 2.1,
+            "institutional_group_quarters_percent": 1.0,
+            "noninstitutional_group_quarters_percent": 1.1,
+        }
+
+    def test_generate_paragraphs_with_full_data(self):
+        expected_paragraphs = [
+            (
+                "As of the 2020 United States census, the county had a population of 12,345. "
+                "Of the residents, 22.3% were under the age of 18 and 15.4% were 65 years of age or older; "
+                "the median age was 38.5 years. For every 100 females there were 96.7 males, "
+                "and for every 100 females age 18 and over there were 94.2 males."
+            ),
+            (
+                "The racial makeup of the county was 60.0% White, 20.0% Black or African American, "
+                "5.0% American Indian and Alaska Native, 10.0% Asian, 3.0% from some other race, "
+                "and 2.0% from two or more races. Hispanic or Latino residents of any race comprised "
+                "8.5% of the population."
+            ),
+            (
+                "There were 4,321 households in the county, of which 35.0% had children under the age of 18 living with them, "
+                "50.0% were married-couple households, and 15.0% had a female householder with no spouse or partner present. "
+                "About 25.0% of all households were made up of individuals and 10.0% had someone living alone who was 65 years of age or older. "
+                "The average household size was 2.5, and the average family size was 3.1; "
+                "there were 3,000 families residing in the county."
+            ),
+            (
+                "There were 5,000 housing units, of which 8.2% were vacant. "
+                "Among occupied housing units, 65.1% were owner-occupied and 34.9% were renter-occupied. "
+                "The homeowner vacancy rate was 1.5% and the rental vacancy rate was 5.4%."
+            ),
+        ]
+
+        with patch(
+            "county.generate_county_paragraphs.get_demographic_variables",
+            return_value=deepcopy(self.full_data),
+        ):
+            text = generate_county_paragraphs("40", "029")
+
+        expected_text = "==2020 census==\n\n" + "\n\n".join(expected_paragraphs)
+        self.assertEqual(text, expected_text)
+
+    def test_generate_paragraphs_with_missing_data(self):
+        minimal = {key: None for key in self.full_data}
+        minimal.update(
+            {
+                "total_population": 2000,
+                "age_65_plus_percent": 12.0,
+                "sex_ratio_18_plus_males_per_100_females": 90.0,
+                "group_quarters_percent": 3.2,
+                "total_households": 800,
+                "total_families": 500,
+                "total_housing_units": 1000,
+                "owner_occupied_percent": 70.0,
+                "rental_vacancy_rate_percent": 4.0,
+            }
+        )
+
+        with patch(
+            "county.generate_county_paragraphs.get_demographic_variables",
+            return_value=minimal,
+        ):
+            text = generate_county_paragraphs("20", "001")
+
+        expected_text = "==2020 census==\n\n" + "\n\n".join(
+            [
+                (
+                    "As of the 2020 United States census, the county had a population of 2,000. "
+                    "Of the residents, 12.0% were 65 years of age or older. "
+                    "For every 100 females age 18 and over there were 90.0 males."
+                ),
+                "There were 800 households in the county. There were 500 families residing in the county.",
+                (
+                    "There were 1,000 housing units. "
+                    "Among occupied housing units, 70.0% were owner-occupied. "
+                    "The rental vacancy rate was 4.0%."
+                ),
+            ]
+        )
+        self.assertEqual(text, expected_text)
+        self.assertNotIn("None", text)
+
+    def test_zero_percent_values_render_as_none(self):
+        zero_data = deepcopy(self.full_data)
+        zero_data.update(
+            {
+                "group_quarters_percent": 5.5,
+                "institutional_group_quarters_percent": 2.0,
+                "noninstitutional_group_quarters_percent": 0.0,
+                "vacant_units_percent": 0.0,
+                "owner_occupied_percent": 0.0,
+                "renter_occupied_percent": 100.0,
+                "homeowner_vacancy_rate_percent": 0.0,
+                "rental_vacancy_rate_percent": 0.0,
+            }
+        )
+
+        with patch(
+            "county.generate_county_paragraphs.get_demographic_variables",
+            return_value=zero_data,
+        ):
+            text = generate_county_paragraphs("12", "005")
+
+        self.assertIn("of which none were vacant", text)
+        self.assertIn(
+            "Among occupied housing units, none were owner-occupied and 100.0% were renter-occupied.",
+            text,
+        )
+        self.assertIn(
+            "The homeowner vacancy rate was none and the rental vacancy rate was none.",
+            text,
+        )
+
+
+if __name__ == "__main__":
+    unittest.main()

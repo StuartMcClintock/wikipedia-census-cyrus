@@ -4,6 +4,30 @@ from credentials import *  # WP_BOT_USER_NAME, WP_BOT_PASSWORD, WP_BOT_USER_AGEN
 from parser import ParsedWikitext
 
 WIKIPEDIA_ENDPOINT = "https://en.wikipedia.org/w/api.php"
+_US_LOCATION_SUFFIXES = {
+    "alabama", "alaska", "arizona", "arkansas", "california", "colorado", "connecticut",
+    "delaware", "florida", "georgia", "hawaii", "idaho", "illinois", "indiana", "iowa",
+    "kansas", "kentucky", "louisiana", "maine", "maryland", "massachusetts", "michigan",
+    "minnesota", "mississippi", "missouri", "montana", "nebraska", "nevada", "new hampshire",
+    "new jersey", "new mexico", "new york", "north carolina", "north dakota", "ohio",
+    "oklahoma", "oregon", "pennsylvania", "rhode island", "south carolina", "south dakota",
+    "tennessee", "texas", "utah", "vermont", "virginia", "washington", "west virginia",
+    "wisconsin", "wyoming", "district of columbia"
+}
+
+
+def ensure_us_location_title(title):
+    """
+    Raise a ValueError unless the article title ends with a US state/region name.
+
+    All logic and data needed for this heuristic lives inside this function so it
+    can be removed or replaced without touching the WikipediaClient.
+    """
+    last_segment = title.replace('_', ' ').split(',')[-1].strip().lower()
+    if last_segment not in _US_LOCATION_SUFFIXES:
+        raise ValueError(
+            f"Refusing to edit '{title}' because it does not look like a US location title."
+        )
 
 
 class WikipediaClient:
@@ -137,6 +161,7 @@ class WikipediaClient:
         """
         Edit a page and verify the observed size delta roughly matches expectations.
         """
+        ensure_us_location_title(title)
         new_text = new_text if new_text is not None else parsed_wikitext.to_wikitext()
         expected_delta = len(new_text) - parsed_wikitext.original_length
         response = self.edit_article_wikitext(title, new_text, summary)
