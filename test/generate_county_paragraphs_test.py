@@ -1,3 +1,4 @@
+import re
 import unittest
 from copy import deepcopy
 from unittest.mock import patch
@@ -76,7 +77,10 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
             text = generate_county_paragraphs("40", "029")
 
         expected_text = "==2020 census==\n\n" + "\n\n".join(expected_paragraphs)
-        self.assertEqual(text, expected_text)
+        self.assertEqual(self._strip_refs(text), expected_text)
+        self.assertIn('<ref name="Census2020DP">', text)
+        self.assertIn('<ref name="Census2020DP"/>', text)
+        self.assertIn('<ref name="Census2020PL">', text)
 
     def test_generate_paragraphs_with_missing_data(self):
         minimal = {key: None for key in self.full_data}
@@ -115,7 +119,7 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
                 ),
             ]
         )
-        self.assertEqual(text, expected_text)
+        self.assertEqual(self._strip_refs(text), expected_text)
         self.assertNotIn("None", text)
 
     def test_zero_percent_values_render_as_none(self):
@@ -148,6 +152,10 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
             "The homeowner vacancy rate was none and the rental vacancy rate was none.",
             text,
         )
+
+    @staticmethod
+    def _strip_refs(text: str) -> str:
+        return re.sub(r"<ref[^>]*>.*?</ref>|<ref[^>]*/>", "", text, flags=re.DOTALL)
 
 
 if __name__ == "__main__":

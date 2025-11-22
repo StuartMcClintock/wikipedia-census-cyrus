@@ -20,15 +20,43 @@ TEMPLATE = '''As of the 2020 United States census, the county had a population o
   [renter_occupied_percent]% were renter-occupied. The homeowner vacancy rate was [homeowner_vacancy_rate_percent]%, and the rental vacancy rate was
   [rental_vacancy_rate_percent]%.'''
 
+import datetime
 import sys
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Set, Tuple
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.append(str(ROOT))
 
+from census_api.constants import (
+    CITATION_SOURCES,
+    DP_ENDPOINT,
+    PL_ENDPOINT,
+)
 from census_api.fetch_county_data import get_demographic_variables
+
+ACCESS_DATE = datetime.date.today().isoformat()
+CITATION_DETAILS = {
+    "dp": {
+        "name": "Census2020DP",
+        "template": (
+            "{{cite web|title=2020 Decennial Census Demographic Profile (DP1)|"
+            f"url={DP_ENDPOINT}|website=United States Census Bureau|"
+            "publisher=United States Census Bureau|language=en|url-status=live|access-date="
+            f"{ACCESS_DATE}}}"
+        ),
+    },
+    "pl": {
+        "name": "Census2020PL",
+        "template": (
+            "{{cite web|title=2020 Decennial Census Redistricting Data (Public Law 94-171)|"
+            f"url={PL_ENDPOINT}|website=United States Census Bureau|"
+            "publisher=United States Census Bureau|language=en|url-status=live|access-date="
+            f"{ACCESS_DATE}}}"
+        ),
+    },
+}
 
 
 def _format_int(value: Optional[int]) -> Optional[str]:
@@ -54,13 +82,33 @@ def _join_phrases(parts: List[str]) -> str:
     return ", ".join(parts[:-1]) + f", and {parts[-1]}"
 
 
-def _build_paragraph_one(data: Dict[str, object]) -> Optional[str]:
-    sentences: List[str] = []
+def _build_citation(keys: Set[str], seen_sources: Set[str]) -> str:
+    sources: Set[str] = set()
+    for key in keys:
+        sources.update(CITATION_SOURCES.get(key, []))
+    if not sources:
+        return ""
+    parts: List[str] = []
+    for source in sorted(sources):
+        detail = CITATION_DETAILS[source]
+        if source in seen_sources:
+            parts.append(f'<ref name="{detail["name"]}"/>')
+        else:
+            seen_sources.add(source)
+            parts.append(f'<ref name="{detail["name"]}">{detail["template"]}</ref>')
+    return "".join(parts)
+
+
+def _build_paragraph_one(data: Dict[str, object]) -> List[Tuple[str, Set[str]]]:
+    sentences: List[Tuple[str, Set[str]]] = []
 
     total_population = _format_int(data.get("total_population"))
     if total_population:
         sentences.append(
-            f"As of the 2020 United States census, the county had a population of {total_population}."
+            (
+                f"As of the 2020 United States census, the county had a population of {total_population}.",
+                {"total_population"},
+            )
         )
 
     under_18 = _format_percent(data.get("age_under_18_percent"))
@@ -71,35 +119,52 @@ def _build_paragraph_one(data: Dict[str, object]) -> Optional[str]:
         age_clause_parts.append(f"{under_18} were under the age of 18")
     if over_65:
         age_clause_parts.append(f"{over_65} were 65 years of age or older")
+    age_keys: Set[str] = set()
     if age_clause_parts:
         sentence = "Of the residents, " + " and ".join(age_clause_parts)
         if median_age is not None:
             sentence += f"; the median age was {median_age:.1f} years."
+            age_keys.add("age_median_years")
         else:
             sentence += "."
-        sentences.append(sentence)
+        if under_18:
+            age_keys.add("age_under_18_percent")
+        if over_65:
+            age_keys.add("age_65_plus_percent")
+        sentences.append((sentence, age_keys))
     elif median_age is not None:
-        sentences.append(f"The median age was {median_age:.1f} years.")
+        sentences.append((f"The median age was {median_age:.1f} years.", {"age_median_years"}))
 
     sex_ratio = data.get("sex_ratio_males_per_100_females")
     sex_ratio_18 = data.get("sex_ratio_18_plus_males_per_100_females")
     if sex_ratio is not None and sex_ratio_18 is not None:
         sentences.append(
-            f"For every 100 females there were {sex_ratio:.1f} males, "
-            f"and for every 100 females age 18 and over there were {sex_ratio_18:.1f} males."
+            (
+                f"For every 100 females there were {sex_ratio:.1f} males, "
+                f"and for every 100 females age 18 and over there were {sex_ratio_18:.1f} males.",
+                {"sex_ratio_males_per_100_females", "sex_ratio_18_plus_males_per_100_females"},
+            )
         )
     elif sex_ratio is not None:
-        sentences.append(f"For every 100 females there were {sex_ratio:.1f} males.")
+        sentences.append(
+            (
+                f"For every 100 females there were {sex_ratio:.1f} males.",
+                {"sex_ratio_males_per_100_females"},
+            )
+        )
     elif sex_ratio_18 is not None:
         sentences.append(
-            f"For every 100 females age 18 and over there were {sex_ratio_18:.1f} males."
+            (
+                f"For every 100 females age 18 and over there were {sex_ratio_18:.1f} males.",
+                {"sex_ratio_18_plus_males_per_100_females"},
+            )
         )
 
-    return " ".join(sentences) if sentences else None
+    return sentences
 
 
-def _build_paragraph_two(data: Dict[str, object]) -> Optional[str]:
-    sentences: List[str] = []
+def _build_paragraph_two(data: Dict[str, object]) -> List[Tuple[str, Set[str]]]:
+    sentences: List[Tuple[str, Set[str]]] = []
 
     race_items = []
     race_map = [
@@ -115,54 +180,78 @@ def _build_paragraph_two(data: Dict[str, object]) -> Optional[str]:
         if percent:
             race_items.append(f"{percent} {label}")
     if race_items:
+        keys = {
+            "race_white_percent",
+            "race_black_percent",
+            "race_aian_percent",
+            "race_asian_percent",
+            "race_some_other_percent",
+            "race_two_or_more_percent",
+        }
+        keys = {k for k in keys if data.get(k) is not None}
         sentences.append(
-            "The racial makeup of the county was " + _join_phrases(race_items) + "."
+            (
+                "The racial makeup of the county was " + _join_phrases(race_items) + ".",
+                keys,
+            )
         )
 
     hispanic = _format_percent(data.get("hispanic_any_race_percent"))
     if hispanic:
         sentences.append(
-            f"Hispanic or Latino residents of any race comprised {hispanic} of the population."
+            (
+                f"Hispanic or Latino residents of any race comprised {hispanic} of the population.",
+                {"hispanic_any_race_percent"},
+            )
         )
 
-    return " ".join(sentences) if sentences else None
+    return sentences
 
 
-def _build_paragraph_three(data: Dict[str, object]) -> Optional[str]:
-    sentences = []
+def _build_paragraph_three(data: Dict[str, object]) -> List[Tuple[str, Set[str]]]:
+    sentences: List[Tuple[str, Set[str]]] = []
 
     total_households_val = _format_int(data.get("total_households"))
     if total_households_val:
         clause_parts = []
+        keys: Set[str] = {"total_households"}
         children_pct = _format_percent(data.get("households_with_children_under_18_percent"))
         married_pct = _format_percent(data.get("married_couple_households_percent"))
         female_pct = _format_percent(data.get("female_householder_no_spouse_percent"))
         if children_pct:
             clause_parts.append(f"{children_pct} had children under the age of 18 living with them")
+            keys.add("households_with_children_under_18_percent")
         if married_pct:
             clause_parts.append(f"{married_pct} were married-couple households")
+            keys.add("married_couple_households_percent")
         if female_pct:
             clause_parts.append(
                 f"{female_pct} had a female householder with no spouse or partner present"
             )
+            keys.add("female_householder_no_spouse_percent")
         clause_text = (
             ", of which " + _join_phrases(clause_parts)
             if clause_parts
             else ""
         )
-        sentences.append(f"There were {total_households_val} households in the county{clause_text}.")
+        sentences.append(
+            (f"There were {total_households_val} households in the county{clause_text}.", keys)
+        )
 
     one_person = _format_percent(data.get("one_person_households_percent"))
     living_alone_65 = _format_percent(data.get("living_alone_65_plus_households_percent"))
     if one_person or living_alone_65:
         clause = []
+        keys = set()
         if one_person:
             clause.append(f"{one_person} of all households were made up of individuals")
+            keys.add("one_person_households_percent")
         if living_alone_65:
             clause.append(
                 f"{living_alone_65} had someone living alone who was 65 years of age or older"
             )
-        sentences.append("About " + _join_phrases(clause) + ".")
+            keys.add("living_alone_65_plus_households_percent")
+        sentences.append(("About " + _join_phrases(clause) + ".", keys))
 
     avg_household = data.get("average_household_size")
     avg_family = data.get("average_family_size")
@@ -185,17 +274,28 @@ def _build_paragraph_three(data: Dict[str, object]) -> Optional[str]:
     )
 
     if size_sentence and families_sentence:
-        sentences.append(size_sentence + "; " + families_sentence + ".")
+        key_set: Set[str] = set()
+        if avg_household is not None:
+            key_set.add("average_household_size")
+        if avg_family is not None:
+            key_set.add("average_family_size")
+        key_set.add("total_families")
+        sentences.append((size_sentence + "; " + families_sentence + ".", key_set))
     elif size_sentence:
-        sentences.append(size_sentence + ".")
+        key_set = set()
+        if avg_household is not None:
+            key_set.add("average_household_size")
+        if avg_family is not None:
+            key_set.add("average_family_size")
+        sentences.append((size_sentence + ".", key_set))
     elif families_sentence:
-        sentences.append(families_sentence.capitalize() + ".")
+        sentences.append((families_sentence.capitalize() + ".", {"total_families"}))
 
-    return " ".join(sentences) if sentences else None
+    return sentences
 
 
-def _build_paragraph_four(data: Dict[str, object]) -> Optional[str]:
-    sentences: List[str] = []
+def _build_paragraph_four(data: Dict[str, object]) -> List[Tuple[str, Set[str]]]:
+    sentences: List[Tuple[str, Set[str]]] = []
 
     total_housing_units = _format_int(data.get("total_housing_units"))
     vacant_pct = _format_percent(data.get("vacant_units_percent"))
@@ -203,32 +303,38 @@ def _build_paragraph_four(data: Dict[str, object]) -> Optional[str]:
         clause = ""
         if vacant_pct:
             clause = f", of which {vacant_pct} were vacant"
-        sentences.append(f"There were {total_housing_units} housing units{clause}.")
+        keys = {"total_housing_units"}
+        if vacant_pct:
+            keys.add("vacant_units_percent")
+        sentences.append((f"There were {total_housing_units} housing units{clause}.", keys))
 
     owner_pct = _format_percent(data.get("owner_occupied_percent"))
     renter_pct = _format_percent(data.get("renter_occupied_percent"))
     if owner_pct or renter_pct:
         parts = []
+        keys = set()
         if owner_pct:
             parts.append(f"{owner_pct} were owner-occupied")
+            keys.add("owner_occupied_percent")
         if renter_pct:
             parts.append(f"{renter_pct} were renter-occupied")
-        sentences.append(
-            "Among occupied housing units, " + _join_phrases(parts) + "."
-        )
+            keys.add("renter_occupied_percent")
+        sentences.append(("Among occupied housing units, " + _join_phrases(parts) + ".", keys))
 
     homeowner_vac = _format_percent(data.get("homeowner_vacancy_rate_percent"))
     rental_vac = _format_percent(data.get("rental_vacancy_rate_percent"))
     vac_parts = []
     if homeowner_vac:
         vac_parts.append(f"The homeowner vacancy rate was {homeowner_vac}")
+        keys.add("homeowner_vacancy_rate_percent")
     if rental_vac:
         prefix = "the" if homeowner_vac else "The"
         vac_parts.append(f"{prefix} rental vacancy rate was {rental_vac}")
+        keys.add("rental_vacancy_rate_percent")
     if vac_parts:
-        sentences.append(" and ".join(vac_parts) + ".")
+        sentences.append((" and ".join(vac_parts) + ".", keys))
 
-    return " ".join(sentences) if sentences else None
+    return sentences
 
 
 def generate_county_paragraphs(state_fips: str, county_fips: str) -> str:
@@ -236,13 +342,21 @@ def generate_county_paragraphs(state_fips: str, county_fips: str) -> str:
     Fetch census variables for the given county and return formatted paragraphs.
     """
     data = get_demographic_variables(state_fips, county_fips)
-    paragraphs = [
+    paragraph_builders = [
         _build_paragraph_one(data),
         _build_paragraph_two(data),
         _build_paragraph_three(data),
         _build_paragraph_four(data),
     ]
-    paragraphs = [p for p in paragraphs if p]
+    seen_sources: Set[str] = set()
+    paragraphs: List[str] = []
+    for builder in paragraph_builders:
+        rendered_sentences: List[str] = []
+        for sentence, keys in builder:
+            citation = _build_citation(keys, seen_sources)
+            rendered_sentences.append(sentence + citation)
+        if rendered_sentences:
+            paragraphs.append(" ".join(rendered_sentences))
     body = "\n\n".join(paragraphs)
     if body:
         return "==2020 census==\n\n" + body
