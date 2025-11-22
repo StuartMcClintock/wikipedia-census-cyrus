@@ -42,19 +42,21 @@ CITATION_DETAILS = {
         "name": "Census2020DP",
         "template": (
             "{{cite web|title=2020 Decennial Census Demographic Profile (DP1)|"
-            f"url={DP_ENDPOINT}|website=United States Census Bureau|"
-            "publisher=United States Census Bureau|language=en|url-status=live|access-date="
-            f"{ACCESS_DATE}}}"
+            "url={url}|website=United States Census Bureau|"
+            "publisher=United States Census Bureau|year=2021|access-date="
+            f"{ACCESS_DATE}|df=mdy}}"
         ),
+        "default_url": DP_ENDPOINT,
     },
     "pl": {
         "name": "Census2020PL",
         "template": (
             "{{cite web|title=2020 Decennial Census Redistricting Data (Public Law 94-171)|"
-            f"url={PL_ENDPOINT}|website=United States Census Bureau|"
-            "publisher=United States Census Bureau|language=en|url-status=live|access-date="
-            f"{ACCESS_DATE}}}"
+            "url={url}|website=United States Census Bureau|"
+            "publisher=United States Census Bureau|year=2021|access-date="
+            f"{ACCESS_DATE}|df=mdy}}"
         ),
+        "default_url": PL_ENDPOINT,
     },
 }
 
@@ -82,7 +84,9 @@ def _join_phrases(parts: List[str]) -> str:
     return ", ".join(parts[:-1]) + f", and {parts[-1]}"
 
 
-def _build_citation(keys: Set[str], seen_sources: Set[str]) -> str:
+def _build_citation(
+    keys: Set[str], seen_sources: Set[str], source_urls: Dict[str, Optional[str]]
+) -> str:
     sources: Set[str] = set()
     for key in keys:
         sources.update(CITATION_SOURCES.get(key, []))
@@ -91,11 +95,13 @@ def _build_citation(keys: Set[str], seen_sources: Set[str]) -> str:
     parts: List[str] = []
     for source in sorted(sources):
         detail = CITATION_DETAILS[source]
+        url = source_urls.get(source) or detail["default_url"]
+        template = detail["template"].replace("{url}", url)
         if source in seen_sources:
             parts.append(f'<ref name="{detail["name"]}"/>')
         else:
             seen_sources.add(source)
-            parts.append(f'<ref name="{detail["name"]}">{detail["template"]}</ref>')
+            parts.append(f'<ref name="{detail["name"]}">{template}</ref>')
     return "".join(parts)
 
 
@@ -342,6 +348,10 @@ def generate_county_paragraphs(state_fips: str, county_fips: str) -> str:
     Fetch census variables for the given county and return formatted paragraphs.
     """
     data = get_demographic_variables(state_fips, county_fips)
+    source_urls = {
+        "dp": data.get("_dp_source_url"),
+        "pl": data.get("_pl_source_url"),
+    }
     paragraph_builders = [
         _build_paragraph_one(data),
         _build_paragraph_two(data),
@@ -351,12 +361,16 @@ def generate_county_paragraphs(state_fips: str, county_fips: str) -> str:
     seen_sources: Set[str] = set()
     paragraphs: List[str] = []
     for builder in paragraph_builders:
-        rendered_sentences: List[str] = []
+        if not builder:
+            continue
+        sentences_only: List[str] = []
+        paragraph_keys: Set[str] = set()
         for sentence, keys in builder:
-            citation = _build_citation(keys, seen_sources)
-            rendered_sentences.append(sentence + citation)
-        if rendered_sentences:
-            paragraphs.append(" ".join(rendered_sentences))
+            sentences_only.append(sentence)
+            paragraph_keys.update(keys)
+        paragraph_text = " ".join(sentences_only)
+        citation = _build_citation(paragraph_keys, seen_sources, source_urls)
+        paragraphs.append(paragraph_text + citation)
     body = "\n\n".join(paragraphs)
     if body:
         return "==2020 census==\n\n" + body

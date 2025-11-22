@@ -19,35 +19,48 @@ DP_FIELDS = (
 )
 
 CITATION_SOURCES = {
+    # Age
     "age_65_plus_percent": ["dp"],
     "age_median_years": ["dp"],
     "age_under_18_percent": ["dp"],
+
+    # Household / family structure
     "average_family_size": ["dp"],
     "average_household_size": ["dp"],
     "female_householder_no_spouse_percent": ["dp"],
-    "group_quarters_percent": ["dp", "pl"],
-    "hispanic_any_race_percent": ["dp", "pl"],
-    "homeowner_vacancy_rate_percent": ["dp"],
     "households_with_children_under_18_percent": ["dp"],
-    "institutional_group_quarters_percent": ["dp", "pl"],
     "living_alone_65_plus_households_percent": ["dp"],
     "married_couple_households_percent": ["dp"],
-    "noninstitutional_group_quarters_percent": ["dp", "pl"],
     "one_person_households_percent": ["dp"],
-    "owner_occupied_percent": ["dp"],
-    "race_aian_percent": ["dp", "pl"],
-    "race_asian_percent": ["dp", "pl"],
-    "race_black_percent": ["dp", "pl"],
-    "race_some_other_percent": ["dp", "pl"],
-    "race_two_or_more_percent": ["dp", "pl"],
-    "race_white_percent": ["dp", "pl"],
+
+    # Group quarters
+    "group_quarters_percent": ["dp"],
+    "institutional_group_quarters_percent": ["dp"],
+    "noninstitutional_group_quarters_percent": ["dp"],
+
+    # Tenure & vacancy
+    "homeowner_vacancy_rate_percent": ["dp"],
     "rental_vacancy_rate_percent": ["dp"],
+    "owner_occupied_percent": ["dp"],
     "renter_occupied_percent": ["dp"],
-    "sex_ratio_18_plus_males_per_100_females": ["dp"],
+    "vacant_units_percent": ["dp"],  # PL only has raw counts; percent comes from DP1
+
+    # Race & Hispanic (canonical from PL)
+    "race_white_percent": ["pl"],
+    "race_black_percent": ["pl"],
+    "race_aian_percent": ["pl"],
+    "race_asian_percent": ["pl"],
+    "race_some_other_percent": ["pl"],
+    "race_two_or_more_percent": ["pl"],
+    "hispanic_any_race_percent": ["pl"],
+
+    # Sex ratios (derived from DP1 counts)
     "sex_ratio_males_per_100_females": ["dp"],
+    "sex_ratio_18_plus_males_per_100_females": ["dp"],
+
+    # Totals (both datasets have these; prefer PL in your logic if you want)
     "total_families": ["dp"],
     "total_households": ["dp", "pl"],
     "total_housing_units": ["dp", "pl"],
-    "total_population": ["dp", "pl"],
-    "vacant_units_percent": ["dp", "pl"],
+    "total_population": ["pl", "dp"],
 }

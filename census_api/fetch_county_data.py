@@ -8,14 +8,14 @@ Reference curl commands:
 
 import json
 import sys
-from typing import Dict, List
+from typing import Dict, List, Tuple
 
 import requests
 
 from census_api.constants import DP_ENDPOINT, DP_FIELDS, PL_ENDPOINT, PL_FIELDS
 
 
-def _fetch_table(endpoint: str, params: Dict[str, str]) -> Dict[str, str]:
+def _fetch_table(endpoint: str, params: Dict[str, str]) -> Tuple[Dict[str, str], str]:
     """Request a Census API table and return a dict mapping headers to values."""
     response = requests.get(endpoint, params=params, timeout=30)
     print(f"Requested: {response.url}")
@@ -24,7 +24,7 @@ def _fetch_table(endpoint: str, params: Dict[str, str]) -> Dict[str, str]:
     if len(data) < 2:
         raise ValueError(f"Census API returned no data rows for {params}")
     header, row = data[0], data[1]
-    return dict(zip(header, row))
+    return dict(zip(header, row)), response.url
 
 
 def _pct(part: int, whole: int) -> float:
@@ -69,9 +69,9 @@ def get_demographic_variables(state_fips: str, county_fips: str) -> Dict[str, ob
     }
 
     print("Fetching PL data...")
-    pl = _fetch_table(PL_ENDPOINT, pl_params)
+    pl, pl_url = _fetch_table(PL_ENDPOINT, pl_params)
     print("Fetching DP data...")
-    dp = _fetch_table(DP_ENDPOINT, dp_params)
+    dp, dp_url = _fetch_table(DP_ENDPOINT, dp_params)
 
     total_population = int(pl["P1_001N"])
     total_housing_units = int(pl["H1_001N"])
@@ -152,6 +152,9 @@ def get_demographic_variables(state_fips: str, county_fips: str) -> Dict[str, ob
         "institutional_group_quarters_percent": institutional_group_quarters_percent,
         "noninstitutional_group_quarters_percent": noninstitutional_group_quarters_percent,
     }
+
+    result["_pl_source_url"] = pl_url
+    result["_dp_source_url"] = dp_url
 
     return result
 
