@@ -1,9 +1,25 @@
+import argparse
+import json
+from pathlib import Path
+from typing import Tuple
 import requests
 from pprint import pprint
 from credentials import *  # WP_BOT_USER_NAME, WP_BOT_PASSWORD, WP_BOT_USER_AGENT, USER_SANDBOX_ARTICLE
-from parser import ParsedWikitext
+from county.generate_county_paragraphs import generate_county_paragraphs
+from llm_backends.openai_codex.openai_codex import (
+    check_if_update_needed,
+    update_wp_page,
+)
 
+BASE_DIR = Path(__file__).resolve().parent
 WIKIPEDIA_ENDPOINT = "https://en.wikipedia.org/w/api.php"
+FIPS_MAPPING_DIR = BASE_DIR / "census_api" / "fips_mappings"
+STATE_TO_FIPS_PATH = FIPS_MAPPING_DIR / "state_to_fips.json"
+COUNTY_FIPS_DIR = FIPS_MAPPING_DIR / "county_to_fips"
+STATE_FIPS_TO_POSTAL = {
+    code.split(":")[1]: postal
+    for postal, code in json.loads(STATE_TO_FIPS_PATH.read_text()).items()
+}
 _US_LOCATION_SUFFIXES = {
     "alabama", "alaska", "arizona", "arkansas", "california", "colorado", "connecticut",
     "delaware", "florida", "georgia", "hawaii", "idaho", "illinois", "indiana", "iowa",
@@ -14,6 +30,47 @@ _US_LOCATION_SUFFIXES = {
     "tennessee", "texas", "utah", "vermont", "virginia", "washington", "west virginia",
     "wisconsin", "wyoming", "district of columbia"
 }
+
+
+def parse_arguments():
+    parser = argparse.ArgumentParser(
+        description="Update a county article with 2020 census demographics."
+    )
+    parser.add_argument(
+        "--article",
+        required=True,
+        help="Exact Wikipedia article title, e.g., 'Coal_County,_Oklahoma'.",
+    )
+    parser.add_argument(
+        "--state-fips",
+        required=True,
+        help="Two-digit state FIPS code (e.g., 40 for Oklahoma).",
+    )
+    parser.add_argument(
+        "--county-fips",
+        required=True,
+        help="Three-digit county FIPS code (e.g., 029 for Coal County).",
+    )
+    return parser.parse_args()
+
+
+def validate_fips_inputs(state_fips: str, county_fips: str) -> Tuple[str, str]:
+    state_code = state_fips.zfill(2)
+    county_code = county_fips.zfill(3)
+    postal = STATE_FIPS_TO_POSTAL.get(state_code)
+    if not postal:
+        raise ValueError(f"Unknown state FIPS code '{state_fips}'.")
+    county_file = COUNTY_FIPS_DIR / f"{postal}.json"
+    if not county_file.exists():
+        raise ValueError(f"No county mapping found for state '{postal}'.")
+
+    county_map = json.loads(county_file.read_text())
+    expected = f"county:{state_code}{county_code}"
+    if expected not in county_map.values():
+        raise ValueError(
+            f"County FIPS '{county_fips}' does not belong to state '{postal}'."
+        )
+    return state_code, county_code
 
 
 def ensure_us_location_title(title):
@@ -178,25 +235,37 @@ class WikipediaClient:
 
 
 def main():
+    args = parse_arguments()
+    try:
+        state_fips, county_fips = validate_fips_inputs(
+            args.state_fips,
+            args.county_fips,
+        )
+    except ValueError as exc:
+        print(f"FIPS validation failed: {exc}")
+        return
+
+    article_title = args.article
+    ensure_us_location_title(article_title)
+
     client = WikipediaClient(WP_BOT_USER_AGENT)
     client.login(WP_BOT_USER_NAME, WP_BOT_PASSWORD)
 
-    article_title = 'Coalgate,_Oklahoma'
     page_wikitext = client.fetch_article_wikitext(article_title)
-    print(page_wikitext)
-    # parsed = ParsedWikitext(wikitext=page_wikitext)
-    # print(parsed.outline(article_title))
-    #
-    # old_section = parsed.get_section(['Demographics'])
-    # new_line = 'As of the [[2020 United States census|2020 census]], the population of Coalgate was 1,667.\n\n'
-    # parsed.overwrite_section(['Demographics'], new_line + old_section)
-    #
-    # result = client.edit_article_with_size_check(
-    #     article_title,
-    #     parsed,
-    #     'Add 2020 census data'
-    # )
-    # pprint(result)
+    proposed_text = generate_county_paragraphs(state_fips, county_fips)
+    print(proposed_text)
+
+    if not check_if_update_needed(page_wikitext, proposed_text):
+        print("No updates are necessary; skipping edit.")
+        return
+
+    updated_article = update_wp_page(page_wikitext, proposed_text)
+    result = client.edit_article_wikitext(
+        article_title,
+        updated_article,
+        "Add 2020 census data (Codex-assisted update)",
+    )
+    pprint(result)
 
 
 if __name__ == '__main__':
