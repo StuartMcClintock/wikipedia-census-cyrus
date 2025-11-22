@@ -213,4 +213,4 @@ marimo/_lsp/
 __marimo__/
 llm_backends/openai_codex/full_current_wp_page.txt
 llm_backends/openai_codex/new_text.txt
-codex_out/out.txt
+llm_backends/openai_codex/codex_out/out.txt

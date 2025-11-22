@@ -3,10 +3,7 @@ from os import system
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
-CANDIDATE_OUT_PATHS = [
-    Path.cwd() / "codex_out" / "out.txt",
-    BASE_DIR / "codex_out" / "out.txt",
-]
+CANDIDATE_OUT_PATHS = [BASE_DIR / "codex_out" / "out.txt"]
 
 
 def _write_snapshot(filename: str, content: str) -> None:
