@@ -41,6 +41,16 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
             "institutional_group_quarters_percent": 1.0,
             "noninstitutional_group_quarters_percent": 1.1,
         }
+        self.mock_dp_url = (
+            "https://api.census.gov/data/2020/dec/dp?"
+            "get=mock&for=county%3A029&in=state%3A40"
+        )
+        self.mock_pl_url = (
+            "https://api.census.gov/data/2020/dec/pl?"
+            "get=mock&for=county%3A029&in=state%3A40"
+        )
+        self.full_data["_dp_source_url"] = self.mock_dp_url
+        self.full_data["_pl_source_url"] = self.mock_pl_url
 
     def test_generate_paragraphs_with_full_data(self):
         expected_paragraphs = [
@@ -81,6 +91,8 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
         self.assertIn('<ref name="Census2020DP">', text)
         self.assertIn('<ref name="Census2020DP"/>', text)
         self.assertIn('<ref name="Census2020PL">', text)
+        self.assertIn(self.mock_dp_url, text)
+        self.assertIn(self.mock_pl_url, text)
 
     def test_generate_paragraphs_with_missing_data(self):
         minimal = {key: None for key in self.full_data}
@@ -95,6 +107,8 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
                 "total_housing_units": 1000,
                 "owner_occupied_percent": 70.0,
                 "rental_vacancy_rate_percent": 4.0,
+                "_dp_source_url": self.mock_dp_url,
+                "_pl_source_url": self.mock_pl_url,
             }
         )
 
