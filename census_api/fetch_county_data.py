@@ -74,8 +74,12 @@ def get_demographic_variables(state_fips: str, county_fips: str) -> Dict[str, ob
     dp, dp_url = _fetch_table(DP_ENDPOINT, dp_params)
 
     total_population = int(pl["P1_001N"])
-    total_housing_units = int(pl["H1_001N"])
-    total_households = int(pl["H1_002N"])
+    total_housing_units = (
+        int(dp["DP1_0147C"]) if dp.get("DP1_0147C") not in (None, "") else int(pl["H1_001N"])
+    )
+    total_households = (
+        int(dp["DP1_0148C"]) if dp.get("DP1_0148C") not in (None, "") else int(pl["H1_002N"])
+    )
 
     sex_male_total = int(dp["DP1_0025C"])
     # Additional derived metrics from DP (with graceful degradation if missing).

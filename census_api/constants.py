@@ -60,7 +60,7 @@ CITATION_SOURCES = {
 
     # Totals (both datasets have these; prefer PL in your logic if you want)
     "total_families": ["dp"],
-    "total_households": ["dp", "pl"],
-    "total_housing_units": ["dp", "pl"],
+    "total_households": ["dp"],
+    "total_housing_units": ["dp"],
     "total_population": ["pl", "dp"],
 }
