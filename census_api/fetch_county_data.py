@@ -12,25 +12,13 @@ from typing import Dict, List
 
 import requests
 
-PL_ENDPOINT = "https://api.census.gov/data/2020/dec/pl"
-DP_ENDPOINT = "https://api.census.gov/data/2020/dec/dp"
-
-PL_FIELDS = (
-    "NAME,P1_001N,P1_003N,P1_004N,P1_005N,P1_006N,"
-    "P1_008N,P1_009N,P2_001N,P2_002N,H1_001N,H1_002N"
-)
-DP_FIELDS = (
-    "NAME,DP1_0021P,DP1_0024P,DP1_0025C,DP1_0049C,DP1_0045C,"
-    "DP1_0069C,DP1_0073C,DP1_0125P,DP1_0126P,DP1_0129P,DP1_0138P,"
-    "DP1_0139P,DP1_0141P,DP1_0142P,DP1_0143P,DP1_0145P,DP1_0146P,"
-    "DP1_0147C,DP1_0148C,DP1_0149C,DP1_0156C,DP1_0157C,DP1_0158C,"
-    "DP1_0159P,DP1_0160P"
-)
+from census_api.constants import DP_ENDPOINT, DP_FIELDS, PL_ENDPOINT, PL_FIELDS
 
 
 def _fetch_table(endpoint: str, params: Dict[str, str]) -> Dict[str, str]:
     """Request a Census API table and return a dict mapping headers to values."""
     response = requests.get(endpoint, params=params, timeout=30)
+    print(f"Requested: {response.url}")
     response.raise_for_status()
     data: List[List[str]] = response.json()
     if len(data) < 2:
@@ -80,7 +68,9 @@ def get_demographic_variables(state_fips: str, county_fips: str) -> Dict[str, ob
         "in": f"state:{state}",
     }
 
+    print("Fetching PL data...")
     pl = _fetch_table(PL_ENDPOINT, pl_params)
+    print("Fetching DP data...")
     dp = _fetch_table(DP_ENDPOINT, dp_params)
 
     total_population = int(pl["P1_001N"])
