@@ -20,6 +20,59 @@ STATE_FIPS_TO_POSTAL = {
     code.split(":")[1]: postal
     for postal, code in json.loads(STATE_TO_FIPS_PATH.read_text()).items()
 }
+STATE_NAME_TO_POSTAL = {
+    "alabama": "AL",
+    "alaska": "AK",
+    "arizona": "AZ",
+    "arkansas": "AR",
+    "california": "CA",
+    "colorado": "CO",
+    "connecticut": "CT",
+    "delaware": "DE",
+    "florida": "FL",
+    "georgia": "GA",
+    "hawaii": "HI",
+    "idaho": "ID",
+    "illinois": "IL",
+    "indiana": "IN",
+    "iowa": "IA",
+    "kansas": "KS",
+    "kentucky": "KY",
+    "louisiana": "LA",
+    "maine": "ME",
+    "maryland": "MD",
+    "massachusetts": "MA",
+    "michigan": "MI",
+    "minnesota": "MN",
+    "mississippi": "MS",
+    "missouri": "MO",
+    "montana": "MT",
+    "nebraska": "NE",
+    "nevada": "NV",
+    "new hampshire": "NH",
+    "new jersey": "NJ",
+    "new mexico": "NM",
+    "new york": "NY",
+    "north carolina": "NC",
+    "north dakota": "ND",
+    "ohio": "OH",
+    "oklahoma": "OK",
+    "oregon": "OR",
+    "pennsylvania": "PA",
+    "rhode island": "RI",
+    "south carolina": "SC",
+    "south dakota": "SD",
+    "tennessee": "TN",
+    "texas": "TX",
+    "utah": "UT",
+    "vermont": "VT",
+    "virginia": "VA",
+    "washington": "WA",
+    "west virginia": "WV",
+    "wisconsin": "WI",
+    "wyoming": "WY",
+    "district of columbia": "DC",
+}
 _US_LOCATION_SUFFIXES = {
     "alabama", "alaska", "arizona", "arkansas", "california", "colorado", "connecticut",
     "delaware", "florida", "georgia", "hawaii", "idaho", "illinois", "indiana", "iowa",
@@ -37,21 +90,28 @@ def parse_arguments():
         description="Update a county article with 2020 census demographics."
     )
     parser.add_argument(
-        "--article",
-        required=True,
-        help="Exact Wikipedia article title, e.g., 'Coal_County,_Oklahoma'.",
+        "--location",
+        help="Human-readable location, e.g., 'Coal County, Oklahoma'.",
     )
     parser.add_argument(
         "--state-fips",
-        required=True,
         help="Two-digit state FIPS code (e.g., 40 for Oklahoma).",
     )
     parser.add_argument(
         "--county-fips",
-        required=True,
         help="Three-digit county FIPS code (e.g., 029 for Coal County).",
     )
-    return parser.parse_args()
+    parser.add_argument(
+        "--article",
+        help="Explicit Wikipedia article title (optional when --location is provided).",
+    )
+    args = parser.parse_args()
+    if not args.location:
+        if not (args.article and args.state_fips and args.county_fips):
+            parser.error(
+                "Either provide --location or specify --article, --state-fips, and --county-fips."
+            )
+    return args
 
 
 def validate_fips_inputs(state_fips: str, county_fips: str) -> Tuple[str, str]:
@@ -71,6 +131,38 @@ def validate_fips_inputs(state_fips: str, county_fips: str) -> Tuple[str, str]:
             f"County FIPS '{county_fips}' does not belong to state '{postal}'."
         )
     return state_code, county_code
+
+
+def derive_inputs_from_location(location: str) -> Tuple[str, str, str]:
+    cleaned = " ".join(location.strip().split())
+    if "," not in cleaned:
+        raise ValueError("Location must be in the form 'County Name, State Name'.")
+    county_part, state_part = [part.strip() for part in cleaned.split(",", 1)]
+    state_lower = state_part.lower()
+    postal = STATE_NAME_TO_POSTAL.get(state_lower)
+    if not postal:
+        raise ValueError(f"Unknown state name '{state_part}'.")
+
+    county_file = COUNTY_FIPS_DIR / f"{postal}.json"
+    if not county_file.exists():
+        raise ValueError(f"No county mapping found for state '{postal}'.")
+
+    county_map = json.loads(county_file.read_text())
+    canonical_key = None
+    fips_code = None
+    target = f"{county_part}, {state_part}".lower()
+    for name, code in county_map.items():
+        if name.lower() == target:
+            canonical_key = name
+            fips_code = code.split(":")[1]
+            break
+    if not fips_code:
+        raise ValueError(f"County '{county_part}' not found in state '{state_part}'.")
+
+    state_fips = fips_code[:2]
+    county_fips = fips_code[2:]
+    article_title = canonical_key.replace(" ", "_")
+    return article_title, state_fips, county_fips
 
 
 def ensure_us_location_title(title):
@@ -236,16 +328,22 @@ class WikipediaClient:
 
 def main():
     args = parse_arguments()
-    try:
-        state_fips, county_fips = validate_fips_inputs(
-            args.state_fips,
-            args.county_fips,
-        )
-    except ValueError as exc:
-        print(f"FIPS validation failed: {exc}")
-        return
-
-    article_title = args.article
+    if args.location:
+        try:
+            article_title, state_fips, county_fips = derive_inputs_from_location(args.location)
+        except ValueError as exc:
+            print(f"Location parsing failed: {exc}")
+            return
+    else:
+        try:
+            state_fips, county_fips = validate_fips_inputs(
+                args.state_fips,
+                args.county_fips,
+            )
+        except ValueError as exc:
+            print(f"FIPS validation failed: {exc}")
+            return
+        article_title = args.article.replace(" ", "_")
     ensure_us_location_title(article_title)
 
     client = WikipediaClient(WP_BOT_USER_AGENT)
@@ -263,7 +361,7 @@ def main():
     result = client.edit_article_wikitext(
         article_title,
         updated_article,
-        "Add 2020 census data (Codex-assisted update)",
+        "Add 2020 census data",
     )
     pprint(result)
 
