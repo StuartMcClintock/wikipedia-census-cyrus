@@ -1,5 +1,5 @@
 #from credentials import OPEN_AI_KEY
-from os import system
+import subprocess
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -19,7 +19,11 @@ def _read_codex_output() -> str:
 
 
 def codex_exec(text: str) -> None:
-    system('codex exec "' + text + '"')
+    subprocess.run(
+        ["codex", "exec", text],
+        cwd=BASE_DIR,
+        check=True,
+    )
 
 
 def check_if_update_needed(current_article: str, new_text: str) -> bool:
