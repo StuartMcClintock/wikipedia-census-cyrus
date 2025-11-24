@@ -60,6 +60,22 @@ CITATION_DETAILS = {
     },
 }
 
+LINK_REPLACEMENTS = [
+    (
+        "2020 United States census",
+        "[[2020 United States census|2020 United States census]]",
+    ),
+    (
+        "American Indian and Alaska Native",
+        "[[Native Americans in the United States|American Indian and Alaska Native]]",
+    ),
+    ("Black or African American", "[[African Americans|Black or African American]]"),
+    ("Asian", "[[Asian Americans|Asian]]"),
+    ("two or more races", "[[Multiracial Americans|two or more races]]"),
+    ("Hispanic or Latino", "[[Hispanic and Latino Americans|Hispanic or Latino]]"),
+    ("group quarters", "[[Group quarters|group quarters]]"),
+]
+
 
 def _format_int(value: Optional[int]) -> Optional[str]:
     return f"{value:,}" if value is not None else None
@@ -82,6 +98,12 @@ def _join_phrases(parts: List[str]) -> str:
     if len(parts) == 2:
         return f"{parts[0]} and {parts[1]}"
     return ", ".join(parts[:-1]) + f", and {parts[-1]}"
+
+
+def _apply_links(text: str) -> str:
+    for phrase, replacement in LINK_REPLACEMENTS:
+        text = text.replace(phrase, replacement)
+    return text
 
 
 def _build_citation(
@@ -369,6 +391,7 @@ def generate_county_paragraphs(state_fips: str, county_fips: str) -> str:
             sentences_only.append(sentence)
             paragraph_keys.update(keys)
         paragraph_text = " ".join(sentences_only)
+        paragraph_text = _apply_links(paragraph_text)
         citation = _build_citation(paragraph_keys, seen_sources, source_urls)
         paragraphs.append(paragraph_text + citation)
     body = "\n\n".join(paragraphs)
