@@ -55,16 +55,16 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
     def test_generate_paragraphs_with_full_data(self):
         expected_paragraphs = [
             (
-                "As of the 2020 United States census, the county had a population of 12,345. "
+                "As of the [[2020 United States census|2020 United States census]], the county had a population of 12,345. "
                 "Of the residents, 22.3% were under the age of 18 and 15.4% were 65 years of age or older; "
                 "the median age was 38.5 years. For every 100 females there were 96.7 males, "
                 "and for every 100 females age 18 and over there were 94.2 males."
             ),
             (
-                "The racial makeup of the county was 60.0% White, 20.0% Black or African American, "
-                "5.0% American Indian and Alaska Native, 10.0% Asian, 3.0% from some other race, "
-                "and 2.0% from two or more races. Hispanic or Latino residents of any race comprised "
-                "8.5% of the population."
+                "The racial makeup of the county was 60.0% White, 20.0% [[African Americans|Black or African American]], "
+                "5.0% [[Native Americans in the United States|American Indian and Alaska Native]], 10.0% [[Asian Americans|Asian]], "
+                "3.0% from some other race, and 2.0% from [[Multiracial Americans|two or more races]]. "
+                "[[Hispanic and Latino Americans|Hispanic or Latino]] residents of any race comprised 8.5% of the population."
             ),
             (
                 "There were 4,321 households in the county, of which 35.0% had children under the age of 18 living with them, "
@@ -121,7 +121,7 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
         expected_text = "==2020 census==\n\n" + "\n\n".join(
             [
                 (
-                    "As of the 2020 United States census, the county had a population of 2,000. "
+                    "As of the [[2020 United States census|2020 United States census]], the county had a population of 2,000. "
                     "Of the residents, 12.0% were 65 years of age or older. "
                     "For every 100 females age 18 and over there were 90.0 males."
                 ),

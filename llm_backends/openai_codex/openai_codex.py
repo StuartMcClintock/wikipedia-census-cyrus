@@ -63,9 +63,11 @@ Make sure that redundant information is removed. If needed, rearrange sentences 
 
 DO NOT MODIFY THE FACTUAL CONTENT OF THE ARTICLE beyond simply inserting the given 2020 census section. Besides that you should only be reorganizing sentences/paragraphs and potentially deleting redundant facts.
 
-Write the output to codex_out/out.txt. The output should contain the full text of the updated article and nothing that should not be in the updated article.
-
 Be sure to not confuse the decade that a particular census fact is from; if there is already data for a field from 2010, the 2020 data for that field is considered different.
+
+If an article has a 2020 “Vintage” or other pre-census estimate for a specific datapoint, remove that estimate (and its citation) when you also insert an official 2020 decennial census value for the same datapoint; if no official 2020 census replacement exists for that datapoint, leave the estimate as is.
+
+Write the output to codex_out/out.txt. The output should contain the full text of the updated article and nothing that should not be in the updated article.
 """
     )
     return _read_codex_output()
