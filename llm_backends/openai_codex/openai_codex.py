@@ -67,6 +67,10 @@ Be sure to not confuse the decade that a particular census fact is from; if ther
 
 If an article has a 2020 “Vintage” or other pre-census estimate for a specific datapoint, remove that estimate (and its citation) when you also insert an official 2020 decennial census value for the same datapoint; if no official 2020 census replacement exists for that datapoint, leave the estimate as is.
 
+If there are existing chunks of information for the 2000 or 2010 censuses that don't have a H3 header, you should put them under a "2000 census" or "2010 census" header. Any census data that does not come from decennial census results should be labeled "[year] estimates" (eg. "2021 estimates") rather than "census".
+
+If you reformat old census data (from 2000 or 2010), prefer the format "As of the [[2000 United States census|2000 census]]" over the format "As of the [[census]] of 2000" or "As of the 2000 [[census]]". Modify this part of the existing content if necessary but do not modify actual factual information.
+
 Write the output to codex_out/out.txt. The output should contain the full text of the updated article and nothing that should not be in the updated article.
 """
     )
