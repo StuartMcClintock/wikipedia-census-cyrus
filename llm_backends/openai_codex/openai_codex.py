@@ -73,6 +73,8 @@ If you reformat old census data (from 2000 or 2010), prefer the format "As of th
 
 Make sure that headings in the Demographics section are in chronological order ("2020 census" should come above "2010 census"; if there is a "2021 estimates" section is should come above "2020 census")
 
+If there is a US Census population for population history, make sure it is aligned to the right.
+
 Write the output to codex_out/out.txt. The output should contain the full text of the updated article and nothing that should not be in the updated article.
 """
     )
@@ -95,6 +97,8 @@ If an article has a pre-2020 estimate for a specific datapoint and the new text 
 Prefer the phrasing "As of the [[2020 United States census|2020 census]]" when referencing official census counts. Ensure every new or modified sentence retains or adds appropriate references.
 
 Make sure that headings in the Demographics section are in chronological order ("2020 census" should come above "2010 census"; if there is a "2021 estimates" section is should come above "2020 census")
+
+If there is a US Census population for population history, make sure it is aligned to the right.
 
 Write only the updated demographics and related census sections to codex_out/out.txt (no commentary).
 """
