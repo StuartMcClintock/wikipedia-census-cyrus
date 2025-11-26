@@ -71,6 +71,8 @@ If there are existing chunks of information for the 2000 or 2010 censuses that d
 
 If you reformat old census data (from 2000 or 2010), prefer the format "As of the [[2000 United States census|2000 census]]" over the format "As of the [[census]] of 2000" or "As of the 2000 [[census]]". Modify this part of the existing content if necessary but do not modify actual factual information.
 
+Make sure that headings in the Demographics section are in chronological order ("2020 census" should come above "2010 census"; if there is a "2021 estimates" section is should come above "2020 census")
+
 Write the output to codex_out/out.txt. The output should contain the full text of the updated article and nothing that should not be in the updated article.
 """
     )
@@ -82,7 +84,7 @@ def update_demographics_section(current_demographics_section: str, new_text: str
     _write_snapshot("new_text.txt", new_text)
     codex_exec(
         """
-current_demographics_section.txt contains the current text for the demographics (and any nested census) sections of a Wikipedia article for a county or municipality in the United States.
+current_demographics_section.txt contains the current text for the demographics section of a Wikipedia article for a county or municipality in the United States.
 
 new_text.txt contains proposed new text you must add to this demographics section. It is composed entirely of data from the 2020 US Census.
 
@@ -91,6 +93,8 @@ If the existing demographics section contains any 2020 Census information that i
 If an article has a pre-2020 estimate for a specific datapoint and the new text includes the official 2020 decennial value for that same datapoint, remove the estimate and any associated references so only the official 2020 figure remains. If there is no official 2020 replacement for that datapoint, leave the estimate untouched.
 
 Prefer the phrasing "As of the [[2020 United States census|2020 census]]" when referencing official census counts. Ensure every new or modified sentence retains or adds appropriate references.
+
+Make sure that headings in the Demographics section are in chronological order ("2020 census" should come above "2010 census"; if there is a "2021 estimates" section is should come above "2020 census")
 
 Write only the updated demographics and related census sections to codex_out/out.txt (no commentary).
 """
