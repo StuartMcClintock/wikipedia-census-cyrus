@@ -1,13 +1,55 @@
+from pathlib import Path
 import unittest
 from unittest.mock import Mock, patch
 
 from poster import (
+    apply_demographics_section_override,
+    demographics_section_to_wikitext,
+    find_demographics_section,
     WikipediaClient,
     WIKIPEDIA_ENDPOINT,
     ensure_us_location_title,
     parse_arguments,
 )
 from parser import ParsedWikitext
+
+
+class DemographicsSectionHelperTests(unittest.TestCase):
+    def setUp(self):
+        fixture_path = Path(__file__).with_name("Coal_County_test_data.txt")
+        self.wikitext = fixture_path.read_text(encoding="utf-8")
+        self.parsed = ParsedWikitext(wikitext=self.wikitext)
+
+    def test_find_demographics_section_returns_entry(self):
+        result = find_demographics_section(self.parsed)
+        self.assertIsNotNone(result)
+        _, entry = result
+        self.assertEqual(entry[0], "Demographics")
+
+    def test_find_demographics_section_returns_none_when_missing(self):
+        parsed = ParsedWikitext(wikitext="==History==\nHistory text.\n")
+        self.assertIsNone(find_demographics_section(parsed))
+
+    def test_demographics_section_to_wikitext_includes_heading(self):
+        index_entry = find_demographics_section(self.parsed)
+        self.assertIsNotNone(index_entry)
+        _, entry = index_entry
+        section_text = demographics_section_to_wikitext(entry)
+        self.assertIn("==Demographics==", section_text)
+
+    def test_apply_demographics_section_override_replaces_content(self):
+        index_entry = find_demographics_section(self.parsed)
+        self.assertIsNotNone(index_entry)
+        index, _ = index_entry
+        new_section_text = "==Demographics==\nUpdated census content.\n"
+        updated_parsed = apply_demographics_section_override(
+            self.parsed,
+            index,
+            new_section_text,
+        )
+        updated_text = updated_parsed.to_wikitext()
+        self.assertIn("Updated census content.", updated_text)
+        self.assertNotIn("Updated census content.", self.wikitext)
 
 
 class WikipediaClientTests(unittest.TestCase):

@@ -8,8 +8,10 @@ from credentials import *  # WP_BOT_USER_NAME, WP_BOT_PASSWORD, WP_BOT_USER_AGEN
 from county.generate_county_paragraphs import generate_county_paragraphs
 from llm_backends.openai_codex.openai_codex import (
     check_if_update_needed,
+    update_demographics_section,
     update_wp_page,
 )
+from parser import ParsedWikitext
 
 BASE_DIR = Path(__file__).resolve().parent
 WIKIPEDIA_ENDPOINT = "https://en.wikipedia.org/w/api.php"
@@ -83,6 +85,51 @@ _US_LOCATION_SUFFIXES = {
     "tennessee", "texas", "utah", "vermont", "virginia", "washington", "west virginia",
     "wisconsin", "wyoming", "district of columbia"
 }
+
+_SECTION_SENTINELS = {"__lead__", "__content__"}
+
+
+def find_demographics_section(parsed_article: ParsedWikitext):
+    """
+    Locate the demographics H2 section and return (index, entry) or None.
+    """
+    for index, entry in enumerate(parsed_article.sections):
+        heading = entry[0]
+        if heading in _SECTION_SENTINELS:
+            continue
+        if heading == "Demographics":
+            return index, entry
+    return None
+
+
+def demographics_section_to_wikitext(section_entry):
+    """
+    Render a demographics section tuple back to raw wikitext.
+    """
+    temp = ParsedWikitext(sections=[section_entry])
+    return temp.to_wikitext()
+
+
+def _extract_single_section(section_wikitext: str):
+    parsed = ParsedWikitext(wikitext=section_wikitext)
+    for entry in parsed.sections:
+        heading = entry[0]
+        if heading in _SECTION_SENTINELS:
+            continue
+        return entry
+    raise ValueError("Updated demographics text did not include a section heading.")
+
+
+def apply_demographics_section_override(
+    parsed_article: ParsedWikitext, section_index: int, updated_section_text: str
+) -> ParsedWikitext:
+    """
+    Return a clone of parsed_article with the demographics section replaced.
+    """
+    replacement_entry = _extract_single_section(updated_section_text)
+    updated_article = parsed_article.clone()
+    updated_article.sections[section_index] = replacement_entry
+    return updated_article
 
 
 def parse_arguments():
@@ -362,6 +409,8 @@ def main():
     client.login(WP_BOT_USER_NAME, WP_BOT_PASSWORD)
 
     page_wikitext = client.fetch_article_wikitext(article_title)
+    parsed_article = ParsedWikitext(wikitext=page_wikitext)
+    demographics_section_info = find_demographics_section(parsed_article)
     proposed_text = generate_county_paragraphs(state_fips, county_fips)
     print(proposed_text)
 
@@ -369,7 +418,27 @@ def main():
         print("No updates are necessary; skipping edit.")
         return
 
-    updated_article = update_wp_page(page_wikitext, proposed_text)
+    updated_article = None
+    if demographics_section_info:
+        section_index, section_entry = demographics_section_info
+        current_demographics = demographics_section_to_wikitext(section_entry)
+        try:
+            new_demographics_section = update_demographics_section(
+                current_demographics,
+                proposed_text,
+            )
+            updated_parsed_article = apply_demographics_section_override(
+                parsed_article,
+                section_index,
+                new_demographics_section,
+            )
+            updated_article = updated_parsed_article.to_wikitext()
+        except Exception as exc:
+            print(
+                f"Demographics-only update failed ({exc}); falling back to full article update."
+            )
+    if updated_article is None:
+        updated_article = update_wp_page(page_wikitext, proposed_text)
     result = client.edit_article_wikitext(
         article_title,
         updated_article,
