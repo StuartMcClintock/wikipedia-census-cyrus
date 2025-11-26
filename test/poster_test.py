@@ -1,11 +1,40 @@
 import unittest
 from unittest.mock import Mock, patch
 
-from poster import WikipediaClient, WIKIPEDIA_ENDPOINT, ensure_us_location_title
+from poster import (
+    WikipediaClient,
+    WIKIPEDIA_ENDPOINT,
+    ensure_us_location_title,
+    parse_arguments,
+)
 from parser import ParsedWikitext
 
 
 class WikipediaClientTests(unittest.TestCase):
+    def test_skip_location_parsing_requires_manual_inputs(self):
+        with patch('sys.argv', [
+            'poster.py',
+            '--location', 'Sample, Oklahoma',
+            '--skip-location-parsing',
+        ]):
+            with self.assertRaises(SystemExit):
+                parse_arguments()
+
+    def test_skip_location_parsing_accepts_manual_inputs(self):
+        with patch('sys.argv', [
+            'poster.py',
+            '--location', 'Sample, Oklahoma',
+            '--skip-location-parsing',
+            '--article', 'Sample County, Oklahoma',
+            '--state-fips', '40',
+            '--county-fips', '029',
+        ]):
+            args = parse_arguments()
+        self.assertTrue(args.skip_location_parsing)
+        self.assertEqual(args.article, 'Sample County, Oklahoma')
+        self.assertEqual(args.state_fips, '40')
+        self.assertEqual(args.county_fips, '029')
+
     def test_ensure_us_location_title_accepts_us_titles(self):
         ensure_us_location_title("Coalgate,_Oklahoma")
         ensure_us_location_title("Springfield,_Illinois")
