@@ -105,12 +105,24 @@ def parse_arguments():
         "--article",
         help="Explicit Wikipedia article title (optional when --location is provided).",
     )
+    parser.add_argument(
+        "--skip-location-parsing",
+        action="store_true",
+        help=(
+            "Skip deriving article and FIPS codes from --location. Requires "
+            "explicit --article, --state-fips, and --county-fips values."
+        ),
+    )
     args = parser.parse_args()
-    if not args.location:
-        if not (args.article and args.state_fips and args.county_fips):
-            parser.error(
-                "Either provide --location or specify --article, --state-fips, and --county-fips."
-            )
+    has_manual_inputs = args.article and args.state_fips and args.county_fips
+    if not args.location and not has_manual_inputs:
+        parser.error(
+            "Either provide --location or specify --article, --state-fips, and --county-fips."
+        )
+    if args.skip_location_parsing and not has_manual_inputs:
+        parser.error(
+            "--skip-location-parsing requires --article, --state-fips, and --county-fips."
+        )
     return args
 
 
@@ -328,7 +340,7 @@ class WikipediaClient:
 
 def main():
     args = parse_arguments()
-    if args.location:
+    if args.location and not args.skip_location_parsing:
         try:
             article_title, state_fips, county_fips = derive_inputs_from_location(args.location)
         except ValueError as exc:
