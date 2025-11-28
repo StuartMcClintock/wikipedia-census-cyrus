@@ -1,5 +1,6 @@
 import argparse
 import json
+import os
 from pathlib import Path
 from typing import Tuple
 import requests
@@ -159,6 +160,11 @@ def parse_arguments():
             "Skip deriving article and FIPS codes from --location. Requires "
             "explicit --article, --state-fips, and --county-fips values."
         ),
+    )
+    parser.add_argument(
+        "--codex-model",
+        choices=["gpt-5.1-codex-mini", "gpt-5.1-codex-max"],
+        help="Override the Codex model (default: gpt-5.1-codex-mini).",
     )
     args = parser.parse_args()
     has_manual_inputs = args.article and args.state_fips and args.county_fips
@@ -387,6 +393,9 @@ class WikipediaClient:
 
 def main():
     args = parse_arguments()
+    if args.codex_model:
+        os.environ["CODEX_MODEL"] = args.codex_model
+
     if args.location and not args.skip_location_parsing:
         try:
             article_title, state_fips, county_fips = derive_inputs_from_location(args.location)

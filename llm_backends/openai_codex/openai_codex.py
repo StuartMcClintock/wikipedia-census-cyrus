@@ -1,9 +1,11 @@
 #from credentials import OPEN_AI_KEY
 import subprocess
+import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
 CANDIDATE_OUT_PATHS = [BASE_DIR / "codex_out" / "out.txt"]
+DEFAULT_CODEX_MODEL = "gpt-5.1-codex-mini"
 
 
 def _write_snapshot(filename: str, content: str) -> None:
@@ -19,11 +21,10 @@ def _read_codex_output() -> str:
 
 
 def codex_exec(text: str) -> None:
-    subprocess.run(
-        ["codex", "exec", text],
-        cwd=BASE_DIR,
-        check=True,
-    )
+    model = os.getenv("CODEX_MODEL", DEFAULT_CODEX_MODEL)
+    cmd = ["codex", "exec", "-m", model]
+    cmd.append(text)
+    subprocess.run(cmd, cwd=BASE_DIR, check=True)
 
 
 def check_if_update_needed(current_article: str, new_text: str) -> bool:
@@ -79,11 +80,8 @@ Write the output to codex_out/out.txt. The output should contain the full text o
     return _read_codex_output()
 
 
-def update_demographics_section(current_demographics_section: str, new_text: str) -> str:
-    _write_snapshot("current_demographics_section.txt", current_demographics_section)
-    _write_snapshot("new_text.txt", new_text)
-    codex_exec(
-        """
+def update_demographics_section(current_demographics_section: str, new_text: str, mini=True) -> str:
+    MAX_PROMPT = """
 current_demographics_section.txt contains the current text for the demographics section of a Wikipedia article for a county or municipality in the United States.
 
 new_text.txt contains proposed new text you must add to this demographics section. It is composed entirely of data from the 2020 US Census.
@@ -96,9 +94,36 @@ Prefer the phrasing "As of the [[2020 United States census|2020 census]]" when r
 
 Make sure that headings in the Demographics section are in chronological order ("2020 census" should come above "2010 census"; if there is a "2021 estimates" section is should come above "2020 census")
 
+Ensure that any "US Census population" table is right aligned.
+
+If any inline CSS is included in the article, please remove it.
+
 Write only the updated demographics and related census sections to codex_out/out.txt (no commentary).
 """
-    )
+    MINI_PROMPT = """
+current_demographics_section.txt contains the current text for the demographics section of a Wikipedia article for a county or municipality in the United States.
+
+new_text.txt contains proposed new text you must add to this demographics section. It is composed entirely of data from the 2020 US Census.
+
+If the existing demographics section contains any 2020 Census information that is missing from the new text, insert those sentences into the new text in a logical location. Remove redundant information so each datapoint is stated once. If needed, reorganize or reheader census-era content (e.g., add ===2000 census=== or ===2010 census===) so the chronology is clear, but do not alter the factual content of older census sections.
+
+If an article has a pre-2020 estimate for a specific datapoint and the new text includes the official 2020 decennial value for that same datapoint, remove the estimate and any associated references so only the official 2020 figure remains. If there is no official 2020 replacement for that datapoint, leave the estimate untouched.
+
+Prefer the phrasing "As of the [[2020 United States census|2020 census]]" when referencing official census counts. Ensure every new or modified sentence retains or adds appropriate references.
+
+Make sure that headings in the Demographics section are in chronological order ("2020 census" should come above "2010 census"; if there is a "2021 estimates" section is should come above "2020 census")
+
+Ensure that any "US Census population" table is right aligned.
+
+When you insert the new text, please make sure the original tags that give the actual api source are not dropped. DO NOT USE <ref name="Census2020DP"/> OR <ref name="Census2020PL"/> WITHOUT ACTUALLY DEFINING IT FIRST!!
+
+Write only the updated demographics and related census sections to codex_out/out.txt (no commentary).
+"""
+    prompt = MINI_PROMPT if mini else MAX_PROMPT
+
+    _write_snapshot("current_demographics_section.txt", current_demographics_section)
+    _write_snapshot("new_text.txt", new_text)
+    codex_exec(prompt)
     return _read_codex_output()
 
 if __name__ == '__main__':

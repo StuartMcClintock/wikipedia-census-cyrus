@@ -63,7 +63,7 @@ CITATION_DETAILS = {
 LINK_REPLACEMENTS = [
     (
         "2020 United States census",
-        "[[2020 United States census|2020 United States census]]",
+        "[[2020 United States census|2020 census]]",
     ),
     (
         "American Indian and Alaska Native",
@@ -106,6 +106,15 @@ def _apply_links(text: str) -> str:
     return text
 
 
+def _ensure_template_closed(template: str) -> str:
+    """
+    Normalize cite templates to end with exactly '}}'.
+    """
+    trimmed = template.rstrip()
+    trimmed = trimmed.rstrip("}")
+    return trimmed + "}}"
+
+
 def _build_citation(
     keys: Set[str], seen_sources: Set[str], source_urls: Dict[str, Optional[str]]
 ) -> str:
@@ -118,7 +127,7 @@ def _build_citation(
     for source in sorted(sources):
         detail = CITATION_DETAILS[source]
         url = source_urls.get(source) or detail["default_url"]
-        template = detail["template"].replace("{url}", url)
+        template = _ensure_template_closed(detail["template"]).replace("{url}", url)
         if source in seen_sources:
             parts.append(f'<ref name="{detail["name"]}"/>')
         else:
@@ -396,8 +405,8 @@ def generate_county_paragraphs(state_fips: str, county_fips: str) -> str:
         paragraphs.append(paragraph_text + citation)
     body = "\n\n".join(paragraphs)
     if body:
-        return "==2020 census==\n\n" + body
-    return "==2020 census=="
+        return "===2020 census===\n\n" + body
+    return "===2020 census==="
 
 
 def main():
