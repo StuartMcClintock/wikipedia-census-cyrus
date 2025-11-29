@@ -8,6 +8,7 @@ from pprint import pprint
 from credentials import *  # WP_BOT_USER_NAME, WP_BOT_PASSWORD, WP_BOT_USER_AGENT, USER_SANDBOX_ARTICLE
 from county.generate_county_paragraphs import generate_county_paragraphs
 from llm_backends.openai_codex.openai_codex import (
+    DEFAULT_CODEX_MODEL,
     check_if_update_needed,
     update_demographics_section,
     update_wp_page,
@@ -163,8 +164,13 @@ def parse_arguments():
     )
     parser.add_argument(
         "--codex-model",
-        choices=["gpt-5.1-codex-mini", "gpt-5.1-codex-max"],
-        help="Override the Codex model (default: gpt-5.1-codex-mini).",
+        choices=["gpt-5.1-codex-mini", "gpt-5.1-codex-max", "gpt-5.1"],
+        help="Override the Codex model (default: gpt-5.1-codex-max).",
+    )
+    parser.add_argument(
+        "--skip-should-update-check",
+        action="store_true",
+        help="Skip the Codex-based update check and always apply the update.",
     )
     args = parser.parse_args()
     has_manual_inputs = args.article and args.state_fips and args.county_fips
@@ -396,6 +402,9 @@ def main():
     if args.codex_model:
         os.environ["CODEX_MODEL"] = args.codex_model
 
+    active_model = os.getenv("CODEX_MODEL", DEFAULT_CODEX_MODEL)
+    use_mini_prompt = active_model == "gpt-5.1-codex-mini"
+
     if args.location and not args.skip_location_parsing:
         try:
             article_title, state_fips, county_fips = derive_inputs_from_location(args.location)
@@ -423,7 +432,11 @@ def main():
     proposed_text = generate_county_paragraphs(state_fips, county_fips)
     print(proposed_text)
 
-    if not check_if_update_needed(page_wikitext, proposed_text):
+    should_update = True
+    if not args.skip_should_update_check:
+        should_update = check_if_update_needed(page_wikitext, proposed_text)
+
+    if not should_update:
         print("No updates are necessary; skipping edit.")
         return
 
@@ -435,6 +448,7 @@ def main():
             new_demographics_section = update_demographics_section(
                 current_demographics,
                 proposed_text,
+                mini=use_mini_prompt,
             )
             updated_parsed_article = apply_demographics_section_override(
                 parsed_article,
