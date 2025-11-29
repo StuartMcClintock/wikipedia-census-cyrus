@@ -5,7 +5,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent
 CANDIDATE_OUT_PATHS = [BASE_DIR / "codex_out" / "out.txt"]
-DEFAULT_CODEX_MODEL = "gpt-5.1-codex-mini"
+DEFAULT_CODEX_MODEL = "gpt-5.1-codex-max"
 
 
 def _write_snapshot(filename: str, content: str) -> None:
@@ -96,8 +96,6 @@ Make sure that headings in the Demographics section are in chronological order (
 
 Ensure that any "US Census population" table is right aligned.
 
-If any inline CSS is included in the article, please remove it.
-
 Write only the updated demographics and related census sections to codex_out/out.txt (no commentary).
 """
     MINI_PROMPT = """
@@ -115,7 +113,11 @@ Make sure that headings in the Demographics section are in chronological order (
 
 Ensure that any "US Census population" table is right aligned.
 
+If you modify any tags like </small> or <br>, make sure the outcome is valid (eg. "</small)" is not okay)
+
 When you insert the new text, please make sure the original tags that give the actual api source are not dropped. DO NOT USE <ref name="Census2020DP"/> OR <ref name="Census2020PL"/> WITHOUT ACTUALLY DEFINING IT FIRST!!
+
+BEFORE SAYING THAT THE TASK IS COMPLETE, PLEASE VALIDATE THAT THE ABOVE REFERENCE CHECK IS VALID. This is needed to avoid this type of error: "Cite error: The named reference Census2020DP was invoked but never defined"
 
 Write only the updated demographics and related census sections to codex_out/out.txt (no commentary).
 """
