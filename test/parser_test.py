@@ -2,7 +2,7 @@ import copy
 import unittest
 from pathlib import Path
 
-from parser import ParsedWikitext
+from parser.parser import ParsedWikitext, fix_demographics_section_in_article
 
 COAL_COUNTY_EXPECTED_OUTLINE = '''Coal County, Oklahoma
   __lead__
@@ -87,6 +87,31 @@ class PrintArticleOutlineTests(unittest.TestCase):
     def test_get_wikitext_section_raises_for_subsections(self):
         with self.assertRaises(ValueError):
             self.parsed.get_section(["Geography"])
+
+
+class FixDemographicsSectionTests(unittest.TestCase):
+    def test_align_field_is_normalized(self):
+        article = """{{Short description|County}}
+==Demographics==
+{{US Census population
+| 1920 = 100
+| align = center
+| align-fn = center
+}}
+==References=="""
+
+        fixed = fix_demographics_section_in_article(article)
+
+        self.assertIn("| align = right", fixed)
+        self.assertIn("| align-fn = center", fixed)
+        self.assertNotIn("| align = center", fixed)
+
+    def test_noop_when_no_demographics_section(self):
+        article = "==History==\nSome text."
+        self.assertEqual(
+            fix_demographics_section_in_article(article),
+            article,
+        )
 
 
 if __name__ == "__main__":

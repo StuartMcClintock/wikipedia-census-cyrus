@@ -1,6 +1,8 @@
 import copy
 import re
 
+from .parser_utils import fix_us_census_population_align
+
 
 class ParsedWikitext:
     """
@@ -234,3 +236,54 @@ def _parse_wikitext(wikitext):
     for child in root.children:
         result.append(section_to_nested(child))
     return result
+
+
+_SECTION_SENTINELS = {"__lead__", "__content__"}
+
+
+def fix_demographics_section_wikitext(section_wikitext: str) -> str:
+    """
+    Apply deterministic fixes to a demographics section wikitext block.
+    """
+    fixes = [fix_us_census_population_align]
+    fixed = section_wikitext
+    for func in fixes:
+        fixed = func(fixed)
+    return fixed
+
+
+def fix_demographics_section_in_article(article_wikitext: str) -> str:
+    """
+    Locate the demographics section in an article wikitext and apply
+    deterministic fixes, returning the updated article text.
+    """
+    parsed_article = ParsedWikitext(wikitext=article_wikitext)
+
+    for index, entry in enumerate(parsed_article.sections):
+        heading = entry[0]
+        if heading in _SECTION_SENTINELS or heading != "Demographics":
+            continue
+
+        section_text = ParsedWikitext(sections=[entry]).to_wikitext()
+        fixed_section_text = fix_demographics_section_wikitext(section_text)
+
+        if fixed_section_text == section_text:
+            return article_wikitext
+
+        fixed_sections = ParsedWikitext(wikitext=fixed_section_text).sections
+        replacement_entry = None
+        for fixed_entry in fixed_sections:
+            if fixed_entry[0] in _SECTION_SENTINELS:
+                continue
+            replacement_entry = fixed_entry
+            break
+
+        if replacement_entry is None:
+            raise ValueError(
+                "Fixed demographics text did not include a section heading."
+            )
+
+        parsed_article.sections[index] = replacement_entry
+        return parsed_article.to_wikitext()
+
+    return article_wikitext

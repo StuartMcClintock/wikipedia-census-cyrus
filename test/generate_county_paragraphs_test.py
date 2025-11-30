@@ -55,7 +55,7 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
     def test_generate_paragraphs_with_full_data(self):
         expected_paragraphs = [
             (
-                "As of the [[2020 United States census|2020 United States census]], the county had a population of 12,345. "
+                "As of the [[2020 United States census|2020 census]], the county had a population of 12,345. "
                 "Of the residents, 22.3% were under the age of 18 and 15.4% were 65 years of age or older; "
                 "the median age was 38.5 years. For every 100 females there were 96.7 males, "
                 "and for every 100 females age 18 and over there were 94.2 males."
@@ -86,7 +86,7 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
         ):
             text = generate_county_paragraphs("40", "029")
 
-        expected_text = "==2020 census==\n\n" + "\n\n".join(expected_paragraphs)
+        expected_text = "===2020 census===\n\n" + "\n\n".join(expected_paragraphs)
         self.assertEqual(self._strip_refs(text), expected_text)
         self.assertIn('<ref name="Census2020DP">', text)
         self.assertIn('<ref name="Census2020DP"/>', text)
@@ -118,10 +118,10 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
         ):
             text = generate_county_paragraphs("20", "001")
 
-        expected_text = "==2020 census==\n\n" + "\n\n".join(
+        expected_text = "===2020 census===\n\n" + "\n\n".join(
             [
                 (
-                    "As of the [[2020 United States census|2020 United States census]], the county had a population of 2,000. "
+                    "As of the [[2020 United States census|2020 census]], the county had a population of 2,000. "
                     "Of the residents, 12.0% were 65 years of age or older. "
                     "For every 100 females age 18 and over there were 90.0 males."
                 ),
