@@ -7,6 +7,7 @@ import requests
 from pprint import pprint
 from credentials import *  # WP_BOT_USER_NAME, WP_BOT_PASSWORD, WP_BOT_USER_AGENT, USER_SANDBOX_ARTICLE
 from county.generate_county_paragraphs import generate_county_paragraphs
+from app_logging.logger import log_edit_article
 from llm_backends.openai_codex.openai_codex import (
     DEFAULT_CODEX_MODEL,
     check_if_update_needed,
@@ -134,9 +135,96 @@ def apply_demographics_section_override(
     return updated_article
 
 
+def process_single_article(
+    article_title: str,
+    state_fips: str,
+    county_fips: str,
+    args,
+    client,
+    use_mini_prompt: bool,
+):
+    ensure_us_location_title(article_title)
+
+    page_wikitext = client.fetch_article_wikitext(article_title)
+    parsed_article = ParsedWikitext(wikitext=page_wikitext)
+    demographics_section_info = find_demographics_section(parsed_article)
+    proposed_text = generate_county_paragraphs(state_fips, county_fips)
+    print(proposed_text)
+
+    should_update = True
+    if not args.skip_should_update_check:
+        should_update = check_if_update_needed(page_wikitext, proposed_text)
+
+    if not should_update:
+        print(f"No updates are necessary for '{article_title}'; skipping edit.")
+        return
+
+    updated_article = None
+    if demographics_section_info:
+        section_index, section_entry = demographics_section_info
+        current_demographics = demographics_section_to_wikitext(section_entry)
+        try:
+            new_demographics_section = update_demographics_section(
+                current_demographics,
+                proposed_text,
+                mini=use_mini_prompt,
+            )
+            updated_parsed_article = apply_demographics_section_override(
+                parsed_article,
+                section_index,
+                new_demographics_section,
+            )
+            updated_article = updated_parsed_article.to_wikitext()
+        except Exception as exc:
+            print(
+                f"Demographics-only update failed ({exc}); falling back to full article update."
+            )
+    if updated_article is None:
+        updated_article = update_wp_page(page_wikitext, proposed_text)
+    result = client.edit_article_wikitext(
+        article_title,
+        updated_article,
+        "Add 2020 census data",
+    )
+    pprint(result)
+
+
+def process_state_batch(state_postal: str, client, args, use_mini_prompt: bool):
+    postal = state_postal.strip().upper()
+    county_file = COUNTY_FIPS_DIR / f"{postal}.json"
+    if not county_file.exists():
+        print(f"No county mapping found for state '{postal}'.")
+        return
+    county_map = json.loads(county_file.read_text())
+    items = sorted(county_map.items(), key=lambda kv: kv[0])
+    for article_title, code in items:
+        try:
+            if not code.startswith("county:"):
+                raise ValueError(f"Unexpected FIPS mapping value '{code}'")
+            digits = code.split(":", 1)[1]
+            if len(digits) != 5:
+                raise ValueError(f"Unexpected FIPS code format '{code}'")
+            state_fips = digits[:2]
+            county_fips = digits[2:]
+            process_single_article(
+                article_title.replace(" ", "_"),
+                state_fips,
+                county_fips,
+                args,
+                client,
+                use_mini_prompt,
+            )
+        except Exception as exc:
+            print(f"Failed to update '{article_title}': {exc}")
+
+
 def parse_arguments():
     parser = argparse.ArgumentParser(
         description="Update a county article with 2020 census demographics."
+    )
+    parser.add_argument(
+        "--state-postal",
+        help="Process all counties in a state by postal code (e.g., OK).",
     )
     parser.add_argument(
         "--location",
@@ -174,13 +262,15 @@ def parse_arguments():
     )
     args = parser.parse_args()
     has_manual_inputs = args.article and args.state_fips and args.county_fips
-    if not args.location and not has_manual_inputs:
-        parser.error(
-            "Either provide --location or specify --article, --state-fips, and --county-fips."
-        )
-    if args.skip_location_parsing and not has_manual_inputs:
+    if args.state_postal and args.article:
+        parser.error("--state-postal cannot be combined with --article.")
+    if args.skip_location_parsing and not has_manual_inputs and not args.state_postal:
         parser.error(
             "--skip-location-parsing requires --article, --state-fips, and --county-fips."
+        )
+    if not args.location and not has_manual_inputs and not args.state_postal:
+        parser.error(
+            "Provide --location, --state-postal, or specify --article, --state-fips, and --county-fips."
         )
     return args
 
@@ -346,10 +436,12 @@ class WikipediaClient:
             'token': token,
             'format': 'json',
             'assert': 'user',
-            'maxlag': '5'
+            'maxlag': '5',
         }
         response = self._post(payload)
-        return response.json()
+        result = response.json()
+        log_edit_article(title, result)
+        return result
 
     def compare_revision_sizes(self, old_revision_id, new_revision_id):
         """
@@ -405,6 +497,13 @@ def main():
     active_model = os.getenv("CODEX_MODEL", DEFAULT_CODEX_MODEL)
     use_mini_prompt = active_model == "gpt-5.1-codex-mini"
 
+    client = WikipediaClient(WP_BOT_USER_AGENT)
+    client.login(WP_BOT_USER_NAME, WP_BOT_PASSWORD)
+
+    if args.state_postal:
+        process_state_batch(args.state_postal, client, args, use_mini_prompt)
+        return
+
     if args.location and not args.skip_location_parsing:
         try:
             article_title, state_fips, county_fips = derive_inputs_from_location(args.location)
@@ -421,53 +520,15 @@ def main():
             print(f"FIPS validation failed: {exc}")
             return
         article_title = args.article.replace(" ", "_")
-    ensure_us_location_title(article_title)
 
-    client = WikipediaClient(WP_BOT_USER_AGENT)
-    client.login(WP_BOT_USER_NAME, WP_BOT_PASSWORD)
-
-    page_wikitext = client.fetch_article_wikitext(article_title)
-    parsed_article = ParsedWikitext(wikitext=page_wikitext)
-    demographics_section_info = find_demographics_section(parsed_article)
-    proposed_text = generate_county_paragraphs(state_fips, county_fips)
-    print(proposed_text)
-
-    should_update = True
-    if not args.skip_should_update_check:
-        should_update = check_if_update_needed(page_wikitext, proposed_text)
-
-    if not should_update:
-        print("No updates are necessary; skipping edit.")
-        return
-
-    updated_article = None
-    if demographics_section_info:
-        section_index, section_entry = demographics_section_info
-        current_demographics = demographics_section_to_wikitext(section_entry)
-        try:
-            new_demographics_section = update_demographics_section(
-                current_demographics,
-                proposed_text,
-                mini=use_mini_prompt,
-            )
-            updated_parsed_article = apply_demographics_section_override(
-                parsed_article,
-                section_index,
-                new_demographics_section,
-            )
-            updated_article = updated_parsed_article.to_wikitext()
-        except Exception as exc:
-            print(
-                f"Demographics-only update failed ({exc}); falling back to full article update."
-            )
-    if updated_article is None:
-        updated_article = update_wp_page(page_wikitext, proposed_text)
-    result = client.edit_article_wikitext(
+    process_single_article(
         article_title,
-        updated_article,
-        "Add 2020 census data",
+        state_fips,
+        county_fips,
+        args,
+        client,
+        use_mini_prompt,
     )
-    pprint(result)
 
 
 if __name__ == '__main__':
