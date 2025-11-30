@@ -11,7 +11,7 @@ from poster import (
     ensure_us_location_title,
     parse_arguments,
 )
-from parser import ParsedWikitext
+from parser.parser import ParsedWikitext
 
 
 class DemographicsSectionHelperTests(unittest.TestCase):

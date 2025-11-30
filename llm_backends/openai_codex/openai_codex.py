@@ -96,6 +96,8 @@ Make sure that headings in the Demographics section are in chronological order (
 
 Ensure that any "US Census population" table is right aligned.
 
+If an article has a 2020 “Vintage” or other pre-census estimate for a specific datapoint, remove that estimate (and its citation) when you also insert an official 2020 decennial census value for the same datapoint; if no official 2020 census replacement exists for that datapoint, leave the estimate as is.
+
 Write only the updated demographics and related census sections to codex_out/out.txt (no commentary).
 """
     MINI_PROMPT = """
@@ -110,8 +112,6 @@ If an article has a pre-2020 estimate for a specific datapoint and the new text 
 Prefer the phrasing "As of the [[2020 United States census|2020 census]]" when referencing official census counts. Ensure every new or modified sentence retains or adds appropriate references.
 
 Make sure that headings in the Demographics section are in chronological order ("2020 census" should come above "2010 census"; if there is a "2021 estimates" section is should come above "2020 census")
-
-Ensure that any "US Census population" table is right aligned.
 
 If you modify any tags like </small> or <br>, make sure the outcome is valid (eg. "</small)" is not okay)
 

@@ -14,7 +14,7 @@ from llm_backends.openai_codex.openai_codex import (
     update_demographics_section,
     update_wp_page,
 )
-from parser import ParsedWikitext
+from parser.parser import ParsedWikitext, fix_demographics_section_in_article
 
 BASE_DIR = Path(__file__).resolve().parent
 WIKIPEDIA_ENDPOINT = "https://en.wikipedia.org/w/api.php"
@@ -181,6 +181,9 @@ def process_single_article(
             )
     if updated_article is None:
         updated_article = update_wp_page(page_wikitext, proposed_text)
+
+    if not args.skip_deterministic_fixes:
+        updated_article = fix_demographics_section_in_article(updated_article)
     result = client.edit_article_wikitext(
         article_title,
         updated_article,
@@ -259,6 +262,11 @@ def parse_arguments():
         "--skip-should-update-check",
         action="store_true",
         help="Skip the Codex-based update check and always apply the update.",
+    )
+    parser.add_argument(
+        "--skip-deterministic-fixes",
+        action="store_true",
+        help="Skip deterministic cleanup of the demographics section.",
     )
     args = parser.parse_args()
     has_manual_inputs = args.article and args.state_fips and args.county_fips
