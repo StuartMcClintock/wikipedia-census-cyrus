@@ -111,8 +111,6 @@ If an article has a pre-2020 estimate for a specific datapoint and the new text 
 
 Prefer the phrasing "As of the [[2020 United States census|2020 census]]" when referencing official census counts. Ensure every new or modified sentence retains or adds appropriate references.
 
-Make sure that headings in the Demographics section are in chronological order ("2020 census" should come above "2010 census"; if there is a "2021 estimates" section is should come above "2020 census")
-
 If you modify any tags like </small> or <br>, make sure the outcome is valid (eg. "</small)" is not okay)
 
 When you insert the new text, please make sure the original tags that give the actual api source are not dropped. DO NOT USE <ref name="Census2020DP"/> OR <ref name="Census2020PL"/> WITHOUT ACTUALLY DEFINING IT FIRST!!
