@@ -105,13 +105,15 @@ current_demographics_section.txt contains the current text for the demographics 
 
 new_text.txt contains proposed new text you must add to this demographics section. It is composed entirely of data from the 2020 US Census.
 
-If the existing demographics section contains any 2020 Census information that is missing from the new text, insert those sentences into the new text in a logical location. Remove redundant information so each datapoint is stated once. If needed, reorganize or reheader census-era content (e.g., add ===2000 census=== or ===2010 census===) so the chronology is clear, but do not alter the factual content of older census sections.
+If the existing demographics section contains any 2020 Census information that is missing from the new text, insert those sentences into the new text in a logical location. Remove redundant information so each datapoint is stated once.
 
 If an article has a pre-2020 estimate for a specific datapoint and the new text includes the official 2020 decennial value for that same datapoint, remove the estimate and any associated references so only the official 2020 figure remains. If there is no official 2020 replacement for that datapoint, leave the estimate untouched.
 
 Prefer the phrasing "As of the [[2020 United States census|2020 census]]" when referencing official census counts. Ensure every new or modified sentence retains or adds appropriate references.
 
 If you modify any tags like </small> or <br>, make sure the outcome is valid (eg. "</small)" is not okay)
+
+You do not need to delete data that does not come from a decennial census as long as it is appropriately cited - but make sure it has an appropriately descriptive H3 header.
 
 When you insert the new text, please make sure the original tags that give the actual api source are not dropped. DO NOT USE <ref name="Census2020DP"/> OR <ref name="Census2020PL"/> WITHOUT ACTUALLY DEFINING IT FIRST!!
 
