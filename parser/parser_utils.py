@@ -7,6 +7,11 @@ import re
 
 ALIGN_FIELD_RE = re.compile(r"(\|\s*align\s*=\s*)([^\n|}]*)", re.IGNORECASE)
 ALIGN_FN_FIELD_RE = re.compile(r"(\|\s*align-fn\s*=\s*)([^\n|}]*)", re.IGNORECASE)
+GENERAL_HEADING_RE = re.compile(r"^={2,6}.*=+\s*$", re.MULTILINE)
+CENSUS_HEADING_RE = re.compile(
+    r"^(?P<equals>={3,})\s*(?P<year>20(?:20|10|00))\s+census\s*(?P=equals)\s*$",
+    re.IGNORECASE | re.MULTILINE,
+)
 
 
 def _find_template_end(text: str, start_index: int) -> int:
@@ -95,3 +100,40 @@ def fix_us_census_population_align(wikitext: str) -> str:
         cursor = end
 
     return "".join(parts)
+
+
+def fix_census_section_order(wikitext: str) -> str:
+    """
+    Reorder census sections to ensure 2020, then 2010, then 2000 census.
+    """
+    matches = list(CENSUS_HEADING_RE.finditer(wikitext))
+    if len(matches) < 2:
+        return wikitext
+
+    heading_positions = sorted(m.start() for m in GENERAL_HEADING_RE.finditer(wikitext))
+    heading_positions.append(len(wikitext))
+
+    sections = []
+    for match in matches:
+        start = match.start()
+        end_candidates = [pos for pos in heading_positions if pos > start]
+        end = end_candidates[0] if end_candidates else len(wikitext)
+        year = match.group("year")
+        sections.append((start, end, year, wikitext[start:end]))
+
+    sections.sort(key=lambda item: item[0])
+    current_order = [year for _, _, year, _ in sections]
+    desired_years = ["2020", "2010", "2000"]
+    desired_order = [year for year in desired_years if year in current_order]
+    if current_order == desired_order:
+        return wikitext
+
+    section_by_year = {year: text for _, _, year, text in sections}
+    first_start = sections[0][0]
+    last_end = sections[-1][1]
+
+    prefix = wikitext[:first_start]
+    suffix = wikitext[last_end:]
+    reordered = "".join(section_by_year[year] for year in desired_order)
+
+    return prefix + reordered + suffix

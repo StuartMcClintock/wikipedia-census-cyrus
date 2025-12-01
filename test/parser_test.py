@@ -113,6 +113,19 @@ class FixDemographicsSectionTests(unittest.TestCase):
             article,
         )
 
+    def test_reorders_census_subsections(self):
+        article = """==Demographics==
+===2010 census===
+2010 data
+===2020 census===
+2020 data
+===2000 census===
+2000 data
+"""
+        fixed = fix_demographics_section_in_article(article)
+        self.assertLess(fixed.find("===2020 census==="), fixed.find("===2010 census==="))
+        self.assertLess(fixed.find("===2010 census==="), fixed.find("===2000 census==="))
+
 
 if __name__ == "__main__":
     unittest.main()

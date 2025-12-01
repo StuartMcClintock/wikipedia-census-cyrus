@@ -1,7 +1,10 @@
 import copy
 import re
 
-from .parser_utils import fix_us_census_population_align
+from .parser_utils import (
+    fix_census_section_order,
+    fix_us_census_population_align,
+)
 
 
 class ParsedWikitext:
@@ -245,7 +248,10 @@ def fix_demographics_section_wikitext(section_wikitext: str) -> str:
     """
     Apply deterministic fixes to a demographics section wikitext block.
     """
-    fixes = [fix_us_census_population_align]
+    fixes = [
+        fix_us_census_population_align,
+        fix_census_section_order,
+    ]
     fixed = section_wikitext
     for func in fixes:
         fixed = func(fixed)
