@@ -20,11 +20,14 @@ def _read_codex_output() -> str:
     raise FileNotFoundError("codex_out/out.txt not found in any known location")
 
 
-def codex_exec(text: str) -> None:
+def codex_exec(text: str, suppress_out=True) -> None:
     model = os.getenv("CODEX_MODEL", DEFAULT_CODEX_MODEL)
     cmd = ["codex", "exec", "-m", model]
     cmd.append(text)
-    subprocess.run(cmd, cwd=BASE_DIR, check=True)
+    if suppress_out:
+        subprocess.run(cmd, cwd=BASE_DIR, check=True, stdout=subprocess.DEVNULL)
+    else:
+        subprocess.run(cmd, cwd=BASE_DIR, check=True)
 
 
 def check_if_update_needed(current_article: str, new_text: str) -> bool:
