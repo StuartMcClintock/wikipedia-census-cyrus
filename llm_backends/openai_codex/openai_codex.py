@@ -118,6 +118,8 @@ If you modify any tags like </small> or <br>, make sure the outcome is valid (eg
 
 You do not need to delete data that does not come from a decennial census as long as it is appropriately cited - but make sure it has an appropriately descriptive H3 header.
 
+Do not remove any data or sources from the "US Census population" table.
+
 When you insert the new text, please make sure the original tags that give the actual api source are not dropped. DO NOT USE <ref name="Census2020DP"/> OR <ref name="Census2020PL"/> WITHOUT ACTUALLY DEFINING IT FIRST!!
 
 BEFORE SAYING THAT THE TASK IS COMPLETE, PLEASE VALIDATE THAT THE ABOVE REFERENCE CHECK IS VALID. This is needed to avoid this type of error: "Cite error: The named reference Census2020DP was invoked but never defined"
