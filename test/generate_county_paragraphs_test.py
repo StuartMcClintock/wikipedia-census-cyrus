@@ -157,13 +157,13 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
         ):
             text = generate_county_paragraphs("12", "005")
 
-        self.assertIn("of which none were vacant", text)
+        self.assertIn("of which 0.0% were vacant", text)
         self.assertIn(
-            "Among occupied housing units, none were owner-occupied and 100.0% were renter-occupied.",
+            "Among occupied housing units, 0.0% were owner-occupied and 100.0% were renter-occupied.",
             text,
         )
         self.assertIn(
-            "The homeowner vacancy rate was none and the rental vacancy rate was none.",
+            "The homeowner vacancy rate was 0.0% and the rental vacancy rate was 0.0%.",
             text,
         )
 
