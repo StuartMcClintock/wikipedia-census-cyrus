@@ -8,11 +8,40 @@ Reference curl commands:
 
 import json
 import sys
+from pathlib import Path
 from typing import Dict, List, Tuple
 
 import requests
 
 from census_api.constants import DP_ENDPOINT, DP_FIELDS, PL_ENDPOINT, PL_FIELDS
+from census_api.fips_mappings.get_county_fips import NON_COUNTY_POSTALS
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+STATE_TO_FIPS_PATH = SCRIPT_DIR / "fips_mappings" / "state_to_fips.json"
+COUNTY_FIPS_DIR = SCRIPT_DIR / "fips_mappings" / "county_to_fips"
+
+
+def _postal_from_state_fips(state_fips: str) -> str:
+    data = json.loads(STATE_TO_FIPS_PATH.read_text())
+    for postal, code in data.items():
+        if code.split(":")[1] == state_fips:
+            return postal
+    return ""
+
+
+def _county_name_from_codes(state_fips: str, county_fips: str) -> str:
+    postal = _postal_from_state_fips(state_fips)
+    if not postal or postal in NON_COUNTY_POSTALS:
+        return ""
+    path = COUNTY_FIPS_DIR / f"{postal}.json"
+    if not path.exists():
+        return ""
+    mapping = json.loads(path.read_text())
+    target = f"county:{state_fips}{county_fips}"
+    for name, code in mapping.items():
+        if code == target:
+            return name
+    return ""
 
 
 def _fetch_table(endpoint: str, params: Dict[str, str]) -> Tuple[Dict[str, str], str]:
@@ -56,6 +85,8 @@ def get_demographic_variables(state_fips: str, county_fips: str) -> Dict[str, ob
     """Fetch PL and DP data and map into Wikipedia-style paragraph variables."""
     state = state_fips.zfill(2)
     county = county_fips.zfill(3)
+    county_name = _county_name_from_codes(state, county) or f"county:{state}{county}"
+    location_label = f"{county_name}"
 
     pl_params = {
         "get": PL_FIELDS,
@@ -68,9 +99,9 @@ def get_demographic_variables(state_fips: str, county_fips: str) -> Dict[str, ob
         "in": f"state:{state}",
     }
 
-    print("Fetching PL data...")
+    print(f"Fetching PL data for {location_label} (state {state}, county {county})...")
     pl, pl_url = _fetch_table(PL_ENDPOINT, pl_params)
-    print("Fetching DP data...")
+    print(f"Fetching DP data for {location_label} (state {state}, county {county})...")
     dp, dp_url = _fetch_table(DP_ENDPOINT, dp_params)
 
     total_population = int(pl["P1_001N"])
