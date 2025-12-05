@@ -25,12 +25,18 @@ def codex_exec(text: str, suppress_out=True) -> None:
     cmd = ["codex", "exec", "-m", model]
     cmd.append(text)
     if suppress_out:
-        subprocess.run(cmd, cwd=BASE_DIR, check=True, stdout=subprocess.DEVNULL)
+        subprocess.run(
+            cmd,
+            cwd=BASE_DIR,
+            check=True,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+        )
     else:
         subprocess.run(cmd, cwd=BASE_DIR, check=True)
 
 
-def check_if_update_needed(current_article: str, new_text: str) -> bool:
+def check_if_update_needed(current_article: str, new_text: str, suppress_out: bool = True) -> bool:
     _write_snapshot("full_current_wp_page.txt", current_article)
     _write_snapshot("new_text.txt", new_text)
     codex_exec(
@@ -43,14 +49,14 @@ Does new_text.txt contain any information that is not already contained in full_
 
 Be sure to not confuse the decade that a particular census fact is from; if there is already data for a field from 2010, the 2020 data for that field is considered different.
 """
-    )
+    , suppress_out=suppress_out)
     try:
         return _read_codex_output().strip() == "YES"
     except FileNotFoundError:
         return False
 
 
-def update_wp_page(current_article: str, new_text: str) -> str:
+def update_wp_page(current_article: str, new_text: str, suppress_out: bool = True) -> str:
     _write_snapshot("full_current_wp_page.txt", current_article)
     _write_snapshot("new_text.txt", new_text)
     codex_exec(
@@ -79,11 +85,13 @@ Make sure that headings in the Demographics section are in chronological order (
 
 Write the output to codex_out/out.txt. The output should contain the full text of the updated article and nothing that should not be in the updated article.
 """
-    )
+    , suppress_out=suppress_out)
     return _read_codex_output()
 
 
-def update_demographics_section(current_demographics_section: str, new_text: str, mini=True) -> str:
+def update_demographics_section(
+    current_demographics_section: str, new_text: str, mini=True, suppress_out: bool = True
+) -> str:
     MAX_PROMPT = """
 current_demographics_section.txt contains the current text for the demographics section of a Wikipedia article for a county or municipality in the United States.
 
@@ -120,6 +128,8 @@ You do not need to delete data that does not come from a decennial census as lon
 
 Do not remove any data or sources from the "US Census population" table.
 
+Do not remove hyperlinks from existing text.
+
 When you insert the new text, please make sure the original tags that give the actual api source are not dropped. DO NOT USE <ref name="Census2020DP"/> OR <ref name="Census2020PL"/> WITHOUT ACTUALLY DEFINING IT FIRST!!
 
 BEFORE SAYING THAT THE TASK IS COMPLETE, PLEASE VALIDATE THAT THE ABOVE REFERENCE CHECK IS VALID. This is needed to avoid this type of error: "Cite error: The named reference Census2020DP was invoked but never defined"
@@ -130,7 +140,7 @@ Write only the updated demographics and related census sections to codex_out/out
 
     _write_snapshot("current_demographics_section.txt", current_demographics_section)
     _write_snapshot("new_text.txt", new_text)
-    codex_exec(prompt)
+    codex_exec(prompt, suppress_out=suppress_out)
     return _read_codex_output()
 
 if __name__ == '__main__':

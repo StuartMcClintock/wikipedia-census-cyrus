@@ -149,11 +149,17 @@ def process_single_article(
     parsed_article = ParsedWikitext(wikitext=page_wikitext)
     demographics_section_info = find_demographics_section(parsed_article)
     proposed_text = generate_county_paragraphs(state_fips, county_fips)
-    print(proposed_text)
+    suppress_codex_out = not args.show_codex_output
 
     should_update = True
     if not args.skip_should_update_check:
-        should_update = check_if_update_needed(page_wikitext, proposed_text)
+        should_update = check_if_update_needed(
+            page_wikitext, proposed_text, suppress_out=suppress_codex_out
+        )
+        if not should_update:
+            print(
+                "Should-update check: page already contains proposed census text; skipping update."
+            )
 
     if not should_update:
         print(f"No updates are necessary for '{article_title}'; skipping edit.")
@@ -168,6 +174,7 @@ def process_single_article(
                 current_demographics,
                 proposed_text,
                 mini=use_mini_prompt,
+                suppress_out=suppress_codex_out,
             )
             updated_parsed_article = apply_demographics_section_override(
                 parsed_article,
@@ -180,7 +187,9 @@ def process_single_article(
                 f"Demographics-only update failed ({exc}); falling back to full article update."
             )
     if updated_article is None:
-        updated_article = update_wp_page(page_wikitext, proposed_text)
+        updated_article = update_wp_page(
+            page_wikitext, proposed_text, suppress_out=suppress_codex_out
+        )
 
     if not args.skip_deterministic_fixes:
         updated_article = fix_demographics_section_in_article(updated_article)
@@ -192,14 +201,17 @@ def process_single_article(
     pprint(result)
 
 
-def process_state_batch(state_postal: str, client, args, use_mini_prompt: bool):
+def process_state_batch(
+    state_postal: str, client, args, use_mini_prompt: bool, start_county_fips: str = None
+):
     postal = state_postal.strip().upper()
     county_file = COUNTY_FIPS_DIR / f"{postal}.json"
     if not county_file.exists():
         print(f"No county mapping found for state '{postal}'.")
         return
     county_map = json.loads(county_file.read_text())
-    items = sorted(county_map.items(), key=lambda kv: kv[0])
+    items = sorted(county_map.items(), key=lambda kv: kv[1])
+    start_threshold = start_county_fips.zfill(3) if start_county_fips else None
     for article_title, code in items:
         try:
             if not code.startswith("county:"):
@@ -209,6 +221,8 @@ def process_state_batch(state_postal: str, client, args, use_mini_prompt: bool):
                 raise ValueError(f"Unexpected FIPS code format '{code}'")
             state_fips = digits[:2]
             county_fips = digits[2:]
+            if start_threshold and county_fips < start_threshold:
+                continue
             process_single_article(
                 article_title.replace(" ", "_"),
                 state_fips,
@@ -259,6 +273,13 @@ def parse_arguments():
         help="Override the Codex model (default: gpt-5.1-codex-max).",
     )
     parser.add_argument(
+        "--start-county-fips",
+        help=(
+            "When used with --state-postal, start processing at this 3-digit county FIPS "
+            "code and continue upward (e.g., 003)."
+        ),
+    )
+    parser.add_argument(
         "--skip-should-update-check",
         action="store_true",
         help="Skip the Codex-based update check and always apply the update.",
@@ -268,6 +289,11 @@ def parse_arguments():
         action="store_true",
         help="Skip deterministic cleanup of the demographics section.",
     )
+    parser.add_argument(
+        "--show-codex-output",
+        action="store_true",
+        help="Display Codex output to stdout instead of suppressing it.",
+    )
     args = parser.parse_args()
     has_manual_inputs = args.article and args.state_fips and args.county_fips
     if args.state_postal and args.article:
@@ -276,6 +302,13 @@ def parse_arguments():
         parser.error(
             "--skip-location-parsing requires --article, --state-fips, and --county-fips."
         )
+    if args.start_county_fips and not args.state_postal:
+        parser.error("--start-county-fips can only be used with --state-postal.")
+    if args.start_county_fips:
+        if not args.start_county_fips.isdigit():
+            parser.error("--start-county-fips must be numeric (e.g., 003).")
+        if len(args.start_county_fips) > 3:
+            parser.error("--start-county-fips must be a 3-digit county code.")
     if not args.location and not has_manual_inputs and not args.state_postal:
         parser.error(
             "Provide --location, --state-postal, or specify --article, --state-fips, and --county-fips."
@@ -509,7 +542,13 @@ def main():
     client.login(WP_BOT_USER_NAME, WP_BOT_PASSWORD)
 
     if args.state_postal:
-        process_state_batch(args.state_postal, client, args, use_mini_prompt)
+        process_state_batch(
+            args.state_postal,
+            client,
+            args,
+            use_mini_prompt,
+            start_county_fips=args.start_county_fips,
+        )
         return
 
     if args.location and not args.skip_location_parsing:
