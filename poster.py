@@ -148,6 +148,7 @@ def process_single_article(
     page_wikitext = client.fetch_article_wikitext(article_title)
     parsed_article = ParsedWikitext(wikitext=page_wikitext)
     demographics_section_info = find_demographics_section(parsed_article)
+    original_demographics = None
     proposed_text = generate_county_paragraphs(state_fips, county_fips)
     suppress_codex_out = not args.show_codex_output
 
@@ -169,6 +170,7 @@ def process_single_article(
     if demographics_section_info:
         section_index, section_entry = demographics_section_info
         current_demographics = demographics_section_to_wikitext(section_entry)
+        original_demographics = current_demographics
         try:
             new_demographics_section = update_demographics_section(
                 current_demographics,
@@ -192,7 +194,10 @@ def process_single_article(
         )
 
     if not args.skip_deterministic_fixes:
-        updated_article = fix_demographics_section_in_article(updated_article)
+        updated_article = fix_demographics_section_in_article(
+            updated_article,
+            original_demographics_wikitext=original_demographics,
+        )
     result = client.edit_article_wikitext(
         article_title,
         updated_article,

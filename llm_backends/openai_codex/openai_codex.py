@@ -128,8 +128,6 @@ You do not need to delete data that does not come from a decennial census as lon
 
 Do not remove any data or sources from the "US Census population" table.
 
-Do NOT remove hyperlinks from existing text. For example, "[[population density]]" should not be changed to "population density"
-
 DO NOT rename "==Demographics==" or delete the "US Census population" table.
 
 When you insert the new text, please make sure the original tags that give the actual api source are not dropped. DO NOT USE <ref name="Census2020DP"/> OR <ref name="Census2020PL"/> WITHOUT ACTUALLY DEFINING IT FIRST!!

@@ -126,6 +126,19 @@ class FixDemographicsSectionTests(unittest.TestCase):
         self.assertLess(fixed.find("===2020 census==="), fixed.find("===2010 census==="))
         self.assertLess(fixed.find("===2010 census==="), fixed.find("===2000 census==="))
 
+    def test_restores_lost_links_from_original(self):
+        original = """==Demographics==
+As of the [[2020 United States census|2020 census]], the [[population density]] was recorded.
+"""
+        updated = """==Demographics==
+As of the 2020 census, the population density was recorded.
+"""
+        fixed = fix_demographics_section_in_article(
+            updated, original_demographics_wikitext=original
+        )
+        self.assertIn("[[population density]]", fixed)
+        self.assertIn("[[2020 United States census|2020 census]]", fixed)
+
 
 if __name__ == "__main__":
     unittest.main()

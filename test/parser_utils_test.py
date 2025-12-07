@@ -1,7 +1,10 @@
 import unittest
 
-from parser.parser_utils import fix_us_census_population_align
-from parser.parser_utils import fix_census_section_order
+from parser.parser_utils import (
+    fix_us_census_population_align,
+    fix_census_section_order,
+    restore_wikilinks_from_original,
+)
 
 
 class FixUSCensusPopulationAlignTests(unittest.TestCase):
@@ -79,6 +82,14 @@ Other text
 Other text
 """
         self.assertEqual(fixed, expected)
+
+
+class RestoreWikilinksFromOriginalTests(unittest.TestCase):
+    def test_restores_missing_links(self):
+        original = "The [[population density]] was recorded."
+        updated = "The population density was recorded."
+        fixed = restore_wikilinks_from_original(original, updated)
+        self.assertIn("[[population density]]", fixed)
 
 
 if __name__ == "__main__":
