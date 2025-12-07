@@ -4,6 +4,7 @@ import re
 from .parser_utils import (
     fix_census_section_order,
     fix_us_census_population_align,
+    restore_wikilinks_from_original,
 )
 
 
@@ -244,7 +245,9 @@ def _parse_wikitext(wikitext):
 _SECTION_SENTINELS = {"__lead__", "__content__"}
 
 
-def fix_demographics_section_wikitext(section_wikitext: str) -> str:
+def fix_demographics_section_wikitext(
+    section_wikitext: str, original_section_wikitext: str = None
+) -> str:
     """
     Apply deterministic fixes to a demographics section wikitext block.
     """
@@ -255,10 +258,14 @@ def fix_demographics_section_wikitext(section_wikitext: str) -> str:
     fixed = section_wikitext
     for func in fixes:
         fixed = func(fixed)
+    if original_section_wikitext:
+        fixed = restore_wikilinks_from_original(original_section_wikitext, fixed)
     return fixed
 
 
-def fix_demographics_section_in_article(article_wikitext: str) -> str:
+def fix_demographics_section_in_article(
+    article_wikitext: str, original_demographics_wikitext: str = None
+) -> str:
     """
     Locate the demographics section in an article wikitext and apply
     deterministic fixes, returning the updated article text.
@@ -271,7 +278,9 @@ def fix_demographics_section_in_article(article_wikitext: str) -> str:
             continue
 
         section_text = ParsedWikitext(sections=[entry]).to_wikitext()
-        fixed_section_text = fix_demographics_section_wikitext(section_text)
+        fixed_section_text = fix_demographics_section_wikitext(
+            section_text, original_section_wikitext=original_demographics_wikitext
+        )
 
         if fixed_section_text == section_text:
             return article_wikitext

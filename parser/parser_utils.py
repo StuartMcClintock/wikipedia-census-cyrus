@@ -12,6 +12,7 @@ CENSUS_HEADING_RE = re.compile(
     r"^(?P<equals>={3,})\s*(?P<year>20(?:20|10|00))\s+census\s*(?P=equals)\s*$",
     re.IGNORECASE | re.MULTILINE,
 )
+WIKILINK_RE = re.compile(r"\[\[([^\]|]+)(\|([^\]]+))?\]\]")
 
 
 def _find_template_end(text: str, start_index: int) -> int:
@@ -137,3 +138,29 @@ def fix_census_section_order(wikitext: str) -> str:
     reordered = "".join(section_by_year[year] for year in desired_order)
 
     return prefix + reordered + suffix
+
+
+def restore_wikilinks_from_original(original_text: str, updated_text: str) -> str:
+    """
+    Ensure that any display text that was linked in the original text remains linked.
+    """
+    link_entries = []
+    for match in WIKILINK_RE.finditer(original_text):
+        target = match.group(1).strip()
+        display = match.group(3).strip() if match.group(3) else target
+        if not target or not display:
+            continue
+        link_entries.append((display, match.group(0)))
+
+    fixed_text = updated_text
+    for display, link_markup in link_entries:
+        if display not in fixed_text:
+            continue
+        # Skip if already linked
+        if WIKILINK_RE.search(fixed_text) and re.search(r"\[\[[^\]]*?" + re.escape(display) + r"[^\]]*?\]\]", fixed_text):
+            continue
+        pattern = re.compile(r"(?<!\[\[)" + re.escape(display) + r"(?![^\[]*\]\])")
+        fixed_text, count = pattern.subn(link_markup, fixed_text, count=1)
+        if count == 0:
+            continue
+    return fixed_text
