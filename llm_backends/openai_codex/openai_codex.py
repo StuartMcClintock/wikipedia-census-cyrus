@@ -105,7 +105,7 @@ Prefer the phrasing "As of the [[2020 United States census|2020 census]]" when r
 
 Make sure that headings in the Demographics section are in chronological order ("2020 census" should come above "2010 census"; if there is a "2021 estimates" section is should come above "2020 census")
 
-Ensure that any "US Census population" table is right aligned.
+If you mix with existing content, do not remove the references for the existing data.
 
 If an article has a 2020 “Vintage” or other pre-census estimate for a specific datapoint, remove that estimate (and its citation) when you also insert an official 2020 decennial census value for the same datapoint; if no official 2020 census replacement exists for that datapoint, leave the estimate as is.
 
@@ -129,6 +129,10 @@ You do not need to delete data that does not come from a decennial census as lon
 Do not remove any data or sources from the "US Census population" table.
 
 DO NOT rename "==Demographics==" or delete the "US Census population" table.
+
+If you mix with existing content, do not remove the references for the existing data.
+
+If there is a table on race/ethnicity that contains up-to-date 2020 census information, DO NOT DELETE IT!
 
 When you insert the new text, please make sure the original tags that give the actual api source are not dropped. DO NOT USE <ref name="Census2020DP"/> OR <ref name="Census2020PL"/> WITHOUT ACTUALLY DEFINING IT FIRST!!
 

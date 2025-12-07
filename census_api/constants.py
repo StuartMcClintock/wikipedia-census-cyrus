@@ -4,6 +4,7 @@ Shared constants for Census API access and citation metadata.
 
 PL_ENDPOINT = "https://api.census.gov/data/2020/dec/pl"
 DP_ENDPOINT = "https://api.census.gov/data/2020/dec/dp"
+DHC_ENDPOINT = "https://api.census.gov/data/2020/dec/dhc"
 
 PL_FIELDS = (
     "NAME,P1_001N,P1_003N,P1_004N,P1_005N,P1_006N,"
@@ -17,6 +18,8 @@ DP_FIELDS = (
     "DP1_0147C,DP1_0148C,DP1_0149C,DP1_0156C,DP1_0157C,DP1_0158C,"
     "DP1_0159P,DP1_0160P"
 )
+
+DHC_FIELDS = "NAME,P2_002N,P2_003N"
 
 CITATION_SOURCES = {
     # Age
@@ -63,4 +66,39 @@ CITATION_SOURCES = {
     "total_households": ["dp"],
     "total_housing_units": ["dp"],
     "total_population": ["pl", "dp"],
+    "urban_population_percent": ["dhc"],
+    "rural_population_percent": ["dhc"],
+}
+
+CITATION_DETAILS = {
+    "dp": {
+        "name": "Census2020DP",
+        "template": (
+            "{{cite web|title=2020 Decennial Census Demographic Profile (DP1)|"
+            "url={url}|website=United States Census Bureau|"
+            "publisher=United States Census Bureau|year=2021|access-date="
+            "{access_date}|df=mdy}}"
+        ),
+        "default_url": DP_ENDPOINT,
+    },
+    "pl": {
+        "name": "Census2020PL",
+        "template": (
+            "{{cite web|title=2020 Decennial Census Redistricting Data (Public Law 94-171)|"
+            "url={url}|website=United States Census Bureau|"
+            "publisher=United States Census Bureau|year=2021|access-date="
+            "{access_date}|df=mdy}}"
+        ),
+        "default_url": PL_ENDPOINT,
+    },
+    "dhc": {
+        "name": "Census2020DHC",
+        "template": (
+            "{{cite web|title=2020 Decennial Census Demographic and Housing Characteristics (DHC)|"
+            "url={url}|website=United States Census Bureau|"
+            "publisher=United States Census Bureau|year=2023|access-date="
+            "{access_date}|df=mdy}}"
+        ),
+        "default_url": DHC_ENDPOINT,
+    },
 }

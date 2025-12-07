@@ -167,6 +167,32 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
             text,
         )
 
+    def test_includes_urban_rural_split_when_available(self):
+        data = {
+            "total_population": 1000,
+            "urban_population_percent": 60.0,
+            "rural_population_percent": 40.0,
+            "total_households": None,
+            "total_families": None,
+            "total_housing_units": None,
+            "_dp_source_url": "dp",
+            "_pl_source_url": "pl",
+            "_dhc_source_url": "dhc",
+        }
+
+        with patch(
+            "county.generate_county_paragraphs.get_demographic_variables",
+            return_value=data,
+        ):
+            text = generate_county_paragraphs("50", "003")
+
+        expected = (
+            "===2020 census===\n\n"
+            "As of the [[2020 United States census|2020 census]], the county had a population of 1,000. "
+            "60.0% of residents lived in urban areas and 40.0% lived in rural areas."
+        )
+        self.assertEqual(self._strip_refs(text), expected)
+
     @staticmethod
     def _strip_refs(text: str) -> str:
         return re.sub(r"<ref[^>]*>.*?</ref>|<ref[^>]*/>", "", text, flags=re.DOTALL)
