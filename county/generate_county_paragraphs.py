@@ -30,35 +30,15 @@ if str(ROOT) not in sys.path:
     sys.path.append(str(ROOT))
 
 from census_api.constants import (
+    CITATION_DETAILS,
     CITATION_SOURCES,
+    DHC_ENDPOINT,
     DP_ENDPOINT,
     PL_ENDPOINT,
 )
 from census_api.fetch_county_data import get_demographic_variables
 
 ACCESS_DATE = datetime.date.today().isoformat()
-CITATION_DETAILS = {
-    "dp": {
-        "name": "Census2020DP",
-        "template": (
-            "{{cite web|title=2020 Decennial Census Demographic Profile (DP1)|"
-            "url={url}|website=United States Census Bureau|"
-            "publisher=United States Census Bureau|year=2021|access-date="
-            f"{ACCESS_DATE}|df=mdy}}"
-        ),
-        "default_url": DP_ENDPOINT,
-    },
-    "pl": {
-        "name": "Census2020PL",
-        "template": (
-            "{{cite web|title=2020 Decennial Census Redistricting Data (Public Law 94-171)|"
-            "url={url}|website=United States Census Bureau|"
-            "publisher=United States Census Bureau|year=2021|access-date="
-            f"{ACCESS_DATE}|df=mdy}}"
-        ),
-        "default_url": PL_ENDPOINT,
-    },
-}
 
 LINK_REPLACEMENTS = [
     (
@@ -125,7 +105,9 @@ def _build_citation(
     for source in sorted(sources):
         detail = CITATION_DETAILS[source]
         url = source_urls.get(source) or detail["default_url"]
-        template = _ensure_template_closed(detail["template"]).replace("{url}", url)
+        template = _ensure_template_closed(
+            detail["template"].format(url=url, access_date=ACCESS_DATE)
+        )
         if source in seen_sources:
             parts.append(f'<ref name="{detail["name"]}"/>')
         else:
@@ -194,6 +176,19 @@ def _build_paragraph_one(data: Dict[str, object]) -> List[Tuple[str, Set[str]]]:
                 {"sex_ratio_18_plus_males_per_100_females"},
             )
         )
+
+    urban_pct = _format_percent(data.get("urban_population_percent"))
+    rural_pct = _format_percent(data.get("rural_population_percent"))
+    if urban_pct or rural_pct:
+        parts = []
+        keys: Set[str] = set()
+        if urban_pct:
+            parts.append(f"{urban_pct} of residents lived in urban areas")
+            keys.add("urban_population_percent")
+        if rural_pct:
+            parts.append(f"{rural_pct} lived in rural areas")
+            keys.add("rural_population_percent")
+        sentences.append((" and ".join(parts) + ".", keys))
 
     return sentences
 
@@ -380,6 +375,7 @@ def generate_county_paragraphs(state_fips: str, county_fips: str) -> str:
     source_urls = {
         "dp": data.get("_dp_source_url"),
         "pl": data.get("_pl_source_url"),
+        "dhc": data.get("_dhc_source_url"),
     }
     paragraph_builders = [
         _build_paragraph_one(data),

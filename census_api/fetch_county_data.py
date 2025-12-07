@@ -13,7 +13,14 @@ from typing import Dict, List, Tuple
 
 import requests
 
-from census_api.constants import DP_ENDPOINT, DP_FIELDS, PL_ENDPOINT, PL_FIELDS
+from census_api.constants import (
+    DHC_ENDPOINT,
+    DHC_FIELDS,
+    DP_ENDPOINT,
+    DP_FIELDS,
+    PL_ENDPOINT,
+    PL_FIELDS,
+)
 from census_api.fips_mappings.get_county_fips import NON_COUNTY_POSTALS
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -98,11 +105,18 @@ def get_demographic_variables(state_fips: str, county_fips: str) -> Dict[str, ob
         "for": f"county:{county}",
         "in": f"state:{state}",
     }
+    dhc_params = {
+        "get": DHC_FIELDS,
+        "for": f"county:{county}",
+        "in": f"state:{state}",
+    }
 
     print(f"Fetching PL data for {location_label} (state {state}, county {county})...")
     pl, pl_url = _fetch_table(PL_ENDPOINT, pl_params)
     print(f"Fetching DP data for {location_label} (state {state}, county {county})...")
     dp, dp_url = _fetch_table(DP_ENDPOINT, dp_params)
+    print(f"Fetching DHC data for {location_label} (state {state}, county {county})...")
+    dhc, dhc_url = _fetch_table(DHC_ENDPOINT, dhc_params)
 
     total_population = int(pl["P1_001N"])
     total_housing_units = (
@@ -138,6 +152,11 @@ def get_demographic_variables(state_fips: str, county_fips: str) -> Dict[str, ob
     sex_female_total = int(dp["DP1_0049C"])
     sex_male_18 = int(dp["DP1_0045C"])
     sex_female_18 = int(dp["DP1_0069C"])
+
+    urban_count = _safe_float(dhc, "P2_002N")
+    rural_count = _safe_float(dhc, "P2_003N")
+    urban_pct = _pct(int(urban_count), total_population) if urban_count is not None else None
+    rural_pct = _pct(int(rural_count), total_population) if rural_count is not None else None
 
     result = {
         "total_population": total_population,
@@ -183,6 +202,8 @@ def get_demographic_variables(state_fips: str, county_fips: str) -> Dict[str, ob
         "vacant_units_percent": vacant_units_percent,
         "homeowner_vacancy_rate_percent": homeowner_vacancy_rate,
         "rental_vacancy_rate_percent": rental_vacancy_rate,
+        "urban_population_percent": urban_pct,
+        "rural_population_percent": rural_pct,
         "group_quarters_percent": group_quarters_percent,
         "institutional_group_quarters_percent": institutional_group_quarters_percent,
         "noninstitutional_group_quarters_percent": noninstitutional_group_quarters_percent,
@@ -190,6 +211,7 @@ def get_demographic_variables(state_fips: str, county_fips: str) -> Dict[str, ob
 
     result["_pl_source_url"] = pl_url
     result["_dp_source_url"] = dp_url
+    result["_dhc_source_url"] = dhc_url
 
     return result
 
