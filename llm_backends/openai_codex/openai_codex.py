@@ -134,6 +134,8 @@ If you mix with existing content, do not remove the references for the existing 
 
 If there is a table on race/ethnicity that contains up-to-date 2020 census information, DO NOT DELETE IT!
 
+If there is 2010 or 2000 census data that doesn't have an appropriate H3 heading above it, add "===2010 census===" or "===2000 census===" above it respectively
+
 When you insert the new text, please make sure the original tags that give the actual api source are not dropped. DO NOT USE <ref name="Census2020DP"/> OR <ref name="Census2020PL"/> WITHOUT ACTUALLY DEFINING IT FIRST!!
 
 BEFORE SAYING THAT THE TASK IS COMPLETE, PLEASE VALIDATE THAT THE ABOVE REFERENCE CHECK IS VALID. This is needed to avoid this type of error: "Cite error: The named reference Census2020DP was invoked but never defined"

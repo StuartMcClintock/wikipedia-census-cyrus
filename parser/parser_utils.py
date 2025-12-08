@@ -13,6 +13,41 @@ CENSUS_HEADING_RE = re.compile(
     re.IGNORECASE | re.MULTILINE,
 )
 WIKILINK_RE = re.compile(r"\[\[([^\]|]+)(\|([^\]]+))?\]\]")
+REF_CITE_RE = re.compile(r"(<ref[^>]*>)(.*?)(</ref>)", re.IGNORECASE | re.DOTALL)
+REF_LEADING_WS_RE = re.compile(r"(\s+)(<ref[^>]*>)", re.IGNORECASE)
+CITATION_PARAM_RE = re.compile(r"(?:^|\|)\s*[A-Za-z0-9_-]+\s*=")
+CITATION_SHORT_NAMES = {
+    "sfn",
+    "sfnp",
+    "sfnm",
+    "sfnmp",
+    "harv",
+    "harvnb",
+    "harvp",
+    "harvc",
+    "harvtxt",
+    "r",
+}
+
+
+def _count_leading_chars(text: str, char: str) -> int:
+    count = 0
+    for current in text:
+        if current == char:
+            count += 1
+        else:
+            break
+    return count
+
+
+def _count_trailing_chars(text: str, char: str) -> int:
+    count = 0
+    for current in reversed(text):
+        if current == char:
+            count += 1
+        else:
+            break
+    return count
 
 
 def _find_template_end(text: str, start_index: int) -> int:
@@ -164,3 +199,169 @@ def restore_wikilinks_from_original(original_text: str, updated_text: str) -> st
         if count == 0:
             continue
     return fixed_text
+
+
+def normalize_ref_citation_braces(wikitext: str) -> str:
+    """
+    Ensure citations inside <ref>...</ref> are wrapped with exactly '{{' and '}}'.
+    """
+    return enforce_ref_citation_template_braces(wikitext)
+
+
+def _looks_like_citation_template(content: str) -> bool:
+    """
+    Return True when the provided template content resembles a citation template call.
+    """
+    text = content.strip()
+    if not text or "|" not in text:
+        return False
+
+    name, rest = text.split("|", 1)
+    name = name.strip().lstrip("{").rstrip("}")
+    lowered = name.lower()
+
+    if lowered.startswith("cite") or lowered.startswith("citation"):
+        return True
+    if lowered in CITATION_SHORT_NAMES:
+        return True
+
+    if CITATION_PARAM_RE.search(rest) and re.match(r"[A-Za-z][A-Za-z0-9_-]*$", name):
+        return True
+
+    return False
+
+
+def enforce_ref_citation_template_braces(wikitext: str) -> str:
+    """
+    Normalize <ref>...</ref> blocks so citation templates use '{{' and '}}' at the edges.
+    """
+
+    def normalize_ref(match: re.Match) -> str:
+        open_tag, body, close_tag = match.groups()
+        stripped_body = body.strip()
+        if not stripped_body:
+            return match.group(0)
+
+        leading_ws = body[: len(body) - len(body.lstrip())]
+        trailing_ws = body[len(body.rstrip()) :]
+
+        leading_braces = _count_leading_chars(stripped_body, "{")
+        trailing_braces = _count_trailing_chars(stripped_body, "}")
+
+        # Skip complex cases to avoid breaking nested or intentional constructs.
+        if leading_braces > 3:
+            return match.group(0)
+
+        if stripped_body.startswith("{{"):
+            template_end = _find_template_end(stripped_body, 0)
+            suffix = stripped_body[template_end:].strip() if template_end != -1 else ""
+
+            # Avoid touching refs where the template is followed by other text.
+            if suffix and any(char != "}" for char in suffix):
+                return match.group(0)
+
+            if template_end == len(stripped_body) and leading_braces == 2:
+                inner = stripped_body[2:-2]
+                if _looks_like_citation_template(inner):
+                    return match.group(0)
+
+            if template_end != -1:
+                inner = stripped_body[2 : template_end - 2]
+            else:
+                simulated = stripped_body + "}}"
+                simulated_end = _find_template_end(simulated, 0)
+                if simulated_end != -1:
+                    inner = simulated[2 : simulated_end - 2]
+                else:
+                    inner = stripped_body[2:]
+
+            extra_leading = max(0, leading_braces - 2)
+            if extra_leading:
+                inner = inner[extra_leading:]
+
+            if not _looks_like_citation_template(inner):
+                return match.group(0)
+
+            normalized_inner = inner.strip()
+            return f"{open_tag}{leading_ws}{{{{{normalized_inner}}}}}{trailing_ws}{close_tag}"
+
+        if stripped_body.startswith("{"):
+            inner = stripped_body[1:] if stripped_body.startswith("{") else stripped_body
+            if inner.endswith("}"):
+                inner = inner[:-1]
+            if not _looks_like_citation_template(inner):
+                return match.group(0)
+            normalized_inner = inner.strip()
+            return f"{open_tag}{leading_ws}{{{{{normalized_inner}}}}}{trailing_ws}{close_tag}"
+
+        if not _looks_like_citation_template(stripped_body):
+            return match.group(0)
+
+        normalized_inner = stripped_body.strip()
+        return f"{open_tag}{leading_ws}{{{{{normalized_inner}}}}}{trailing_ws}{close_tag}"
+
+    return REF_CITE_RE.sub(normalize_ref, wikitext)
+
+
+def strip_whitespace_before_refs(wikitext: str) -> str:
+    """
+    Remove whitespace immediately preceding <ref> tags.
+    """
+    return REF_LEADING_WS_RE.sub(r"\2", wikitext)
+
+
+def _is_citation_body(body: str) -> bool:
+    """
+    Return True when the ref body appears to be a citation template invocation.
+    """
+    candidate = body.strip()
+    if not candidate:
+        return False
+
+    while candidate.startswith("{"):
+        candidate = candidate[1:]
+    while candidate.endswith("}"):
+        candidate = candidate[:-1]
+    candidate = candidate.strip()
+
+    if not candidate:
+        return False
+
+    return _looks_like_citation_template(candidate)
+
+
+def strip_whitespace_before_citation_refs(wikitext: str) -> str:
+    """
+    Remove whitespace (spaces, tabs, newlines) immediately before citation refs only.
+    """
+    if "<ref" not in wikitext:
+        return wikitext
+
+    parts = []
+    cursor = 0
+
+    for match in REF_CITE_RE.finditer(wikitext):
+        open_start = match.start(1)
+        end = match.end(0)
+        body = match.group(2)
+
+        replaced = False
+        if _is_citation_body(body):
+            block_start = open_start
+            while block_start > cursor and wikitext[block_start - 1].isspace():
+                block_start -= 1
+
+            if block_start != open_start and wikitext[:block_start].strip():
+                parts.append(wikitext[cursor:block_start])
+                parts.append(wikitext[open_start:end])
+                cursor = end
+                replaced = True
+
+        if replaced:
+            continue
+
+        parts.append(wikitext[cursor:end])
+        cursor = end
+
+    parts.append(wikitext[cursor:])
+    return "".join(parts)
