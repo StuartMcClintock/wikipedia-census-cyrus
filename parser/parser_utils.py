@@ -286,12 +286,22 @@ def enforce_ref_citation_template_braces(wikitext: str) -> str:
             return f"{open_tag}{leading_ws}{{{{{normalized_inner}}}}}{trailing_ws}{close_tag}"
 
         if stripped_body.startswith("{"):
-            inner = stripped_body[1:] if stripped_body.startswith("{") else stripped_body
-            if inner.endswith("}"):
-                inner = inner[:-1]
+            simulated = "{" + stripped_body  # add the missing opening brace
+            simulated_end = _find_template_end(simulated, 0)
+            suffix = simulated[simulated_end:].strip() if simulated_end != -1 else ""
+
+            if suffix and any(char != "}" for char in suffix):
+                return match.group(0)
+
+            if simulated_end != -1:
+                inner = simulated[2 : simulated_end - 2]
+            else:
+                inner = stripped_body.lstrip("{").rstrip("}")
+
             if not _looks_like_citation_template(inner):
                 return match.group(0)
-            normalized_inner = inner.strip()
+
+            normalized_inner = inner.strip().lstrip("{").rstrip("}")
             return f"{open_tag}{leading_ws}{{{{{normalized_inner}}}}}{trailing_ws}{close_tag}"
 
         if not _looks_like_citation_template(stripped_body):

@@ -90,6 +90,7 @@ _US_LOCATION_SUFFIXES = {
 }
 
 _SECTION_SENTINELS = {"__lead__", "__content__"}
+_DISABLE_RETRY_ENV = "DISABLE_COUNTY_RETRIES"
 
 
 def find_demographics_section(parsed_article: ParsedWikitext):
@@ -103,6 +104,20 @@ def find_demographics_section(parsed_article: ParsedWikitext):
         if heading == "Demographics":
             return index, entry
     return None
+
+
+def _county_retry_enabled(args) -> bool:
+    """
+    Return True when automatic retry for county updates is enabled.
+    Default is enabled; can be disabled via CLI or env flag.
+    """
+    env_disabled = os.getenv(_DISABLE_RETRY_ENV, "").strip().lower() in {
+        "1",
+        "true",
+        "yes",
+        "on",
+    }
+    return not env_disabled and not getattr(args, "disable_county_retries", False)
 
 
 def demographics_section_to_wikitext(section_entry):
@@ -206,6 +221,43 @@ def process_single_article(
     pprint(result)
 
 
+def process_single_article_with_retries(
+    article_title: str,
+    state_fips: str,
+    county_fips: str,
+    args,
+    client,
+    use_mini_prompt: bool,
+):
+    """
+    Attempt to process a county article, retrying up to 3 times by default.
+    """
+    max_attempts = 3 if _county_retry_enabled(args) else 1
+    attempt = 0
+    while attempt < max_attempts:
+        attempt += 1
+        try:
+            process_single_article(
+                article_title,
+                state_fips,
+                county_fips,
+                args,
+                client,
+                use_mini_prompt,
+            )
+            return
+        except Exception as exc:
+            display_title = article_title.replace("_", " ")
+            if attempt < max_attempts:
+                print(
+                    f"Attempt {attempt} for '{display_title}' failed ({exc}); retrying..."
+                )
+            else:
+                print(
+                    f"Failed to update '{display_title}' after {attempt} attempts: {exc}"
+                )
+
+
 def process_state_batch(
     state_postal: str, client, args, use_mini_prompt: bool, start_county_fips: str = None
 ):
@@ -228,7 +280,7 @@ def process_state_batch(
             county_fips = digits[2:]
             if start_threshold and county_fips < start_threshold:
                 continue
-            process_single_article(
+            process_single_article_with_retries(
                 article_title.replace(" ", "_"),
                 state_fips,
                 county_fips,
@@ -298,6 +350,14 @@ def parse_arguments():
         "--show-codex-output",
         action="store_true",
         help="Display Codex output to stdout instead of suppressing it.",
+    )
+    parser.add_argument(
+        "--disable-county-retries",
+        action="store_true",
+        help=(
+            "Disable automatic per-county retry (default: up to 3 attempts per county; "
+            f"can also disable via ${_DISABLE_RETRY_ENV})."
+        ),
     )
     args = parser.parse_args()
     has_manual_inputs = args.article and args.state_fips and args.county_fips
@@ -573,7 +633,7 @@ def main():
             return
         article_title = args.article.replace(" ", "_")
 
-    process_single_article(
+    process_single_article_with_retries(
         article_title,
         state_fips,
         county_fips,
