@@ -17,6 +17,7 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
             "race_black_percent": 20.0,
             "race_aian_percent": 5.0,
             "race_asian_percent": 10.0,
+            "race_nhpi_percent": 1.0,
             "race_some_other_percent": 3.0,
             "race_two_or_more_percent": 2.0,
             "hispanic_any_race_percent": 8.5,
@@ -63,7 +64,8 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
             (
                 "The racial makeup of the county was 60.0% White, 20.0% [[African Americans|Black or African American]], "
                 "5.0% [[Native Americans in the United States|American Indian and Alaska Native]], 10.0% [[Asian Americans|Asian]], "
-                "3.0% from some other race, and 2.0% from [[Multiracial Americans|two or more races]]. "
+                "1.0% [[Native Hawaiians|Native Hawaiian]] and [[Pacific Islander|Pacific Islander]], 3.0% from some other race, "
+                "and 2.0% from [[Multiracial Americans|two or more races]]. "
                 "[[Hispanic and Latino Americans|Hispanic or Latino]] residents of any race comprised 8.5% of the population."
             ),
             (
