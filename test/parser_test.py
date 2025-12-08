@@ -146,6 +146,14 @@ Population data<ref>{Cite web|title=Test}</ref>
         fixed = fix_demographics_section_in_article(article)
         self.assertIn("<ref>{{Cite web|title=Test}}</ref>", fixed)
 
+    def test_strips_whitespace_before_citation_refs_in_demographics(self):
+        article = """==Demographics==
+Population data  
+<ref>{{Cite web|title=Test}}</ref>
+"""
+        fixed = fix_demographics_section_in_article(article)
+        self.assertIn("Population data<ref>{{Cite web|title=Test}}</ref>", fixed)
+
 
 if __name__ == "__main__":
     unittest.main()

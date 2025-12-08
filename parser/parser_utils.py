@@ -308,3 +308,60 @@ def strip_whitespace_before_refs(wikitext: str) -> str:
     Remove whitespace immediately preceding <ref> tags.
     """
     return REF_LEADING_WS_RE.sub(r"\2", wikitext)
+
+
+def _is_citation_body(body: str) -> bool:
+    """
+    Return True when the ref body appears to be a citation template invocation.
+    """
+    candidate = body.strip()
+    if not candidate:
+        return False
+
+    while candidate.startswith("{"):
+        candidate = candidate[1:]
+    while candidate.endswith("}"):
+        candidate = candidate[:-1]
+    candidate = candidate.strip()
+
+    if not candidate:
+        return False
+
+    return _looks_like_citation_template(candidate)
+
+
+def strip_whitespace_before_citation_refs(wikitext: str) -> str:
+    """
+    Remove whitespace (spaces, tabs, newlines) immediately before citation refs only.
+    """
+    if "<ref" not in wikitext:
+        return wikitext
+
+    parts = []
+    cursor = 0
+
+    for match in REF_CITE_RE.finditer(wikitext):
+        open_start = match.start(1)
+        end = match.end(0)
+        body = match.group(2)
+
+        replaced = False
+        if _is_citation_body(body):
+            block_start = open_start
+            while block_start > cursor and wikitext[block_start - 1].isspace():
+                block_start -= 1
+
+            if block_start != open_start and wikitext[:block_start].strip():
+                parts.append(wikitext[cursor:block_start])
+                parts.append(wikitext[open_start:end])
+                cursor = end
+                replaced = True
+
+        if replaced:
+            continue
+
+        parts.append(wikitext[cursor:end])
+        cursor = end
+
+    parts.append(wikitext[cursor:])
+    return "".join(parts)

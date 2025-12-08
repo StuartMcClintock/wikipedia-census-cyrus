@@ -5,6 +5,7 @@ from parser.parser_utils import (
     fix_census_section_order,
     restore_wikilinks_from_original,
     enforce_ref_citation_template_braces,
+    strip_whitespace_before_citation_refs,
     strip_whitespace_before_refs,
 )
 
@@ -134,6 +135,33 @@ class EnforceRefCitationTemplateBracesTests(unittest.TestCase):
         wikitext = "<ref>{{Cite web|quote={{lang|fr|bonjour}}}}}</ref>"
         fixed = enforce_ref_citation_template_braces(wikitext)
         self.assertEqual(fixed, "<ref>{{Cite web|quote={{lang|fr|bonjour}}}}</ref>")
+
+
+class StripWhitespaceBeforeCitationRefsTests(unittest.TestCase):
+    def test_removes_spaces_before_citation_ref(self):
+        wikitext = "Text   <ref>{{Cite web|title=Test}}</ref>"
+        fixed = strip_whitespace_before_citation_refs(wikitext)
+        self.assertEqual(fixed, "Text<ref>{{Cite web|title=Test}}</ref>")
+
+    def test_removes_newline_before_citation_ref(self):
+        wikitext = "Text.\n    <ref>{{Cite web|title=Test}}</ref>"
+        fixed = strip_whitespace_before_citation_refs(wikitext)
+        self.assertEqual(fixed, "Text.<ref>{{Cite web|title=Test}}</ref>")
+
+    def test_removes_tab_before_citation_ref(self):
+        wikitext = "Text.\t<ref>{{Cite web|title=Test}}</ref>"
+        fixed = strip_whitespace_before_citation_refs(wikitext)
+        self.assertEqual(fixed, "Text.<ref>{{Cite web|title=Test}}</ref>")
+
+    def test_does_not_touch_plain_ref(self):
+        wikitext = "Text   <ref>See note</ref>"
+        fixed = strip_whitespace_before_citation_refs(wikitext)
+        self.assertEqual(fixed, wikitext)
+
+    def test_skips_when_no_preceding_text(self):
+        wikitext = "   <ref>{{Cite web|title=Test}}</ref>"
+        fixed = strip_whitespace_before_citation_refs(wikitext)
+        self.assertEqual(fixed, wikitext)
 
 
 if __name__ == "__main__":
