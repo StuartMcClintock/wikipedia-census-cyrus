@@ -7,7 +7,7 @@ DP_ENDPOINT = "https://api.census.gov/data/2020/dec/dp"
 DHC_ENDPOINT = "https://api.census.gov/data/2020/dec/dhc"
 
 PL_FIELDS = (
-    "NAME,P1_001N,P1_003N,P1_004N,P1_005N,P1_006N,"
+    "NAME,P1_001N,P1_003N,P1_004N,P1_005N,P1_006N,P1_007N,"
     "P1_008N,P1_009N,P2_001N,P2_002N,H1_001N,H1_002N"
 )
 
@@ -53,6 +53,7 @@ CITATION_SOURCES = {
     "race_black_percent": ["pl"],
     "race_aian_percent": ["pl"],
     "race_asian_percent": ["pl"],
+    "race_nhpi_percent": ["pl"],
     "race_some_other_percent": ["pl"],
     "race_two_or_more_percent": ["pl"],
     "hispanic_any_race_percent": ["pl"],

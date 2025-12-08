@@ -168,6 +168,7 @@ def get_demographic_variables(state_fips: str, county_fips: str) -> Dict[str, ob
         "race_black_percent": _pct(int(pl["P1_004N"]), total_population),
         "race_aian_percent": _pct(int(pl["P1_005N"]), total_population),
         "race_asian_percent": _pct(int(pl["P1_006N"]), total_population),
+        "race_nhpi_percent": _pct(int(pl["P1_007N"]), total_population),
         "race_some_other_percent": _pct(int(pl["P1_008N"]), total_population),
         "race_two_or_more_percent": _pct(int(pl["P1_009N"]), total_population),
         "hispanic_any_race_percent": _pct(int(pl["P2_002N"]), int(pl["P2_001N"])),

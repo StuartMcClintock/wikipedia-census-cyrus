@@ -141,8 +141,13 @@ class EnforceRefCitationTemplateBracesTests(unittest.TestCase):
         fixed = enforce_ref_citation_template_braces(wikitext)
         self.assertEqual(fixed, "<ref>{{Cite web|title=Test|year=2024}}</ref>")
 
-    def test_normalizes_triple_close_brace_citation(self):
+    def test_normalizes_triple_close_brace_single_open_brace_citation(self):
         wikitext = "<ref>{Cite web|title=Test|year=2024}}}</ref>"
+        fixed = enforce_ref_citation_template_braces(wikitext)
+        self.assertEqual(fixed, "<ref>{{Cite web|title=Test|year=2024}}</ref>")
+
+    def test_normalizes_triple_close_brace_citation(self):
+        wikitext = "<ref>{{Cite web|title=Test|year=2024}}}</ref>"
         fixed = enforce_ref_citation_template_braces(wikitext)
         self.assertEqual(fixed, "<ref>{{Cite web|title=Test|year=2024}}</ref>")
 

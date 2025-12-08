@@ -49,6 +49,8 @@ LINK_REPLACEMENTS = [
         "American Indian and Alaska Native",
         "[[Native Americans in the United States|American Indian and Alaska Native]]",
     ),
+    ("Native Hawaiian", "[[Native Hawaiians|Native Hawaiian]]"),
+    ("Pacific Islander", "[[Pacific Islander|Pacific Islander]]"),
     ("Black or African American", "[[African Americans|Black or African American]]"),
     ("Asian", "[[Asian Americans|Asian]]"),
     ("two or more races", "[[Multiracial Americans|two or more races]]"),
@@ -202,6 +204,7 @@ def _build_paragraph_two(data: Dict[str, object]) -> List[Tuple[str, Set[str]]]:
         ("race_black_percent", "Black or African American"),
         ("race_aian_percent", "American Indian and Alaska Native"),
         ("race_asian_percent", "Asian"),
+        ("race_nhpi_percent", "Native Hawaiian and Pacific Islander"),
         ("race_some_other_percent", "from some other race"),
         ("race_two_or_more_percent", "from two or more races"),
     ]
