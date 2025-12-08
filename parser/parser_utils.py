@@ -13,6 +13,7 @@ CENSUS_HEADING_RE = re.compile(
     re.IGNORECASE | re.MULTILINE,
 )
 WIKILINK_RE = re.compile(r"\[\[([^\]|]+)(\|([^\]]+))?\]\]")
+REF_CITE_RE = re.compile(r"(<ref[^>]*>)(.*?)(</ref>)", re.IGNORECASE | re.DOTALL)
 
 
 def _find_template_end(text: str, start_index: int) -> int:
@@ -164,3 +165,26 @@ def restore_wikilinks_from_original(original_text: str, updated_text: str) -> st
         if count == 0:
             continue
     return fixed_text
+
+
+def normalize_ref_citation_braces(wikitext: str) -> str:
+    """
+    Ensure citations inside <ref>...</ref> are wrapped with exactly '{{' and '}}'.
+    """
+    def normalize_body(body: str) -> str:
+        stripped = body.strip()
+        if not stripped:
+            return body
+        # Remove leading/trailing braces
+        while stripped.startswith("{"):
+            stripped = stripped[1:]
+        while stripped.endswith("}"):
+            stripped = stripped[:-1]
+        stripped = stripped.strip()
+        return "{{" + stripped + "}}"
+
+    def replace(match):
+        open_tag, body, close_tag = match.groups()
+        return f"{open_tag}{normalize_body(body)}{close_tag}"
+
+    return REF_CITE_RE.sub(replace, wikitext)

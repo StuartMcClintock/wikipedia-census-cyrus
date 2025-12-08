@@ -5,6 +5,7 @@ from .parser_utils import (
     fix_census_section_order,
     fix_us_census_population_align,
     restore_wikilinks_from_original,
+    normalize_ref_citation_braces,
 )
 
 
@@ -254,6 +255,7 @@ def fix_demographics_section_wikitext(
     fixes = [
         fix_us_census_population_align,
         fix_census_section_order,
+        normalize_ref_citation_braces,
     ]
     fixed = section_wikitext
     for func in fixes:

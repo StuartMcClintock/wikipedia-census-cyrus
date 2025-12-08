@@ -4,6 +4,7 @@ from parser.parser_utils import (
     fix_us_census_population_align,
     fix_census_section_order,
     restore_wikilinks_from_original,
+    normalize_ref_citation_braces,
 )
 
 
@@ -90,6 +91,23 @@ class RestoreWikilinksFromOriginalTests(unittest.TestCase):
         updated = "The population density was recorded."
         fixed = restore_wikilinks_from_original(original, updated)
         self.assertIn("[[population density]]", fixed)
+
+
+class NormalizeRefCitationBracesTests(unittest.TestCase):
+    def test_normalizes_single_brace(self):
+        wikitext = "<ref>{{Cite web|title=Test}</ref>"
+        fixed = normalize_ref_citation_braces(wikitext)
+        self.assertEqual(fixed, "<ref>{{Cite web|title=Test}}</ref>")
+
+    def test_normalizes_missing_braces(self):
+        wikitext = "<ref> Cite web|title=Test </ref>"
+        fixed = normalize_ref_citation_braces(wikitext)
+        self.assertEqual(fixed, "<ref>{{Cite web|title=Test}}</ref>")
+
+    def test_normalizes_extra_braces(self):
+        wikitext = "<ref>{{{Cite web|title=Test}}}</ref>"
+        fixed = normalize_ref_citation_braces(wikitext)
+        self.assertEqual(fixed, "<ref>{{Cite web|title=Test}}</ref>")
 
 
 if __name__ == "__main__":
