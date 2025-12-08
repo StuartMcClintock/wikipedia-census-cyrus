@@ -14,6 +14,7 @@ CENSUS_HEADING_RE = re.compile(
 )
 WIKILINK_RE = re.compile(r"\[\[([^\]|]+)(\|([^\]]+))?\]\]")
 REF_CITE_RE = re.compile(r"(<ref[^>]*>)(.*?)(</ref>)", re.IGNORECASE | re.DOTALL)
+REF_LEADING_WS_RE = re.compile(r"(\s+)(<ref[^>]*>)", re.IGNORECASE)
 
 
 def _find_template_end(text: str, start_index: int) -> int:
@@ -188,3 +189,10 @@ def normalize_ref_citation_braces(wikitext: str) -> str:
         return f"{open_tag}{normalize_body(body)}{close_tag}"
 
     return REF_CITE_RE.sub(replace, wikitext)
+
+
+def strip_whitespace_before_refs(wikitext: str) -> str:
+    """
+    Remove whitespace immediately preceding <ref> tags.
+    """
+    return REF_LEADING_WS_RE.sub(r"\2", wikitext)

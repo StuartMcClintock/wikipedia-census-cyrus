@@ -5,6 +5,7 @@ from parser.parser_utils import (
     fix_census_section_order,
     restore_wikilinks_from_original,
     normalize_ref_citation_braces,
+    strip_whitespace_before_refs,
 )
 
 
@@ -98,6 +99,16 @@ class NormalizeRefCitationBracesTests(unittest.TestCase):
         wikitext = "<ref>{{Cite web|title=Test}</ref>"
         fixed = normalize_ref_citation_braces(wikitext)
         self.assertEqual(fixed, "<ref>{{Cite web|title=Test}}</ref>")
+
+
+class StripWhitespaceBeforeRefsTests(unittest.TestCase):
+    def test_strips_spaces(self):
+        wikitext = "Text  <ref>cite</ref>"
+        self.assertEqual(strip_whitespace_before_refs(wikitext), "Text<ref>cite</ref>")
+
+    def test_strips_newlines(self):
+        wikitext = "Text\n<ref>cite</ref>"
+        self.assertEqual(strip_whitespace_before_refs(wikitext), "Text<ref>cite</ref>")
 
     def test_normalizes_missing_braces(self):
         wikitext = "<ref> Cite web|title=Test </ref>"
