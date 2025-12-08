@@ -139,6 +139,13 @@ As of the 2020 census, the population density was recorded.
         self.assertIn("[[population density]]", fixed)
         self.assertIn("[[2020 United States census|2020 census]]", fixed)
 
+    def test_normalizes_ref_citation_braces_in_demographics(self):
+        article = """==Demographics==
+Population data<ref>{Cite web|title=Test}</ref>
+"""
+        fixed = fix_demographics_section_in_article(article)
+        self.assertIn("<ref>{{Cite web|title=Test}}</ref>", fixed)
+
 
 if __name__ == "__main__":
     unittest.main()

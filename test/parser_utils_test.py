@@ -4,7 +4,7 @@ from parser.parser_utils import (
     fix_us_census_population_align,
     fix_census_section_order,
     restore_wikilinks_from_original,
-    normalize_ref_citation_braces,
+    enforce_ref_citation_template_braces,
     strip_whitespace_before_refs,
 )
 
@@ -94,13 +94,6 @@ class RestoreWikilinksFromOriginalTests(unittest.TestCase):
         self.assertIn("[[population density]]", fixed)
 
 
-class NormalizeRefCitationBracesTests(unittest.TestCase):
-    def test_normalizes_single_brace(self):
-        wikitext = "<ref>{{Cite web|title=Test}</ref>"
-        fixed = normalize_ref_citation_braces(wikitext)
-        self.assertEqual(fixed, "<ref>{{Cite web|title=Test}}</ref>")
-
-
 class StripWhitespaceBeforeRefsTests(unittest.TestCase):
     def test_strips_spaces(self):
         wikitext = "Text  <ref>cite</ref>"
@@ -110,15 +103,37 @@ class StripWhitespaceBeforeRefsTests(unittest.TestCase):
         wikitext = "Text\n<ref>cite</ref>"
         self.assertEqual(strip_whitespace_before_refs(wikitext), "Text<ref>cite</ref>")
 
-    def test_normalizes_missing_braces(self):
-        wikitext = "<ref> Cite web|title=Test </ref>"
-        fixed = normalize_ref_citation_braces(wikitext)
+
+class EnforceRefCitationTemplateBracesTests(unittest.TestCase):
+    def test_normalizes_missing_opening_brace(self):
+        wikitext = "<ref>{Cite web|title=Test}</ref>"
+        fixed = enforce_ref_citation_template_braces(wikitext)
+        self.assertEqual(fixed, "<ref>{{Cite web|title=Test}}</ref>")
+
+    def test_normalizes_missing_closing_brace(self):
+        wikitext = "<ref>{{Cite web|title=Test}</ref>"
+        fixed = enforce_ref_citation_template_braces(wikitext)
         self.assertEqual(fixed, "<ref>{{Cite web|title=Test}}</ref>")
 
     def test_normalizes_extra_braces(self):
         wikitext = "<ref>{{{Cite web|title=Test}}}</ref>"
-        fixed = normalize_ref_citation_braces(wikitext)
+        fixed = enforce_ref_citation_template_braces(wikitext)
         self.assertEqual(fixed, "<ref>{{Cite web|title=Test}}</ref>")
+
+    def test_preserves_plain_text_refs(self):
+        wikitext = "<ref>See the 2020 census report.</ref>"
+        fixed = enforce_ref_citation_template_braces(wikitext)
+        self.assertEqual(fixed, wikitext)
+
+    def test_preserves_nested_template_content(self):
+        wikitext = "<ref>{{Cite web|quote={{lang|fr|bonjour}}}}</ref>"
+        fixed = enforce_ref_citation_template_braces(wikitext)
+        self.assertEqual(fixed, wikitext)
+
+    def test_normalizes_extra_brace_with_nested_template(self):
+        wikitext = "<ref>{{Cite web|quote={{lang|fr|bonjour}}}}}</ref>"
+        fixed = enforce_ref_citation_template_braces(wikitext)
+        self.assertEqual(fixed, "<ref>{{Cite web|quote={{lang|fr|bonjour}}}}</ref>")
 
 
 if __name__ == "__main__":
