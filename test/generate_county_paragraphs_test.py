@@ -3,7 +3,10 @@ import unittest
 from copy import deepcopy
 from unittest.mock import patch
 
-from county.generate_county_paragraphs import generate_county_paragraphs
+from county.generate_county_paragraphs import (
+    _ensure_template_closed,
+    generate_county_paragraphs,
+)
 
 
 class GenerateCountyParagraphsTests(unittest.TestCase):
@@ -91,8 +94,10 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
         expected_text = "===2020 census===\n\n" + "\n\n".join(expected_paragraphs)
         self.assertEqual(self._strip_refs(text), expected_text)
         self.assertIn('<ref name="Census2020DP">', text)
+        self.assertIn('<ref name="Census2020DP">{{cite web|', text)
         self.assertIn('<ref name="Census2020DP"/>', text)
         self.assertIn('<ref name="Census2020PL">', text)
+        self.assertIn('<ref name="Census2020PL">{{cite web|', text)
         self.assertIn(self.mock_dp_url, text)
         self.assertIn(self.mock_pl_url, text)
 
@@ -137,6 +142,11 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
         )
         self.assertEqual(self._strip_refs(text), expected_text)
         self.assertNotIn("None", text)
+
+    def test_ensure_template_closed_adds_missing_braces(self):
+        template = "{cite web|title=Bad Template|url=URL|access-date=DATE}"
+        normalized = _ensure_template_closed(template)
+        self.assertEqual(normalized, "{{cite web|title=Bad Template|url=URL|access-date=DATE}}")
 
     def test_zero_percent_values_render_as_none(self):
         zero_data = deepcopy(self.full_data)

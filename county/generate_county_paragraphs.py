@@ -88,11 +88,15 @@ def _apply_links(text: str) -> str:
 
 def _ensure_template_closed(template: str) -> str:
     """
-    Normalize cite templates to end with exactly '}}'.
+    Normalize cite templates to be wrapped with exactly '{{' and '}}'.
     """
-    trimmed = template.rstrip()
-    trimmed = trimmed.rstrip("}")
-    return trimmed + "}}"
+    trimmed = template.strip()
+    while trimmed.startswith("{"):
+        trimmed = trimmed[1:]
+    while trimmed.endswith("}"):
+        trimmed = trimmed[:-1]
+    trimmed = trimmed.strip()
+    return "{{" + trimmed + "}}"
 
 
 def _build_citation(

@@ -76,8 +76,7 @@ CITATION_DETAILS = {
         "name": "Census2020DP",
         "template": (
             "{{cite web|title=2020 Decennial Census Demographic Profile (DP1)|"
-            "url={url}|website=United States Census Bureau|"
-            "publisher=United States Census Bureau|year=2021|access-date="
+            "url={url}|website=United States Census Bureau|year=2021|access-date="
             "{access_date}|df=mdy}}"
         ),
         "default_url": DP_ENDPOINT,
@@ -86,8 +85,7 @@ CITATION_DETAILS = {
         "name": "Census2020PL",
         "template": (
             "{{cite web|title=2020 Decennial Census Redistricting Data (Public Law 94-171)|"
-            "url={url}|website=United States Census Bureau|"
-            "publisher=United States Census Bureau|year=2021|access-date="
+            "url={url}|website=United States Census Bureau|year=2021|access-date="
             "{access_date}|df=mdy}}"
         ),
         "default_url": PL_ENDPOINT,
@@ -96,8 +94,7 @@ CITATION_DETAILS = {
         "name": "Census2020DHC",
         "template": (
             "{{cite web|title=2020 Decennial Census Demographic and Housing Characteristics (DHC)|"
-            "url={url}|website=United States Census Bureau|"
-            "publisher=United States Census Bureau|year=2023|access-date="
+            "url={url}|website=United States Census Bureau|year=2023|access-date="
             "{access_date}|df=mdy}}"
         ),
         "default_url": DHC_ENDPOINT,

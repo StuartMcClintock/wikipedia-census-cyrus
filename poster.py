@@ -2,12 +2,12 @@ import argparse
 import json
 import os
 from pathlib import Path
-from typing import Tuple
+from typing import Iterable, Set, Tuple
 import requests
 from pprint import pprint
 from credentials import *  # WP_BOT_USER_NAME, WP_BOT_PASSWORD, WP_BOT_USER_AGENT, USER_SANDBOX_ARTICLE
 from county.generate_county_paragraphs import generate_county_paragraphs
-from app_logging.logger import log_edit_article
+from app_logging.logger import LOG_FILE, log_edit_article
 from llm_backends.openai_codex.openai_codex import (
     DEFAULT_CODEX_MODEL,
     check_if_update_needed,
@@ -91,6 +91,7 @@ _US_LOCATION_SUFFIXES = {
 
 _SECTION_SENTINELS = {"__lead__", "__content__"}
 _DISABLE_RETRY_ENV = "DISABLE_COUNTY_RETRIES"
+_SUCCESS_RESULT_KEY = "Success"
 
 
 def find_demographics_section(parsed_article: ParsedWikitext):
@@ -118,6 +119,30 @@ def _county_retry_enabled(args) -> bool:
         "on",
     }
     return not env_disabled and not getattr(args, "disable_county_retries", False)
+
+
+def _load_successful_articles(log_path: Path = LOG_FILE) -> Set[str]:
+    """
+    Read edit.log and return a set of article titles that logged a successful edit.
+    """
+    successes: Set[str] = set()
+    try:
+        if not log_path.exists():
+            return successes
+        with log_path.open("r", encoding="utf-8") as fh:
+            for line in fh:
+                try:
+                    entry = json.loads(line)
+                    edit = entry.get("result", {}).get("edit", {})
+                    if edit.get("result") == _SUCCESS_RESULT_KEY:
+                        article = entry.get("article")
+                        if article:
+                            successes.add(article)
+                except Exception:
+                    continue
+    except Exception:
+        pass
+    return successes
 
 
 def demographics_section_to_wikitext(section_entry):
@@ -161,6 +186,9 @@ def process_single_article(
     ensure_us_location_title(article_title)
 
     page_wikitext = client.fetch_article_wikitext(article_title)
+    if page_wikitext.lstrip().lower().startswith("#redirect"):
+        print(f"Skipping '{article_title.replace('_', ' ')}' because it is a redirect.")
+        return
     parsed_article = ParsedWikitext(wikitext=page_wikitext)
     demographics_section_info = find_demographics_section(parsed_article)
     original_demographics = None
@@ -228,10 +256,16 @@ def process_single_article_with_retries(
     args,
     client,
     use_mini_prompt: bool,
+    skip_successful_articles: Iterable[str] = None,
 ):
     """
     Attempt to process a county article, retrying up to 3 times by default.
     """
+    if skip_successful_articles and article_title in skip_successful_articles:
+        print(
+            f"Skipping '{article_title.replace('_', ' ')}' (already logged as a successful edit)."
+        )
+        return
     max_attempts = 3 if _county_retry_enabled(args) else 1
     attempt = 0
     while attempt < max_attempts:
@@ -259,7 +293,12 @@ def process_single_article_with_retries(
 
 
 def process_state_batch(
-    state_postal: str, client, args, use_mini_prompt: bool, start_county_fips: str = None
+    state_postal: str,
+    client,
+    args,
+    use_mini_prompt: bool,
+    start_county_fips: str = None,
+    skip_successful_articles: Iterable[str] = None,
 ):
     postal = state_postal.strip().upper()
     county_file = COUNTY_FIPS_DIR / f"{postal}.json"
@@ -287,6 +326,7 @@ def process_state_batch(
                 args,
                 client,
                 use_mini_prompt,
+                skip_successful_articles=skip_successful_articles,
             )
         except Exception as exc:
             print(f"Failed to update '{article_title}': {exc}")
@@ -358,6 +398,11 @@ def parse_arguments():
             "Disable automatic per-county retry (default: up to 3 attempts per county; "
             f"can also disable via ${_DISABLE_RETRY_ENV})."
         ),
+    )
+    parser.add_argument(
+        "--skip-logged-successes",
+        action="store_true",
+        help="Skip updating counties already logged as successful edits in app_logging/logs/edit.log.",
     )
     args = parser.parse_args()
     has_manual_inputs = args.article and args.state_fips and args.county_fips
@@ -602,6 +647,9 @@ def main():
 
     active_model = os.getenv("CODEX_MODEL", DEFAULT_CODEX_MODEL)
     use_mini_prompt = active_model == "gpt-5.1-codex-mini"
+    skip_successful_articles = (
+        _load_successful_articles() if args.skip_logged_successes else set()
+    )
 
     client = WikipediaClient(WP_BOT_USER_AGENT)
     client.login(WP_BOT_USER_NAME, WP_BOT_PASSWORD)
@@ -613,6 +661,7 @@ def main():
             args,
             use_mini_prompt,
             start_county_fips=args.start_county_fips,
+            skip_successful_articles=skip_successful_articles,
         )
         return
 
@@ -640,6 +689,7 @@ def main():
         args,
         client,
         use_mini_prompt,
+        skip_successful_articles=skip_successful_articles,
     )
 
 
