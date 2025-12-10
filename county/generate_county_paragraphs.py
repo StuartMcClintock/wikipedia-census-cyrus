@@ -38,7 +38,8 @@ from census_api.constants import (
 )
 from census_api.fetch_county_data import get_demographic_variables
 
-ACCESS_DATE = datetime.date.today().isoformat()
+today = datetime.date.today()
+ACCESS_DATE = f"{today.day} {today.strftime('%B')} {today.year}"
 
 LINK_REPLACEMENTS = [
     (
