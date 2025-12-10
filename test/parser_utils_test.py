@@ -5,6 +5,7 @@ from parser.parser_utils import (
     fix_census_section_order,
     restore_wikilinks_from_original,
     enforce_ref_citation_template_braces,
+    collapse_extra_newlines,
     strip_whitespace_before_citation_refs,
     strip_whitespace_before_refs,
 )
@@ -177,6 +178,20 @@ class StripWhitespaceBeforeCitationRefsTests(unittest.TestCase):
         wikitext = "   <ref>{{Cite web|title=Test}}</ref>"
         fixed = strip_whitespace_before_citation_refs(wikitext)
         self.assertEqual(fixed, wikitext)
+
+
+class CollapseExtraNewlinesTests(unittest.TestCase):
+    def test_collapses_three_newlines(self):
+        wikitext = "Line1\n\n\nLine2"
+        self.assertEqual(collapse_extra_newlines(wikitext), "Line1\n\nLine2")
+
+    def test_leaves_two_newlines(self):
+        wikitext = "Line1\n\nLine2"
+        self.assertEqual(collapse_extra_newlines(wikitext), wikitext)
+
+    def test_collapses_long_runs(self):
+        wikitext = "A\n\n\n\n\nB"
+        self.assertEqual(collapse_extra_newlines(wikitext), "A\n\nB")
 
 
 if __name__ == "__main__":
