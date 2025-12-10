@@ -326,6 +326,99 @@ def collapse_extra_newlines(wikitext: str) -> str:
     return re.sub(r"\n{3,}", "\n\n", wikitext)
 
 
+REF_BLOCK_RE = re.compile(r"<ref[^>]*>.*?</ref>|<ref[^>]*/>", re.IGNORECASE | re.DOTALL)
+H3_HEADING_RE = re.compile(r"^(===\s*[^=\n].*?===)\s*", re.MULTILINE)
+
+
+def _extract_leading_refs(block: str):
+    """
+    Return (refs, index) where refs is a list of leading <ref> blocks and index
+    is the position in block after those refs and surrounding whitespace.
+    """
+    refs = []
+    idx = 0
+    length = len(block)
+
+    while idx < length:
+        while idx < length and block[idx].isspace():
+            idx += 1
+
+        match = REF_BLOCK_RE.match(block, idx)
+        if not match:
+            break
+        refs.append(match.group(0))
+        idx = match.end()
+
+    return refs, idx
+
+
+def move_heading_refs_to_first_paragraph(wikitext: str) -> str:
+    """
+    Move refs placed immediately after H3 headings to the end of the first paragraph
+    under that heading (Demographics subsections).
+    """
+    if "===" not in wikitext or "<ref" not in wikitext:
+        return wikitext
+
+    matches = list(H3_HEADING_RE.finditer(wikitext))
+    if not matches:
+        return wikitext
+
+    parts = []
+    cursor = 0
+
+    for idx, match in enumerate(matches):
+        heading_start = match.start()
+        heading_end = match.end()
+        next_start = matches[idx + 1].start() if idx + 1 < len(matches) else len(
+            wikitext
+        )
+
+        parts.append(wikitext[cursor:heading_start])
+
+        heading_text = wikitext[heading_start:heading_end]
+        block = wikitext[heading_end:next_start]
+
+        refs, cutoff = _extract_leading_refs(block)
+        if not refs:
+            parts.append(heading_text + block)
+            cursor = next_start
+            continue
+
+        remaining = block[cutoff:]
+        if not remaining.strip():
+            parts.append(heading_text + block)
+            cursor = next_start
+            continue
+
+        paragraph_break = re.search(r"\n\s*\n", remaining)
+        paragraph_end = paragraph_break.start() if paragraph_break else len(remaining)
+
+        first_paragraph = remaining[:paragraph_end]
+        rest = remaining[paragraph_end:]
+
+        base = first_paragraph.rstrip()
+        trailing_ws = first_paragraph[len(base) :]
+
+        insertion = "".join(refs)
+        needs_space = (
+            base
+            and not base.endswith((" ", "\n"))
+            and base[-1] not in {".", ",", ";", ":", ")", "]"}
+        )
+        if needs_space:
+            insertion = " " + insertion
+
+        new_first_paragraph = base + insertion + trailing_ws
+        new_block = new_first_paragraph + rest
+
+        parts.append(heading_text + new_block)
+        cursor = next_start
+
+    parts.append(wikitext[cursor:])
+    return "".join(parts)
+
+
 def _is_citation_body(body: str) -> bool:
     """
     Return True when the ref body appears to be a citation template invocation.

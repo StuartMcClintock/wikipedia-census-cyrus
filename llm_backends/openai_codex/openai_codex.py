@@ -126,7 +126,7 @@ If you modify any tags like </small> or <br>, make sure the outcome is valid (eg
 
 You do not need to delete data that does not come from a decennial census as long as it is appropriately cited - but make sure it has an appropriately descriptive H3 header.
 
-Do not remove any data or sources from the "US Census population" table.
+DO NOT remove any data or sources from the "US Census population" table. The "US Census population" table should remain as it starts.
 
 DO NOT rename "==Demographics==" or delete the "US Census population" table.
 
