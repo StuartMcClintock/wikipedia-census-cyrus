@@ -6,6 +6,7 @@ from .parser_utils import (
     fix_census_section_order,
     fix_us_census_population_align,
     collapse_extra_newlines,
+    move_heading_refs_to_first_paragraph,
     restore_wikilinks_from_original,
     strip_whitespace_before_citation_refs,
 )
@@ -259,6 +260,7 @@ def fix_demographics_section_wikitext(
         fix_census_section_order,
         enforce_ref_citation_template_braces,
         strip_whitespace_before_citation_refs,
+        move_heading_refs_to_first_paragraph,
         collapse_extra_newlines,
     ]
     fixed = section_wikitext

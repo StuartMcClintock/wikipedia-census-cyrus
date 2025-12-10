@@ -6,6 +6,7 @@ from parser.parser_utils import (
     restore_wikilinks_from_original,
     enforce_ref_citation_template_braces,
     collapse_extra_newlines,
+    move_heading_refs_to_first_paragraph,
     strip_whitespace_before_citation_refs,
     strip_whitespace_before_refs,
 )
@@ -192,6 +193,30 @@ class CollapseExtraNewlinesTests(unittest.TestCase):
     def test_collapses_long_runs(self):
         wikitext = "A\n\n\n\n\nB"
         self.assertEqual(collapse_extra_newlines(wikitext), "A\n\nB")
+
+
+class MoveHeadingRefsToFirstParagraphTests(unittest.TestCase):
+    def test_moves_ref_into_first_paragraph(self):
+        wikitext = """===2020 census===
+<ref name="a"/>As of 2020, text.
+
+Second paragraph."""
+        fixed = move_heading_refs_to_first_paragraph(wikitext)
+        self.assertIn("As of 2020, text.<ref name=\"a\"/>", fixed)
+        self.assertIn("Second paragraph.", fixed)
+
+    def test_handles_refs_inline_with_heading(self):
+        wikitext = """===2010 census===<ref name="b"/>Start text."""
+        fixed = move_heading_refs_to_first_paragraph(wikitext)
+        self.assertEqual(fixed, "===2010 census===Start text.<ref name=\"b\"/>")
+
+    def test_leaves_block_when_no_paragraph(self):
+        wikitext = """===2000 census===
+<ref name="c"/>"""
+        self.assertEqual(
+            move_heading_refs_to_first_paragraph(wikitext),
+            wikitext,
+        )
 
 
 if __name__ == "__main__":

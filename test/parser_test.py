@@ -168,6 +168,20 @@ History text"""
         self.assertIn("Line1\n\nLine2", fixed)
         self.assertIn("==History==\n\n\nHistory text", fixed)
 
+    def test_moves_refs_after_h3_heading_into_first_paragraph(self):
+        article = """==Demographics==
+===2020 census===<ref name="a"/>
+First sentence.
+
+Second paragraph.
+==Economy==
+Content"""
+        fixed = fix_demographics_section_in_article(article)
+        self.assertIn("First sentence.<ref name=\"a\"/>", fixed)
+        self.assertIn("===2020 census===", fixed)
+        # History/Economy section formatting preserved
+        self.assertIn("==Economy==\nContent", fixed)
+
 
 if __name__ == "__main__":
     unittest.main()
