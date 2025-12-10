@@ -154,6 +154,20 @@ Population data
         fixed = fix_demographics_section_in_article(article)
         self.assertIn("Population data<ref>{{Cite web|title=Test}}</ref>", fixed)
 
+    def test_collapses_extra_newlines_only_in_demographics(self):
+        article = """==Demographics==
+Line1
+
+
+Line2
+==History==
+
+
+History text"""
+        fixed = fix_demographics_section_in_article(article)
+        self.assertIn("Line1\n\nLine2", fixed)
+        self.assertIn("==History==\n\n\nHistory text", fixed)
+
 
 if __name__ == "__main__":
     unittest.main()

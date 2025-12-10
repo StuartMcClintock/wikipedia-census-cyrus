@@ -319,6 +319,12 @@ def strip_whitespace_before_refs(wikitext: str) -> str:
     """
     return REF_LEADING_WS_RE.sub(r"\2", wikitext)
 
+def collapse_extra_newlines(wikitext: str) -> str:
+    """
+    Replace any run of 3+ newlines with exactly 2.
+    """
+    return re.sub(r"\n{3,}", "\n\n", wikitext)
+
 
 def _is_citation_body(body: str) -> bool:
     """
