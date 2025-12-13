@@ -138,26 +138,23 @@ def _build_paragraph_one(data: Dict[str, object]) -> List[Tuple[str, Set[str]]]:
     under_18 = _format_percent(data.get("age_under_18_percent"))
     over_65 = _format_percent(data.get("age_65_plus_percent"))
     median_age = data.get("age_median_years")
-    age_clause_parts = []
-    if under_18:
-        age_clause_parts.append(f"{under_18} were under the age of 18")
-    if over_65:
-        age_clause_parts.append(f"{over_65} were 65 years of age or older")
-    age_keys: Set[str] = set()
-    if age_clause_parts:
-        sentence = "Of the residents, " + " and ".join(age_clause_parts)
+    if median_age is not None or under_18 or over_65:
+        parts = []
+        keys: Set[str] = set()
         if median_age is not None:
-            sentence += f"; the median age was {median_age:.1f} years."
-            age_keys.add("age_median_years")
-        else:
-            sentence += "."
+            parts.append(f"The median age was {median_age:.1f} years.")
+            keys.add("age_median_years")
+        age_details = []
         if under_18:
-            age_keys.add("age_under_18_percent")
+            age_details.append(f"{under_18} of residents were under the age of 18")
+            keys.add("age_under_18_percent")
         if over_65:
-            age_keys.add("age_65_plus_percent")
-        sentences.append((sentence, age_keys))
-    elif median_age is not None:
-        sentences.append((f"The median age was {median_age:.1f} years.", {"age_median_years"}))
+            age_details.append(f"{over_65} of residents were 65 years of age or older")
+            keys.add("age_65_plus_percent")
+        if age_details:
+            parts.append(" and ".join(age_details) + ".")
+        if parts:
+            sentences.append((" ".join(parts), keys))
 
     sex_ratio = data.get("sex_ratio_males_per_100_females")
     sex_ratio_18 = data.get("sex_ratio_18_plus_males_per_100_females")
@@ -165,7 +162,7 @@ def _build_paragraph_one(data: Dict[str, object]) -> List[Tuple[str, Set[str]]]:
         sentences.append(
             (
                 f"For every 100 females there were {sex_ratio:.1f} males, "
-                f"and for every 100 females age 18 and over there were {sex_ratio_18:.1f} males.",
+                f"and for every 100 females age 18 and over there were {sex_ratio_18:.1f} males age 18 and over.",
                 {"sex_ratio_males_per_100_females", "sex_ratio_18_plus_males_per_100_females"},
             )
         )
@@ -195,7 +192,10 @@ def _build_paragraph_one(data: Dict[str, object]) -> List[Tuple[str, Set[str]]]:
         if rural_pct:
             parts.append(f"{rural_pct} lived in rural areas")
             keys.add("rural_population_percent")
-        sentences.append((" and ".join(parts) + ".", keys))
+        if len(parts) == 2:
+            sentences.append((f"{parts[0]}, while {parts[1]}.", keys))
+        else:
+            sentences.append((" and ".join(parts) + ".", keys))
 
     return sentences
 

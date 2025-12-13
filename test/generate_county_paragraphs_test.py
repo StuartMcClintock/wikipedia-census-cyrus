@@ -60,9 +60,8 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
         expected_paragraphs = [
             (
                 "As of the [[2020 United States census|2020 census]], the county had a population of 12,345. "
-                "Of the residents, 22.3% were under the age of 18 and 15.4% were 65 years of age or older; "
-                "the median age was 38.5 years. For every 100 females there were 96.7 males, "
-                "and for every 100 females age 18 and over there were 94.2 males."
+                "The median age was 38.5 years. 22.3% of residents were under the age of 18 and 15.4% of residents were 65 years of age or older. "
+                "For every 100 females there were 96.7 males, and for every 100 females age 18 and over there were 94.2 males age 18 and over."
             ),
             (
                 "The racial makeup of the county was 60.0% White, 20.0% [[African Americans|Black or African American]], "
@@ -129,7 +128,7 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
             [
                 (
                     "As of the [[2020 United States census|2020 census]], the county had a population of 2,000. "
-                    "Of the residents, 12.0% were 65 years of age or older. "
+                    "12.0% of residents were 65 years of age or older. "
                     "For every 100 females age 18 and over there were 90.0 males."
                 ),
                 "There were 800 households in the county. There were 500 families residing in the county.",
@@ -201,9 +200,44 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
         expected = (
             "===2020 census===\n\n"
             "As of the [[2020 United States census|2020 census]], the county had a population of 1,000. "
-            "60.0% of residents lived in urban areas and 40.0% lived in rural areas."
+            "60.0% of residents lived in urban areas, while 40.0% lived in rural areas."
         )
         self.assertEqual(self._strip_refs(text), expected)
+
+    def test_sex_ratio_and_age_read_naturally(self):
+        with patch(
+            "county.generate_county_paragraphs.get_demographic_variables",
+            return_value=deepcopy(self.full_data),
+        ):
+            text = self._strip_refs(generate_county_paragraphs("40", "029"))
+
+        self.assertIn("The median age was 38.5 years.", text)
+        self.assertIn(
+            "22.3% of residents were under the age of 18 and 15.4% of residents were 65 years of age or older.",
+            text,
+        )
+        self.assertIn("there were 94.2 males age 18 and over", text)
+
+    def test_no_residents_lived_in_prefix_in_urban_sentence(self):
+        data = {
+            "total_population": 1000,
+            "urban_population_percent": 61.9,
+            "rural_population_percent": 38.1,
+            "_dp_source_url": "dp",
+            "_pl_source_url": "pl",
+            "_dhc_source_url": "dhc",
+        }
+        with patch(
+            "county.generate_county_paragraphs.get_demographic_variables",
+            return_value=data,
+        ):
+            text = self._strip_refs(generate_county_paragraphs("12", "003"))
+
+        self.assertNotIn("Residents lived in", text)
+        self.assertIn(
+            "61.9% of residents lived in urban areas, while 38.1% lived in rural areas.",
+            text,
+        )
 
     @staticmethod
     def _strip_refs(text: str) -> str:
