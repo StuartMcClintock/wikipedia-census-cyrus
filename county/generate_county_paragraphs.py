@@ -101,7 +101,10 @@ def _ensure_template_closed(template: str) -> str:
 
 
 def _build_citation(
-    keys: Set[str], seen_sources: Set[str], source_urls: Dict[str, Optional[str]]
+    keys: Set[str],
+    seen_sources: Set[str],
+    source_urls: Dict[str, Optional[str]],
+    force_full: bool = False,
 ) -> str:
     sources: Set[str] = set()
     for key in keys:
@@ -111,15 +114,18 @@ def _build_citation(
     parts: List[str] = []
     for source in sorted(sources):
         detail = CITATION_DETAILS[source]
-        url = source_urls.get(source) or detail["default_url"]
-        template = _ensure_template_closed(
-            detail["template"].format(url=url, access_date=ACCESS_DATE)
-        )
-        if source in seen_sources:
-            parts.append(f'<ref name="{detail["name"]}"/>')
+        ref_name = detail["name"]
+        first_use = source not in seen_sources
+        seen_sources.add(source)
+
+        if force_full and first_use:
+            url = source_urls.get(source) or detail["default_url"]
+            template = _ensure_template_closed(
+                detail["template"].format(url=url, access_date=ACCESS_DATE)
+            )
+            parts.append(f'<ref name="{ref_name}">{template}</ref>')
         else:
-            seen_sources.add(source)
-            parts.append(f'<ref name="{detail["name"]}">{template}</ref>')
+            parts.append(f'<ref name="{ref_name}"/>')
     return "".join(parts)
 
 
@@ -375,7 +381,9 @@ def _build_paragraph_four(data: Dict[str, object]) -> List[Tuple[str, Set[str]]]
     return sentences
 
 
-def generate_county_paragraphs(state_fips: str, county_fips: str) -> str:
+def generate_county_paragraphs(
+    state_fips: str, county_fips: str, full_first_paragraph_refs: bool = False
+) -> str:
     """
     Fetch census variables for the given county and return formatted paragraphs.
     """
@@ -393,7 +401,7 @@ def generate_county_paragraphs(state_fips: str, county_fips: str) -> str:
     ]
     seen_sources: Set[str] = set()
     paragraphs: List[str] = []
-    for builder in paragraph_builders:
+    for index, builder in enumerate(paragraph_builders):
         if not builder:
             continue
         sentences_only: List[str] = []
@@ -403,7 +411,10 @@ def generate_county_paragraphs(state_fips: str, county_fips: str) -> str:
             paragraph_keys.update(keys)
         paragraph_text = " ".join(sentences_only)
         paragraph_text = _apply_links(paragraph_text)
-        citation = _build_citation(paragraph_keys, seen_sources, source_urls)
+        use_full = full_first_paragraph_refs and index == 0
+        citation = _build_citation(
+            paragraph_keys, seen_sources, source_urls, force_full=use_full
+        )
         paragraphs.append(paragraph_text + citation)
     body = "\n\n".join(paragraphs)
     if body:
@@ -412,12 +423,24 @@ def generate_county_paragraphs(state_fips: str, county_fips: str) -> str:
 
 
 def main():
-    if len(sys.argv) < 3:
-        print("Usage: python county/generate_county_paragraphs.py <state_fips> <county_fips>\n",
-        "Example: python generate_county_paragraphs.py 40 029",)
-        sys.exit(1)
-    state, county = sys.argv[1], sys.argv[2]
-    print(generate_county_paragraphs(state, county))
+    import argparse
+
+    parser = argparse.ArgumentParser(
+        description="Generate county census paragraphs."
+    )
+    parser.add_argument("state_fips")
+    parser.add_argument("county_fips")
+    parser.add_argument(
+        "--full-first-refs",
+        action="store_true",
+        help="Output full citations for the first paragraph (default: short refs).",
+    )
+    args = parser.parse_args()
+    print(
+        generate_county_paragraphs(
+            args.state_fips, args.county_fips, full_first_paragraph_refs=args.full_first_refs
+        )
+    )
 
 
 if __name__ == "__main__":
