@@ -6,6 +6,7 @@ from parser.parser_utils import (
     restore_wikilinks_from_original,
     enforce_ref_citation_template_braces,
     collapse_extra_newlines,
+    expand_first_census_refs,
     move_heading_refs_to_first_paragraph,
     strip_whitespace_before_citation_refs,
     strip_whitespace_before_refs,
@@ -105,6 +106,22 @@ class StripWhitespaceBeforeRefsTests(unittest.TestCase):
     def test_strips_newlines(self):
         wikitext = "Text\n<ref>cite</ref>"
         self.assertEqual(strip_whitespace_before_refs(wikitext), "Text<ref>cite</ref>")
+
+
+class ExpandFirstCensusRefsTests(unittest.TestCase):
+    def test_expands_first_when_no_full_ref_exists(self):
+        wikitext = 'Text <ref name="Census2020PL"/> more <ref name="Census2020PL"/>'
+        fixed = expand_first_census_refs(wikitext)
+        self.assertIn('<ref name="Census2020PL">{{cite web|', fixed)
+        self.assertIn('<ref name="Census2020PL"/>', fixed)
+
+    def test_leaves_short_refs_when_full_already_present(self):
+        wikitext = '<ref name="Census2020DP">{{cite web|title=Existing}}</ref> text <ref name="Census2020DP"/>'
+        fixed = expand_first_census_refs(wikitext)
+        self.assertEqual(
+            fixed,
+            '<ref name="Census2020DP">{{cite web|title=Existing}}</ref> text <ref name="Census2020DP"/>',
+        )
 
 
 class EnforceRefCitationTemplateBracesTests(unittest.TestCase):

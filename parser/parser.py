@@ -9,6 +9,7 @@ from .parser_utils import (
     move_heading_refs_to_first_paragraph,
     restore_wikilinks_from_original,
     strip_whitespace_before_citation_refs,
+    expand_first_census_refs
 )
 
 
@@ -262,6 +263,7 @@ def fix_demographics_section_wikitext(
         strip_whitespace_before_citation_refs,
         move_heading_refs_to_first_paragraph,
         collapse_extra_newlines,
+        expand_first_census_refs
     ]
     fixed = section_wikitext
     for func in fixes:

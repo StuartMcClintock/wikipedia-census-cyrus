@@ -192,7 +192,9 @@ def process_single_article(
     parsed_article = ParsedWikitext(wikitext=page_wikitext)
     demographics_section_info = find_demographics_section(parsed_article)
     original_demographics = None
-    proposed_text = generate_county_paragraphs(state_fips, county_fips)
+    proposed_text = generate_county_paragraphs(
+        state_fips, county_fips, full_first_paragraph_refs=True
+    )
     suppress_codex_out = not args.show_codex_output
 
     should_update = True
