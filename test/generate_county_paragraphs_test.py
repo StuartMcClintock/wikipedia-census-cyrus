@@ -92,13 +92,8 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
 
         expected_text = "===2020 census===\n\n" + "\n\n".join(expected_paragraphs)
         self.assertEqual(self._strip_refs(text), expected_text)
-        self.assertIn('<ref name="Census2020DP">', text)
-        self.assertIn('<ref name="Census2020DP">{{cite web|', text)
         self.assertIn('<ref name="Census2020DP"/>', text)
-        self.assertIn('<ref name="Census2020PL">', text)
-        self.assertIn('<ref name="Census2020PL">{{cite web|', text)
-        self.assertIn(self.mock_dp_url, text)
-        self.assertIn(self.mock_pl_url, text)
+        self.assertIn('<ref name="Census2020PL"/>', text)
 
     def test_generate_paragraphs_with_missing_data(self):
         minimal = {key: None for key in self.full_data}

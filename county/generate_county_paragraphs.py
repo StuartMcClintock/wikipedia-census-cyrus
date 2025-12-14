@@ -425,8 +425,17 @@ def generate_county_paragraphs(
 def main():
     import argparse
 
-    parser = argparse.ArgumentParser(
-        description="Generate county census paragraphs."
+    class ExampleArgumentParser(argparse.ArgumentParser):
+        def error(self, message):
+            example = "Example: python county/generate_county_paragraphs.py 40 029\n"
+            self.print_usage(sys.stderr)
+            self.exit(2, f"{self.prog}: error: {message}\n{example}")
+
+    parser = ExampleArgumentParser(
+        description="Generate county census paragraphs.",
+        epilog="Usage: python county/generate_county_paragraphs.py <state_fips> <county_fips>\n"
+        "Example: python county/generate_county_paragraphs.py 40 029",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     parser.add_argument("state_fips")
     parser.add_argument("county_fips")

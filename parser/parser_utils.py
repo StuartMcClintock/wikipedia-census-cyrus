@@ -4,6 +4,9 @@ Helper utilities for parser-related cleanup tasks.
 
 import re
 
+from census_api.constants import CITATION_DETAILS
+from census_api.utils import get_dhc_ref, get_dp_ref, get_pl_ref
+
 
 ALIGN_FIELD_RE = re.compile(r"(\|\s*align\s*=\s*)([^\n|}]*)", re.IGNORECASE)
 ALIGN_FN_FIELD_RE = re.compile(r"(\|\s*align-fn\s*=\s*)([^\n|}]*)", re.IGNORECASE)
@@ -27,6 +30,19 @@ CITATION_SHORT_NAMES = {
     "harvc",
     "harvtxt",
     "r",
+}
+
+_REF_NAME_TO_SOURCE = {detail["name"]: key for key, detail in CITATION_DETAILS.items()}
+_CITATION_TITLE_LOOKUP = {}
+for key, detail in CITATION_DETAILS.items():
+    match = re.search(r"title=([^|}]+)", detail["template"])
+    if match:
+        _CITATION_TITLE_LOOKUP[match.group(1).strip().lower()] = detail["name"]
+
+_REF_BUILDERS = {
+    "Census2020DP": get_dp_ref,
+    "Census2020PL": get_pl_ref,
+    "Census2020DHC": get_dhc_ref,
 }
 
 
@@ -328,6 +344,10 @@ def collapse_extra_newlines(wikitext: str) -> str:
 
 REF_BLOCK_RE = re.compile(r"<ref[^>]*>.*?</ref>|<ref[^>]*/>", re.IGNORECASE | re.DOTALL)
 H3_HEADING_RE = re.compile(r"^(===\s*[^=\n].*?===)\s*", re.MULTILINE)
+_CENSUS_REF_PATTERN = re.compile(
+    r'<ref\s+name="(?P<name>Census2020(?:DP|PL|DHC))"\s*(?:>(?P<body>.*?)</ref>|/>)',
+    re.IGNORECASE | re.DOTALL,
+)
 
 
 def _extract_leading_refs(block: str):
@@ -417,6 +437,53 @@ def move_heading_refs_to_first_paragraph(wikitext: str) -> str:
 
     parts.append(wikitext[cursor:])
     return "".join(parts)
+
+
+def _strip_template_braces(template_text: str) -> str:
+    """
+    Remove leading/trailing braces and surrounding whitespace.
+    """
+    stripped = template_text.strip()
+    while stripped.startswith("{"):
+        stripped = stripped[1:]
+    while stripped.endswith("}"):
+        stripped = stripped[:-1]
+    return stripped.strip()
+
+
+def _build_full_census_ref(ref_name: str) -> str:
+    builder = _REF_BUILDERS.get(ref_name)
+    if not builder:
+        return None
+    return builder()
+
+
+def expand_first_census_refs(wikitext: str) -> str:
+    """
+    Ensure the first DP/PL/DHC ref uses the full citation; leave later refs short.
+    """
+    matches = list(_CENSUS_REF_PATTERN.finditer(wikitext))
+    if not matches:
+        return wikitext
+
+    names_with_full = {m.group("name") for m in matches if m.group("body") and m.group("body").strip()}
+    seen = set()
+
+    def replacer(match: re.Match) -> str:
+        name = match.group("name")
+        body = match.group("body")
+        if name in seen:
+            return match.group(0)
+        if name in names_with_full:
+            seen.add(name)
+            return match.group(0)
+        seen.add(name)
+        if body and body.strip():
+            return match.group(0)
+        full_ref = _build_full_census_ref(name)
+        return full_ref or match.group(0)
+
+    return _CENSUS_REF_PATTERN.sub(replacer, wikitext)
 
 
 def _is_citation_body(body: str) -> bool:

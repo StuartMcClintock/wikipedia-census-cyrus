@@ -138,10 +138,6 @@ If there is 2010 or 2000 census data that doesn't have an appropriate H3 heading
 
 The content of the 2020 census section should be split into topically coherent paragraphs, NOT SMASHED INTO A SINGLE LARGE PARAGRAPH!
 
-When you insert the new text, please make sure the original tags that give the actual api source are not dropped. DO NOT USE <ref name="Census2020DP"/> OR <ref name="Census2020PL"/> WITHOUT ACTUALLY DEFINING IT FIRST!!
-
-BEFORE SAYING THAT THE TASK IS COMPLETE, PLEASE VALIDATE THAT THE ABOVE REFERENCE CHECK IS VALID. This is needed to avoid this type of error: "Cite error: The named reference Census2020DP was invoked but never defined"
-
 Write only the updated demographics and related census sections to codex_out/out.txt (no commentary).
 """
     prompt = MINI_PROMPT if mini else MAX_PROMPT
