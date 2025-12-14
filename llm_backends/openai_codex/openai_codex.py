@@ -138,6 +138,8 @@ If there is 2010 or 2000 census data that doesn't have an appropriate H3 heading
 
 The content of the 2020 census section should be split into topically coherent paragraphs, NOT SMASHED INTO A SINGLE LARGE PARAGRAPH!
 
+Ensure that adequate citation refs from the three census api refs (DP, PL, DHC) are added to backup all the factual claims made in a particular paragraph. 
+
 Write only the updated demographics and related census sections to codex_out/out.txt (no commentary).
 """
     prompt = MINI_PROMPT if mini else MAX_PROMPT
