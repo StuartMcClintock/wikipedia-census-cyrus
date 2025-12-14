@@ -5,6 +5,7 @@ from unittest.mock import patch
 
 from county.generate_county_paragraphs import (
     _ensure_template_closed,
+    _apply_links,
     generate_county_paragraphs,
 )
 
@@ -233,6 +234,76 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
             "61.9% of residents lived in urban areas, while 38.1% lived in rural areas.",
             text,
         )
+
+    def test_census_link_replacements(self):
+        cases = [
+            (
+                "[[White (United States Census)|White]] (non-Hispanic)",
+                "[[White (U.S. Census)|White]] (non-Hispanic)",
+            ),
+            (
+                "[[White (U.S. Census)|White]] (non-Hispanic)",
+                "[[White (U.S. Census)|White]] (non-Hispanic)",
+            ),
+            (
+                "[[African American (United States Census)|Black or African American]]",
+                "[[African Americans|Black or African American]]",
+            ),
+            (
+                "[[African American (U.S. Census)|Black or African American]]",
+                "[[African Americans|Black or African American]]",
+            ),
+            (
+                "[[Native American (United States Census)|Native American]]",
+                "[[Native Americans in the United States|Native American]]",
+            ),
+            (
+                "[[Native American (U.S. Census)|Native American]]",
+                "[[Native Americans in the United States|Native American]]",
+            ),
+            (
+                "[[Asian (United States Census)|Asian]]",
+                "[[Asian Americans|Asian]]",
+            ),
+            (
+                "[[Asian (U.S. Census)|Asian]]",
+                "[[Asian Americans|Asian]]",
+            ),
+            (
+                "[[Pacific Islander (United States Census)|Pacific Islander]]",
+                "[[Pacific Islander|Pacific Islander]]",
+            ),
+            (
+                "[[Pacific Islander (U.S. Census)|Pacific Islander]]",
+                "[[Pacific Islander|Pacific Islander]]",
+            ),
+            (
+                "[[Race (United States Census)|Other/Mixed]]",
+                "Other/Mixed",
+            ),
+            (
+                "[[Race (U.S. Census)|Other/Mixed]]",
+                "Other/Mixed",
+            ),
+            (
+                "[[Hispanic (United States Census)|Hispanic]]",
+                "[[Hispanic and Latino Americans|Hispanic]]",
+            ),
+            (
+                "[[Hispanic (U.S. Census)|Hispanic]]",
+                "[[Hispanic and Latino Americans|Hispanic]]",
+            ),
+            (
+                "[[Latino (United States Census)|Latino]]",
+                "[[Hispanic and Latino Americans|Latino]]",
+            ),
+            (
+                "[[Latino (U.S. Census)|Latino]]",
+                "[[Hispanic and Latino Americans|Latino]]",
+            ),
+        ]
+        for source, expected in cases:
+            self.assertEqual(_apply_links(source), expected)
 
     @staticmethod
     def _strip_refs(text: str) -> str:
