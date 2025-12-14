@@ -118,10 +118,20 @@ class ExpandFirstCensusRefsTests(unittest.TestCase):
     def test_leaves_short_refs_when_full_already_present(self):
         wikitext = '<ref name="Census2020DP">{{cite web|title=Existing}}</ref> text <ref name="Census2020DP"/>'
         fixed = expand_first_census_refs(wikitext)
-        self.assertEqual(
-            fixed,
-            '<ref name="Census2020DP">{{cite web|title=Existing}}</ref> text <ref name="Census2020DP"/>',
-        )
+        self.assertIn('<ref name="Census2020DP">{{cite web|title=2020 Decennial Census Demographic Profile (DP1)', fixed)
+        self.assertNotIn("Existing", fixed)
+
+    def test_overwrites_short_when_full_url_present_elsewhere(self):
+        full = '<ref name="Census2020DHC">{{cite web|title=2020 Decennial Census Demographic and Housing Characteristics (DHC)|url=https://api.census.gov/data/2020/dec/dhc?get=NAME%2CP2_002N%2CP2_003N&for=county%3A001&in=state%3A32|website=United States Census Bureau|year=2023|access-date=13 December 2025|df=mdy}}</ref>'
+        wikitext = f'Text <ref name="Census2020DHC"/> more {full}'
+        fixed = expand_first_census_refs(wikitext)
+        self.assertIn(full, fixed)
+
+    def test_overwrites_partial_body_without_full_url(self):
+        partial = '<ref name="Census2020DHC">{{cite web|title=2020 Decennial Census Demographic and Housing Characteristics (DHC)|url=https://api.census.gov/data/2020/dec/dhc|website=United States Census Bureau|year=2023|access-date=13 December 2025|df=mdy}}</ref>'
+        wikitext = f"Start {partial} then <ref name=\"Census2020DHC\"/>"
+        fixed = expand_first_census_refs(wikitext)
+        self.assertIn('<ref name="Census2020DHC">{{cite web|title=2020 Decennial Census Demographic and Housing Characteristics (DHC)', fixed)
 
 
 class EnforceRefCitationTemplateBracesTests(unittest.TestCase):

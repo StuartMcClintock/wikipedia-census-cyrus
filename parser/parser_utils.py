@@ -466,7 +466,22 @@ def expand_first_census_refs(wikitext: str) -> str:
     if not matches:
         return wikitext
 
-    names_with_full = {m.group("name") for m in matches if m.group("body") and m.group("body").strip()}
+    canonical_template_by_name = {}
+    for m in matches:
+        name = m.group("name")
+        body = m.group("body")
+        if not body:
+            continue
+        template_match = re.search(r"\{\{.*?\}\}", body, re.DOTALL)
+        if not template_match:
+            continue
+        template_text = template_match.group(0)
+        if name in canonical_template_by_name:
+            continue
+        if re.search(r"url\s*=\s*[^|}]*\?", template_text, re.IGNORECASE) or "for=" in template_text or "%3A" in template_text:
+            canonical_template_by_name[name] = template_text
+
+    names_with_full = set(canonical_template_by_name.keys())
     seen = set()
 
     def replacer(match: re.Match) -> str:
@@ -478,8 +493,16 @@ def expand_first_census_refs(wikitext: str) -> str:
             seen.add(name)
             return match.group(0)
         seen.add(name)
+
+        canonical_template = canonical_template_by_name.get(name)
+        if canonical_template:
+            normalized = "{{" + _strip_template_braces(canonical_template) + "}}"
+            return f'<ref name="{name}">{normalized}</ref>'
+
         if body and body.strip():
-            return match.group(0)
+            full_ref = _build_full_census_ref(name)
+            return full_ref or match.group(0)
+
         full_ref = _build_full_census_ref(name)
         return full_ref or match.group(0)
 
