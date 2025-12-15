@@ -183,12 +183,11 @@ def process_single_article(
     client,
     use_mini_prompt: bool,
 ):
-    ensure_us_location_title(article_title)
-
     page_wikitext = client.fetch_article_wikitext(article_title)
     if page_wikitext.lstrip().lower().startswith("#redirect"):
         print(f"Skipping '{article_title.replace('_', ' ')}' because it is a redirect.")
         return
+    ensure_us_location_title(article_title)
     parsed_article = ParsedWikitext(wikitext=page_wikitext)
     demographics_section_info = find_demographics_section(parsed_article)
     original_demographics = None
