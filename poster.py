@@ -241,6 +241,8 @@ def process_single_article(
         updated_article = fix_demographics_section_in_article(
             updated_article,
             original_demographics_wikitext=original_demographics,
+            state_fips=state_fips,
+            county_fips=county_fips,
         )
     result = client.edit_article_wikitext(
         article_title,
