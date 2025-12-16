@@ -40,7 +40,7 @@ from census_api.constants import (
 from census_api.fetch_county_data import get_demographic_variables
 
 today = datetime.date.today()
-ACCESS_DATE = f"{today.day} {today.strftime('%B')} {today.year}"
+ACCESS_DATE = f"{today.strftime('%B')} {today.day}, {today.year}"
 
 LINK_REPLACEMENTS = [
     (
