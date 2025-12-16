@@ -251,7 +251,10 @@ _SECTION_SENTINELS = {"__lead__", "__content__"}
 
 
 def fix_demographics_section_wikitext(
-    section_wikitext: str, original_section_wikitext: str = None
+    section_wikitext: str,
+    original_section_wikitext: str = None,
+    state_fips: str = None,
+    county_fips: str = None,
 ) -> str:
     """
     Apply deterministic fixes to a demographics section wikitext block.
@@ -262,8 +265,10 @@ def fix_demographics_section_wikitext(
         enforce_ref_citation_template_braces,
         strip_whitespace_before_citation_refs,
         move_heading_refs_to_first_paragraph,
+        lambda text: expand_first_census_refs(
+            text, state_fips=state_fips, county_fips=county_fips
+        ),
         collapse_extra_newlines,
-        expand_first_census_refs
     ]
     fixed = section_wikitext
     for func in fixes:
@@ -274,7 +279,10 @@ def fix_demographics_section_wikitext(
 
 
 def fix_demographics_section_in_article(
-    article_wikitext: str, original_demographics_wikitext: str = None
+    article_wikitext: str,
+    original_demographics_wikitext: str = None,
+    state_fips: str = None,
+    county_fips: str = None,
 ) -> str:
     """
     Locate the demographics section in an article wikitext and apply
@@ -289,7 +297,10 @@ def fix_demographics_section_in_article(
 
         section_text = ParsedWikitext(sections=[entry]).to_wikitext()
         fixed_section_text = fix_demographics_section_wikitext(
-            section_text, original_section_wikitext=original_demographics_wikitext
+            section_text,
+            original_section_wikitext=original_demographics_wikitext,
+            state_fips=state_fips,
+            county_fips=county_fips,
         )
 
         if fixed_section_text == section_text:

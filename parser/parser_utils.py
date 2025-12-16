@@ -5,7 +5,7 @@ Helper utilities for parser-related cleanup tasks.
 import re
 
 from census_api.constants import CITATION_DETAILS
-from census_api.utils import get_dhc_ref, get_dp_ref, get_pl_ref
+from census_api.utils import build_census_api_url, get_dhc_ref, get_dp_ref, get_pl_ref
 
 
 ALIGN_FIELD_RE = re.compile(r"(\|\s*align\s*=\s*)([^\n|}]*)", re.IGNORECASE)
@@ -451,14 +451,19 @@ def _strip_template_braces(template_text: str) -> str:
     return stripped.strip()
 
 
-def _build_full_census_ref(ref_name: str) -> str:
+def _build_full_census_ref(
+    ref_name: str,
+    state_fips: str = None,
+    county_fips: str = None,
+    url_override: str = None,
+) -> str:
     builder = _REF_BUILDERS.get(ref_name)
     if not builder:
         return None
-    return builder()
+    return builder(state_fips=state_fips, county_fips=county_fips, url=url_override)
 
 
-def expand_first_census_refs(wikitext: str) -> str:
+def expand_first_census_refs(wikitext: str, state_fips: str = None, county_fips: str = None) -> str:
     """
     Ensure the first DP/PL/DHC ref uses the full citation; leave later refs short.
     """
@@ -487,6 +492,13 @@ def expand_first_census_refs(wikitext: str) -> str:
     def replacer(match: re.Match) -> str:
         name = match.group("name")
         body = match.group("body")
+        url_override = None
+        source_key = _REF_NAME_TO_SOURCE.get(name)
+        if source_key and state_fips and county_fips:
+            try:
+                url_override = build_census_api_url(source_key, state_fips, county_fips)
+            except Exception:
+                url_override = None
         if name in seen:
             return match.group(0)
         if name in names_with_full:
@@ -500,10 +512,20 @@ def expand_first_census_refs(wikitext: str) -> str:
             return f'<ref name="{name}">{normalized}</ref>'
 
         if body and body.strip():
-            full_ref = _build_full_census_ref(name)
+            full_ref = _build_full_census_ref(
+                name,
+                state_fips=state_fips,
+                county_fips=county_fips,
+                url_override=url_override,
+            )
             return full_ref or match.group(0)
 
-        full_ref = _build_full_census_ref(name)
+        full_ref = _build_full_census_ref(
+            name,
+            state_fips=state_fips,
+            county_fips=county_fips,
+            url_override=url_override,
+        )
         return full_ref or match.group(0)
 
     return _CENSUS_REF_PATTERN.sub(replacer, wikitext)
