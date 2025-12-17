@@ -2,10 +2,10 @@
 import subprocess
 import os
 from pathlib import Path
+from constants import DEFAULT_CODEX_MODEL
 
 BASE_DIR = Path(__file__).resolve().parent
 CANDIDATE_OUT_PATHS = [BASE_DIR / "codex_out" / "out.txt"]
-DEFAULT_CODEX_MODEL = "gpt-5.1-codex-max"
 
 
 def _write_snapshot(filename: str, content: str) -> None:
@@ -21,7 +21,8 @@ def _read_codex_output() -> str:
 
 
 def codex_exec(text: str, suppress_out=True) -> None:
-    model = os.getenv("CODEX_MODEL", DEFAULT_CODEX_MODEL)
+    # Check ACTIVE_MODEL first (new architecture), fall back to CODEX_MODEL (backward compatibility)
+    model = os.getenv("ACTIVE_MODEL") or os.getenv("CODEX_MODEL") or DEFAULT_CODEX_MODEL
     cmd = ["codex", "exec", "-m", model]
     cmd.append(text)
     if suppress_out:

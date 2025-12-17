@@ -8,13 +8,14 @@ from pprint import pprint
 from credentials import *  # WP_BOT_USER_NAME, WP_BOT_PASSWORD, WP_BOT_USER_AGENT, USER_SANDBOX_ARTICLE
 from county.generate_county_paragraphs import generate_county_paragraphs
 from app_logging.logger import LOG_FILE, log_edit_article
-from llm_backends.openai_codex.openai_codex import (
-    DEFAULT_CODEX_MODEL,
+from llm_frontend import (
     check_if_update_needed,
     update_demographics_section,
     update_wp_page,
 )
+from constants import DEFAULT_CODEX_MODEL, DEFAULT_ANTHROPIC_MODEL
 from parser.parser import ParsedWikitext, fix_demographics_section_in_article
+from constants import get_all_model_options
 
 BASE_DIR = Path(__file__).resolve().parent
 WIKIPEDIA_ENDPOINT = "https://en.wikipedia.org/w/api.php"
@@ -368,9 +369,9 @@ def parse_arguments():
         ),
     )
     parser.add_argument(
-        "--codex-model",
-        choices=["gpt-5.1-codex-mini", "gpt-5.1-codex-max", "gpt-5.1"],
-        help="Override the Codex model (default: gpt-5.1-codex-max).",
+        "--model",
+        choices=get_all_model_options(),
+        help="Override the model (default: gpt-5.1-codex-max).",
     )
     parser.add_argument(
         "--start-county-fips",
@@ -645,10 +646,10 @@ class WikipediaClient:
 
 def main():
     args = parse_arguments()
-    if args.codex_model:
-        os.environ["CODEX_MODEL"] = args.codex_model
+    if args.model:
+        os.environ["ACTIVE_MODEL"] = args.model
 
-    active_model = os.getenv("CODEX_MODEL", DEFAULT_CODEX_MODEL)
+    active_model = os.getenv("ACTIVE_MODEL", DEFAULT_CODEX_MODEL)
     use_mini_prompt = active_model == "gpt-5.1-codex-mini"
     skip_successful_articles = (
         _load_successful_articles() if args.skip_logged_successes else set()
