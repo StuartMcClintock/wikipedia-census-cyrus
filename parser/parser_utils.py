@@ -501,10 +501,21 @@ def expand_first_census_refs(wikitext: str, state_fips: str = None, county_fips:
                 url_override = None
         if name in seen:
             return match.group(0)
-        if name in names_with_full:
-            seen.add(name)
-            return match.group(0)
         seen.add(name)
+
+        # Prefer a deterministic full ref (with correct URL) when we have an override,
+        # even if an existing full ref was present in the article.
+        if url_override:
+            full_ref = _build_full_census_ref(
+                name,
+                state_fips=state_fips,
+                county_fips=county_fips,
+                url_override=url_override,
+            )
+            return full_ref or match.group(0)
+
+        if name in names_with_full:
+            return match.group(0)
 
         canonical_template = canonical_template_by_name.get(name)
         if canonical_template:

@@ -55,6 +55,7 @@ LINK_REPLACEMENTS = [
     ("Pacific Islander", "[[Pacific Islander|Pacific Islander]]"),
     ("[[White (United States Census)|White]]", "[[White (U.S. Census)|White]]"),
     ("[[White (U.S. Census)|White]]", "[[White (U.S. Census)|White]]"),
+    ("[[White (U.S. Census)|White]] (NH)", "[[White (U.S. Census)|White]] (NH)"),
     (
         "[[African American (United States Census)|Black or African American]]",
         "[[African Americans|Black or African American]]",
@@ -63,10 +64,15 @@ LINK_REPLACEMENTS = [
         "[[African American (U.S. Census)|Black or African American]]",
         "[[African Americans|Black or African American]]",
     ),
+    (
+        "[[African American (U.S. Census)|Black or African American]] (NH)",
+        "[[African Americans|Black or African American]] (NH)",
+    ),
     ("[[Native American (United States Census)|Native American]]", "[[Native Americans in the United States|Native American]]"),
     ("[[Native American (U.S. Census)|Native American]]", "[[Native Americans in the United States|Native American]]"),
     ("[[Asian (United States Census)|Asian]]", "[[Asian Americans|Asian]]"),
     ("[[Asian (U.S. Census)|Asian]]", "[[Asian Americans|Asian]]"),
+    ("[[Asian (U.S. Census)|Asian]] (NH)", "[[Asian Americans|Asian]] (NH)"),
     ("[[Pacific Islander (United States Census)|Pacific Islander]]", "[[Pacific Islander|Pacific Islander]]"),
     ("[[Pacific Islander (U.S. Census)|Pacific Islander]]", "[[Pacific Islander|Pacific Islander]]"),
     ("[[Race (United States Census)|Other/Mixed]]", "Other/Mixed"),
@@ -132,8 +138,11 @@ def _build_citation(
     seen_sources: Set[str],
     source_urls: Dict[str, Optional[str]],
     force_full: bool = False,
+    extra_sources: Optional[Set[str]] = None,
 ) -> str:
     sources: Set[str] = set()
+    if extra_sources:
+        sources.update(extra_sources)
     for key in keys:
         sources.update(CITATION_SOURCES.get(key, []))
     if not sources:
@@ -214,22 +223,6 @@ def _build_paragraph_one(data: Dict[str, object]) -> List[Tuple[str, Set[str]]]:
             )
         )
 
-    urban_pct = _format_percent(data.get("urban_population_percent"))
-    rural_pct = _format_percent(data.get("rural_population_percent"))
-    if urban_pct or rural_pct:
-        parts = []
-        keys: Set[str] = set()
-        if urban_pct:
-            parts.append(f"{urban_pct} of residents lived in urban areas")
-            keys.add("urban_population_percent")
-        if rural_pct:
-            parts.append(f"{rural_pct} lived in rural areas")
-            keys.add("rural_population_percent")
-        if len(parts) == 2:
-            sentences.append((f"{parts[0]}, while {parts[1]}.", keys))
-        else:
-            sentences.append((" and ".join(parts) + ".", keys))
-
     return sentences
 
 
@@ -276,6 +269,28 @@ def _build_paragraph_two(data: Dict[str, object]) -> List[Tuple[str, Set[str]]]:
             )
         )
 
+    return sentences
+
+
+def _build_paragraph_urbanization(data: Dict[str, object]) -> List[Tuple[str, Set[str]]]:
+    sentences: List[Tuple[str, Set[str]]] = []
+    urban_pct = _format_percent(data.get("urban_population_percent"))
+    rural_pct = _format_percent(data.get("rural_population_percent"))
+    if not (urban_pct or rural_pct):
+        return sentences
+
+    parts = []
+    keys: Set[str] = set()
+    if urban_pct:
+        parts.append(f"{urban_pct} of residents lived in urban areas")
+        keys.add("urban_population_percent")
+    if rural_pct:
+        parts.append(f"{rural_pct} lived in rural areas")
+        keys.add("rural_population_percent")
+    if len(parts) == 2:
+        sentences.append((f"{parts[0]}, while {parts[1]}.", keys))
+    else:
+        sentences.append((" and ".join(parts) + ".", keys))
     return sentences
 
 
@@ -423,6 +438,7 @@ def generate_county_paragraphs(
     paragraph_builders = [
         _build_paragraph_one(data),
         _build_paragraph_two(data),
+        _build_paragraph_urbanization(data),
         _build_paragraph_three(data),
         _build_paragraph_four(data),
     ]
@@ -439,8 +455,13 @@ def generate_county_paragraphs(
         paragraph_text = " ".join(sentences_only)
         paragraph_text = _apply_links(paragraph_text)
         use_full = full_first_paragraph_refs and index == 0
+        extra_sources: Optional[Set[str]] = {"pl", "dp"} if index == 0 else None
         citation = _build_citation(
-            paragraph_keys, seen_sources, source_urls, force_full=use_full
+            paragraph_keys,
+            seen_sources,
+            source_urls,
+            force_full=use_full,
+            extra_sources=extra_sources,
         )
         paragraphs.append(paragraph_text + citation)
     body = "\n\n".join(paragraphs)
