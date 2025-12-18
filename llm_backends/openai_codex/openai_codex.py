@@ -2,10 +2,17 @@
 import subprocess
 import os
 from pathlib import Path
+from typing import Optional, List, Tuple
+from constants import DEFAULT_CODEX_MODEL, open_ai_models
 
 BASE_DIR = Path(__file__).resolve().parent
 CANDIDATE_OUT_PATHS = [BASE_DIR / "codex_out" / "out.txt"]
-DEFAULT_CODEX_MODEL = "gpt-5.1-codex-max"
+MIN_NODE_MAJOR = 18
+
+
+class CodexOutputMissingError(FileNotFoundError):
+    """Raised when codex_out/out.txt cannot be located after a Codex run."""
+    pass
 
 
 def _write_snapshot(filename: str, content: str) -> None:
@@ -14,26 +21,143 @@ def _write_snapshot(filename: str, content: str) -> None:
 
 
 def _read_codex_output() -> str:
+    path = _locate_codex_output(require_nonempty=True)
+    if path:
+        return path.read_text()
+    candidates = ", ".join(str(p) for p in CANDIDATE_OUT_PATHS)
+    raise CodexOutputMissingError(
+        f"codex_out/out.txt not found in any known location (checked: {candidates})"
+    )
+
+
+def _resolve_model() -> str:
+    """
+    Return the requested Codex model, falling back to the default if the active
+    model is not an OpenAI Codex model (e.g., a Claude model).
+    """
+    active = os.getenv("ACTIVE_MODEL")
+    if active in open_ai_models:
+        return active
+    codex_env = os.getenv("CODEX_MODEL")
+    if codex_env in open_ai_models:
+        return codex_env
+    return DEFAULT_CODEX_MODEL
+
+
+def _clear_codex_output() -> None:
+    """
+    Remove any existing Codex output so a failed run cannot reuse stale data.
+    """
     for path in CANDIDATE_OUT_PATHS:
-        if path.exists():
-            return path.read_text()
-    raise FileNotFoundError("codex_out/out.txt not found in any known location")
+        try:
+            path.parent.mkdir(parents=True, exist_ok=True)
+            if path.exists():
+                path.unlink()
+        except Exception:
+            continue
+
+
+def _locate_codex_output(require_nonempty: bool = False) -> Optional[Path]:
+    """Return the first existing codex_out file, or None if missing."""
+    for path in CANDIDATE_OUT_PATHS:
+        if not path.exists():
+            continue
+        if require_nonempty and path.stat().st_size == 0:
+            continue
+        return path
+    return None
+
+
+def _ensure_codex_out_placeholder() -> Path:
+    """
+    Create an empty codex_out/out.txt placeholder to unblock a retry attempt.
+    """
+    target = CANDIDATE_OUT_PATHS[0]
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text("")
+    return target
+
+
+def _find_node_bin_dir(min_major: int = MIN_NODE_MAJOR) -> Optional[Path]:
+    """
+    Prefer a modern Node version (>= min_major) so the Codex CLI ESM entrypoint
+    does not get executed by an old default nvm version.
+    """
+    override = os.getenv("CODEX_NODE_BIN")
+    if override:
+        override_path = Path(override).expanduser()
+        if override_path.is_file():
+            return override_path.parent
+        if (override_path / "node").is_file():
+            return override_path
+
+    nvm_root = Path.home() / ".nvm" / "versions" / "node"
+    if nvm_root.is_dir():
+        versions: List[Tuple[int, Path]] = []
+        for version_dir in nvm_root.iterdir():
+            node_path = version_dir / "bin" / "node"
+            if not node_path.is_file():
+                continue
+            try:
+                major = int(version_dir.name.lstrip("v").split(".")[0])
+            except (ValueError, IndexError):
+                continue
+            versions.append((major, node_path.parent))
+        sorted_versions = sorted(versions, key=lambda item: item[0], reverse=True)
+        for major, bin_dir in sorted_versions:
+            if major >= min_major:
+                return bin_dir
+        if sorted_versions:
+            return sorted_versions[0][1]
+    return None
+
+
+def _build_codex_env() -> dict:
+    env = os.environ.copy()
+    node_bin_dir = _find_node_bin_dir()
+    if node_bin_dir:
+        env["PATH"] = f"{node_bin_dir}{os.pathsep}{env.get('PATH', '')}"
+    return env
 
 
 def codex_exec(text: str, suppress_out=True) -> None:
-    model = os.getenv("CODEX_MODEL", DEFAULT_CODEX_MODEL)
+    # Check ACTIVE_MODEL first (new architecture), fall back to CODEX_MODEL (backward compatibility)
+    model = _resolve_model()
     cmd = ["codex", "exec", "-m", model]
     cmd.append(text)
-    if suppress_out:
-        subprocess.run(
+    attempt_details = []
+    _clear_codex_output()
+    for attempt in (1, 2):
+        result = subprocess.run(
             cmd,
             cwd=BASE_DIR,
-            check=True,
-            stdout=subprocess.DEVNULL,
-            stderr=subprocess.DEVNULL,
+            capture_output=True,
+            text=True,
+            env=_build_codex_env(),
         )
-    else:
-        subprocess.run(cmd, cwd=BASE_DIR, check=True)
+        attempt_details.append(
+            f"attempt {attempt} stdout: {result.stdout.strip() if result.stdout else '<empty>'}; "
+            f"stderr: {result.stderr.strip() if result.stderr else '<empty>'}"
+        )
+        if result.returncode != 0:
+            raise RuntimeError(
+                f"codex exec failed (model={model}, rc={result.returncode}): {result.stderr or result.stdout}"
+            )
+        if _locate_codex_output(require_nonempty=True):
+            break
+        if attempt == 1:
+            _ensure_codex_out_placeholder()
+            continue
+        candidates = ", ".join(str(p) for p in CANDIDATE_OUT_PATHS)
+        raise CodexOutputMissingError(
+            f"codex exec succeeded but codex_out/out.txt is missing or empty after 2 attempts "
+            f"(checked: {candidates}; {attempt_details[0]} | {attempt_details[1]})"
+        )
+    if not suppress_out:
+        if result.stdout:
+            print(result.stdout)
+        if result.stderr:
+            print(result.stderr)
 
 
 def check_if_update_needed(current_article: str, new_text: str, suppress_out: bool = True) -> bool:
