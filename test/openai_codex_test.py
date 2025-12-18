@@ -57,3 +57,24 @@ def test_update_wp_page_returns_codex_output(tmp_path, monkeypatch):
         ("full_current_wp_page.txt", "current article"),
         ("new_text.txt", "new insert"),
     ]
+
+
+def test_codex_exec_falls_back_when_active_model_not_codex(monkeypatch):
+    calls = []
+
+    def fake_run(cmd, cwd=None, capture_output=False, text=False):
+        calls.append(cmd)
+        class R:
+            returncode = 0
+            stdout = ""
+            stderr = ""
+        return R()
+
+    monkeypatch.setenv("ACTIVE_MODEL", "claude-haiku-4-5")
+    monkeypatch.setenv("CODEX_MODEL", "")
+    monkeypatch.setattr(codex.subprocess, "run", fake_run)
+
+    codex.codex_exec("hello", suppress_out=True)
+    assert calls
+    # ensure the default codex model is used, not the Claude model
+    assert calls[0][:4] == ["codex", "exec", "-m", codex.DEFAULT_CODEX_MODEL]

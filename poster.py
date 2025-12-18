@@ -13,6 +13,7 @@ from llm_frontend import (
     update_demographics_section,
     update_wp_page,
 )
+from llm_backends.openai_codex.openai_codex import CodexOutputMissingError
 from constants import DEFAULT_CODEX_MODEL, DEFAULT_ANTHROPIC_MODEL
 from parser.parser import ParsedWikitext, fix_demographics_section_in_article
 from constants import get_all_model_options
@@ -229,6 +230,11 @@ def process_single_article(
                 new_demographics_section,
             )
             updated_article = updated_parsed_article.to_wikitext()
+        except CodexOutputMissingError as exc:
+            print(
+                f"Demographics-only update skipped for '{article_title.replace('_', ' ')}' because Codex output was missing ({exc})."
+            )
+            return
         except Exception as exc:
             print(
                 f"Demographics-only update failed ({exc}); falling back to full article update."
