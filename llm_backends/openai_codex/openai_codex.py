@@ -264,6 +264,8 @@ If there is a table on race/ethnicity that contains up-to-date 2020 census infor
 
 If there is 2010 or 2000 census data that doesn't have an appropriate H3 heading above it, add "===2010 census===" or "===2000 census===" above it respectively
 
+Be careful to avoid creating wording like "As of the 2000 census of 2000".
+
 The content of the 2020 census section should be split into topically coherent paragraphs, NOT SMASHED INTO A SINGLE LARGE PARAGRAPH!
 
 Ensure that adequate citation refs from the three census api refs (DP, PL, DHC) are added to backup all the factual claims made in a particular paragraph. 
