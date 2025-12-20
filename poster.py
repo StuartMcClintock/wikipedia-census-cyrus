@@ -185,6 +185,7 @@ def process_single_article(
     client,
     use_mini_prompt: bool,
 ):
+    display_title = article_title.replace("_", " ")
     page_wikitext = client.fetch_article_wikitext(article_title)
     if page_wikitext.lstrip().lower().startswith("#redirect"):
         print(f"Skipping '{article_title.replace('_', ' ')}' because it is a redirect.")
@@ -236,8 +237,13 @@ def process_single_article(
             )
             return
         except Exception as exc:
+            banner = "!" * 72
             print(
-                f"Demographics-only update failed ({exc}); falling back to full article update."
+                f"\n{banner}\n"
+                f"WARNING: Demographics-only update failed for '{display_title}'.\n"
+                f"FALLING BACK to FULL ARTICLE LLM rewrite (other sections may change).\n"
+                f"Error: {exc}\n"
+                f"{banner}\n"
             )
     if updated_article is None:
         updated_article = update_wp_page(
