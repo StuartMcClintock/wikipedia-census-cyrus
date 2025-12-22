@@ -266,6 +266,10 @@ If there is 2010 or 2000 census data that doesn't have an appropriate H3 heading
 
 Be careful to avoid creating wording like "As of the 2000 census of 2000".
 
+Be VERY careful to not delete a "</ref>" tag unless you are sure it will not break a ref. This is important!
+
+If a wikitable ends with "|}", don't remove the "|" and cause it to simply be "}"
+
 The content of the 2020 census section should be split into topically coherent paragraphs, NOT SMASHED INTO A SINGLE LARGE PARAGRAPH!
 
 Ensure that adequate citation refs from the three census api refs (DP, PL, DHC) are added to backup all the factual claims made in a particular paragraph. 
