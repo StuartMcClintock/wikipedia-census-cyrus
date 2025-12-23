@@ -3,7 +3,7 @@ import subprocess
 import os
 from pathlib import Path
 from typing import Optional, List, Tuple
-from constants import DEFAULT_CODEX_MODEL, open_ai_models
+from constants import DEFAULT_CODEX_MODEL, codex_models
 
 BASE_DIR = Path(__file__).resolve().parent
 CANDIDATE_OUT_PATHS = [BASE_DIR / "codex_out" / "out.txt"]
@@ -36,10 +36,10 @@ def _resolve_model() -> str:
     model is not an OpenAI Codex model (e.g., a Claude model).
     """
     active = os.getenv("ACTIVE_MODEL")
-    if active in open_ai_models:
+    if active in codex_models:
         return active
     codex_env = os.getenv("CODEX_MODEL")
-    if codex_env in open_ai_models:
+    if codex_env in codex_models:
         return codex_env
     return DEFAULT_CODEX_MODEL
 
@@ -210,7 +210,7 @@ Make sure that headings in the Demographics section are in chronological order (
 Write the output to codex_out/out.txt. The output should contain the full text of the updated article and nothing that should not be in the updated article.
 """
     , suppress_out=suppress_out)
-    return _read_codex_output()
+    return _read_codex_output()+'\n'
 
 
 def update_demographics_section(
@@ -281,7 +281,7 @@ Write only the updated demographics and related census sections to codex_out/out
     _write_snapshot("current_demographics_section.txt", current_demographics_section)
     _write_snapshot("new_text.txt", new_text)
     codex_exec(prompt, suppress_out=suppress_out)
-    return _read_codex_output()
+    return _read_codex_output()+'\n'
 
 if __name__ == '__main__':
     codex_exec("add a file within openai_codex called 'new_text.txt'")

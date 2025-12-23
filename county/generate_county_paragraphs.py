@@ -454,7 +454,9 @@ def generate_county_paragraphs(
             paragraph_keys.update(keys)
         paragraph_text = " ".join(sentences_only)
         paragraph_text = _apply_links(paragraph_text)
-        use_full = full_first_paragraph_refs and index == 0
+        # When --full-first-refs is set, emit full citations for all paragraphs
+        # (ensures DHC in the urban/rural paragraph is fully expanded).
+        use_full = full_first_paragraph_refs or index == 0
         extra_sources: Optional[Set[str]] = {"pl", "dp"} if index == 0 else None
         citation = _build_citation(
             paragraph_keys,
