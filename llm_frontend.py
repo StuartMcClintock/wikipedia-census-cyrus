@@ -4,7 +4,7 @@ Acts as an interface between poster.py and the actual LLM backends.
 """
 
 import os
-from constants import DEFAULT_CODEX_MODEL, open_ai_models, anthropic_models
+from constants import DEFAULT_CODEX_MODEL, codex_models, openai_gpt_models, anthropic_models
 
 
 def _get_backend_module():
@@ -14,14 +14,19 @@ def _get_backend_module():
     """
     active_model = os.getenv("ACTIVE_MODEL", DEFAULT_CODEX_MODEL)
 
-    if active_model in open_ai_models:
+    if active_model in codex_models:
         from llm_backends.openai_codex import openai_codex
         return openai_codex
+    elif active_model in openai_gpt_models:
+        from llm_backends.openai_gpt_5_mini import openai_gpt_5_mini
+        return openai_gpt_5_mini
     elif active_model in anthropic_models:
         from llm_backends.claude_haiku import claude_haiku
         return claude_haiku
     else:
-        raise ValueError(f"Unknown model '{active_model}'. Must be one of {open_ai_models + anthropic_models}")
+        raise ValueError(
+            f"Unknown model '{active_model}'. Must be one of {codex_models + openai_gpt_models + anthropic_models}"
+        )
 
 
 def check_if_update_needed(current_article: str, new_text: str, suppress_out: bool = True) -> bool:
