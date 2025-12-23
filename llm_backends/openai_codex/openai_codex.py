@@ -210,7 +210,7 @@ Make sure that headings in the Demographics section are in chronological order (
 Write the output to codex_out/out.txt. The output should contain the full text of the updated article and nothing that should not be in the updated article.
 """
     , suppress_out=suppress_out)
-    return _read_codex_output()+'\n'
+    return _read_codex_output()
 
 
 def update_demographics_section(
@@ -281,7 +281,7 @@ Write only the updated demographics and related census sections to codex_out/out
     _write_snapshot("current_demographics_section.txt", current_demographics_section)
     _write_snapshot("new_text.txt", new_text)
     codex_exec(prompt, suppress_out=suppress_out)
-    return _read_codex_output()+'\n'
+    return _read_codex_output()
 
 if __name__ == '__main__':
     codex_exec("add a file within openai_codex called 'new_text.txt'")
