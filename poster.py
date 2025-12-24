@@ -94,6 +94,7 @@ _US_LOCATION_SUFFIXES = {
 _SECTION_SENTINELS = {"__lead__", "__content__"}
 _DISABLE_RETRY_ENV = "DISABLE_COUNTY_RETRIES"
 _SUCCESS_RESULT_KEY = "Success"
+DIFF_LOG_PATH = BASE_DIR / "diffs_to_check.txt"
 
 
 def find_demographics_section(parsed_article: ParsedWikitext):
@@ -175,6 +176,30 @@ def apply_demographics_section_override(
     updated_article = parsed_article.clone()
     updated_article.sections[section_index] = replacement_entry
     return updated_article
+
+
+def _append_diff_link(article_title: str, edit_response: dict) -> None:
+    """
+    Append a diff URL for a successful edit to diffs_to_check.txt.
+    """
+    try:
+        edit = edit_response.get("edit", {})
+        if edit.get("result") != _SUCCESS_RESULT_KEY:
+            return
+        old_rev = edit.get("oldrevid")
+        new_rev = edit.get("newrevid")
+        if not old_rev or not new_rev:
+            return
+        title = (edit.get("title") or article_title).replace(" ", "_")
+        diff_url = (
+            f"https://en.wikipedia.org/w/index.php?title={title}&diff={new_rev}&oldid={old_rev}"
+        )
+        DIFF_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
+        with DIFF_LOG_PATH.open("a", encoding="utf-8") as fh:
+            fh.write(diff_url + "\n")
+    except Exception:
+        # Never let diff logging break the main flow.
+        pass
 
 
 def process_single_article(
@@ -262,6 +287,7 @@ def process_single_article(
         updated_article,
         "Add 2020 census data",
     )
+    _append_diff_link(article_title, result)
     pprint(result)
 
 
