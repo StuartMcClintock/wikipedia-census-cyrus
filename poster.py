@@ -1,6 +1,7 @@
 import argparse
 import json
 import os
+import sys
 from pathlib import Path
 from typing import Iterable, Set, Tuple
 import requests
@@ -261,6 +262,26 @@ def process_single_article(
                 f"Demographics-only update skipped for '{article_title.replace('_', ' ')}' because Codex output was missing ({exc})."
             )
             return
+        except RuntimeError as exc:
+            if "response missing content" in str(exc).lower():
+                print(
+                    f"Demographics-only update skipped for '{display_title}' because the LLM returned no content ({exc})."
+                )
+                return
+            raise
+        except ValueError as exc:
+            message = str(exc).lower()
+            if "section heading" in message:
+                print(
+                    "\nDemographics-only LLM output lacked a section heading; "
+                    "printing raw output and aborting instead of falling back:\n"
+                )
+                try:
+                    print(new_demographics_section)
+                except Exception:
+                    print("[No demographics section text captured]")
+                sys.exit(1)
+            raise
         except Exception as exc:
             banner = "!" * 72
             print(
