@@ -9,7 +9,7 @@ MODEL_NAME = "gpt-5-mini"
 SYSTEM_PROMPT = """You are an expert Wikipedia editor focused on demographics sections. Follow the instructions precisely and return only valid wikitext."""
 
 
-def _chat_complete(prompt: str, *, max_tokens: int = 6000) -> str:
+def _chat_complete(prompt: str, *, max_tokens: int = 10000) -> str:
     client = OpenAI(api_key=OPEN_AI_KEY)
     resp = client.chat.completions.create(
         model=os.getenv("ACTIVE_MODEL", MODEL_NAME),
@@ -21,7 +21,11 @@ def _chat_complete(prompt: str, *, max_tokens: int = 6000) -> str:
         max_completion_tokens=max_tokens,
         service_tier="flex",
     )
-    return resp.choices[0].message.content.strip()
+    choice = resp.choices[0] if resp.choices else None
+    content = choice.message.content if choice and choice.message else None
+    if not content or not content.strip():
+        raise RuntimeError(f"OpenAI response missing content: {resp}")
+    return content.strip()
 
 
 def update_demographics_section(
