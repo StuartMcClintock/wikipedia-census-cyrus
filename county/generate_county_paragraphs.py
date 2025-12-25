@@ -96,6 +96,8 @@ def _format_int(value: Optional[int]) -> Optional[str]:
 def _format_percent(value: Optional[float]) -> Optional[str]:
     if value is None:
         return None
+    if abs(value) < 0.05:
+        return "<0.1%"
     return f"{value:.1f}%"
 
 
@@ -302,27 +304,34 @@ def _build_paragraph_three(data: Dict[str, object]) -> List[Tuple[str, Set[str]]
         clause_parts = []
         keys: Set[str] = {"total_households"}
         children_pct = _format_percent(data.get("households_with_children_under_18_percent"))
-        married_pct = _format_percent(data.get("married_couple_households_percent"))
-        female_pct = _format_percent(data.get("female_householder_no_spouse_percent"))
         if children_pct:
-            clause_parts.append(f"{children_pct} had children under the age of 18 living with them")
+            clause_parts.append(f"{children_pct} had children under the age of 18 living in them")
             keys.add("households_with_children_under_18_percent")
-        if married_pct:
-            clause_parts.append(f"{married_pct} were married-couple households")
-            keys.add("married_couple_households_percent")
-        if female_pct:
-            clause_parts.append(
-                f"{female_pct} had a female householder with no spouse or partner present"
-            )
-            keys.add("female_householder_no_spouse_percent")
-        clause_text = (
-            ", of which " + _join_phrases(clause_parts)
-            if clause_parts
-            else ""
-        )
+        clause_text = ", of which " + _join_phrases(clause_parts) if clause_parts else ""
         sentences.append(
             (f"There were {total_households_val} households in the county{clause_text}.", keys)
         )
+
+    married_pct = _format_percent(data.get("married_couple_households_percent"))
+    male_pct = _format_percent(data.get("male_householder_no_spouse_percent"))
+    female_pct = _format_percent(data.get("female_householder_no_spouse_percent"))
+    type_parts = []
+    type_keys: Set[str] = set()
+    if married_pct:
+        type_parts.append(f"{married_pct} were married-couple households")
+        type_keys.add("married_couple_households_percent")
+    if male_pct:
+        type_parts.append(
+            f"{male_pct} were households with a male householder and no spouse or partner present"
+        )
+        type_keys.add("male_householder_no_spouse_percent")
+    if female_pct:
+        type_parts.append(
+            f"{female_pct} were households with a female householder and no spouse or partner present"
+        )
+        type_keys.add("female_householder_no_spouse_percent")
+    if type_parts:
+        sentences.append((f"Of all households, {_join_phrases(type_parts)}.", type_keys))
 
     one_person = _format_percent(data.get("one_person_households_percent"))
     living_alone_65 = _format_percent(data.get("living_alone_65_plus_households_percent"))
