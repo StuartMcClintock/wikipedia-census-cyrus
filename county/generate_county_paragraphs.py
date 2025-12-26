@@ -47,6 +47,7 @@ LINK_REPLACEMENTS = [
         "2020 United States census",
         "[[2020 United States census|2020 census]]",
     ),
+    (" White", " [[White Americans|White]]"),
     (
         "American Indian and Alaska Native",
         "[[Native Americans in the United States|American Indian and Alaska Native]]",

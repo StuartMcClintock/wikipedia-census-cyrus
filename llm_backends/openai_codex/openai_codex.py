@@ -254,9 +254,9 @@ DO NOT remove any data or sources from the "US Census population" table. The "US
 
 DO NOT rename "==Demographics==" or delete the "US Census population" table.
 
-Be careful not to remove any existing sections like "===Religion===" unless you are moving all relevant content elsewhere.
+Be careful not to remove any existing sections like "===Religion===" unless you are moving all relevant content elsewhere. THIS IS IMPORTANT, DO NOT JUST DELETE "===Religion===" blocks!
 
-If there is a wikitable on racial/ethnic composition across multiple decades, put it in it's own "===Racial and ethnic composition===" section
+If there is a wikitable on racial/ethnic composition across multiple decades, put it in it's own "===Racial and ethnic composition===" section. Don't generate any new text that explains/describes the table
 
 If you mix with existing content, do not remove the references for the existing data.
 
