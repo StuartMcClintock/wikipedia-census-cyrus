@@ -9,7 +9,7 @@ MODEL_NAME = "gpt-5-mini"
 SYSTEM_PROMPT = """You are an expert Wikipedia editor focused on demographics sections. Follow the instructions precisely and return only valid wikitext."""
 
 
-def _chat_complete(prompt: str, *, max_tokens: int = 10000) -> str:
+def _chat_complete(prompt: str, *, max_tokens: int = 25000) -> str:
     client = OpenAI(api_key=OPEN_AI_KEY)
     resp = client.chat.completions.create(
         model=os.getenv("ACTIVE_MODEL", MODEL_NAME),
@@ -42,7 +42,7 @@ Keep references intact, and do not change factual content beyond inserting the 2
 
 Remove information made redundant by the new data. If needed, rearrange sentences containing existing demographic information so that it is grouped with related sentences in a logically flowing manner. If appropriate, put another H3 header below the new ===2020 census=== section in order to clearly mark where the 2020 census stops. The new header should meaningfully describe the content that comes below it in a way that is consistent with established section-naming precedent in Wikipedia.
 
-If there is a wikitable on racial/ethnic composition across multiple decades, put it in it's own "===Racial and ethnic composition===" section
+If there is a wikitable on racial/ethnic composition across multiple decades, put it in it's own "===Racial and ethnic composition===" section. This section should be above the other sections within the demographics section
 
 Output only the updated demographics and related census sections (no commentary).
 

@@ -175,7 +175,9 @@ def get_demographic_variables(state_fips: str, county_fips: str) -> Dict[str, ob
         "households_with_children_under_18_percent": round(float(dp["DP1_0145P"]), 1),
         # Requires additional census tables; set to None for now.
         "married_couple_households_percent": None,
+        "married_couple_households_percent": _round1(_safe_float(dp, "DP1_0133P")),
         "female_householder_no_spouse_percent": round(float(dp["DP1_0141P"]), 1),
+        "male_householder_no_spouse_percent": _round1(_safe_float(dp, "DP1_0137P")),
         "one_person_households_percent": round(
             float(dp["DP1_0138P"]) + float(dp["DP1_0142P"]), 1
         ),

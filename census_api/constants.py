@@ -13,10 +13,10 @@ PL_FIELDS = (
 
 DP_FIELDS = (
     "NAME,DP1_0021P,DP1_0024P,DP1_0025C,DP1_0049C,DP1_0045C,"
-    "DP1_0069C,DP1_0073C,DP1_0125P,DP1_0126P,DP1_0129P,DP1_0138P,"
-    "DP1_0139P,DP1_0141P,DP1_0142P,DP1_0143P,DP1_0145P,DP1_0146P,"
-    "DP1_0147C,DP1_0148C,DP1_0149C,DP1_0156C,DP1_0157C,DP1_0158C,"
-    "DP1_0159P,DP1_0160P"
+    "DP1_0069C,DP1_0073C,DP1_0125P,DP1_0126P,DP1_0129P,DP1_0133P,"
+    "DP1_0137P,DP1_0138P,DP1_0139P,DP1_0141P,DP1_0142P,DP1_0143P,"
+    "DP1_0145P,DP1_0146P,DP1_0147C,DP1_0148C,DP1_0149C,DP1_0156C,"
+    "DP1_0157C,DP1_0158C,DP1_0159P,DP1_0160P"
 )
 
 DHC_FIELDS = "NAME,P2_002N,P2_003N"
@@ -31,6 +31,7 @@ CITATION_SOURCES = {
     "average_family_size": ["dp"],
     "average_household_size": ["dp"],
     "female_householder_no_spouse_percent": ["dp"],
+    "male_householder_no_spouse_percent": ["dp"],
     "households_with_children_under_18_percent": ["dp"],
     "living_alone_65_plus_households_percent": ["dp"],
     "married_couple_households_percent": ["dp"],
