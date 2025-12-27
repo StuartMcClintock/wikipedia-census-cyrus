@@ -224,6 +224,28 @@ def normalize_ref_citation_braces(wikitext: str) -> str:
     return enforce_ref_citation_template_braces(wikitext)
 
 
+def fix_wikitable_closures(wikitext: str) -> str:
+    """
+    Ensure any wikitable opened with '{|' and containing 'class=\"wikitable\"'
+    is closed with a matching '|}' (not just '}' or missing entirely).
+    """
+    lines = wikitext.splitlines(keepends=True)
+    fixed_lines = []
+    open_table = False
+    for line in lines:
+        stripped = line.strip().lower()
+        if stripped.startswith("{|") and "wikitable" in stripped:
+            open_table = True
+        if open_table and stripped == "}":
+            fixed_lines.append("|}" + ("\n" if line.endswith("\n") else ""))
+            open_table = False
+            continue
+        if open_table and (stripped.startswith("|}") or stripped.startswith("!")):
+            open_table = False
+        fixed_lines.append(line)
+    return "".join(fixed_lines)
+
+
 def _looks_like_citation_template(content: str) -> bool:
     """
     Return True when the provided template content resembles a citation template call.

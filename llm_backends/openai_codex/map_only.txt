@@ -1,0 +1,29 @@
+[[File:2023_Racial_Demogaphics_in_Brevard_County_by_Census_tracts.svg|thumb|A map of the racial demographics in Brevard County by Census tract.{{Collapsible list
+| title = Legend|{{col-begin}}{{col-2}}
+
+'''Non-Hispanic White'''
+{{legend| #fbdedd|30–40%}}
+{{legend|#f1b4b2|40–50%}}
+{{legend|#ed8783|50–60%}}
+{{legend|#e55651|60–70%}}
+{{legend|#d02923|70–80%}}
+{{legend|#b00600|80–90%}}
+{{legend|#850400|>90%}}
+
+'''Black or African American'''
+{{legend|#f0e6be|30–40%}}
+{{legend|#c0a32f|50–60%}}
+{{legend|#a88600|60–70%}}
+
+'''Hispanic'''
+{{legend|#daf5f5|30–40%}}
+{{legend|#81d0d0|50–60%}}
+
+'''No Population'''
+{{legend|#a9a9a9}}
+
+'''Equal'''
+{{legend|#dcb7ef}}
+
+{{col-end}}
+}}]]

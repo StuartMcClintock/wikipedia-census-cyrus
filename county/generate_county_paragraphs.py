@@ -37,7 +37,7 @@ from census_api.constants import (
     DP_ENDPOINT,
     PL_ENDPOINT,
 )
-from census_api.fetch_county_data import get_demographic_variables
+from census_api.fetch_county_data import get_demographic_variables, CensusFetchError
 
 today = datetime.date.today()
 ACCESS_DATE = f"{today.strftime('%B')} {today.day}, {today.year}"
