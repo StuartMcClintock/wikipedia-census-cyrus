@@ -246,6 +246,20 @@ def fix_wikitable_closures(wikitext: str) -> str:
     return "".join(fixed_lines)
 
 
+def demote_non_demographics_h2(wikitext: str) -> str:
+    """
+    Convert any H2 headings inside the demographics section to H3,
+    except the Demographics heading itself.
+    """
+    pattern = re.compile(r"^(==)\s*(?!Demographics\s*$)([^=].*?)\s*(==)\s*$", re.MULTILINE)
+
+    def replacer(match: re.Match) -> str:
+        heading = match.group(2).strip()
+        return f"=== {heading} ==="
+
+    return pattern.sub(replacer, wikitext)
+
+
 def _looks_like_citation_template(content: str) -> bool:
     """
     Return True when the provided template content resembles a citation template call.
