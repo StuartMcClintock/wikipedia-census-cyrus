@@ -44,6 +44,8 @@ Remove information made redundant by the new data. If needed, rearrange sentence
 
 If there is a wikitable on racial/ethnic composition across multiple decades, put it in it's own "===Racial and ethnic composition===" section.
 
+Do not remove old data (eg 2000 or 2010 census data), just move it into its own properly labeled subsection (eg "===2010 census===" or "===2000 census===")
+
 Output only the updated demographics and related census sections (no commentary).
 
 current_demographics_section:
