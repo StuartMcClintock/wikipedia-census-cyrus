@@ -9,7 +9,8 @@ from .parser_utils import (
     move_heading_refs_to_first_paragraph,
     restore_wikilinks_from_original,
     strip_whitespace_before_citation_refs,
-    expand_first_census_refs
+    expand_first_census_refs,
+    fix_wikitable_closures,
 )
 
 
@@ -269,6 +270,7 @@ def fix_demographics_section_wikitext(
             text, state_fips=state_fips, county_fips=county_fips
         ),
         collapse_extra_newlines,
+        fix_wikitable_closures,
     ]
     fixed = section_wikitext
     for func in fixes:

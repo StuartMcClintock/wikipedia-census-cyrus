@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Iterable, Set, Tuple
 import requests
 from pprint import pprint
+from census_api.fetch_county_data import CensusFetchError
 from credentials import *  # WP_BOT_USER_NAME, WP_BOT_PASSWORD, WP_BOT_USER_AGENT, USER_SANDBOX_ARTICLE
 from county.generate_county_paragraphs import generate_county_paragraphs
 from app_logging.logger import LOG_FILE, log_edit_article
@@ -343,16 +344,21 @@ def process_single_article_with_retries(
                 use_mini_prompt,
             )
             return
-        except Exception as exc:
+        except CensusFetchError as exc:
             display_title = article_title.replace("_", " ")
             if attempt < max_attempts:
                 print(
-                    f"Attempt {attempt} for '{display_title}' failed ({exc}); retrying..."
+                    f"Attempt {attempt} for '{display_title}' failed due to census fetch error ({exc}); retrying..."
                 )
-            else:
-                print(
-                    f"Failed to update '{display_title}' after {attempt} attempts: {exc}"
-                )
+                continue
+            print(f"Failed to update '{display_title}' after {attempt} attempts: {exc}")
+            return
+        except Exception as exc:
+            display_title = article_title.replace("_", " ")
+            print(
+                f"Failed to update '{display_title}' due to non-retriable error: {exc}"
+            )
+            return
 
 
 def process_state_batch(

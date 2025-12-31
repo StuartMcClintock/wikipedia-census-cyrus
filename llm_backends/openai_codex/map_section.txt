@@ -1,0 +1,38 @@
+[[File:2023_Racial_Demogaphics_in_Brevard_County_by_Census_tracts.svg|thumb|A map of the racial demographics in Brevard County by Census tract.{{Collapsible list
+| title = Legend|{{col-begin}}{{col-2}}
+
+'''Non-Hispanic White'''
+{{legend| #fbdedd|30–40%}}
+{{legend|#f1b4b2|40–50%}}
+{{legend|#ed8783|50–60%}}
+{{legend|#e55651|60–70%}}
+{{legend|#d02923|70–80%}}
+{{legend|#b00600|80–90%}}
+{{legend|#850400|>90%}}
+
+'''Black or African American'''
+{{legend|#f0e6be|30–40%}}
+{{legend|#c0a32f|50–60%}}
+{{legend|#a88600|60–70%}}
+
+'''Hispanic'''
+{{legend|#daf5f5|30–40%}}
+{{legend|#81d0d0|50–60%}}
+
+'''No Population'''
+{{legend|#a9a9a9}}
+
+'''Equal'''
+{{legend|#dcb7ef}}
+
+{{col-end}}
+}}]]
+As of the [[2020 United States census]], there were 606,612&nbsp;people, 236,005&nbsp;households, and 148,934&nbsp;families residing in the county. The [[population density]] was {{convert|597.7|PD/sqmi}}. As of 2021, 18.2% of residents were under the age of 18 and 24.2% were age 65 and over. There were 294,224 housing units and 76.2% of them were owner-occupied. There were 242,657 households in which the average household size was 2.46.<ref>{{cite web |title=U.S. Census Bureau QuickFacts: Brevard County, Florida |url=https://www.census.gov/quickfacts/fact/table/brevardcountyflorida/PST045222 |website=www.census.gov |publisher=U.S. Census Bureau |access-date=January 3, 2023 |language=en |archive-date=March 28, 2023 |archive-url=https://web.archive.org/web/20230328162606/https://www.census.gov/quickfacts/fact/table/brevardcountyflorida/PST045222 |url-status=live }}</ref>
+
+<!-- Update to 2020 -->In 2015, interracial marriage constituted 29% of all marriages, the fourth highest in the nation, which averaged 17%.<ref>{{Cite news |first=Lisa |last=Broadt |title=Local interracial marriage rates among highest in U.S. |url=http://www.tcpalm.com/story/news/local/shaping-our-future/2017/10/05/local-interracial-marriage-rates-among-highest-u-s-could-impact-culture-politics/520774001/ |newspaper=Florida Today |location=Melbourne, Florida |page=1A |date=October 8, 2017 |access-date=October 8, 2017 |archive-date=November 8, 2019 |archive-url=https://web.archive.org/web/20191108161412/https://www.tcpalm.com/story/news/local/shaping-our-future/2017/10/05/local-interracial-marriage-rates-among-highest-u-s-could-impact-culture-politics/520774001/ |url-status=live }}</ref> The population was distributed by age with 19.8% under the age of 18, 7.9% from 18 to 24, 21.5% from 25 to 44, 30.4% from 45 to 64, and 20.4% who were 65 years of age or older. The median age was 45.5 years. For every 100 females there were 96.1 males. For every 100 females age 18 and over, there were 93.9 males.<ref name="BREVage" />
+
+In 2010, there were 229,692&nbsp;households, out of which 23.20% had children under the age of 18 living with them, 48.28% were married couples living together, 11.80% had a female householder with no husband present, and 35.40% were non-families. 28.44% of all households were made up of individuals, and 12.53% (4.00% male and 8.53% female) had someone living alone who was 65 years of age or older. The average household size was 2.33 and the average family size was 2.84.<ref name="bvDC">{{cite web |url=http://data.ocala.com/census/florida/brevard-county/009/ |title=Brevard County Demographic Characteristics |publisher=ocala.com |access-date=October 24, 2015 |archive-url=https://web.archive.org/web/20151026151324/http://data.ocala.com/census/florida/brevard-county/009/ |archive-date=October 26, 2015 |url-status=dead}}</ref><ref name="BREVage">{{cite web |url=https://www.census.gov/ |title=Brevard County: Age Groups and Sex: 2010 – 2010 Census Summary File 1 |publisher=[[United States Census Bureau]] |access-date=October 24, 2015 |archive-date=December 27, 1996 |archive-url=https://web.archive.org/web/19961227012639/http://www.census.gov/ |url-status=live }}</ref> There were 74,000&nbsp;veterans who lived in Brevard in 2010, accounting for 21% of the adults in the county.<ref>{{Cite news |first=R. Norman |last=Moody |title=Service a way of life for one Navy family |url=https://www.newspapers.com/clip/117974988/service-a-way-of-life-for-one-navy-famil/ |publisher=Florida Today |location=Melbourne, Florida |pages=1A, [https://www.newspapers.com/clip/117975127/ft-2010-11-11-3a/ 3A] |date=November 11, 2010 |via=Newspapers.com |access-date=February 5, 2023 |archive-date=April 11, 2023 |archive-url=https://web.archive.org/web/20230411215052/https://www.newspapers.com/clip/117974988/service-a-way-of-life-for-one-navy/ |url-status=live }}</ref> Of those, a local agency counted in 2010 that 225 of the veterans were homeless.<ref>{{Cite news |first=R. Norman |last=Moody |title=Steppingstone for vets |url=http://www.floridatoday.com/article/20100215/NEWS01/2150309/1086/Melbourne+housing+facility+puts+homeless+on+path+to+independence |publisher=Florida Today |location=Melbourne, Florida |pages=1A |date=February 15, 2010 |url-status=dead |archive-url=https://web.archive.org/web/20150924035039/http://www.floridatoday.com/article/20100215/NEWS01/2150309/1086/Melbourne+housing+facility+puts+homeless+on+path+to+independence |archive-date=September 24, 2015 }}</ref><!---information with actual figure in it is in "box" available only in print edition--->
+
+In 2012, the [[Urban Institute]] ranked the Brevard metro fourth in the country for racial equality. Criteria were integration of neighborhoods, income, and the quality of schools minorities attend. The area was ranked first for Hispanic equality with whites.<ref>{{Cite news |first=Suzanne |last=Cervenka |title=Space Coast racial equality rates fourth |url=https://www.newspapers.com/clip/117976174/space-coast-racial-equality-rates-fourth/ |newspaper=[[Florida Today]] |location=Melbourne, Florida |pages=1A, [https://www.newspapers.com/clip/117976319/ft-2012-02-03-3a-equality/ 3A] |date=February 3, 2012 |via=Newspapers.com |access-date=February 5, 2023 |archive-date=February 5, 2023 |archive-url=https://web.archive.org/web/20230205013935/https://www.newspapers.com/clip/117976174/space-coast-racial-equality-rates-fourth/ |url-status=live }}</ref>
+
+In 2010, the median income for a household in the county was $49,523, and the median income for a family was $60,842. Males had a median income of $48,191 versus $33,276 for females. The [[per capita income]] for the county was $27,606. About 7.2% of families and 10.5% of the population were below the [[poverty line]], including 14.4% of those under age 18 and 6.9% of those aged 65 or over.<ref>{{cite web |url=https://www.census.gov/ |title=Brevard County, Florida: SELECTED ECONOMIC CHARACTERISTICS – 2006–2010 American Community Survey 5-Year Estimates |publisher=[[United States Census Bureau]] |access-date=November 18, 2015 |archive-date=December 27, 1996 |archive-url=https://web.archive.org/web/19961227012639/http://www.census.gov/ |url-status=live }}</ref>
