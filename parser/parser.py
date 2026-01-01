@@ -11,6 +11,7 @@ from .parser_utils import (
     strip_whitespace_before_citation_refs,
     expand_first_census_refs,
     fix_wikitable_closures,
+    demote_non_demographics_h2,
 )
 
 
@@ -271,6 +272,7 @@ def fix_demographics_section_wikitext(
         ),
         collapse_extra_newlines,
         fix_wikitable_closures,
+        demote_non_demographics_h2,
     ]
     fixed = section_wikitext
     for func in fixes:

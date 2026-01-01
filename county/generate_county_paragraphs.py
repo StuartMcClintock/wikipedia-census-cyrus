@@ -98,7 +98,7 @@ def _format_percent(value: Optional[float]) -> Optional[str]:
     if value is None:
         return None
     if abs(value) < 0.05:
-        return "<0.1%"
+        return "&lt;0.1%"
     return f"{value:.1f}%"
 
 
