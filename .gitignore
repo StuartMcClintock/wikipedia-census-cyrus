@@ -216,3 +216,5 @@ llm_backends/openai_codex/full_current_wp_page.txt
 llm_backends/openai_codex/new_text.txt
 llm_backends/openai_codex/codex_out/out.txt
 llm_backends/openai_codex/current_demographics_section.txt
+llm_backends/openai_codex/final_demographics.txt
+llm_backends/openai_codex/patch.txt

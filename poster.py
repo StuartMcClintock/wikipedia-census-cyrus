@@ -15,7 +15,10 @@ from llm_frontend import (
     update_demographics_section,
     update_wp_page,
 )
-from llm_backends.openai_codex.openai_codex import CodexOutputMissingError
+from llm_backends.openai_codex.openai_codex import (
+    CodexOutputMissingError,
+    CodexUsageLimitError,
+)
 from constants import DEFAULT_CODEX_MODEL, DEFAULT_ANTHROPIC_MODEL
 from parser.parser import ParsedWikitext, fix_demographics_section_in_article
 from constants import get_all_model_options
@@ -263,6 +266,8 @@ def process_single_article(
                 f"Demographics-only update skipped for '{article_title.replace('_', ' ')}' because Codex output was missing ({exc})."
             )
             return
+        except CodexUsageLimitError:
+            raise
         except RuntimeError as exc:
             if "response missing content" in str(exc).lower():
                 print(
@@ -344,6 +349,8 @@ def process_single_article_with_retries(
                 use_mini_prompt,
             )
             return
+        except CodexUsageLimitError:
+            raise
         except CensusFetchError as exc:
             display_title = article_title.replace("_", " ")
             if attempt < max_attempts:
@@ -397,6 +404,8 @@ def process_state_batch(
                 use_mini_prompt,
                 skip_successful_articles=skip_successful_articles,
             )
+        except CodexUsageLimitError:
+            raise
         except Exception as exc:
             print(f"Failed to update '{article_title}': {exc}")
 
@@ -723,43 +732,47 @@ def main():
     client = WikipediaClient(WP_BOT_USER_AGENT)
     client.login(WP_BOT_USER_NAME, WP_BOT_PASSWORD)
 
-    if args.state_postal:
-        process_state_batch(
-            args.state_postal,
-            client,
+    try:
+        if args.state_postal:
+            process_state_batch(
+                args.state_postal,
+                client,
+                args,
+                use_mini_prompt,
+                start_county_fips=args.start_county_fips,
+                skip_successful_articles=skip_successful_articles,
+            )
+            return
+
+        if args.location and not args.skip_location_parsing:
+            try:
+                article_title, state_fips, county_fips = derive_inputs_from_location(args.location)
+            except ValueError as exc:
+                print(f"Location parsing failed: {exc}")
+                return
+        else:
+            try:
+                state_fips, county_fips = validate_fips_inputs(
+                    args.state_fips,
+                    args.county_fips,
+                )
+            except ValueError as exc:
+                print(f"FIPS validation failed: {exc}")
+                return
+            article_title = args.article.replace(" ", "_")
+
+        process_single_article_with_retries(
+            article_title,
+            state_fips,
+            county_fips,
             args,
+            client,
             use_mini_prompt,
-            start_county_fips=args.start_county_fips,
             skip_successful_articles=skip_successful_articles,
         )
-        return
-
-    if args.location and not args.skip_location_parsing:
-        try:
-            article_title, state_fips, county_fips = derive_inputs_from_location(args.location)
-        except ValueError as exc:
-            print(f"Location parsing failed: {exc}")
-            return
-    else:
-        try:
-            state_fips, county_fips = validate_fips_inputs(
-                args.state_fips,
-                args.county_fips,
-            )
-        except ValueError as exc:
-            print(f"FIPS validation failed: {exc}")
-            return
-        article_title = args.article.replace(" ", "_")
-
-    process_single_article_with_retries(
-        article_title,
-        state_fips,
-        county_fips,
-        args,
-        client,
-        use_mini_prompt,
-        skip_successful_articles=skip_successful_articles,
-    )
+    except CodexUsageLimitError:
+        print("Codex usage limit reached; stopping further processing.")
+        sys.exit(1)
 
 
 if __name__ == '__main__':
