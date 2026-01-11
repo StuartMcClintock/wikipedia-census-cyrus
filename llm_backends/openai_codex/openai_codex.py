@@ -8,10 +8,16 @@ from constants import DEFAULT_CODEX_MODEL, codex_models
 BASE_DIR = Path(__file__).resolve().parent
 CANDIDATE_OUT_PATHS = [BASE_DIR / "codex_out" / "out.txt"]
 MIN_NODE_MAJOR = 18
+USAGE_LIMIT_MESSAGE = "ERROR: You've hit your usage limit."
 
 
 class CodexOutputMissingError(FileNotFoundError):
     """Raised when codex_out/out.txt cannot be located after a Codex run."""
+    pass
+
+
+class CodexUsageLimitError(Exception):
+    """Raised when the Codex CLI reports a usage limit error."""
     pass
 
 
@@ -120,6 +126,14 @@ def _build_codex_env() -> dict:
     return env
 
 
+def _raise_if_usage_limited(stdout: str, stderr: str) -> None:
+    combined = "\n".join(part for part in (stdout, stderr) if part)
+    if USAGE_LIMIT_MESSAGE in combined:
+        raise CodexUsageLimitError(
+            f"Codex usage limit reported by CLI: {USAGE_LIMIT_MESSAGE}"
+        )
+
+
 def codex_exec(text: str, suppress_out=True) -> None:
     # Check ACTIVE_MODEL first (new architecture), fall back to CODEX_MODEL (backward compatibility)
     model = _resolve_model()
@@ -135,6 +149,7 @@ def codex_exec(text: str, suppress_out=True) -> None:
             text=True,
             env=_build_codex_env(),
         )
+        _raise_if_usage_limited(result.stdout or "", result.stderr or "")
         attempt_details.append(
             f"attempt {attempt} stdout: {result.stdout.strip() if result.stdout else '<empty>'}; "
             f"stderr: {result.stderr.strip() if result.stderr else '<empty>'}"
