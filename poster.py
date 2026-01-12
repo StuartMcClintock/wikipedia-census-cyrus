@@ -3,12 +3,13 @@ import json
 import os
 import sys
 from pathlib import Path
-from typing import Iterable, Set, Tuple
+from typing import Dict, Iterable, Set, Tuple
 import requests
 from pprint import pprint
 from census_api.fetch_county_data import CensusFetchError
 from credentials import *  # WP_BOT_USER_NAME, WP_BOT_PASSWORD, WP_BOT_USER_AGENT, USER_SANDBOX_ARTICLE
 from county.generate_county_paragraphs import generate_county_paragraphs
+from municipality.generate_municipality_paragraphs import generate_municipality_paragraphs
 from app_logging.logger import LOG_FILE, log_edit_article
 from llm_frontend import (
     check_if_update_needed,
@@ -28,6 +29,7 @@ WIKIPEDIA_ENDPOINT = "https://en.wikipedia.org/w/api.php"
 FIPS_MAPPING_DIR = BASE_DIR / "census_api" / "fips_mappings"
 STATE_TO_FIPS_PATH = FIPS_MAPPING_DIR / "state_to_fips.json"
 COUNTY_FIPS_DIR = FIPS_MAPPING_DIR / "county_to_fips"
+MUNICIPALITY_FIPS_DIR = FIPS_MAPPING_DIR / "municipality_to_fips"
 STATE_FIPS_TO_POSTAL = {
     code.split(":")[1]: postal
     for postal, code in json.loads(STATE_TO_FIPS_PATH.read_text()).items()
@@ -214,6 +216,7 @@ def process_single_article(
     args,
     client,
     use_mini_prompt: bool,
+    location_kind: str = "county",
 ):
     display_title = article_title.replace("_", " ")
     page_wikitext = client.fetch_article_wikitext(article_title)
@@ -224,9 +227,14 @@ def process_single_article(
     parsed_article = ParsedWikitext(wikitext=page_wikitext)
     demographics_section_info = find_demographics_section(parsed_article)
     original_demographics = None
-    proposed_text = generate_county_paragraphs(
-        state_fips, county_fips, full_first_paragraph_refs=True
-    )
+    if location_kind == "municipality":
+        proposed_text = generate_municipality_paragraphs(
+            state_fips, county_fips, full_first_paragraph_refs=True
+        )
+    else:
+        proposed_text = generate_county_paragraphs(
+            state_fips, county_fips, full_first_paragraph_refs=True
+        )
     suppress_codex_out = not args.show_codex_output
 
     should_update = True
@@ -303,11 +311,13 @@ def process_single_article(
         )
 
     if not args.skip_deterministic_fixes:
+        fix_state_fips = state_fips if location_kind == "county" else None
+        fix_county_fips = county_fips if location_kind == "county" else None
         updated_article = fix_demographics_section_in_article(
             updated_article,
             original_demographics_wikitext=original_demographics,
-            state_fips=state_fips,
-            county_fips=county_fips,
+            state_fips=fix_state_fips,
+            county_fips=fix_county_fips,
         )
     result = client.edit_article_wikitext(
         article_title,
@@ -326,6 +336,7 @@ def process_single_article_with_retries(
     client,
     use_mini_prompt: bool,
     skip_successful_articles: Iterable[str] = None,
+    location_kind: str = "county",
 ):
     """
     Attempt to process a county article, retrying up to 3 times by default.
@@ -347,6 +358,7 @@ def process_single_article_with_retries(
                 args,
                 client,
                 use_mini_prompt,
+                location_kind=location_kind,
             )
             return
         except CodexUsageLimitError:
@@ -423,12 +435,20 @@ def parse_arguments():
         help="Human-readable location, e.g., 'Coal County, Oklahoma'.",
     )
     parser.add_argument(
+        "--municipality",
+        help="Human-readable municipality, e.g., 'Oktaha, Oklahoma'.",
+    )
+    parser.add_argument(
         "--state-fips",
         help="Two-digit state FIPS code (e.g., 40 for Oklahoma).",
     )
     parser.add_argument(
         "--county-fips",
         help="Three-digit county FIPS code (e.g., 029 for Coal County).",
+    )
+    parser.add_argument(
+        "--place-fips",
+        help="Five-digit place FIPS code (e.g., 55150 for Oktaha).",
     )
     parser.add_argument(
         "--article",
@@ -483,13 +503,27 @@ def parse_arguments():
         help="Skip updating counties already logged as successful edits in app_logging/logs/edit.log.",
     )
     args = parser.parse_args()
-    has_manual_inputs = args.article and args.state_fips and args.county_fips
-    if args.state_postal and args.article:
-        parser.error("--state-postal cannot be combined with --article.")
-    if args.skip_location_parsing and not has_manual_inputs and not args.state_postal:
-        parser.error(
-            "--skip-location-parsing requires --article, --state-fips, and --county-fips."
-        )
+    has_manual_county = args.article and args.state_fips and args.county_fips
+    has_manual_place = args.article and args.state_fips and args.place_fips
+    if args.county_fips and args.place_fips:
+        parser.error("--county-fips cannot be combined with --place-fips.")
+    if args.location and args.municipality:
+        parser.error("--location cannot be combined with --municipality.")
+    if args.municipality and args.place_fips:
+        parser.error("--municipality cannot be combined with --place-fips.")
+    if args.place_fips and not (args.article and args.state_fips):
+        parser.error("--place-fips requires --article and --state-fips.")
+    if args.state_postal and (args.article or args.location or args.municipality):
+        parser.error("--state-postal cannot be combined with --article, --location, or --municipality.")
+    if args.skip_location_parsing:
+        if not args.article or not args.state_fips or not (args.county_fips or args.place_fips):
+            parser.error(
+                "--skip-location-parsing requires --article, --state-fips, and --county-fips or --place-fips."
+            )
+    if args.skip_location_parsing and args.location:
+        parser.error("--skip-location-parsing cannot be combined with --location.")
+    if args.skip_location_parsing and args.municipality:
+        parser.error("--skip-location-parsing cannot be combined with --municipality.")
     if args.start_county_fips and not args.state_postal:
         parser.error("--start-county-fips can only be used with --state-postal.")
     if args.start_county_fips:
@@ -497,9 +531,9 @@ def parse_arguments():
             parser.error("--start-county-fips must be numeric (e.g., 003).")
         if len(args.start_county_fips) > 3:
             parser.error("--start-county-fips must be a 3-digit county code.")
-    if not args.location and not has_manual_inputs and not args.state_postal:
+    if not args.location and not args.municipality and not has_manual_county and not has_manual_place and not args.state_postal:
         parser.error(
-            "Provide --location, --state-postal, or specify --article, --state-fips, and --county-fips."
+            "Provide --location, --municipality, --state-postal, or specify --article, --state-fips, and --county-fips or --place-fips."
         )
     return args
 
@@ -521,6 +555,36 @@ def validate_fips_inputs(state_fips: str, county_fips: str) -> Tuple[str, str]:
             f"County FIPS '{county_fips}' does not belong to state '{postal}'."
         )
     return state_code, county_code
+
+
+def validate_place_inputs(state_fips: str, place_fips: str) -> Tuple[str, str]:
+    state_code = state_fips.zfill(2)
+    place_code = place_fips.zfill(5)
+    postal = STATE_FIPS_TO_POSTAL.get(state_code)
+    if not postal:
+        raise ValueError(f"Unknown state FIPS code '{state_fips}'.")
+    state_dir = MUNICIPALITY_FIPS_DIR / postal
+    if not state_dir.exists():
+        raise ValueError(f"No municipality mapping found for state '{postal}'.")
+    for type_dir in state_dir.iterdir():
+        if not type_dir.is_dir():
+            continue
+        path = type_dir / "places.json"
+        if not path.exists():
+            continue
+        mapping = json.loads(path.read_text())
+        for codes in mapping.values():
+            mapped_state = str(codes.get("state", "")).zfill(2)
+            mapped_place = str(codes.get("place", "")).zfill(5)
+            if mapped_state == state_code and mapped_place == place_code:
+                return state_code, place_code
+    raise ValueError(
+        f"Place FIPS '{place_fips}' does not belong to state '{postal}'."
+    )
+
+
+def _normalize_location_key(value: str) -> str:
+    return " ".join(value.strip().split()).lower()
 
 
 def derive_inputs_from_location(location: str) -> Tuple[str, str, str]:
@@ -553,6 +617,39 @@ def derive_inputs_from_location(location: str) -> Tuple[str, str, str]:
     county_fips = fips_code[2:]
     article_title = canonical_key.replace(" ", "_")
     return article_title, state_fips, county_fips
+
+
+def derive_inputs_from_municipality(location: str) -> Tuple[str, str, str]:
+    cleaned = " ".join(location.strip().split())
+    if "," not in cleaned:
+        raise ValueError("Location must be in the form 'Place Name, State Name'.")
+    place_part, state_part = [part.strip() for part in cleaned.split(",", 1)]
+    state_lower = state_part.lower()
+    postal = STATE_NAME_TO_POSTAL.get(state_lower)
+    if not postal:
+        raise ValueError(f"Unknown state name '{state_part}'.")
+    state_dir = MUNICIPALITY_FIPS_DIR / postal
+    if not state_dir.exists():
+        raise ValueError(f"No municipality mapping found for state '{postal}'.")
+
+    target = _normalize_location_key(f"{place_part}, {state_part}")
+    for type_dir in state_dir.iterdir():
+        if not type_dir.is_dir():
+            continue
+        path = type_dir / "places.json"
+        if not path.exists():
+            continue
+        mapping = json.loads(path.read_text())
+        for name, codes in mapping.items():
+            if _normalize_location_key(name) != target:
+                continue
+            state_code = str(codes.get("state", "")).zfill(2)
+            place_code = str(codes.get("place", "")).zfill(5)
+            if not state_code or not place_code:
+                break
+            article_title = name.replace(" ", "_")
+            return article_title, state_code, place_code
+    raise ValueError(f"Municipality '{place_part}' not found in state '{state_part}'.")
 
 
 def ensure_us_location_title(title):
@@ -728,6 +825,7 @@ def main():
     skip_successful_articles = (
         _load_successful_articles() if args.skip_logged_successes else set()
     )
+    is_municipality = bool(args.municipality or args.place_fips)
 
     client = WikipediaClient(WP_BOT_USER_AGENT)
     client.login(WP_BOT_USER_NAME, WP_BOT_PASSWORD)
@@ -744,32 +842,65 @@ def main():
             )
             return
 
-        if args.location and not args.skip_location_parsing:
-            try:
-                article_title, state_fips, county_fips = derive_inputs_from_location(args.location)
-            except ValueError as exc:
-                print(f"Location parsing failed: {exc}")
-                return
-        else:
-            try:
-                state_fips, county_fips = validate_fips_inputs(
-                    args.state_fips,
-                    args.county_fips,
-                )
-            except ValueError as exc:
-                print(f"FIPS validation failed: {exc}")
-                return
-            article_title = args.article.replace(" ", "_")
+        if is_municipality:
+            if args.municipality and not args.skip_location_parsing:
+                try:
+                    article_title, state_fips, place_fips = derive_inputs_from_municipality(
+                        args.municipality
+                    )
+                except ValueError as exc:
+                    print(f"Municipality parsing failed: {exc}")
+                    return
+            else:
+                try:
+                    state_fips, place_fips = validate_place_inputs(
+                        args.state_fips,
+                        args.place_fips,
+                    )
+                except ValueError as exc:
+                    print(f"FIPS validation failed: {exc}")
+                    return
+                article_title = args.article.replace(" ", "_")
 
-        process_single_article_with_retries(
-            article_title,
-            state_fips,
-            county_fips,
-            args,
-            client,
-            use_mini_prompt,
-            skip_successful_articles=skip_successful_articles,
-        )
+            process_single_article_with_retries(
+                article_title,
+                state_fips,
+                place_fips,
+                args,
+                client,
+                use_mini_prompt,
+                skip_successful_articles=skip_successful_articles,
+                location_kind="municipality",
+            )
+        else:
+            if args.location and not args.skip_location_parsing:
+                try:
+                    article_title, state_fips, county_fips = derive_inputs_from_location(
+                        args.location
+                    )
+                except ValueError as exc:
+                    print(f"Location parsing failed: {exc}")
+                    return
+            else:
+                try:
+                    state_fips, county_fips = validate_fips_inputs(
+                        args.state_fips,
+                        args.county_fips,
+                    )
+                except ValueError as exc:
+                    print(f"FIPS validation failed: {exc}")
+                    return
+                article_title = args.article.replace(" ", "_")
+
+            process_single_article_with_retries(
+                article_title,
+                state_fips,
+                county_fips,
+                args,
+                client,
+                use_mini_prompt,
+                skip_successful_articles=skip_successful_articles,
+            )
     except CodexUsageLimitError:
         print("Codex usage limit reached; stopping further processing.")
         sys.exit(1)
