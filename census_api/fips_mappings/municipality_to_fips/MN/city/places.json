@@ -1,0 +1,4257 @@
+{
+  "Sobieski, Minnesota": {
+    "state": "27",
+    "place": "61006",
+    "population": "210"
+  },
+  "Solway, Minnesota": {
+    "state": "27",
+    "place": "61114",
+    "population": "73"
+  },
+  "South Haven, Minnesota": {
+    "state": "27",
+    "place": "61402",
+    "population": "185"
+  },
+  "South St. Paul, Minnesota": {
+    "state": "27",
+    "place": "61492",
+    "population": "20759"
+  },
+  "Spicer, Minnesota": {
+    "state": "27",
+    "place": "61690",
+    "population": "1112"
+  },
+  "Springfield, Minnesota": {
+    "state": "27",
+    "place": "61816",
+    "population": "2027"
+  },
+  "Spring Grove, Minnesota": {
+    "state": "27",
+    "place": "61852",
+    "population": "1256"
+  },
+  "Spring Hill, Minnesota": {
+    "state": "27",
+    "place": "61888",
+    "population": "68"
+  },
+  "Spring Lake Park, Minnesota": {
+    "state": "27",
+    "place": "61996",
+    "population": "7188"
+  },
+  "Spring Park, Minnesota": {
+    "state": "27",
+    "place": "62014",
+    "population": "1734"
+  },
+  "Spring Valley, Minnesota": {
+    "state": "27",
+    "place": "62104",
+    "population": "2447"
+  },
+  "Squaw Lake, Minnesota": {
+    "state": "27",
+    "place": "62284",
+    "population": "98"
+  },
+  "Stacy, Minnesota": {
+    "state": "27",
+    "place": "62320",
+    "population": "1703"
+  },
+  "Staples, Minnesota": {
+    "state": "27",
+    "place": "62446",
+    "population": "2989"
+  },
+  "Starbuck, Minnesota": {
+    "state": "27",
+    "place": "62500",
+    "population": "1365"
+  },
+  "Steen, Minnesota": {
+    "state": "27",
+    "place": "62662",
+    "population": "171"
+  },
+  "Stephen, Minnesota": {
+    "state": "27",
+    "place": "62698",
+    "population": "592"
+  },
+  "Stewart, Minnesota": {
+    "state": "27",
+    "place": "62788",
+    "population": "489"
+  },
+  "Stewartville, Minnesota": {
+    "state": "27",
+    "place": "62806",
+    "population": "6687"
+  },
+  "Stillwater, Minnesota": {
+    "state": "27",
+    "place": "62824",
+    "population": "19394"
+  },
+  "Stockton, Minnesota": {
+    "state": "27",
+    "place": "62896",
+    "population": "809"
+  },
+  "Storden, Minnesota": {
+    "state": "27",
+    "place": "63022",
+    "population": "225"
+  },
+  "Strandquist, Minnesota": {
+    "state": "27",
+    "place": "63112",
+    "population": "70"
+  },
+  "Strathcona, Minnesota": {
+    "state": "27",
+    "place": "63130",
+    "population": "25"
+  },
+  "Sturgeon Lake, Minnesota": {
+    "state": "27",
+    "place": "63220",
+    "population": "436"
+  },
+  "Sunburg, Minnesota": {
+    "state": "27",
+    "place": "63454",
+    "population": "94"
+  },
+  "Sunfish Lake, Minnesota": {
+    "state": "27",
+    "place": "63544",
+    "population": "522"
+  },
+  "Swanville, Minnesota": {
+    "state": "27",
+    "place": "63778",
+    "population": "326"
+  },
+  "Taconite, Minnesota": {
+    "state": "27",
+    "place": "64048",
+    "population": "651"
+  },
+  "Tamarack, Minnesota": {
+    "state": "27",
+    "place": "64156",
+    "population": "62"
+  },
+  "Taopi, Minnesota": {
+    "state": "27",
+    "place": "64210",
+    "population": "61"
+  },
+  "Taunton, Minnesota": {
+    "state": "27",
+    "place": "64264",
+    "population": "136"
+  },
+  "Taylors Falls, Minnesota": {
+    "state": "27",
+    "place": "64318",
+    "population": "1055"
+  },
+  "Tenstrike, Minnesota": {
+    "state": "27",
+    "place": "64444",
+    "population": "186"
+  },
+  "Thief River Falls, Minnesota": {
+    "state": "27",
+    "place": "64570",
+    "population": "8749"
+  },
+  "Tintah, Minnesota": {
+    "state": "27",
+    "place": "64948",
+    "population": "67"
+  },
+  "Tonka Bay, Minnesota": {
+    "state": "27",
+    "place": "65164",
+    "population": "1442"
+  },
+  "Tower, Minnesota": {
+    "state": "27",
+    "place": "65272",
+    "population": "430"
+  },
+  "Tracy, Minnesota": {
+    "state": "27",
+    "place": "65308",
+    "population": "2076"
+  },
+  "Trail, Minnesota": {
+    "state": "27",
+    "place": "65344",
+    "population": "40"
+  },
+  "Trimont, Minnesota": {
+    "state": "27",
+    "place": "65470",
+    "population": "705"
+  },
+  "Trommald, Minnesota": {
+    "state": "27",
+    "place": "65506",
+    "population": "99"
+  },
+  "Trosky, Minnesota": {
+    "state": "27",
+    "place": "65542",
+    "population": "98"
+  },
+  "Truman, Minnesota": {
+    "state": "27",
+    "place": "65668",
+    "population": "1092"
+  },
+  "Turtle River, Minnesota": {
+    "state": "27",
+    "place": "65794",
+    "population": "88"
+  },
+  "Twin Lakes, Minnesota": {
+    "state": "27",
+    "place": "65920",
+    "population": "134"
+  },
+  "Twin Valley, Minnesota": {
+    "state": "27",
+    "place": "65938",
+    "population": "723"
+  },
+  "Two Harbors, Minnesota": {
+    "state": "27",
+    "place": "65956",
+    "population": "3633"
+  },
+  "Tyler, Minnesota": {
+    "state": "27",
+    "place": "66046",
+    "population": "1138"
+  },
+  "Ulen, Minnesota": {
+    "state": "27",
+    "place": "66136",
+    "population": "476"
+  },
+  "Underwood, Minnesota": {
+    "state": "27",
+    "place": "66172",
+    "population": "356"
+  },
+  "Upsala, Minnesota": {
+    "state": "27",
+    "place": "66334",
+    "population": "487"
+  },
+  "Urbank, Minnesota": {
+    "state": "27",
+    "place": "66388",
+    "population": "52"
+  },
+  "Utica, Minnesota": {
+    "state": "27",
+    "place": "66424",
+    "population": "266"
+  },
+  "Vadnais Heights, Minnesota": {
+    "state": "27",
+    "place": "66460",
+    "population": "12912"
+  },
+  "Vergas, Minnesota": {
+    "state": "27",
+    "place": "66766",
+    "population": "348"
+  },
+  "Vermillion, Minnesota": {
+    "state": "27",
+    "place": "66802",
+    "population": "441"
+  },
+  "Verndale, Minnesota": {
+    "state": "27",
+    "place": "66874",
+    "population": "511"
+  },
+  "Vernon Center, Minnesota": {
+    "state": "27",
+    "place": "66910",
+    "population": "328"
+  },
+  "Vesta, Minnesota": {
+    "state": "27",
+    "place": "66982",
+    "population": "276"
+  },
+  "Victoria, Minnesota": {
+    "state": "27",
+    "place": "67036",
+    "population": "10546"
+  },
+  "Viking, Minnesota": {
+    "state": "27",
+    "place": "67090",
+    "population": "79"
+  },
+  "Villard, Minnesota": {
+    "state": "27",
+    "place": "67144",
+    "population": "225"
+  },
+  "Vining, Minnesota": {
+    "state": "27",
+    "place": "67216",
+    "population": "62"
+  },
+  "Virginia, Minnesota": {
+    "state": "27",
+    "place": "67288",
+    "population": "8421"
+  },
+  "Wabasha, Minnesota": {
+    "state": "27",
+    "place": "67378",
+    "population": "2559"
+  },
+  "Wabasso, Minnesota": {
+    "state": "27",
+    "place": "67396",
+    "population": "739"
+  },
+  "Waconia, Minnesota": {
+    "state": "27",
+    "place": "67432",
+    "population": "13033"
+  },
+  "Wadena, Minnesota": {
+    "state": "27",
+    "place": "67504",
+    "population": "4325"
+  },
+  "Wahkon, Minnesota": {
+    "state": "27",
+    "place": "67558",
+    "population": "235"
+  },
+  "Waite Park, Minnesota": {
+    "state": "27",
+    "place": "67612",
+    "population": "8341"
+  },
+  "Waldorf, Minnesota": {
+    "state": "27",
+    "place": "67756",
+    "population": "201"
+  },
+  "Walker, Minnesota": {
+    "state": "27",
+    "place": "67792",
+    "population": "966"
+  },
+  "Walnut Grove, Minnesota": {
+    "state": "27",
+    "place": "67846",
+    "population": "751"
+  },
+  "Walters, Minnesota": {
+    "state": "27",
+    "place": "67900",
+    "population": "69"
+  },
+  "Waltham, Minnesota": {
+    "state": "27",
+    "place": "67918",
+    "population": "164"
+  },
+  "Wanamingo, Minnesota": {
+    "state": "27",
+    "place": "67972",
+    "population": "1113"
+  },
+  "Wanda, Minnesota": {
+    "state": "27",
+    "place": "68008",
+    "population": "72"
+  },
+  "Warba, Minnesota": {
+    "state": "27",
+    "place": "68080",
+    "population": "168"
+  },
+  "Warren, Minnesota": {
+    "state": "27",
+    "place": "68170",
+    "population": "1605"
+  },
+  "Warroad, Minnesota": {
+    "state": "27",
+    "place": "68224",
+    "population": "1830"
+  },
+  "Waseca, Minnesota": {
+    "state": "27",
+    "place": "68296",
+    "population": "9229"
+  },
+  "Watertown, Minnesota": {
+    "state": "27",
+    "place": "68548",
+    "population": "4659"
+  },
+  "Waterville, Minnesota": {
+    "state": "27",
+    "place": "68584",
+    "population": "1750"
+  },
+  "Watkins, Minnesota": {
+    "state": "27",
+    "place": "68620",
+    "population": "991"
+  },
+  "Watson, Minnesota": {
+    "state": "27",
+    "place": "68656",
+    "population": "182"
+  },
+  "Waubun, Minnesota": {
+    "state": "27",
+    "place": "68674",
+    "population": "409"
+  },
+  "Waverly, Minnesota": {
+    "state": "27",
+    "place": "68764",
+    "population": "1900"
+  },
+  "Wayzata, Minnesota": {
+    "state": "27",
+    "place": "68818",
+    "population": "4434"
+  },
+  "Welcome, Minnesota": {
+    "state": "27",
+    "place": "69070",
+    "population": "710"
+  },
+  "Wells, Minnesota": {
+    "state": "27",
+    "place": "69106",
+    "population": "2410"
+  },
+  "Wendell, Minnesota": {
+    "state": "27",
+    "place": "69142",
+    "population": "166"
+  },
+  "Westbrook, Minnesota": {
+    "state": "27",
+    "place": "69250",
+    "population": "758"
+  },
+  "West Concord, Minnesota": {
+    "state": "27",
+    "place": "69304",
+    "population": "861"
+  },
+  "Westport, Minnesota": {
+    "state": "27",
+    "place": "69628",
+    "population": "44"
+  },
+  "West St. Paul, Minnesota": {
+    "state": "27",
+    "place": "69700",
+    "population": "20615"
+  },
+  "West Union, Minnesota": {
+    "state": "27",
+    "place": "69736",
+    "population": "92"
+  },
+  "Whalan, Minnesota": {
+    "state": "27",
+    "place": "69808",
+    "population": "67"
+  },
+  "Wheaton, Minnesota": {
+    "state": "27",
+    "place": "69844",
+    "population": "1460"
+  },
+  "White Bear Lake, Minnesota": {
+    "state": "27",
+    "place": "69970",
+    "population": "24883"
+  },
+  "Wilder, Minnesota": {
+    "state": "27",
+    "place": "70258",
+    "population": "62"
+  },
+  "Willernie, Minnesota": {
+    "state": "27",
+    "place": "70366",
+    "population": "515"
+  },
+  "Williams, Minnesota": {
+    "state": "27",
+    "place": "70402",
+    "population": "157"
+  },
+  "Willmar, Minnesota": {
+    "state": "27",
+    "place": "70420",
+    "population": "21015"
+  },
+  "Willow River, Minnesota": {
+    "state": "27",
+    "place": "70492",
+    "population": "384"
+  },
+  "Wilmont, Minnesota": {
+    "state": "27",
+    "place": "70582",
+    "population": "332"
+  },
+  "Wilton, Minnesota": {
+    "state": "27",
+    "place": "70708",
+    "population": "263"
+  },
+  "Windom, Minnesota": {
+    "state": "27",
+    "place": "70798",
+    "population": "4798"
+  },
+  "Winger, Minnesota": {
+    "state": "27",
+    "place": "70870",
+    "population": "174"
+  },
+  "Winnebago, Minnesota": {
+    "state": "27",
+    "place": "70924",
+    "population": "1391"
+  },
+  "Winona, Minnesota": {
+    "state": "27",
+    "place": "71032",
+    "population": "25948"
+  },
+  "Winsted, Minnesota": {
+    "state": "27",
+    "place": "71086",
+    "population": "2240"
+  },
+  "Winthrop, Minnesota": {
+    "state": "27",
+    "place": "71122",
+    "population": "1332"
+  },
+  "Winton, Minnesota": {
+    "state": "27",
+    "place": "71140",
+    "population": "169"
+  },
+  "Wolf Lake, Minnesota": {
+    "state": "27",
+    "place": "71338",
+    "population": "71"
+  },
+  "Wolverton, Minnesota": {
+    "state": "27",
+    "place": "71392",
+    "population": "128"
+  },
+  "Woodbury, Minnesota": {
+    "state": "27",
+    "place": "71428",
+    "population": "75102"
+  },
+  "Wood Lake, Minnesota": {
+    "state": "27",
+    "place": "71446",
+    "population": "381"
+  },
+  "Woodland, Minnesota": {
+    "state": "27",
+    "place": "71500",
+    "population": "384"
+  },
+  "Woodstock, Minnesota": {
+    "state": "27",
+    "place": "71680",
+    "population": "110"
+  },
+  "Worthington, Minnesota": {
+    "state": "27",
+    "place": "71734",
+    "population": "13947"
+  },
+  "Wrenshall, Minnesota": {
+    "state": "27",
+    "place": "71788",
+    "population": "428"
+  },
+  "Wright, Minnesota": {
+    "state": "27",
+    "place": "71824",
+    "population": "168"
+  },
+  "Wykoff, Minnesota": {
+    "state": "27",
+    "place": "71950",
+    "population": "432"
+  },
+  "Wyoming, Minnesota": {
+    "state": "27",
+    "place": "72022",
+    "population": "8032"
+  },
+  "Zemple, Minnesota": {
+    "state": "27",
+    "place": "72184",
+    "population": "78"
+  },
+  "Zimmerman, Minnesota": {
+    "state": "27",
+    "place": "72238",
+    "population": "6189"
+  },
+  "Zumbro Falls, Minnesota": {
+    "state": "27",
+    "place": "72310",
+    "population": "155"
+  },
+  "Zumbrota, Minnesota": {
+    "state": "27",
+    "place": "72328",
+    "population": "3726"
+  },
+  "Ada, Minnesota": {
+    "state": "27",
+    "place": "00172",
+    "population": "1740"
+  },
+  "Adams, Minnesota": {
+    "state": "27",
+    "place": "00190",
+    "population": "683"
+  },
+  "Adrian, Minnesota": {
+    "state": "27",
+    "place": "00262",
+    "population": "1194"
+  },
+  "Afton, Minnesota": {
+    "state": "27",
+    "place": "00316",
+    "population": "2955"
+  },
+  "Aitkin, Minnesota": {
+    "state": "27",
+    "place": "00460",
+    "population": "2168"
+  },
+  "Akeley, Minnesota": {
+    "state": "27",
+    "place": "00496",
+    "population": "404"
+  },
+  "Albany, Minnesota": {
+    "state": "27",
+    "place": "00622",
+    "population": "2780"
+  },
+  "Alberta, Minnesota": {
+    "state": "27",
+    "place": "00676",
+    "population": "94"
+  },
+  "Albert Lea, Minnesota": {
+    "state": "27",
+    "place": "00694",
+    "population": "18492"
+  },
+  "Albertville, Minnesota": {
+    "state": "27",
+    "place": "00730",
+    "population": "7896"
+  },
+  "Alden, Minnesota": {
+    "state": "27",
+    "place": "00838",
+    "population": "583"
+  },
+  "Aldrich, Minnesota": {
+    "state": "27",
+    "place": "00892",
+    "population": "35"
+  },
+  "Alexandria, Minnesota": {
+    "state": "27",
+    "place": "00928",
+    "population": "14335"
+  },
+  "Alpha, Minnesota": {
+    "state": "27",
+    "place": "01162",
+    "population": "97"
+  },
+  "Altura, Minnesota": {
+    "state": "27",
+    "place": "01234",
+    "population": "471"
+  },
+  "Alvarado, Minnesota": {
+    "state": "27",
+    "place": "01252",
+    "population": "388"
+  },
+  "Amboy, Minnesota": {
+    "state": "27",
+    "place": "01324",
+    "population": "535"
+  },
+  "Andover, Minnesota": {
+    "state": "27",
+    "place": "01486",
+    "population": "32601"
+  },
+  "Annandale, Minnesota": {
+    "state": "27",
+    "place": "01684",
+    "population": "3330"
+  },
+  "Anoka, Minnesota": {
+    "state": "27",
+    "place": "01720",
+    "population": "17921"
+  },
+  "Appleton, Minnesota": {
+    "state": "27",
+    "place": "01864",
+    "population": "1392"
+  },
+  "Apple Valley, Minnesota": {
+    "state": "27",
+    "place": "01900",
+    "population": "56374"
+  },
+  "Arco, Minnesota": {
+    "state": "27",
+    "place": "01972",
+    "population": "87"
+  },
+  "Arden Hills, Minnesota": {
+    "state": "27",
+    "place": "02026",
+    "population": "9939"
+  },
+  "Argyle, Minnesota": {
+    "state": "27",
+    "place": "02134",
+    "population": "544"
+  },
+  "Arlington, Minnesota": {
+    "state": "27",
+    "place": "02152",
+    "population": "2247"
+  },
+  "Ashby, Minnesota": {
+    "state": "27",
+    "place": "02422",
+    "population": "469"
+  },
+  "Askov, Minnesota": {
+    "state": "27",
+    "place": "02548",
+    "population": "331"
+  },
+  "Atwater, Minnesota": {
+    "state": "27",
+    "place": "02692",
+    "population": "1124"
+  },
+  "Audubon, Minnesota": {
+    "state": "27",
+    "place": "02728",
+    "population": "560"
+  },
+  "Aurora, Minnesota": {
+    "state": "27",
+    "place": "02872",
+    "population": "1678"
+  },
+  "Austin, Minnesota": {
+    "state": "27",
+    "place": "02908",
+    "population": "26174"
+  },
+  "Denham, Minnesota": {
+    "state": "27",
+    "place": "15670",
+    "population": "37"
+  },
+  "Dennison, Minnesota": {
+    "state": "27",
+    "place": "15706",
+    "population": "223"
+  },
+  "Dent, Minnesota": {
+    "state": "27",
+    "place": "15724",
+    "population": "173"
+  },
+  "Detroit Lakes, Minnesota": {
+    "state": "27",
+    "place": "15832",
+    "population": "9869"
+  },
+  "Dexter, Minnesota": {
+    "state": "27",
+    "place": "15886",
+    "population": "324"
+  },
+  "Dilworth, Minnesota": {
+    "state": "27",
+    "place": "15976",
+    "population": "4612"
+  },
+  "Dodge Center, Minnesota": {
+    "state": "27",
+    "place": "15994",
+    "population": "2844"
+  },
+  "Donaldson, Minnesota": {
+    "state": "27",
+    "place": "16030",
+    "population": "20"
+  },
+  "Donnelly, Minnesota": {
+    "state": "27",
+    "place": "16084",
+    "population": "221"
+  },
+  "Doran, Minnesota": {
+    "state": "27",
+    "place": "16156",
+    "population": "36"
+  },
+  "Dover, Minnesota": {
+    "state": "27",
+    "place": "16264",
+    "population": "782"
+  },
+  "Dovray, Minnesota": {
+    "state": "27",
+    "place": "16300",
+    "population": "58"
+  },
+  "Duluth, Minnesota": {
+    "state": "27",
+    "place": "17000",
+    "population": "86697"
+  },
+  "Dumont, Minnesota": {
+    "state": "27",
+    "place": "17090",
+    "population": "75"
+  },
+  "Dundas, Minnesota": {
+    "state": "27",
+    "place": "17126",
+    "population": "1712"
+  },
+  "Dundee, Minnesota": {
+    "state": "27",
+    "place": "17144",
+    "population": "73"
+  },
+  "Dunnell, Minnesota": {
+    "state": "27",
+    "place": "17180",
+    "population": "133"
+  },
+  "Eagan, Minnesota": {
+    "state": "27",
+    "place": "17288",
+    "population": "68855"
+  },
+  "Eagle Bend, Minnesota": {
+    "state": "27",
+    "place": "17342",
+    "population": "546"
+  },
+  "Eagle Lake, Minnesota": {
+    "state": "27",
+    "place": "17378",
+    "population": "3278"
+  },
+  "East Bethel, Minnesota": {
+    "state": "27",
+    "place": "17486",
+    "population": "11786"
+  },
+  "East Grand Forks, Minnesota": {
+    "state": "27",
+    "place": "17612",
+    "population": "9176"
+  },
+  "East Gull Lake, Minnesota": {
+    "state": "27",
+    "place": "17630",
+    "population": "986"
+  },
+  "Easton, Minnesota": {
+    "state": "27",
+    "place": "17738",
+    "population": "177"
+  },
+  "Echo, Minnesota": {
+    "state": "27",
+    "place": "17900",
+    "population": "243"
+  },
+  "Eden Prairie, Minnesota": {
+    "state": "27",
+    "place": "18116",
+    "population": "64198"
+  },
+  "Eden Valley, Minnesota": {
+    "state": "27",
+    "place": "18134",
+    "population": "1027"
+  },
+  "Edgerton, Minnesota": {
+    "state": "27",
+    "place": "18152",
+    "population": "1258"
+  },
+  "Edina, Minnesota": {
+    "state": "27",
+    "place": "18188",
+    "population": "53494"
+  },
+  "Effie, Minnesota": {
+    "state": "27",
+    "place": "18260",
+    "population": "109"
+  },
+  "Eitzen, Minnesota": {
+    "state": "27",
+    "place": "18368",
+    "population": "279"
+  },
+  "Elba, Minnesota": {
+    "state": "27",
+    "place": "18386",
+    "population": "129"
+  },
+  "Elbow Lake, Minnesota": {
+    "state": "27",
+    "place": "18458",
+    "population": "1276"
+  },
+  "Elgin, Minnesota": {
+    "state": "27",
+    "place": "18530",
+    "population": "1115"
+  },
+  "Elizabeth, Minnesota": {
+    "state": "27",
+    "place": "18566",
+    "population": "168"
+  },
+  "Elko New Market, Minnesota": {
+    "state": "27",
+    "place": "18662",
+    "population": "4846"
+  },
+  "Elk River, Minnesota": {
+    "state": "27",
+    "place": "18674",
+    "population": "25835"
+  },
+  "Dellwood, Minnesota": {
+    "state": "27",
+    "place": "15616",
+    "population": "1171"
+  },
+  "Elkton, Minnesota": {
+    "state": "27",
+    "place": "18728",
+    "population": "130"
+  },
+  "Ellendale, Minnesota": {
+    "state": "27",
+    "place": "18746",
+    "population": "676"
+  },
+  "Ellsworth, Minnesota": {
+    "state": "27",
+    "place": "18836",
+    "population": "497"
+  },
+  "Elmdale, Minnesota": {
+    "state": "27",
+    "place": "18872",
+    "population": "114"
+  },
+  "Elmore, Minnesota": {
+    "state": "27",
+    "place": "18998",
+    "population": "549"
+  },
+  "Elrosa, Minnesota": {
+    "state": "27",
+    "place": "19088",
+    "population": "213"
+  },
+  "Ely, Minnesota": {
+    "state": "27",
+    "place": "19142",
+    "population": "3268"
+  },
+  "Elysian, Minnesota": {
+    "state": "27",
+    "place": "19160",
+    "population": "708"
+  },
+  "Emily, Minnesota": {
+    "state": "27",
+    "place": "19286",
+    "population": "843"
+  },
+  "Emmons, Minnesota": {
+    "state": "27",
+    "place": "19340",
+    "population": "367"
+  },
+  "Erhard, Minnesota": {
+    "state": "27",
+    "place": "19556",
+    "population": "132"
+  },
+  "Erskine, Minnesota": {
+    "state": "27",
+    "place": "19700",
+    "population": "403"
+  },
+  "Evan, Minnesota": {
+    "state": "27",
+    "place": "19880",
+    "population": "70"
+  },
+  "Evansville, Minnesota": {
+    "state": "27",
+    "place": "19898",
+    "population": "603"
+  },
+  "Avoca, Minnesota": {
+    "state": "27",
+    "place": "03052",
+    "population": "111"
+  },
+  "Avon, Minnesota": {
+    "state": "27",
+    "place": "03070",
+    "population": "1618"
+  },
+  "Babbitt, Minnesota": {
+    "state": "27",
+    "place": "03106",
+    "population": "1397"
+  },
+  "Backus, Minnesota": {
+    "state": "27",
+    "place": "03124",
+    "population": "263"
+  },
+  "Badger, Minnesota": {
+    "state": "27",
+    "place": "03160",
+    "population": "429"
+  },
+  "Bagley, Minnesota": {
+    "state": "27",
+    "place": "03196",
+    "population": "1285"
+  },
+  "Balaton, Minnesota": {
+    "state": "27",
+    "place": "03250",
+    "population": "595"
+  },
+  "Barnesville, Minnesota": {
+    "state": "27",
+    "place": "03574",
+    "population": "2759"
+  },
+  "Barnum, Minnesota": {
+    "state": "27",
+    "place": "03628",
+    "population": "620"
+  },
+  "Barrett, Minnesota": {
+    "state": "27",
+    "place": "03682",
+    "population": "366"
+  },
+  "Barry, Minnesota": {
+    "state": "27",
+    "place": "03718",
+    "population": "16"
+  },
+  "Battle Lake, Minnesota": {
+    "state": "27",
+    "place": "03970",
+    "population": "857"
+  },
+  "Baudette, Minnesota": {
+    "state": "27",
+    "place": "04024",
+    "population": "966"
+  },
+  "Baxter, Minnesota": {
+    "state": "27",
+    "place": "04042",
+    "population": "8612"
+  },
+  "Bayport, Minnesota": {
+    "state": "27",
+    "place": "04114",
+    "population": "4024"
+  },
+  "Beardsley, Minnesota": {
+    "state": "27",
+    "place": "04204",
+    "population": "216"
+  },
+  "Beaver Bay, Minnesota": {
+    "state": "27",
+    "place": "04456",
+    "population": "120"
+  },
+  "Beaver Creek, Minnesota": {
+    "state": "27",
+    "place": "04492",
+    "population": "280"
+  },
+  "Becker, Minnesota": {
+    "state": "27",
+    "place": "04618",
+    "population": "4877"
+  },
+  "Bejou, Minnesota": {
+    "state": "27",
+    "place": "04672",
+    "population": "84"
+  },
+  "Belgrade, Minnesota": {
+    "state": "27",
+    "place": "04762",
+    "population": "738"
+  },
+  "Bellechester, Minnesota": {
+    "state": "27",
+    "place": "04798",
+    "population": "176"
+  },
+  "Belle Plaine, Minnesota": {
+    "state": "27",
+    "place": "04834",
+    "population": "7395"
+  },
+  "Bellingham, Minnesota": {
+    "state": "27",
+    "place": "04960",
+    "population": "148"
+  },
+  "Beltrami, Minnesota": {
+    "state": "27",
+    "place": "05014",
+    "population": "88"
+  },
+  "Belview, Minnesota": {
+    "state": "27",
+    "place": "05050",
+    "population": "291"
+  },
+  "Bemidji, Minnesota": {
+    "state": "27",
+    "place": "05068",
+    "population": "14574"
+  },
+  "Bena, Minnesota": {
+    "state": "27",
+    "place": "05104",
+    "population": "143"
+  },
+  "Benson, Minnesota": {
+    "state": "27",
+    "place": "05212",
+    "population": "3480"
+  },
+  "Bertha, Minnesota": {
+    "state": "27",
+    "place": "05482",
+    "population": "560"
+  },
+  "Bethel, Minnesota": {
+    "state": "27",
+    "place": "05554",
+    "population": "476"
+  },
+  "Bigelow, Minnesota": {
+    "state": "27",
+    "place": "05644",
+    "population": "227"
+  },
+  "Big Falls, Minnesota": {
+    "state": "27",
+    "place": "05680",
+    "population": "175"
+  },
+  "Bigfork, Minnesota": {
+    "state": "27",
+    "place": "05698",
+    "population": "400"
+  },
+  "Big Lake, Minnesota": {
+    "state": "27",
+    "place": "05752",
+    "population": "11686"
+  },
+  "Bingham Lake, Minnesota": {
+    "state": "27",
+    "place": "05896",
+    "population": "137"
+  },
+  "Birchwood Village, Minnesota": {
+    "state": "27",
+    "place": "06058",
+    "population": "863"
+  },
+  "Bird Island, Minnesota": {
+    "state": "27",
+    "place": "06076",
+    "population": "1005"
+  },
+  "Biscay, Minnesota": {
+    "state": "27",
+    "place": "06112",
+    "population": "113"
+  },
+  "Biwabik, Minnesota": {
+    "state": "27",
+    "place": "06148",
+    "population": "961"
+  },
+  "Blackduck, Minnesota": {
+    "state": "27",
+    "place": "06256",
+    "population": "845"
+  },
+  "Blaine, Minnesota": {
+    "state": "27",
+    "place": "06382",
+    "population": "70222"
+  },
+  "Blomkest, Minnesota": {
+    "state": "27",
+    "place": "06490",
+    "population": "145"
+  },
+  "Blooming Prairie, Minnesota": {
+    "state": "27",
+    "place": "06580",
+    "population": "1974"
+  },
+  "Bloomington, Minnesota": {
+    "state": "27",
+    "place": "06616",
+    "population": "89987"
+  },
+  "Blue Earth, Minnesota": {
+    "state": "27",
+    "place": "06688",
+    "population": "3174"
+  },
+  "Bluffton, Minnesota": {
+    "state": "27",
+    "place": "06778",
+    "population": "210"
+  },
+  "Bock, Minnesota": {
+    "state": "27",
+    "place": "06814",
+    "population": "78"
+  },
+  "Borup, Minnesota": {
+    "state": "27",
+    "place": "07030",
+    "population": "96"
+  },
+  "Bovey, Minnesota": {
+    "state": "27",
+    "place": "07048",
+    "population": "829"
+  },
+  "Bowlus, Minnesota": {
+    "state": "27",
+    "place": "07066",
+    "population": "279"
+  },
+  "Boyd, Minnesota": {
+    "state": "27",
+    "place": "07138",
+    "population": "141"
+  },
+  "Boy River, Minnesota": {
+    "state": "27",
+    "place": "07174",
+    "population": "26"
+  },
+  "Eveleth, Minnesota": {
+    "state": "27",
+    "place": "19934",
+    "population": "3493"
+  },
+  "Excelsior, Minnesota": {
+    "state": "27",
+    "place": "20078",
+    "population": "2355"
+  },
+  "Eyota, Minnesota": {
+    "state": "27",
+    "place": "20114",
+    "population": "2006"
+  },
+  "Fairfax, Minnesota": {
+    "state": "27",
+    "place": "20222",
+    "population": "1250"
+  },
+  "Fairmont, Minnesota": {
+    "state": "27",
+    "place": "20330",
+    "population": "10487"
+  },
+  "Falcon Heights, Minnesota": {
+    "state": "27",
+    "place": "20420",
+    "population": "5369"
+  },
+  "Faribault, Minnesota": {
+    "state": "27",
+    "place": "20546",
+    "population": "24453"
+  },
+  "Farmington, Minnesota": {
+    "state": "27",
+    "place": "20618",
+    "population": "23632"
+  },
+  "Farwell, Minnesota": {
+    "state": "27",
+    "place": "20690",
+    "population": "56"
+  },
+  "Federal Dam, Minnesota": {
+    "state": "27",
+    "place": "20798",
+    "population": "123"
+  },
+  "Felton, Minnesota": {
+    "state": "27",
+    "place": "20834",
+    "population": "177"
+  },
+  "Fergus Falls, Minnesota": {
+    "state": "27",
+    "place": "20906",
+    "population": "14119"
+  },
+  "Fertile, Minnesota": {
+    "state": "27",
+    "place": "20978",
+    "population": "804"
+  },
+  "Fifty Lakes, Minnesota": {
+    "state": "27",
+    "place": "21032",
+    "population": "443"
+  },
+  "Finlayson, Minnesota": {
+    "state": "27",
+    "place": "21122",
+    "population": "295"
+  },
+  "Fisher, Minnesota": {
+    "state": "27",
+    "place": "21158",
+    "population": "422"
+  },
+  "Flensburg, Minnesota": {
+    "state": "27",
+    "place": "21266",
+    "population": "216"
+  },
+  "Floodwood, Minnesota": {
+    "state": "27",
+    "place": "21338",
+    "population": "517"
+  },
+  "Florence, Minnesota": {
+    "state": "27",
+    "place": "21410",
+    "population": "28"
+  },
+  "Foley, Minnesota": {
+    "state": "27",
+    "place": "21536",
+    "population": "2711"
+  },
+  "Forada, Minnesota": {
+    "state": "27",
+    "place": "21608",
+    "population": "170"
+  },
+  "Forest Lake, Minnesota": {
+    "state": "27",
+    "place": "21770",
+    "population": "20611"
+  },
+  "Foreston, Minnesota": {
+    "state": "27",
+    "place": "21824",
+    "population": "559"
+  },
+  "Fort Ripley, Minnesota": {
+    "state": "27",
+    "place": "21932",
+    "population": "84"
+  },
+  "Fosston, Minnesota": {
+    "state": "27",
+    "place": "21986",
+    "population": "1434"
+  },
+  "Fountain, Minnesota": {
+    "state": "27",
+    "place": "22094",
+    "population": "409"
+  },
+  "Foxhome, Minnesota": {
+    "state": "27",
+    "place": "22202",
+    "population": "126"
+  },
+  "Franklin, Minnesota": {
+    "state": "27",
+    "place": "22364",
+    "population": "493"
+  },
+  "Frazee, Minnesota": {
+    "state": "27",
+    "place": "22472",
+    "population": "1335"
+  },
+  "Freeborn, Minnesota": {
+    "state": "27",
+    "place": "22526",
+    "population": "264"
+  },
+  "Freeport, Minnesota": {
+    "state": "27",
+    "place": "22652",
+    "population": "675"
+  },
+  "Fridley, Minnesota": {
+    "state": "27",
+    "place": "22814",
+    "population": "29590"
+  },
+  "Frost, Minnesota": {
+    "state": "27",
+    "place": "22940",
+    "population": "216"
+  },
+  "Fulda, Minnesota": {
+    "state": "27",
+    "place": "22958",
+    "population": "1371"
+  },
+  "Funkley, Minnesota": {
+    "state": "27",
+    "place": "22976",
+    "population": "18"
+  },
+  "Garfield, Minnesota": {
+    "state": "27",
+    "place": "23120",
+    "population": "349"
+  },
+  "Garrison, Minnesota": {
+    "state": "27",
+    "place": "23192",
+    "population": "194"
+  },
+  "Garvin, Minnesota": {
+    "state": "27",
+    "place": "23228",
+    "population": "124"
+  },
+  "Gary, Minnesota": {
+    "state": "27",
+    "place": "23246",
+    "population": "227"
+  },
+  "Gaylord, Minnesota": {
+    "state": "27",
+    "place": "23300",
+    "population": "2273"
+  },
+  "Gem Lake, Minnesota": {
+    "state": "27",
+    "place": "23318",
+    "population": "528"
+  },
+  "Geneva, Minnesota": {
+    "state": "27",
+    "place": "23354",
+    "population": "508"
+  },
+  "Genola, Minnesota": {
+    "state": "27",
+    "place": "23444",
+    "population": "70"
+  },
+  "Georgetown, Minnesota": {
+    "state": "27",
+    "place": "23498",
+    "population": "86"
+  },
+  "Ghent, Minnesota": {
+    "state": "27",
+    "place": "23660",
+    "population": "376"
+  },
+  "Gibbon, Minnesota": {
+    "state": "27",
+    "place": "23678",
+    "population": "784"
+  },
+  "Gilbert, Minnesota": {
+    "state": "27",
+    "place": "23714",
+    "population": "1687"
+  },
+  "Gilman, Minnesota": {
+    "state": "27",
+    "place": "23804",
+    "population": "226"
+  },
+  "Glencoe, Minnesota": {
+    "state": "27",
+    "place": "23948",
+    "population": "5744"
+  },
+  "Glenville, Minnesota": {
+    "state": "27",
+    "place": "24056",
+    "population": "568"
+  },
+  "Glenwood, Minnesota": {
+    "state": "27",
+    "place": "24074",
+    "population": "2657"
+  },
+  "Glyndon, Minnesota": {
+    "state": "27",
+    "place": "24182",
+    "population": "1306"
+  },
+  "Kerrick, Minnesota": {
+    "state": "27",
+    "place": "32912",
+    "population": "71"
+  },
+  "Kettle River, Minnesota": {
+    "state": "27",
+    "place": "32966",
+    "population": "166"
+  },
+  "Kiester, Minnesota": {
+    "state": "27",
+    "place": "33056",
+    "population": "488"
+  },
+  "Kilkenny, Minnesota": {
+    "state": "27",
+    "place": "33110",
+    "population": "148"
+  },
+  "Kimball, Minnesota": {
+    "state": "27",
+    "place": "33164",
+    "population": "799"
+  },
+  "Kinbrae, Minnesota": {
+    "state": "27",
+    "place": "33236",
+    "population": "10"
+  },
+  "Kingston, Minnesota": {
+    "state": "27",
+    "place": "33344",
+    "population": "184"
+  },
+  "Kinney, Minnesota": {
+    "state": "27",
+    "place": "33416",
+    "population": "152"
+  },
+  "La Crescent, Minnesota": {
+    "state": "27",
+    "place": "33866",
+    "population": "5276"
+  },
+  "Lafayette, Minnesota": {
+    "state": "27",
+    "place": "33920",
+    "population": "492"
+  },
+  "Lake Benton, Minnesota": {
+    "state": "27",
+    "place": "34100",
+    "population": "687"
+  },
+  "Lake Bronson, Minnesota": {
+    "state": "27",
+    "place": "34136",
+    "population": "178"
+  },
+  "Lake City, Minnesota": {
+    "state": "27",
+    "place": "34172",
+    "population": "5252"
+  },
+  "Lake Crystal, Minnesota": {
+    "state": "27",
+    "place": "34190",
+    "population": "2539"
+  },
+  "Lake Elmo, Minnesota": {
+    "state": "27",
+    "place": "34244",
+    "population": "11335"
+  },
+  "Lakefield, Minnesota": {
+    "state": "27",
+    "place": "34316",
+    "population": "1735"
+  },
+  "Lake Henry, Minnesota": {
+    "state": "27",
+    "place": "34478",
+    "population": "72"
+  },
+  "Lakeland, Minnesota": {
+    "state": "27",
+    "place": "34622",
+    "population": "1710"
+  },
+  "Lakeland Shores, Minnesota": {
+    "state": "27",
+    "place": "34658",
+    "population": "339"
+  },
+  "Lake Lillian, Minnesota": {
+    "state": "27",
+    "place": "34676",
+    "population": "246"
+  },
+  "Lake Park, Minnesota": {
+    "state": "27",
+    "place": "34784",
+    "population": "728"
+  },
+  "Lake St. Croix Beach, Minnesota": {
+    "state": "27",
+    "place": "34865",
+    "population": "1043"
+  },
+  "Lake Shore, Minnesota": {
+    "state": "27",
+    "place": "34928",
+    "population": "1056"
+  },
+  "Lakeville, Minnesota": {
+    "state": "27",
+    "place": "35180",
+    "population": "69490"
+  },
+  "Lake Wilson, Minnesota": {
+    "state": "27",
+    "place": "35198",
+    "population": "254"
+  },
+  "Lamberton, Minnesota": {
+    "state": "27",
+    "place": "35288",
+    "population": "792"
+  },
+  "Lancaster, Minnesota": {
+    "state": "27",
+    "place": "35378",
+    "population": "364"
+  },
+  "Landfall, Minnesota": {
+    "state": "27",
+    "place": "35414",
+    "population": "843"
+  },
+  "Lanesboro, Minnesota": {
+    "state": "27",
+    "place": "35450",
+    "population": "724"
+  },
+  "Laporte, Minnesota": {
+    "state": "27",
+    "place": "35612",
+    "population": "134"
+  },
+  "La Prairie, Minnesota": {
+    "state": "27",
+    "place": "35648",
+    "population": "653"
+  },
+  "La Salle, Minnesota": {
+    "state": "27",
+    "place": "35702",
+    "population": "79"
+  },
+  "Lastrup, Minnesota": {
+    "state": "27",
+    "place": "35720",
+    "population": "120"
+  },
+  "Lauderdale, Minnesota": {
+    "state": "27",
+    "place": "35738",
+    "population": "2271"
+  },
+  "Le Center, Minnesota": {
+    "state": "27",
+    "place": "36134",
+    "population": "2517"
+  },
+  "Lengby, Minnesota": {
+    "state": "27",
+    "place": "36404",
+    "population": "92"
+  },
+  "Leonard, Minnesota": {
+    "state": "27",
+    "place": "36494",
+    "population": "41"
+  },
+  "Leonidas, Minnesota": {
+    "state": "27",
+    "place": "36530",
+    "population": "50"
+  },
+  "Le Roy, Minnesota": {
+    "state": "27",
+    "place": "36620",
+    "population": "957"
+  },
+  "Lester Prairie, Minnesota": {
+    "state": "27",
+    "place": "36728",
+    "population": "1894"
+  },
+  "Le Sueur, Minnesota": {
+    "state": "27",
+    "place": "36746",
+    "population": "4213"
+  },
+  "Lewiston, Minnesota": {
+    "state": "27",
+    "place": "36800",
+    "population": "1533"
+  },
+  "Lewisville, Minnesota": {
+    "state": "27",
+    "place": "36818",
+    "population": "204"
+  },
+  "Lexington, Minnesota": {
+    "state": "27",
+    "place": "36836",
+    "population": "2248"
+  },
+  "Lilydale, Minnesota": {
+    "state": "27",
+    "place": "37016",
+    "population": "809"
+  },
+  "Lindstrom, Minnesota": {
+    "state": "27",
+    "place": "37304",
+    "population": "4888"
+  },
+  "Lino Lakes, Minnesota": {
+    "state": "27",
+    "place": "37322",
+    "population": "21399"
+  },
+  "Lismore, Minnesota": {
+    "state": "27",
+    "place": "37412",
+    "population": "202"
+  },
+  "Litchfield, Minnesota": {
+    "state": "27",
+    "place": "37448",
+    "population": "6624"
+  },
+  "Little Canada, Minnesota": {
+    "state": "27",
+    "place": "37502",
+    "population": "10819"
+  },
+  "Little Falls, Minnesota": {
+    "state": "27",
+    "place": "37556",
+    "population": "9140"
+  },
+  "Littlefork, Minnesota": {
+    "state": "27",
+    "place": "37592",
+    "population": "553"
+  },
+  "Brainerd, Minnesota": {
+    "state": "27",
+    "place": "07300",
+    "population": "14395"
+  },
+  "Brandon, Minnesota": {
+    "state": "27",
+    "place": "07336",
+    "population": "501"
+  },
+  "Breckenridge, Minnesota": {
+    "state": "27",
+    "place": "07462",
+    "population": "3430"
+  },
+  "Breezy Point, Minnesota": {
+    "state": "27",
+    "place": "07516",
+    "population": "2574"
+  },
+  "Brewster, Minnesota": {
+    "state": "27",
+    "place": "07660",
+    "population": "506"
+  },
+  "Bricelyn, Minnesota": {
+    "state": "27",
+    "place": "07678",
+    "population": "348"
+  },
+  "Brooklyn Center, Minnesota": {
+    "state": "27",
+    "place": "07948",
+    "population": "33782"
+  },
+  "Brooklyn Park, Minnesota": {
+    "state": "27",
+    "place": "07966",
+    "population": "86478"
+  },
+  "Brook Park, Minnesota": {
+    "state": "27",
+    "place": "07984",
+    "population": "132"
+  },
+  "Brooks, Minnesota": {
+    "state": "27",
+    "place": "08038",
+    "population": "117"
+  },
+  "Brookston, Minnesota": {
+    "state": "27",
+    "place": "08056",
+    "population": "118"
+  },
+  "Brooten, Minnesota": {
+    "state": "27",
+    "place": "08092",
+    "population": "626"
+  },
+  "Browerville, Minnesota": {
+    "state": "27",
+    "place": "08110",
+    "population": "839"
+  },
+  "Brownsdale, Minnesota": {
+    "state": "27",
+    "place": "08164",
+    "population": "633"
+  },
+  "Browns Valley, Minnesota": {
+    "state": "27",
+    "place": "08200",
+    "population": "558"
+  },
+  "Brownsville, Minnesota": {
+    "state": "27",
+    "place": "08218",
+    "population": "566"
+  },
+  "Brownton, Minnesota": {
+    "state": "27",
+    "place": "08254",
+    "population": "731"
+  },
+  "Bruno, Minnesota": {
+    "state": "27",
+    "place": "08290",
+    "population": "85"
+  },
+  "Buckman, Minnesota": {
+    "state": "27",
+    "place": "08416",
+    "population": "307"
+  },
+  "Buffalo, Minnesota": {
+    "state": "27",
+    "place": "08452",
+    "population": "16168"
+  },
+  "Buffalo Lake, Minnesota": {
+    "state": "27",
+    "place": "08488",
+    "population": "660"
+  },
+  "Buhl, Minnesota": {
+    "state": "27",
+    "place": "08524",
+    "population": "952"
+  },
+  "Burnsville, Minnesota": {
+    "state": "27",
+    "place": "08794",
+    "population": "64317"
+  },
+  "Burtrum, Minnesota": {
+    "state": "27",
+    "place": "08902",
+    "population": "123"
+  },
+  "Butterfield, Minnesota": {
+    "state": "27",
+    "place": "08992",
+    "population": "601"
+  },
+  "Byron, Minnesota": {
+    "state": "27",
+    "place": "09154",
+    "population": "6312"
+  },
+  "Caledonia, Minnesota": {
+    "state": "27",
+    "place": "09226",
+    "population": "2847"
+  },
+  "Callaway, Minnesota": {
+    "state": "27",
+    "place": "09280",
+    "population": "178"
+  },
+  "Calumet, Minnesota": {
+    "state": "27",
+    "place": "09316",
+    "population": "334"
+  },
+  "Cambridge, Minnesota": {
+    "state": "27",
+    "place": "09370",
+    "population": "9611"
+  },
+  "Campbell, Minnesota": {
+    "state": "27",
+    "place": "09496",
+    "population": "164"
+  },
+  "Canby, Minnesota": {
+    "state": "27",
+    "place": "09604",
+    "population": "1695"
+  },
+  "Cannon Falls, Minnesota": {
+    "state": "27",
+    "place": "09730",
+    "population": "4220"
+  },
+  "Canton, Minnesota": {
+    "state": "27",
+    "place": "09802",
+    "population": "310"
+  },
+  "Carlos, Minnesota": {
+    "state": "27",
+    "place": "09964",
+    "population": "497"
+  },
+  "Carlton, Minnesota": {
+    "state": "27",
+    "place": "10018",
+    "population": "948"
+  },
+  "Carver, Minnesota": {
+    "state": "27",
+    "place": "10144",
+    "population": "5829"
+  },
+  "Cass Lake, Minnesota": {
+    "state": "27",
+    "place": "10252",
+    "population": "675"
+  },
+  "Cedar Mills, Minnesota": {
+    "state": "27",
+    "place": "10468",
+    "population": "62"
+  },
+  "Center City, Minnesota": {
+    "state": "27",
+    "place": "10576",
+    "population": "629"
+  },
+  "Braham, Minnesota": {
+    "state": "27",
+    "place": "07282",
+    "population": "1769"
+  },
+  "Centerville, Minnesota": {
+    "state": "27",
+    "place": "10648",
+    "population": "3896"
+  },
+  "Ceylon, Minnesota": {
+    "state": "27",
+    "place": "10792",
+    "population": "303"
+  },
+  "Champlin, Minnesota": {
+    "state": "27",
+    "place": "10846",
+    "population": "23919"
+  },
+  "Chandler, Minnesota": {
+    "state": "27",
+    "place": "10900",
+    "population": "279"
+  },
+  "Chanhassen, Minnesota": {
+    "state": "27",
+    "place": "10918",
+    "population": "25947"
+  },
+  "Chaska, Minnesota": {
+    "state": "27",
+    "place": "10972",
+    "population": "27810"
+  },
+  "Chatfield, Minnesota": {
+    "state": "27",
+    "place": "11008",
+    "population": "2997"
+  },
+  "Chickamaw Beach, Minnesota": {
+    "state": "27",
+    "place": "11296",
+    "population": "128"
+  },
+  "Chisago City, Minnesota": {
+    "state": "27",
+    "place": "11350",
+    "population": "5558"
+  },
+  "Chisholm, Minnesota": {
+    "state": "27",
+    "place": "11386",
+    "population": "4775"
+  },
+  "Chokio, Minnesota": {
+    "state": "27",
+    "place": "11440",
+    "population": "405"
+  },
+  "Circle Pines, Minnesota": {
+    "state": "27",
+    "place": "11494",
+    "population": "5025"
+  },
+  "Clara City, Minnesota": {
+    "state": "27",
+    "place": "11548",
+    "population": "1423"
+  },
+  "Claremont, Minnesota": {
+    "state": "27",
+    "place": "11566",
+    "population": "513"
+  },
+  "Clarissa, Minnesota": {
+    "state": "27",
+    "place": "11602",
+    "population": "661"
+  },
+  "Clarkfield, Minnesota": {
+    "state": "27",
+    "place": "11656",
+    "population": "852"
+  },
+  "Gonvick, Minnesota": {
+    "state": "27",
+    "place": "24344",
+    "population": "263"
+  },
+  "Goodhue, Minnesota": {
+    "state": "27",
+    "place": "24398",
+    "population": "1250"
+  },
+  "Goodridge, Minnesota": {
+    "state": "27",
+    "place": "24470",
+    "population": "112"
+  },
+  "Good Thunder, Minnesota": {
+    "state": "27",
+    "place": "24506",
+    "population": "560"
+  },
+  "Goodview, Minnesota": {
+    "state": "27",
+    "place": "24524",
+    "population": "4158"
+  },
+  "Graceville, Minnesota": {
+    "state": "27",
+    "place": "24758",
+    "population": "529"
+  },
+  "Granada, Minnesota": {
+    "state": "27",
+    "place": "24884",
+    "population": "291"
+  },
+  "Grand Marais, Minnesota": {
+    "state": "27",
+    "place": "24992",
+    "population": "1337"
+  },
+  "Grand Meadow, Minnesota": {
+    "state": "27",
+    "place": "25010",
+    "population": "1127"
+  },
+  "Grand Rapids, Minnesota": {
+    "state": "27",
+    "place": "25118",
+    "population": "11126"
+  },
+  "Granite Falls, Minnesota": {
+    "state": "27",
+    "place": "25280",
+    "population": "2737"
+  },
+  "Grant, Minnesota": {
+    "state": "27",
+    "place": "25334",
+    "population": "3966"
+  },
+  "Grasston, Minnesota": {
+    "state": "27",
+    "place": "25424",
+    "population": "154"
+  },
+  "Greenbush, Minnesota": {
+    "state": "27",
+    "place": "25604",
+    "population": "682"
+  },
+  "Greenfield, Minnesota": {
+    "state": "27",
+    "place": "25622",
+    "population": "2903"
+  },
+  "Green Isle, Minnesota": {
+    "state": "27",
+    "place": "25658",
+    "population": "591"
+  },
+  "Greenwald, Minnesota": {
+    "state": "27",
+    "place": "25874",
+    "population": "197"
+  },
+  "Greenwood, Minnesota": {
+    "state": "27",
+    "place": "25918",
+    "population": "726"
+  },
+  "Grey Eagle, Minnesota": {
+    "state": "27",
+    "place": "26000",
+    "population": "330"
+  },
+  "Grove City, Minnesota": {
+    "state": "27",
+    "place": "26126",
+    "population": "624"
+  },
+  "Grygla, Minnesota": {
+    "state": "27",
+    "place": "26216",
+    "population": "180"
+  },
+  "Gully, Minnesota": {
+    "state": "27",
+    "place": "26270",
+    "population": "59"
+  },
+  "Hackensack, Minnesota": {
+    "state": "27",
+    "place": "26378",
+    "population": "294"
+  },
+  "Hadley, Minnesota": {
+    "state": "27",
+    "place": "26450",
+    "population": "54"
+  },
+  "Hallock, Minnesota": {
+    "state": "27",
+    "place": "26576",
+    "population": "906"
+  },
+  "Halma, Minnesota": {
+    "state": "27",
+    "place": "26612",
+    "population": "58"
+  },
+  "Halstad, Minnesota": {
+    "state": "27",
+    "place": "26630",
+    "population": "564"
+  },
+  "Hamburg, Minnesota": {
+    "state": "27",
+    "place": "26666",
+    "population": "566"
+  },
+  "Ham Lake, Minnesota": {
+    "state": "27",
+    "place": "26738",
+    "population": "16464"
+  },
+  "Hammond, Minnesota": {
+    "state": "27",
+    "place": "26828",
+    "population": "130"
+  },
+  "Hampton, Minnesota": {
+    "state": "27",
+    "place": "26864",
+    "population": "744"
+  },
+  "Hancock, Minnesota": {
+    "state": "27",
+    "place": "26936",
+    "population": "863"
+  },
+  "Hanley Falls, Minnesota": {
+    "state": "27",
+    "place": "26972",
+    "population": "243"
+  },
+  "Hanover, Minnesota": {
+    "state": "27",
+    "place": "26990",
+    "population": "3548"
+  },
+  "Hanska, Minnesota": {
+    "state": "27",
+    "place": "27008",
+    "population": "382"
+  },
+  "Harding, Minnesota": {
+    "state": "27",
+    "place": "27098",
+    "population": "123"
+  },
+  "Hardwick, Minnesota": {
+    "state": "27",
+    "place": "27116",
+    "population": "189"
+  },
+  "Harmony, Minnesota": {
+    "state": "27",
+    "place": "27188",
+    "population": "1043"
+  },
+  "Harris, Minnesota": {
+    "state": "27",
+    "place": "27278",
+    "population": "1111"
+  },
+  "Golden Valley, Minnesota": {
+    "state": "27",
+    "place": "24308",
+    "population": "22552"
+  },
+  "Hartland, Minnesota": {
+    "state": "27",
+    "place": "27404",
+    "population": "321"
+  },
+  "Hastings, Minnesota": {
+    "state": "27",
+    "place": "27530",
+    "population": "22154"
+  },
+  "Hatfield, Minnesota": {
+    "state": "27",
+    "place": "27566",
+    "population": "53"
+  },
+  "Hawley, Minnesota": {
+    "state": "27",
+    "place": "27746",
+    "population": "2219"
+  },
+  "Hayfield, Minnesota": {
+    "state": "27",
+    "place": "27872",
+    "population": "1364"
+  },
+  "Hayward, Minnesota": {
+    "state": "27",
+    "place": "27944",
+    "population": "252"
+  },
+  "Hazel Run, Minnesota": {
+    "state": "27",
+    "place": "28016",
+    "population": "55"
+  },
+  "Hector, Minnesota": {
+    "state": "27",
+    "place": "28124",
+    "population": "1012"
+  },
+  "Heidelberg, Minnesota": {
+    "state": "27",
+    "place": "28214",
+    "population": "137"
+  },
+  "Henderson, Minnesota": {
+    "state": "27",
+    "place": "28394",
+    "population": "960"
+  },
+  "Hendricks, Minnesota": {
+    "state": "27",
+    "place": "28430",
+    "population": "616"
+  },
+  "Hendrum, Minnesota": {
+    "state": "27",
+    "place": "28484",
+    "population": "289"
+  },
+  "Henning, Minnesota": {
+    "state": "27",
+    "place": "28520",
+    "population": "854"
+  },
+  "Henriette, Minnesota": {
+    "state": "27",
+    "place": "28574",
+    "population": "57"
+  },
+  "Herman, Minnesota": {
+    "state": "27",
+    "place": "28646",
+    "population": "384"
+  },
+  "Hermantown, Minnesota": {
+    "state": "27",
+    "place": "28682",
+    "population": "10221"
+  },
+  "Long Beach, Minnesota": {
+    "state": "27",
+    "place": "37970",
+    "population": "338"
+  },
+  "Long Lake, Minnesota": {
+    "state": "27",
+    "place": "38006",
+    "population": "1741"
+  },
+  "Long Prairie, Minnesota": {
+    "state": "27",
+    "place": "38060",
+    "population": "3661"
+  },
+  "Longville, Minnesota": {
+    "state": "27",
+    "place": "38114",
+    "population": "153"
+  },
+  "Lonsdale, Minnesota": {
+    "state": "27",
+    "place": "38150",
+    "population": "4686"
+  },
+  "Loretto, Minnesota": {
+    "state": "27",
+    "place": "38222",
+    "population": "646"
+  },
+  "Louisburg, Minnesota": {
+    "state": "27",
+    "place": "38258",
+    "population": "31"
+  },
+  "Lowry, Minnesota": {
+    "state": "27",
+    "place": "38366",
+    "population": "334"
+  },
+  "Lucan, Minnesota": {
+    "state": "27",
+    "place": "38420",
+    "population": "214"
+  },
+  "Luverne, Minnesota": {
+    "state": "27",
+    "place": "38564",
+    "population": "4946"
+  },
+  "Lyle, Minnesota": {
+    "state": "27",
+    "place": "38654",
+    "population": "522"
+  },
+  "Lynd, Minnesota": {
+    "state": "27",
+    "place": "38708",
+    "population": "436"
+  },
+  "Mabel, Minnesota": {
+    "state": "27",
+    "place": "38888",
+    "population": "716"
+  },
+  "McGrath, Minnesota": {
+    "state": "27",
+    "place": "38996",
+    "population": "41"
+  },
+  "McGregor, Minnesota": {
+    "state": "27",
+    "place": "39014",
+    "population": "384"
+  },
+  "McIntosh, Minnesota": {
+    "state": "27",
+    "place": "39050",
+    "population": "606"
+  },
+  "McKinley, Minnesota": {
+    "state": "27",
+    "place": "39140",
+    "population": "103"
+  },
+  "Madelia, Minnesota": {
+    "state": "27",
+    "place": "39230",
+    "population": "2396"
+  },
+  "Madison, Minnesota": {
+    "state": "27",
+    "place": "39266",
+    "population": "1518"
+  },
+  "Madison Lake, Minnesota": {
+    "state": "27",
+    "place": "39320",
+    "population": "1247"
+  },
+  "Magnolia, Minnesota": {
+    "state": "27",
+    "place": "39338",
+    "population": "196"
+  },
+  "Mahnomen, Minnesota": {
+    "state": "27",
+    "place": "39392",
+    "population": "1240"
+  },
+  "Mahtomedi, Minnesota": {
+    "state": "27",
+    "place": "39428",
+    "population": "8138"
+  },
+  "Manchester, Minnesota": {
+    "state": "27",
+    "place": "39716",
+    "population": "52"
+  },
+  "Manhattan Beach, Minnesota": {
+    "state": "27",
+    "place": "39806",
+    "population": "61"
+  },
+  "Mankato, Minnesota": {
+    "state": "27",
+    "place": "39878",
+    "population": "44488"
+  },
+  "Mantorville, Minnesota": {
+    "state": "27",
+    "place": "39986",
+    "population": "1111"
+  },
+  "Maple Grove, Minnesota": {
+    "state": "27",
+    "place": "40166",
+    "population": "70253"
+  },
+  "Maple Lake, Minnesota": {
+    "state": "27",
+    "place": "40220",
+    "population": "2159"
+  },
+  "Maple Plain, Minnesota": {
+    "state": "27",
+    "place": "40256",
+    "population": "1743"
+  },
+  "Mapleton, Minnesota": {
+    "state": "27",
+    "place": "40310",
+    "population": "1710"
+  },
+  "Mapleview, Minnesota": {
+    "state": "27",
+    "place": "40346",
+    "population": "144"
+  },
+  "Maplewood, Minnesota": {
+    "state": "27",
+    "place": "40382",
+    "population": "42088"
+  },
+  "Marble, Minnesota": {
+    "state": "27",
+    "place": "40418",
+    "population": "610"
+  },
+  "Marietta, Minnesota": {
+    "state": "27",
+    "place": "40526",
+    "population": "116"
+  },
+  "Marine on St. Croix, Minnesota": {
+    "state": "27",
+    "place": "40562",
+    "population": "664"
+  },
+  "Marshall, Minnesota": {
+    "state": "27",
+    "place": "40688",
+    "population": "13628"
+  },
+  "Mayer, Minnesota": {
+    "state": "27",
+    "place": "41138",
+    "population": "2453"
+  },
+  "Maynard, Minnesota": {
+    "state": "27",
+    "place": "41210",
+    "population": "319"
+  },
+  "Mazeppa, Minnesota": {
+    "state": "27",
+    "place": "41282",
+    "population": "874"
+  },
+  "Meadowlands, Minnesota": {
+    "state": "27",
+    "place": "41372",
+    "population": "134"
+  },
+  "Medford, Minnesota": {
+    "state": "27",
+    "place": "41426",
+    "population": "1315"
+  },
+  "Medicine Lake, Minnesota": {
+    "state": "27",
+    "place": "41462",
+    "population": "337"
+  },
+  "Medina, Minnesota": {
+    "state": "27",
+    "place": "41480",
+    "population": "6837"
+  },
+  "Meire Grove, Minnesota": {
+    "state": "27",
+    "place": "41534",
+    "population": "180"
+  },
+  "Melrose, Minnesota": {
+    "state": "27",
+    "place": "41570",
+    "population": "3602"
+  },
+  "Menahga, Minnesota": {
+    "state": "27",
+    "place": "41660",
+    "population": "1340"
+  },
+  "Mendota, Minnesota": {
+    "state": "27",
+    "place": "41678",
+    "population": "183"
+  },
+  "Mendota Heights, Minnesota": {
+    "state": "27",
+    "place": "41696",
+    "population": "11744"
+  },
+  "Mentor, Minnesota": {
+    "state": "27",
+    "place": "41714",
+    "population": "104"
+  },
+  "Middle River, Minnesota": {
+    "state": "27",
+    "place": "41912",
+    "population": "304"
+  },
+  "Nielsville, Minnesota": {
+    "state": "27",
+    "place": "46258",
+    "population": "78"
+  },
+  "Nimrod, Minnesota": {
+    "state": "27",
+    "place": "46294",
+    "population": "84"
+  },
+  "Nisswa, Minnesota": {
+    "state": "27",
+    "place": "46348",
+    "population": "1967"
+  },
+  "Norcross, Minnesota": {
+    "state": "27",
+    "place": "46492",
+    "population": "52"
+  },
+  "North Branch, Minnesota": {
+    "state": "27",
+    "place": "46798",
+    "population": "10787"
+  },
+  "Northfield, Minnesota": {
+    "state": "27",
+    "place": "46924",
+    "population": "20790"
+  },
+  "North Mankato, Minnesota": {
+    "state": "27",
+    "place": "47068",
+    "population": "14275"
+  },
+  "North Oaks, Minnesota": {
+    "state": "27",
+    "place": "47104",
+    "population": "5272"
+  },
+  "Northome, Minnesota": {
+    "state": "27",
+    "place": "47122",
+    "population": "155"
+  },
+  "Northrop, Minnesota": {
+    "state": "27",
+    "place": "47212",
+    "population": "223"
+  },
+  "North St. Paul, Minnesota": {
+    "state": "27",
+    "place": "47221",
+    "population": "12364"
+  },
+  "Norwood Young America, Minnesota": {
+    "state": "27",
+    "place": "47520",
+    "population": "3863"
+  },
+  "Nowthen, Minnesota": {
+    "state": "27",
+    "place": "47536",
+    "population": "4536"
+  },
+  "Oakdale, Minnesota": {
+    "state": "27",
+    "place": "47680",
+    "population": "28303"
+  },
+  "Oak Grove, Minnesota": {
+    "state": "27",
+    "place": "47690",
+    "population": "8929"
+  },
+  "Oak Park Heights, Minnesota": {
+    "state": "27",
+    "place": "47914",
+    "population": "4849"
+  },
+  "Odessa, Minnesota": {
+    "state": "27",
+    "place": "48058",
+    "population": "103"
+  },
+  "Odin, Minnesota": {
+    "state": "27",
+    "place": "48094",
+    "population": "123"
+  },
+  "Ogema, Minnesota": {
+    "state": "27",
+    "place": "48130",
+    "population": "208"
+  },
+  "Ogilvie, Minnesota": {
+    "state": "27",
+    "place": "48166",
+    "population": "388"
+  },
+  "Okabena, Minnesota": {
+    "state": "27",
+    "place": "48184",
+    "population": "203"
+  },
+  "Oklee, Minnesota": {
+    "state": "27",
+    "place": "48202",
+    "population": "413"
+  },
+  "Olivia, Minnesota": {
+    "state": "27",
+    "place": "48256",
+    "population": "2343"
+  },
+  "Onamia, Minnesota": {
+    "state": "27",
+    "place": "48310",
+    "population": "784"
+  },
+  "Ormsby, Minnesota": {
+    "state": "27",
+    "place": "48562",
+    "population": "118"
+  },
+  "Orono, Minnesota": {
+    "state": "27",
+    "place": "48580",
+    "population": "8315"
+  },
+  "Oronoco, Minnesota": {
+    "state": "27",
+    "place": "48598",
+    "population": "1802"
+  },
+  "Orr, Minnesota": {
+    "state": "27",
+    "place": "48634",
+    "population": "211"
+  },
+  "Ortonville, Minnesota": {
+    "state": "27",
+    "place": "48706",
+    "population": "2021"
+  },
+  "Osakis, Minnesota": {
+    "state": "27",
+    "place": "48796",
+    "population": "1771"
+  },
+  "Oslo, Minnesota": {
+    "state": "27",
+    "place": "48976",
+    "population": "239"
+  },
+  "Osseo, Minnesota": {
+    "state": "27",
+    "place": "49012",
+    "population": "2688"
+  },
+  "Ostrander, Minnesota": {
+    "state": "27",
+    "place": "49030",
+    "population": "231"
+  },
+  "Otsego, Minnesota": {
+    "state": "27",
+    "place": "49138",
+    "population": "19966"
+  },
+  "Ottertail, Minnesota": {
+    "state": "27",
+    "place": "49210",
+    "population": "629"
+  },
+  "Owatonna, Minnesota": {
+    "state": "27",
+    "place": "49300",
+    "population": "26420"
+  },
+  "Palisade, Minnesota": {
+    "state": "27",
+    "place": "49498",
+    "population": "162"
+  },
+  "Parkers Prairie, Minnesota": {
+    "state": "27",
+    "place": "49732",
+    "population": "1020"
+  },
+  "Park Rapids, Minnesota": {
+    "state": "27",
+    "place": "49768",
+    "population": "4142"
+  },
+  "Paynesville, Minnesota": {
+    "state": "27",
+    "place": "49966",
+    "population": "2388"
+  },
+  "Pease, Minnesota": {
+    "state": "27",
+    "place": "50056",
+    "population": "238"
+  },
+  "Pelican Rapids, Minnesota": {
+    "state": "27",
+    "place": "50164",
+    "population": "2577"
+  },
+  "Pemberton, Minnesota": {
+    "state": "27",
+    "place": "50200",
+    "population": "229"
+  },
+  "Pennock, Minnesota": {
+    "state": "27",
+    "place": "50344",
+    "population": "479"
+  },
+  "Pequot Lakes, Minnesota": {
+    "state": "27",
+    "place": "50416",
+    "population": "2395"
+  },
+  "Perham, Minnesota": {
+    "state": "27",
+    "place": "50470",
+    "population": "3512"
+  },
+  "Perley, Minnesota": {
+    "state": "27",
+    "place": "50506",
+    "population": "113"
+  },
+  "Peterson, Minnesota": {
+    "state": "27",
+    "place": "50596",
+    "population": "234"
+  },
+  "Pierz, Minnesota": {
+    "state": "27",
+    "place": "50776",
+    "population": "1418"
+  },
+  "Pillager, Minnesota": {
+    "state": "27",
+    "place": "50902",
+    "population": "507"
+  },
+  "Pine City, Minnesota": {
+    "state": "27",
+    "place": "51064",
+    "population": "3130"
+  },
+  "Pine Island, Minnesota": {
+    "state": "27",
+    "place": "51136",
+    "population": "3769"
+  },
+  "Pine River, Minnesota": {
+    "state": "27",
+    "place": "51280",
+    "population": "911"
+  },
+  "Clarks Grove, Minnesota": {
+    "state": "27",
+    "place": "11674",
+    "population": "694"
+  },
+  "Clearbrook, Minnesota": {
+    "state": "27",
+    "place": "11746",
+    "population": "464"
+  },
+  "Clear Lake, Minnesota": {
+    "state": "27",
+    "place": "11764",
+    "population": "641"
+  },
+  "Clearwater, Minnesota": {
+    "state": "27",
+    "place": "11800",
+    "population": "1922"
+  },
+  "Clements, Minnesota": {
+    "state": "27",
+    "place": "11836",
+    "population": "155"
+  },
+  "Cleveland, Minnesota": {
+    "state": "27",
+    "place": "11872",
+    "population": "747"
+  },
+  "Climax, Minnesota": {
+    "state": "27",
+    "place": "11962",
+    "population": "243"
+  },
+  "Clinton, Minnesota": {
+    "state": "27",
+    "place": "11980",
+    "population": "386"
+  },
+  "Clitherall, Minnesota": {
+    "state": "27",
+    "place": "12088",
+    "population": "62"
+  },
+  "Clontarf, Minnesota": {
+    "state": "27",
+    "place": "12124",
+    "population": "128"
+  },
+  "Cloquet, Minnesota": {
+    "state": "27",
+    "place": "12160",
+    "population": "12568"
+  },
+  "Coates, Minnesota": {
+    "state": "27",
+    "place": "12376",
+    "population": "147"
+  },
+  "Cobden, Minnesota": {
+    "state": "27",
+    "place": "12394",
+    "population": "36"
+  },
+  "Cohasset, Minnesota": {
+    "state": "27",
+    "place": "12412",
+    "population": "2689"
+  },
+  "Cokato, Minnesota": {
+    "state": "27",
+    "place": "12430",
+    "population": "2799"
+  },
+  "Cold Spring, Minnesota": {
+    "state": "27",
+    "place": "12484",
+    "population": "4164"
+  },
+  "Coleraine, Minnesota": {
+    "state": "27",
+    "place": "12502",
+    "population": "2006"
+  },
+  "Cologne, Minnesota": {
+    "state": "27",
+    "place": "12664",
+    "population": "2047"
+  },
+  "Columbia Heights, Minnesota": {
+    "state": "27",
+    "place": "12700",
+    "population": "21973"
+  },
+  "Columbus, Minnesota": {
+    "state": "27",
+    "place": "12718",
+    "population": "4159"
+  },
+  "Comfrey, Minnesota": {
+    "state": "27",
+    "place": "12772",
+    "population": "392"
+  },
+  "Comstock, Minnesota": {
+    "state": "27",
+    "place": "12862",
+    "population": "100"
+  },
+  "Conger, Minnesota": {
+    "state": "27",
+    "place": "12952",
+    "population": "153"
+  },
+  "Cook, Minnesota": {
+    "state": "27",
+    "place": "13006",
+    "population": "534"
+  },
+  "Coon Rapids, Minnesota": {
+    "state": "27",
+    "place": "13114",
+    "population": "63599"
+  },
+  "Corcoran, Minnesota": {
+    "state": "27",
+    "place": "13168",
+    "population": "6185"
+  },
+  "Correll, Minnesota": {
+    "state": "27",
+    "place": "13384",
+    "population": "26"
+  },
+  "Cosmos, Minnesota": {
+    "state": "27",
+    "place": "13420",
+    "population": "507"
+  },
+  "Cottage Grove, Minnesota": {
+    "state": "27",
+    "place": "13456",
+    "population": "38839"
+  },
+  "Cottonwood, Minnesota": {
+    "state": "27",
+    "place": "13564",
+    "population": "1149"
+  },
+  "Courtland, Minnesota": {
+    "state": "27",
+    "place": "13582",
+    "population": "734"
+  },
+  "Cromwell, Minnesota": {
+    "state": "27",
+    "place": "13780",
+    "population": "240"
+  },
+  "Crookston, Minnesota": {
+    "state": "27",
+    "place": "13870",
+    "population": "7482"
+  },
+  "Crosby, Minnesota": {
+    "state": "27",
+    "place": "13924",
+    "population": "2360"
+  },
+  "Crosslake, Minnesota": {
+    "state": "27",
+    "place": "13978",
+    "population": "2394"
+  },
+  "Crystal, Minnesota": {
+    "state": "27",
+    "place": "14158",
+    "population": "23330"
+  },
+  "Currie, Minnesota": {
+    "state": "27",
+    "place": "14320",
+    "population": "224"
+  },
+  "Cuyuna, Minnesota": {
+    "state": "27",
+    "place": "14428",
+    "population": "296"
+  },
+  "Cyrus, Minnesota": {
+    "state": "27",
+    "place": "14446",
+    "population": "305"
+  },
+  "Dakota, Minnesota": {
+    "state": "27",
+    "place": "14518",
+    "population": "295"
+  },
+  "Dalton, Minnesota": {
+    "state": "27",
+    "place": "14626",
+    "population": "215"
+  },
+  "Danube, Minnesota": {
+    "state": "27",
+    "place": "14716",
+    "population": "458"
+  },
+  "Danvers, Minnesota": {
+    "state": "27",
+    "place": "14734",
+    "population": "103"
+  },
+  "Darfur, Minnesota": {
+    "state": "27",
+    "place": "14770",
+    "population": "84"
+  },
+  "Darwin, Minnesota": {
+    "state": "27",
+    "place": "14842",
+    "population": "348"
+  },
+  "Dassel, Minnesota": {
+    "state": "27",
+    "place": "14878",
+    "population": "1472"
+  },
+  "Dawson, Minnesota": {
+    "state": "27",
+    "place": "14968",
+    "population": "1466"
+  },
+  "Dayton, Minnesota": {
+    "state": "27",
+    "place": "15022",
+    "population": "7262"
+  },
+  "Deephaven, Minnesota": {
+    "state": "27",
+    "place": "15148",
+    "population": "3899"
+  },
+  "Deer Creek, Minnesota": {
+    "state": "27",
+    "place": "15184",
+    "population": "330"
+  },
+  "Deer River, Minnesota": {
+    "state": "27",
+    "place": "15310",
+    "population": "909"
+  },
+  "Deerwood, Minnesota": {
+    "state": "27",
+    "place": "15346",
+    "population": "526"
+  },
+  "De Graff, Minnesota": {
+    "state": "27",
+    "place": "15418",
+    "population": "110"
+  },
+  "Delano, Minnesota": {
+    "state": "27",
+    "place": "15454",
+    "population": "6484"
+  },
+  "Delavan, Minnesota": {
+    "state": "27",
+    "place": "15472",
+    "population": "172"
+  },
+  "Delhi, Minnesota": {
+    "state": "27",
+    "place": "15544",
+    "population": "46"
+  },
+  "Hewitt, Minnesota": {
+    "state": "27",
+    "place": "28754",
+    "population": "251"
+  },
+  "Hibbing, Minnesota": {
+    "state": "27",
+    "place": "28790",
+    "population": "16214"
+  },
+  "Hill City, Minnesota": {
+    "state": "27",
+    "place": "29096",
+    "population": "613"
+  },
+  "Hillman, Minnesota": {
+    "state": "27",
+    "place": "29150",
+    "population": "23"
+  },
+  "Hills, Minnesota": {
+    "state": "27",
+    "place": "29204",
+    "population": "686"
+  },
+  "Hilltop, Minnesota": {
+    "state": "27",
+    "place": "29258",
+    "population": "958"
+  },
+  "Hinckley, Minnesota": {
+    "state": "27",
+    "place": "29294",
+    "population": "1904"
+  },
+  "Hitterdal, Minnesota": {
+    "state": "27",
+    "place": "29402",
+    "population": "199"
+  },
+  "Hoffman, Minnesota": {
+    "state": "27",
+    "place": "29474",
+    "population": "698"
+  },
+  "Hokah, Minnesota": {
+    "state": "27",
+    "place": "29510",
+    "population": "553"
+  },
+  "Holdingford, Minnesota": {
+    "state": "27",
+    "place": "29582",
+    "population": "743"
+  },
+  "Holland, Minnesota": {
+    "state": "27",
+    "place": "29618",
+    "population": "178"
+  },
+  "Hollandale, Minnesota": {
+    "state": "27",
+    "place": "29636",
+    "population": "308"
+  },
+  "Holloway, Minnesota": {
+    "state": "27",
+    "place": "29672",
+    "population": "87"
+  },
+  "Holt, Minnesota": {
+    "state": "27",
+    "place": "29870",
+    "population": "90"
+  },
+  "Hopkins, Minnesota": {
+    "state": "27",
+    "place": "30140",
+    "population": "19079"
+  },
+  "Houston, Minnesota": {
+    "state": "27",
+    "place": "30230",
+    "population": "997"
+  },
+  "Howard Lake, Minnesota": {
+    "state": "27",
+    "place": "30284",
+    "population": "2071"
+  },
+  "Hoyt Lakes, Minnesota": {
+    "state": "27",
+    "place": "30302",
+    "population": "2020"
+  },
+  "Hugo, Minnesota": {
+    "state": "27",
+    "place": "30392",
+    "population": "15766"
+  },
+  "Humboldt, Minnesota": {
+    "state": "27",
+    "place": "30446",
+    "population": "41"
+  },
+  "Hutchinson, Minnesota": {
+    "state": "27",
+    "place": "30644",
+    "population": "14599"
+  },
+  "Ihlen, Minnesota": {
+    "state": "27",
+    "place": "30806",
+    "population": "61"
+  },
+  "Independence, Minnesota": {
+    "state": "27",
+    "place": "30842",
+    "population": "3755"
+  },
+  "International Falls, Minnesota": {
+    "state": "27",
+    "place": "31040",
+    "population": "5802"
+  },
+  "Inver Grove Heights, Minnesota": {
+    "state": "27",
+    "place": "31076",
+    "population": "35801"
+  },
+  "Iona, Minnesota": {
+    "state": "27",
+    "place": "31094",
+    "population": "166"
+  },
+  "Iron Junction, Minnesota": {
+    "state": "27",
+    "place": "31238",
+    "population": "110"
+  },
+  "Ironton, Minnesota": {
+    "state": "27",
+    "place": "31274",
+    "population": "576"
+  },
+  "Isanti, Minnesota": {
+    "state": "27",
+    "place": "31328",
+    "population": "6804"
+  },
+  "Isle, Minnesota": {
+    "state": "27",
+    "place": "31472",
+    "population": "803"
+  },
+  "Ivanhoe, Minnesota": {
+    "state": "27",
+    "place": "31526",
+    "population": "560"
+  },
+  "Jackson, Minnesota": {
+    "state": "27",
+    "place": "31562",
+    "population": "3323"
+  },
+  "Janesville, Minnesota": {
+    "state": "27",
+    "place": "31706",
+    "population": "2421"
+  },
+  "Jasper, Minnesota": {
+    "state": "27",
+    "place": "31760",
+    "population": "610"
+  },
+  "Heron Lake, Minnesota": {
+    "state": "27",
+    "place": "28700",
+    "population": "602"
+  },
+  "Jeffers, Minnesota": {
+    "state": "27",
+    "place": "31796",
+    "population": "349"
+  },
+  "Jenkins, Minnesota": {
+    "state": "27",
+    "place": "31832",
+    "population": "490"
+  },
+  "Johnson, Minnesota": {
+    "state": "27",
+    "place": "32012",
+    "population": "24"
+  },
+  "Jordan, Minnesota": {
+    "state": "27",
+    "place": "32174",
+    "population": "6656"
+  },
+  "Kandiyohi, Minnesota": {
+    "state": "27",
+    "place": "32372",
+    "population": "569"
+  },
+  "Karlstad, Minnesota": {
+    "state": "27",
+    "place": "32444",
+    "population": "710"
+  },
+  "Kasota, Minnesota": {
+    "state": "27",
+    "place": "32462",
+    "population": "714"
+  },
+  "Kasson, Minnesota": {
+    "state": "27",
+    "place": "32498",
+    "population": "6851"
+  },
+  "Keewatin, Minnesota": {
+    "state": "27",
+    "place": "32570",
+    "population": "984"
+  },
+  "Kelliher, Minnesota": {
+    "state": "27",
+    "place": "32606",
+    "population": "258"
+  },
+  "Kellogg, Minnesota": {
+    "state": "27",
+    "place": "32642",
+    "population": "415"
+  },
+  "Kennedy, Minnesota": {
+    "state": "27",
+    "place": "32732",
+    "population": "176"
+  },
+  "Kenneth, Minnesota": {
+    "state": "27",
+    "place": "32750",
+    "population": "60"
+  },
+  "Kensington, Minnesota": {
+    "state": "27",
+    "place": "32768",
+    "population": "266"
+  },
+  "Kent, Minnesota": {
+    "state": "27",
+    "place": "32786",
+    "population": "65"
+  },
+  "Kenyon, Minnesota": {
+    "state": "27",
+    "place": "32840",
+    "population": "1894"
+  },
+  "Kerkhoven, Minnesota": {
+    "state": "27",
+    "place": "32876",
+    "population": "805"
+  },
+  "Miesville, Minnesota": {
+    "state": "27",
+    "place": "42092",
+    "population": "138"
+  },
+  "Milaca, Minnesota": {
+    "state": "27",
+    "place": "42110",
+    "population": "3021"
+  },
+  "Milan, Minnesota": {
+    "state": "27",
+    "place": "42146",
+    "population": "428"
+  },
+  "Millerville, Minnesota": {
+    "state": "27",
+    "place": "42254",
+    "population": "100"
+  },
+  "Millville, Minnesota": {
+    "state": "27",
+    "place": "42290",
+    "population": "151"
+  },
+  "Milroy, Minnesota": {
+    "state": "27",
+    "place": "42362",
+    "population": "259"
+  },
+  "Miltona, Minnesota": {
+    "state": "27",
+    "place": "42398",
+    "population": "431"
+  },
+  "Minneapolis, Minnesota": {
+    "state": "27",
+    "place": "43000",
+    "population": "429954"
+  },
+  "Minneiska, Minnesota": {
+    "state": "27",
+    "place": "43036",
+    "population": "97"
+  },
+  "Minneota, Minnesota": {
+    "state": "27",
+    "place": "43126",
+    "population": "1366"
+  },
+  "Minnesota City, Minnesota": {
+    "state": "27",
+    "place": "43144",
+    "population": "202"
+  },
+  "Minnesota Lake, Minnesota": {
+    "state": "27",
+    "place": "43198",
+    "population": "661"
+  },
+  "Minnetonka, Minnesota": {
+    "state": "27",
+    "place": "43252",
+    "population": "53781"
+  },
+  "Minnetonka Beach, Minnesota": {
+    "state": "27",
+    "place": "43270",
+    "population": "546"
+  },
+  "Minnetrista, Minnesota": {
+    "state": "27",
+    "place": "43306",
+    "population": "8262"
+  },
+  "Mizpah, Minnesota": {
+    "state": "27",
+    "place": "43540",
+    "population": "58"
+  },
+  "Montevideo, Minnesota": {
+    "state": "27",
+    "place": "43720",
+    "population": "5398"
+  },
+  "Montgomery, Minnesota": {
+    "state": "27",
+    "place": "43738",
+    "population": "3249"
+  },
+  "Monticello, Minnesota": {
+    "state": "27",
+    "place": "43774",
+    "population": "14455"
+  },
+  "Montrose, Minnesota": {
+    "state": "27",
+    "place": "43810",
+    "population": "3775"
+  },
+  "Moorhead, Minnesota": {
+    "state": "27",
+    "place": "43864",
+    "population": "44505"
+  },
+  "Moose Lake, Minnesota": {
+    "state": "27",
+    "place": "43954",
+    "population": "2789"
+  },
+  "Mora, Minnesota": {
+    "state": "27",
+    "place": "44044",
+    "population": "3665"
+  },
+  "Morgan, Minnesota": {
+    "state": "27",
+    "place": "44116",
+    "population": "888"
+  },
+  "Morris, Minnesota": {
+    "state": "27",
+    "place": "44242",
+    "population": "5105"
+  },
+  "Morristown, Minnesota": {
+    "state": "27",
+    "place": "44296",
+    "population": "949"
+  },
+  "Morton, Minnesota": {
+    "state": "27",
+    "place": "44368",
+    "population": "410"
+  },
+  "Motley, Minnesota": {
+    "state": "27",
+    "place": "44422",
+    "population": "680"
+  },
+  "Mound, Minnesota": {
+    "state": "27",
+    "place": "44476",
+    "population": "9398"
+  },
+  "Mounds View, Minnesota": {
+    "state": "27",
+    "place": "44530",
+    "population": "13249"
+  },
+  "Mountain Iron, Minnesota": {
+    "state": "27",
+    "place": "44548",
+    "population": "2878"
+  },
+  "Mountain Lake, Minnesota": {
+    "state": "27",
+    "place": "44566",
+    "population": "1999"
+  },
+  "Murdock, Minnesota": {
+    "state": "27",
+    "place": "44818",
+    "population": "306"
+  },
+  "Myrtle, Minnesota": {
+    "state": "27",
+    "place": "44890",
+    "population": "47"
+  },
+  "Nashua, Minnesota": {
+    "state": "27",
+    "place": "44944",
+    "population": "67"
+  },
+  "Nashwauk, Minnesota": {
+    "state": "27",
+    "place": "44980",
+    "population": "970"
+  },
+  "Nassau, Minnesota": {
+    "state": "27",
+    "place": "45016",
+    "population": "65"
+  },
+  "Nelson, Minnesota": {
+    "state": "27",
+    "place": "45106",
+    "population": "182"
+  },
+  "Nerstrand, Minnesota": {
+    "state": "27",
+    "place": "45196",
+    "population": "273"
+  },
+  "Nevis, Minnesota": {
+    "state": "27",
+    "place": "45340",
+    "population": "377"
+  },
+  "New Auburn, Minnesota": {
+    "state": "27",
+    "place": "45376",
+    "population": "411"
+  },
+  "New Brighton, Minnesota": {
+    "state": "27",
+    "place": "45430",
+    "population": "23454"
+  },
+  "Newfolden, Minnesota": {
+    "state": "27",
+    "place": "45520",
+    "population": "352"
+  },
+  "New Germany, Minnesota": {
+    "state": "27",
+    "place": "45556",
+    "population": "464"
+  },
+  "New Hope, Minnesota": {
+    "state": "27",
+    "place": "45628",
+    "population": "21986"
+  },
+  "New London, Minnesota": {
+    "state": "27",
+    "place": "45682",
+    "population": "1252"
+  },
+  "New Munich, Minnesota": {
+    "state": "27",
+    "place": "45772",
+    "population": "356"
+  },
+  "Newport, Minnesota": {
+    "state": "27",
+    "place": "45790",
+    "population": "3797"
+  },
+  "New Prague, Minnesota": {
+    "state": "27",
+    "place": "45808",
+    "population": "8162"
+  },
+  "New Richland, Minnesota": {
+    "state": "27",
+    "place": "45862",
+    "population": "1229"
+  },
+  "New Trier, Minnesota": {
+    "state": "27",
+    "place": "46024",
+    "population": "86"
+  },
+  "New Ulm, Minnesota": {
+    "state": "27",
+    "place": "46042",
+    "population": "14120"
+  },
+  "New York Mills, Minnesota": {
+    "state": "27",
+    "place": "46060",
+    "population": "1294"
+  },
+  "Nicollet, Minnesota": {
+    "state": "27",
+    "place": "46150",
+    "population": "1143"
+  },
+  "Pine Springs, Minnesota": {
+    "state": "27",
+    "place": "51316",
+    "population": "377"
+  },
+  "Pipestone, Minnesota": {
+    "state": "27",
+    "place": "51388",
+    "population": "4215"
+  },
+  "Plainview, Minnesota": {
+    "state": "27",
+    "place": "51424",
+    "population": "3483"
+  },
+  "Plato, Minnesota": {
+    "state": "27",
+    "place": "51460",
+    "population": "329"
+  },
+  "Plummer, Minnesota": {
+    "state": "27",
+    "place": "51712",
+    "population": "276"
+  },
+  "Plymouth, Minnesota": {
+    "state": "27",
+    "place": "51730",
+    "population": "81026"
+  },
+  "Porter, Minnesota": {
+    "state": "27",
+    "place": "52144",
+    "population": "166"
+  },
+  "Preston, Minnesota": {
+    "state": "27",
+    "place": "52450",
+    "population": "1322"
+  },
+  "Princeton, Minnesota": {
+    "state": "27",
+    "place": "52522",
+    "population": "4819"
+  },
+  "Prinsburg, Minnesota": {
+    "state": "27",
+    "place": "52558",
+    "population": "520"
+  },
+  "Prior Lake, Minnesota": {
+    "state": "27",
+    "place": "52594",
+    "population": "27617"
+  },
+  "Proctor, Minnesota": {
+    "state": "27",
+    "place": "52630",
+    "population": "3120"
+  },
+  "Quamba, Minnesota": {
+    "state": "27",
+    "place": "52756",
+    "population": "107"
+  },
+  "Racine, Minnesota": {
+    "state": "27",
+    "place": "52882",
+    "population": "458"
+  },
+  "Ramsey, Minnesota": {
+    "state": "27",
+    "place": "53026",
+    "population": "27646"
+  },
+  "Randall, Minnesota": {
+    "state": "27",
+    "place": "53080",
+    "population": "607"
+  },
+  "Randolph, Minnesota": {
+    "state": "27",
+    "place": "53098",
+    "population": "466"
+  },
+  "Ranier, Minnesota": {
+    "state": "27",
+    "place": "53134",
+    "population": "569"
+  },
+  "Raymond, Minnesota": {
+    "state": "27",
+    "place": "53296",
+    "population": "782"
+  },
+  "Red Lake Falls, Minnesota": {
+    "state": "27",
+    "place": "53476",
+    "population": "1339"
+  },
+  "Red Wing, Minnesota": {
+    "state": "27",
+    "place": "53620",
+    "population": "16547"
+  },
+  "Redwood Falls, Minnesota": {
+    "state": "27",
+    "place": "53656",
+    "population": "5102"
+  },
+  "Regal, Minnesota": {
+    "state": "27",
+    "place": "53710",
+    "population": "43"
+  },
+  "Remer, Minnesota": {
+    "state": "27",
+    "place": "53782",
+    "population": "391"
+  },
+  "Renville, Minnesota": {
+    "state": "27",
+    "place": "53890",
+    "population": "1301"
+  },
+  "Revere, Minnesota": {
+    "state": "27",
+    "place": "53908",
+    "population": "89"
+  },
+  "Rice, Minnesota": {
+    "state": "27",
+    "place": "53998",
+    "population": "1975"
+  },
+  "Rice Lake, Minnesota": {
+    "state": "27",
+    "place": "54060",
+    "population": "4112"
+  },
+  "Richfield, Minnesota": {
+    "state": "27",
+    "place": "54214",
+    "population": "36994"
+  },
+  "Richmond, Minnesota": {
+    "state": "27",
+    "place": "54268",
+    "population": "1475"
+  },
+  "Richville, Minnesota": {
+    "state": "27",
+    "place": "54340",
+    "population": "77"
+  },
+  "Riverton, Minnesota": {
+    "state": "27",
+    "place": "54736",
+    "population": "118"
+  },
+  "Robbinsdale, Minnesota": {
+    "state": "27",
+    "place": "54808",
+    "population": "14646"
+  },
+  "Rochester, Minnesota": {
+    "state": "27",
+    "place": "54880",
+    "population": "121395"
+  },
+  "Rock Creek, Minnesota": {
+    "state": "27",
+    "place": "54934",
+    "population": "1682"
+  },
+  "Rockford, Minnesota": {
+    "state": "27",
+    "place": "55006",
+    "population": "4500"
+  },
+  "Rockville, Minnesota": {
+    "state": "27",
+    "place": "55078",
+    "population": "2382"
+  },
+  "Rogers, Minnesota": {
+    "state": "27",
+    "place": "55186",
+    "population": "13295"
+  },
+  "Rollingstone, Minnesota": {
+    "state": "27",
+    "place": "55276",
+    "population": "678"
+  },
+  "Roosevelt, Minnesota": {
+    "state": "27",
+    "place": "55438",
+    "population": "153"
+  },
+  "Roscoe, Minnesota": {
+    "state": "27",
+    "place": "55510",
+    "population": "130"
+  },
+  "Roseau, Minnesota": {
+    "state": "27",
+    "place": "55546",
+    "population": "2744"
+  },
+  "Rose Creek, Minnesota": {
+    "state": "27",
+    "place": "55600",
+    "population": "397"
+  },
+  "Rosemount, Minnesota": {
+    "state": "27",
+    "place": "55726",
+    "population": "25650"
+  },
+  "Roseville, Minnesota": {
+    "state": "27",
+    "place": "55852",
+    "population": "36254"
+  },
+  "Rothsay, Minnesota": {
+    "state": "27",
+    "place": "56014",
+    "population": "498"
+  },
+  "Round Lake, Minnesota": {
+    "state": "27",
+    "place": "56086",
+    "population": "377"
+  },
+  "Royalton, Minnesota": {
+    "state": "27",
+    "place": "56176",
+    "population": "1281"
+  },
+  "Rush City, Minnesota": {
+    "state": "27",
+    "place": "56266",
+    "population": "3228"
+  },
+  "Rushford, Minnesota": {
+    "state": "27",
+    "place": "56284",
+    "population": "1860"
+  },
+  "Rushford Village, Minnesota": {
+    "state": "27",
+    "place": "56302",
+    "population": "790"
+  },
+  "Rushmore, Minnesota": {
+    "state": "27",
+    "place": "56338",
+    "population": "365"
+  },
+  "Russell, Minnesota": {
+    "state": "27",
+    "place": "56428",
+    "population": "348"
+  },
+  "Ruthton, Minnesota": {
+    "state": "27",
+    "place": "56482",
+    "population": "226"
+  },
+  "Rutledge, Minnesota": {
+    "state": "27",
+    "place": "56518",
+    "population": "212"
+  },
+  "Sabin, Minnesota": {
+    "state": "27",
+    "place": "56554",
+    "population": "619"
+  },
+  "Sacred Heart, Minnesota": {
+    "state": "27",
+    "place": "56572",
+    "population": "510"
+  },
+  "St. Augusta, Minnesota": {
+    "state": "27",
+    "place": "56724",
+    "population": "3497"
+  },
+  "St. Bonifacius, Minnesota": {
+    "state": "27",
+    "place": "56770",
+    "population": "2307"
+  },
+  "St. Charles, Minnesota": {
+    "state": "27",
+    "place": "56788",
+    "population": "3990"
+  },
+  "St. Clair, Minnesota": {
+    "state": "27",
+    "place": "56824",
+    "population": "750"
+  },
+  "St. Cloud, Minnesota": {
+    "state": "27",
+    "place": "56896",
+    "population": "68881"
+  },
+  "St. Francis, Minnesota": {
+    "state": "27",
+    "place": "56950",
+    "population": "8142"
+  },
+  "St. Hilaire, Minnesota": {
+    "state": "27",
+    "place": "57022",
+    "population": "273"
+  },
+  "St. James, Minnesota": {
+    "state": "27",
+    "place": "57040",
+    "population": "4793"
+  },
+  "St. Joseph, Minnesota": {
+    "state": "27",
+    "place": "57130",
+    "population": "7029"
+  },
+  "St. Leo, Minnesota": {
+    "state": "27",
+    "place": "57202",
+    "population": "93"
+  },
+  "St. Louis Park, Minnesota": {
+    "state": "27",
+    "place": "57220",
+    "population": "50010"
+  },
+  "St. Martin, Minnesota": {
+    "state": "27",
+    "place": "57238",
+    "population": "312"
+  },
+  "St. Marys Point, Minnesota": {
+    "state": "27",
+    "place": "57292",
+    "population": "353"
+  },
+  "St. Michael, Minnesota": {
+    "state": "27",
+    "place": "57346",
+    "population": "18235"
+  },
+  "St. Paul, Minnesota": {
+    "state": "27",
+    "place": "58000",
+    "population": "311527"
+  },
+  "St. Paul Park, Minnesota": {
+    "state": "27",
+    "place": "58018",
+    "population": "5544"
+  },
+  "St. Peter, Minnesota": {
+    "state": "27",
+    "place": "58036",
+    "population": "12066"
+  },
+  "St. Rosa, Minnesota": {
+    "state": "27",
+    "place": "58072",
+    "population": "58"
+  },
+  "St. Stephen, Minnesota": {
+    "state": "27",
+    "place": "58090",
+    "population": "797"
+  },
+  "St. Vincent, Minnesota": {
+    "state": "27",
+    "place": "58144",
+    "population": "57"
+  },
+  "Sanborn, Minnesota": {
+    "state": "27",
+    "place": "58306",
+    "population": "323"
+  },
+  "Sandstone, Minnesota": {
+    "state": "27",
+    "place": "58396",
+    "population": "2462"
+  },
+  "Sargeant, Minnesota": {
+    "state": "27",
+    "place": "58576",
+    "population": "63"
+  },
+  "Sartell, Minnesota": {
+    "state": "27",
+    "place": "58612",
+    "population": "19351"
+  },
+  "Sauk Centre, Minnesota": {
+    "state": "27",
+    "place": "58648",
+    "population": "4555"
+  },
+  "Sauk Rapids, Minnesota": {
+    "state": "27",
+    "place": "58684",
+    "population": "13862"
+  },
+  "Savage, Minnesota": {
+    "state": "27",
+    "place": "58738",
+    "population": "32465"
+  },
+  "Scandia, Minnesota": {
+    "state": "27",
+    "place": "58900",
+    "population": "3984"
+  },
+  "Scanlon, Minnesota": {
+    "state": "27",
+    "place": "58936",
+    "population": "987"
+  },
+  "Seaforth, Minnesota": {
+    "state": "27",
+    "place": "59098",
+    "population": "82"
+  },
+  "Sebeka, Minnesota": {
+    "state": "27",
+    "place": "59152",
+    "population": "741"
+  },
+  "Sedan, Minnesota": {
+    "state": "27",
+    "place": "59188",
+    "population": "43"
+  },
+  "Shafer, Minnesota": {
+    "state": "27",
+    "place": "59314",
+    "population": "1142"
+  },
+  "Shakopee, Minnesota": {
+    "state": "27",
+    "place": "59350",
+    "population": "43698"
+  },
+  "Shelly, Minnesota": {
+    "state": "27",
+    "place": "59566",
+    "population": "179"
+  },
+  "Sherburn, Minnesota": {
+    "state": "27",
+    "place": "59620",
+    "population": "1058"
+  },
+  "Shevlin, Minnesota": {
+    "state": "27",
+    "place": "59782",
+    "population": "137"
+  },
+  "Shoreview, Minnesota": {
+    "state": "27",
+    "place": "59998",
+    "population": "26921"
+  },
+  "Shorewood, Minnesota": {
+    "state": "27",
+    "place": "60016",
+    "population": "7783"
+  },
+  "Silver Bay, Minnesota": {
+    "state": "27",
+    "place": "60250",
+    "population": "1857"
+  },
+  "Silver Lake, Minnesota": {
+    "state": "27",
+    "place": "60376",
+    "population": "866"
+  },
+  "Skyline, Minnesota": {
+    "state": "27",
+    "place": "60754",
+    "population": "288"
+  },
+  "Slayton, Minnesota": {
+    "state": "27",
+    "place": "60808",
+    "population": "2013"
+  },
+  "Sleepy Eye, Minnesota": {
+    "state": "27",
+    "place": "60844",
+    "population": "3452"
+  }
+}

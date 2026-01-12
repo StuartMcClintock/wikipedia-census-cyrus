@@ -1,0 +1,952 @@
+{
+  "New London, Wisconsin": {
+    "state": "55",
+    "place": "56925",
+    "population": "7348"
+  },
+  "New Richmond, Wisconsin": {
+    "state": "55",
+    "place": "57100",
+    "population": "10079"
+  },
+  "Niagara, Wisconsin": {
+    "state": "55",
+    "place": "57325",
+    "population": "1602"
+  },
+  "Oak Creek, Wisconsin": {
+    "state": "55",
+    "place": "58800",
+    "population": "36497"
+  },
+  "Oconomowoc, Wisconsin": {
+    "state": "55",
+    "place": "59250",
+    "population": "18203"
+  },
+  "Oconto, Wisconsin": {
+    "state": "55",
+    "place": "59350",
+    "population": "4609"
+  },
+  "Oconto Falls, Wisconsin": {
+    "state": "55",
+    "place": "59400",
+    "population": "2957"
+  },
+  "Omro, Wisconsin": {
+    "state": "55",
+    "place": "59875",
+    "population": "3652"
+  },
+  "Onalaska, Wisconsin": {
+    "state": "55",
+    "place": "59925",
+    "population": "18803"
+  },
+  "Oshkosh, Wisconsin": {
+    "state": "55",
+    "place": "60500",
+    "population": "66816"
+  },
+  "Osseo, Wisconsin": {
+    "state": "55",
+    "place": "60575",
+    "population": "1811"
+  },
+  "Owen, Wisconsin": {
+    "state": "55",
+    "place": "60825",
+    "population": "916"
+  },
+  "Park Falls, Wisconsin": {
+    "state": "55",
+    "place": "61200",
+    "population": "2410"
+  },
+  "Peshtigo, Wisconsin": {
+    "state": "55",
+    "place": "62175",
+    "population": "3420"
+  },
+  "Pewaukee, Wisconsin": {
+    "state": "55",
+    "place": "62240",
+    "population": "15914"
+  },
+  "Phillips, Wisconsin": {
+    "state": "55",
+    "place": "62450",
+    "population": "1533"
+  },
+  "Pittsville, Wisconsin": {
+    "state": "55",
+    "place": "63100",
+    "population": "813"
+  },
+  "Platteville, Wisconsin": {
+    "state": "55",
+    "place": "63250",
+    "population": "11836"
+  },
+  "Plymouth, Wisconsin": {
+    "state": "55",
+    "place": "63700",
+    "population": "8932"
+  },
+  "Portage, Wisconsin": {
+    "state": "55",
+    "place": "64100",
+    "population": "10581"
+  },
+  "Port Washington, Wisconsin": {
+    "state": "55",
+    "place": "64450",
+    "population": "12353"
+  },
+  "Prairie du Chien, Wisconsin": {
+    "state": "55",
+    "place": "65050",
+    "population": "5506"
+  },
+  "Prescott, Wisconsin": {
+    "state": "55",
+    "place": "65375",
+    "population": "4333"
+  },
+  "Princeton, Wisconsin": {
+    "state": "55",
+    "place": "65600",
+    "population": "1267"
+  },
+  "Racine, Wisconsin": {
+    "state": "55",
+    "place": "66000",
+    "population": "77816"
+  },
+  "Reedsburg, Wisconsin": {
+    "state": "55",
+    "place": "66800",
+    "population": "9984"
+  },
+  "Rhinelander, Wisconsin": {
+    "state": "55",
+    "place": "67200",
+    "population": "8285"
+  },
+  "Rice Lake, Wisconsin": {
+    "state": "55",
+    "place": "67350",
+    "population": "9040"
+  },
+  "Richland Center, Wisconsin": {
+    "state": "55",
+    "place": "67625",
+    "population": "5114"
+  },
+  "Ripon, Wisconsin": {
+    "state": "55",
+    "place": "68175",
+    "population": "7863"
+  },
+  "River Falls, Wisconsin": {
+    "state": "55",
+    "place": "68275",
+    "population": "16182"
+  },
+  "St. Croix Falls, Wisconsin": {
+    "state": "55",
+    "place": "70550",
+    "population": "2208"
+  },
+  "St. Francis, Wisconsin": {
+    "state": "55",
+    "place": "70650",
+    "population": "9161"
+  },
+  "Schofield, Wisconsin": {
+    "state": "55",
+    "place": "72150",
+    "population": "2157"
+  },
+  "Seymour, Wisconsin": {
+    "state": "55",
+    "place": "72725",
+    "population": "3546"
+  },
+  "Shawano, Wisconsin": {
+    "state": "55",
+    "place": "72925",
+    "population": "9243"
+  },
+  "Sheboygan, Wisconsin": {
+    "state": "55",
+    "place": "72975",
+    "population": "49929"
+  },
+  "Sheboygan Falls, Wisconsin": {
+    "state": "55",
+    "place": "73025",
+    "population": "8210"
+  },
+  "Shell Lake, Wisconsin": {
+    "state": "55",
+    "place": "73200",
+    "population": "1371"
+  },
+  "Shullsburg, Wisconsin": {
+    "state": "55",
+    "place": "73825",
+    "population": "1173"
+  },
+  "South Milwaukee, Wisconsin": {
+    "state": "55",
+    "place": "75125",
+    "population": "20795"
+  },
+  "Sparta, Wisconsin": {
+    "state": "55",
+    "place": "75325",
+    "population": "10025"
+  },
+  "Spooner, Wisconsin": {
+    "state": "55",
+    "place": "75625",
+    "population": "2477"
+  },
+  "Stanley, Wisconsin": {
+    "state": "55",
+    "place": "76625",
+    "population": "3804"
+  },
+  "Stevens Point, Wisconsin": {
+    "state": "55",
+    "place": "77200",
+    "population": "25666"
+  },
+  "Stoughton, Wisconsin": {
+    "state": "55",
+    "place": "77675",
+    "population": "13173"
+  },
+  "Sturgeon Bay, Wisconsin": {
+    "state": "55",
+    "place": "77875",
+    "population": "9646"
+  },
+  "Sun Prairie, Wisconsin": {
+    "state": "55",
+    "place": "78600",
+    "population": "35967"
+  },
+  "Superior, Wisconsin": {
+    "state": "55",
+    "place": "78650",
+    "population": "26751"
+  },
+  "Thorp, Wisconsin": {
+    "state": "55",
+    "place": "79625",
+    "population": "1795"
+  },
+  "Tomah, Wisconsin": {
+    "state": "55",
+    "place": "80075",
+    "population": "9570"
+  },
+  "Tomahawk, Wisconsin": {
+    "state": "55",
+    "place": "80125",
+    "population": "3441"
+  },
+  "Two Rivers, Wisconsin": {
+    "state": "55",
+    "place": "81325",
+    "population": "11271"
+  },
+  "Verona, Wisconsin": {
+    "state": "55",
+    "place": "82600",
+    "population": "14030"
+  },
+  "Viroqua, Wisconsin": {
+    "state": "55",
+    "place": "82925",
+    "population": "4504"
+  },
+  "Washburn, Wisconsin": {
+    "state": "55",
+    "place": "83525",
+    "population": "2051"
+  },
+  "Waterloo, Wisconsin": {
+    "state": "55",
+    "place": "83925",
+    "population": "3492"
+  },
+  "Watertown, Wisconsin": {
+    "state": "55",
+    "place": "83975",
+    "population": "22926"
+  },
+  "Waukesha, Wisconsin": {
+    "state": "55",
+    "place": "84250",
+    "population": "71158"
+  },
+  "Waupaca, Wisconsin": {
+    "state": "55",
+    "place": "84375",
+    "population": "6282"
+  },
+  "Waupun, Wisconsin": {
+    "state": "55",
+    "place": "84425",
+    "population": "11344"
+  },
+  "Wausau, Wisconsin": {
+    "state": "55",
+    "place": "84475",
+    "population": "39994"
+  },
+  "Wautoma, Wisconsin": {
+    "state": "55",
+    "place": "84625",
+    "population": "2209"
+  },
+  "Wauwatosa, Wisconsin": {
+    "state": "55",
+    "place": "84675",
+    "population": "48387"
+  },
+  "West Allis, Wisconsin": {
+    "state": "55",
+    "place": "85300",
+    "population": "60325"
+  },
+  "West Bend, Wisconsin": {
+    "state": "55",
+    "place": "85350",
+    "population": "31752"
+  },
+  "Westby, Wisconsin": {
+    "state": "55",
+    "place": "85475",
+    "population": "2332"
+  },
+  "Weyauwega, Wisconsin": {
+    "state": "55",
+    "place": "86400",
+    "population": "1796"
+  },
+  "Whitehall, Wisconsin": {
+    "state": "55",
+    "place": "86725",
+    "population": "1645"
+  },
+  "Whitewater, Wisconsin": {
+    "state": "55",
+    "place": "86925",
+    "population": "14889"
+  },
+  "Wisconsin Dells, Wisconsin": {
+    "state": "55",
+    "place": "88150",
+    "population": "2942"
+  },
+  "Wisconsin Rapids, Wisconsin": {
+    "state": "55",
+    "place": "88200",
+    "population": "18877"
+  },
+  "Abbotsford, Wisconsin": {
+    "state": "55",
+    "place": "00100",
+    "population": "2275"
+  },
+  "Adams, Wisconsin": {
+    "state": "55",
+    "place": "00275",
+    "population": "1761"
+  },
+  "Algoma, Wisconsin": {
+    "state": "55",
+    "place": "01000",
+    "population": "3243"
+  },
+  "Alma, Wisconsin": {
+    "state": "55",
+    "place": "01225",
+    "population": "716"
+  },
+  "Altoona, Wisconsin": {
+    "state": "55",
+    "place": "01550",
+    "population": "8293"
+  },
+  "Amery, Wisconsin": {
+    "state": "55",
+    "place": "01725",
+    "population": "2962"
+  },
+  "Antigo, Wisconsin": {
+    "state": "55",
+    "place": "02250",
+    "population": "8100"
+  },
+  "Appleton, Wisconsin": {
+    "state": "55",
+    "place": "02375",
+    "population": "75644"
+  },
+  "Arcadia, Wisconsin": {
+    "state": "55",
+    "place": "02500",
+    "population": "3737"
+  },
+  "Ashland, Wisconsin": {
+    "state": "55",
+    "place": "03225",
+    "population": "7908"
+  },
+  "Augusta, Wisconsin": {
+    "state": "55",
+    "place": "03825",
+    "population": "1567"
+  },
+  "Baraboo, Wisconsin": {
+    "state": "55",
+    "place": "04625",
+    "population": "12556"
+  },
+  "Barron, Wisconsin": {
+    "state": "55",
+    "place": "04875",
+    "population": "3733"
+  },
+  "Bayfield, Wisconsin": {
+    "state": "55",
+    "place": "05350",
+    "population": "584"
+  },
+  "Beaver Dam, Wisconsin": {
+    "state": "55",
+    "place": "05900",
+    "population": "16708"
+  },
+  "Beloit, Wisconsin": {
+    "state": "55",
+    "place": "06500",
+    "population": "36657"
+  },
+  "Berlin, Wisconsin": {
+    "state": "55",
+    "place": "06925",
+    "population": "5571"
+  },
+  "Black River Falls, Wisconsin": {
+    "state": "55",
+    "place": "07900",
+    "population": "3523"
+  },
+  "Blair, Wisconsin": {
+    "state": "55",
+    "place": "08075",
+    "population": "1325"
+  },
+  "Bloomer, Wisconsin": {
+    "state": "55",
+    "place": "08225",
+    "population": "3683"
+  },
+  "Boscobel, Wisconsin": {
+    "state": "55",
+    "place": "08850",
+    "population": "3286"
+  },
+  "Brillion, Wisconsin": {
+    "state": "55",
+    "place": "09725",
+    "population": "3262"
+  },
+  "Brodhead, Wisconsin": {
+    "state": "55",
+    "place": "09925",
+    "population": "3274"
+  },
+  "Brookfield, Wisconsin": {
+    "state": "55",
+    "place": "10025",
+    "population": "41464"
+  },
+  "Buffalo City, Wisconsin": {
+    "state": "55",
+    "place": "11062",
+    "population": "1007"
+  },
+  "Burlington, Wisconsin": {
+    "state": "55",
+    "place": "11200",
+    "population": "11047"
+  },
+  "Cedarburg, Wisconsin": {
+    "state": "55",
+    "place": "13375",
+    "population": "12121"
+  },
+  "Chetek, Wisconsin": {
+    "state": "55",
+    "place": "14325",
+    "population": "2172"
+  },
+  "Chilton, Wisconsin": {
+    "state": "55",
+    "place": "14475",
+    "population": "4080"
+  },
+  "Chippewa Falls, Wisconsin": {
+    "state": "55",
+    "place": "14575",
+    "population": "14731"
+  },
+  "Clintonville, Wisconsin": {
+    "state": "55",
+    "place": "15725",
+    "population": "4591"
+  },
+  "Colby, Wisconsin": {
+    "state": "55",
+    "place": "16150",
+    "population": "1952"
+  },
+  "Columbus, Wisconsin": {
+    "state": "55",
+    "place": "16450",
+    "population": "5540"
+  },
+  "Cornell, Wisconsin": {
+    "state": "55",
+    "place": "17100",
+    "population": "1453"
+  },
+  "Crandon, Wisconsin": {
+    "state": "55",
+    "place": "17425",
+    "population": "1713"
+  },
+  "Cuba City, Wisconsin": {
+    "state": "55",
+    "place": "17950",
+    "population": "2138"
+  },
+  "Cudahy, Wisconsin": {
+    "state": "55",
+    "place": "17975",
+    "population": "18204"
+  },
+  "Cumberland, Wisconsin": {
+    "state": "55",
+    "place": "18025",
+    "population": "2274"
+  },
+  "Darlington, Wisconsin": {
+    "state": "55",
+    "place": "18875",
+    "population": "2462"
+  },
+  "Delafield, Wisconsin": {
+    "state": "55",
+    "place": "19400",
+    "population": "7185"
+  },
+  "Delavan, Wisconsin": {
+    "state": "55",
+    "place": "19450",
+    "population": "8505"
+  },
+  "De Pere, Wisconsin": {
+    "state": "55",
+    "place": "19775",
+    "population": "25410"
+  },
+  "Dodgeville, Wisconsin": {
+    "state": "55",
+    "place": "20350",
+    "population": "4984"
+  },
+  "Durand, Wisconsin": {
+    "state": "55",
+    "place": "21225",
+    "population": "1854"
+  },
+  "Eagle River, Wisconsin": {
+    "state": "55",
+    "place": "21625",
+    "population": "1628"
+  },
+  "Eau Claire, Wisconsin": {
+    "state": "55",
+    "place": "22300",
+    "population": "69421"
+  },
+  "Edgerton, Wisconsin": {
+    "state": "55",
+    "place": "22575",
+    "population": "5945"
+  },
+  "Elkhorn, Wisconsin": {
+    "state": "55",
+    "place": "23300",
+    "population": "10247"
+  },
+  "Elroy, Wisconsin": {
+    "state": "55",
+    "place": "23800",
+    "population": "1356"
+  },
+  "Evansville, Wisconsin": {
+    "state": "55",
+    "place": "24550",
+    "population": "5703"
+  },
+  "Fennimore, Wisconsin": {
+    "state": "55",
+    "place": "25600",
+    "population": "2764"
+  },
+  "Fitchburg, Wisconsin": {
+    "state": "55",
+    "place": "25950",
+    "population": "29609"
+  },
+  "Fond du Lac, Wisconsin": {
+    "state": "55",
+    "place": "26275",
+    "population": "44678"
+  },
+  "Fort Atkinson, Wisconsin": {
+    "state": "55",
+    "place": "26675",
+    "population": "12579"
+  },
+  "Fountain City, Wisconsin": {
+    "state": "55",
+    "place": "26850",
+    "population": "806"
+  },
+  "Fox Lake, Wisconsin": {
+    "state": "55",
+    "place": "27000",
+    "population": "1604"
+  },
+  "Franklin, Wisconsin": {
+    "state": "55",
+    "place": "27300",
+    "population": "36816"
+  },
+  "Galesville, Wisconsin": {
+    "state": "55",
+    "place": "28200",
+    "population": "1662"
+  },
+  "Gillett, Wisconsin": {
+    "state": "55",
+    "place": "29050",
+    "population": "1289"
+  },
+  "Glendale, Wisconsin": {
+    "state": "55",
+    "place": "29400",
+    "population": "13357"
+  },
+  "Glenwood City, Wisconsin": {
+    "state": "55",
+    "place": "29625",
+    "population": "1306"
+  },
+  "Green Bay, Wisconsin": {
+    "state": "55",
+    "place": "31000",
+    "population": "107395"
+  },
+  "Greenfield, Wisconsin": {
+    "state": "55",
+    "place": "31175",
+    "population": "37803"
+  },
+  "Green Lake, Wisconsin": {
+    "state": "55",
+    "place": "31300",
+    "population": "1001"
+  },
+  "Greenwood, Wisconsin": {
+    "state": "55",
+    "place": "31575",
+    "population": "1058"
+  },
+  "Hartford, Wisconsin": {
+    "state": "55",
+    "place": "33000",
+    "population": "15626"
+  },
+  "Hayward, Wisconsin": {
+    "state": "55",
+    "place": "33450",
+    "population": "2533"
+  },
+  "Hillsboro, Wisconsin": {
+    "state": "55",
+    "place": "34825",
+    "population": "1397"
+  },
+  "Horicon, Wisconsin": {
+    "state": "55",
+    "place": "35750",
+    "population": "3767"
+  },
+  "Hudson, Wisconsin": {
+    "state": "55",
+    "place": "36250",
+    "population": "14755"
+  },
+  "Hurley, Wisconsin": {
+    "state": "55",
+    "place": "36525",
+    "population": "1558"
+  },
+  "Independence, Wisconsin": {
+    "state": "55",
+    "place": "36800",
+    "population": "1498"
+  },
+  "Janesville, Wisconsin": {
+    "state": "55",
+    "place": "37825",
+    "population": "65615"
+  },
+  "Jefferson, Wisconsin": {
+    "state": "55",
+    "place": "37900",
+    "population": "7793"
+  },
+  "Juneau, Wisconsin": {
+    "state": "55",
+    "place": "38675",
+    "population": "2658"
+  },
+  "Kaukauna, Wisconsin": {
+    "state": "55",
+    "place": "38800",
+    "population": "17089"
+  },
+  "Kenosha, Wisconsin": {
+    "state": "55",
+    "place": "39225",
+    "population": "99986"
+  },
+  "Kewaunee, Wisconsin": {
+    "state": "55",
+    "place": "39350",
+    "population": "2837"
+  },
+  "Kiel, Wisconsin": {
+    "state": "55",
+    "place": "39525",
+    "population": "3932"
+  },
+  "La Crosse, Wisconsin": {
+    "state": "55",
+    "place": "40775",
+    "population": "52680"
+  },
+  "Ladysmith, Wisconsin": {
+    "state": "55",
+    "place": "40850",
+    "population": "3216"
+  },
+  "Lake Geneva, Wisconsin": {
+    "state": "55",
+    "place": "41450",
+    "population": "8277"
+  },
+  "Lake Mills, Wisconsin": {
+    "state": "55",
+    "place": "41675",
+    "population": "6211"
+  },
+  "Lancaster, Wisconsin": {
+    "state": "55",
+    "place": "42250",
+    "population": "3907"
+  },
+  "Lodi, Wisconsin": {
+    "state": "55",
+    "place": "45350",
+    "population": "3189"
+  },
+  "Loyal, Wisconsin": {
+    "state": "55",
+    "place": "46075",
+    "population": "1203"
+  },
+  "Madison, Wisconsin": {
+    "state": "55",
+    "place": "48000",
+    "population": "269840"
+  },
+  "Manawa, Wisconsin": {
+    "state": "55",
+    "place": "48350",
+    "population": "1441"
+  },
+  "Manitowoc, Wisconsin": {
+    "state": "55",
+    "place": "48500",
+    "population": "34626"
+  },
+  "Marinette, Wisconsin": {
+    "state": "55",
+    "place": "49300",
+    "population": "11119"
+  },
+  "Marion, Wisconsin": {
+    "state": "55",
+    "place": "49400",
+    "population": "1324"
+  },
+  "Markesan, Wisconsin": {
+    "state": "55",
+    "place": "49450",
+    "population": "1377"
+  },
+  "Marshfield, Wisconsin": {
+    "state": "55",
+    "place": "49675",
+    "population": "18929"
+  },
+  "Mauston, Wisconsin": {
+    "state": "55",
+    "place": "50025",
+    "population": "4347"
+  },
+  "Mayville, Wisconsin": {
+    "state": "55",
+    "place": "50200",
+    "population": "5196"
+  },
+  "Medford, Wisconsin": {
+    "state": "55",
+    "place": "50425",
+    "population": "4349"
+  },
+  "Mellen, Wisconsin": {
+    "state": "55",
+    "place": "50700",
+    "population": "698"
+  },
+  "Menasha, Wisconsin": {
+    "state": "55",
+    "place": "50825",
+    "population": "18268"
+  },
+  "Menomonie, Wisconsin": {
+    "state": "55",
+    "place": "51025",
+    "population": "16843"
+  },
+  "Mequon, Wisconsin": {
+    "state": "55",
+    "place": "51150",
+    "population": "25142"
+  },
+  "Merrill, Wisconsin": {
+    "state": "55",
+    "place": "51250",
+    "population": "9347"
+  },
+  "Middleton, Wisconsin": {
+    "state": "55",
+    "place": "51575",
+    "population": "21827"
+  },
+  "Milton, Wisconsin": {
+    "state": "55",
+    "place": "52200",
+    "population": "5716"
+  },
+  "Milwaukee, Wisconsin": {
+    "state": "55",
+    "place": "53000",
+    "population": "577222"
+  },
+  "Mineral Point, Wisconsin": {
+    "state": "55",
+    "place": "53100",
+    "population": "2581"
+  },
+  "Mondovi, Wisconsin": {
+    "state": "55",
+    "place": "53600",
+    "population": "2845"
+  },
+  "Monona, Wisconsin": {
+    "state": "55",
+    "place": "53675",
+    "population": "8624"
+  },
+  "Monroe, Wisconsin": {
+    "state": "55",
+    "place": "53750",
+    "population": "10661"
+  },
+  "Montello, Wisconsin": {
+    "state": "55",
+    "place": "53875",
+    "population": "1448"
+  },
+  "Montreal, Wisconsin": {
+    "state": "55",
+    "place": "54075",
+    "population": "801"
+  },
+  "Mosinee, Wisconsin": {
+    "state": "55",
+    "place": "54500",
+    "population": "4452"
+  },
+  "Muskego, Wisconsin": {
+    "state": "55",
+    "place": "55275",
+    "population": "25032"
+  },
+  "Neenah, Wisconsin": {
+    "state": "55",
+    "place": "55750",
+    "population": "27319"
+  },
+  "Neillsville, Wisconsin": {
+    "state": "55",
+    "place": "55800",
+    "population": "2384"
+  },
+  "Nekoosa, Wisconsin": {
+    "state": "55",
+    "place": "55875",
+    "population": "2449"
+  },
+  "New Berlin, Wisconsin": {
+    "state": "55",
+    "place": "56375",
+    "population": "40451"
+  },
+  "New Holstein, Wisconsin": {
+    "state": "55",
+    "place": "56800",
+    "population": "3195"
+  },
+  "New Lisbon, Wisconsin": {
+    "state": "55",
+    "place": "56900",
+    "population": "1748"
+  }
+}

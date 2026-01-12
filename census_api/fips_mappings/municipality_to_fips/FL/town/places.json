@@ -1,0 +1,617 @@
+{
+  "Glen Ridge, Florida": {
+    "state": "12",
+    "place": "26050",
+    "population": "217"
+  },
+  "Glen St. Mary, Florida": {
+    "state": "12",
+    "place": "26075",
+    "population": "463"
+  },
+  "Golden Beach, Florida": {
+    "state": "12",
+    "place": "26250",
+    "population": "961"
+  },
+  "Grand Ridge, Florida": {
+    "state": "12",
+    "place": "27175",
+    "population": "882"
+  },
+  "Grant-Valkaria, Florida": {
+    "state": "12",
+    "place": "27256",
+    "population": "4509"
+  },
+  "Greensboro, Florida": {
+    "state": "12",
+    "place": "27550",
+    "population": "461"
+  },
+  "Greenville, Florida": {
+    "state": "12",
+    "place": "27575",
+    "population": "746"
+  },
+  "Greenwood, Florida": {
+    "state": "12",
+    "place": "27600",
+    "population": "539"
+  },
+  "Gulf Stream, Florida": {
+    "state": "12",
+    "place": "28275",
+    "population": "954"
+  },
+  "St. Leo, Florida": {
+    "state": "12",
+    "place": "62775",
+    "population": "2362"
+  },
+  "St. Lucie Village, Florida": {
+    "state": "12",
+    "place": "62800",
+    "population": "613"
+  },
+  "Sewall's Point, Florida": {
+    "state": "12",
+    "place": "65225",
+    "population": "1991"
+  },
+  "Shalimar, Florida": {
+    "state": "12",
+    "place": "65425",
+    "population": "737"
+  },
+  "Haverhill, Florida": {
+    "state": "12",
+    "place": "29200",
+    "population": "2187"
+  },
+  "Highland Beach, Florida": {
+    "state": "12",
+    "place": "30200",
+    "population": "4295"
+  },
+  "Hillcrest Heights, Florida": {
+    "state": "12",
+    "place": "30700",
+    "population": "243"
+  },
+  "Hilliard, Florida": {
+    "state": "12",
+    "place": "30750",
+    "population": "2967"
+  },
+  "Hillsboro Beach, Florida": {
+    "state": "12",
+    "place": "30850",
+    "population": "1987"
+  },
+  "Horseshoe Beach, Florida": {
+    "state": "12",
+    "place": "32650",
+    "population": "165"
+  },
+  "Howey-in-the-Hills, Florida": {
+    "state": "12",
+    "place": "32775",
+    "population": "1643"
+  },
+  "Hypoluxo, Florida": {
+    "state": "12",
+    "place": "33150",
+    "population": "2687"
+  },
+  "Havana, Florida": {
+    "state": "12",
+    "place": "29150",
+    "population": "1753"
+  },
+  "Indialantic, Florida": {
+    "state": "12",
+    "place": "33375",
+    "population": "3010"
+  },
+  "Indian River Shores, Florida": {
+    "state": "12",
+    "place": "33600",
+    "population": "4241"
+  },
+  "Indian Shores, Florida": {
+    "state": "12",
+    "place": "33675",
+    "population": "1190"
+  },
+  "Inglis, Florida": {
+    "state": "12",
+    "place": "33800",
+    "population": "1476"
+  },
+  "Interlachen, Florida": {
+    "state": "12",
+    "place": "33900",
+    "population": "1441"
+  },
+  "Sneads, Florida": {
+    "state": "12",
+    "place": "66725",
+    "population": "1699"
+  },
+  "South Palm Beach, Florida": {
+    "state": "12",
+    "place": "67650",
+    "population": "1471"
+  },
+  "Southwest Ranches, Florida": {
+    "state": "12",
+    "place": "68135",
+    "population": "7607"
+  },
+  "Surfside, Florida": {
+    "state": "12",
+    "place": "70075",
+    "population": "5689"
+  },
+  "Alford, Florida": {
+    "state": "12",
+    "place": "00625",
+    "population": "484"
+  },
+  "Altha, Florida": {
+    "state": "12",
+    "place": "01000",
+    "population": "496"
+  },
+  "Astatula, Florida": {
+    "state": "12",
+    "place": "02250",
+    "population": "1889"
+  },
+  "Baldwin, Florida": {
+    "state": "12",
+    "place": "03250",
+    "population": "1396"
+  },
+  "Jay, Florida": {
+    "state": "12",
+    "place": "35425",
+    "population": "524"
+  },
+  "Jennings, Florida": {
+    "state": "12",
+    "place": "35525",
+    "population": "749"
+  },
+  "Juno Beach, Florida": {
+    "state": "12",
+    "place": "35850",
+    "population": "3858"
+  },
+  "Jupiter, Florida": {
+    "state": "12",
+    "place": "35875",
+    "population": "61047"
+  },
+  "Jupiter Inlet Colony, Florida": {
+    "state": "12",
+    "place": "35900",
+    "population": "405"
+  },
+  "Jupiter Island, Florida": {
+    "state": "12",
+    "place": "35925",
+    "population": "804"
+  },
+  "Kenneth City, Florida": {
+    "state": "12",
+    "place": "36175",
+    "population": "5047"
+  },
+  "La Crosse, Florida": {
+    "state": "12",
+    "place": "37300",
+    "population": "316"
+  },
+  "Lady Lake, Florida": {
+    "state": "12",
+    "place": "37375",
+    "population": "15970"
+  },
+  "Lake Clarke Shores, Florida": {
+    "state": "12",
+    "place": "37800",
+    "population": "3564"
+  },
+  "Lake Hamilton, Florida": {
+    "state": "12",
+    "place": "37975",
+    "population": "1537"
+  },
+  "Bascom, Florida": {
+    "state": "12",
+    "place": "03725",
+    "population": "87"
+  },
+  "Bay Harbor Islands, Florida": {
+    "state": "12",
+    "place": "03975",
+    "population": "5922"
+  },
+  "Bell, Florida": {
+    "state": "12",
+    "place": "04975",
+    "population": "518"
+  },
+  "Belleair, Florida": {
+    "state": "12",
+    "place": "05075",
+    "population": "4273"
+  },
+  "Belleair Shore, Florida": {
+    "state": "12",
+    "place": "05150",
+    "population": "73"
+  },
+  "Beverly Beach, Florida": {
+    "state": "12",
+    "place": "06100",
+    "population": "474"
+  },
+  "Branford, Florida": {
+    "state": "12",
+    "place": "08175",
+    "population": "711"
+  },
+  "Briny Breezes, Florida": {
+    "state": "12",
+    "place": "08575",
+    "population": "502"
+  },
+  "Bronson, Florida": {
+    "state": "12",
+    "place": "08700",
+    "population": "1140"
+  },
+  "Brooker, Florida": {
+    "state": "12",
+    "place": "08725",
+    "population": "322"
+  },
+  "Lake Park, Florida": {
+    "state": "12",
+    "place": "38600",
+    "population": "9047"
+  },
+  "Lake Placid, Florida": {
+    "state": "12",
+    "place": "38625",
+    "population": "2360"
+  },
+  "Lantana, Florida": {
+    "state": "12",
+    "place": "39375",
+    "population": "11504"
+  },
+  "Lauderdale-by-the-Sea, Florida": {
+    "state": "12",
+    "place": "39475",
+    "population": "6198"
+  },
+  "Lee, Florida": {
+    "state": "12",
+    "place": "39850",
+    "population": "375"
+  },
+  "Longboat Key, Florida": {
+    "state": "12",
+    "place": "41150",
+    "population": "7505"
+  },
+  "Loxahatchee Groves, Florida": {
+    "state": "12",
+    "place": "41577",
+    "population": "3355"
+  },
+  "McIntosh, Florida": {
+    "state": "12",
+    "place": "42150",
+    "population": "463"
+  },
+  "Wausau, Florida": {
+    "state": "12",
+    "place": "75450",
+    "population": "371"
+  },
+  "Welaka, Florida": {
+    "state": "12",
+    "place": "75750",
+    "population": "714"
+  },
+  "Westville, Florida": {
+    "state": "12",
+    "place": "76975",
+    "population": "261"
+  },
+  "White Springs, Florida": {
+    "state": "12",
+    "place": "77400",
+    "population": "740"
+  },
+  "Windermere, Florida": {
+    "state": "12",
+    "place": "78050",
+    "population": "3030"
+  },
+  "Callahan, Florida": {
+    "state": "12",
+    "place": "09700",
+    "population": "1526"
+  },
+  "Campbellton, Florida": {
+    "state": "12",
+    "place": "09900",
+    "population": "191"
+  },
+  "Caryville, Florida": {
+    "state": "12",
+    "place": "10975",
+    "population": "301"
+  },
+  "Century, Florida": {
+    "state": "12",
+    "place": "11362",
+    "population": "1713"
+  },
+  "Cinco Bayou, Florida": {
+    "state": "12",
+    "place": "12325",
+    "population": "457"
+  },
+  "Cloud Lake, Florida": {
+    "state": "12",
+    "place": "13050",
+    "population": "134"
+  },
+  "Malabar, Florida": {
+    "state": "12",
+    "place": "42625",
+    "population": "2949"
+  },
+  "Malone, Florida": {
+    "state": "12",
+    "place": "42650",
+    "population": "1959"
+  },
+  "Manalapan, Florida": {
+    "state": "12",
+    "place": "42700",
+    "population": "419"
+  },
+  "Mangonia Park, Florida": {
+    "state": "12",
+    "place": "42900",
+    "population": "2142"
+  },
+  "Marineland, Florida": {
+    "state": "12",
+    "place": "43250",
+    "population": "15"
+  },
+  "Mayo, Florida": {
+    "state": "12",
+    "place": "43575",
+    "population": "1055"
+  },
+  "Medley, Florida": {
+    "state": "12",
+    "place": "43900",
+    "population": "1056"
+  },
+  "Melbourne Beach, Florida": {
+    "state": "12",
+    "place": "44000",
+    "population": "3231"
+  },
+  "Melbourne Village, Florida": {
+    "state": "12",
+    "place": "44075",
+    "population": "681"
+  },
+  "Miami Lakes, Florida": {
+    "state": "12",
+    "place": "45100",
+    "population": "30467"
+  },
+  "Micanopy, Florida": {
+    "state": "12",
+    "place": "45225",
+    "population": "648"
+  },
+  "Montverde, Florida": {
+    "state": "12",
+    "place": "46525",
+    "population": "1655"
+  },
+  "Worthington Springs, Florida": {
+    "state": "12",
+    "place": "78775",
+    "population": "378"
+  },
+  "Yankeetown, Florida": {
+    "state": "12",
+    "place": "78925",
+    "population": "588"
+  },
+  "Zolfo Springs, Florida": {
+    "state": "12",
+    "place": "79250",
+    "population": "1737"
+  },
+  "Cottondale, Florida": {
+    "state": "12",
+    "place": "14850",
+    "population": "848"
+  },
+  "Cross City, Florida": {
+    "state": "12",
+    "place": "15575",
+    "population": "1689"
+  },
+  "Cutler Bay, Florida": {
+    "state": "12",
+    "place": "15968",
+    "population": "45425"
+  },
+  "Davie, Florida": {
+    "state": "12",
+    "place": "16475",
+    "population": "105691"
+  },
+  "Dundee, Florida": {
+    "state": "12",
+    "place": "18550",
+    "population": "5235"
+  },
+  "Noma, Florida": {
+    "state": "12",
+    "place": "48900",
+    "population": "208"
+  },
+  "North Redington Beach, Florida": {
+    "state": "12",
+    "place": "49725",
+    "population": "1495"
+  },
+  "Oakland, Florida": {
+    "state": "12",
+    "place": "50525",
+    "population": "3516"
+  },
+  "Ocean Breeze, Florida": {
+    "state": "12",
+    "place": "50875",
+    "population": "301"
+  },
+  "Ocean Ridge, Florida": {
+    "state": "12",
+    "place": "50950",
+    "population": "1830"
+  },
+  "Eatonville, Florida": {
+    "state": "12",
+    "place": "19650",
+    "population": "2349"
+  },
+  "Ebro, Florida": {
+    "state": "12",
+    "place": "19725",
+    "population": "237"
+  },
+  "Esto, Florida": {
+    "state": "12",
+    "place": "21250",
+    "population": "341"
+  },
+  "Fort Myers Beach, Florida": {
+    "state": "12",
+    "place": "24150",
+    "population": "5582"
+  },
+  "Fort White, Florida": {
+    "state": "12",
+    "place": "24500",
+    "population": "618"
+  },
+  "Orange Park, Florida": {
+    "state": "12",
+    "place": "52125",
+    "population": "9089"
+  },
+  "Orchid, Florida": {
+    "state": "12",
+    "place": "52175",
+    "population": "516"
+  },
+  "Otter Creek, Florida": {
+    "state": "12",
+    "place": "53500",
+    "population": "108"
+  },
+  "Palm Beach, Florida": {
+    "state": "12",
+    "place": "54025",
+    "population": "9245"
+  },
+  "Palm Beach Shores, Florida": {
+    "state": "12",
+    "place": "54150",
+    "population": "1330"
+  },
+  "Palm Shores, Florida": {
+    "state": "12",
+    "place": "54425",
+    "population": "1200"
+  },
+  "Paxton, Florida": {
+    "state": "12",
+    "place": "55475",
+    "population": "556"
+  },
+  "Pembroke Park, Florida": {
+    "state": "12",
+    "place": "55750",
+    "population": "6260"
+  },
+  "Penney Farms, Florida": {
+    "state": "12",
+    "place": "55875",
+    "population": "821"
+  },
+  "Pierson, Florida": {
+    "state": "12",
+    "place": "56425",
+    "population": "1542"
+  },
+  "Polk City, Florida": {
+    "state": "12",
+    "place": "57950",
+    "population": "2713"
+  },
+  "Pomona Park, Florida": {
+    "state": "12",
+    "place": "58025",
+    "population": "784"
+  },
+  "Ponce de Leon, Florida": {
+    "state": "12",
+    "place": "58175",
+    "population": "504"
+  },
+  "Ponce Inlet, Florida": {
+    "state": "12",
+    "place": "58200",
+    "population": "3364"
+  },
+  "Raiford, Florida": {
+    "state": "12",
+    "place": "59400",
+    "population": "224"
+  },
+  "Reddick, Florida": {
+    "state": "12",
+    "place": "59675",
+    "population": "449"
+  },
+  "Redington Beach, Florida": {
+    "state": "12",
+    "place": "59725",
+    "population": "1376"
+  },
+  "Redington Shores, Florida": {
+    "state": "12",
+    "place": "59750",
+    "population": "2176"
+  }
+}

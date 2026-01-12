@@ -1,0 +1,97 @@
+{
+  "Buffalo, Wyoming": {
+    "state": "56",
+    "place": "10685",
+    "population": "4415"
+  },
+  "Casper, Wyoming": {
+    "state": "56",
+    "place": "13150",
+    "population": "59038"
+  },
+  "Cheyenne, Wyoming": {
+    "state": "56",
+    "place": "13900",
+    "population": "65132"
+  },
+  "Cody, Wyoming": {
+    "state": "56",
+    "place": "15760",
+    "population": "10028"
+  },
+  "Douglas, Wyoming": {
+    "state": "56",
+    "place": "21125",
+    "population": "6386"
+  },
+  "Evanston, Wyoming": {
+    "state": "56",
+    "place": "25620",
+    "population": "11747"
+  },
+  "Gillette, Wyoming": {
+    "state": "56",
+    "place": "31855",
+    "population": "33403"
+  },
+  "Green River, Wyoming": {
+    "state": "56",
+    "place": "33740",
+    "population": "11825"
+  },
+  "Lander, Wyoming": {
+    "state": "56",
+    "place": "44760",
+    "population": "7546"
+  },
+  "Laramie, Wyoming": {
+    "state": "56",
+    "place": "45050",
+    "population": "31407"
+  },
+  "Newcastle, Wyoming": {
+    "state": "56",
+    "place": "56215",
+    "population": "3374"
+  },
+  "Kemmerer, Wyoming": {
+    "state": "56",
+    "place": "42005",
+    "population": "2415"
+  },
+  "Powell, Wyoming": {
+    "state": "56",
+    "place": "62450",
+    "population": "6419"
+  },
+  "Rawlins, Wyoming": {
+    "state": "56",
+    "place": "63900",
+    "population": "8221"
+  },
+  "Riverton, Wyoming": {
+    "state": "56",
+    "place": "66220",
+    "population": "10682"
+  },
+  "Rock Springs, Wyoming": {
+    "state": "56",
+    "place": "67235",
+    "population": "23526"
+  },
+  "Sheridan, Wyoming": {
+    "state": "56",
+    "place": "69845",
+    "population": "18737"
+  },
+  "Torrington, Wyoming": {
+    "state": "56",
+    "place": "77530",
+    "population": "6119"
+  },
+  "Worland, Wyoming": {
+    "state": "56",
+    "place": "84925",
+    "population": "4773"
+  }
+}

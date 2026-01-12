@@ -1,0 +1,617 @@
+{
+  "Rising Sun, Maryland": {
+    "state": "24",
+    "place": "66275",
+    "population": "2740"
+  },
+  "Riverdale Park, Maryland": {
+    "state": "24",
+    "place": "66635",
+    "population": "7351"
+  },
+  "Rock Hall, Maryland": {
+    "state": "24",
+    "place": "67400",
+    "population": "1198"
+  },
+  "St. Michaels, Maryland": {
+    "state": "24",
+    "place": "69825",
+    "population": "1049"
+  },
+  "Secretary, Maryland": {
+    "state": "24",
+    "place": "70900",
+    "population": "472"
+  },
+  "Sharpsburg, Maryland": {
+    "state": "24",
+    "place": "71600",
+    "population": "560"
+  },
+  "Sharptown, Maryland": {
+    "state": "24",
+    "place": "71650",
+    "population": "691"
+  },
+  "Smithsburg, Maryland": {
+    "state": "24",
+    "place": "72900",
+    "population": "2977"
+  },
+  "Snow Hill, Maryland": {
+    "state": "24",
+    "place": "73075",
+    "population": "2156"
+  },
+  "Somerset, Maryland": {
+    "state": "24",
+    "place": "73350",
+    "population": "1187"
+  },
+  "Sudlersville, Maryland": {
+    "state": "24",
+    "place": "75650",
+    "population": "507"
+  },
+  "Sykesville, Maryland": {
+    "state": "24",
+    "place": "76550",
+    "population": "4316"
+  },
+  "Templeville, Maryland": {
+    "state": "24",
+    "place": "77200",
+    "population": "113"
+  },
+  "Thurmont, Maryland": {
+    "state": "24",
+    "place": "77825",
+    "population": "6213"
+  },
+  "Trappe, Maryland": {
+    "state": "24",
+    "place": "78575",
+    "population": "1177"
+  },
+  "Union Bridge, Maryland": {
+    "state": "24",
+    "place": "79350",
+    "population": "936"
+  },
+  "University Park, Maryland": {
+    "state": "24",
+    "place": "79675",
+    "population": "2454"
+  },
+  "Upper Marlboro, Maryland": {
+    "state": "24",
+    "place": "79875",
+    "population": "652"
+  },
+  "Vienna, Maryland": {
+    "state": "24",
+    "place": "80600",
+    "population": "270"
+  },
+  "Walkersville, Maryland": {
+    "state": "24",
+    "place": "81275",
+    "population": "6156"
+  },
+  "Washington Grove, Maryland": {
+    "state": "24",
+    "place": "81675",
+    "population": "505"
+  },
+  "Westernport, Maryland": {
+    "state": "24",
+    "place": "82750",
+    "population": "1812"
+  },
+  "Willards, Maryland": {
+    "state": "24",
+    "place": "84950",
+    "population": "963"
+  },
+  "Williamsport, Maryland": {
+    "state": "24",
+    "place": "85100",
+    "population": "2083"
+  },
+  "Woodsboro, Maryland": {
+    "state": "24",
+    "place": "86750",
+    "population": "1092"
+  },
+  "Accident, Maryland": {
+    "state": "24",
+    "place": "00225",
+    "population": "338"
+  },
+  "Barclay, Maryland": {
+    "state": "24",
+    "place": "04250",
+    "population": "183"
+  },
+  "Barnesville, Maryland": {
+    "state": "24",
+    "place": "04475",
+    "population": "144"
+  },
+  "Barton, Maryland": {
+    "state": "24",
+    "place": "04625",
+    "population": "464"
+  },
+  "Bel Air, Maryland": {
+    "state": "24",
+    "place": "05550",
+    "population": "10661"
+  },
+  "Berlin, Maryland": {
+    "state": "24",
+    "place": "06800",
+    "population": "5026"
+  },
+  "Berwyn Heights, Maryland": {
+    "state": "24",
+    "place": "06925",
+    "population": "3345"
+  },
+  "Betterton, Maryland": {
+    "state": "24",
+    "place": "07200",
+    "population": "286"
+  },
+  "Bladensburg, Maryland": {
+    "state": "24",
+    "place": "07850",
+    "population": "9657"
+  },
+  "Boonsboro, Maryland": {
+    "state": "24",
+    "place": "08625",
+    "population": "3799"
+  },
+  "Brentwood, Maryland": {
+    "state": "24",
+    "place": "09500",
+    "population": "3828"
+  },
+  "Brookeville, Maryland": {
+    "state": "24",
+    "place": "10225",
+    "population": "166"
+  },
+  "Brookview, Maryland": {
+    "state": "24",
+    "place": "10575",
+    "population": "48"
+  },
+  "Burkittsville, Maryland": {
+    "state": "24",
+    "place": "11400",
+    "population": "142"
+  },
+  "Capitol Heights, Maryland": {
+    "state": "24",
+    "place": "13000",
+    "population": "4050"
+  },
+  "Cecilton, Maryland": {
+    "state": "24",
+    "place": "14325",
+    "population": "676"
+  },
+  "Centreville, Maryland": {
+    "state": "24",
+    "place": "14950",
+    "population": "4727"
+  },
+  "Charlestown, Maryland": {
+    "state": "24",
+    "place": "15400",
+    "population": "1496"
+  },
+  "Chesapeake Beach, Maryland": {
+    "state": "24",
+    "place": "15925",
+    "population": "6356"
+  },
+  "Chesapeake City, Maryland": {
+    "state": "24",
+    "place": "15950",
+    "population": "736"
+  },
+  "Chestertown, Maryland": {
+    "state": "24",
+    "place": "16225",
+    "population": "5532"
+  },
+  "Cheverly, Maryland": {
+    "state": "24",
+    "place": "16550",
+    "population": "6170"
+  },
+  "Chevy Chase, Maryland": {
+    "state": "24",
+    "place": "16620",
+    "population": "2904"
+  },
+  "Chevy Chase View, Maryland": {
+    "state": "24",
+    "place": "16775",
+    "population": "1005"
+  },
+  "Chevy Chase Village, Maryland": {
+    "state": "24",
+    "place": "16787",
+    "population": "2049"
+  },
+  "Church Creek, Maryland": {
+    "state": "24",
+    "place": "17050",
+    "population": "102"
+  },
+  "Church Hill, Maryland": {
+    "state": "24",
+    "place": "17100",
+    "population": "808"
+  },
+  "Clear Spring, Maryland": {
+    "state": "24",
+    "place": "17600",
+    "population": "372"
+  },
+  "Colmar Manor, Maryland": {
+    "state": "24",
+    "place": "18850",
+    "population": "1588"
+  },
+  "Cottage City, Maryland": {
+    "state": "24",
+    "place": "20050",
+    "population": "1335"
+  },
+  "Deer Park, Maryland": {
+    "state": "24",
+    "place": "22275",
+    "population": "303"
+  },
+  "Delmar, Maryland": {
+    "state": "24",
+    "place": "22600",
+    "population": "3798"
+  },
+  "Denton, Maryland": {
+    "state": "24",
+    "place": "22725",
+    "population": "4848"
+  },
+  "Eagle Harbor, Maryland": {
+    "state": "24",
+    "place": "24200",
+    "population": "67"
+  },
+  "East New Market, Maryland": {
+    "state": "24",
+    "place": "24450",
+    "population": "389"
+  },
+  "Easton, Maryland": {
+    "state": "24",
+    "place": "24475",
+    "population": "17101"
+  },
+  "Edmonston, Maryland": {
+    "state": "24",
+    "place": "25425",
+    "population": "1617"
+  },
+  "Eldorado, Maryland": {
+    "state": "24",
+    "place": "25600",
+    "population": "45"
+  },
+  "Elkton, Maryland": {
+    "state": "24",
+    "place": "25800",
+    "population": "15807"
+  },
+  "Emmitsburg, Maryland": {
+    "state": "24",
+    "place": "26200",
+    "population": "2770"
+  },
+  "Fairmount Heights, Maryland": {
+    "state": "24",
+    "place": "27400",
+    "population": "1528"
+  },
+  "Federalsburg, Maryland": {
+    "state": "24",
+    "place": "27900",
+    "population": "2833"
+  },
+  "Forest Heights, Maryland": {
+    "state": "24",
+    "place": "28725",
+    "population": "2658"
+  },
+  "Friendsville, Maryland": {
+    "state": "24",
+    "place": "30850",
+    "population": "438"
+  },
+  "Funkstown, Maryland": {
+    "state": "24",
+    "place": "31100",
+    "population": "852"
+  },
+  "Galena, Maryland": {
+    "state": "24",
+    "place": "31225",
+    "population": "539"
+  },
+  "Galestown, Maryland": {
+    "state": "24",
+    "place": "31250",
+    "population": "111"
+  },
+  "Garrett Park, Maryland": {
+    "state": "24",
+    "place": "31525",
+    "population": "996"
+  },
+  "Glen Echo, Maryland": {
+    "state": "24",
+    "place": "32900",
+    "population": "279"
+  },
+  "Goldsboro, Maryland": {
+    "state": "24",
+    "place": "33950",
+    "population": "211"
+  },
+  "Grantsville, Maryland": {
+    "state": "24",
+    "place": "34525",
+    "population": "968"
+  },
+  "Greensboro, Maryland": {
+    "state": "24",
+    "place": "35200",
+    "population": "1919"
+  },
+  "Hampstead, Maryland": {
+    "state": "24",
+    "place": "36500",
+    "population": "6241"
+  },
+  "Hancock, Maryland": {
+    "state": "24",
+    "place": "36600",
+    "population": "1557"
+  },
+  "Hebron, Maryland": {
+    "state": "24",
+    "place": "37875",
+    "population": "1113"
+  },
+  "Henderson, Maryland": {
+    "state": "24",
+    "place": "37925",
+    "population": "160"
+  },
+  "Highland Beach, Maryland": {
+    "state": "24",
+    "place": "38500",
+    "population": "118"
+  },
+  "Hillsboro, Maryland": {
+    "state": "24",
+    "place": "39175",
+    "population": "128"
+  },
+  "Hurlock, Maryland": {
+    "state": "24",
+    "place": "41125",
+    "population": "2070"
+  },
+  "Indian Head, Maryland": {
+    "state": "24",
+    "place": "41500",
+    "population": "3894"
+  },
+  "Keedysville, Maryland": {
+    "state": "24",
+    "place": "43100",
+    "population": "1213"
+  },
+  "Kensington, Maryland": {
+    "state": "24",
+    "place": "43500",
+    "population": "2122"
+  },
+  "Kitzmiller, Maryland": {
+    "state": "24",
+    "place": "44450",
+    "population": "300"
+  },
+  "Landover Hills, Maryland": {
+    "state": "24",
+    "place": "45400",
+    "population": "1815"
+  },
+  "La Plata, Maryland": {
+    "state": "24",
+    "place": "45750",
+    "population": "10159"
+  },
+  "Laytonsville, Maryland": {
+    "state": "24",
+    "place": "46250",
+    "population": "572"
+  },
+  "Leonardtown, Maryland": {
+    "state": "24",
+    "place": "46475",
+    "population": "4563"
+  },
+  "Loch Lynn Heights, Maryland": {
+    "state": "24",
+    "place": "47525",
+    "population": "493"
+  },
+  "Lonaconing, Maryland": {
+    "state": "24",
+    "place": "47875",
+    "population": "1001"
+  },
+  "Luke, Maryland": {
+    "state": "24",
+    "place": "48775",
+    "population": "85"
+  },
+  "Manchester, Maryland": {
+    "state": "24",
+    "place": "49950",
+    "population": "5408"
+  },
+  "Mardela Springs, Maryland": {
+    "state": "24",
+    "place": "50525",
+    "population": "357"
+  },
+  "Marydel, Maryland": {
+    "state": "24",
+    "place": "51025",
+    "population": "176"
+  },
+  "Middletown, Maryland": {
+    "state": "24",
+    "place": "52425",
+    "population": "4943"
+  },
+  "Midland, Maryland": {
+    "state": "24",
+    "place": "52475",
+    "population": "488"
+  },
+  "Millington, Maryland": {
+    "state": "24",
+    "place": "52825",
+    "population": "549"
+  },
+  "Morningside, Maryland": {
+    "state": "24",
+    "place": "53625",
+    "population": "1240"
+  },
+  "Mountain Lake Park, Maryland": {
+    "state": "24",
+    "place": "53800",
+    "population": "2147"
+  },
+  "Mount Airy, Maryland": {
+    "state": "24",
+    "place": "53875",
+    "population": "9654"
+  },
+  "Myersville, Maryland": {
+    "state": "24",
+    "place": "54875",
+    "population": "1748"
+  },
+  "New Market, Maryland": {
+    "state": "24",
+    "place": "55650",
+    "population": "1525"
+  },
+  "New Windsor, Maryland": {
+    "state": "24",
+    "place": "55925",
+    "population": "1441"
+  },
+  "North Beach, Maryland": {
+    "state": "24",
+    "place": "56300",
+    "population": "2146"
+  },
+  "North Brentwood, Maryland": {
+    "state": "24",
+    "place": "56375",
+    "population": "593"
+  },
+  "North East, Maryland": {
+    "state": "24",
+    "place": "56450",
+    "population": "4085"
+  },
+  "Oakland, Maryland": {
+    "state": "24",
+    "place": "57650",
+    "population": "1851"
+  },
+  "Ocean City, Maryland": {
+    "state": "24",
+    "place": "58225",
+    "population": "6844"
+  },
+  "Oxford, Maryland": {
+    "state": "24",
+    "place": "59450",
+    "population": "611"
+  },
+  "Perryville, Maryland": {
+    "state": "24",
+    "place": "61150",
+    "population": "4391"
+  },
+  "Pittsville, Maryland": {
+    "state": "24",
+    "place": "62025",
+    "population": "1636"
+  },
+  "Poolesville, Maryland": {
+    "state": "24",
+    "place": "62850",
+    "population": "5742"
+  },
+  "Port Deposit, Maryland": {
+    "state": "24",
+    "place": "63075",
+    "population": "614"
+  },
+  "Port Tobacco Village, Maryland": {
+    "state": "24",
+    "place": "63225",
+    "population": "18"
+  },
+  "Preston, Maryland": {
+    "state": "24",
+    "place": "63825",
+    "population": "673"
+  },
+  "Princess Anne, Maryland": {
+    "state": "24",
+    "place": "64000",
+    "population": "3446"
+  },
+  "Queen Anne, Maryland": {
+    "state": "24",
+    "place": "64500",
+    "population": "192"
+  },
+  "Queenstown, Maryland": {
+    "state": "24",
+    "place": "64600",
+    "population": "705"
+  },
+  "Ridgely, Maryland": {
+    "state": "24",
+    "place": "66000",
+    "population": "1611"
+  }
+}

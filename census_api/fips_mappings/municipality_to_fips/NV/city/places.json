@@ -1,0 +1,97 @@
+{
+  "Boulder City, Nevada": {
+    "state": "32",
+    "place": "06500",
+    "population": "14885"
+  },
+  "Caliente, Nevada": {
+    "state": "32",
+    "place": "08500",
+    "population": "990"
+  },
+  "Carlin, Nevada": {
+    "state": "32",
+    "place": "08900",
+    "population": "2050"
+  },
+  "Carson, Nevada": {
+    "state": "32",
+    "place": "09700",
+    "population": "58639"
+  },
+  "Elko, Nevada": {
+    "state": "32",
+    "place": "22500",
+    "population": "20564"
+  },
+  "Ely, Nevada": {
+    "state": "32",
+    "place": "23500",
+    "population": "3924"
+  },
+  "Fallon, Nevada": {
+    "state": "32",
+    "place": "24100",
+    "population": "9327"
+  },
+  "Fernley, Nevada": {
+    "state": "32",
+    "place": "24900",
+    "population": "22895"
+  },
+  "Henderson, Nevada": {
+    "state": "32",
+    "place": "31900",
+    "population": "317610"
+  },
+  "Las Vegas, Nevada": {
+    "state": "32",
+    "place": "40000",
+    "population": "641903"
+  },
+  "Lovelock, Nevada": {
+    "state": "32",
+    "place": "43000",
+    "population": "1805"
+  },
+  "Mesquite, Nevada": {
+    "state": "32",
+    "place": "46000",
+    "population": "20471"
+  },
+  "North Las Vegas, Nevada": {
+    "state": "32",
+    "place": "51800",
+    "population": "262527"
+  },
+  "Reno, Nevada": {
+    "state": "32",
+    "place": "60600",
+    "population": "264165"
+  },
+  "Sparks, Nevada": {
+    "state": "32",
+    "place": "68400",
+    "population": "108445"
+  },
+  "Wells, Nevada": {
+    "state": "32",
+    "place": "83000",
+    "population": "1237"
+  },
+  "West Wendover, Nevada": {
+    "state": "32",
+    "place": "83730",
+    "population": "4512"
+  },
+  "Winnemucca, Nevada": {
+    "state": "32",
+    "place": "84800",
+    "population": "8431"
+  },
+  "Yerington, Nevada": {
+    "state": "32",
+    "place": "85400",
+    "population": "3121"
+  }
+}

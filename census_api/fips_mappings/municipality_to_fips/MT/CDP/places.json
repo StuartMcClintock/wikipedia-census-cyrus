@@ -1,0 +1,1847 @@
+{
+  "Absarokee, Montana": {
+    "state": "30",
+    "place": "00175",
+    "population": "1000"
+  },
+  "Acton, Montana": {
+    "state": "30",
+    "place": "00400",
+    "population": "48"
+  },
+  "Alder, Montana": {
+    "state": "30",
+    "place": "00850",
+    "population": "86"
+  },
+  "Alzada, Montana": {
+    "state": "30",
+    "place": "01300",
+    "population": "25"
+  },
+  "Amsterdam, Montana": {
+    "state": "30",
+    "place": "01525",
+    "population": "206"
+  },
+  "Antelope, Montana": {
+    "state": "30",
+    "place": "02050",
+    "population": "74"
+  },
+  "Argenta, Montana": {
+    "state": "30",
+    "place": "02350",
+    "population": "35"
+  },
+  "Arlee, Montana": {
+    "state": "30",
+    "place": "02425",
+    "population": "720"
+  },
+  "Ashland, Montana": {
+    "state": "30",
+    "place": "02800",
+    "population": "773"
+  },
+  "Augusta, Montana": {
+    "state": "30",
+    "place": "03025",
+    "population": "316"
+  },
+  "Avon, Montana": {
+    "state": "30",
+    "place": "03175",
+    "population": "114"
+  },
+  "Ayers Ranch Colony, Montana": {
+    "state": "30",
+    "place": "03196",
+    "population": "12"
+  },
+  "Azure, Montana": {
+    "state": "30",
+    "place": "03212",
+    "population": "314"
+  },
+  "Babb, Montana": {
+    "state": "30",
+    "place": "03250",
+    "population": "130"
+  },
+  "Ballantine, Montana": {
+    "state": "30",
+    "place": "03625",
+    "population": "293"
+  },
+  "Basin, Montana": {
+    "state": "30",
+    "place": "04150",
+    "population": "199"
+  },
+  "Batavia, Montana": {
+    "state": "30",
+    "place": "04230",
+    "population": "368"
+  },
+  "Bear Dance, Montana": {
+    "state": "30",
+    "place": "04410",
+    "population": "281"
+  },
+  "Beaver Creek, Montana": {
+    "state": "30",
+    "place": "04575",
+    "population": "311"
+  },
+  "Belfry, Montana": {
+    "state": "30",
+    "place": "04900",
+    "population": "193"
+  },
+  "Belknap, Montana": {
+    "state": "30",
+    "place": "05050",
+    "population": "161"
+  },
+  "Biddle, Montana": {
+    "state": "30",
+    "place": "05650",
+    "population": "28"
+  },
+  "Big Arm, Montana": {
+    "state": "30",
+    "place": "05800",
+    "population": "218"
+  },
+  "Bigfork, Montana": {
+    "state": "30",
+    "place": "05875",
+    "population": "5118"
+  },
+  "Big Sky, Montana": {
+    "state": "30",
+    "place": "06325",
+    "population": "3591"
+  },
+  "Big Sky Colony, Montana": {
+    "state": "30",
+    "place": "06410",
+    "population": "0"
+  },
+  "Big Stone Colony, Montana": {
+    "state": "30",
+    "place": "06440",
+    "population": "78"
+  },
+  "Birch Creek Colony, Montana": {
+    "state": "30",
+    "place": "06815",
+    "population": "120"
+  },
+  "Birney, Montana": {
+    "state": "30",
+    "place": "06925",
+    "population": "97"
+  },
+  "Black Eagle, Montana": {
+    "state": "30",
+    "place": "07150",
+    "population": "949"
+  },
+  "Blackfoot, Montana": {
+    "state": "30",
+    "place": "07300",
+    "population": "109"
+  },
+  "Bloomfield, Montana": {
+    "state": "30",
+    "place": "07675",
+    "population": "6"
+  },
+  "Boneau, Montana": {
+    "state": "30",
+    "place": "08162",
+    "population": "365"
+  },
+  "Bonner-West Riverside, Montana": {
+    "state": "30",
+    "place": "08462",
+    "population": "1690"
+  },
+  "Box Elder, Montana": {
+    "state": "30",
+    "place": "08725",
+    "population": "85"
+  },
+  "Boyd, Montana": {
+    "state": "30",
+    "place": "08800",
+    "population": "19"
+  },
+  "Brady, Montana": {
+    "state": "30",
+    "place": "09250",
+    "population": "116"
+  },
+  "Brandon, Montana": {
+    "state": "30",
+    "place": "09400",
+    "population": "46"
+  },
+  "Bridger, Montana": {
+    "state": "30",
+    "place": "09500",
+    "population": "72"
+  },
+  "Brockton, Montana": {
+    "state": "30",
+    "place": "10000",
+    "population": "358"
+  },
+  "Brockway, Montana": {
+    "state": "30",
+    "place": "10075",
+    "population": "14"
+  },
+  "Brooks, Montana": {
+    "state": "30",
+    "place": "10150",
+    "population": "18"
+  },
+  "Bull Lake, Montana": {
+    "state": "30",
+    "place": "10935",
+    "population": "180"
+  },
+  "Busby, Montana": {
+    "state": "30",
+    "place": "11200",
+    "population": "719"
+  },
+  "Bynum, Montana": {
+    "state": "30",
+    "place": "11500",
+    "population": "28"
+  },
+  "Camas, Montana": {
+    "state": "30",
+    "place": "11800",
+    "population": "57"
+  },
+  "Camp Three, Montana": {
+    "state": "30",
+    "place": "11995",
+    "population": "138"
+  },
+  "Camrose Colony, Montana": {
+    "state": "30",
+    "place": "11999",
+    "population": "184"
+  },
+  "Canyon Creek, Montana": {
+    "state": "30",
+    "place": "12025",
+    "population": "47"
+  },
+  "Cardwell, Montana": {
+    "state": "30",
+    "place": "12400",
+    "population": "62"
+  },
+  "Carlton, Montana": {
+    "state": "30",
+    "place": "12435",
+    "population": "721"
+  },
+  "Carter, Montana": {
+    "state": "30",
+    "place": "12625",
+    "population": "65"
+  },
+  "Cascade Colony, Montana": {
+    "state": "30",
+    "place": "12783",
+    "population": "115"
+  },
+  "Centerville, Montana": {
+    "state": "30",
+    "place": "13375",
+    "population": "32"
+  },
+  "Charlo, Montana": {
+    "state": "30",
+    "place": "13900",
+    "population": "385"
+  },
+  "Charlos Heights, Montana": {
+    "state": "30",
+    "place": "13975",
+    "population": "135"
+  },
+  "Churchill, Montana": {
+    "state": "30",
+    "place": "14875",
+    "population": "1030"
+  },
+  "Clancy, Montana": {
+    "state": "30",
+    "place": "15100",
+    "population": "1851"
+  },
+  "Clinton, Montana": {
+    "state": "30",
+    "place": "15475",
+    "population": "1018"
+  },
+  "Coffee Creek, Montana": {
+    "state": "30",
+    "place": "16000",
+    "population": "22"
+  },
+  "Condon, Montana": {
+    "state": "30",
+    "place": "17050",
+    "population": "285"
+  },
+  "Conner, Montana": {
+    "state": "30",
+    "place": "17200",
+    "population": "182"
+  },
+  "Cooke City, Montana": {
+    "state": "30",
+    "place": "17350",
+    "population": "77"
+  },
+  "Coram, Montana": {
+    "state": "30",
+    "place": "17500",
+    "population": "572"
+  },
+  "Corvallis, Montana": {
+    "state": "30",
+    "place": "17725",
+    "population": "1125"
+  },
+  "Corwin Springs, Montana": {
+    "state": "30",
+    "place": "17800",
+    "population": "101"
+  },
+  "Craig, Montana": {
+    "state": "30",
+    "place": "18025",
+    "population": "39"
+  },
+  "Crane, Montana": {
+    "state": "30",
+    "place": "18100",
+    "population": "91"
+  },
+  "Crow Agency, Montana": {
+    "state": "30",
+    "place": "18250",
+    "population": "1657"
+  },
+  "Custer, Montana": {
+    "state": "30",
+    "place": "18700",
+    "population": "119"
+  },
+  "Cyr, Montana": {
+    "state": "30",
+    "place": "18850",
+    "population": "63"
+  },
+  "Danvers, Montana": {
+    "state": "30",
+    "place": "19225",
+    "population": "16"
+  },
+  "Dayton, Montana": {
+    "state": "30",
+    "place": "19525",
+    "population": "104"
+  },
+  "De Borgia, Montana": {
+    "state": "30",
+    "place": "19675",
+    "population": "91"
+  },
+  "Deerfield Colony, Montana": {
+    "state": "30",
+    "place": "19800",
+    "population": "48"
+  },
+  "Dell, Montana": {
+    "state": "30",
+    "place": "20050",
+    "population": "17"
+  },
+  "Dewey, Montana": {
+    "state": "30",
+    "place": "20725",
+    "population": "25"
+  },
+  "Dixon, Montana": {
+    "state": "30",
+    "place": "20950",
+    "population": "221"
+  },
+  "Duncan Ranch Colony, Montana": {
+    "state": "30",
+    "place": "22130",
+    "population": "7"
+  },
+  "Dupuyer, Montana": {
+    "state": "30",
+    "place": "22450",
+    "population": "93"
+  },
+  "Eagle Creek Colony, Montana": {
+    "state": "30",
+    "place": "22655",
+    "population": "164"
+  },
+  "East End Colony, Montana": {
+    "state": "30",
+    "place": "22943",
+    "population": "8"
+  },
+  "East Glacier Park Village, Montana": {
+    "state": "30",
+    "place": "22985",
+    "population": "354"
+  },
+  "East Malta Colony, Montana": {
+    "state": "30",
+    "place": "23168",
+    "population": "97"
+  },
+  "East Missoula, Montana": {
+    "state": "30",
+    "place": "23200",
+    "population": "2465"
+  },
+  "Edgar, Montana": {
+    "state": "30",
+    "place": "23500",
+    "population": "110"
+  },
+  "Elkhorn, Montana": {
+    "state": "30",
+    "place": "23865",
+    "population": "12"
+  },
+  "Elliston, Montana": {
+    "state": "30",
+    "place": "23950",
+    "population": "227"
+  },
+  "Elmo, Montana": {
+    "state": "30",
+    "place": "24100",
+    "population": "244"
+  },
+  "Emigrant, Montana": {
+    "state": "30",
+    "place": "24325",
+    "population": "465"
+  },
+  "Essex, Montana": {
+    "state": "30",
+    "place": "24700",
+    "population": "44"
+  },
+  "Evaro, Montana": {
+    "state": "30",
+    "place": "25000",
+    "population": "373"
+  },
+  "Evergreen, Montana": {
+    "state": "30",
+    "place": "25075",
+    "population": "8149"
+  },
+  "Fair Haven Colony, Montana": {
+    "state": "30",
+    "place": "25245",
+    "population": "0"
+  },
+  "Fallon, Montana": {
+    "state": "30",
+    "place": "25375",
+    "population": "122"
+  },
+  "Finley Point, Montana": {
+    "state": "30",
+    "place": "26226",
+    "population": "532"
+  },
+  "Fishtail, Montana": {
+    "state": "30",
+    "place": "26575",
+    "population": "67"
+  },
+  "Flat Willow Colony, Montana": {
+    "state": "30",
+    "place": "26733",
+    "population": "15"
+  },
+  "Florence, Montana": {
+    "state": "30",
+    "place": "26950",
+    "population": "821"
+  },
+  "Floweree, Montana": {
+    "state": "30",
+    "place": "27025",
+    "population": "19"
+  },
+  "Fords Creek Colony, Montana": {
+    "state": "30",
+    "place": "27360",
+    "population": "5"
+  },
+  "Forest Hill Village, Montana": {
+    "state": "30",
+    "place": "27595",
+    "population": "241"
+  },
+  "Fort Belknap Agency, Montana": {
+    "state": "30",
+    "place": "27850",
+    "population": "1567"
+  },
+  "Fortine, Montana": {
+    "state": "30",
+    "place": "28150",
+    "population": "317"
+  },
+  "Fort Shaw, Montana": {
+    "state": "30",
+    "place": "28600",
+    "population": "256"
+  },
+  "Fort Smith, Montana": {
+    "state": "30",
+    "place": "28650",
+    "population": "170"
+  },
+  "Forty Mile Colony, Montana": {
+    "state": "30",
+    "place": "28725",
+    "population": "28"
+  },
+  "Four Corners, Montana": {
+    "state": "30",
+    "place": "28862",
+    "population": "5901"
+  },
+  "Fox, Montana": {
+    "state": "30",
+    "place": "29050",
+    "population": "100"
+  },
+  "Fox Lake, Montana": {
+    "state": "30",
+    "place": "29087",
+    "population": "231"
+  },
+  "Frazer, Montana": {
+    "state": "30",
+    "place": "29275",
+    "population": "354"
+  },
+  "Frenchtown, Montana": {
+    "state": "30",
+    "place": "29350",
+    "population": "1958"
+  },
+  "Gallatin Gateway, Montana": {
+    "state": "30",
+    "place": "29875",
+    "population": "967"
+  },
+  "Gallatin River Ranch, Montana": {
+    "state": "30",
+    "place": "29885",
+    "population": "117"
+  },
+  "Gardiner, Montana": {
+    "state": "30",
+    "place": "29950",
+    "population": "833"
+  },
+  "Garrison, Montana": {
+    "state": "30",
+    "place": "30175",
+    "population": "115"
+  },
+  "Geyser, Montana": {
+    "state": "30",
+    "place": "30550",
+    "population": "78"
+  },
+  "Gibson Flats, Montana": {
+    "state": "30",
+    "place": "30625",
+    "population": "203"
+  },
+  "Gildford, Montana": {
+    "state": "30",
+    "place": "30700",
+    "population": "141"
+  },
+  "Gildford Colony, Montana": {
+    "state": "30",
+    "place": "30704",
+    "population": "73"
+  },
+  "Gilman, Montana": {
+    "state": "30",
+    "place": "30750",
+    "population": "48"
+  },
+  "Glacier Colony, Montana": {
+    "state": "30",
+    "place": "30925",
+    "population": "102"
+  },
+  "Glen, Montana": {
+    "state": "30",
+    "place": "31375",
+    "population": "28"
+  },
+  "Glendale Colony, Montana": {
+    "state": "30",
+    "place": "31418",
+    "population": "97"
+  },
+  "Goldcreek, Montana": {
+    "state": "30",
+    "place": "31825",
+    "population": "9"
+  },
+  "Golden Valley Colony, Montana": {
+    "state": "30",
+    "place": "31991",
+    "population": "4"
+  },
+  "Grant, Montana": {
+    "state": "30",
+    "place": "32350",
+    "population": "19"
+  },
+  "Greycliff, Montana": {
+    "state": "30",
+    "place": "33250",
+    "population": "89"
+  },
+  "Hall, Montana": {
+    "state": "30",
+    "place": "33625",
+    "population": "51"
+  },
+  "Happys Inn, Montana": {
+    "state": "30",
+    "place": "34110",
+    "population": "179"
+  },
+  "Hardy, Montana": {
+    "state": "30",
+    "place": "34300",
+    "population": "88"
+  },
+  "Harrison, Montana": {
+    "state": "30",
+    "place": "34525",
+    "population": "105"
+  },
+  "Hartland Colony, Montana": {
+    "state": "30",
+    "place": "34584",
+    "population": "0"
+  },
+  "Haugan, Montana": {
+    "state": "30",
+    "place": "34825",
+    "population": "58"
+  },
+  "Havre North, Montana": {
+    "state": "30",
+    "place": "35125",
+    "population": "726"
+  },
+  "Hays, Montana": {
+    "state": "30",
+    "place": "35275",
+    "population": "996"
+  },
+  "Heart Butte, Montana": {
+    "state": "30",
+    "place": "35350",
+    "population": "621"
+  },
+  "Hebgen Lake Estates, Montana": {
+    "state": "30",
+    "place": "35435",
+    "population": "123"
+  },
+  "Helena Flats, Montana": {
+    "state": "30",
+    "place": "35622",
+    "population": "1206"
+  },
+  "Helena Valley Northeast, Montana": {
+    "state": "30",
+    "place": "35628",
+    "population": "3813"
+  },
+  "Helena Valley Northwest, Montana": {
+    "state": "30",
+    "place": "35631",
+    "population": "4705"
+  },
+  "Helena Valley Southeast, Montana": {
+    "state": "30",
+    "place": "35634",
+    "population": "9168"
+  },
+  "Helena Valley West Central, Montana": {
+    "state": "30",
+    "place": "35637",
+    "population": "8670"
+  },
+  "Helena West Side, Montana": {
+    "state": "30",
+    "place": "35640",
+    "population": "1331"
+  },
+  "Helmville, Montana": {
+    "state": "30",
+    "place": "35725",
+    "population": "38"
+  },
+  "Heron, Montana": {
+    "state": "30",
+    "place": "35875",
+    "population": "173"
+  },
+  "Herron, Montana": {
+    "state": "30",
+    "place": "35912",
+    "population": "88"
+  },
+  "Hidden Lake Colony, Montana": {
+    "state": "30",
+    "place": "36055",
+    "population": "99"
+  },
+  "Highwood, Montana": {
+    "state": "30",
+    "place": "36250",
+    "population": "165"
+  },
+  "Hilger, Montana": {
+    "state": "30",
+    "place": "36325",
+    "population": "24"
+  },
+  "Hilldale Colony, Montana": {
+    "state": "30",
+    "place": "36333",
+    "population": "130"
+  },
+  "Hillside Colony, Montana": {
+    "state": "30",
+    "place": "36385",
+    "population": "0"
+  },
+  "Hinsdale, Montana": {
+    "state": "30",
+    "place": "36475",
+    "population": "193"
+  },
+  "Hogeland, Montana": {
+    "state": "30",
+    "place": "36925",
+    "population": "14"
+  },
+  "Homestead, Montana": {
+    "state": "30",
+    "place": "37450",
+    "population": "35"
+  },
+  "Horizon Colony, Montana": {
+    "state": "30",
+    "place": "37710",
+    "population": "13"
+  },
+  "Hungry Horse, Montana": {
+    "state": "30",
+    "place": "38125",
+    "population": "828"
+  },
+  "Huntley, Montana": {
+    "state": "30",
+    "place": "38200",
+    "population": "442"
+  },
+  "Huson, Montana": {
+    "state": "30",
+    "place": "38275",
+    "population": "256"
+  },
+  "Indian Springs, Montana": {
+    "state": "30",
+    "place": "38480",
+    "population": "85"
+  },
+  "Inverness, Montana": {
+    "state": "30",
+    "place": "38725",
+    "population": "77"
+  },
+  "Jackson, Montana": {
+    "state": "30",
+    "place": "39025",
+    "population": "36"
+  },
+  "Jardine, Montana": {
+    "state": "30",
+    "place": "39175",
+    "population": "47"
+  },
+  "Jeffers, Montana": {
+    "state": "30",
+    "place": "39325",
+    "population": "25"
+  },
+  "Jefferson City, Montana": {
+    "state": "30",
+    "place": "39400",
+    "population": "597"
+  },
+  "Jette, Montana": {
+    "state": "30",
+    "place": "39627",
+    "population": "273"
+  },
+  "Joplin, Montana": {
+    "state": "30",
+    "place": "39775",
+    "population": "159"
+  },
+  "Kerr, Montana": {
+    "state": "30",
+    "place": "40355",
+    "population": "273"
+  },
+  "Kicking Horse, Montana": {
+    "state": "30",
+    "place": "40580",
+    "population": "76"
+  },
+  "Kila, Montana": {
+    "state": "30",
+    "place": "40675",
+    "population": "424"
+  },
+  "Kilby Butte Colony, Montana": {
+    "state": "30",
+    "place": "40680",
+    "population": "0"
+  },
+  "King Arthur Park, Montana": {
+    "state": "30",
+    "place": "40685",
+    "population": "1549"
+  },
+  "King Ranch Colony, Montana": {
+    "state": "30",
+    "place": "40718",
+    "population": "57"
+  },
+  "Kingsbury Colony, Montana": {
+    "state": "30",
+    "place": "40720",
+    "population": "96"
+  },
+  "Kings Point, Montana": {
+    "state": "30",
+    "place": "40725",
+    "population": "201"
+  },
+  "Klein, Montana": {
+    "state": "30",
+    "place": "41050",
+    "population": "163"
+  },
+  "Kremlin, Montana": {
+    "state": "30",
+    "place": "41725",
+    "population": "78"
+  },
+  "Lake Mary Ronan, Montana": {
+    "state": "30",
+    "place": "41910",
+    "population": "53"
+  },
+  "Lakeside, Montana": {
+    "state": "30",
+    "place": "41950",
+    "population": "2705"
+  },
+  "Lakeview, Montana": {
+    "state": "30",
+    "place": "42100",
+    "population": "15"
+  },
+  "Lame Deer, Montana": {
+    "state": "30",
+    "place": "42250",
+    "population": "1897"
+  },
+  "Landusky, Montana": {
+    "state": "30",
+    "place": "42325",
+    "population": "22"
+  },
+  "Laredo, Montana": {
+    "state": "30",
+    "place": "42475",
+    "population": "37"
+  },
+  "Lewistown Heights, Montana": {
+    "state": "30",
+    "place": "43400",
+    "population": "364"
+  },
+  "Lincoln, Montana": {
+    "state": "30",
+    "place": "43675",
+    "population": "998"
+  },
+  "Lindisfarne, Montana": {
+    "state": "30",
+    "place": "43710",
+    "population": "320"
+  },
+  "Lindsay, Montana": {
+    "state": "30",
+    "place": "43750",
+    "population": "12"
+  },
+  "Little Bitterroot Lake, Montana": {
+    "state": "30",
+    "place": "43830",
+    "population": "154"
+  },
+  "Little Browning, Montana": {
+    "state": "30",
+    "place": "43835",
+    "population": "218"
+  },
+  "Lockwood, Montana": {
+    "state": "30",
+    "place": "44200",
+    "population": "7195"
+  },
+  "Lodge Pole, Montana": {
+    "state": "30",
+    "place": "44350",
+    "population": "294"
+  },
+  "Logan, Montana": {
+    "state": "30",
+    "place": "44500",
+    "population": "72"
+  },
+  "Lolo, Montana": {
+    "state": "30",
+    "place": "44650",
+    "population": "4399"
+  },
+  "Loma, Montana": {
+    "state": "30",
+    "place": "44800",
+    "population": "65"
+  },
+  "Lonepine, Montana": {
+    "state": "30",
+    "place": "44950",
+    "population": "177"
+  },
+  "Loring Colony, Montana": {
+    "state": "30",
+    "place": "45179",
+    "population": "48"
+  },
+  "Luther, Montana": {
+    "state": "30",
+    "place": "46150",
+    "population": "30"
+  },
+  "McAllister, Montana": {
+    "state": "30",
+    "place": "46225",
+    "population": "278"
+  },
+  "Malmstrom AFB, Montana": {
+    "state": "30",
+    "place": "47275",
+    "population": "4131"
+  },
+  "Mammoth, Montana": {
+    "state": "30",
+    "place": "47460",
+    "population": "4"
+  },
+  "Marion, Montana": {
+    "state": "30",
+    "place": "47875",
+    "population": "1119"
+  },
+  "Martin City, Montana": {
+    "state": "30",
+    "place": "48100",
+    "population": "461"
+  },
+  "Martinsdale, Montana": {
+    "state": "30",
+    "place": "48175",
+    "population": "43"
+  },
+  "Martinsdale Colony, Montana": {
+    "state": "30",
+    "place": "48190",
+    "population": "97"
+  },
+  "Marysville, Montana": {
+    "state": "30",
+    "place": "48250",
+    "population": "82"
+  },
+  "Maverick Mountain, Montana": {
+    "state": "30",
+    "place": "48585",
+    "population": "67"
+  },
+  "Maxville, Montana": {
+    "state": "30",
+    "place": "48625",
+    "population": "138"
+  },
+  "Midway Colony, Montana": {
+    "state": "30",
+    "place": "49418",
+    "population": "100"
+  },
+  "Milford Colony, Montana": {
+    "state": "30",
+    "place": "49600",
+    "population": "2"
+  },
+  "Miller Colony, Montana": {
+    "state": "30",
+    "place": "49750",
+    "population": "9"
+  },
+  "Moccasin, Montana": {
+    "state": "30",
+    "place": "50575",
+    "population": "23"
+  },
+  "Monarch, Montana": {
+    "state": "30",
+    "place": "50950",
+    "population": "26"
+  },
+  "Montana City, Montana": {
+    "state": "30",
+    "place": "51175",
+    "population": "2918"
+  },
+  "Montaqua, Montana": {
+    "state": "30",
+    "place": "51475",
+    "population": "120"
+  },
+  "Mountain View Colony, Montana": {
+    "state": "30",
+    "place": "52185",
+    "population": "125"
+  },
+  "Muddy, Montana": {
+    "state": "30",
+    "place": "52315",
+    "population": "646"
+  },
+  "Musselshell, Montana": {
+    "state": "30",
+    "place": "52600",
+    "population": "59"
+  },
+  "New Miami Colony, Montana": {
+    "state": "30",
+    "place": "53476",
+    "population": "297"
+  },
+  "New Rockport Colony, Montana": {
+    "state": "30",
+    "place": "53500",
+    "population": "194"
+  },
+  "Niarada, Montana": {
+    "state": "30",
+    "place": "53725",
+    "population": "28"
+  },
+  "Nibbe, Montana": {
+    "state": "30",
+    "place": "53800",
+    "population": "71"
+  },
+  "Norris, Montana": {
+    "state": "30",
+    "place": "54475",
+    "population": "46"
+  },
+  "North Browning, Montana": {
+    "state": "30",
+    "place": "54510",
+    "population": "2653"
+  },
+  "North Harlem Colony, Montana": {
+    "state": "30",
+    "place": "54684",
+    "population": "26"
+  },
+  "Noxon, Montana": {
+    "state": "30",
+    "place": "54925",
+    "population": "255"
+  },
+  "Nye, Montana": {
+    "state": "30",
+    "place": "55075",
+    "population": "38"
+  },
+  "Old Agency, Montana": {
+    "state": "30",
+    "place": "55260",
+    "population": "81"
+  },
+  "Olney, Montana": {
+    "state": "30",
+    "place": "55450",
+    "population": "186"
+  },
+  "Orchard Homes, Montana": {
+    "state": "30",
+    "place": "55675",
+    "population": "5377"
+  },
+  "Ovando, Montana": {
+    "state": "30",
+    "place": "56125",
+    "population": "83"
+  },
+  "Pablo, Montana": {
+    "state": "30",
+    "place": "56350",
+    "population": "2138"
+  },
+  "Paradise, Montana": {
+    "state": "30",
+    "place": "56425",
+    "population": "166"
+  },
+  "Park City, Montana": {
+    "state": "30",
+    "place": "56575",
+    "population": "1023"
+  },
+  "Parker School, Montana": {
+    "state": "30",
+    "place": "56650",
+    "population": "388"
+  },
+  "Peerless, Montana": {
+    "state": "30",
+    "place": "56800",
+    "population": "23"
+  },
+  "Pendroy, Montana": {
+    "state": "30",
+    "place": "56875",
+    "population": "25"
+  },
+  "Piltzville, Montana": {
+    "state": "30",
+    "place": "57475",
+    "population": "372"
+  },
+  "Pine Creek, Montana": {
+    "state": "30",
+    "place": "57550",
+    "population": "80"
+  },
+  "Pinnacle, Montana": {
+    "state": "30",
+    "place": "57775",
+    "population": "45"
+  },
+  "Pioneer Junction, Montana": {
+    "state": "30",
+    "place": "57950",
+    "population": "902"
+  },
+  "Pleasant Valley Colony, Montana": {
+    "state": "30",
+    "place": "58310",
+    "population": "130"
+  },
+  "Polebridge, Montana": {
+    "state": "30",
+    "place": "58675",
+    "population": "14"
+  },
+  "Pompeys Pillar, Montana": {
+    "state": "30",
+    "place": "58825",
+    "population": "51"
+  },
+  "Pondera Colony, Montana": {
+    "state": "30",
+    "place": "58834",
+    "population": "113"
+  },
+  "Pony, Montana": {
+    "state": "30",
+    "place": "58900",
+    "population": "127"
+  },
+  "Potomac, Montana": {
+    "state": "30",
+    "place": "59350",
+    "population": "26"
+  },
+  "Power, Montana": {
+    "state": "30",
+    "place": "59500",
+    "population": "177"
+  },
+  "Prairie Elk Colony, Montana": {
+    "state": "30",
+    "place": "59650",
+    "population": "0"
+  },
+  "Pray, Montana": {
+    "state": "30",
+    "place": "59725",
+    "population": "790"
+  },
+  "Pryor, Montana": {
+    "state": "30",
+    "place": "59950",
+    "population": "637"
+  },
+  "Racetrack, Montana": {
+    "state": "30",
+    "place": "60400",
+    "population": "42"
+  },
+  "Rader Creek, Montana": {
+    "state": "30",
+    "place": "60450",
+    "population": "341"
+  },
+  "Radersburg, Montana": {
+    "state": "30",
+    "place": "60475",
+    "population": "61"
+  },
+  "Rapelje, Montana": {
+    "state": "30",
+    "place": "60850",
+    "population": "88"
+  },
+  "Ravalli, Montana": {
+    "state": "30",
+    "place": "61075",
+    "population": "85"
+  },
+  "Raynesford, Montana": {
+    "state": "30",
+    "place": "61300",
+    "population": "31"
+  },
+  "Redstone, Montana": {
+    "state": "30",
+    "place": "61675",
+    "population": "13"
+  },
+  "Reed Point, Montana": {
+    "state": "30",
+    "place": "61900",
+    "population": "177"
+  },
+  "Reserve, Montana": {
+    "state": "30",
+    "place": "62125",
+    "population": "33"
+  },
+  "Rhodes, Montana": {
+    "state": "30",
+    "place": "62230",
+    "population": "146"
+  },
+  "Riceville, Montana": {
+    "state": "30",
+    "place": "62245",
+    "population": "36"
+  },
+  "Rimini, Montana": {
+    "state": "30",
+    "place": "62650",
+    "population": "51"
+  },
+  "Rimrock Colony, Montana": {
+    "state": "30",
+    "place": "62825",
+    "population": "105"
+  },
+  "Riverbend, Montana": {
+    "state": "30",
+    "place": "63042",
+    "population": "455"
+  },
+  "Riverview Colony, Montana": {
+    "state": "30",
+    "place": "63266",
+    "population": "100"
+  },
+  "Roberts, Montana": {
+    "state": "30",
+    "place": "63400",
+    "population": "304"
+  },
+  "Rockport Colony, Montana": {
+    "state": "30",
+    "place": "63590",
+    "population": "0"
+  },
+  "Rockvale, Montana": {
+    "state": "30",
+    "place": "63700",
+    "population": "193"
+  },
+  "Rocky Boy's Agency, Montana": {
+    "state": "30",
+    "place": "63900",
+    "population": "404"
+  },
+  "Rocky Boy West, Montana": {
+    "state": "30",
+    "place": "63928",
+    "population": "1042"
+  },
+  "Rocky Point, Montana": {
+    "state": "30",
+    "place": "63940",
+    "population": "111"
+  },
+  "Rollins, Montana": {
+    "state": "30",
+    "place": "64075",
+    "population": "192"
+  },
+  "Roscoe, Montana": {
+    "state": "30",
+    "place": "64300",
+    "population": "16"
+  },
+  "Rosebud, Montana": {
+    "state": "30",
+    "place": "64375",
+    "population": "67"
+  },
+  "Roy, Montana": {
+    "state": "30",
+    "place": "64675",
+    "population": "96"
+  },
+  "Rudyard, Montana": {
+    "state": "30",
+    "place": "64900",
+    "population": "270"
+  },
+  "Ponderosa Pines, Montana": {
+    "state": "30",
+    "place": "58840",
+    "population": "665"
+  },
+  "Saddle Butte, Montana": {
+    "state": "30",
+    "place": "65065",
+    "population": "151"
+  },
+  "Sage Creek Colony, Montana": {
+    "state": "30",
+    "place": "65160",
+    "population": "81"
+  },
+  "St. Marie, Montana": {
+    "state": "30",
+    "place": "65400",
+    "population": "489"
+  },
+  "St. Mary, Montana": {
+    "state": "30",
+    "place": "65425",
+    "population": "54"
+  },
+  "St. Pierre, Montana": {
+    "state": "30",
+    "place": "65537",
+    "population": "364"
+  },
+  "St. Regis, Montana": {
+    "state": "30",
+    "place": "65575",
+    "population": "313"
+  },
+  "St. Xavier, Montana": {
+    "state": "30",
+    "place": "65650",
+    "population": "78"
+  },
+  "Saltese, Montana": {
+    "state": "30",
+    "place": "65875",
+    "population": "10"
+  },
+  "Sand Coulee, Montana": {
+    "state": "30",
+    "place": "65950",
+    "population": "179"
+  },
+  "Sangrey, Montana": {
+    "state": "30",
+    "place": "66212",
+    "population": "316"
+  },
+  "Santa Rita, Montana": {
+    "state": "30",
+    "place": "66250",
+    "population": "107"
+  },
+  "Sapphire Ridge, Montana": {
+    "state": "30",
+    "place": "66317",
+    "population": "26"
+  },
+  "Savage, Montana": {
+    "state": "30",
+    "place": "66550",
+    "population": "303"
+  },
+  "Sedan, Montana": {
+    "state": "30",
+    "place": "67075",
+    "population": "101"
+  },
+  "Seeley Lake, Montana": {
+    "state": "30",
+    "place": "67150",
+    "population": "1682"
+  },
+  "Seville Colony, Montana": {
+    "state": "30",
+    "place": "67192",
+    "population": "0"
+  },
+  "Shawmut, Montana": {
+    "state": "30",
+    "place": "67225",
+    "population": "42"
+  },
+  "Shepherd, Montana": {
+    "state": "30",
+    "place": "67525",
+    "population": "507"
+  },
+  "Silesia, Montana": {
+    "state": "30",
+    "place": "68050",
+    "population": "103"
+  },
+  "Silver Gate, Montana": {
+    "state": "30",
+    "place": "68425",
+    "population": "19"
+  },
+  "Silver Star, Montana": {
+    "state": "30",
+    "place": "68500",
+    "population": "46"
+  },
+  "Simms, Montana": {
+    "state": "30",
+    "place": "68575",
+    "population": "361"
+  },
+  "Sleeping Buffalo, Montana": {
+    "state": "30",
+    "place": "68985",
+    "population": "12"
+  },
+  "Snowslip, Montana": {
+    "state": "30",
+    "place": "69345",
+    "population": "39"
+  },
+  "Somers, Montana": {
+    "state": "30",
+    "place": "69475",
+    "population": "1049"
+  },
+  "South Browning, Montana": {
+    "state": "30",
+    "place": "69680",
+    "population": "1970"
+  },
+  "South Glastonbury, Montana": {
+    "state": "30",
+    "place": "69713",
+    "population": "277"
+  },
+  "South Hills, Montana": {
+    "state": "30",
+    "place": "69725",
+    "population": "644"
+  },
+  "Spokane Creek, Montana": {
+    "state": "30",
+    "place": "69900",
+    "population": "430"
+  },
+  "Spring Creek Colony, Montana": {
+    "state": "30",
+    "place": "70000",
+    "population": "33"
+  },
+  "Springdale, Montana": {
+    "state": "30",
+    "place": "70150",
+    "population": "40"
+  },
+  "Springdale Colony, Montana": {
+    "state": "30",
+    "place": "70225",
+    "population": "0"
+  },
+  "Springhill, Montana": {
+    "state": "30",
+    "place": "70375",
+    "population": "120"
+  },
+  "Springwater Colony, Montana": {
+    "state": "30",
+    "place": "70434",
+    "population": "119"
+  },
+  "Square Butte, Montana": {
+    "state": "30",
+    "place": "70600",
+    "population": "27"
+  },
+  "Starr School, Montana": {
+    "state": "30",
+    "place": "70825",
+    "population": "267"
+  },
+  "Stockett, Montana": {
+    "state": "30",
+    "place": "71350",
+    "population": "157"
+  },
+  "Stryker, Montana": {
+    "state": "30",
+    "place": "71575",
+    "population": "25"
+  },
+  "Sula, Montana": {
+    "state": "30",
+    "place": "71800",
+    "population": "41"
+  },
+  "Sunnybrook Colony, Montana": {
+    "state": "30",
+    "place": "72305",
+    "population": "0"
+  },
+  "Sun Prairie, Montana": {
+    "state": "30",
+    "place": "72380",
+    "population": "1615"
+  },
+  "Sun River, Montana": {
+    "state": "30",
+    "place": "72475",
+    "population": "95"
+  },
+  "Surprise Creek Colony, Montana": {
+    "state": "30",
+    "place": "72660",
+    "population": "8"
+  },
+  "Swan Lake, Montana": {
+    "state": "30",
+    "place": "72850",
+    "population": "102"
+  },
+  "Sweet Grass, Montana": {
+    "state": "30",
+    "place": "73075",
+    "population": "65"
+  },
+  "Sylvanite, Montana": {
+    "state": "30",
+    "place": "73165",
+    "population": "98"
+  },
+  "The Silos, Montana": {
+    "state": "30",
+    "place": "73760",
+    "population": "691"
+  },
+  "Toston, Montana": {
+    "state": "30",
+    "place": "74500",
+    "population": "100"
+  },
+  "Tracy, Montana": {
+    "state": "30",
+    "place": "74650",
+    "population": "196"
+  },
+  "Trego, Montana": {
+    "state": "30",
+    "place": "74725",
+    "population": "515"
+  },
+  "Trout Creek, Montana": {
+    "state": "30",
+    "place": "74950",
+    "population": "277"
+  },
+  "Turah, Montana": {
+    "state": "30",
+    "place": "75175",
+    "population": "364"
+  },
+  "Turner, Montana": {
+    "state": "30",
+    "place": "75250",
+    "population": "90"
+  },
+  "Turner Colony, Montana": {
+    "state": "30",
+    "place": "75258",
+    "population": "135"
+  },
+  "Turtle Lake, Montana": {
+    "state": "30",
+    "place": "75287",
+    "population": "251"
+  },
+  "Twin Creeks, Montana": {
+    "state": "30",
+    "place": "75550",
+    "population": "164"
+  },
+  "Twin Hills Colony, Montana": {
+    "state": "30",
+    "place": "75590",
+    "population": "39"
+  },
+  "Twodot, Montana": {
+    "state": "30",
+    "place": "75700",
+    "population": "26"
+  },
+  "Ulm, Montana": {
+    "state": "30",
+    "place": "75775",
+    "population": "723"
+  },
+  "Unionville, Montana": {
+    "state": "30",
+    "place": "75905",
+    "population": "206"
+  },
+  "Utica, Montana": {
+    "state": "30",
+    "place": "76075",
+    "population": "23"
+  },
+  "Vaughn, Montana": {
+    "state": "30",
+    "place": "76675",
+    "population": "737"
+  },
+  "Victor, Montana": {
+    "state": "30",
+    "place": "76900",
+    "population": "789"
+  },
+  "Vida, Montana": {
+    "state": "30",
+    "place": "76975",
+    "population": "24"
+  },
+  "Warm Spring Creek, Montana": {
+    "state": "30",
+    "place": "78143",
+    "population": "18"
+  },
+  "Weeksville, Montana": {
+    "state": "30",
+    "place": "78775",
+    "population": "81"
+  },
+  "West Glacier, Montana": {
+    "state": "30",
+    "place": "79075",
+    "population": "221"
+  },
+  "West Glendive, Montana": {
+    "state": "30",
+    "place": "79086",
+    "population": "1998"
+  },
+  "West Havre, Montana": {
+    "state": "30",
+    "place": "79098",
+    "population": "290"
+  },
+  "West Kootenai, Montana": {
+    "state": "30",
+    "place": "79105",
+    "population": "422"
+  },
+  "Wheatland, Montana": {
+    "state": "30",
+    "place": "79695",
+    "population": "1103"
+  },
+  "White Haven, Montana": {
+    "state": "30",
+    "place": "79935",
+    "population": "499"
+  },
+  "Whitetail, Montana": {
+    "state": "30",
+    "place": "80125",
+    "population": "9"
+  },
+  "Whitewater, Montana": {
+    "state": "30",
+    "place": "80200",
+    "population": "75"
+  },
+  "Whitlash, Montana": {
+    "state": "30",
+    "place": "80275",
+    "population": "4"
+  },
+  "Willow Creek, Montana": {
+    "state": "30",
+    "place": "80800",
+    "population": "230"
+  },
+  "Wilsall, Montana": {
+    "state": "30",
+    "place": "80875",
+    "population": "197"
+  },
+  "Windham, Montana": {
+    "state": "30",
+    "place": "80950",
+    "population": "43"
+  },
+  "Wineglass, Montana": {
+    "state": "30",
+    "place": "80975",
+    "population": "280"
+  },
+  "Winston, Montana": {
+    "state": "30",
+    "place": "81175",
+    "population": "169"
+  },
+  "Wisdom, Montana": {
+    "state": "30",
+    "place": "81250",
+    "population": "104"
+  },
+  "Wise River, Montana": {
+    "state": "30",
+    "place": "81325",
+    "population": "42"
+  },
+  "Wolf Creek, Montana": {
+    "state": "30",
+    "place": "81400",
+    "population": "25"
+  },
+  "Woods Bay, Montana": {
+    "state": "30",
+    "place": "81700",
+    "population": "676"
+  },
+  "Worden, Montana": {
+    "state": "30",
+    "place": "81925",
+    "population": "582"
+  },
+  "Wye, Montana": {
+    "state": "30",
+    "place": "81980",
+    "population": "714"
+  },
+  "Wyola, Montana": {
+    "state": "30",
+    "place": "82075",
+    "population": "190"
+  },
+  "Yaak, Montana": {
+    "state": "30",
+    "place": "82130",
+    "population": "338"
+  },
+  "York, Montana": {
+    "state": "30",
+    "place": "82525",
+    "population": "94"
+  },
+  "Zenith Colony, Montana": {
+    "state": "30",
+    "place": "82635",
+    "population": "0"
+  },
+  "Zortman, Montana": {
+    "state": "30",
+    "place": "82675",
+    "population": "82"
+  },
+  "Zurich, Montana": {
+    "state": "30",
+    "place": "82750",
+    "population": "29"
+  }
+}

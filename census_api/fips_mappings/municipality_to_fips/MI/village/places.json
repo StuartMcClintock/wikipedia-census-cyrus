@@ -1,0 +1,1267 @@
+{
+  "Addison, Michigan": {
+    "state": "26",
+    "place": "00380",
+    "population": "573"
+  },
+  "Ahmeek, Michigan": {
+    "state": "26",
+    "place": "00620",
+    "population": "127"
+  },
+  "Akron, Michigan": {
+    "state": "26",
+    "place": "00700",
+    "population": "349"
+  },
+  "Alanson, Michigan": {
+    "state": "26",
+    "place": "00860",
+    "population": "778"
+  },
+  "Allen, Michigan": {
+    "state": "26",
+    "place": "01300",
+    "population": "201"
+  },
+  "Almont, Michigan": {
+    "state": "26",
+    "place": "01660",
+    "population": "2846"
+  },
+  "Alpha, Michigan": {
+    "state": "26",
+    "place": "01800",
+    "population": "126"
+  },
+  "Applegate, Michigan": {
+    "state": "26",
+    "place": "03200",
+    "population": "241"
+  },
+  "Armada, Michigan": {
+    "state": "26",
+    "place": "03520",
+    "population": "1684"
+  },
+  "Ashley, Michigan": {
+    "state": "26",
+    "place": "03740",
+    "population": "508"
+  },
+  "Athens, Michigan": {
+    "state": "26",
+    "place": "03880",
+    "population": "936"
+  },
+  "Augusta, Michigan": {
+    "state": "26",
+    "place": "04160",
+    "population": "864"
+  },
+  "Baldwin, Michigan": {
+    "state": "26",
+    "place": "04940",
+    "population": "902"
+  },
+  "Bancroft, Michigan": {
+    "state": "26",
+    "place": "05080",
+    "population": "484"
+  },
+  "Baraga, Michigan": {
+    "state": "26",
+    "place": "05320",
+    "population": "1883"
+  },
+  "Baroda, Michigan": {
+    "state": "26",
+    "place": "05500",
+    "population": "875"
+  },
+  "Barryton, Michigan": {
+    "state": "26",
+    "place": "05580",
+    "population": "405"
+  },
+  "Barton Hills, Michigan": {
+    "state": "26",
+    "place": "05660",
+    "population": "316"
+  },
+  "Bear Lake, Michigan": {
+    "state": "26",
+    "place": "06460",
+    "population": "342"
+  },
+  "Bellaire, Michigan": {
+    "state": "26",
+    "place": "06980",
+    "population": "1053"
+  },
+  "Bellevue, Michigan": {
+    "state": "26",
+    "place": "07060",
+    "population": "1308"
+  },
+  "Benzonia, Michigan": {
+    "state": "26",
+    "place": "07580",
+    "population": "551"
+  },
+  "Berrien Springs, Michigan": {
+    "state": "26",
+    "place": "07860",
+    "population": "1910"
+  },
+  "Beulah, Michigan": {
+    "state": "26",
+    "place": "08100",
+    "population": "313"
+  },
+  "Beverly Hills, Michigan": {
+    "state": "26",
+    "place": "08160",
+    "population": "10584"
+  },
+  "Bingham Farms, Michigan": {
+    "state": "26",
+    "place": "08460",
+    "population": "1124"
+  },
+  "Birch Run, Michigan": {
+    "state": "26",
+    "place": "08540",
+    "population": "1525"
+  },
+  "Blissfield, Michigan": {
+    "state": "26",
+    "place": "09000",
+    "population": "3277"
+  },
+  "Bloomingdale, Michigan": {
+    "state": "26",
+    "place": "09220",
+    "population": "513"
+  },
+  "Boyne Falls, Michigan": {
+    "state": "26",
+    "place": "09840",
+    "population": "358"
+  },
+  "Breckenridge, Michigan": {
+    "state": "26",
+    "place": "10160",
+    "population": "1238"
+  },
+  "Breedsville, Michigan": {
+    "state": "26",
+    "place": "10180",
+    "population": "202"
+  },
+  "Britton, Michigan": {
+    "state": "26",
+    "place": "10760",
+    "population": "537"
+  },
+  "Brooklyn, Michigan": {
+    "state": "26",
+    "place": "11000",
+    "population": "1313"
+  },
+  "Buckley, Michigan": {
+    "state": "26",
+    "place": "11480",
+    "population": "775"
+  },
+  "Burlington, Michigan": {
+    "state": "26",
+    "place": "11800",
+    "population": "281"
+  },
+  "Burr Oak, Michigan": {
+    "state": "26",
+    "place": "11920",
+    "population": "753"
+  },
+  "Byron, Michigan": {
+    "state": "26",
+    "place": "12260",
+    "population": "545"
+  },
+  "Caledonia, Michigan": {
+    "state": "26",
+    "place": "12480",
+    "population": "1622"
+  },
+  "Calumet, Michigan": {
+    "state": "26",
+    "place": "12580",
+    "population": "621"
+  },
+  "Camden, Michigan": {
+    "state": "26",
+    "place": "12760",
+    "population": "496"
+  },
+  "Capac, Michigan": {
+    "state": "26",
+    "place": "13140",
+    "population": "1983"
+  },
+  "Carleton, Michigan": {
+    "state": "26",
+    "place": "13220",
+    "population": "2326"
+  },
+  "Carney, Michigan": {
+    "state": "26",
+    "place": "13400",
+    "population": "179"
+  },
+  "Casnovia, Michigan": {
+    "state": "26",
+    "place": "13820",
+    "population": "316"
+  },
+  "Cass City, Michigan": {
+    "state": "26",
+    "place": "13880",
+    "population": "2494"
+  },
+  "Cassopolis, Michigan": {
+    "state": "26",
+    "place": "13900",
+    "population": "1712"
+  },
+  "Cement City, Michigan": {
+    "state": "26",
+    "place": "14260",
+    "population": "424"
+  },
+  "Central Lake, Michigan": {
+    "state": "26",
+    "place": "14400",
+    "population": "960"
+  },
+  "Centreville, Michigan": {
+    "state": "26",
+    "place": "14460",
+    "population": "1319"
+  },
+  "Chatham, Michigan": {
+    "state": "26",
+    "place": "14940",
+    "population": "193"
+  },
+  "Chesaning, Michigan": {
+    "state": "26",
+    "place": "15140",
+    "population": "2430"
+  },
+  "Clarksville, Michigan": {
+    "state": "26",
+    "place": "16140",
+    "population": "411"
+  },
+  "Clayton, Michigan": {
+    "state": "26",
+    "place": "16280",
+    "population": "311"
+  },
+  "Clifford, Michigan": {
+    "state": "26",
+    "place": "16420",
+    "population": "300"
+  },
+  "Climax, Michigan": {
+    "state": "26",
+    "place": "16440",
+    "population": "712"
+  },
+  "Clinton, Michigan": {
+    "state": "26",
+    "place": "16480",
+    "population": "2517"
+  },
+  "Colon, Michigan": {
+    "state": "26",
+    "place": "17360",
+    "population": "1199"
+  },
+  "Columbiaville, Michigan": {
+    "state": "26",
+    "place": "17460",
+    "population": "702"
+  },
+  "Concord, Michigan": {
+    "state": "26",
+    "place": "17740",
+    "population": "1085"
+  },
+  "Constantine, Michigan": {
+    "state": "26",
+    "place": "17840",
+    "population": "1947"
+  },
+  "Copemish, Michigan": {
+    "state": "26",
+    "place": "18040",
+    "population": "195"
+  },
+  "Copper City, Michigan": {
+    "state": "26",
+    "place": "18080",
+    "population": "187"
+  },
+  "Carsonville, Michigan": {
+    "state": "26",
+    "place": "13620",
+    "population": "465"
+  },
+  "Custer, Michigan": {
+    "state": "26",
+    "place": "19420",
+    "population": "272"
+  },
+  "Daggett, Michigan": {
+    "state": "26",
+    "place": "19560",
+    "population": "201"
+  },
+  "Dansville, Michigan": {
+    "state": "26",
+    "place": "19780",
+    "population": "529"
+  },
+  "Decatur, Michigan": {
+    "state": "26",
+    "place": "21040",
+    "population": "1651"
+  },
+  "Deckerville, Michigan": {
+    "state": "26",
+    "place": "21100",
+    "population": "877"
+  },
+  "Deerfield, Michigan": {
+    "state": "26",
+    "place": "21180",
+    "population": "901"
+  },
+  "De Tour Village, Michigan": {
+    "state": "26",
+    "place": "21780",
+    "population": "263"
+  },
+  "Dimondale, Michigan": {
+    "state": "26",
+    "place": "22380",
+    "population": "1134"
+  },
+  "Dryden, Michigan": {
+    "state": "26",
+    "place": "23140",
+    "population": "1023"
+  },
+  "Dundee, Michigan": {
+    "state": "26",
+    "place": "23380",
+    "population": "5323"
+  },
+  "Eagle, Michigan": {
+    "state": "26",
+    "place": "23560",
+    "population": "122"
+  },
+  "Eastlake, Michigan": {
+    "state": "26",
+    "place": "24060",
+    "population": "415"
+  },
+  "Eau Claire, Michigan": {
+    "state": "26",
+    "place": "24580",
+    "population": "552"
+  },
+  "Edmore, Michigan": {
+    "state": "26",
+    "place": "25000",
+    "population": "1210"
+  },
+  "Edwardsburg, Michigan": {
+    "state": "26",
+    "place": "25040",
+    "population": "1304"
+  },
+  "Elberta, Michigan": {
+    "state": "26",
+    "place": "25180",
+    "population": "329"
+  },
+  "Elk Rapids, Michigan": {
+    "state": "26",
+    "place": "25320",
+    "population": "1529"
+  },
+  "Elkton, Michigan": {
+    "state": "26",
+    "place": "25360",
+    "population": "796"
+  },
+  "Ellsworth, Michigan": {
+    "state": "26",
+    "place": "25420",
+    "population": "367"
+  },
+  "Elsie, Michigan": {
+    "state": "26",
+    "place": "25780",
+    "population": "930"
+  },
+  "Emmett, Michigan": {
+    "state": "26",
+    "place": "25940",
+    "population": "258"
+  },
+  "Empire, Michigan": {
+    "state": "26",
+    "place": "25980",
+    "population": "362"
+  },
+  "Estral Beach, Michigan": {
+    "state": "26",
+    "place": "26460",
+    "population": "403"
+  },
+  "Fairgrove, Michigan": {
+    "state": "26",
+    "place": "27080",
+    "population": "514"
+  },
+  "Farwell, Michigan": {
+    "state": "26",
+    "place": "27500",
+    "population": "880"
+  },
+  "Fife Lake, Michigan": {
+    "state": "26",
+    "place": "28000",
+    "population": "456"
+  },
+  "Forestville, Michigan": {
+    "state": "26",
+    "place": "29660",
+    "population": "104"
+  },
+  "Fountain, Michigan": {
+    "state": "26",
+    "place": "29940",
+    "population": "170"
+  },
+  "Fowler, Michigan": {
+    "state": "26",
+    "place": "30040",
+    "population": "1226"
+  },
+  "Fowlerville, Michigan": {
+    "state": "26",
+    "place": "30060",
+    "population": "2951"
+  },
+  "Franklin, Michigan": {
+    "state": "26",
+    "place": "30340",
+    "population": "3139"
+  },
+  "Freeport, Michigan": {
+    "state": "26",
+    "place": "30580",
+    "population": "542"
+  },
+  "Free Soil, Michigan": {
+    "state": "26",
+    "place": "30600",
+    "population": "158"
+  },
+  "Fruitport, Michigan": {
+    "state": "26",
+    "place": "31000",
+    "population": "1103"
+  },
+  "Gagetown, Michigan": {
+    "state": "26",
+    "place": "31180",
+    "population": "321"
+  },
+  "Gaines, Michigan": {
+    "state": "26",
+    "place": "31200",
+    "population": "377"
+  },
+  "Galien, Michigan": {
+    "state": "26",
+    "place": "31300",
+    "population": "513"
+  },
+  "Garden, Michigan": {
+    "state": "26",
+    "place": "31380",
+    "population": "174"
+  },
+  "Goodrich, Michigan": {
+    "state": "26",
+    "place": "32980",
+    "population": "2022"
+  },
+  "Grand Beach, Michigan": {
+    "state": "26",
+    "place": "33260",
+    "population": "310"
+  },
+  "Grass Lake, Michigan": {
+    "state": "26",
+    "place": "34480",
+    "population": "1105"
+  },
+  "Hanover, Michigan": {
+    "state": "26",
+    "place": "36380",
+    "population": "472"
+  },
+  "Harrietta, Michigan": {
+    "state": "26",
+    "place": "36720",
+    "population": "151"
+  },
+  "Hersey, Michigan": {
+    "state": "26",
+    "place": "37820",
+    "population": "347"
+  },
+  "Hesperia, Michigan": {
+    "state": "26",
+    "place": "37860",
+    "population": "1034"
+  },
+  "Hillman, Michigan": {
+    "state": "26",
+    "place": "38380",
+    "population": "605"
+  },
+  "Holly, Michigan": {
+    "state": "26",
+    "place": "38700",
+    "population": "5997"
+  },
+  "Homer, Michigan": {
+    "state": "26",
+    "place": "38920",
+    "population": "1575"
+  },
+  "Honor, Michigan": {
+    "state": "26",
+    "place": "39080",
+    "population": "337"
+  },
+  "Hopkins, Michigan": {
+    "state": "26",
+    "place": "39180",
+    "population": "615"
+  },
+  "Howard City, Michigan": {
+    "state": "26",
+    "place": "39500",
+    "population": "1835"
+  },
+  "Hubbardston, Michigan": {
+    "state": "26",
+    "place": "39660",
+    "population": "369"
+  },
+  "Kaleva, Michigan": {
+    "state": "26",
+    "place": "42240",
+    "population": "507"
+  },
+  "Kalkaska, Michigan": {
+    "state": "26",
+    "place": "42260",
+    "population": "2132"
+  },
+  "Kent City, Michigan": {
+    "state": "26",
+    "place": "42780",
+    "population": "1262"
+  },
+  "Kinde, Michigan": {
+    "state": "26",
+    "place": "43220",
+    "population": "421"
+  },
+  "Kingsley, Michigan": {
+    "state": "26",
+    "place": "43340",
+    "population": "1431"
+  },
+  "Kingston, Michigan": {
+    "state": "26",
+    "place": "43380",
+    "population": "399"
+  },
+  "Lake Ann, Michigan": {
+    "state": "26",
+    "place": "44460",
+    "population": "273"
+  },
+  "Lake Isabella, Michigan": {
+    "state": "26",
+    "place": "44715",
+    "population": "1829"
+  },
+  "Lake Linden, Michigan": {
+    "state": "26",
+    "place": "44780",
+    "population": "1014"
+  },
+  "Lake Odessa, Michigan": {
+    "state": "26",
+    "place": "44880",
+    "population": "1994"
+  },
+  "Lake Orion, Michigan": {
+    "state": "26",
+    "place": "44940",
+    "population": "2876"
+  },
+  "Lakeview, Michigan": {
+    "state": "26",
+    "place": "45240",
+    "population": "1024"
+  },
+  "Lakewood Club, Michigan": {
+    "state": "26",
+    "place": "45340",
+    "population": "1340"
+  },
+  "L'Anse, Michigan": {
+    "state": "26",
+    "place": "45540",
+    "population": "1874"
+  },
+  "Laurium, Michigan": {
+    "state": "26",
+    "place": "46360",
+    "population": "1864"
+  },
+  "Lawrence, Michigan": {
+    "state": "26",
+    "place": "46440",
+    "population": "964"
+  },
+  "Lawton, Michigan": {
+    "state": "26",
+    "place": "46500",
+    "population": "1850"
+  },
+  "Lennon, Michigan": {
+    "state": "26",
+    "place": "46880",
+    "population": "509"
+  },
+  "Leonard, Michigan": {
+    "state": "26",
+    "place": "46940",
+    "population": "377"
+  },
+  "Le Roy, Michigan": {
+    "state": "26",
+    "place": "47100",
+    "population": "260"
+  },
+  "Lexington, Michigan": {
+    "state": "26",
+    "place": "47280",
+    "population": "943"
+  },
+  "Lincoln, Michigan": {
+    "state": "26",
+    "place": "47560",
+    "population": "305"
+  },
+  "Luther, Michigan": {
+    "state": "26",
+    "place": "49740",
+    "population": "332"
+  },
+  "Lyons, Michigan": {
+    "state": "26",
+    "place": "49900",
+    "population": "763"
+  },
+  "McBride, Michigan": {
+    "state": "26",
+    "place": "50000",
+    "population": "189"
+  },
+  "Mackinaw City, Michigan": {
+    "state": "26",
+    "place": "50320",
+    "population": "846"
+  },
+  "Mancelona, Michigan": {
+    "state": "26",
+    "place": "50620",
+    "population": "1344"
+  },
+  "Manchester, Michigan": {
+    "state": "26",
+    "place": "50660",
+    "population": "2037"
+  },
+  "Maple Rapids, Michigan": {
+    "state": "26",
+    "place": "51200",
+    "population": "573"
+  },
+  "Marcellus, Michigan": {
+    "state": "26",
+    "place": "51460",
+    "population": "1074"
+  },
+  "Marion, Michigan": {
+    "state": "26",
+    "place": "51660",
+    "population": "789"
+  },
+  "Martin, Michigan": {
+    "state": "26",
+    "place": "51980",
+    "population": "377"
+  },
+  "Mattawan, Michigan": {
+    "state": "26",
+    "place": "52380",
+    "population": "2550"
+  },
+  "Maybee, Michigan": {
+    "state": "26",
+    "place": "52440",
+    "population": "545"
+  },
+  "Mayville, Michigan": {
+    "state": "26",
+    "place": "52540",
+    "population": "922"
+  },
+  "Mecosta, Michigan": {
+    "state": "26",
+    "place": "52760",
+    "population": "386"
+  },
+  "Melvin, Michigan": {
+    "state": "26",
+    "place": "52920",
+    "population": "148"
+  },
+  "Mendon, Michigan": {
+    "state": "26",
+    "place": "52980",
+    "population": "881"
+  },
+  "Merrill, Michigan": {
+    "state": "26",
+    "place": "53180",
+    "population": "663"
+  },
+  "Mesick, Michigan": {
+    "state": "26",
+    "place": "53320",
+    "population": "397"
+  },
+  "Metamora, Michigan": {
+    "state": "26",
+    "place": "53340",
+    "population": "594"
+  },
+  "Michiana, Michigan": {
+    "state": "26",
+    "place": "53500",
+    "population": "200"
+  },
+  "Middleville, Michigan": {
+    "state": "26",
+    "place": "53760",
+    "population": "4295"
+  },
+  "Milford, Michigan": {
+    "state": "26",
+    "place": "53960",
+    "population": "6520"
+  },
+  "Millersburg, Michigan": {
+    "state": "26",
+    "place": "54120",
+    "population": "169"
+  },
+  "Millington, Michigan": {
+    "state": "26",
+    "place": "54220",
+    "population": "1028"
+  },
+  "Minden City, Michigan": {
+    "state": "26",
+    "place": "54560",
+    "population": "165"
+  },
+  "Montgomery, Michigan": {
+    "state": "26",
+    "place": "55220",
+    "population": "322"
+  },
+  "Morley, Michigan": {
+    "state": "26",
+    "place": "55540",
+    "population": "517"
+  },
+  "Morrice, Michigan": {
+    "state": "26",
+    "place": "55560",
+    "population": "949"
+  },
+  "Muir, Michigan": {
+    "state": "26",
+    "place": "56080",
+    "population": "646"
+  },
+  "Mulliken, Michigan": {
+    "state": "26",
+    "place": "56140",
+    "population": "525"
+  },
+  "Nashville, Michigan": {
+    "state": "26",
+    "place": "56680",
+    "population": "1537"
+  },
+  "Newberry, Michigan": {
+    "state": "26",
+    "place": "57140",
+    "population": "1446"
+  },
+  "New Era, Michigan": {
+    "state": "26",
+    "place": "57280",
+    "population": "446"
+  },
+  "New Haven, Michigan": {
+    "state": "26",
+    "place": "57380",
+    "population": "6097"
+  },
+  "New Lothrop, Michigan": {
+    "state": "26",
+    "place": "57520",
+    "population": "565"
+  },
+  "North Adams, Michigan": {
+    "state": "26",
+    "place": "57920",
+    "population": "452"
+  },
+  "North Branch, Michigan": {
+    "state": "26",
+    "place": "58080",
+    "population": "1096"
+  },
+  "Northport, Michigan": {
+    "state": "26",
+    "place": "58740",
+    "population": "496"
+  },
+  "Oakley, Michigan": {
+    "state": "26",
+    "place": "59860",
+    "population": "299"
+  },
+  "Onekama, Michigan": {
+    "state": "26",
+    "place": "60740",
+    "population": "399"
+  },
+  "Ontonagon, Michigan": {
+    "state": "26",
+    "place": "60860",
+    "population": "1285"
+  },
+  "Ortonville, Michigan": {
+    "state": "26",
+    "place": "61220",
+    "population": "1376"
+  },
+  "Otisville, Michigan": {
+    "state": "26",
+    "place": "61600",
+    "population": "819"
+  },
+  "Otter Lake, Michigan": {
+    "state": "26",
+    "place": "61760",
+    "population": "426"
+  },
+  "Owendale, Michigan": {
+    "state": "26",
+    "place": "61920",
+    "population": "275"
+  },
+  "Oxford, Michigan": {
+    "state": "26",
+    "place": "62020",
+    "population": "3492"
+  },
+  "Parma, Michigan": {
+    "state": "26",
+    "place": "62740",
+    "population": "780"
+  },
+  "Paw Paw, Michigan": {
+    "state": "26",
+    "place": "62980",
+    "population": "3362"
+  },
+  "Peck, Michigan": {
+    "state": "26",
+    "place": "63260",
+    "population": "593"
+  },
+  "Pellston, Michigan": {
+    "state": "26",
+    "place": "63300",
+    "population": "774"
+  },
+  "Pentwater, Michigan": {
+    "state": "26",
+    "place": "63540",
+    "population": "890"
+  },
+  "Perrinton, Michigan": {
+    "state": "26",
+    "place": "63660",
+    "population": "393"
+  },
+  "Pewamo, Michigan": {
+    "state": "26",
+    "place": "63900",
+    "population": "503"
+  },
+  "Pierson, Michigan": {
+    "state": "26",
+    "place": "64020",
+    "population": "229"
+  },
+  "Pigeon, Michigan": {
+    "state": "26",
+    "place": "64060",
+    "population": "1222"
+  },
+  "Pinckney, Michigan": {
+    "state": "26",
+    "place": "64140",
+    "population": "2415"
+  },
+  "Onsted, Michigan": {
+    "state": "26",
+    "place": "60840",
+    "population": "988"
+  },
+  "Port Austin, Michigan": {
+    "state": "26",
+    "place": "65680",
+    "population": "622"
+  },
+  "Port Hope, Michigan": {
+    "state": "26",
+    "place": "65800",
+    "population": "293"
+  },
+  "Port Sanilac, Michigan": {
+    "state": "26",
+    "place": "65900",
+    "population": "567"
+  },
+  "Posen, Michigan": {
+    "state": "26",
+    "place": "66000",
+    "population": "270"
+  },
+  "Powers, Michigan": {
+    "state": "26",
+    "place": "66140",
+    "population": "381"
+  },
+  "Prescott, Michigan": {
+    "state": "26",
+    "place": "66300",
+    "population": "217"
+  },
+  "Quincy, Michigan": {
+    "state": "26",
+    "place": "66640",
+    "population": "1554"
+  },
+  "Ravenna, Michigan": {
+    "state": "26",
+    "place": "67280",
+    "population": "1308"
+  },
+  "Reese, Michigan": {
+    "state": "26",
+    "place": "67900",
+    "population": "1261"
+  },
+  "Richland, Michigan": {
+    "state": "26",
+    "place": "68240",
+    "population": "946"
+  },
+  "Romeo, Michigan": {
+    "state": "26",
+    "place": "69400",
+    "population": "3767"
+  },
+  "Roscommon, Michigan": {
+    "state": "26",
+    "place": "69540",
+    "population": "981"
+  },
+  "Rosebush, Michigan": {
+    "state": "26",
+    "place": "69640",
+    "population": "353"
+  },
+  "Rothbury, Michigan": {
+    "state": "26",
+    "place": "69880",
+    "population": "462"
+  },
+  "St. Charles, Michigan": {
+    "state": "26",
+    "place": "70640",
+    "population": "1992"
+  },
+  "Sand Lake, Michigan": {
+    "state": "26",
+    "place": "71360",
+    "population": "522"
+  },
+  "Sanford, Michigan": {
+    "state": "26",
+    "place": "71560",
+    "population": "813"
+  },
+  "Saranac, Michigan": {
+    "state": "26",
+    "place": "71660",
+    "population": "1376"
+  },
+  "Schoolcraft, Michigan": {
+    "state": "26",
+    "place": "71860",
+    "population": "1466"
+  },
+  "Sebewaing, Michigan": {
+    "state": "26",
+    "place": "72180",
+    "population": "1721"
+  },
+  "Shelby, Michigan": {
+    "state": "26",
+    "place": "72840",
+    "population": "1964"
+  },
+  "Shepherd, Michigan": {
+    "state": "26",
+    "place": "72960",
+    "population": "1469"
+  },
+  "Sheridan, Michigan": {
+    "state": "26",
+    "place": "73100",
+    "population": "692"
+  },
+  "Sherwood, Michigan": {
+    "state": "26",
+    "place": "73420",
+    "population": "285"
+  },
+  "Shoreham, Michigan": {
+    "state": "26",
+    "place": "73660",
+    "population": "844"
+  },
+  "South Range, Michigan": {
+    "state": "26",
+    "place": "75220",
+    "population": "750"
+  },
+  "South Rockwood, Michigan": {
+    "state": "26",
+    "place": "75280",
+    "population": "1587"
+  },
+  "Sparta, Michigan": {
+    "state": "26",
+    "place": "75420",
+    "population": "4244"
+  },
+  "Spring Lake, Michigan": {
+    "state": "26",
+    "place": "75820",
+    "population": "2497"
+  },
+  "Springport, Michigan": {
+    "state": "26",
+    "place": "75860",
+    "population": "776"
+  },
+  "Stanwood, Michigan": {
+    "state": "26",
+    "place": "76240",
+    "population": "194"
+  },
+  "Sterling, Michigan": {
+    "state": "26",
+    "place": "76420",
+    "population": "474"
+  },
+  "Stevensville, Michigan": {
+    "state": "26",
+    "place": "76500",
+    "population": "1147"
+  },
+  "Stockbridge, Michigan": {
+    "state": "26",
+    "place": "76560",
+    "population": "1244"
+  },
+  "Sunfield, Michigan": {
+    "state": "26",
+    "place": "77420",
+    "population": "518"
+  },
+  "Suttons Bay, Michigan": {
+    "state": "26",
+    "place": "77600",
+    "population": "613"
+  },
+  "Tekonsha, Michigan": {
+    "state": "26",
+    "place": "79160",
+    "population": "653"
+  },
+  "Thompsonville, Michigan": {
+    "state": "26",
+    "place": "79600",
+    "population": "451"
+  },
+  "Three Oaks, Michigan": {
+    "state": "26",
+    "place": "79720",
+    "population": "1370"
+  },
+  "Turner, Michigan": {
+    "state": "26",
+    "place": "80820",
+    "population": "121"
+  },
+  "Tustin, Michigan": {
+    "state": "26",
+    "place": "80960",
+    "population": "270"
+  },
+  "Twining, Michigan": {
+    "state": "26",
+    "place": "81020",
+    "population": "130"
+  },
+  "Ubly, Michigan": {
+    "state": "26",
+    "place": "81200",
+    "population": "836"
+  },
+  "Union City, Michigan": {
+    "state": "26",
+    "place": "81360",
+    "population": "1714"
+  },
+  "Unionville, Michigan": {
+    "state": "26",
+    "place": "81420",
+    "population": "481"
+  },
+  "Vandalia, Michigan": {
+    "state": "26",
+    "place": "81680",
+    "population": "318"
+  },
+  "Vanderbilt, Michigan": {
+    "state": "26",
+    "place": "81700",
+    "population": "498"
+  },
+  "Vermontville, Michigan": {
+    "state": "26",
+    "place": "81960",
+    "population": "716"
+  },
+  "Vernon, Michigan": {
+    "state": "26",
+    "place": "82020",
+    "population": "738"
+  },
+  "Vicksburg, Michigan": {
+    "state": "26",
+    "place": "82300",
+    "population": "3706"
+  },
+  "Waldron, Michigan": {
+    "state": "26",
+    "place": "82880",
+    "population": "505"
+  },
+  "Walkerville, Michigan": {
+    "state": "26",
+    "place": "83020",
+    "population": "246"
+  },
+  "Webberville, Michigan": {
+    "state": "26",
+    "place": "85080",
+    "population": "1288"
+  },
+  "Westphalia, Michigan": {
+    "state": "26",
+    "place": "86120",
+    "population": "924"
+  },
+  "White Pigeon, Michigan": {
+    "state": "26",
+    "place": "86920",
+    "population": "1718"
+  },
+  "Wolverine, Michigan": {
+    "state": "26",
+    "place": "88240",
+    "population": "309"
+  },
+  "Wolverine Lake, Michigan": {
+    "state": "26",
+    "place": "88260",
+    "population": "4544"
+  },
+  "Woodland, Michigan": {
+    "state": "26",
+    "place": "88420",
+    "population": "391"
+  }
+}

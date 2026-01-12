@@ -1,0 +1,917 @@
+{
+  "West Mountain, Connecticut": {
+    "state": "09",
+    "place": "83045",
+    "population": "603"
+  },
+  "Weston, Connecticut": {
+    "state": "09",
+    "place": "83360",
+    "population": "980"
+  },
+  "Westport Village, Connecticut": {
+    "state": "09",
+    "place": "83586",
+    "population": "3251"
+  },
+  "West Simsbury, Connecticut": {
+    "state": "09",
+    "place": "83990",
+    "population": "2521"
+  },
+  "Wethersfield, Connecticut": {
+    "state": "09",
+    "place": "84970",
+    "population": "27298"
+  },
+  "Willimantic, Connecticut": {
+    "state": "09",
+    "place": "85810",
+    "population": "18149"
+  },
+  "Wilton Center, Connecticut": {
+    "state": "09",
+    "place": "86380",
+    "population": "1466"
+  },
+  "Windsor Locks, Connecticut": {
+    "state": "09",
+    "place": "87140",
+    "population": "12613"
+  },
+  "Winsted, Connecticut": {
+    "state": "09",
+    "place": "87350",
+    "population": "7192"
+  },
+  "Witches Woods, Connecticut": {
+    "state": "09",
+    "place": "87455",
+    "population": "114"
+  },
+  "Woodbury Center, Connecticut": {
+    "state": "09",
+    "place": "87980",
+    "population": "1335"
+  },
+  "Ball Pond, Connecticut": {
+    "state": "09",
+    "place": "02480",
+    "population": "2189"
+  },
+  "Baltic, Connecticut": {
+    "state": "09",
+    "place": "02550",
+    "population": "1186"
+  },
+  "Bethel, Connecticut": {
+    "state": "09",
+    "place": "04790",
+    "population": "11582"
+  },
+  "Bethlehem Village, Connecticut": {
+    "state": "09",
+    "place": "04945",
+    "population": "1970"
+  },
+  "Bigelow Corners, Connecticut": {
+    "state": "09",
+    "place": "04965",
+    "population": "617"
+  },
+  "Blue Hills, Connecticut": {
+    "state": "09",
+    "place": "06050",
+    "population": "2762"
+  },
+  "Bogus Hill, Connecticut": {
+    "state": "09",
+    "place": "06155",
+    "population": "100"
+  },
+  "Botsford, Connecticut": {
+    "state": "09",
+    "place": "06680",
+    "population": "499"
+  },
+  "Branchville, Connecticut": {
+    "state": "09",
+    "place": "07100",
+    "population": "262"
+  },
+  "Branford Center, Connecticut": {
+    "state": "09",
+    "place": "07345",
+    "population": "6026"
+  },
+  "Bridgewater, Connecticut": {
+    "state": "09",
+    "place": "08140",
+    "population": "133"
+  },
+  "Broad Brook, Connecticut": {
+    "state": "09",
+    "place": "08770",
+    "population": "3998"
+  },
+  "Brookfield Center, Connecticut": {
+    "state": "09",
+    "place": "08910",
+    "population": "545"
+  },
+  "Brooklyn, Connecticut": {
+    "state": "09",
+    "place": "09120",
+    "population": "952"
+  },
+  "Byram, Connecticut": {
+    "state": "09",
+    "place": "10660",
+    "population": "4493"
+  },
+  "Canaan, Connecticut": {
+    "state": "09",
+    "place": "10870",
+    "population": "1190"
+  },
+  "Candlewood Isle, Connecticut": {
+    "state": "09",
+    "place": "11360",
+    "population": "491"
+  },
+  "Candlewood Knolls, Connecticut": {
+    "state": "09",
+    "place": "11430",
+    "population": "255"
+  },
+  "Candlewood Lake Club, Connecticut": {
+    "state": "09",
+    "place": "11500",
+    "population": "305"
+  },
+  "Candlewood Orchards, Connecticut": {
+    "state": "09",
+    "place": "11640",
+    "population": "752"
+  },
+  "Candlewood Shores, Connecticut": {
+    "state": "09",
+    "place": "11780",
+    "population": "665"
+  },
+  "Cannondale, Connecticut": {
+    "state": "09",
+    "place": "11990",
+    "population": "396"
+  },
+  "Canton Valley, Connecticut": {
+    "state": "09",
+    "place": "12370",
+    "population": "1623"
+  },
+  "Cheshire Village, Connecticut": {
+    "state": "09",
+    "place": "14200",
+    "population": "6499"
+  },
+  "Chester Center, Connecticut": {
+    "state": "09",
+    "place": "14370",
+    "population": "1720"
+  },
+  "Chimney Point, Connecticut": {
+    "state": "09",
+    "place": "14615",
+    "population": "133"
+  },
+  "Clinton, Connecticut": {
+    "state": "09",
+    "place": "15420",
+    "population": "3441"
+  },
+  "Colchester, Connecticut": {
+    "state": "09",
+    "place": "15840",
+    "population": "4700"
+  },
+  "Coleytown, Connecticut": {
+    "state": "09",
+    "place": "16085",
+    "population": "3522"
+  },
+  "Collinsville, Connecticut": {
+    "state": "09",
+    "place": "16120",
+    "population": "3721"
+  },
+  "Compo, Connecticut": {
+    "state": "09",
+    "place": "16525",
+    "population": "3354"
+  },
+  "Conning Towers-Nautilus Park, Connecticut": {
+    "state": "09",
+    "place": "16960",
+    "population": "8870"
+  },
+  "Cornwall, Connecticut": {
+    "state": "09",
+    "place": "17170",
+    "population": "120"
+  },
+  "Cornwall Bridge, Connecticut": {
+    "state": "09",
+    "place": "17310",
+    "population": "287"
+  },
+  "Cos Cob, Connecticut": {
+    "state": "09",
+    "place": "17520",
+    "population": "6873"
+  },
+  "Coventry Lake, Connecticut": {
+    "state": "09",
+    "place": "17835",
+    "population": "2823"
+  },
+  "Crystal Lake, Connecticut": {
+    "state": "09",
+    "place": "18220",
+    "population": "2152"
+  },
+  "Daniels Farm, Connecticut": {
+    "state": "09",
+    "place": "18675",
+    "population": "6150"
+  },
+  "Darien Downtown, Connecticut": {
+    "state": "09",
+    "place": "18936",
+    "population": "1147"
+  },
+  "Dayville, Connecticut": {
+    "state": "09",
+    "place": "18990",
+    "population": "631"
+  },
+  "Deep River Center, Connecticut": {
+    "state": "09",
+    "place": "19200",
+    "population": "2765"
+  },
+  "Dodgingtown, Connecticut": {
+    "state": "09",
+    "place": "20250",
+    "population": "380"
+  },
+  "Durham, Connecticut": {
+    "state": "09",
+    "place": "20740",
+    "population": "3771"
+  },
+  "East Brooklyn, Connecticut": {
+    "state": "09",
+    "place": "21160",
+    "population": "2205"
+  },
+  "East Hampton, Connecticut": {
+    "state": "09",
+    "place": "22420",
+    "population": "2960"
+  },
+  "East Hartford, Connecticut": {
+    "state": "09",
+    "place": "22700",
+    "population": "51045"
+  },
+  "East Haven, Connecticut": {
+    "state": "09",
+    "place": "22980",
+    "population": "27923"
+  },
+  "East Village, Connecticut": {
+    "state": "09",
+    "place": "24520",
+    "population": "4057"
+  },
+  "Essex Village, Connecticut": {
+    "state": "09",
+    "place": "26370",
+    "population": "2583"
+  },
+  "Fairfield University, Connecticut": {
+    "state": "09",
+    "place": "26698",
+    "population": "2884"
+  },
+  "Falls Village, Connecticut": {
+    "state": "09",
+    "place": "27390",
+    "population": "383"
+  },
+  "Gales Ferry, Connecticut": {
+    "state": "09",
+    "place": "30190",
+    "population": "1159"
+  },
+  "Gaylordsville, Connecticut": {
+    "state": "09",
+    "place": "30470",
+    "population": "603"
+  },
+  "Georgetown, Connecticut": {
+    "state": "09",
+    "place": "30540",
+    "population": "1832"
+  },
+  "Glastonbury Center, Connecticut": {
+    "state": "09",
+    "place": "31270",
+    "population": "8459"
+  },
+  "Glenville, Connecticut": {
+    "state": "09",
+    "place": "31520",
+    "population": "2762"
+  },
+  "Greens Farms, Connecticut": {
+    "state": "09",
+    "place": "33480",
+    "population": "3125"
+  },
+  "Greenwich, Connecticut": {
+    "state": "09",
+    "place": "33690",
+    "population": "13836"
+  },
+  "Guilford Center, Connecticut": {
+    "state": "09",
+    "place": "35020",
+    "population": "2586"
+  },
+  "Hawleyville, Connecticut": {
+    "state": "09",
+    "place": "37490",
+    "population": "151"
+  },
+  "Hazardville, Connecticut": {
+    "state": "09",
+    "place": "37770",
+    "population": "6870"
+  },
+  "Heritage Village, Connecticut": {
+    "state": "09",
+    "place": "37930",
+    "population": "5091"
+  },
+  "Higganum, Connecticut": {
+    "state": "09",
+    "place": "38050",
+    "population": "2089"
+  },
+  "Indian Field, Connecticut": {
+    "state": "09",
+    "place": "39695",
+    "population": "705"
+  },
+  "Inglenook, Connecticut": {
+    "state": "09",
+    "place": "39747",
+    "population": "799"
+  },
+  "Kellogg Point, Connecticut": {
+    "state": "09",
+    "place": "40077",
+    "population": "20"
+  },
+  "Kensington, Connecticut": {
+    "state": "09",
+    "place": "40150",
+    "population": "9962"
+  },
+  "Knollcrest, Connecticut": {
+    "state": "09",
+    "place": "40920",
+    "population": "334"
+  },
+  "Lake Bungee, Connecticut": {
+    "state": "09",
+    "place": "41226",
+    "population": "601"
+  },
+  "Lake Chaffee, Connecticut": {
+    "state": "09",
+    "place": "41238",
+    "population": "282"
+  },
+  "Lake Pocotopaug, Connecticut": {
+    "state": "09",
+    "place": "41410",
+    "population": "4901"
+  },
+  "Lakes East, Connecticut": {
+    "state": "09",
+    "place": "41585",
+    "population": "1299"
+  },
+  "Lakeside Woods, Connecticut": {
+    "state": "09",
+    "place": "41714",
+    "population": "309"
+  },
+  "Lakes West, Connecticut": {
+    "state": "09",
+    "place": "41736",
+    "population": "1186"
+  },
+  "Lakeville, Connecticut": {
+    "state": "09",
+    "place": "41830",
+    "population": "1059"
+  },
+  "Lordship, Connecticut": {
+    "state": "09",
+    "place": "44000",
+    "population": "2954"
+  },
+  "Madison Center, Connecticut": {
+    "state": "09",
+    "place": "44630",
+    "population": "2250"
+  },
+  "Mamanasco Lake, Connecticut": {
+    "state": "09",
+    "place": "44660",
+    "population": "509"
+  },
+  "Manchester, Connecticut": {
+    "state": "09",
+    "place": "44690",
+    "population": "36379"
+  },
+  "Mansfield Center, Connecticut": {
+    "state": "09",
+    "place": "45120",
+    "population": "1021"
+  },
+  "Mashantucket, Connecticut": {
+    "state": "09",
+    "place": "45995",
+    "population": "457"
+  },
+  "Mechanicsville, Connecticut": {
+    "state": "09",
+    "place": "46240",
+    "population": "540"
+  },
+  "Mill Plain, Connecticut": {
+    "state": "09",
+    "place": "47990",
+    "population": "1654"
+  },
+  "Moodus, Connecticut": {
+    "state": "09",
+    "place": "49110",
+    "population": "1982"
+  },
+  "Moosup, Connecticut": {
+    "state": "09",
+    "place": "49180",
+    "population": "3113"
+  },
+  "Murray, Connecticut": {
+    "state": "09",
+    "place": "49720",
+    "population": "848"
+  },
+  "Mystic, Connecticut": {
+    "state": "09",
+    "place": "49810",
+    "population": "4348"
+  },
+  "New Canaan, Connecticut": {
+    "state": "09",
+    "place": "50576",
+    "population": "6220"
+  },
+  "New Hartford Center, Connecticut": {
+    "state": "09",
+    "place": "51420",
+    "population": "1284"
+  },
+  "Newington, Connecticut": {
+    "state": "09",
+    "place": "52210",
+    "population": "30536"
+  },
+  "New Milford, Connecticut": {
+    "state": "09",
+    "place": "52560",
+    "population": "7160"
+  },
+  "New Preston, Connecticut": {
+    "state": "09",
+    "place": "52770",
+    "population": "1126"
+  },
+  "Niantic, Connecticut": {
+    "state": "09",
+    "place": "53120",
+    "population": "3194"
+  },
+  "Noank, Connecticut": {
+    "state": "09",
+    "place": "53260",
+    "population": "1654"
+  },
+  "Norfolk, Connecticut": {
+    "state": "09",
+    "place": "53400",
+    "population": "551"
+  },
+  "Noroton, Connecticut": {
+    "state": "09",
+    "place": "53540",
+    "population": "5317"
+  },
+  "Noroton Heights, Connecticut": {
+    "state": "09",
+    "place": "53610",
+    "population": "3116"
+  },
+  "Northford, Connecticut": {
+    "state": "09",
+    "place": "54450",
+    "population": "6082"
+  },
+  "North Granby, Connecticut": {
+    "state": "09",
+    "place": "54660",
+    "population": "1835"
+  },
+  "North Grosvenor Dale, Connecticut": {
+    "state": "09",
+    "place": "54730",
+    "population": "1464"
+  },
+  "North Haven, Connecticut": {
+    "state": "09",
+    "place": "54940",
+    "population": "24253"
+  },
+  "Northwest Harwinton, Connecticut": {
+    "state": "09",
+    "place": "55725",
+    "population": "3158"
+  },
+  "Oakville, Connecticut": {
+    "state": "09",
+    "place": "56690",
+    "population": "9504"
+  },
+  "Old Greenwich, Connecticut": {
+    "state": "09",
+    "place": "56900",
+    "population": "6962"
+  },
+  "Old Hill, Connecticut": {
+    "state": "09",
+    "place": "56935",
+    "population": "2676"
+  },
+  "Old Mystic, Connecticut": {
+    "state": "09",
+    "place": "57180",
+    "population": "3493"
+  },
+  "Old Saybrook Center, Connecticut": {
+    "state": "09",
+    "place": "57390",
+    "population": "2278"
+  },
+  "Orange, Connecticut": {
+    "state": "09",
+    "place": "57670",
+    "population": "14280"
+  },
+  "Oronoque, Connecticut": {
+    "state": "09",
+    "place": "57880",
+    "population": "3790"
+  },
+  "Oxoboxo River, Connecticut": {
+    "state": "09",
+    "place": "58520",
+    "population": "2955"
+  },
+  "Pawcatuck, Connecticut": {
+    "state": "09",
+    "place": "59140",
+    "population": "5433"
+  },
+  "Pemberwick, Connecticut": {
+    "state": "09",
+    "place": "59210",
+    "population": "3899"
+  },
+  "Plainfield Village, Connecticut": {
+    "state": "09",
+    "place": "60090",
+    "population": "2580"
+  },
+  "Plantsville, Connecticut": {
+    "state": "09",
+    "place": "60260",
+    "population": "2016"
+  },
+  "Plattsville, Connecticut": {
+    "state": "09",
+    "place": "60365",
+    "population": "1131"
+  },
+  "Pleasant Valley, Connecticut": {
+    "state": "09",
+    "place": "60540",
+    "population": "161"
+  },
+  "Poplar Plains, Connecticut": {
+    "state": "09",
+    "place": "61555",
+    "population": "1322"
+  },
+  "Poquonock Bridge, Connecticut": {
+    "state": "09",
+    "place": "61730",
+    "population": "1686"
+  },
+  "Portland, Connecticut": {
+    "state": "09",
+    "place": "61870",
+    "population": "5813"
+  },
+  "Putnam, Connecticut": {
+    "state": "09",
+    "place": "62640",
+    "population": "7065"
+  },
+  "Quasset Lake, Connecticut": {
+    "state": "09",
+    "place": "63165",
+    "population": "187"
+  },
+  "Quinebaug, Connecticut": {
+    "state": "09",
+    "place": "63270",
+    "population": "1114"
+  },
+  "Quinnipiac University, Connecticut": {
+    "state": "09",
+    "place": "63313",
+    "population": "3639"
+  },
+  "Redding Center, Connecticut": {
+    "state": "09",
+    "place": "63620",
+    "population": "315"
+  },
+  "Ridgebury, Connecticut": {
+    "state": "09",
+    "place": "63830",
+    "population": "2223"
+  },
+  "Ridgefield, Connecticut": {
+    "state": "09",
+    "place": "63900",
+    "population": "7596"
+  },
+  "Riverside, Connecticut": {
+    "state": "09",
+    "place": "64530",
+    "population": "8843"
+  },
+  "Riverton, Connecticut": {
+    "state": "09",
+    "place": "64880",
+    "population": "160"
+  },
+  "Rock Ridge, Connecticut": {
+    "state": "09",
+    "place": "65160",
+    "population": "658"
+  },
+  "Rockville, Connecticut": {
+    "state": "09",
+    "place": "65230",
+    "population": "7920"
+  },
+  "Route 7 Gateway, Connecticut": {
+    "state": "09",
+    "place": "65685",
+    "population": "818"
+  },
+  "Sacred Heart University, Connecticut": {
+    "state": "09",
+    "place": "66086",
+    "population": "1446"
+  },
+  "Sail Harbor, Connecticut": {
+    "state": "09",
+    "place": "66113",
+    "population": "175"
+  },
+  "Salmon Brook, Connecticut": {
+    "state": "09",
+    "place": "66455",
+    "population": "2428"
+  },
+  "Sandy Hook, Connecticut": {
+    "state": "09",
+    "place": "66700",
+    "population": "9114"
+  },
+  "Saugatuck, Connecticut": {
+    "state": "09",
+    "place": "66770",
+    "population": "2937"
+  },
+  "Saybrook Manor, Connecticut": {
+    "state": "09",
+    "place": "67050",
+    "population": "1172"
+  },
+  "Sharon, Connecticut": {
+    "state": "09",
+    "place": "67890",
+    "population": "662"
+  },
+  "Sherman, Connecticut": {
+    "state": "09",
+    "place": "68240",
+    "population": "115"
+  },
+  "Sherwood Manor, Connecticut": {
+    "state": "09",
+    "place": "68450",
+    "population": "5372"
+  },
+  "Simsbury Center, Connecticut": {
+    "state": "09",
+    "place": "69010",
+    "population": "6268"
+  },
+  "Somers, Connecticut": {
+    "state": "09",
+    "place": "69150",
+    "population": "1990"
+  },
+  "South Coventry, Connecticut": {
+    "state": "09",
+    "place": "69990",
+    "population": "1612"
+  },
+  "Southport, Connecticut": {
+    "state": "09",
+    "place": "71040",
+    "population": "1797"
+  },
+  "South Wilton, Connecticut": {
+    "state": "09",
+    "place": "71215",
+    "population": "1447"
+  },
+  "South Windham, Connecticut": {
+    "state": "09",
+    "place": "71250",
+    "population": "1383"
+  },
+  "Southwood Acres, Connecticut": {
+    "state": "09",
+    "place": "71460",
+    "population": "7879"
+  },
+  "South Woodstock, Connecticut": {
+    "state": "09",
+    "place": "71530",
+    "population": "1493"
+  },
+  "Stafford Springs, Connecticut": {
+    "state": "09",
+    "place": "72300",
+    "population": "4780"
+  },
+  "Staples, Connecticut": {
+    "state": "09",
+    "place": "73175",
+    "population": "6954"
+  },
+  "Stepney, Connecticut": {
+    "state": "09",
+    "place": "73280",
+    "population": "4280"
+  },
+  "Storrs, Connecticut": {
+    "state": "09",
+    "place": "73980",
+    "population": "15979"
+  },
+  "Stratford Downtown, Connecticut": {
+    "state": "09",
+    "place": "74303",
+    "population": "1473"
+  },
+  "Suffield Depot, Connecticut": {
+    "state": "09",
+    "place": "74655",
+    "population": "1440"
+  },
+  "Taylor Corners, Connecticut": {
+    "state": "09",
+    "place": "75065",
+    "population": "645"
+  },
+  "Tariffville, Connecticut": {
+    "state": "09",
+    "place": "75100",
+    "population": "1324"
+  },
+  "Tashua, Connecticut": {
+    "state": "09",
+    "place": "75116",
+    "population": "3857"
+  },
+  "Terramuggus, Connecticut": {
+    "state": "09",
+    "place": "75200",
+    "population": "990"
+  },
+  "Terryville, Connecticut": {
+    "state": "09",
+    "place": "75240",
+    "population": "5202"
+  },
+  "Thomaston, Connecticut": {
+    "state": "09",
+    "place": "75660",
+    "population": "1928"
+  },
+  "Thompsonville, Connecticut": {
+    "state": "09",
+    "place": "75940",
+    "population": "8514"
+  },
+  "Tokeneke, Connecticut": {
+    "state": "09",
+    "place": "76150",
+    "population": "2794"
+  },
+  "Topstone, Connecticut": {
+    "state": "09",
+    "place": "76400",
+    "population": "113"
+  },
+  "Trumbull Center, Connecticut": {
+    "state": "09",
+    "place": "77278",
+    "population": "9746"
+  },
+  "Wallingford Center, Connecticut": {
+    "state": "09",
+    "place": "78880",
+    "population": "18278"
+  },
+  "Waterford, Connecticut": {
+    "state": "09",
+    "place": "80210",
+    "population": "3074"
+  },
+  "Watertown, Connecticut": {
+    "state": "09",
+    "place": "80420",
+    "population": "3938"
+  },
+  "Wauregan, Connecticut": {
+    "state": "09",
+    "place": "80630",
+    "population": "1539"
+  },
+  "Weatogue, Connecticut": {
+    "state": "09",
+    "place": "80770",
+    "population": "2906"
+  },
+  "Westbrook Center, Connecticut": {
+    "state": "09",
+    "place": "81750",
+    "population": "2220"
+  },
+  "West Cornwall, Connecticut": {
+    "state": "09",
+    "place": "82030",
+    "population": "138"
+  },
+  "West Hartford, Connecticut": {
+    "state": "09",
+    "place": "82660",
+    "population": "64083"
+  }
+}

@@ -1,0 +1,562 @@
+{
+  "Byram, Mississippi": {
+    "state": "28",
+    "place": "10140",
+    "population": "12666"
+  },
+  "Canton, Mississippi": {
+    "state": "28",
+    "place": "11100",
+    "population": "10948"
+  },
+  "Carthage, Mississippi": {
+    "state": "28",
+    "place": "11780",
+    "population": "4901"
+  },
+  "Charleston, Mississippi": {
+    "state": "28",
+    "place": "12900",
+    "population": "1884"
+  },
+  "Clarksdale, Mississippi": {
+    "state": "28",
+    "place": "13820",
+    "population": "14903"
+  },
+  "Cleveland, Mississippi": {
+    "state": "28",
+    "place": "14260",
+    "population": "11199"
+  },
+  "Clinton, Mississippi": {
+    "state": "28",
+    "place": "14420",
+    "population": "28100"
+  },
+  "Collins, Mississippi": {
+    "state": "28",
+    "place": "15140",
+    "population": "2342"
+  },
+  "Columbia, Mississippi": {
+    "state": "28",
+    "place": "15340",
+    "population": "5864"
+  },
+  "Columbus, Mississippi": {
+    "state": "28",
+    "place": "15380",
+    "population": "24084"
+  },
+  "Corinth, Mississippi": {
+    "state": "28",
+    "place": "15700",
+    "population": "14622"
+  },
+  "Crystal Springs, Mississippi": {
+    "state": "28",
+    "place": "17060",
+    "population": "4862"
+  },
+  "Diamondhead, Mississippi": {
+    "state": "28",
+    "place": "19100",
+    "population": "9529"
+  },
+  "D'Iberville, Mississippi": {
+    "state": "28",
+    "place": "19180",
+    "population": "12721"
+  },
+  "Drew, Mississippi": {
+    "state": "28",
+    "place": "20020",
+    "population": "1852"
+  },
+  "Ellisville, Mississippi": {
+    "state": "28",
+    "place": "22020",
+    "population": "4652"
+  },
+  "Eupora, Mississippi": {
+    "state": "28",
+    "place": "23420",
+    "population": "2018"
+  },
+  "Fayette, Mississippi": {
+    "state": "28",
+    "place": "24500",
+    "population": "1445"
+  },
+  "Florence, Mississippi": {
+    "state": "28",
+    "place": "24980",
+    "population": "4572"
+  },
+  "Flowood, Mississippi": {
+    "state": "28",
+    "place": "25100",
+    "population": "10202"
+  },
+  "Forest, Mississippi": {
+    "state": "28",
+    "place": "25340",
+    "population": "5430"
+  },
+  "Fulton, Mississippi": {
+    "state": "28",
+    "place": "26300",
+    "population": "4542"
+  },
+  "Gautier, Mississippi": {
+    "state": "28",
+    "place": "26860",
+    "population": "19024"
+  },
+  "Greenville, Mississippi": {
+    "state": "28",
+    "place": "29180",
+    "population": "29670"
+  },
+  "Durant, Mississippi": {
+    "state": "28",
+    "place": "20500",
+    "population": "2231"
+  },
+  "Greenwood, Mississippi": {
+    "state": "28",
+    "place": "29340",
+    "population": "14490"
+  },
+  "Grenada, Mississippi": {
+    "state": "28",
+    "place": "29460",
+    "population": "12700"
+  },
+  "Gulfport, Mississippi": {
+    "state": "28",
+    "place": "29700",
+    "population": "72926"
+  },
+  "Hattiesburg, Mississippi": {
+    "state": "28",
+    "place": "31020",
+    "population": "48730"
+  },
+  "Hazlehurst, Mississippi": {
+    "state": "28",
+    "place": "31220",
+    "population": "3619"
+  },
+  "Hernando, Mississippi": {
+    "state": "28",
+    "place": "31780",
+    "population": "17138"
+  },
+  "Hollandale, Mississippi": {
+    "state": "28",
+    "place": "32900",
+    "population": "2323"
+  },
+  "Holly Springs, Mississippi": {
+    "state": "28",
+    "place": "33100",
+    "population": "6968"
+  },
+  "Horn Lake, Mississippi": {
+    "state": "28",
+    "place": "33700",
+    "population": "26736"
+  },
+  "Houston, Mississippi": {
+    "state": "28",
+    "place": "33900",
+    "population": "3797"
+  },
+  "Indianola, Mississippi": {
+    "state": "28",
+    "place": "34740",
+    "population": "9646"
+  },
+  "Itta Bena, Mississippi": {
+    "state": "28",
+    "place": "35260",
+    "population": "1679"
+  },
+  "Iuka, Mississippi": {
+    "state": "28",
+    "place": "35300",
+    "population": "3139"
+  },
+  "Jackson, Mississippi": {
+    "state": "28",
+    "place": "36000",
+    "population": "153701"
+  },
+  "Kosciusko, Mississippi": {
+    "state": "28",
+    "place": "38320",
+    "population": "7114"
+  },
+  "Laurel, Mississippi": {
+    "state": "28",
+    "place": "39640",
+    "population": "17161"
+  },
+  "Leland, Mississippi": {
+    "state": "28",
+    "place": "40280",
+    "population": "3988"
+  },
+  "Lexington, Mississippi": {
+    "state": "28",
+    "place": "40600",
+    "population": "1602"
+  },
+  "Long Beach, Mississippi": {
+    "state": "28",
+    "place": "41680",
+    "population": "16780"
+  },
+  "Louisville, Mississippi": {
+    "state": "28",
+    "place": "42280",
+    "population": "6072"
+  },
+  "Lucedale, Mississippi": {
+    "state": "28",
+    "place": "42440",
+    "population": "2869"
+  },
+  "Lumberton, Mississippi": {
+    "state": "28",
+    "place": "42640",
+    "population": "1617"
+  },
+  "McComb, Mississippi": {
+    "state": "28",
+    "place": "43280",
+    "population": "12413"
+  },
+  "Macon, Mississippi": {
+    "state": "28",
+    "place": "44240",
+    "population": "2582"
+  },
+  "Madison, Mississippi": {
+    "state": "28",
+    "place": "44520",
+    "population": "27747"
+  },
+  "Magee, Mississippi": {
+    "state": "28",
+    "place": "44600",
+    "population": "3988"
+  },
+  "Magnolia, Mississippi": {
+    "state": "28",
+    "place": "44680",
+    "population": "1883"
+  },
+  "Marks, Mississippi": {
+    "state": "28",
+    "place": "45240",
+    "population": "1444"
+  },
+  "Mendenhall, Mississippi": {
+    "state": "28",
+    "place": "46600",
+    "population": "2199"
+  },
+  "Meridian, Mississippi": {
+    "state": "28",
+    "place": "46640",
+    "population": "35052"
+  },
+  "Moorhead, Mississippi": {
+    "state": "28",
+    "place": "48760",
+    "population": "1937"
+  },
+  "Morton, Mississippi": {
+    "state": "28",
+    "place": "49080",
+    "population": "3711"
+  },
+  "Moss Point, Mississippi": {
+    "state": "28",
+    "place": "49240",
+    "population": "12147"
+  },
+  "Mound Bayou, Mississippi": {
+    "state": "28",
+    "place": "49320",
+    "population": "1534"
+  },
+  "Natchez, Mississippi": {
+    "state": "28",
+    "place": "50440",
+    "population": "14520"
+  },
+  "Nettleton, Mississippi": {
+    "state": "28",
+    "place": "50880",
+    "population": "1935"
+  },
+  "New Albany, Mississippi": {
+    "state": "28",
+    "place": "51000",
+    "population": "7626"
+  },
+  "Newton, Mississippi": {
+    "state": "28",
+    "place": "51720",
+    "population": "3195"
+  },
+  "Ocean Springs, Mississippi": {
+    "state": "28",
+    "place": "53520",
+    "population": "18429"
+  },
+  "Okolona, Mississippi": {
+    "state": "28",
+    "place": "53680",
+    "population": "2513"
+  },
+  "Olive Branch, Mississippi": {
+    "state": "28",
+    "place": "54040",
+    "population": "39711"
+  },
+  "Oxford, Mississippi": {
+    "state": "28",
+    "place": "54840",
+    "population": "25416"
+  },
+  "Pascagoula, Mississippi": {
+    "state": "28",
+    "place": "55360",
+    "population": "22010"
+  },
+  "Pass Christian, Mississippi": {
+    "state": "28",
+    "place": "55400",
+    "population": "5686"
+  },
+  "Pearl, Mississippi": {
+    "state": "28",
+    "place": "55760",
+    "population": "27115"
+  },
+  "Petal, Mississippi": {
+    "state": "28",
+    "place": "56800",
+    "population": "11010"
+  },
+  "Philadelphia, Mississippi": {
+    "state": "28",
+    "place": "56960",
+    "population": "7118"
+  },
+  "Picayune, Mississippi": {
+    "state": "28",
+    "place": "57160",
+    "population": "11885"
+  },
+  "Pontotoc, Mississippi": {
+    "state": "28",
+    "place": "59160",
+    "population": "5640"
+  },
+  "Poplarville, Mississippi": {
+    "state": "28",
+    "place": "59480",
+    "population": "2833"
+  },
+  "Port Gibson, Mississippi": {
+    "state": "28",
+    "place": "59560",
+    "population": "1269"
+  },
+  "Purvis, Mississippi": {
+    "state": "28",
+    "place": "60480",
+    "population": "1909"
+  },
+  "Quitman, Mississippi": {
+    "state": "28",
+    "place": "60720",
+    "population": "2061"
+  },
+  "Raymond, Mississippi": {
+    "state": "28",
+    "place": "61160",
+    "population": "1960"
+  },
+  "Richland, Mississippi": {
+    "state": "28",
+    "place": "62400",
+    "population": "7137"
+  },
+  "Ridgeland, Mississippi": {
+    "state": "28",
+    "place": "62520",
+    "population": "24340"
+  },
+  "Ripley, Mississippi": {
+    "state": "28",
+    "place": "62600",
+    "population": "5462"
+  },
+  "Rolling Fork, Mississippi": {
+    "state": "28",
+    "place": "63560",
+    "population": "1883"
+  },
+  "Rosedale, Mississippi": {
+    "state": "28",
+    "place": "63720",
+    "population": "1584"
+  },
+  "Ruleville, Mississippi": {
+    "state": "28",
+    "place": "64200",
+    "population": "2642"
+  },
+  "Saltillo, Mississippi": {
+    "state": "28",
+    "place": "64840",
+    "population": "4922"
+  },
+  "Senatobia, Mississippi": {
+    "state": "28",
+    "place": "66440",
+    "population": "8354"
+  },
+  "Shaw, Mississippi": {
+    "state": "28",
+    "place": "67000",
+    "population": "1457"
+  },
+  "Shelby, Mississippi": {
+    "state": "28",
+    "place": "67040",
+    "population": "2021"
+  },
+  "Southaven, Mississippi": {
+    "state": "28",
+    "place": "69280",
+    "population": "54648"
+  },
+  "Starkville, Mississippi": {
+    "state": "28",
+    "place": "70240",
+    "population": "24360"
+  },
+  "Tupelo, Mississippi": {
+    "state": "28",
+    "place": "74840",
+    "population": "37923"
+  },
+  "Verona, Mississippi": {
+    "state": "28",
+    "place": "76560",
+    "population": "2792"
+  },
+  "Vicksburg, Mississippi": {
+    "state": "28",
+    "place": "76720",
+    "population": "21573"
+  },
+  "Water Valley, Mississippi": {
+    "state": "28",
+    "place": "78000",
+    "population": "3380"
+  },
+  "Waveland, Mississippi": {
+    "state": "28",
+    "place": "78200",
+    "population": "7210"
+  },
+  "Waynesboro, Mississippi": {
+    "state": "28",
+    "place": "78360",
+    "population": "4567"
+  },
+  "West Point, Mississippi": {
+    "state": "28",
+    "place": "79120",
+    "population": "10105"
+  },
+  "Wiggins, Mississippi": {
+    "state": "28",
+    "place": "80160",
+    "population": "4272"
+  },
+  "Winona, Mississippi": {
+    "state": "28",
+    "place": "80760",
+    "population": "4505"
+  },
+  "Yazoo City, Mississippi": {
+    "state": "28",
+    "place": "81520",
+    "population": "10316"
+  },
+  "Aberdeen, Mississippi": {
+    "state": "28",
+    "place": "00180",
+    "population": "4961"
+  },
+  "Amory, Mississippi": {
+    "state": "28",
+    "place": "01260",
+    "population": "6666"
+  },
+  "Baldwyn, Mississippi": {
+    "state": "28",
+    "place": "02700",
+    "population": "3071"
+  },
+  "Batesville, Mississippi": {
+    "state": "28",
+    "place": "03620",
+    "population": "7523"
+  },
+  "Bay St. Louis, Mississippi": {
+    "state": "28",
+    "place": "03980",
+    "population": "9284"
+  },
+  "Bay Springs, Mississippi": {
+    "state": "28",
+    "place": "04060",
+    "population": "1670"
+  },
+  "Belzoni, Mississippi": {
+    "state": "28",
+    "place": "05140",
+    "population": "1938"
+  },
+  "Biloxi, Mississippi": {
+    "state": "28",
+    "place": "06220",
+    "population": "49449"
+  },
+  "Booneville, Mississippi": {
+    "state": "28",
+    "place": "07780",
+    "population": "9126"
+  },
+  "Brandon, Mississippi": {
+    "state": "28",
+    "place": "08300",
+    "population": "25138"
+  },
+  "Brookhaven, Mississippi": {
+    "state": "28",
+    "place": "08820",
+    "population": "11674"
+  }
+}

@@ -1,0 +1,727 @@
+{
+  "Delta, Utah": {
+    "state": "49",
+    "place": "18910",
+    "population": "3622"
+  },
+  "Draper, Utah": {
+    "state": "49",
+    "place": "20120",
+    "population": "51017"
+  },
+  "Duchesne, Utah": {
+    "state": "49",
+    "place": "20340",
+    "population": "1588"
+  },
+  "Eagle Mountain, Utah": {
+    "state": "49",
+    "place": "20810",
+    "population": "43623"
+  },
+  "East Carbon, Utah": {
+    "state": "49",
+    "place": "20890",
+    "population": "1556"
+  },
+  "Elk Ridge, Utah": {
+    "state": "49",
+    "place": "22370",
+    "population": "4687"
+  },
+  "Enoch, Utah": {
+    "state": "49",
+    "place": "23200",
+    "population": "7374"
+  },
+  "Enterprise, Utah": {
+    "state": "49",
+    "place": "23420",
+    "population": "2027"
+  },
+  "Ephraim, Utah": {
+    "state": "49",
+    "place": "23530",
+    "population": "5611"
+  },
+  "Escalante, Utah": {
+    "state": "49",
+    "place": "23750",
+    "population": "786"
+  },
+  "Eureka, Utah": {
+    "state": "49",
+    "place": "24080",
+    "population": "662"
+  },
+  "Fairview, Utah": {
+    "state": "49",
+    "place": "24630",
+    "population": "1203"
+  },
+  "Farmington, Utah": {
+    "state": "49",
+    "place": "24740",
+    "population": "24531"
+  },
+  "Farr West, Utah": {
+    "state": "49",
+    "place": "24850",
+    "population": "7691"
+  },
+  "Ferron, Utah": {
+    "state": "49",
+    "place": "25180",
+    "population": "1474"
+  },
+  "Fillmore, Utah": {
+    "state": "49",
+    "place": "25510",
+    "population": "2592"
+  },
+  "Fountain Green, Utah": {
+    "state": "49",
+    "place": "26720",
+    "population": "1197"
+  },
+  "Fruit Heights, Utah": {
+    "state": "49",
+    "place": "27490",
+    "population": "6101"
+  },
+  "Garland, Utah": {
+    "state": "49",
+    "place": "28150",
+    "population": "2589"
+  },
+  "Grantsville, Utah": {
+    "state": "49",
+    "place": "31120",
+    "population": "12617"
+  },
+  "Green River, Utah": {
+    "state": "49",
+    "place": "31670",
+    "population": "847"
+  },
+  "Gunnison, Utah": {
+    "state": "49",
+    "place": "32660",
+    "population": "3509"
+  },
+  "Harrisville, Utah": {
+    "state": "49",
+    "place": "33540",
+    "population": "7036"
+  },
+  "Heber, Utah": {
+    "state": "49",
+    "place": "34200",
+    "population": "16856"
+  },
+  "Helper, Utah": {
+    "state": "49",
+    "place": "34530",
+    "population": "2112"
+  },
+  "Herriman, Utah": {
+    "state": "49",
+    "place": "34970",
+    "population": "55144"
+  },
+  "Highland, Utah": {
+    "state": "49",
+    "place": "35190",
+    "population": "19348"
+  },
+  "Hildale, Utah": {
+    "state": "49",
+    "place": "35300",
+    "population": "1127"
+  },
+  "Holladay, Utah": {
+    "state": "49",
+    "place": "36070",
+    "population": "31965"
+  },
+  "Honeyville, Utah": {
+    "state": "49",
+    "place": "36290",
+    "population": "1606"
+  },
+  "Hooper, Utah": {
+    "state": "49",
+    "place": "36400",
+    "population": "9087"
+  },
+  "Huntington, Utah": {
+    "state": "49",
+    "place": "36950",
+    "population": "1914"
+  },
+  "Hurricane, Utah": {
+    "state": "49",
+    "place": "37170",
+    "population": "20036"
+  },
+  "Hyde Park, Utah": {
+    "state": "49",
+    "place": "37390",
+    "population": "5234"
+  },
+  "Hyrum, Utah": {
+    "state": "49",
+    "place": "37500",
+    "population": "9362"
+  },
+  "Ivins, Utah": {
+    "state": "49",
+    "place": "38710",
+    "population": "8978"
+  },
+  "Kamas, Utah": {
+    "state": "49",
+    "place": "39810",
+    "population": "2092"
+  },
+  "Kanab, Utah": {
+    "state": "49",
+    "place": "39920",
+    "population": "4683"
+  },
+  "Kaysville, Utah": {
+    "state": "49",
+    "place": "40360",
+    "population": "32945"
+  },
+  "La Verkin, Utah": {
+    "state": "49",
+    "place": "43440",
+    "population": "4354"
+  },
+  "Layton, Utah": {
+    "state": "49",
+    "place": "43660",
+    "population": "81773"
+  },
+  "Lehi, Utah": {
+    "state": "49",
+    "place": "44320",
+    "population": "75907"
+  },
+  "Lewiston, Utah": {
+    "state": "49",
+    "place": "44760",
+    "population": "1939"
+  },
+  "Lindon, Utah": {
+    "state": "49",
+    "place": "45090",
+    "population": "11397"
+  },
+  "Logan, Utah": {
+    "state": "49",
+    "place": "45860",
+    "population": "52778"
+  },
+  "Manti, Utah": {
+    "state": "49",
+    "place": "47730",
+    "population": "3429"
+  },
+  "Mapleton, Utah": {
+    "state": "49",
+    "place": "47950",
+    "population": "11365"
+  },
+  "Marriott-Slaterville, Utah": {
+    "state": "49",
+    "place": "48300",
+    "population": "2135"
+  },
+  "Mendon, Utah": {
+    "state": "49",
+    "place": "49160",
+    "population": "1339"
+  },
+  "Midvale, Utah": {
+    "state": "49",
+    "place": "49710",
+    "population": "36028"
+  },
+  "Midway, Utah": {
+    "state": "49",
+    "place": "49820",
+    "population": "6003"
+  },
+  "Milford, Utah": {
+    "state": "49",
+    "place": "50040",
+    "population": "1431"
+  },
+  "Millcreek, Utah": {
+    "state": "49",
+    "place": "50150",
+    "population": "63380"
+  },
+  "Millville, Utah": {
+    "state": "49",
+    "place": "50370",
+    "population": "2326"
+  },
+  "Moab, Utah": {
+    "state": "49",
+    "place": "50700",
+    "population": "5366"
+  },
+  "Mona, Utah": {
+    "state": "49",
+    "place": "51140",
+    "population": "1750"
+  },
+  "Monroe, Utah": {
+    "state": "49",
+    "place": "51360",
+    "population": "2515"
+  },
+  "Monticello, Utah": {
+    "state": "49",
+    "place": "51580",
+    "population": "1824"
+  },
+  "Morgan, Utah": {
+    "state": "49",
+    "place": "51910",
+    "population": "4071"
+  },
+  "Moroni, Utah": {
+    "state": "49",
+    "place": "52130",
+    "population": "1544"
+  },
+  "Mount Pleasant, Utah": {
+    "state": "49",
+    "place": "53010",
+    "population": "3655"
+  },
+  "Murray, Utah": {
+    "state": "49",
+    "place": "53230",
+    "population": "50637"
+  },
+  "Myton, Utah": {
+    "state": "49",
+    "place": "53340",
+    "population": "561"
+  },
+  "Naples, Utah": {
+    "state": "49",
+    "place": "53560",
+    "population": "2280"
+  },
+  "Nephi, Utah": {
+    "state": "49",
+    "place": "54220",
+    "population": "6443"
+  },
+  "Nibley, Utah": {
+    "state": "49",
+    "place": "54660",
+    "population": "7328"
+  },
+  "North Logan, Utah": {
+    "state": "49",
+    "place": "54990",
+    "population": "10986"
+  },
+  "North Ogden, Utah": {
+    "state": "49",
+    "place": "55100",
+    "population": "20916"
+  },
+  "North Salt Lake, Utah": {
+    "state": "49",
+    "place": "55210",
+    "population": "21907"
+  },
+  "Oakley, Utah": {
+    "state": "49",
+    "place": "55650",
+    "population": "1588"
+  },
+  "Ogden, Utah": {
+    "state": "49",
+    "place": "55980",
+    "population": "87321"
+  },
+  "Orangeville, Utah": {
+    "state": "49",
+    "place": "56860",
+    "population": "1224"
+  },
+  "Orem, Utah": {
+    "state": "49",
+    "place": "57300",
+    "population": "98129"
+  },
+  "Panguitch, Utah": {
+    "state": "49",
+    "place": "57740",
+    "population": "1725"
+  },
+  "Park City, Utah": {
+    "state": "49",
+    "place": "58070",
+    "population": "8396"
+  },
+  "Parowan, Utah": {
+    "state": "49",
+    "place": "58510",
+    "population": "2996"
+  },
+  "Payson, Utah": {
+    "state": "49",
+    "place": "58730",
+    "population": "21101"
+  },
+  "Perry, Utah": {
+    "state": "49",
+    "place": "59390",
+    "population": "5555"
+  },
+  "Plain City, Utah": {
+    "state": "49",
+    "place": "60710",
+    "population": "7833"
+  },
+  "Pleasant Grove, Utah": {
+    "state": "49",
+    "place": "60930",
+    "population": "37726"
+  },
+  "Pleasant View, Utah": {
+    "state": "49",
+    "place": "61150",
+    "population": "11083"
+  },
+  "Price, Utah": {
+    "state": "49",
+    "place": "62030",
+    "population": "8216"
+  },
+  "Providence, Utah": {
+    "state": "49",
+    "place": "62360",
+    "population": "8218"
+  },
+  "Provo, Utah": {
+    "state": "49",
+    "place": "62470",
+    "population": "115162"
+  },
+  "Richfield, Utah": {
+    "state": "49",
+    "place": "63570",
+    "population": "8201"
+  },
+  "Richmond, Utah": {
+    "state": "49",
+    "place": "63680",
+    "population": "2914"
+  },
+  "Riverdale, Utah": {
+    "state": "49",
+    "place": "64010",
+    "population": "9343"
+  },
+  "River Heights, Utah": {
+    "state": "49",
+    "place": "64120",
+    "population": "2144"
+  },
+  "Riverton, Utah": {
+    "state": "49",
+    "place": "64340",
+    "population": "45285"
+  },
+  "Roosevelt, Utah": {
+    "state": "49",
+    "place": "64670",
+    "population": "6747"
+  },
+  "Roy, Utah": {
+    "state": "49",
+    "place": "65110",
+    "population": "39306"
+  },
+  "St. George, Utah": {
+    "state": "49",
+    "place": "65330",
+    "population": "95342"
+  },
+  "Salem, Utah": {
+    "state": "49",
+    "place": "65770",
+    "population": "9298"
+  },
+  "Salina, Utah": {
+    "state": "49",
+    "place": "65880",
+    "population": "2441"
+  },
+  "Salt Lake City, Utah": {
+    "state": "49",
+    "place": "67000",
+    "population": "199723"
+  },
+  "Sandy, Utah": {
+    "state": "49",
+    "place": "67440",
+    "population": "96904"
+  },
+  "Santa Clara, Utah": {
+    "state": "49",
+    "place": "67660",
+    "population": "7553"
+  },
+  "Santaquin, Utah": {
+    "state": "49",
+    "place": "67770",
+    "population": "13725"
+  },
+  "Saratoga Springs, Utah": {
+    "state": "49",
+    "place": "67825",
+    "population": "37696"
+  },
+  "Smithfield, Utah": {
+    "state": "49",
+    "place": "69640",
+    "population": "13571"
+  },
+  "South Jordan, Utah": {
+    "state": "49",
+    "place": "70850",
+    "population": "77487"
+  },
+  "South Ogden, Utah": {
+    "state": "49",
+    "place": "70960",
+    "population": "17488"
+  },
+  "South Salt Lake, Utah": {
+    "state": "49",
+    "place": "71070",
+    "population": "26777"
+  },
+  "South Weber, Utah": {
+    "state": "49",
+    "place": "71180",
+    "population": "7867"
+  },
+  "Spanish Fork, Utah": {
+    "state": "49",
+    "place": "71290",
+    "population": "42602"
+  },
+  "Spring City, Utah": {
+    "state": "49",
+    "place": "71730",
+    "population": "949"
+  },
+  "Springville, Utah": {
+    "state": "49",
+    "place": "72280",
+    "population": "35268"
+  },
+  "Sunset, Utah": {
+    "state": "49",
+    "place": "74480",
+    "population": "5475"
+  },
+  "Syracuse, Utah": {
+    "state": "49",
+    "place": "74810",
+    "population": "32141"
+  },
+  "Taylorsville, Utah": {
+    "state": "49",
+    "place": "75360",
+    "population": "60448"
+  },
+  "Tooele, Utah": {
+    "state": "49",
+    "place": "76680",
+    "population": "35742"
+  },
+  "Toquerville, Utah": {
+    "state": "49",
+    "place": "76900",
+    "population": "1870"
+  },
+  "Tremonton, Utah": {
+    "state": "49",
+    "place": "77120",
+    "population": "9894"
+  },
+  "Vernal, Utah": {
+    "state": "49",
+    "place": "80090",
+    "population": "10079"
+  },
+  "Washington, Utah": {
+    "state": "49",
+    "place": "81960",
+    "population": "27993"
+  },
+  "Washington Terrace, Utah": {
+    "state": "49",
+    "place": "82070",
+    "population": "9267"
+  },
+  "Wellington, Utah": {
+    "state": "49",
+    "place": "82510",
+    "population": "1605"
+  },
+  "Wellsville, Utah": {
+    "state": "49",
+    "place": "82620",
+    "population": "4060"
+  },
+  "Wendover, Utah": {
+    "state": "49",
+    "place": "82730",
+    "population": "1115"
+  },
+  "West Bountiful, Utah": {
+    "state": "49",
+    "place": "82840",
+    "population": "5917"
+  },
+  "West Haven, Utah": {
+    "state": "49",
+    "place": "82930",
+    "population": "16739"
+  },
+  "West Jordan, Utah": {
+    "state": "49",
+    "place": "82950",
+    "population": "116961"
+  },
+  "West Point, Utah": {
+    "state": "49",
+    "place": "83390",
+    "population": "10963"
+  },
+  "West Valley City, Utah": {
+    "state": "49",
+    "place": "83470",
+    "population": "140230"
+  },
+  "Willard, Utah": {
+    "state": "49",
+    "place": "84710",
+    "population": "1978"
+  },
+  "Woodland Hills, Utah": {
+    "state": "49",
+    "place": "85050",
+    "population": "1521"
+  },
+  "Woods Cross, Utah": {
+    "state": "49",
+    "place": "85370",
+    "population": "11410"
+  },
+  "Alpine, Utah": {
+    "state": "49",
+    "place": "00540",
+    "population": "10251"
+  },
+  "American Fork, Utah": {
+    "state": "49",
+    "place": "01310",
+    "population": "33337"
+  },
+  "Aurora, Utah": {
+    "state": "49",
+    "place": "02740",
+    "population": "984"
+  },
+  "Bear River City, Utah": {
+    "state": "49",
+    "place": "03950",
+    "population": "877"
+  },
+  "Beaver, Utah": {
+    "state": "49",
+    "place": "04060",
+    "population": "3592"
+  },
+  "Blanding, Utah": {
+    "state": "49",
+    "place": "06370",
+    "population": "3394"
+  },
+  "Bluffdale, Utah": {
+    "state": "49",
+    "place": "06810",
+    "population": "17014"
+  },
+  "Bountiful, Utah": {
+    "state": "49",
+    "place": "07690",
+    "population": "45762"
+  },
+  "Brigham City, Utah": {
+    "state": "49",
+    "place": "08460",
+    "population": "19650"
+  },
+  "Castle Dale, Utah": {
+    "state": "49",
+    "place": "10660",
+    "population": "1492"
+  },
+  "Cedar City, Utah": {
+    "state": "49",
+    "place": "11320",
+    "population": "35235"
+  },
+  "Cedar Hills, Utah": {
+    "state": "49",
+    "place": "11440",
+    "population": "10019"
+  },
+  "Centerville, Utah": {
+    "state": "49",
+    "place": "11980",
+    "population": "16884"
+  },
+  "Clearfield, Utah": {
+    "state": "49",
+    "place": "13850",
+    "population": "31909"
+  },
+  "Clinton, Utah": {
+    "state": "49",
+    "place": "14290",
+    "population": "23386"
+  },
+  "Coalville, Utah": {
+    "state": "49",
+    "place": "14840",
+    "population": "1486"
+  },
+  "Corinne, Utah": {
+    "state": "49",
+    "place": "15830",
+    "population": "809"
+  },
+  "Cottonwood Heights, Utah": {
+    "state": "49",
+    "place": "16270",
+    "population": "33617"
+  }
+}

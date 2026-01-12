@@ -1,0 +1,687 @@
+{
+  "Mountain Park, Georgia": {
+    "state": "13",
+    "place": "53186",
+    "population": "13089"
+  },
+  "Musella, Georgia": {
+    "state": "13",
+    "place": "54012",
+    "population": "104"
+  },
+  "Naylor, Georgia": {
+    "state": "13",
+    "place": "54404",
+    "population": "139"
+  },
+  "New England, Georgia": {
+    "state": "13",
+    "place": "54768",
+    "population": "546"
+  },
+  "Norristown, Georgia": {
+    "state": "13",
+    "place": "55944",
+    "population": "54"
+  },
+  "North Decatur, Georgia": {
+    "state": "13",
+    "place": "56112",
+    "population": "18511"
+  },
+  "North Druid Hills, Georgia": {
+    "state": "13",
+    "place": "56168",
+    "population": "20385"
+  },
+  "Ohoopee, Georgia": {
+    "state": "13",
+    "place": "57876",
+    "population": "29"
+  },
+  "Panthersville, Georgia": {
+    "state": "13",
+    "place": "59080",
+    "population": "11237"
+  },
+  "Perkins, Georgia": {
+    "state": "13",
+    "place": "60312",
+    "population": "93"
+  },
+  "Phillipsburg, Georgia": {
+    "state": "13",
+    "place": "60508",
+    "population": "640"
+  },
+  "Piney Grove, Georgia": {
+    "state": "13",
+    "place": "61376",
+    "population": "434"
+  },
+  "Putney, Georgia": {
+    "state": "13",
+    "place": "63084",
+    "population": "2869"
+  },
+  "Raoul, Georgia": {
+    "state": "13",
+    "place": "63588",
+    "population": "2803"
+  },
+  "Redan, Georgia": {
+    "state": "13",
+    "place": "63952",
+    "population": "31749"
+  },
+  "Reed Creek, Georgia": {
+    "state": "13",
+    "place": "64288",
+    "population": "2724"
+  },
+  "Robins AFB, Georgia": {
+    "state": "13",
+    "place": "65968",
+    "population": "1061"
+  },
+  "Rockingham, Georgia": {
+    "state": "13",
+    "place": "66220",
+    "population": "230"
+  },
+  "Rock Spring, Georgia": {
+    "state": "13",
+    "place": "66304",
+    "population": "891"
+  },
+  "Russell, Georgia": {
+    "state": "13",
+    "place": "67676",
+    "population": "1322"
+  },
+  "St. Simons, Georgia": {
+    "state": "13",
+    "place": "68040",
+    "population": "14982"
+  },
+  "Salem, Georgia": {
+    "state": "13",
+    "place": "68129",
+    "population": "307"
+  },
+  "Satilla, Georgia": {
+    "state": "13",
+    "place": "68805",
+    "population": "487"
+  },
+  "Sautee-Nacoochee, Georgia": {
+    "state": "13",
+    "place": "68880",
+    "population": "332"
+  },
+  "Scottdale, Georgia": {
+    "state": "13",
+    "place": "69392",
+    "population": "10698"
+  },
+  "Seville, Georgia": {
+    "state": "13",
+    "place": "69728",
+    "population": "197"
+  },
+  "Shannon, Georgia": {
+    "state": "13",
+    "place": "69868",
+    "population": "1919"
+  },
+  "Skidaway Island, Georgia": {
+    "state": "13",
+    "place": "71184",
+    "population": "9310"
+  },
+  "Smarr, Georgia": {
+    "state": "13",
+    "place": "71296",
+    "population": "218"
+  },
+  "Sterling, Georgia": {
+    "state": "13",
+    "place": "73452",
+    "population": "2534"
+  },
+  "Stockton, Georgia": {
+    "state": "13",
+    "place": "73760",
+    "population": "135"
+  },
+  "Sunnyside, Georgia": {
+    "state": "13",
+    "place": "74628",
+    "population": "1472"
+  },
+  "Sunset Village, Georgia": {
+    "state": "13",
+    "place": "74768",
+    "population": "921"
+  },
+  "Talahi Island, Georgia": {
+    "state": "13",
+    "place": "75239",
+    "population": "1247"
+  },
+  "Tate City, Georgia": {
+    "state": "13",
+    "place": "75580",
+    "population": "27"
+  },
+  "Tazewell, Georgia": {
+    "state": "13",
+    "place": "75692",
+    "population": "93"
+  },
+  "The Rock, Georgia": {
+    "state": "13",
+    "place": "76112",
+    "population": "179"
+  },
+  "Unionville, Georgia": {
+    "state": "13",
+    "place": "78464",
+    "population": "1688"
+  },
+  "Vinings, Georgia": {
+    "state": "13",
+    "place": "79612",
+    "population": "12581"
+  },
+  "Waresboro, Georgia": {
+    "state": "13",
+    "place": "80368",
+    "population": "375"
+  },
+  "Warthen, Georgia": {
+    "state": "13",
+    "place": "80648",
+    "population": "132"
+  },
+  "Waverly, Georgia": {
+    "state": "13",
+    "place": "80816",
+    "population": "281"
+  },
+  "Waynesville, Georgia": {
+    "state": "13",
+    "place": "81012",
+    "population": "331"
+  },
+  "Wenona, Georgia": {
+    "state": "13",
+    "place": "81208",
+    "population": "231"
+  },
+  "West Brow, Georgia": {
+    "state": "13",
+    "place": "81488",
+    "population": "887"
+  },
+  "Whitemarsh Island, Georgia": {
+    "state": "13",
+    "place": "82636",
+    "population": "6983"
+  },
+  "Wildwood, Georgia": {
+    "state": "13",
+    "place": "82916",
+    "population": "382"
+  },
+  "Wilmington Island, Georgia": {
+    "state": "13",
+    "place": "83168",
+    "population": "15129"
+  },
+  "Yonah, Georgia": {
+    "state": "13",
+    "place": "84832",
+    "population": "657"
+  },
+  "Antioch, Georgia": {
+    "state": "13",
+    "place": "02364",
+    "population": "613"
+  },
+  "Appling, Georgia": {
+    "state": "13",
+    "place": "02536",
+    "population": "658"
+  },
+  "Axson, Georgia": {
+    "state": "13",
+    "place": "04700",
+    "population": "360"
+  },
+  "Belvedere Park, Georgia": {
+    "state": "13",
+    "place": "06884",
+    "population": "15113"
+  },
+  "Bemiss, Georgia": {
+    "state": "13",
+    "place": "06968",
+    "population": "8999"
+  },
+  "Berry College, Georgia": {
+    "state": "13",
+    "place": "07380",
+    "population": "1565"
+  },
+  "Bolingbroke, Georgia": {
+    "state": "13",
+    "place": "09152",
+    "population": "497"
+  },
+  "Bonanza, Georgia": {
+    "state": "13",
+    "place": "09272",
+    "population": "4406"
+  },
+  "Box Springs, Georgia": {
+    "state": "13",
+    "place": "09768",
+    "population": "303"
+  },
+  "Boykin, Georgia": {
+    "state": "13",
+    "place": "09852",
+    "population": "151"
+  },
+  "Bristol, Georgia": {
+    "state": "13",
+    "place": "10664",
+    "population": "122"
+  },
+  "Buckhead, Georgia": {
+    "state": "13",
+    "place": "11626",
+    "population": "4441"
+  },
+  "Calvary, Georgia": {
+    "state": "13",
+    "place": "12484",
+    "population": "129"
+  },
+  "Candler-McAfee, Georgia": {
+    "state": "13",
+    "place": "12834",
+    "population": "22468"
+  },
+  "Canoochee, Georgia": {
+    "state": "13",
+    "place": "12960",
+    "population": "70"
+  },
+  "Cataula, Georgia": {
+    "state": "13",
+    "place": "14024",
+    "population": "1433"
+  },
+  "Cedar Springs, Georgia": {
+    "state": "13",
+    "place": "14472",
+    "population": "75"
+  },
+  "Chattanooga Valley, Georgia": {
+    "state": "13",
+    "place": "15585",
+    "population": "3962"
+  },
+  "Cherry Log, Georgia": {
+    "state": "13",
+    "place": "15844",
+    "population": "99"
+  },
+  "Clyattville, Georgia": {
+    "state": "13",
+    "place": "17132",
+    "population": "552"
+  },
+  "Cogdell, Georgia": {
+    "state": "13",
+    "place": "17468",
+    "population": "23"
+  },
+  "Coleman, Georgia": {
+    "state": "13",
+    "place": "17580",
+    "population": "116"
+  },
+  "Conley, Georgia": {
+    "state": "13",
+    "place": "19280",
+    "population": "6680"
+  },
+  "Country Club Estates, Georgia": {
+    "state": "13",
+    "place": "19830",
+    "population": "8373"
+  },
+  "Crescent, Georgia": {
+    "state": "13",
+    "place": "20372",
+    "population": "838"
+  },
+  "Crooked Creek, Georgia": {
+    "state": "13",
+    "place": "20550",
+    "population": "685"
+  },
+  "Deenwood, Georgia": {
+    "state": "13",
+    "place": "22080",
+    "population": "2207"
+  },
+  "Dewy Rose, Georgia": {
+    "state": "13",
+    "place": "22724",
+    "population": "161"
+  },
+  "Dixie, Georgia": {
+    "state": "13",
+    "place": "23060",
+    "population": "121"
+  },
+  "Dixie Union, Georgia": {
+    "state": "13",
+    "place": "23144",
+    "population": "184"
+  },
+  "Dock Junction, Georgia": {
+    "state": "13",
+    "place": "23200",
+    "population": "8266"
+  },
+  "Druid Hills, Georgia": {
+    "state": "13",
+    "place": "24264",
+    "population": "9429"
+  },
+  "Dutch Island, Georgia": {
+    "state": "13",
+    "place": "24876",
+    "population": "1238"
+  },
+  "Eagle Grove, Georgia": {
+    "state": "13",
+    "place": "24964",
+    "population": "139"
+  },
+  "East Griffin, Georgia": {
+    "state": "13",
+    "place": "25440",
+    "population": "1561"
+  },
+  "East Newnan, Georgia": {
+    "state": "13",
+    "place": "25692",
+    "population": "1022"
+  },
+  "Ellerslie, Georgia": {
+    "state": "13",
+    "place": "27064",
+    "population": "1053"
+  },
+  "Empire, Georgia": {
+    "state": "13",
+    "place": "27512",
+    "population": "319"
+  },
+  "Epworth, Georgia": {
+    "state": "13",
+    "place": "27736",
+    "population": "668"
+  },
+  "Eulonia, Georgia": {
+    "state": "13",
+    "place": "28016",
+    "population": "351"
+  },
+  "Evans, Georgia": {
+    "state": "13",
+    "place": "28044",
+    "population": "34536"
+  },
+  "Everett, Georgia": {
+    "state": "13",
+    "place": "28100",
+    "population": "158"
+  },
+  "Experiment, Georgia": {
+    "state": "13",
+    "place": "28296",
+    "population": "3328"
+  },
+  "Faceville, Georgia": {
+    "state": "13",
+    "place": "28324",
+    "population": "136"
+  },
+  "Fairfield Plantation, Georgia": {
+    "state": "13",
+    "place": "28440",
+    "population": "4898"
+  },
+  "Fair Oaks, Georgia": {
+    "state": "13",
+    "place": "28520",
+    "population": "9028"
+  },
+  "Fairplay, Georgia": {
+    "state": "13",
+    "place": "28548",
+    "population": "1267"
+  },
+  "Fairview, Georgia": {
+    "state": "13",
+    "place": "28632",
+    "population": "6409"
+  },
+  "Fort Stewart, Georgia": {
+    "state": "13",
+    "place": "31068",
+    "population": "8821"
+  },
+  "Gardi, Georgia": {
+    "state": "13",
+    "place": "32132",
+    "population": "91"
+  },
+  "Georgetown, Georgia": {
+    "state": "13",
+    "place": "32482",
+    "population": "11916"
+  },
+  "Glenn, Georgia": {
+    "state": "13",
+    "place": "33280",
+    "population": "101"
+  },
+  "Godfrey, Georgia": {
+    "state": "13",
+    "place": "33672",
+    "population": "108"
+  },
+  "Gough, Georgia": {
+    "state": "13",
+    "place": "34176",
+    "population": "137"
+  },
+  "Gresham Park, Georgia": {
+    "state": "13",
+    "place": "35240",
+    "population": "7700"
+  },
+  "Gumlog, Georgia": {
+    "state": "13",
+    "place": "35814",
+    "population": "2358"
+  },
+  "Hannahs Mill, Georgia": {
+    "state": "13",
+    "place": "36416",
+    "population": "3121"
+  },
+  "Hardwick, Georgia": {
+    "state": "13",
+    "place": "36668",
+    "population": "3513"
+  },
+  "Henderson, Georgia": {
+    "state": "13",
+    "place": "37910",
+    "population": "2178"
+  },
+  "Heron Bay, Georgia": {
+    "state": "13",
+    "place": "38105",
+    "population": "4679"
+  },
+  "Hickox, Georgia": {
+    "state": "13",
+    "place": "38292",
+    "population": "234"
+  },
+  "Hilltop, Georgia": {
+    "state": "13",
+    "place": "38866",
+    "population": "245"
+  },
+  "Hortense, Georgia": {
+    "state": "13",
+    "place": "40028",
+    "population": "252"
+  },
+  "Howard, Georgia": {
+    "state": "13",
+    "place": "40196",
+    "population": "50"
+  },
+  "Indian Springs, Georgia": {
+    "state": "13",
+    "place": "41036",
+    "population": "2336"
+  },
+  "Irondale, Georgia": {
+    "state": "13",
+    "place": "41347",
+    "population": "8740"
+  },
+  "Isle of Hope, Georgia": {
+    "state": "13",
+    "place": "41484",
+    "population": "2357"
+  },
+  "Jekyll Island, Georgia": {
+    "state": "13",
+    "place": "42128",
+    "population": "866"
+  },
+  "Juliette, Georgia": {
+    "state": "13",
+    "place": "42772",
+    "population": "290"
+  },
+  "Kennesaw State University, Georgia": {
+    "state": "13",
+    "place": "43210",
+    "population": "382"
+  },
+  "Kings Bay Base, Georgia": {
+    "state": "13",
+    "place": "43580",
+    "population": "2329"
+  },
+  "Knoxville, Georgia": {
+    "state": "13",
+    "place": "44060",
+    "population": "65"
+  },
+  "Lakeview, Georgia": {
+    "state": "13",
+    "place": "44900",
+    "population": "4777"
+  },
+  "Lakeview Estates, Georgia": {
+    "state": "13",
+    "place": "44956",
+    "population": "2660"
+  },
+  "Lincoln Park, Georgia": {
+    "state": "13",
+    "place": "46524",
+    "population": "817"
+  },
+  "Lindale, Georgia": {
+    "state": "13",
+    "place": "46580",
+    "population": "4283"
+  },
+  "Lithia Springs, Georgia": {
+    "state": "13",
+    "place": "46832",
+    "population": "16644"
+  },
+  "Mableton, Georgia": {
+    "state": "13",
+    "place": "48288",
+    "population": "40834"
+  },
+  "Manor, Georgia": {
+    "state": "13",
+    "place": "49588",
+    "population": "94"
+  },
+  "Martinez, Georgia": {
+    "state": "13",
+    "place": "50036",
+    "population": "34535"
+  },
+  "Matthews, Georgia": {
+    "state": "13",
+    "place": "50176",
+    "population": "146"
+  },
+  "Mendes, Georgia": {
+    "state": "13",
+    "place": "50820",
+    "population": "124"
+  },
+  "Mershon, Georgia": {
+    "state": "13",
+    "place": "50960",
+    "population": "44"
+  },
+  "Millwood, Georgia": {
+    "state": "13",
+    "place": "51576",
+    "population": "72"
+  },
+  "Milstead, Georgia": {
+    "state": "13",
+    "place": "51660",
+    "population": "628"
+  },
+  "Mineral Bluff, Georgia": {
+    "state": "13",
+    "place": "51744",
+    "population": "223"
+  },
+  "Montgomery, Georgia": {
+    "state": "13",
+    "place": "52332",
+    "population": "4443"
+  },
+  "Moody AFB, Georgia": {
+    "state": "13",
+    "place": "52556",
+    "population": "1307"
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "Baker, Montana": {
+    "state": "30",
+    "place": "03475",
+    "population": "1802"
+  },
+  "Belgrade, Montana": {
+    "state": "30",
+    "place": "04975",
+    "population": "10460"
+  },
+  "Big Timber, Montana": {
+    "state": "30",
+    "place": "06475",
+    "population": "1650"
+  },
+  "Billings, Montana": {
+    "state": "30",
+    "place": "06550",
+    "population": "117116"
+  },
+  "Boulder, Montana": {
+    "state": "30",
+    "place": "08575",
+    "population": "1201"
+  },
+  "Bozeman, Montana": {
+    "state": "30",
+    "place": "08950",
+    "population": "53293"
+  },
+  "Chinook, Montana": {
+    "state": "30",
+    "place": "14575",
+    "population": "1185"
+  },
+  "Choteau, Montana": {
+    "state": "30",
+    "place": "14650",
+    "population": "1721"
+  },
+  "Colstrip, Montana": {
+    "state": "30",
+    "place": "16525",
+    "population": "2096"
+  },
+  "Columbia Falls, Montana": {
+    "state": "30",
+    "place": "16600",
+    "population": "5308"
+  },
+  "Conrad, Montana": {
+    "state": "30",
+    "place": "17275",
+    "population": "2318"
+  },
+  "Cut Bank, Montana": {
+    "state": "30",
+    "place": "18775",
+    "population": "3056"
+  },
+  "Deer Lodge, Montana": {
+    "state": "30",
+    "place": "19825",
+    "population": "2938"
+  },
+  "Dillon, Montana": {
+    "state": "30",
+    "place": "20800",
+    "population": "3880"
+  },
+  "East Helena, Montana": {
+    "state": "30",
+    "place": "23125",
+    "population": "1944"
+  },
+  "Forsyth, Montana": {
+    "state": "30",
+    "place": "27700",
+    "population": "1647"
+  },
+  "Fort Benton, Montana": {
+    "state": "30",
+    "place": "28000",
+    "population": "1449"
+  },
+  "Glasgow, Montana": {
+    "state": "30",
+    "place": "31075",
+    "population": "3202"
+  },
+  "Glendive, Montana": {
+    "state": "30",
+    "place": "31450",
+    "population": "4873"
+  },
+  "Great Falls, Montana": {
+    "state": "30",
+    "place": "32800",
+    "population": "60442"
+  },
+  "Hamilton, Montana": {
+    "state": "30",
+    "place": "33775",
+    "population": "4659"
+  },
+  "Hardin, Montana": {
+    "state": "30",
+    "place": "34225",
+    "population": "3818"
+  },
+  "Harlem, Montana": {
+    "state": "30",
+    "place": "34375",
+    "population": "769"
+  },
+  "Harlowton, Montana": {
+    "state": "30",
+    "place": "34450",
+    "population": "955"
+  },
+  "Havre, Montana": {
+    "state": "30",
+    "place": "35050",
+    "population": "9362"
+  },
+  "Helena, Montana": {
+    "state": "30",
+    "place": "35600",
+    "population": "32091"
+  },
+  "Hobson, Montana": {
+    "state": "30",
+    "place": "36700",
+    "population": "179"
+  },
+  "Judith Gap, Montana": {
+    "state": "30",
+    "place": "40000",
+    "population": "110"
+  },
+  "Kalispell, Montana": {
+    "state": "30",
+    "place": "40075",
+    "population": "24558"
+  },
+  "Laurel, Montana": {
+    "state": "30",
+    "place": "42700",
+    "population": "7222"
+  },
+  "Lewistown, Montana": {
+    "state": "30",
+    "place": "43375",
+    "population": "5952"
+  },
+  "Libby, Montana": {
+    "state": "30",
+    "place": "43450",
+    "population": "2775"
+  },
+  "Livingston, Montana": {
+    "state": "30",
+    "place": "43975",
+    "population": "8040"
+  },
+  "Malta, Montana": {
+    "state": "30",
+    "place": "47425",
+    "population": "1860"
+  },
+  "Miles City, Montana": {
+    "state": "30",
+    "place": "49525",
+    "population": "8354"
+  },
+  "Missoula, Montana": {
+    "state": "30",
+    "place": "50200",
+    "population": "73489"
+  },
+  "Plentywood, Montana": {
+    "state": "30",
+    "place": "58375",
+    "population": "1669"
+  },
+  "Polson, Montana": {
+    "state": "30",
+    "place": "58750",
+    "population": "5148"
+  },
+  "Poplar, Montana": {
+    "state": "30",
+    "place": "58975",
+    "population": "758"
+  },
+  "Red Lodge, Montana": {
+    "state": "30",
+    "place": "61525",
+    "population": "2257"
+  },
+  "Ronan, Montana": {
+    "state": "30",
+    "place": "64150",
+    "population": "1955"
+  },
+  "Roundup, Montana": {
+    "state": "30",
+    "place": "64525",
+    "population": "1742"
+  },
+  "Scobey, Montana": {
+    "state": "30",
+    "place": "66925",
+    "population": "999"
+  },
+  "Shelby, Montana": {
+    "state": "30",
+    "place": "67450",
+    "population": "3169"
+  },
+  "Sidney, Montana": {
+    "state": "30",
+    "place": "67900",
+    "population": "6346"
+  },
+  "Thompson Falls, Montana": {
+    "state": "30",
+    "place": "73825",
+    "population": "1336"
+  },
+  "Three Forks, Montana": {
+    "state": "30",
+    "place": "73975",
+    "population": "1989"
+  },
+  "Townsend, Montana": {
+    "state": "30",
+    "place": "74575",
+    "population": "1787"
+  },
+  "Troy, Montana": {
+    "state": "30",
+    "place": "75025",
+    "population": "797"
+  },
+  "Whitefish, Montana": {
+    "state": "30",
+    "place": "79825",
+    "population": "7751"
+  },
+  "White Sulphur Springs, Montana": {
+    "state": "30",
+    "place": "80050",
+    "population": "955"
+  },
+  "Wolf Point, Montana": {
+    "state": "30",
+    "place": "81475",
+    "population": "2517"
+  }
+}

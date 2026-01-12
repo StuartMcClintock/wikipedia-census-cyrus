@@ -1,0 +1,32 @@
+{
+  "Rose Hill CDP (Fairfax County), Virginia": {
+    "state": "51",
+    "place": "68880",
+    "population": "21045"
+  },
+  "Rose Hill CDP (Lee County), Virginia": {
+    "state": "51",
+    "place": "68885",
+    "population": "729"
+  },
+  "Woodlawn CDP (Carroll County), Virginia": {
+    "state": "51",
+    "place": "87408",
+    "population": "2045"
+  },
+  "Woodlawn CDP (Fairfax County), Virginia": {
+    "state": "51",
+    "place": "87410",
+    "population": "20859"
+  },
+  "Bull Run CDP (Fairfax County), Virginia": {
+    "state": "51",
+    "place": "11224",
+    "population": "6972"
+  },
+  "Bull Run CDP (Prince William County), Virginia": {
+    "state": "51",
+    "place": "11230",
+    "population": "16794"
+  }
+}

@@ -1,0 +1,877 @@
+{
+  "Fedora, South Dakota": {
+    "state": "46",
+    "place": "21340",
+    "population": "26"
+  },
+  "Ferney, South Dakota": {
+    "state": "46",
+    "place": "21380",
+    "population": "42"
+  },
+  "Fordham Colony, South Dakota": {
+    "state": "46",
+    "place": "22070",
+    "population": "0"
+  },
+  "Forestburg, South Dakota": {
+    "state": "46",
+    "place": "22100",
+    "population": "54"
+  },
+  "Fort Thompson, South Dakota": {
+    "state": "46",
+    "place": "22340",
+    "population": "1224"
+  },
+  "Gann Valley, South Dakota": {
+    "state": "46",
+    "place": "23421",
+    "population": "10"
+  },
+  "Glendale Colony, South Dakota": {
+    "state": "46",
+    "place": "24540",
+    "population": "176"
+  },
+  "Golden View Colony, South Dakota": {
+    "state": "46",
+    "place": "24760",
+    "population": "95"
+  },
+  "Graceville Colony, South Dakota": {
+    "state": "46",
+    "place": "25020",
+    "population": "21"
+  },
+  "Grassland Colony, South Dakota": {
+    "state": "46",
+    "place": "25741",
+    "population": "127"
+  },
+  "Grass Ranch Colony, South Dakota": {
+    "state": "46",
+    "place": "25743",
+    "population": "14"
+  },
+  "Green Grass, South Dakota": {
+    "state": "46",
+    "place": "25900",
+    "population": "21"
+  },
+  "Green Valley, South Dakota": {
+    "state": "46",
+    "place": "26035",
+    "population": "1051"
+  },
+  "Greenwood Colony, South Dakota": {
+    "state": "46",
+    "place": "26150",
+    "population": "11"
+  },
+  "Hamill, South Dakota": {
+    "state": "46",
+    "place": "26660",
+    "population": "14"
+  },
+  "Harrison, South Dakota": {
+    "state": "46",
+    "place": "27300",
+    "population": "55"
+  },
+  "Hillcrest Colony, South Dakota": {
+    "state": "46",
+    "place": "29116",
+    "population": "94"
+  },
+  "Hillside Colony, South Dakota": {
+    "state": "46",
+    "place": "29300",
+    "population": "123"
+  },
+  "Horse Creek, South Dakota": {
+    "state": "46",
+    "place": "30056",
+    "population": "187"
+  },
+  "Huron Colony, South Dakota": {
+    "state": "46",
+    "place": "31140",
+    "population": "2"
+  },
+  "Hutterville Colony, South Dakota": {
+    "state": "46",
+    "place": "31196",
+    "population": "95"
+  },
+  "Ideal, South Dakota": {
+    "state": "46",
+    "place": "31220",
+    "population": "86"
+  },
+  "Jamesville Colony, South Dakota": {
+    "state": "46",
+    "place": "32388",
+    "population": "110"
+  },
+  "Johnson Siding, South Dakota": {
+    "state": "46",
+    "place": "32820",
+    "population": "614"
+  },
+  "Kaylor, South Dakota": {
+    "state": "46",
+    "place": "33380",
+    "population": "30"
+  },
+  "Kenel, South Dakota": {
+    "state": "46",
+    "place": "33540",
+    "population": "130"
+  },
+  "Kidder, South Dakota": {
+    "state": "46",
+    "place": "33900",
+    "population": "25"
+  },
+  "Kyle, South Dakota": {
+    "state": "46",
+    "place": "34460",
+    "population": "943"
+  },
+  "Lake Madison, South Dakota": {
+    "state": "46",
+    "place": "35430",
+    "population": "829"
+  },
+  "Lake Poinsett, South Dakota": {
+    "state": "46",
+    "place": "35480",
+    "population": "501"
+  },
+  "Lakeview Colony, South Dakota": {
+    "state": "46",
+    "place": "35671",
+    "population": "0"
+  },
+  "Lantry, South Dakota": {
+    "state": "46",
+    "place": "35900",
+    "population": "33"
+  },
+  "La Plant, South Dakota": {
+    "state": "46",
+    "place": "35940",
+    "population": "167"
+  },
+  "Little Eagle, South Dakota": {
+    "state": "46",
+    "place": "37900",
+    "population": "367"
+  },
+  "Long Hollow, South Dakota": {
+    "state": "46",
+    "place": "38760",
+    "population": "265"
+  },
+  "Long Lake Colony, South Dakota": {
+    "state": "46",
+    "place": "38900",
+    "population": "8"
+  },
+  "Loomis, South Dakota": {
+    "state": "46",
+    "place": "39020",
+    "population": "33"
+  },
+  "Lower Brule, South Dakota": {
+    "state": "46",
+    "place": "39180",
+    "population": "703"
+  },
+  "Lyons, South Dakota": {
+    "state": "46",
+    "place": "39740",
+    "population": "70"
+  },
+  "Manderson-White Horse Creek, South Dakota": {
+    "state": "46",
+    "place": "40550",
+    "population": "554"
+  },
+  "Mansfield, South Dakota": {
+    "state": "46",
+    "place": "40580",
+    "population": "86"
+  },
+  "Marty, South Dakota": {
+    "state": "46",
+    "place": "41180",
+    "population": "677"
+  },
+  "Maverick Junction, South Dakota": {
+    "state": "46",
+    "place": "41398",
+    "population": "46"
+  },
+  "Maxwell Colony, South Dakota": {
+    "state": "46",
+    "place": "41420",
+    "population": "254"
+  },
+  "Mayfield Colony, South Dakota": {
+    "state": "46",
+    "place": "41548",
+    "population": "146"
+  },
+  "Meadow View Addition, South Dakota": {
+    "state": "46",
+    "place": "41680",
+    "population": "531"
+  },
+  "Meckling, South Dakota": {
+    "state": "46",
+    "place": "41700",
+    "population": "48"
+  },
+  "Millbrook Colony, South Dakota": {
+    "state": "46",
+    "place": "42440",
+    "population": "98"
+  },
+  "Millerdale Colony, South Dakota": {
+    "state": "46",
+    "place": "42579",
+    "population": "129"
+  },
+  "Milltown, South Dakota": {
+    "state": "46",
+    "place": "42620",
+    "population": "8"
+  },
+  "Mina, South Dakota": {
+    "state": "46",
+    "place": "42700",
+    "population": "554"
+  },
+  "Morningside, South Dakota": {
+    "state": "46",
+    "place": "43780",
+    "population": "70"
+  },
+  "Mountain Plains, South Dakota": {
+    "state": "46",
+    "place": "44032",
+    "population": "327"
+  },
+  "Newdale Colony, South Dakota": {
+    "state": "46",
+    "place": "44800",
+    "population": "6"
+  },
+  "New Elm Spring Colony, South Dakota": {
+    "state": "46",
+    "place": "44900",
+    "population": "100"
+  },
+  "New Holland, South Dakota": {
+    "state": "46",
+    "place": "44940",
+    "population": "77"
+  },
+  "Newport Colony, South Dakota": {
+    "state": "46",
+    "place": "45024",
+    "population": "114"
+  },
+  "Norfeld Colony, South Dakota": {
+    "state": "46",
+    "place": "45390",
+    "population": "9"
+  },
+  "Norris, South Dakota": {
+    "state": "46",
+    "place": "45420",
+    "population": "150"
+  },
+  "North Eagle Butte, South Dakota": {
+    "state": "46",
+    "place": "45548",
+    "population": "1879"
+  },
+  "North Spearfish, South Dakota": {
+    "state": "46",
+    "place": "45715",
+    "population": "2366"
+  },
+  "Oahe Acres, South Dakota": {
+    "state": "46",
+    "place": "46240",
+    "population": "503"
+  },
+  "Oak Lane Colony, South Dakota": {
+    "state": "46",
+    "place": "46388",
+    "population": "138"
+  },
+  "Oglala, South Dakota": {
+    "state": "46",
+    "place": "46540",
+    "population": "1282"
+  },
+  "Okaton, South Dakota": {
+    "state": "46",
+    "place": "46620",
+    "population": "31"
+  },
+  "Okreek, South Dakota": {
+    "state": "46",
+    "place": "46660",
+    "population": "190"
+  },
+  "Ola, South Dakota": {
+    "state": "46",
+    "place": "46700",
+    "population": "15"
+  },
+  "Old Elm Spring Colony, South Dakota": {
+    "state": "46",
+    "place": "46770",
+    "population": "114"
+  },
+  "Oral, South Dakota": {
+    "state": "46",
+    "place": "47340",
+    "population": "66"
+  },
+  "Orland Colony, South Dakota": {
+    "state": "46",
+    "place": "47588",
+    "population": "2"
+  },
+  "Parmelee, South Dakota": {
+    "state": "46",
+    "place": "48500",
+    "population": "606"
+  },
+  "Pearl Creek Colony, South Dakota": {
+    "state": "46",
+    "place": "48820",
+    "population": "99"
+  },
+  "Peever Flats, South Dakota": {
+    "state": "46",
+    "place": "48948",
+    "population": "129"
+  },
+  "Pembrook Colony, South Dakota": {
+    "state": "46",
+    "place": "49028",
+    "population": "135"
+  },
+  "Pine Lakes Addition, South Dakota": {
+    "state": "46",
+    "place": "49640",
+    "population": "306"
+  },
+  "Pine Ridge, South Dakota": {
+    "state": "46",
+    "place": "49660",
+    "population": "3138"
+  },
+  "Plainview Colony, South Dakota": {
+    "state": "46",
+    "place": "49980",
+    "population": "100"
+  },
+  "Platte Colony, South Dakota": {
+    "state": "46",
+    "place": "50310",
+    "population": "299"
+  },
+  "Pleasant Valley Colony, South Dakota": {
+    "state": "46",
+    "place": "50988",
+    "population": "6"
+  },
+  "Poinsett Colony, South Dakota": {
+    "state": "46",
+    "place": "51220",
+    "population": "5"
+  },
+  "Porcupine, South Dakota": {
+    "state": "46",
+    "place": "51340",
+    "population": "925"
+  },
+  "Prairie City, South Dakota": {
+    "state": "46",
+    "place": "51660",
+    "population": "25"
+  },
+  "Prairiewood Village, South Dakota": {
+    "state": "46",
+    "place": "51724",
+    "population": "303"
+  },
+  "Provo, South Dakota": {
+    "state": "46",
+    "place": "52140",
+    "population": "10"
+  },
+  "Rapid Valley, South Dakota": {
+    "state": "46",
+    "place": "53007",
+    "population": "8098"
+  },
+  "Renner Corner, South Dakota": {
+    "state": "46",
+    "place": "54145",
+    "population": "347"
+  },
+  "Richland, South Dakota": {
+    "state": "46",
+    "place": "54750",
+    "population": "97"
+  },
+  "Riverside Colony, South Dakota": {
+    "state": "46",
+    "place": "55220",
+    "population": "72"
+  },
+  "Rockport Colony, South Dakota": {
+    "state": "46",
+    "place": "55620",
+    "population": "77"
+  },
+  "Rolland Colony, South Dakota": {
+    "state": "46",
+    "place": "55684",
+    "population": "53"
+  },
+  "Rosebud, South Dakota": {
+    "state": "46",
+    "place": "55940",
+    "population": "1455"
+  },
+  "Rosedale Colony, South Dakota": {
+    "state": "46",
+    "place": "56140",
+    "population": "0"
+  },
+  "Roswell, South Dakota": {
+    "state": "46",
+    "place": "56420",
+    "population": "8"
+  },
+  "Rowena, South Dakota": {
+    "state": "46",
+    "place": "56580",
+    "population": "68"
+  },
+  "Running Water, South Dakota": {
+    "state": "46",
+    "place": "56820",
+    "population": "47"
+  },
+  "Rustic Acres Colony, South Dakota": {
+    "state": "46",
+    "place": "56964",
+    "population": "132"
+  },
+  "St. Charles, South Dakota": {
+    "state": "46",
+    "place": "57060",
+    "population": "15"
+  },
+  "St. Onge, South Dakota": {
+    "state": "46",
+    "place": "57260",
+    "population": "170"
+  },
+  "Shamrock Colony, South Dakota": {
+    "state": "46",
+    "place": "58310",
+    "population": "88"
+  },
+  "Shannon Colony, South Dakota": {
+    "state": "46",
+    "place": "58332",
+    "population": "1"
+  },
+  "Shindler, South Dakota": {
+    "state": "46",
+    "place": "58590",
+    "population": "607"
+  },
+  "Sicangu Village, South Dakota": {
+    "state": "46",
+    "place": "58680",
+    "population": "276"
+  },
+  "Silver Lake Colony, South Dakota": {
+    "state": "46",
+    "place": "58868",
+    "population": "7"
+  },
+  "Smithwick, South Dakota": {
+    "state": "46",
+    "place": "59620",
+    "population": "39"
+  },
+  "Soldier Creek, South Dakota": {
+    "state": "46",
+    "place": "59700",
+    "population": "205"
+  },
+  "Spink Colony, South Dakota": {
+    "state": "46",
+    "place": "60180",
+    "population": "135"
+  },
+  "Spring Creek, South Dakota": {
+    "state": "46",
+    "place": "60500",
+    "population": "236"
+  },
+  "Spring Creek Colony, South Dakota": {
+    "state": "46",
+    "place": "60540",
+    "population": "229"
+  },
+  "Spring Lake Colony, South Dakota": {
+    "state": "46",
+    "place": "60958",
+    "population": "121"
+  },
+  "Spring Valley Colony, South Dakota": {
+    "state": "46",
+    "place": "61180",
+    "population": "0"
+  },
+  "Stephan, South Dakota": {
+    "state": "46",
+    "place": "61580",
+    "population": "68"
+  },
+  "Storla, South Dakota": {
+    "state": "46",
+    "place": "61940",
+    "population": "6"
+  },
+  "Sunset Colony, South Dakota": {
+    "state": "46",
+    "place": "62434",
+    "population": "142"
+  },
+  "Swift Bird, South Dakota": {
+    "state": "46",
+    "place": "62716",
+    "population": "117"
+  },
+  "Thunderbird Colony, South Dakota": {
+    "state": "46",
+    "place": "63452",
+    "population": "7"
+  },
+  "Tschetter Colony, South Dakota": {
+    "state": "46",
+    "place": "64260",
+    "population": "165"
+  },
+  "Two Strike, South Dakota": {
+    "state": "46",
+    "place": "64840",
+    "population": "282"
+  },
+  "Upland Colony, South Dakota": {
+    "state": "46",
+    "place": "65628",
+    "population": "178"
+  },
+  "Vale, South Dakota": {
+    "state": "46",
+    "place": "65900",
+    "population": "130"
+  },
+  "Vivian, South Dakota": {
+    "state": "46",
+    "place": "67620",
+    "population": "98"
+  },
+  "Wakpala, South Dakota": {
+    "state": "46",
+    "place": "68140",
+    "population": "267"
+  },
+  "Wanblee, South Dakota": {
+    "state": "46",
+    "place": "68580",
+    "population": "674"
+  },
+  "Waverly, South Dakota": {
+    "state": "46",
+    "place": "69420",
+    "population": "22"
+  },
+  "West Brule, South Dakota": {
+    "state": "46",
+    "place": "70284",
+    "population": "538"
+  },
+  "Westwood Colony, South Dakota": {
+    "state": "46",
+    "place": "70646",
+    "population": "8"
+  },
+  "Whitehorse, South Dakota": {
+    "state": "46",
+    "place": "71140",
+    "population": "106"
+  },
+  "White Horse, South Dakota": {
+    "state": "46",
+    "place": "71150",
+    "population": "234"
+  },
+  "White Rock Colony, South Dakota": {
+    "state": "46",
+    "place": "71440",
+    "population": "0"
+  },
+  "Winfred, South Dakota": {
+    "state": "46",
+    "place": "72100",
+    "population": "38"
+  },
+  "Wolf Creek Colony, South Dakota": {
+    "state": "46",
+    "place": "72500",
+    "population": "0"
+  },
+  "Wounded Knee, South Dakota": {
+    "state": "46",
+    "place": "72900",
+    "population": "364"
+  },
+  "Wonderland Homes, South Dakota": {
+    "state": "46",
+    "place": "72590",
+    "population": "718"
+  },
+  "Agency Village, South Dakota": {
+    "state": "46",
+    "place": "00520",
+    "population": "776"
+  },
+  "Allen, South Dakota": {
+    "state": "46",
+    "place": "00900",
+    "population": "460"
+  },
+  "Anderson, South Dakota": {
+    "state": "46",
+    "place": "01450",
+    "population": "388"
+  },
+  "Angostura, South Dakota": {
+    "state": "46",
+    "place": "01560",
+    "population": "159"
+  },
+  "Antelope, South Dakota": {
+    "state": "46",
+    "place": "01740",
+    "population": "830"
+  },
+  "Ardmore, South Dakota": {
+    "state": "46",
+    "place": "01980",
+    "population": "1"
+  },
+  "Ashland Heights, South Dakota": {
+    "state": "46",
+    "place": "02530",
+    "population": "678"
+  },
+  "Aurora Center, South Dakota": {
+    "state": "46",
+    "place": "02860",
+    "population": "22"
+  },
+  "Bath, South Dakota": {
+    "state": "46",
+    "place": "03900",
+    "population": "142"
+  },
+  "Bath Corner, South Dakota": {
+    "state": "46",
+    "place": "03960",
+    "population": "51"
+  },
+  "Bijou Hills, South Dakota": {
+    "state": "46",
+    "place": "05580",
+    "population": "2"
+  },
+  "Blackhawk, South Dakota": {
+    "state": "46",
+    "place": "05780",
+    "population": "3026"
+  },
+  "Blucksberg Mountain, South Dakota": {
+    "state": "46",
+    "place": "06120",
+    "population": "467"
+  },
+  "Blumengard Colony, South Dakota": {
+    "state": "46",
+    "place": "06140",
+    "population": "0"
+  },
+  "Bon Homme Colony, South Dakota": {
+    "state": "46",
+    "place": "06300",
+    "population": "97"
+  },
+  "Boulder Canyon, South Dakota": {
+    "state": "46",
+    "place": "06440",
+    "population": "561"
+  },
+  "Brant Lake South, South Dakota": {
+    "state": "46",
+    "place": "07044",
+    "population": "140"
+  },
+  "Brentwood Colony, South Dakota": {
+    "state": "46",
+    "place": "07068",
+    "population": "116"
+  },
+  "Bridger, South Dakota": {
+    "state": "46",
+    "place": "07140",
+    "population": "48"
+  },
+  "Bullhead, South Dakota": {
+    "state": "46",
+    "place": "08460",
+    "population": "308"
+  },
+  "Burbank, South Dakota": {
+    "state": "46",
+    "place": "08500",
+    "population": "93"
+  },
+  "Cameron Colony, South Dakota": {
+    "state": "46",
+    "place": "09204",
+    "population": "79"
+  },
+  "Camrose Colony, South Dakota": {
+    "state": "46",
+    "place": "09278",
+    "population": "76"
+  },
+  "Caputa, South Dakota": {
+    "state": "46",
+    "place": "09780",
+    "population": "32"
+  },
+  "Cedar Grove Colony, South Dakota": {
+    "state": "46",
+    "place": "10835",
+    "population": "0"
+  },
+  "Cherry Creek, South Dakota": {
+    "state": "46",
+    "place": "11540",
+    "population": "282"
+  },
+  "Chester, South Dakota": {
+    "state": "46",
+    "place": "11660",
+    "population": "257"
+  },
+  "Claremont Colony, South Dakota": {
+    "state": "46",
+    "place": "12148",
+    "population": "68"
+  },
+  "Clark Colony, South Dakota": {
+    "state": "46",
+    "place": "12340",
+    "population": "92"
+  },
+  "Clearfield Colony, South Dakota": {
+    "state": "46",
+    "place": "12508",
+    "population": "99"
+  },
+  "Clear Lake, South Dakota": {
+    "state": "46",
+    "place": "12640",
+    "population": "170"
+  },
+  "Cloverleaf Colony, South Dakota": {
+    "state": "46",
+    "place": "13010",
+    "population": "16"
+  },
+  "Collins Colony, South Dakota": {
+    "state": "46",
+    "place": "13188",
+    "population": "92"
+  },
+  "Colonial Pine Hills, South Dakota": {
+    "state": "46",
+    "place": "13355",
+    "population": "1903"
+  },
+  "Corn Creek, South Dakota": {
+    "state": "46",
+    "place": "13840",
+    "population": "113"
+  },
+  "Cow Creek, South Dakota": {
+    "state": "46",
+    "place": "14320",
+    "population": "52"
+  },
+  "Crocker, South Dakota": {
+    "state": "46",
+    "place": "14660",
+    "population": "19"
+  },
+  "Crook City, South Dakota": {
+    "state": "46",
+    "place": "14680",
+    "population": "132"
+  },
+  "Dakota Dunes, South Dakota": {
+    "state": "46",
+    "place": "15256",
+    "population": "4020"
+  },
+  "Deerfield Colony, South Dakota": {
+    "state": "46",
+    "place": "15774",
+    "population": "128"
+  },
+  "Dudley, South Dakota": {
+    "state": "46",
+    "place": "17215",
+    "population": "28"
+  },
+  "Enemy Swim, South Dakota": {
+    "state": "46",
+    "place": "19556",
+    "population": "310"
+  },
+  "Evergreen Colony, South Dakota": {
+    "state": "46",
+    "place": "20208",
+    "population": "111"
+  }
+}

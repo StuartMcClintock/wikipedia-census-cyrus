@@ -1,0 +1,797 @@
+{
+  "Ahuimanu, Hawaii": {
+    "state": "15",
+    "place": "00400",
+    "population": "8969"
+  },
+  "Aiea, Hawaii": {
+    "state": "15",
+    "place": "00550",
+    "population": "10408"
+  },
+  "Ainaloa, Hawaii": {
+    "state": "15",
+    "place": "01085",
+    "population": "3609"
+  },
+  "Anahola, Hawaii": {
+    "state": "15",
+    "place": "02200",
+    "population": "2243"
+  },
+  "Black Sands, Hawaii": {
+    "state": "15",
+    "place": "02832",
+    "population": "416"
+  },
+  "Captain Cook, Hawaii": {
+    "state": "15",
+    "place": "03850",
+    "population": "3253"
+  },
+  "Discovery Harbour, Hawaii": {
+    "state": "15",
+    "place": "05900",
+    "population": "1171"
+  },
+  "East Honolulu, Hawaii": {
+    "state": "15",
+    "place": "06290",
+    "population": "50922"
+  },
+  "East Kapolei, Hawaii": {
+    "state": "15",
+    "place": "06300",
+    "population": "5299"
+  },
+  "Eden Roc, Hawaii": {
+    "state": "15",
+    "place": "06325",
+    "population": "1386"
+  },
+  "Eleele, Hawaii": {
+    "state": "15",
+    "place": "07000",
+    "population": "2515"
+  },
+  "Ewa Beach, Hawaii": {
+    "state": "15",
+    "place": "07450",
+    "population": "16415"
+  },
+  "Ewa Gentry, Hawaii": {
+    "state": "15",
+    "place": "07470",
+    "population": "25707"
+  },
+  "Ewa Villages, Hawaii": {
+    "state": "15",
+    "place": "07485",
+    "population": "7825"
+  },
+  "Fern Acres, Hawaii": {
+    "state": "15",
+    "place": "07542",
+    "population": "1965"
+  },
+  "Fern Forest, Hawaii": {
+    "state": "15",
+    "place": "07675",
+    "population": "1150"
+  },
+  "Haena, Hawaii": {
+    "state": "15",
+    "place": "08950",
+    "population": "550"
+  },
+  "Haiku-Pauwela, Hawaii": {
+    "state": "15",
+    "place": "09260",
+    "population": "8595"
+  },
+  "Halaula, Hawaii": {
+    "state": "15",
+    "place": "09700",
+    "population": "773"
+  },
+  "Halawa, Hawaii": {
+    "state": "15",
+    "place": "10000",
+    "population": "15016"
+  },
+  "Haleiwa, Hawaii": {
+    "state": "15",
+    "place": "10750",
+    "population": "4941"
+  },
+  "Haliimaile, Hawaii": {
+    "state": "15",
+    "place": "10900",
+    "population": "1074"
+  },
+  "Hana, Hawaii": {
+    "state": "15",
+    "place": "11350",
+    "population": "1526"
+  },
+  "Hanalei, Hawaii": {
+    "state": "15",
+    "place": "11500",
+    "population": "444"
+  },
+  "Hanamaulu, Hawaii": {
+    "state": "15",
+    "place": "11650",
+    "population": "4994"
+  },
+  "Hanapepe, Hawaii": {
+    "state": "15",
+    "place": "11800",
+    "population": "2678"
+  },
+  "Hauula, Hawaii": {
+    "state": "15",
+    "place": "12400",
+    "population": "4018"
+  },
+  "Hawaiian Acres, Hawaii": {
+    "state": "15",
+    "place": "12450",
+    "population": "3426"
+  },
+  "Hawaiian Beaches, Hawaii": {
+    "state": "15",
+    "place": "12500",
+    "population": "3976"
+  },
+  "Hawaiian Ocean View, Hawaii": {
+    "state": "15",
+    "place": "12530",
+    "population": "4864"
+  },
+  "Hawaiian Paradise Park, Hawaii": {
+    "state": "15",
+    "place": "12600",
+    "population": "14957"
+  },
+  "Hawi, Hawaii": {
+    "state": "15",
+    "place": "13600",
+    "population": "2268"
+  },
+  "Heeia, Hawaii": {
+    "state": "15",
+    "place": "13900",
+    "population": "5001"
+  },
+  "Helemano, Hawaii": {
+    "state": "15",
+    "place": "13970",
+    "population": "2549"
+  },
+  "Hickam Housing, Hawaii": {
+    "state": "15",
+    "place": "14200",
+    "population": "7581"
+  },
+  "Hilo, Hawaii": {
+    "state": "15",
+    "place": "14650",
+    "population": "44186"
+  },
+  "Holualoa, Hawaii": {
+    "state": "15",
+    "place": "15700",
+    "population": "2994"
+  },
+  "Honalo, Hawaii": {
+    "state": "15",
+    "place": "16000",
+    "population": "996"
+  },
+  "Honaunau-Napoopoo, Hawaii": {
+    "state": "15",
+    "place": "16160",
+    "population": "2416"
+  },
+  "Honokaa, Hawaii": {
+    "state": "15",
+    "place": "16450",
+    "population": "2699"
+  },
+  "Honomu, Hawaii": {
+    "state": "15",
+    "place": "17450",
+    "population": "452"
+  },
+  "Iroquois Point, Hawaii": {
+    "state": "15",
+    "place": "19100",
+    "population": "4549"
+  },
+  "Kaaawa, Hawaii": {
+    "state": "15",
+    "place": "19550",
+    "population": "1421"
+  },
+  "Kaanapali, Hawaii": {
+    "state": "15",
+    "place": "20000",
+    "population": "1161"
+  },
+  "Kahaluu, Hawaii": {
+    "state": "15",
+    "place": "21200",
+    "population": "5241"
+  },
+  "Kahaluu-Keauhou, Hawaii": {
+    "state": "15",
+    "place": "21230",
+    "population": "4778"
+  },
+  "Kahuku, Hawaii": {
+    "state": "15",
+    "place": "22250",
+    "population": "2852"
+  },
+  "Kahului, Hawaii": {
+    "state": "15",
+    "place": "22700",
+    "population": "28219"
+  },
+  "Kaiminani, Hawaii": {
+    "state": "15",
+    "place": "23675",
+    "population": "12590"
+  },
+  "Kalaeloa, Hawaii": {
+    "state": "15",
+    "place": "24850",
+    "population": "2364"
+  },
+  "Kalaheo, Hawaii": {
+    "state": "15",
+    "place": "24950",
+    "population": "4996"
+  },
+  "Kalapana, Hawaii": {
+    "state": "15",
+    "place": "25700",
+    "population": "167"
+  },
+  "Kalihiwai, Hawaii": {
+    "state": "15",
+    "place": "26750",
+    "population": "361"
+  },
+  "Kaloko, Hawaii": {
+    "state": "15",
+    "place": "26867",
+    "population": "1314"
+  },
+  "Kamaili, Hawaii": {
+    "state": "15",
+    "place": "27350",
+    "population": "157"
+  },
+  "Kaneohe, Hawaii": {
+    "state": "15",
+    "place": "28250",
+    "population": "37430"
+  },
+  "Kaneohe Base, Hawaii": {
+    "state": "15",
+    "place": "28287",
+    "population": "9483"
+  },
+  "Kapaa, Hawaii": {
+    "state": "15",
+    "place": "28850",
+    "population": "11652"
+  },
+  "Kapaau, Hawaii": {
+    "state": "15",
+    "place": "29000",
+    "population": "2008"
+  },
+  "Kapalua, Hawaii": {
+    "state": "15",
+    "place": "29725",
+    "population": "495"
+  },
+  "Kapolei, Hawaii": {
+    "state": "15",
+    "place": "30300",
+    "population": "21411"
+  },
+  "Kaumakani, Hawaii": {
+    "state": "15",
+    "place": "30650",
+    "population": "672"
+  },
+  "Kaunakakai, Hawaii": {
+    "state": "15",
+    "place": "31100",
+    "population": "3419"
+  },
+  "Kawela Bay, Hawaii": {
+    "state": "15",
+    "place": "32700",
+    "population": "325"
+  },
+  "Keaau, Hawaii": {
+    "state": "15",
+    "place": "32900",
+    "population": "1195"
+  },
+  "Kealakekua, Hawaii": {
+    "state": "15",
+    "place": "33950",
+    "population": "2307"
+  },
+  "Kekaha, Hawaii": {
+    "state": "15",
+    "place": "35600",
+    "population": "3715"
+  },
+  "Keokea, Hawaii": {
+    "state": "15",
+    "place": "36050",
+    "population": "2199"
+  },
+  "Kihei, Hawaii": {
+    "state": "15",
+    "place": "36500",
+    "population": "21423"
+  },
+  "Kilauea, Hawaii": {
+    "state": "15",
+    "place": "36650",
+    "population": "3014"
+  },
+  "Koloa, Hawaii": {
+    "state": "15",
+    "place": "39200",
+    "population": "2231"
+  },
+  "Ko Olina, Hawaii": {
+    "state": "15",
+    "place": "39400",
+    "population": "1999"
+  },
+  "Kualapuu, Hawaii": {
+    "state": "15",
+    "place": "39500",
+    "population": "2110"
+  },
+  "Kukuihaele, Hawaii": {
+    "state": "15",
+    "place": "41000",
+    "population": "281"
+  },
+  "Kula, Hawaii": {
+    "state": "15",
+    "place": "41600",
+    "population": "6942"
+  },
+  "Kurtistown, Hawaii": {
+    "state": "15",
+    "place": "42800",
+    "population": "2515"
+  },
+  "Lahaina, Hawaii": {
+    "state": "15",
+    "place": "42950",
+    "population": "12702"
+  },
+  "Laie, Hawaii": {
+    "state": "15",
+    "place": "43250",
+    "population": "5963"
+  },
+  "Lanai City, Hawaii": {
+    "state": "15",
+    "place": "43700",
+    "population": "3332"
+  },
+  "Launiupoko, Hawaii": {
+    "state": "15",
+    "place": "44075",
+    "population": "688"
+  },
+  "Laupahoehoe, Hawaii": {
+    "state": "15",
+    "place": "44150",
+    "population": "1147"
+  },
+  "Lawai, Hawaii": {
+    "state": "15",
+    "place": "44450",
+    "population": "2578"
+  },
+  "Leilani Estates, Hawaii": {
+    "state": "15",
+    "place": "44562",
+    "population": "1139"
+  },
+  "Lihue, Hawaii": {
+    "state": "15",
+    "place": "45200",
+    "population": "8004"
+  },
+  "Maalaea, Hawaii": {
+    "state": "15",
+    "place": "46400",
+    "population": "310"
+  },
+  "Mahinahina, Hawaii": {
+    "state": "15",
+    "place": "47050",
+    "population": "910"
+  },
+  "Maili, Hawaii": {
+    "state": "15",
+    "place": "47300",
+    "population": "11535"
+  },
+  "Makaha, Hawaii": {
+    "state": "15",
+    "place": "47450",
+    "population": "9916"
+  },
+  "Makaha Valley, Hawaii": {
+    "state": "15",
+    "place": "47560",
+    "population": "198"
+  },
+  "Makakilo, Hawaii": {
+    "state": "15",
+    "place": "47600",
+    "population": "19877"
+  },
+  "Makawao, Hawaii": {
+    "state": "15",
+    "place": "48050",
+    "population": "7297"
+  },
+  "Manele, Hawaii": {
+    "state": "15",
+    "place": "49425",
+    "population": "7"
+  },
+  "Maunaloa, Hawaii": {
+    "state": "15",
+    "place": "50150",
+    "population": "435"
+  },
+  "Mauna Loa Estates, Hawaii": {
+    "state": "15",
+    "place": "50375",
+    "population": "1057"
+  },
+  "Maunawili, Hawaii": {
+    "state": "15",
+    "place": "50750",
+    "population": "2026"
+  },
+  "Mililani Mauka, Hawaii": {
+    "state": "15",
+    "place": "51000",
+    "population": "21075"
+  },
+  "Mililani Town, Hawaii": {
+    "state": "15",
+    "place": "51050",
+    "population": "28121"
+  },
+  "Mokuleia, Hawaii": {
+    "state": "15",
+    "place": "52550",
+    "population": "1816"
+  },
+  "Mountain View, Hawaii": {
+    "state": "15",
+    "place": "53300",
+    "population": "4215"
+  },
+  "Naalehu, Hawaii": {
+    "state": "15",
+    "place": "53600",
+    "population": "811"
+  },
+  "Nanakuli, Hawaii": {
+    "state": "15",
+    "place": "53900",
+    "population": "12195"
+  },
+  "Nanawale Estates, Hawaii": {
+    "state": "15",
+    "place": "53975",
+    "population": "1652"
+  },
+  "Napili-Honokowai, Hawaii": {
+    "state": "15",
+    "place": "54100",
+    "population": "7042"
+  },
+  "Ocean Pointe, Hawaii": {
+    "state": "15",
+    "place": "56685",
+    "population": "14965"
+  },
+  "Olinda, Hawaii": {
+    "state": "15",
+    "place": "57350",
+    "population": "1188"
+  },
+  "Olowalu, Hawaii": {
+    "state": "15",
+    "place": "57650",
+    "population": "100"
+  },
+  "Omao, Hawaii": {
+    "state": "15",
+    "place": "57800",
+    "population": "1346"
+  },
+  "Orchidlands Estates, Hawaii": {
+    "state": "15",
+    "place": "58775",
+    "population": "3165"
+  },
+  "Paauilo, Hawaii": {
+    "state": "15",
+    "place": "59300",
+    "population": "618"
+  },
+  "Pahala, Hawaii": {
+    "state": "15",
+    "place": "59750",
+    "population": "1403"
+  },
+  "Pahoa, Hawaii": {
+    "state": "15",
+    "place": "59900",
+    "population": "924"
+  },
+  "Paia, Hawaii": {
+    "state": "15",
+    "place": "60200",
+    "population": "2470"
+  },
+  "Pakala Village, Hawaii": {
+    "state": "15",
+    "place": "60350",
+    "population": "286"
+  },
+  "Papaikou, Hawaii": {
+    "state": "15",
+    "place": "61550",
+    "population": "1166"
+  },
+  "Paukaa, Hawaii": {
+    "state": "15",
+    "place": "61700",
+    "population": "434"
+  },
+  "Pearl City, Hawaii": {
+    "state": "15",
+    "place": "62600",
+    "population": "45295"
+  },
+  "Pepeekeo, Hawaii": {
+    "state": "15",
+    "place": "63650",
+    "population": "1826"
+  },
+  "Poipu, Hawaii": {
+    "state": "15",
+    "place": "64550",
+    "population": "1299"
+  },
+  "Princeville, Hawaii": {
+    "state": "15",
+    "place": "65075",
+    "population": "2157"
+  },
+  "Puako, Hawaii": {
+    "state": "15",
+    "place": "65150",
+    "population": "267"
+  },
+  "Puhi, Hawaii": {
+    "state": "15",
+    "place": "65750",
+    "population": "3380"
+  },
+  "Pukalani, Hawaii": {
+    "state": "15",
+    "place": "65900",
+    "population": "8299"
+  },
+  "Punaluu, Hawaii": {
+    "state": "15",
+    "place": "66500",
+    "population": "1374"
+  },
+  "Pupukea, Hawaii": {
+    "state": "15",
+    "place": "66800",
+    "population": "5130"
+  },
+  "Royal Hawaiian Estates, Hawaii": {
+    "state": "15",
+    "place": "68807",
+    "population": "790"
+  },
+  "Royal Kunia, Hawaii": {
+    "state": "15",
+    "place": "68815",
+    "population": "14896"
+  },
+  "Schofield Barracks, Hawaii": {
+    "state": "15",
+    "place": "69050",
+    "population": "14904"
+  },
+  "Seaview, Hawaii": {
+    "state": "15",
+    "place": "69238",
+    "population": "512"
+  },
+  "Tiki Gardens, Hawaii": {
+    "state": "15",
+    "place": "70280",
+    "population": "555"
+  },
+  "Ualapue, Hawaii": {
+    "state": "15",
+    "place": "70700",
+    "population": "393"
+  },
+  "Urban Honolulu, Hawaii": {
+    "state": "15",
+    "place": "71550",
+    "population": "350964"
+  },
+  "Makena, Hawaii": {
+    "state": "15",
+    "place": "48350",
+    "population": "196"
+  },
+  "Volcano, Hawaii": {
+    "state": "15",
+    "place": "72350",
+    "population": "736"
+  },
+  "Volcano Golf Course, Hawaii": {
+    "state": "15",
+    "place": "72468",
+    "population": "363"
+  },
+  "Wahiawa, Hawaii": {
+    "state": "15",
+    "place": "72650",
+    "population": "18658"
+  },
+  "Waiahole-Waikane, Hawaii": {
+    "state": "15",
+    "place": "72957",
+    "population": "728"
+  },
+  "Waialua, Hawaii": {
+    "state": "15",
+    "place": "74000",
+    "population": "4062"
+  },
+  "Waianae, Hawaii": {
+    "state": "15",
+    "place": "74450",
+    "population": "13614"
+  },
+  "Waihee-Waiehu, Hawaii": {
+    "state": "15",
+    "place": "75510",
+    "population": "9234"
+  },
+  "Waikapu, Hawaii": {
+    "state": "15",
+    "place": "75950",
+    "population": "3437"
+  },
+  "Waikele, Hawaii": {
+    "state": "15",
+    "place": "76250",
+    "population": "7509"
+  },
+  "Waikoloa Beach Resort, Hawaii": {
+    "state": "15",
+    "place": "76584",
+    "population": "757"
+  },
+  "Waikoloa Village, Hawaii": {
+    "state": "15",
+    "place": "76600",
+    "population": "7104"
+  },
+  "Wailea, Hawaii": {
+    "state": "15",
+    "place": "76925",
+    "population": "6027"
+  },
+  "Wailua, Hawaii": {
+    "state": "15",
+    "place": "77000",
+    "population": "2359"
+  },
+  "Wailua Homesteads, Hawaii": {
+    "state": "15",
+    "place": "77225",
+    "population": "5863"
+  },
+  "Wailuku, Hawaii": {
+    "state": "15",
+    "place": "77450",
+    "population": "17697"
+  },
+  "Waimalu, Hawaii": {
+    "state": "15",
+    "place": "77750",
+    "population": "13817"
+  },
+  "Waimanalo, Hawaii": {
+    "state": "15",
+    "place": "78050",
+    "population": "6057"
+  },
+  "Wainaku, Hawaii": {
+    "state": "15",
+    "place": "78950",
+    "population": "1147"
+  },
+  "Wainiha, Hawaii": {
+    "state": "15",
+    "place": "79250",
+    "population": "419"
+  },
+  "Waiohinu, Hawaii": {
+    "state": "15",
+    "place": "79550",
+    "population": "198"
+  },
+  "Waipahu, Hawaii": {
+    "state": "15",
+    "place": "79700",
+    "population": "43485"
+  },
+  "Waipio, Hawaii": {
+    "state": "15",
+    "place": "79860",
+    "population": "12082"
+  },
+  "Waipio Acres, Hawaii": {
+    "state": "15",
+    "place": "80000",
+    "population": "5531"
+  },
+  "West Loch Estate, Hawaii": {
+    "state": "15",
+    "place": "80470",
+    "population": "5523"
+  },
+  "Wheeler AFB, Hawaii": {
+    "state": "15",
+    "place": "80600",
+    "population": "2412"
+  },
+  "Whitmore Village, Hawaii": {
+    "state": "15",
+    "place": "80900",
+    "population": "4887"
+  },
+  "Waimanalo Beach, Hawaii": {
+    "state": "15",
+    "place": "78200",
+    "population": "4823"
+  }
+}

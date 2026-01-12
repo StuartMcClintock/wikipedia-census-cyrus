@@ -1,0 +1,437 @@
+{
+  "Alton, New Hampshire": {
+    "state": "33",
+    "place": "00980",
+    "population": "499"
+  },
+  "Amherst, New Hampshire": {
+    "state": "33",
+    "place": "01220",
+    "population": "697"
+  },
+  "Antrim, New Hampshire": {
+    "state": "33",
+    "place": "01620",
+    "population": "1395"
+  },
+  "Ashland, New Hampshire": {
+    "state": "33",
+    "place": "01940",
+    "population": "1082"
+  },
+  "Bartlett, New Hampshire": {
+    "state": "33",
+    "place": "03620",
+    "population": "351"
+  },
+  "Belmont, New Hampshire": {
+    "state": "33",
+    "place": "04660",
+    "population": "1285"
+  },
+  "Bennington, New Hampshire": {
+    "state": "33",
+    "place": "04820",
+    "population": "338"
+  },
+  "Bethlehem, New Hampshire": {
+    "state": "33",
+    "place": "05380",
+    "population": "826"
+  },
+  "Blodgett Landing, New Hampshire": {
+    "state": "33",
+    "place": "06020",
+    "population": "152"
+  },
+  "Bradford, New Hampshire": {
+    "state": "33",
+    "place": "06900",
+    "population": "372"
+  },
+  "Bristol, New Hampshire": {
+    "state": "33",
+    "place": "07620",
+    "population": "1911"
+  },
+  "Canaan, New Hampshire": {
+    "state": "33",
+    "place": "08900",
+    "population": "442"
+  },
+  "Center Ossipee, New Hampshire": {
+    "state": "33",
+    "place": "10820",
+    "population": "526"
+  },
+  "Center Sandwich, New Hampshire": {
+    "state": "33",
+    "place": "10900",
+    "population": "156"
+  },
+  "Charlestown, New Hampshire": {
+    "state": "33",
+    "place": "11300",
+    "population": "1078"
+  },
+  "Colebrook, New Hampshire": {
+    "state": "33",
+    "place": "13700",
+    "population": "1201"
+  },
+  "Contoocook, New Hampshire": {
+    "state": "33",
+    "place": "14340",
+    "population": "1427"
+  },
+  "Conway, New Hampshire": {
+    "state": "33",
+    "place": "14580",
+    "population": "3576"
+  },
+  "Derry, New Hampshire": {
+    "state": "33",
+    "place": "17860",
+    "population": "22879"
+  },
+  "Durham, New Hampshire": {
+    "state": "33",
+    "place": "19620",
+    "population": "11147"
+  },
+  "East Merrimack, New Hampshire": {
+    "state": "33",
+    "place": "21780",
+    "population": "5176"
+  },
+  "Enfield, New Hampshire": {
+    "state": "33",
+    "place": "24260",
+    "population": "1571"
+  },
+  "Epping, New Hampshire": {
+    "state": "33",
+    "place": "24580",
+    "population": "2693"
+  },
+  "Exeter, New Hampshire": {
+    "state": "33",
+    "place": "25300",
+    "population": "10109"
+  },
+  "Farmington, New Hampshire": {
+    "state": "33",
+    "place": "25940",
+    "population": "3824"
+  },
+  "Francestown, New Hampshire": {
+    "state": "33",
+    "place": "27060",
+    "population": "201"
+  },
+  "Goffstown, New Hampshire": {
+    "state": "33",
+    "place": "29780",
+    "population": "3366"
+  },
+  "Gorham, New Hampshire": {
+    "state": "33",
+    "place": "30180",
+    "population": "1851"
+  },
+  "Greenville, New Hampshire": {
+    "state": "33",
+    "place": "31860",
+    "population": "1074"
+  },
+  "Groveton, New Hampshire": {
+    "state": "33",
+    "place": "32260",
+    "population": "1068"
+  },
+  "Hampton, New Hampshire": {
+    "state": "33",
+    "place": "32980",
+    "population": "9597"
+  },
+  "Hampton Beach, New Hampshire": {
+    "state": "33",
+    "place": "33140",
+    "population": "2598"
+  },
+  "Hancock, New Hampshire": {
+    "state": "33",
+    "place": "33620",
+    "population": "213"
+  },
+  "Hanover, New Hampshire": {
+    "state": "33",
+    "place": "33780",
+    "population": "9078"
+  },
+  "Henniker, New Hampshire": {
+    "state": "33",
+    "place": "35460",
+    "population": "3166"
+  },
+  "Hillsborough, New Hampshire": {
+    "state": "33",
+    "place": "36020",
+    "population": "2156"
+  },
+  "Hinsdale, New Hampshire": {
+    "state": "33",
+    "place": "36580",
+    "population": "1485"
+  },
+  "Hooksett, New Hampshire": {
+    "state": "33",
+    "place": "37220",
+    "population": "5283"
+  },
+  "Hudson, New Hampshire": {
+    "state": "33",
+    "place": "37860",
+    "population": "7534"
+  },
+  "Jaffrey, New Hampshire": {
+    "state": "33",
+    "place": "38420",
+    "population": "3058"
+  },
+  "Klondike Corner, New Hampshire": {
+    "state": "33",
+    "place": "40120",
+    "population": "652"
+  },
+  "Lancaster, New Hampshire": {
+    "state": "33",
+    "place": "40340",
+    "population": "1941"
+  },
+  "Lincoln, New Hampshire": {
+    "state": "33",
+    "place": "41780",
+    "population": "969"
+  },
+  "Lisbon, New Hampshire": {
+    "state": "33",
+    "place": "41940",
+    "population": "965"
+  },
+  "Littleton, New Hampshire": {
+    "state": "33",
+    "place": "42500",
+    "population": "4467"
+  },
+  "Londonderry, New Hampshire": {
+    "state": "33",
+    "place": "43140",
+    "population": "11645"
+  },
+  "Loudon, New Hampshire": {
+    "state": "33",
+    "place": "43300",
+    "population": "711"
+  },
+  "Marlborough, New Hampshire": {
+    "state": "33",
+    "place": "45380",
+    "population": "1066"
+  },
+  "Melvin Village, New Hampshire": {
+    "state": "33",
+    "place": "46980",
+    "population": "273"
+  },
+  "Meredith, New Hampshire": {
+    "state": "33",
+    "place": "47060",
+    "population": "2527"
+  },
+  "Milford, New Hampshire": {
+    "state": "33",
+    "place": "47940",
+    "population": "9212"
+  },
+  "Milton, New Hampshire": {
+    "state": "33",
+    "place": "48580",
+    "population": "593"
+  },
+  "Milton Mills, New Hampshire": {
+    "state": "33",
+    "place": "48740",
+    "population": "313"
+  },
+  "Mountain Lakes, New Hampshire": {
+    "state": "33",
+    "place": "49600",
+    "population": "504"
+  },
+  "New Boston, New Hampshire": {
+    "state": "33",
+    "place": "50660",
+    "population": "326"
+  },
+  "Newfields, New Hampshire": {
+    "state": "33",
+    "place": "51300",
+    "population": "378"
+  },
+  "New Hampton, New Hampshire": {
+    "state": "33",
+    "place": "51460",
+    "population": "373"
+  },
+  "New London, New Hampshire": {
+    "state": "33",
+    "place": "52020",
+    "population": "1266"
+  },
+  "Newmarket, New Hampshire": {
+    "state": "33",
+    "place": "52260",
+    "population": "5797"
+  },
+  "Newport, New Hampshire": {
+    "state": "33",
+    "place": "52500",
+    "population": "4735"
+  },
+  "North Conway, New Hampshire": {
+    "state": "33",
+    "place": "53860",
+    "population": "2116"
+  },
+  "North Haverhill, New Hampshire": {
+    "state": "33",
+    "place": "54740",
+    "population": "843"
+  },
+  "North Walpole, New Hampshire": {
+    "state": "33",
+    "place": "56420",
+    "population": "785"
+  },
+  "North Woodstock, New Hampshire": {
+    "state": "33",
+    "place": "57220",
+    "population": "739"
+  },
+  "Peterborough, New Hampshire": {
+    "state": "33",
+    "place": "60500",
+    "population": "3090"
+  },
+  "Pinardville, New Hampshire": {
+    "state": "33",
+    "place": "61220",
+    "population": "5034"
+  },
+  "Pittsfield, New Hampshire": {
+    "state": "33",
+    "place": "61860",
+    "population": "1570"
+  },
+  "Plainfield, New Hampshire": {
+    "state": "33",
+    "place": "62260",
+    "population": "178"
+  },
+  "Plymouth, New Hampshire": {
+    "state": "33",
+    "place": "62580",
+    "population": "4730"
+  },
+  "Raymond, New Hampshire": {
+    "state": "33",
+    "place": "63940",
+    "population": "3738"
+  },
+  "Sanbornville, New Hampshire": {
+    "state": "33",
+    "place": "67460",
+    "population": "963"
+  },
+  "Seabrook Beach, New Hampshire": {
+    "state": "33",
+    "place": "68340",
+    "population": "1078"
+  },
+  "South Hooksett, New Hampshire": {
+    "state": "33",
+    "place": "71220",
+    "population": "5888"
+  },
+  "Suissevale, New Hampshire": {
+    "state": "33",
+    "place": "74780",
+    "population": "328"
+  },
+  "Suncook, New Hampshire": {
+    "state": "33",
+    "place": "75140",
+    "population": "5501"
+  },
+  "Tilton Northfield, New Hampshire": {
+    "state": "33",
+    "place": "77100",
+    "population": "3324"
+  },
+  "Troy, New Hampshire": {
+    "state": "33",
+    "place": "77300",
+    "population": "1108"
+  },
+  "Union, New Hampshire": {
+    "state": "33",
+    "place": "77780",
+    "population": "196"
+  },
+  "Walpole, New Hampshire": {
+    "state": "33",
+    "place": "78340",
+    "population": "573"
+  },
+  "Warner, New Hampshire": {
+    "state": "33",
+    "place": "78500",
+    "population": "453"
+  },
+  "West Stewartstown, New Hampshire": {
+    "state": "33",
+    "place": "83620",
+    "population": "263"
+  },
+  "West Swanzey, New Hampshire": {
+    "state": "33",
+    "place": "83700",
+    "population": "1281"
+  },
+  "Whitefield, New Hampshire": {
+    "state": "33",
+    "place": "84340",
+    "population": "1460"
+  },
+  "Wilton, New Hampshire": {
+    "state": "33",
+    "place": "85140",
+    "population": "1324"
+  },
+  "Winchester, New Hampshire": {
+    "state": "33",
+    "place": "85460",
+    "population": "1606"
+  },
+  "Wolfeboro, New Hampshire": {
+    "state": "33",
+    "place": "86340",
+    "population": "3300"
+  },
+  "Woodsville, New Hampshire": {
+    "state": "33",
+    "place": "87140",
+    "population": "1431"
+  }
+}

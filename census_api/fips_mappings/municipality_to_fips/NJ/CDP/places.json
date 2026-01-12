@@ -1,0 +1,1862 @@
+{
+  "Union, New Jersey": {
+    "state": "34",
+    "place": "74478",
+    "population": "2229"
+  },
+  "Upper Greenwood Lake, New Jersey": {
+    "state": "34",
+    "place": "74930",
+    "population": "3687"
+  },
+  "Upper Montclair, New Jersey": {
+    "state": "34",
+    "place": "75020",
+    "population": "13146"
+  },
+  "Upper Pohatcong, New Jersey": {
+    "state": "34",
+    "place": "75120",
+    "population": "1714"
+  },
+  "Upper Stewartsville, New Jersey": {
+    "state": "34",
+    "place": "75145",
+    "population": "329"
+  },
+  "Vauxhall, New Jersey": {
+    "state": "34",
+    "place": "75590",
+    "population": "5251"
+  },
+  "Vernon Center, New Jersey": {
+    "state": "34",
+    "place": "75745",
+    "population": "1743"
+  },
+  "Vernon Valley, New Jersey": {
+    "state": "34",
+    "place": "75750",
+    "population": "1491"
+  },
+  "Victory Lakes, New Jersey": {
+    "state": "34",
+    "place": "75920",
+    "population": "1999"
+  },
+  "Vienna, New Jersey": {
+    "state": "34",
+    "place": "75950",
+    "population": "881"
+  },
+  "Villas, New Jersey": {
+    "state": "34",
+    "place": "76010",
+    "population": "9134"
+  },
+  "Vincentown, New Jersey": {
+    "state": "34",
+    "place": "76040",
+    "population": "535"
+  },
+  "Vista Center, New Jersey": {
+    "state": "34",
+    "place": "76107",
+    "population": "2370"
+  },
+  "Voorhees, New Jersey": {
+    "state": "34",
+    "place": "76250",
+    "population": "1517"
+  },
+  "Wanamassa, New Jersey": {
+    "state": "34",
+    "place": "76700",
+    "population": "4344"
+  },
+  "Waretown, New Jersey": {
+    "state": "34",
+    "place": "76820",
+    "population": "1483"
+  },
+  "Washington Crossing, New Jersey": {
+    "state": "34",
+    "place": "77330",
+    "population": "371"
+  },
+  "Watsessing, New Jersey": {
+    "state": "34",
+    "place": "77750",
+    "population": "8078"
+  },
+  "West Belmar, New Jersey": {
+    "state": "34",
+    "place": "78350",
+    "population": "2459"
+  },
+  "West Berlin, New Jersey": {
+    "state": "34",
+    "place": "78410",
+    "population": "2686"
+  },
+  "West Freehold, New Jersey": {
+    "state": "34",
+    "place": "79100",
+    "population": "13596"
+  },
+  "Westmont, New Jersey": {
+    "state": "34",
+    "place": "79520",
+    "population": "13726"
+  },
+  "Weston, New Jersey": {
+    "state": "34",
+    "place": "79715",
+    "population": "2023"
+  },
+  "West Park, New Jersey": {
+    "state": "34",
+    "place": "79810",
+    "population": "1506"
+  },
+  "Whippany, New Jersey": {
+    "state": "34",
+    "place": "80540",
+    "population": "8863"
+  },
+  "White Horse, New Jersey": {
+    "state": "34",
+    "place": "80630",
+    "population": "9791"
+  },
+  "White House Station, New Jersey": {
+    "state": "34",
+    "place": "80720",
+    "population": "3152"
+  },
+  "White Meadow Lake, New Jersey": {
+    "state": "34",
+    "place": "80750",
+    "population": "8710"
+  },
+  "Whitesboro, New Jersey": {
+    "state": "34",
+    "place": "80840",
+    "population": "2300"
+  },
+  "Whittingham, New Jersey": {
+    "state": "34",
+    "place": "81042",
+    "population": "2348"
+  },
+  "William Paterson University of New Jersey, New Jersey": {
+    "state": "34",
+    "place": "81365",
+    "population": "1417"
+  },
+  "Williamstown, New Jersey": {
+    "state": "34",
+    "place": "81380",
+    "population": "15082"
+  },
+  "Windsor, New Jersey": {
+    "state": "34",
+    "place": "81620",
+    "population": "330"
+  },
+  "Yardville, New Jersey": {
+    "state": "34",
+    "place": "83170",
+    "population": "6965"
+  },
+  "Yorketown, New Jersey": {
+    "state": "34",
+    "place": "83245",
+    "population": "6617"
+  },
+  "Zarephath, New Jersey": {
+    "state": "34",
+    "place": "83290",
+    "population": "69"
+  },
+  "Absecon Highlands, New Jersey": {
+    "state": "34",
+    "place": "00160",
+    "population": "1414"
+  },
+  "Allamuchy, New Jersey": {
+    "state": "34",
+    "place": "00640",
+    "population": "156"
+  },
+  "Allenwood, New Jersey": {
+    "state": "34",
+    "place": "00790",
+    "population": "954"
+  },
+  "Alloway, New Jersey": {
+    "state": "34",
+    "place": "00850",
+    "population": "1296"
+  },
+  "Ampere North, New Jersey": {
+    "state": "34",
+    "place": "01184",
+    "population": "5132"
+  },
+  "Anderson, New Jersey": {
+    "state": "34",
+    "place": "01300",
+    "population": "306"
+  },
+  "Annandale, New Jersey": {
+    "state": "34",
+    "place": "01480",
+    "population": "1663"
+  },
+  "Arrowhead Lake, New Jersey": {
+    "state": "34",
+    "place": "01825",
+    "population": "126"
+  },
+  "Asbury, New Jersey": {
+    "state": "34",
+    "place": "01900",
+    "population": "270"
+  },
+  "Ashland, New Jersey": {
+    "state": "34",
+    "place": "01990",
+    "population": "8513"
+  },
+  "Atco, New Jersey": {
+    "state": "34",
+    "place": "02020",
+    "population": "9058"
+  },
+  "Auburn, New Jersey": {
+    "state": "34",
+    "place": "02170",
+    "population": "1057"
+  },
+  "Avenel, New Jersey": {
+    "state": "34",
+    "place": "02350",
+    "population": "16920"
+  },
+  "Barclay, New Jersey": {
+    "state": "34",
+    "place": "02880",
+    "population": "4656"
+  },
+  "Bargaintown, New Jersey": {
+    "state": "34",
+    "place": "02920",
+    "population": "5360"
+  },
+  "Barnegat, New Jersey": {
+    "state": "34",
+    "place": "03040",
+    "population": "3894"
+  },
+  "Basking Ridge, New Jersey": {
+    "state": "34",
+    "place": "03340",
+    "population": "7196"
+  },
+  "Beach Haven West, New Jersey": {
+    "state": "34",
+    "place": "04120",
+    "population": "4143"
+  },
+  "Beattystown, New Jersey": {
+    "state": "34",
+    "place": "04252",
+    "population": "4701"
+  },
+  "Beckett, New Jersey": {
+    "state": "34",
+    "place": "04400",
+    "population": "4834"
+  },
+  "Bedminster, New Jersey": {
+    "state": "34",
+    "place": "04420",
+    "population": "1244"
+  },
+  "Beesleys Point, New Jersey": {
+    "state": "34",
+    "place": "04540",
+    "population": "816"
+  },
+  "Belford, New Jersey": {
+    "state": "34",
+    "place": "04600",
+    "population": "1648"
+  },
+  "Belle Mead, New Jersey": {
+    "state": "34",
+    "place": "04630",
+    "population": "5569"
+  },
+  "Belleplain, New Jersey": {
+    "state": "34",
+    "place": "04660",
+    "population": "614"
+  },
+  "Blackwells Mills, New Jersey": {
+    "state": "34",
+    "place": "06025",
+    "population": "9473"
+  },
+  "Blackwood, New Jersey": {
+    "state": "34",
+    "place": "06040",
+    "population": "4622"
+  },
+  "Blairstown, New Jersey": {
+    "state": "34",
+    "place": "06130",
+    "population": "493"
+  },
+  "Blawenburg, New Jersey": {
+    "state": "34",
+    "place": "06190",
+    "population": "287"
+  },
+  "Bradley Gardens, New Jersey": {
+    "state": "34",
+    "place": "07000",
+    "population": "14077"
+  },
+  "Brainards, New Jersey": {
+    "state": "34",
+    "place": "07120",
+    "population": "194"
+  },
+  "Brass Castle, New Jersey": {
+    "state": "34",
+    "place": "07360",
+    "population": "1536"
+  },
+  "Bridgeport, New Jersey": {
+    "state": "34",
+    "place": "07570",
+    "population": "389"
+  },
+  "Bridgeville, New Jersey": {
+    "state": "34",
+    "place": "07660",
+    "population": "229"
+  },
+  "Bridgewater Center, New Jersey": {
+    "state": "34",
+    "place": "07728",
+    "population": "6082"
+  },
+  "Broadway, New Jersey": {
+    "state": "34",
+    "place": "08020",
+    "population": "213"
+  },
+  "Brookdale, New Jersey": {
+    "state": "34",
+    "place": "08110",
+    "population": "9854"
+  },
+  "Brookfield, New Jersey": {
+    "state": "34",
+    "place": "08140",
+    "population": "727"
+  },
+  "Brookside, New Jersey": {
+    "state": "34",
+    "place": "08260",
+    "population": "1767"
+  },
+  "Browns Mills, New Jersey": {
+    "state": "34",
+    "place": "08455",
+    "population": "10734"
+  },
+  "Brownville, New Jersey": {
+    "state": "34",
+    "place": "08492",
+    "population": "2746"
+  },
+  "Budd Lake, New Jersey": {
+    "state": "34",
+    "place": "08620",
+    "population": "9784"
+  },
+  "Burleigh, New Jersey": {
+    "state": "34",
+    "place": "08890",
+    "population": "766"
+  },
+  "Buttzville, New Jersey": {
+    "state": "34",
+    "place": "09100",
+    "population": "205"
+  },
+  "Byram Center, New Jersey": {
+    "state": "34",
+    "place": "09170",
+    "population": "2232"
+  },
+  "Cape May Court House, New Jersey": {
+    "state": "34",
+    "place": "10300",
+    "population": "5573"
+  },
+  "Carlls Corner, New Jersey": {
+    "state": "34",
+    "place": "10450",
+    "population": "911"
+  },
+  "Carneys Point, New Jersey": {
+    "state": "34",
+    "place": "10600",
+    "population": "7841"
+  },
+  "Cedar Glen Lakes, New Jersey": {
+    "state": "34",
+    "place": "11140",
+    "population": "1517"
+  },
+  "Cedar Glen West, New Jersey": {
+    "state": "34",
+    "place": "11155",
+    "population": "1379"
+  },
+  "Cedar Knolls, New Jersey": {
+    "state": "34",
+    "place": "11290",
+    "population": "4082"
+  },
+  "Cedarville, New Jersey": {
+    "state": "34",
+    "place": "11410",
+    "population": "702"
+  },
+  "Centre Grove, New Jersey": {
+    "state": "34",
+    "place": "11770",
+    "population": "1281"
+  },
+  "Cherry Hill Mall, New Jersey": {
+    "state": "34",
+    "place": "12385",
+    "population": "14805"
+  },
+  "Clearbrook, New Jersey": {
+    "state": "34",
+    "place": "13395",
+    "population": "2909"
+  },
+  "Cliffwood Beach, New Jersey": {
+    "state": "34",
+    "place": "13630",
+    "population": "3036"
+  },
+  "Clyde, New Jersey": {
+    "state": "34",
+    "place": "13990",
+    "population": "243"
+  },
+  "Collings Lakes, New Jersey": {
+    "state": "34",
+    "place": "14230",
+    "population": "1501"
+  },
+  "Cologne, New Jersey": {
+    "state": "34",
+    "place": "14350",
+    "population": "1461"
+  },
+  "Colonia, New Jersey": {
+    "state": "34",
+    "place": "14380",
+    "population": "18609"
+  },
+  "Columbia, New Jersey": {
+    "state": "34",
+    "place": "14590",
+    "population": "215"
+  },
+  "Concordia, New Jersey": {
+    "state": "34",
+    "place": "14758",
+    "population": "2455"
+  },
+  "Connecticut Farms, New Jersey": {
+    "state": "34",
+    "place": "14815",
+    "population": "545"
+  },
+  "Cookstown, New Jersey": {
+    "state": "34",
+    "place": "14980",
+    "population": "900"
+  },
+  "Country Lake Estates, New Jersey": {
+    "state": "34",
+    "place": "15250",
+    "population": "4054"
+  },
+  "Cranbury, New Jersey": {
+    "state": "34",
+    "place": "15520",
+    "population": "2200"
+  },
+  "Crandon Lakes, New Jersey": {
+    "state": "34",
+    "place": "15610",
+    "population": "1120"
+  },
+  "Cranford, New Jersey": {
+    "state": "34",
+    "place": "15638",
+    "population": "2032"
+  },
+  "Cream Ridge, New Jersey": {
+    "state": "34",
+    "place": "15730",
+    "population": "630"
+  },
+  "Crestwood Village, New Jersey": {
+    "state": "34",
+    "place": "15910",
+    "population": "8426"
+  },
+  "Crosswicks, New Jersey": {
+    "state": "34",
+    "place": "16060",
+    "population": "849"
+  },
+  "Cumberland-Hesstown, New Jersey": {
+    "state": "34",
+    "place": "16278",
+    "population": "315"
+  },
+  "Dayton, New Jersey": {
+    "state": "34",
+    "place": "16630",
+    "population": "8138"
+  },
+  "Deans, New Jersey": {
+    "state": "34",
+    "place": "16720",
+    "population": "1615"
+  },
+  "Deerfield Street, New Jersey": {
+    "state": "34",
+    "place": "16960",
+    "population": "230"
+  },
+  "Delaware, New Jersey": {
+    "state": "34",
+    "place": "17200",
+    "population": "173"
+  },
+  "Delaware Park, New Jersey": {
+    "state": "34",
+    "place": "17260",
+    "population": "739"
+  },
+  "Delmont, New Jersey": {
+    "state": "34",
+    "place": "17410",
+    "population": "122"
+  },
+  "Dennisville, New Jersey": {
+    "state": "34",
+    "place": "17590",
+    "population": "830"
+  },
+  "Diamond Beach, New Jersey": {
+    "state": "34",
+    "place": "17815",
+    "population": "203"
+  },
+  "Dividing Creek, New Jersey": {
+    "state": "34",
+    "place": "17890",
+    "population": "345"
+  },
+  "Dorchester, New Jersey": {
+    "state": "34",
+    "place": "18010",
+    "population": "291"
+  },
+  "Dorothy, New Jersey": {
+    "state": "34",
+    "place": "18040",
+    "population": "1057"
+  },
+  "Dover Beaches North, New Jersey": {
+    "state": "34",
+    "place": "18148",
+    "population": "1277"
+  },
+  "Dover Beaches South, New Jersey": {
+    "state": "34",
+    "place": "18151",
+    "population": "1331"
+  },
+  "Dutch Neck, New Jersey": {
+    "state": "34",
+    "place": "18632",
+    "population": "123"
+  },
+  "East Franklin, New Jersey": {
+    "state": "34",
+    "place": "19130",
+    "population": "9788"
+  },
+  "East Freehold, New Jersey": {
+    "state": "34",
+    "place": "19150",
+    "population": "4987"
+  },
+  "East Millstone, New Jersey": {
+    "state": "34",
+    "place": "19330",
+    "population": "588"
+  },
+  "East Rocky Hill, New Jersey": {
+    "state": "34",
+    "place": "19490",
+    "population": "468"
+  },
+  "East Vineland, New Jersey": {
+    "state": "34",
+    "place": "19690",
+    "population": "925"
+  },
+  "Echelon, New Jersey": {
+    "state": "34",
+    "place": "19900",
+    "population": "11896"
+  },
+  "Ellisburg, New Jersey": {
+    "state": "34",
+    "place": "21120",
+    "population": "4601"
+  },
+  "Elwood, New Jersey": {
+    "state": "34",
+    "place": "21420",
+    "population": "1215"
+  },
+  "Encore at Monroe, New Jersey": {
+    "state": "34",
+    "place": "21473",
+    "population": "625"
+  },
+  "English Creek, New Jersey": {
+    "state": "34",
+    "place": "21540",
+    "population": "3364"
+  },
+  "Erma, New Jersey": {
+    "state": "34",
+    "place": "21660",
+    "population": "2031"
+  },
+  "Fairton, New Jersey": {
+    "state": "34",
+    "place": "22530",
+    "population": "1060"
+  },
+  "Fairview, New Jersey": {
+    "state": "34",
+    "place": "22740",
+    "population": "3731"
+  },
+  "Finderne, New Jersey": {
+    "state": "34",
+    "place": "23310",
+    "population": "6392"
+  },
+  "Finesville, New Jersey": {
+    "state": "34",
+    "place": "23340",
+    "population": "364"
+  },
+  "Flagtown, New Jersey": {
+    "state": "34",
+    "place": "23610",
+    "population": "1070"
+  },
+  "Flanders, New Jersey": {
+    "state": "34",
+    "place": "23640",
+    "population": "9832"
+  },
+  "Florence, New Jersey": {
+    "state": "34",
+    "place": "23820",
+    "population": "4704"
+  },
+  "Fords, New Jersey": {
+    "state": "34",
+    "place": "24030",
+    "population": "12941"
+  },
+  "Forked River, New Jersey": {
+    "state": "34",
+    "place": "24180",
+    "population": "5274"
+  },
+  "Forsgate, New Jersey": {
+    "state": "34",
+    "place": "24285",
+    "population": "2056"
+  },
+  "Fort Dix, New Jersey": {
+    "state": "34",
+    "place": "24300",
+    "population": "6508"
+  },
+  "Fortescue, New Jersey": {
+    "state": "34",
+    "place": "24360",
+    "population": "189"
+  },
+  "Franklin Center, New Jersey": {
+    "state": "34",
+    "place": "24965",
+    "population": "6803"
+  },
+  "Franklin Park, New Jersey": {
+    "state": "34",
+    "place": "25020",
+    "population": "13430"
+  },
+  "Franklinville, New Jersey": {
+    "state": "34",
+    "place": "25050",
+    "population": "1927"
+  },
+  "Gandys Beach, New Jersey": {
+    "state": "34",
+    "place": "25590",
+    "population": "25"
+  },
+  "Germania, New Jersey": {
+    "state": "34",
+    "place": "26010",
+    "population": "297"
+  },
+  "Gibbstown, New Jersey": {
+    "state": "34",
+    "place": "26100",
+    "population": "3822"
+  },
+  "Gillette, New Jersey": {
+    "state": "34",
+    "place": "26220",
+    "population": "2956"
+  },
+  "Glendora, New Jersey": {
+    "state": "34",
+    "place": "26520",
+    "population": "4784"
+  },
+  "Golden Triangle, New Jersey": {
+    "state": "34",
+    "place": "26902",
+    "population": "4769"
+  },
+  "Goshen, New Jersey": {
+    "state": "34",
+    "place": "27030",
+    "population": "400"
+  },
+  "Gouldtown, New Jersey": {
+    "state": "34",
+    "place": "27060",
+    "population": "1601"
+  },
+  "Great Meadows, New Jersey": {
+    "state": "34",
+    "place": "27360",
+    "population": "305"
+  },
+  "Great Notch, New Jersey": {
+    "state": "34",
+    "place": "27390",
+    "population": "3289"
+  },
+  "Green Knoll, New Jersey": {
+    "state": "34",
+    "place": "27840",
+    "population": "6594"
+  },
+  "Greentree, New Jersey": {
+    "state": "34",
+    "place": "27995",
+    "population": "12012"
+  },
+  "Green Village, New Jersey": {
+    "state": "34",
+    "place": "28020",
+    "population": "1103"
+  },
+  "Grenloch, New Jersey": {
+    "state": "34",
+    "place": "28380",
+    "population": "863"
+  },
+  "Griggstown, New Jersey": {
+    "state": "34",
+    "place": "28470",
+    "population": "835"
+  },
+  "Groveville, New Jersey": {
+    "state": "34",
+    "place": "28620",
+    "population": "3106"
+  },
+  "Hainesburg, New Jersey": {
+    "state": "34",
+    "place": "28920",
+    "population": "422"
+  },
+  "Hamilton Square, New Jersey": {
+    "state": "34",
+    "place": "29370",
+    "population": "12679"
+  },
+  "Hancocks Bridge, New Jersey": {
+    "state": "34",
+    "place": "29520",
+    "population": "155"
+  },
+  "Harlingen, New Jersey": {
+    "state": "34",
+    "place": "29940",
+    "population": "430"
+  },
+  "Harmony, New Jersey": {
+    "state": "34",
+    "place": "30060",
+    "population": "374"
+  },
+  "Harrisonville, New Jersey": {
+    "state": "34",
+    "place": "30270",
+    "population": "306"
+  },
+  "Heathcote, New Jersey": {
+    "state": "34",
+    "place": "30738",
+    "population": "7154"
+  },
+  "Heislerville, New Jersey": {
+    "state": "34",
+    "place": "30810",
+    "population": "227"
+  },
+  "Hewitt, New Jersey": {
+    "state": "34",
+    "place": "31110",
+    "population": "1912"
+  },
+  "Hibernia, New Jersey": {
+    "state": "34",
+    "place": "31170",
+    "population": "208"
+  },
+  "Highland Lakes, New Jersey": {
+    "state": "34",
+    "place": "31410",
+    "population": "4816"
+  },
+  "Hillsborough, New Jersey": {
+    "state": "34",
+    "place": "31880",
+    "population": "22214"
+  },
+  "Holiday City-Berkeley, New Jersey": {
+    "state": "34",
+    "place": "32415",
+    "population": "12943"
+  },
+  "Holiday City South, New Jersey": {
+    "state": "34",
+    "place": "32418",
+    "population": "4124"
+  },
+  "Holiday Heights, New Jersey": {
+    "state": "34",
+    "place": "32424",
+    "population": "2135"
+  },
+  "Hope, New Jersey": {
+    "state": "34",
+    "place": "33030",
+    "population": "256"
+  },
+  "Hopelawn, New Jersey": {
+    "state": "34",
+    "place": "33090",
+    "population": "2603"
+  },
+  "Hutchinson, New Jersey": {
+    "state": "34",
+    "place": "33690",
+    "population": "103"
+  },
+  "Iselin, New Jersey": {
+    "state": "34",
+    "place": "34470",
+    "population": "20088"
+  },
+  "Jobstown, New Jersey": {
+    "state": "34",
+    "place": "36120",
+    "population": "369"
+  },
+  "Johnsonburg, New Jersey": {
+    "state": "34",
+    "place": "36150",
+    "population": "381"
+  },
+  "Juliustown, New Jersey": {
+    "state": "34",
+    "place": "36300",
+    "population": "362"
+  },
+  "Kean University, New Jersey": {
+    "state": "34",
+    "place": "36484",
+    "population": "1522"
+  },
+  "Keasbey, New Jersey": {
+    "state": "34",
+    "place": "36570",
+    "population": "3027"
+  },
+  "Kendall Park, New Jersey": {
+    "state": "34",
+    "place": "36660",
+    "population": "9989"
+  },
+  "Kenvil, New Jersey": {
+    "state": "34",
+    "place": "36720",
+    "population": "1806"
+  },
+  "Kingston, New Jersey": {
+    "state": "34",
+    "place": "36930",
+    "population": "1581"
+  },
+  "Kingston Estates, New Jersey": {
+    "state": "34",
+    "place": "36960",
+    "population": "6322"
+  },
+  "Lake Hiawatha, New Jersey": {
+    "state": "34",
+    "place": "37680",
+    "population": "10194"
+  },
+  "Lake Hopatcong, New Jersey": {
+    "state": "34",
+    "place": "37710",
+    "population": "10232"
+  },
+  "Lake Mohawk, New Jersey": {
+    "state": "34",
+    "place": "38040",
+    "population": "9759"
+  },
+  "Lakeside-Beebe Run, New Jersey": {
+    "state": "34",
+    "place": "38296",
+    "population": "403"
+  },
+  "Lakewood, New Jersey": {
+    "state": "34",
+    "place": "38580",
+    "population": "69398"
+  },
+  "Lamington, New Jersey": {
+    "state": "34",
+    "place": "38670",
+    "population": "135"
+  },
+  "Landing, New Jersey": {
+    "state": "34",
+    "place": "38700",
+    "population": "4296"
+  },
+  "Laurel Heights, New Jersey": {
+    "state": "34",
+    "place": "39045",
+    "population": "380"
+  },
+  "Laurel Lake, New Jersey": {
+    "state": "34",
+    "place": "39120",
+    "population": "2861"
+  },
+  "Laurence Harbor, New Jersey": {
+    "state": "34",
+    "place": "39360",
+    "population": "6635"
+  },
+  "Lawrenceville, New Jersey": {
+    "state": "34",
+    "place": "39570",
+    "population": "3751"
+  },
+  "Layton, New Jersey": {
+    "state": "34",
+    "place": "39600",
+    "population": "692"
+  },
+  "Ledgewood, New Jersey": {
+    "state": "34",
+    "place": "39750",
+    "population": "4903"
+  },
+  "Leeds Point, New Jersey": {
+    "state": "34",
+    "place": "39810",
+    "population": "205"
+  },
+  "Leesburg, New Jersey": {
+    "state": "34",
+    "place": "39870",
+    "population": "601"
+  },
+  "Leisure Knoll, New Jersey": {
+    "state": "34",
+    "place": "39883",
+    "population": "2562"
+  },
+  "Leisuretowne, New Jersey": {
+    "state": "34",
+    "place": "39885",
+    "population": "3842"
+  },
+  "Leisure Village, New Jersey": {
+    "state": "34",
+    "place": "39900",
+    "population": "4966"
+  },
+  "Leisure Village East, New Jersey": {
+    "state": "34",
+    "place": "39910",
+    "population": "4189"
+  },
+  "Leisure Village West, New Jersey": {
+    "state": "34",
+    "place": "39916",
+    "population": "3692"
+  },
+  "Leonardo, New Jersey": {
+    "state": "34",
+    "place": "39990",
+    "population": "2549"
+  },
+  "Liberty Corner, New Jersey": {
+    "state": "34",
+    "place": "40140",
+    "population": "1877"
+  },
+  "Lincroft, New Jersey": {
+    "state": "34",
+    "place": "40320",
+    "population": "7060"
+  },
+  "Llewellyn Park, New Jersey": {
+    "state": "34",
+    "place": "40990",
+    "population": "821"
+  },
+  "Long Valley, New Jersey": {
+    "state": "34",
+    "place": "41400",
+    "population": "1827"
+  },
+  "Lopatcong Overlook, New Jersey": {
+    "state": "34",
+    "place": "41495",
+    "population": "692"
+  },
+  "Lower Berkshire Valley, New Jersey": {
+    "state": "34",
+    "place": "41700",
+    "population": "617"
+  },
+  "Lyons, New Jersey": {
+    "state": "34",
+    "place": "42180",
+    "population": "5345"
+  },
+  "McGuire AFB, New Jersey": {
+    "state": "34",
+    "place": "42390",
+    "population": "4522"
+  },
+  "Lake Telemark, New Jersey": {
+    "state": "34",
+    "place": "38430",
+    "population": "1172"
+  },
+  "McKee City, New Jersey": {
+    "state": "34",
+    "place": "42420",
+    "population": "9758"
+  },
+  "Macopin, New Jersey": {
+    "state": "34",
+    "place": "42450",
+    "population": "2199"
+  },
+  "Madison Park, New Jersey": {
+    "state": "34",
+    "place": "42540",
+    "population": "8050"
+  },
+  "Malaga, New Jersey": {
+    "state": "34",
+    "place": "42840",
+    "population": "1475"
+  },
+  "Manahawkin, New Jersey": {
+    "state": "34",
+    "place": "42930",
+    "population": "2413"
+  },
+  "Marksboro, New Jersey": {
+    "state": "34",
+    "place": "43980",
+    "population": "186"
+  },
+  "Marlboro, New Jersey": {
+    "state": "34",
+    "place": "44010",
+    "population": "127"
+  },
+  "Marlton, New Jersey": {
+    "state": "34",
+    "place": "44100",
+    "population": "10594"
+  },
+  "Marmora, New Jersey": {
+    "state": "34",
+    "place": "44280",
+    "population": "2413"
+  },
+  "Marshallville, New Jersey": {
+    "state": "34",
+    "place": "44345",
+    "population": "376"
+  },
+  "Martinsville, New Jersey": {
+    "state": "34",
+    "place": "44430",
+    "population": "12147"
+  },
+  "Mauricetown, New Jersey": {
+    "state": "34",
+    "place": "44670",
+    "population": "403"
+  },
+  "Mays Landing, New Jersey": {
+    "state": "34",
+    "place": "44820",
+    "population": "5603"
+  },
+  "Menlo Park Terrace, New Jersey": {
+    "state": "34",
+    "place": "45450",
+    "population": "2806"
+  },
+  "Mercerville, New Jersey": {
+    "state": "34",
+    "place": "45480",
+    "population": "13447"
+  },
+  "Mickleton, New Jersey": {
+    "state": "34",
+    "place": "45780",
+    "population": "2285"
+  },
+  "Middlebush, New Jersey": {
+    "state": "34",
+    "place": "45870",
+    "population": "2368"
+  },
+  "Millington, New Jersey": {
+    "state": "34",
+    "place": "46470",
+    "population": "3038"
+  },
+  "Milmay, New Jersey": {
+    "state": "34",
+    "place": "46710",
+    "population": "919"
+  },
+  "Mizpah, New Jersey": {
+    "state": "34",
+    "place": "46980",
+    "population": "479"
+  },
+  "Money Island, New Jersey": {
+    "state": "34",
+    "place": "47006",
+    "population": "22"
+  },
+  "Monmouth Junction, New Jersey": {
+    "state": "34",
+    "place": "47190",
+    "population": "8895"
+  },
+  "Monroe Manor, New Jersey": {
+    "state": "34",
+    "place": "47380",
+    "population": "2178"
+  },
+  "Montclair State University, New Jersey": {
+    "state": "34",
+    "place": "47524",
+    "population": "2180"
+  },
+  "Moorestown-Lenola, New Jersey": {
+    "state": "34",
+    "place": "47895",
+    "population": "14240"
+  },
+  "Morganville, New Jersey": {
+    "state": "34",
+    "place": "48030",
+    "population": "6203"
+  },
+  "Mountain Lake, New Jersey": {
+    "state": "34",
+    "place": "48450",
+    "population": "494"
+  },
+  "Mount Hermon, New Jersey": {
+    "state": "34",
+    "place": "48840",
+    "population": "172"
+  },
+  "Mount Hope, New Jersey": {
+    "state": "34",
+    "place": "48930",
+    "population": "2930"
+  },
+  "Mount Royal, New Jersey": {
+    "state": "34",
+    "place": "49200",
+    "population": "777"
+  },
+  "Mount Tabor, New Jersey": {
+    "state": "34",
+    "place": "49290",
+    "population": "1244"
+  },
+  "Mullica Hill, New Jersey": {
+    "state": "34",
+    "place": "49440",
+    "population": "4698"
+  },
+  "Mystic Island, New Jersey": {
+    "state": "34",
+    "place": "49560",
+    "population": "8301"
+  },
+  "Navesink, New Jersey": {
+    "state": "34",
+    "place": "49740",
+    "population": "2004"
+  },
+  "Nesco, New Jersey": {
+    "state": "34",
+    "place": "50010",
+    "population": "422"
+  },
+  "Neshanic, New Jersey": {
+    "state": "34",
+    "place": "50040",
+    "population": "854"
+  },
+  "Neshanic Station, New Jersey": {
+    "state": "34",
+    "place": "50100",
+    "population": "5224"
+  },
+  "New Egypt, New Jersey": {
+    "state": "34",
+    "place": "51360",
+    "population": "2357"
+  },
+  "Newfoundland, New Jersey": {
+    "state": "34",
+    "place": "51420",
+    "population": "1145"
+  },
+  "New Gretna, New Jersey": {
+    "state": "34",
+    "place": "51450",
+    "population": "390"
+  },
+  "Newport, New Jersey": {
+    "state": "34",
+    "place": "51750",
+    "population": "487"
+  },
+  "Newtonville, New Jersey": {
+    "state": "34",
+    "place": "51990",
+    "population": "742"
+  },
+  "New Vernon, New Jersey": {
+    "state": "34",
+    "place": "52020",
+    "population": "825"
+  },
+  "New Village, New Jersey": {
+    "state": "34",
+    "place": "52050",
+    "population": "399"
+  },
+  "North Beach Haven, New Jersey": {
+    "state": "34",
+    "place": "52410",
+    "population": "2198"
+  },
+  "North Cape May, New Jersey": {
+    "state": "34",
+    "place": "52650",
+    "population": "4007"
+  },
+  "North Middletown, New Jersey": {
+    "state": "34",
+    "place": "53205",
+    "population": "3146"
+  },
+  "Oakhurst, New Jersey": {
+    "state": "34",
+    "place": "53790",
+    "population": "4069"
+  },
+  "Oak Ridge, New Jersey": {
+    "state": "34",
+    "place": "53910",
+    "population": "10996"
+  },
+  "Oak Valley, New Jersey": {
+    "state": "34",
+    "place": "54060",
+    "population": "3497"
+  },
+  "Ocean Acres, New Jersey": {
+    "state": "34",
+    "place": "54315",
+    "population": "18185"
+  },
+  "Ocean Grove, New Jersey": {
+    "state": "34",
+    "place": "54480",
+    "population": "3057"
+  },
+  "Ocean View, New Jersey": {
+    "state": "34",
+    "place": "54600",
+    "population": "685"
+  },
+  "Oceanville, New Jersey": {
+    "state": "34",
+    "place": "54630",
+    "population": "793"
+  },
+  "Old Bridge, New Jersey": {
+    "state": "34",
+    "place": "54690",
+    "population": "27210"
+  },
+  "Oldwick, New Jersey": {
+    "state": "34",
+    "place": "54900",
+    "population": "445"
+  },
+  "Olivet, New Jersey": {
+    "state": "34",
+    "place": "54960",
+    "population": "1297"
+  },
+  "Othello, New Jersey": {
+    "state": "34",
+    "place": "55320",
+    "population": "132"
+  },
+  "Oxford, New Jersey": {
+    "state": "34",
+    "place": "55500",
+    "population": "1033"
+  },
+  "Packanack Lake, New Jersey": {
+    "state": "34",
+    "place": "55620",
+    "population": "6261"
+  },
+  "Palermo, New Jersey": {
+    "state": "34",
+    "place": "55710",
+    "population": "3183"
+  },
+  "Panther Valley, New Jersey": {
+    "state": "34",
+    "place": "55895",
+    "population": "4391"
+  },
+  "Parsippany, New Jersey": {
+    "state": "34",
+    "place": "56430",
+    "population": "22778"
+  },
+  "Pedricktown, New Jersey": {
+    "state": "34",
+    "place": "57360",
+    "population": "487"
+  },
+  "Pemberton Heights, New Jersey": {
+    "state": "34",
+    "place": "57540",
+    "population": "2485"
+  },
+  "Pennsville, New Jersey": {
+    "state": "34",
+    "place": "57840",
+    "population": "12043"
+  },
+  "Pine Brook, New Jersey": {
+    "state": "34",
+    "place": "58650",
+    "population": "5675"
+  },
+  "Pine Lake Park, New Jersey": {
+    "state": "34",
+    "place": "58830",
+    "population": "8913"
+  },
+  "Pine Ridge at Crestwood, New Jersey": {
+    "state": "34",
+    "place": "58852",
+    "population": "2537"
+  },
+  "Pines Lake, New Jersey": {
+    "state": "34",
+    "place": "58860",
+    "population": "3033"
+  },
+  "Plainsboro Center, New Jersey": {
+    "state": "34",
+    "place": "59285",
+    "population": "2760"
+  },
+  "Pleasantdale, New Jersey": {
+    "state": "34",
+    "place": "59385",
+    "population": "2329"
+  },
+  "Pleasant Plains, New Jersey": {
+    "state": "34",
+    "place": "59500",
+    "population": "792"
+  },
+  "Pluckemin, New Jersey": {
+    "state": "34",
+    "place": "59730",
+    "population": "359"
+  },
+  "Pomona, New Jersey": {
+    "state": "34",
+    "place": "60030",
+    "population": "7416"
+  },
+  "Pompton Plains, New Jersey": {
+    "state": "34",
+    "place": "60120",
+    "population": "11144"
+  },
+  "Port Colden, New Jersey": {
+    "state": "34",
+    "place": "60210",
+    "population": "260"
+  },
+  "Port Elizabeth, New Jersey": {
+    "state": "34",
+    "place": "60240",
+    "population": "290"
+  },
+  "Port Monmouth, New Jersey": {
+    "state": "34",
+    "place": "60360",
+    "population": "3745"
+  },
+  "Port Morris, New Jersey": {
+    "state": "34",
+    "place": "60390",
+    "population": "754"
+  },
+  "Port Murray, New Jersey": {
+    "state": "34",
+    "place": "60450",
+    "population": "227"
+  },
+  "Port Norris, New Jersey": {
+    "state": "34",
+    "place": "60510",
+    "population": "1111"
+  },
+  "Port Reading, New Jersey": {
+    "state": "34",
+    "place": "60540",
+    "population": "3921"
+  },
+  "Pottersville, New Jersey": {
+    "state": "34",
+    "place": "60750",
+    "population": "467"
+  },
+  "Preakness, New Jersey": {
+    "state": "34",
+    "place": "60810",
+    "population": "18487"
+  },
+  "Presidential Lakes Estates, New Jersey": {
+    "state": "34",
+    "place": "60840",
+    "population": "2353"
+  },
+  "Princeton Junction, New Jersey": {
+    "state": "34",
+    "place": "60960",
+    "population": "2475"
+  },
+  "Princeton Meadows, New Jersey": {
+    "state": "34",
+    "place": "60975",
+    "population": "14776"
+  },
+  "Quinton, New Jersey": {
+    "state": "34",
+    "place": "61440",
+    "population": "470"
+  },
+  "Rainbow Lakes, New Jersey": {
+    "state": "34",
+    "place": "61560",
+    "population": "1255"
+  },
+  "Ramapo College of New Jersey, New Jersey": {
+    "state": "34",
+    "place": "61632",
+    "population": "2200"
+  },
+  "Ramblewood, New Jersey": {
+    "state": "34",
+    "place": "61650",
+    "population": "6655"
+  },
+  "Ramtown, New Jersey": {
+    "state": "34",
+    "place": "61725",
+    "population": "6329"
+  },
+  "Regency at Monroe, New Jersey": {
+    "state": "34",
+    "place": "62585",
+    "population": "2036"
+  },
+  "Renaissance at Monroe, New Jersey": {
+    "state": "34",
+    "place": "62605",
+    "population": "637"
+  },
+  "Richland, New Jersey": {
+    "state": "34",
+    "place": "62790",
+    "population": "623"
+  },
+  "Richwood, New Jersey": {
+    "state": "34",
+    "place": "62820",
+    "population": "3577"
+  },
+  "Ringoes, New Jersey": {
+    "state": "34",
+    "place": "63120",
+    "population": "849"
+  },
+  "Rio Grande, New Jersey": {
+    "state": "34",
+    "place": "63180",
+    "population": "3610"
+  },
+  "Roadstown, New Jersey": {
+    "state": "34",
+    "place": "63810",
+    "population": "155"
+  },
+  "Robbinsville Center, New Jersey": {
+    "state": "34",
+    "place": "63858",
+    "population": "3164"
+  },
+  "Robertsville, New Jersey": {
+    "state": "34",
+    "place": "63900",
+    "population": "11399"
+  },
+  "Roebling, New Jersey": {
+    "state": "34",
+    "place": "64350",
+    "population": "3585"
+  },
+  "Rosenhayn, New Jersey": {
+    "state": "34",
+    "place": "64740",
+    "population": "1150"
+  },
+  "Ross Corner, New Jersey": {
+    "state": "34",
+    "place": "64860",
+    "population": "120"
+  },
+  "Rossmoor, New Jersey": {
+    "state": "34",
+    "place": "64865",
+    "population": "2992"
+  },
+  "Rutgers University-Busch Campus, New Jersey": {
+    "state": "34",
+    "place": "65249",
+    "population": "4586"
+  },
+  "Rutgers University-Livingston Campus, New Jersey": {
+    "state": "34",
+    "place": "65260",
+    "population": "3545"
+  },
+  "Seabrook Farms, New Jersey": {
+    "state": "34",
+    "place": "66300",
+    "population": "1508"
+  },
+  "Seaville, New Jersey": {
+    "state": "34",
+    "place": "66540",
+    "population": "2426"
+  },
+  "Seeley, New Jersey": {
+    "state": "34",
+    "place": "66615",
+    "population": "152"
+  },
+  "Sewaren, New Jersey": {
+    "state": "34",
+    "place": "66720",
+    "population": "2885"
+  },
+  "Sewell, New Jersey": {
+    "state": "34",
+    "place": "66750",
+    "population": "3346"
+  },
+  "Shark River Hills, New Jersey": {
+    "state": "34",
+    "place": "66840",
+    "population": "3583"
+  },
+  "Sheppards Mill, New Jersey": {
+    "state": "34",
+    "place": "66970",
+    "population": "131"
+  },
+  "Short Hills, New Jersey": {
+    "state": "34",
+    "place": "67320",
+    "population": "14422"
+  },
+  "Sicklerville, New Jersey": {
+    "state": "34",
+    "place": "67470",
+    "population": "45084"
+  },
+  "Silver Ridge, New Jersey": {
+    "state": "34",
+    "place": "67665",
+    "population": "1167"
+  },
+  "Singac, New Jersey": {
+    "state": "34",
+    "place": "67770",
+    "population": "3602"
+  },
+  "Six Mile Run, New Jersey": {
+    "state": "34",
+    "place": "67820",
+    "population": "3383"
+  },
+  "Smithville, New Jersey": {
+    "state": "34",
+    "place": "68190",
+    "population": "9754"
+  },
+  "Somerset, New Jersey": {
+    "state": "34",
+    "place": "68370",
+    "population": "22968"
+  },
+  "South Dennis, New Jersey": {
+    "state": "34",
+    "place": "68850",
+    "population": "1703"
+  },
+  "South Seaville, New Jersey": {
+    "state": "34",
+    "place": "69480",
+    "population": "695"
+  },
+  "Springdale, New Jersey": {
+    "state": "34",
+    "place": "69900",
+    "population": "14811"
+  },
+  "Springfield, New Jersey": {
+    "state": "34",
+    "place": "70018",
+    "population": "1518"
+  },
+  "Stewartsville, New Jersey": {
+    "state": "34",
+    "place": "70800",
+    "population": "636"
+  },
+  "Stirling, New Jersey": {
+    "state": "34",
+    "place": "70920",
+    "population": "2555"
+  },
+  "Stockton University, New Jersey": {
+    "state": "34",
+    "place": "70984",
+    "population": "2428"
+  },
+  "Stonebridge, New Jersey": {
+    "state": "34",
+    "place": "70987",
+    "population": "1616"
+  },
+  "Strathmere, New Jersey": {
+    "state": "34",
+    "place": "71250",
+    "population": "137"
+  },
+  "Strathmore, New Jersey": {
+    "state": "34",
+    "place": "71280",
+    "population": "7225"
+  },
+  "Succasunna, New Jersey": {
+    "state": "34",
+    "place": "71370",
+    "population": "10338"
+  },
+  "Sunset Lake, New Jersey": {
+    "state": "34",
+    "place": "71628",
+    "population": "494"
+  },
+  "Sweetwater, New Jersey": {
+    "state": "34",
+    "place": "71880",
+    "population": "805"
+  },
+  "Ten Mile Run, New Jersey": {
+    "state": "34",
+    "place": "72435",
+    "population": "2055"
+  },
+  "The College of New Jersey, New Jersey": {
+    "state": "34",
+    "place": "72580",
+    "population": "3701"
+  },
+  "The Hills, New Jersey": {
+    "state": "34",
+    "place": "72635",
+    "population": "11410"
+  },
+  "Skillman, New Jersey": {
+    "state": "34",
+    "place": "67860",
+    "population": "237"
+  },
+  "The Ponds, New Jersey": {
+    "state": "34",
+    "place": "72726",
+    "population": "941"
+  },
+  "Thorofare, New Jersey": {
+    "state": "34",
+    "place": "72810",
+    "population": "2806"
+  },
+  "Three Bridges, New Jersey": {
+    "state": "34",
+    "place": "72870",
+    "population": "321"
+  },
+  "Titusville, New Jersey": {
+    "state": "34",
+    "place": "73050",
+    "population": "633"
+  },
+  "Toms River, New Jersey": {
+    "state": "34",
+    "place": "73110",
+    "population": "92830"
+  },
+  "Towaco, New Jersey": {
+    "state": "34",
+    "place": "73170",
+    "population": "5624"
+  },
+  "Troy Hills, New Jersey": {
+    "state": "34",
+    "place": "74150",
+    "population": "5081"
+  },
+  "Tuckahoe, New Jersey": {
+    "state": "34",
+    "place": "74180",
+    "population": "357"
+  },
+  "Turnersville, New Jersey": {
+    "state": "34",
+    "place": "74270",
+    "population": "3594"
+  },
+  "Twin Rivers, New Jersey": {
+    "state": "34",
+    "place": "74330",
+    "population": "7787"
+  },
+  "Woodbridge, New Jersey": {
+    "state": "34",
+    "place": "81950",
+    "population": "19839"
+  }
+}

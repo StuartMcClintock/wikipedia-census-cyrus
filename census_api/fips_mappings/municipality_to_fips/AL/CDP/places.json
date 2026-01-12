@@ -1,0 +1,647 @@
+{
+  "McCalla, Alabama": {
+    "state": "01",
+    "place": "45040",
+    "population": "12965"
+  },
+  "McDonald Chapel, Alabama": {
+    "state": "01",
+    "place": "45208",
+    "population": "739"
+  },
+  "Macedonia, Alabama": {
+    "state": "01",
+    "place": "45316",
+    "population": "241"
+  },
+  "Malcolm, Alabama": {
+    "state": "01",
+    "place": "46192",
+    "population": "136"
+  },
+  "Marbury, Alabama": {
+    "state": "01",
+    "place": "46600",
+    "population": "1427"
+  },
+  "Meadowbrook, Alabama": {
+    "state": "01",
+    "place": "47740",
+    "population": "9688"
+  },
+  "Megargel, Alabama": {
+    "state": "01",
+    "place": "47848",
+    "population": "60"
+  },
+  "Meridianville, Alabama": {
+    "state": "01",
+    "place": "48112",
+    "population": "8209"
+  },
+  "Mignon, Alabama": {
+    "state": "01",
+    "place": "48616",
+    "population": "1186"
+  },
+  "Millerville, Alabama": {
+    "state": "01",
+    "place": "48784",
+    "population": "303"
+  },
+  "Minor, Alabama": {
+    "state": "01",
+    "place": "49072",
+    "population": "1088"
+  },
+  "Moores Mill, Alabama": {
+    "state": "01",
+    "place": "51216",
+    "population": "6729"
+  },
+  "Morrison Crossroads, Alabama": {
+    "state": "01",
+    "place": "51469",
+    "population": "221"
+  },
+  "Movico, Alabama": {
+    "state": "01",
+    "place": "52680",
+    "population": "291"
+  },
+  "Nanafalia, Alabama": {
+    "state": "01",
+    "place": "53208",
+    "population": "75"
+  },
+  "Nances Creek, Alabama": {
+    "state": "01",
+    "place": "53232",
+    "population": "399"
+  },
+  "New Market, Alabama": {
+    "state": "01",
+    "place": "54312",
+    "population": "1543"
+  },
+  "New Union, Alabama": {
+    "state": "01",
+    "place": "54582",
+    "population": "1019"
+  },
+  "Nixburg, Alabama": {
+    "state": "01",
+    "place": "54696",
+    "population": "329"
+  },
+  "Our Town, Alabama": {
+    "state": "01",
+    "place": "57384",
+    "population": "605"
+  },
+  "Panola, Alabama": {
+    "state": "01",
+    "place": "57912",
+    "population": "71"
+  },
+  "Pea Ridge, Alabama": {
+    "state": "01",
+    "place": "58680",
+    "population": "841"
+  },
+  "Penton, Alabama": {
+    "state": "01",
+    "place": "59016",
+    "population": "163"
+  },
+  "Perdido, Alabama": {
+    "state": "01",
+    "place": "59064",
+    "population": "730"
+  },
+  "Peterman, Alabama": {
+    "state": "01",
+    "place": "59232",
+    "population": "87"
+  },
+  "Pine Level, Alabama": {
+    "state": "01",
+    "place": "60264",
+    "population": "4885"
+  },
+  "Point Clear, Alabama": {
+    "state": "01",
+    "place": "61488",
+    "population": "2076"
+  },
+  "Putnam, Alabama": {
+    "state": "01",
+    "place": "62952",
+    "population": "172"
+  },
+  "Ray, Alabama": {
+    "state": "01",
+    "place": "63495",
+    "population": "326"
+  },
+  "Redland, Alabama": {
+    "state": "01",
+    "place": "63730",
+    "population": "5106"
+  },
+  "Redstone Arsenal, Alabama": {
+    "state": "01",
+    "place": "63912",
+    "population": "837"
+  },
+  "Reeltown, Alabama": {
+    "state": "01",
+    "place": "64040",
+    "population": "794"
+  },
+  "Remlap, Alabama": {
+    "state": "01",
+    "place": "64248",
+    "population": "2624"
+  },
+  "Rock Creek, Alabama": {
+    "state": "01",
+    "place": "65412",
+    "population": "1471"
+  },
+  "Rock Mills, Alabama": {
+    "state": "01",
+    "place": "65592",
+    "population": "603"
+  },
+  "Rockville, Alabama": {
+    "state": "01",
+    "place": "65784",
+    "population": "47"
+  },
+  "St. Stephens, Alabama": {
+    "state": "01",
+    "place": "67584",
+    "population": "415"
+  },
+  "Saks, Alabama": {
+    "state": "01",
+    "place": "67608",
+    "population": "9956"
+  },
+  "Selmont-West Selmont, Alabama": {
+    "state": "01",
+    "place": "69180",
+    "population": "2158"
+  },
+  "Shelby, Alabama": {
+    "state": "01",
+    "place": "69672",
+    "population": "940"
+  },
+  "Shoal Creek, Alabama": {
+    "state": "01",
+    "place": "69978",
+    "population": "1668"
+  },
+  "Sims Chapel, Alabama": {
+    "state": "01",
+    "place": "70632",
+    "population": "145"
+  },
+  "Smoke Rise, Alabama": {
+    "state": "01",
+    "place": "71201",
+    "population": "1661"
+  },
+  "Spring Garden, Alabama": {
+    "state": "01",
+    "place": "72408",
+    "population": "216"
+  },
+  "Spruce Pine, Alabama": {
+    "state": "01",
+    "place": "72672",
+    "population": "215"
+  },
+  "Standing Rock, Alabama": {
+    "state": "01",
+    "place": "72720",
+    "population": "132"
+  },
+  "Stapleton, Alabama": {
+    "state": "01",
+    "place": "72816",
+    "population": "2213"
+  },
+  "Sterrett, Alabama": {
+    "state": "01",
+    "place": "73056",
+    "population": "706"
+  },
+  "Stewartville, Alabama": {
+    "state": "01",
+    "place": "73152",
+    "population": "1662"
+  },
+  "Stockton, Alabama": {
+    "state": "01",
+    "place": "73272",
+    "population": "557"
+  },
+  "Theodore, Alabama": {
+    "state": "01",
+    "place": "75768",
+    "population": "6270"
+  },
+  "Tibbie, Alabama": {
+    "state": "01",
+    "place": "76200",
+    "population": "55"
+  },
+  "Tidmore Bend, Alabama": {
+    "state": "01",
+    "place": "76208",
+    "population": "1119"
+  },
+  "Tillmans Corner, Alabama": {
+    "state": "01",
+    "place": "76320",
+    "population": "17731"
+  },
+  "Underwood-Petersville, Alabama": {
+    "state": "01",
+    "place": "77580",
+    "population": "3051"
+  },
+  "Uriah, Alabama": {
+    "state": "01",
+    "place": "78120",
+    "population": "263"
+  },
+  "Vandiver, Alabama": {
+    "state": "01",
+    "place": "78312",
+    "population": "1084"
+  },
+  "Vinegar Bend, Alabama": {
+    "state": "01",
+    "place": "79032",
+    "population": "178"
+  },
+  "Weogufka, Alabama": {
+    "state": "01",
+    "place": "80736",
+    "population": "207"
+  },
+  "West End-Cobb Town, Alabama": {
+    "state": "01",
+    "place": "81084",
+    "population": "3128"
+  },
+  "Whatley, Alabama": {
+    "state": "01",
+    "place": "81744",
+    "population": "167"
+  },
+  "White Plains, Alabama": {
+    "state": "01",
+    "place": "82104",
+    "population": "877"
+  },
+  "Whitesboro, Alabama": {
+    "state": "01",
+    "place": "82176",
+    "population": "2113"
+  },
+  "Abanda, Alabama": {
+    "state": "01",
+    "place": "00100",
+    "population": "133"
+  },
+  "Alexandria, Alabama": {
+    "state": "01",
+    "place": "01180",
+    "population": "4032"
+  },
+  "Axis, Alabama": {
+    "state": "01",
+    "place": "03508",
+    "population": "561"
+  },
+  "Ballplay, Alabama": {
+    "state": "01",
+    "place": "03820",
+    "population": "1437"
+  },
+  "Belgreen, Alabama": {
+    "state": "01",
+    "place": "05140",
+    "population": "170"
+  },
+  "Bellamy, Alabama": {
+    "state": "01",
+    "place": "05188",
+    "population": "363"
+  },
+  "Belle Fontaine, Alabama": {
+    "state": "01",
+    "place": "05212",
+    "population": "613"
+  },
+  "Blue Ridge, Alabama": {
+    "state": "01",
+    "place": "07588",
+    "population": "1485"
+  },
+  "Bon Secour, Alabama": {
+    "state": "01",
+    "place": "08272",
+    "population": "1754"
+  },
+  "Boykin, Alabama": {
+    "state": "01",
+    "place": "08680",
+    "population": "208"
+  },
+  "Brantleyville, Alabama": {
+    "state": "01",
+    "place": "09064",
+    "population": "931"
+  },
+  "Bristow Cove, Alabama": {
+    "state": "01",
+    "place": "09457",
+    "population": "624"
+  },
+  "Brook Highland, Alabama": {
+    "state": "01",
+    "place": "09500",
+    "population": "7406"
+  },
+  "Broomtown, Alabama": {
+    "state": "01",
+    "place": "09880",
+    "population": "160"
+  },
+  "Bucks, Alabama": {
+    "state": "01",
+    "place": "10456",
+    "population": "22"
+  },
+  "Calvert, Alabama": {
+    "state": "01",
+    "place": "11488",
+    "population": "255"
+  },
+  "Carlisle-Rockledge, Alabama": {
+    "state": "01",
+    "place": "12070",
+    "population": "2167"
+  },
+  "Carlton, Alabama": {
+    "state": "01",
+    "place": "12112",
+    "population": "46"
+  },
+  "Catherine, Alabama": {
+    "state": "01",
+    "place": "12544",
+    "population": "65"
+  },
+  "Choccolocco, Alabama": {
+    "state": "01",
+    "place": "14728",
+    "population": "2838"
+  },
+  "Chunchula, Alabama": {
+    "state": "01",
+    "place": "14968",
+    "population": "195"
+  },
+  "Coats Bend, Alabama": {
+    "state": "01",
+    "place": "16080",
+    "population": "1318"
+  },
+  "Concord, Alabama": {
+    "state": "01",
+    "place": "16936",
+    "population": "1690"
+  },
+  "Cottondale, Alabama": {
+    "state": "01",
+    "place": "17704",
+    "population": "3130"
+  },
+  "Cullomburg, Alabama": {
+    "state": "01",
+    "place": "19024",
+    "population": "126"
+  },
+  "Deer Park, Alabama": {
+    "state": "01",
+    "place": "20152",
+    "population": "141"
+  },
+  "Delta, Alabama": {
+    "state": "01",
+    "place": "20272",
+    "population": "260"
+  },
+  "Dunnavant, Alabama": {
+    "state": "01",
+    "place": "21890",
+    "population": "936"
+  },
+  "Eagle Point, Alabama": {
+    "state": "01",
+    "place": "22088",
+    "population": "2903"
+  },
+  "East Point, Alabama": {
+    "state": "01",
+    "place": "22504",
+    "population": "172"
+  },
+  "Edgewater, Alabama": {
+    "state": "01",
+    "place": "23032",
+    "population": "746"
+  },
+  "Egypt, Alabama": {
+    "state": "01",
+    "place": "23224",
+    "population": "845"
+  },
+  "Emerald Mountain, Alabama": {
+    "state": "01",
+    "place": "23880",
+    "population": "3310"
+  },
+  "Equality, Alabama": {
+    "state": "01",
+    "place": "24280",
+    "population": "150"
+  },
+  "Eunola, Alabama": {
+    "state": "01",
+    "place": "24616",
+    "population": "284"
+  },
+  "Fairford, Alabama": {
+    "state": "01",
+    "place": "25216",
+    "population": "161"
+  },
+  "Fayetteville, Alabama": {
+    "state": "01",
+    "place": "25864",
+    "population": "1422"
+  },
+  "Fitzpatrick, Alabama": {
+    "state": "01",
+    "place": "26152",
+    "population": "79"
+  },
+  "Forestdale, Alabama": {
+    "state": "01",
+    "place": "27088",
+    "population": "10409"
+  },
+  "Fort Rucker, Alabama": {
+    "state": "01",
+    "place": "27640",
+    "population": "4464"
+  },
+  "Fredonia, Alabama": {
+    "state": "01",
+    "place": "28120",
+    "population": "198"
+  },
+  "Fruitdale, Alabama": {
+    "state": "01",
+    "place": "28408",
+    "population": "175"
+  },
+  "Gallant, Alabama": {
+    "state": "01",
+    "place": "28816",
+    "population": "869"
+  },
+  "Graham, Alabama": {
+    "state": "01",
+    "place": "31000",
+    "population": "196"
+  },
+  "Grand Bay, Alabama": {
+    "state": "01",
+    "place": "31024",
+    "population": "3460"
+  },
+  "Grayson Valley, Alabama": {
+    "state": "01",
+    "place": "31348",
+    "population": "5982"
+  },
+  "Gulfcrest, Alabama": {
+    "state": "01",
+    "place": "32248",
+    "population": "142"
+  },
+  "Hackneyville, Alabama": {
+    "state": "01",
+    "place": "32584",
+    "population": "349"
+  },
+  "Hanover, Alabama": {
+    "state": "01",
+    "place": "33064",
+    "population": "151"
+  },
+  "Harvest, Alabama": {
+    "state": "01",
+    "place": "33472",
+    "population": "5893"
+  },
+  "Hatton, Alabama": {
+    "state": "01",
+    "place": "33544",
+    "population": "244"
+  },
+  "Hazel Green, Alabama": {
+    "state": "01",
+    "place": "33808",
+    "population": "4105"
+  },
+  "Highland Lakes, Alabama": {
+    "state": "01",
+    "place": "34490",
+    "population": "5239"
+  },
+  "Hissop, Alabama": {
+    "state": "01",
+    "place": "34984",
+    "population": "209"
+  },
+  "Hobson, Alabama": {
+    "state": "01",
+    "place": "35130",
+    "population": "100"
+  },
+  "Hollis Crossroads, Alabama": {
+    "state": "01",
+    "place": "35536",
+    "population": "665"
+  },
+  "Holt, Alabama": {
+    "state": "01",
+    "place": "35704",
+    "population": "3413"
+  },
+  "Holtville, Alabama": {
+    "state": "01",
+    "place": "35752",
+    "population": "4940"
+  },
+  "Huguley, Alabama": {
+    "state": "01",
+    "place": "36592",
+    "population": "2470"
+  },
+  "Ivalee, Alabama": {
+    "state": "01",
+    "place": "38032",
+    "population": "946"
+  },
+  "Joppa, Alabama": {
+    "state": "01",
+    "place": "39064",
+    "population": "556"
+  },
+  "Ladonia, Alabama": {
+    "state": "01",
+    "place": "40648",
+    "population": "3074"
+  },
+  "Leroy, Alabama": {
+    "state": "01",
+    "place": "42304",
+    "population": "766"
+  },
+  "Hollins, Alabama": {
+    "state": "01",
+    "place": "35512",
+    "population": "517"
+  },
+  "Lillian, Alabama": {
+    "state": "01",
+    "place": "42928",
+    "population": "1330"
+  },
+  "Lookout Mountain, Alabama": {
+    "state": "01",
+    "place": "44160",
+    "population": "1484"
+  }
+}

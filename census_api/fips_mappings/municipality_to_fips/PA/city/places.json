@@ -1,0 +1,282 @@
+{
+  "Jeannette, Pennsylvania": {
+    "state": "42",
+    "place": "37784",
+    "population": "8780"
+  },
+  "Johnstown, Pennsylvania": {
+    "state": "42",
+    "place": "38288",
+    "population": "18411"
+  },
+  "Titusville, Pennsylvania": {
+    "state": "42",
+    "place": "76904",
+    "population": "5262"
+  },
+  "Lancaster, Pennsylvania": {
+    "state": "42",
+    "place": "41216",
+    "population": "58039"
+  },
+  "Uniontown, Pennsylvania": {
+    "state": "42",
+    "place": "78528",
+    "population": "9984"
+  },
+  "Aliquippa, Pennsylvania": {
+    "state": "42",
+    "place": "00820",
+    "population": "9238"
+  },
+  "Allentown, Pennsylvania": {
+    "state": "42",
+    "place": "02000",
+    "population": "125845"
+  },
+  "Altoona, Pennsylvania": {
+    "state": "42",
+    "place": "02184",
+    "population": "43963"
+  },
+  "Arnold, Pennsylvania": {
+    "state": "42",
+    "place": "03088",
+    "population": "4772"
+  },
+  "Lebanon, Pennsylvania": {
+    "state": "42",
+    "place": "42168",
+    "population": "26814"
+  },
+  "Lock Haven, Pennsylvania": {
+    "state": "42",
+    "place": "44128",
+    "population": "8108"
+  },
+  "Warren, Pennsylvania": {
+    "state": "42",
+    "place": "81000",
+    "population": "9404"
+  },
+  "Washington, Pennsylvania": {
+    "state": "42",
+    "place": "81328",
+    "population": "13176"
+  },
+  "Beaver Falls, Pennsylvania": {
+    "state": "42",
+    "place": "04792",
+    "population": "9005"
+  },
+  "Lower Burrell, Pennsylvania": {
+    "state": "42",
+    "place": "44864",
+    "population": "11758"
+  },
+  "McKeesport, Pennsylvania": {
+    "state": "42",
+    "place": "46256",
+    "population": "17727"
+  },
+  "Wilkes-Barre, Pennsylvania": {
+    "state": "42",
+    "place": "85152",
+    "population": "44328"
+  },
+  "Williamsport, Pennsylvania": {
+    "state": "42",
+    "place": "85312",
+    "population": "27754"
+  },
+  "Bethlehem, Pennsylvania": {
+    "state": "42",
+    "place": "06088",
+    "population": "75781"
+  },
+  "Meadville, Pennsylvania": {
+    "state": "42",
+    "place": "48360",
+    "population": "13050"
+  },
+  "York, Pennsylvania": {
+    "state": "42",
+    "place": "87048",
+    "population": "44800"
+  },
+  "Bradford, Pennsylvania": {
+    "state": "42",
+    "place": "08040",
+    "population": "7849"
+  },
+  "Butler, Pennsylvania": {
+    "state": "42",
+    "place": "10464",
+    "population": "13502"
+  },
+  "Monessen, Pennsylvania": {
+    "state": "42",
+    "place": "50344",
+    "population": "6876"
+  },
+  "Monongahela, Pennsylvania": {
+    "state": "42",
+    "place": "50408",
+    "population": "4159"
+  },
+  "Carbondale, Pennsylvania": {
+    "state": "42",
+    "place": "11232",
+    "population": "8828"
+  },
+  "Chester, Pennsylvania": {
+    "state": "42",
+    "place": "13208",
+    "population": "32605"
+  },
+  "Nanticoke, Pennsylvania": {
+    "state": "42",
+    "place": "52584",
+    "population": "10628"
+  },
+  "New Castle, Pennsylvania": {
+    "state": "42",
+    "place": "53368",
+    "population": "21926"
+  },
+  "Clairton, Pennsylvania": {
+    "state": "42",
+    "place": "13704",
+    "population": "6181"
+  },
+  "Coatesville, Pennsylvania": {
+    "state": "42",
+    "place": "14712",
+    "population": "13350"
+  },
+  "New Kensington, Pennsylvania": {
+    "state": "42",
+    "place": "53736",
+    "population": "12170"
+  },
+  "Connellsville, Pennsylvania": {
+    "state": "42",
+    "place": "15776",
+    "population": "7031"
+  },
+  "Corry, Pennsylvania": {
+    "state": "42",
+    "place": "16296",
+    "population": "6210"
+  },
+  "Oil City, Pennsylvania": {
+    "state": "42",
+    "place": "56456",
+    "population": "9613"
+  },
+  "DuBois, Pennsylvania": {
+    "state": "42",
+    "place": "20136",
+    "population": "7510"
+  },
+  "Duquesne, Pennsylvania": {
+    "state": "42",
+    "place": "20432",
+    "population": "5254"
+  },
+  "Parker, Pennsylvania": {
+    "state": "42",
+    "place": "57976",
+    "population": "695"
+  },
+  "Philadelphia, Pennsylvania": {
+    "state": "42",
+    "place": "60000",
+    "population": "1603797"
+  },
+  "Pittsburgh, Pennsylvania": {
+    "state": "42",
+    "place": "61000",
+    "population": "302971"
+  },
+  "Pittston, Pennsylvania": {
+    "state": "42",
+    "place": "61048",
+    "population": "7591"
+  },
+  "Easton, Pennsylvania": {
+    "state": "42",
+    "place": "21648",
+    "population": "28127"
+  },
+  "Pottsville, Pennsylvania": {
+    "state": "42",
+    "place": "62432",
+    "population": "13346"
+  },
+  "Erie, Pennsylvania": {
+    "state": "42",
+    "place": "24000",
+    "population": "94831"
+  },
+  "Farrell, Pennsylvania": {
+    "state": "42",
+    "place": "25360",
+    "population": "4258"
+  },
+  "Reading, Pennsylvania": {
+    "state": "42",
+    "place": "63624",
+    "population": "95112"
+  },
+  "Franklin, Pennsylvania": {
+    "state": "42",
+    "place": "27456",
+    "population": "6077"
+  },
+  "St. Marys, Pennsylvania": {
+    "state": "42",
+    "place": "67344",
+    "population": "12738"
+  },
+  "Scranton, Pennsylvania": {
+    "state": "42",
+    "place": "69000",
+    "population": "76328"
+  },
+  "Shamokin, Pennsylvania": {
+    "state": "42",
+    "place": "69600",
+    "population": "6942"
+  },
+  "Sharon, Pennsylvania": {
+    "state": "42",
+    "place": "69720",
+    "population": "13147"
+  },
+  "Greensburg, Pennsylvania": {
+    "state": "42",
+    "place": "31200",
+    "population": "14976"
+  },
+  "Harrisburg, Pennsylvania": {
+    "state": "42",
+    "place": "32800",
+    "population": "50099"
+  },
+  "Hazleton, Pennsylvania": {
+    "state": "42",
+    "place": "33408",
+    "population": "29963"
+  },
+  "Hermitage, Pennsylvania": {
+    "state": "42",
+    "place": "34064",
+    "population": "16230"
+  },
+  "Sunbury, Pennsylvania": {
+    "state": "42",
+    "place": "75304",
+    "population": "9719"
+  }
+}

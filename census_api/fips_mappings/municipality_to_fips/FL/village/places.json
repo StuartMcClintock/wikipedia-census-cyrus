@@ -1,0 +1,102 @@
+{
+  "Golf, Florida": {
+    "state": "12",
+    "place": "26550",
+    "population": "255"
+  },
+  "Royal Palm Beach, Florida": {
+    "state": "12",
+    "place": "62100",
+    "population": "38932"
+  },
+  "Sea Ranch Lakes, Florida": {
+    "state": "12",
+    "place": "64725",
+    "population": "540"
+  },
+  "Highland Park, Florida": {
+    "state": "12",
+    "place": "30325",
+    "population": "251"
+  },
+  "Indian Creek, Florida": {
+    "state": "12",
+    "place": "33425",
+    "population": "84"
+  },
+  "Indiantown, Florida": {
+    "state": "12",
+    "place": "33700",
+    "population": "6560"
+  },
+  "Key Biscayne, Florida": {
+    "state": "12",
+    "place": "36300",
+    "population": "14809"
+  },
+  "Tequesta, Florida": {
+    "state": "12",
+    "place": "71525",
+    "population": "6158"
+  },
+  "Virginia Gardens, Florida": {
+    "state": "12",
+    "place": "74575",
+    "population": "2364"
+  },
+  "Biscayne Park, Florida": {
+    "state": "12",
+    "place": "06600",
+    "population": "3117"
+  },
+  "Bal Harbour, Florida": {
+    "state": "12",
+    "place": "03275",
+    "population": "3093"
+  },
+  "Lazy Lake, Florida": {
+    "state": "12",
+    "place": "39750",
+    "population": "33"
+  },
+  "Wellington, Florida": {
+    "state": "12",
+    "place": "75812",
+    "population": "61637"
+  },
+  "Miami Shores, Florida": {
+    "state": "12",
+    "place": "45175",
+    "population": "11567"
+  },
+  "North Palm Beach, Florida": {
+    "state": "12",
+    "place": "49600",
+    "population": "13162"
+  },
+  "El Portal, Florida": {
+    "state": "12",
+    "place": "20650",
+    "population": "1986"
+  },
+  "Estero, Florida": {
+    "state": "12",
+    "place": "21150",
+    "population": "36939"
+  },
+  "Palmetto Bay, Florida": {
+    "state": "12",
+    "place": "54275",
+    "population": "24439"
+  },
+  "Palm Springs, Florida": {
+    "state": "12",
+    "place": "54450",
+    "population": "26890"
+  },
+  "Pinecrest, Florida": {
+    "state": "12",
+    "place": "56625",
+    "population": "18388"
+  }
+}

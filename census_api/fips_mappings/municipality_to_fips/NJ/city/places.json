@@ -1,0 +1,262 @@
+{
+  "Union City, New Jersey": {
+    "state": "34",
+    "place": "74630",
+    "population": "68589"
+  },
+  "Ventnor City, New Jersey": {
+    "state": "34",
+    "place": "75620",
+    "population": "9210"
+  },
+  "Vineland, New Jersey": {
+    "state": "34",
+    "place": "76070",
+    "population": "60780"
+  },
+  "Wildwood, New Jersey": {
+    "state": "34",
+    "place": "81170",
+    "population": "5157"
+  },
+  "Woodbury, New Jersey": {
+    "state": "34",
+    "place": "82120",
+    "population": "9963"
+  },
+  "Absecon, New Jersey": {
+    "state": "34",
+    "place": "00100",
+    "population": "9137"
+  },
+  "Asbury Park, New Jersey": {
+    "state": "34",
+    "place": "01960",
+    "population": "15188"
+  },
+  "Atlantic City, New Jersey": {
+    "state": "34",
+    "place": "02080",
+    "population": "38497"
+  },
+  "Bayonne, New Jersey": {
+    "state": "34",
+    "place": "03580",
+    "population": "71686"
+  },
+  "Beverly, New Jersey": {
+    "state": "34",
+    "place": "05740",
+    "population": "2499"
+  },
+  "Bordentown, New Jersey": {
+    "state": "34",
+    "place": "06670",
+    "population": "3993"
+  },
+  "Bridgeton, New Jersey": {
+    "state": "34",
+    "place": "07600",
+    "population": "27263"
+  },
+  "Brigantine, New Jersey": {
+    "state": "34",
+    "place": "07810",
+    "population": "7716"
+  },
+  "Burlington, New Jersey": {
+    "state": "34",
+    "place": "08920",
+    "population": "9743"
+  },
+  "Camden, New Jersey": {
+    "state": "34",
+    "place": "10000",
+    "population": "71791"
+  },
+  "Cape May, New Jersey": {
+    "state": "34",
+    "place": "10270",
+    "population": "2768"
+  },
+  "Clifton, New Jersey": {
+    "state": "34",
+    "place": "13690",
+    "population": "90296"
+  },
+  "Corbin City, New Jersey": {
+    "state": "34",
+    "place": "15160",
+    "population": "471"
+  },
+  "East Orange, New Jersey": {
+    "state": "34",
+    "place": "19390",
+    "population": "69612"
+  },
+  "Egg Harbor City, New Jersey": {
+    "state": "34",
+    "place": "20350",
+    "population": "4396"
+  },
+  "Elizabeth, New Jersey": {
+    "state": "34",
+    "place": "21000",
+    "population": "137298"
+  },
+  "Englewood, New Jersey": {
+    "state": "34",
+    "place": "21480",
+    "population": "29308"
+  },
+  "Estell Manor, New Jersey": {
+    "state": "34",
+    "place": "21870",
+    "population": "1668"
+  },
+  "Garfield, New Jersey": {
+    "state": "34",
+    "place": "25770",
+    "population": "32655"
+  },
+  "Gloucester City, New Jersey": {
+    "state": "34",
+    "place": "26820",
+    "population": "11484"
+  },
+  "Hackensack, New Jersey": {
+    "state": "34",
+    "place": "28680",
+    "population": "46030"
+  },
+  "Hoboken, New Jersey": {
+    "state": "34",
+    "place": "32250",
+    "population": "60419"
+  },
+  "Jersey City, New Jersey": {
+    "state": "34",
+    "place": "36000",
+    "population": "292449"
+  },
+  "Lambertville, New Jersey": {
+    "state": "34",
+    "place": "38610",
+    "population": "4139"
+  },
+  "Linden, New Jersey": {
+    "state": "34",
+    "place": "40350",
+    "population": "43738"
+  },
+  "Linwood, New Jersey": {
+    "state": "34",
+    "place": "40530",
+    "population": "6971"
+  },
+  "Long Branch, New Jersey": {
+    "state": "34",
+    "place": "41310",
+    "population": "31667"
+  },
+  "Margate City, New Jersey": {
+    "state": "34",
+    "place": "43890",
+    "population": "5317"
+  },
+  "Millville, New Jersey": {
+    "state": "34",
+    "place": "46680",
+    "population": "27491"
+  },
+  "Newark, New Jersey": {
+    "state": "34",
+    "place": "51000",
+    "population": "311549"
+  },
+  "Northfield, New Jersey": {
+    "state": "34",
+    "place": "52950",
+    "population": "8434"
+  },
+  "North Wildwood, New Jersey": {
+    "state": "34",
+    "place": "53490",
+    "population": "3621"
+  },
+  "Ocean City, New Jersey": {
+    "state": "34",
+    "place": "54360",
+    "population": "11229"
+  },
+  "New Brunswick, New Jersey": {
+    "state": "34",
+    "place": "51210",
+    "population": "55266"
+  },
+  "Passaic, New Jersey": {
+    "state": "34",
+    "place": "56550",
+    "population": "70537"
+  },
+  "Paterson, New Jersey": {
+    "state": "34",
+    "place": "57000",
+    "population": "159732"
+  },
+  "Perth Amboy, New Jersey": {
+    "state": "34",
+    "place": "58200",
+    "population": "55436"
+  },
+  "Plainfield, New Jersey": {
+    "state": "34",
+    "place": "59190",
+    "population": "54586"
+  },
+  "Pleasantville, New Jersey": {
+    "state": "34",
+    "place": "59640",
+    "population": "20629"
+  },
+  "Port Republic, New Jersey": {
+    "state": "34",
+    "place": "60600",
+    "population": "1101"
+  },
+  "Rahway, New Jersey": {
+    "state": "34",
+    "place": "61530",
+    "population": "29556"
+  },
+  "Salem, New Jersey": {
+    "state": "34",
+    "place": "65490",
+    "population": "5296"
+  },
+  "Sea Isle City, New Jersey": {
+    "state": "34",
+    "place": "66390",
+    "population": "2104"
+  },
+  "Somers Point, New Jersey": {
+    "state": "34",
+    "place": "68430",
+    "population": "10469"
+  },
+  "South Amboy, New Jersey": {
+    "state": "34",
+    "place": "68550",
+    "population": "9411"
+  },
+  "Summit, New Jersey": {
+    "state": "34",
+    "place": "71430",
+    "population": "22719"
+  },
+  "Trenton, New Jersey": {
+    "state": "34",
+    "place": "74000",
+    "population": "90871"
+  }
+}

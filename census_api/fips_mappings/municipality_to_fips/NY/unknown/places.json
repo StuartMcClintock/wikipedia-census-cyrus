@@ -1,0 +1,42 @@
+{
+  "Fairview CDP (Dutchess County), New York": {
+    "state": "36",
+    "place": "25109",
+    "population": "5475"
+  },
+  "Fairview CDP (Westchester County), New York": {
+    "state": "36",
+    "place": "25120",
+    "population": "3217"
+  },
+  "Greenville CDP (Greene County), New York": {
+    "state": "36",
+    "place": "30609",
+    "population": "688"
+  },
+  "Greenville CDP (Westchester County), New York": {
+    "state": "36",
+    "place": "30642",
+    "population": "9394"
+  },
+  "Milton CDP (Saratoga County), New York": {
+    "state": "36",
+    "place": "47548",
+    "population": "4663"
+  },
+  "Milton CDP (Ulster County), New York": {
+    "state": "36",
+    "place": "47554",
+    "population": "1650"
+  },
+  "White Lake CDP (Oneida County), New York": {
+    "state": "36",
+    "place": "81644",
+    "population": "121"
+  },
+  "White Lake CDP (Sullivan County), New York": {
+    "state": "36",
+    "place": "81655",
+    "population": "207"
+  }
+}

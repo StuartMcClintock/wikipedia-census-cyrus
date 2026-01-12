@@ -1,0 +1,22 @@
+{
+  "Kailua CDP (Hawaii County), Hawaii": {
+    "state": "15",
+    "place": "23000",
+    "population": "19713"
+  },
+  "Kailua CDP (Honolulu County), Hawaii": {
+    "state": "15",
+    "place": "23150",
+    "population": "40514"
+  },
+  "Waimea CDP (Hawaii County), Hawaii": {
+    "state": "15",
+    "place": "78500",
+    "population": "9904"
+  },
+  "Waimea CDP (Kauai County), Hawaii": {
+    "state": "15",
+    "place": "78800",
+    "population": "2057"
+  }
+}

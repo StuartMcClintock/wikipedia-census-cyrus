@@ -1,0 +1,827 @@
+{
+  "Erick, Oklahoma": {
+    "state": "40",
+    "place": "24200",
+    "population": "1000"
+  },
+  "Eufaula, Oklahoma": {
+    "state": "40",
+    "place": "24650",
+    "population": "2766"
+  },
+  "Fairview, Oklahoma": {
+    "state": "40",
+    "place": "25100",
+    "population": "2740"
+  },
+  "Frederick, Oklahoma": {
+    "state": "40",
+    "place": "27800",
+    "population": "3468"
+  },
+  "Garber, Oklahoma": {
+    "state": "40",
+    "place": "28500",
+    "population": "725"
+  },
+  "Geary, Oklahoma": {
+    "state": "40",
+    "place": "28900",
+    "population": "994"
+  },
+  "Glenpool, Oklahoma": {
+    "state": "40",
+    "place": "29600",
+    "population": "13691"
+  },
+  "Grandfield, Oklahoma": {
+    "state": "40",
+    "place": "30850",
+    "population": "919"
+  },
+  "Grove, Oklahoma": {
+    "state": "40",
+    "place": "31600",
+    "population": "6956"
+  },
+  "Guthrie, Oklahoma": {
+    "state": "40",
+    "place": "31700",
+    "population": "10749"
+  },
+  "Guymon, Oklahoma": {
+    "state": "40",
+    "place": "31750",
+    "population": "12965"
+  },
+  "Haileyville, Oklahoma": {
+    "state": "40",
+    "place": "31900",
+    "population": "716"
+  },
+  "Harrah, Oklahoma": {
+    "state": "40",
+    "place": "32750",
+    "population": "6245"
+  },
+  "Hartshorne, Oklahoma": {
+    "state": "40",
+    "place": "32850",
+    "population": "1947"
+  },
+  "Healdton, Oklahoma": {
+    "state": "40",
+    "place": "33350",
+    "population": "2328"
+  },
+  "Heavener, Oklahoma": {
+    "state": "40",
+    "place": "33400",
+    "population": "2985"
+  },
+  "Henryetta, Oklahoma": {
+    "state": "40",
+    "place": "33750",
+    "population": "5640"
+  },
+  "Hobart, Oklahoma": {
+    "state": "40",
+    "place": "35000",
+    "population": "3413"
+  },
+  "Holdenville, Oklahoma": {
+    "state": "40",
+    "place": "35400",
+    "population": "5934"
+  },
+  "Hollis, Oklahoma": {
+    "state": "40",
+    "place": "35500",
+    "population": "1795"
+  },
+  "Hominy, Oklahoma": {
+    "state": "40",
+    "place": "35850",
+    "population": "3329"
+  },
+  "Hooker, Oklahoma": {
+    "state": "40",
+    "place": "36000",
+    "population": "1802"
+  },
+  "Hugo, Oklahoma": {
+    "state": "40",
+    "place": "36300",
+    "population": "5166"
+  },
+  "Idabel, Oklahoma": {
+    "state": "40",
+    "place": "36750",
+    "population": "6961"
+  },
+  "Jay, Oklahoma": {
+    "state": "40",
+    "place": "37650",
+    "population": "2425"
+  },
+  "Jenks, Oklahoma": {
+    "state": "40",
+    "place": "37800",
+    "population": "25949"
+  },
+  "Kaw City, Oklahoma": {
+    "state": "40",
+    "place": "38800",
+    "population": "325"
+  },
+  "Kingfisher, Oklahoma": {
+    "state": "40",
+    "place": "39850",
+    "population": "4903"
+  },
+  "Konawa, Oklahoma": {
+    "state": "40",
+    "place": "40200",
+    "population": "1288"
+  },
+  "Krebs, Oklahoma": {
+    "state": "40",
+    "place": "40300",
+    "population": "2083"
+  },
+  "Lawton, Oklahoma": {
+    "state": "40",
+    "place": "41850",
+    "population": "90381"
+  },
+  "Lehigh, Oklahoma": {
+    "state": "40",
+    "place": "42200",
+    "population": "272"
+  },
+  "Lexington, Oklahoma": {
+    "state": "40",
+    "place": "42700",
+    "population": "2010"
+  },
+  "Lindsay, Oklahoma": {
+    "state": "40",
+    "place": "43150",
+    "population": "2864"
+  },
+  "Lone Grove, Oklahoma": {
+    "state": "40",
+    "place": "43750",
+    "population": "4993"
+  },
+  "McAlester, Oklahoma": {
+    "state": "40",
+    "place": "44800",
+    "population": "18171"
+  },
+  "McLoud, Oklahoma": {
+    "state": "40",
+    "place": "45350",
+    "population": "4351"
+  },
+  "Madill, Oklahoma": {
+    "state": "40",
+    "place": "45750",
+    "population": "3914"
+  },
+  "Mangum, Oklahoma": {
+    "state": "40",
+    "place": "46050",
+    "population": "2762"
+  },
+  "Marietta, Oklahoma": {
+    "state": "40",
+    "place": "46500",
+    "population": "2719"
+  },
+  "Marlow, Oklahoma": {
+    "state": "40",
+    "place": "46600",
+    "population": "4385"
+  },
+  "Maud, Oklahoma": {
+    "state": "40",
+    "place": "46900",
+    "population": "867"
+  },
+  "Medford, Oklahoma": {
+    "state": "40",
+    "place": "47300",
+    "population": "932"
+  },
+  "Miami, Oklahoma": {
+    "state": "40",
+    "place": "48000",
+    "population": "12969"
+  },
+  "Midwest City, Oklahoma": {
+    "state": "40",
+    "place": "48350",
+    "population": "58409"
+  },
+  "Minco, Oklahoma": {
+    "state": "40",
+    "place": "48750",
+    "population": "1500"
+  },
+  "Moore, Oklahoma": {
+    "state": "40",
+    "place": "49200",
+    "population": "62793"
+  },
+  "Morris, Oklahoma": {
+    "state": "40",
+    "place": "49400",
+    "population": "1299"
+  },
+  "Muskogee, Oklahoma": {
+    "state": "40",
+    "place": "50050",
+    "population": "36878"
+  },
+  "Mustang, Oklahoma": {
+    "state": "40",
+    "place": "50100",
+    "population": "19879"
+  },
+  "Newcastle, Oklahoma": {
+    "state": "40",
+    "place": "51150",
+    "population": "10984"
+  },
+  "New Cordell, Oklahoma": {
+    "state": "40",
+    "place": "51250",
+    "population": "2775"
+  },
+  "Newkirk, Oklahoma": {
+    "state": "40",
+    "place": "51300",
+    "population": "2172"
+  },
+  "Nichols Hills, Oklahoma": {
+    "state": "40",
+    "place": "51800",
+    "population": "3870"
+  },
+  "Nicoma Park, Oklahoma": {
+    "state": "40",
+    "place": "51850",
+    "population": "2313"
+  },
+  "Noble, Oklahoma": {
+    "state": "40",
+    "place": "52150",
+    "population": "6985"
+  },
+  "Norman, Oklahoma": {
+    "state": "40",
+    "place": "52500",
+    "population": "128026"
+  },
+  "Nowata, Oklahoma": {
+    "state": "40",
+    "place": "52900",
+    "population": "3517"
+  },
+  "Oilton, Oklahoma": {
+    "state": "40",
+    "place": "54000",
+    "population": "885"
+  },
+  "Okemah, Oklahoma": {
+    "state": "40",
+    "place": "54200",
+    "population": "3074"
+  },
+  "Oklahoma City, Oklahoma": {
+    "state": "40",
+    "place": "55000",
+    "population": "681054"
+  },
+  "Okmulgee, Oklahoma": {
+    "state": "40",
+    "place": "55150",
+    "population": "11322"
+  },
+  "Owasso, Oklahoma": {
+    "state": "40",
+    "place": "56650",
+    "population": "38240"
+  },
+  "Pauls Valley, Oklahoma": {
+    "state": "40",
+    "place": "57550",
+    "population": "5992"
+  },
+  "Pawhuska, Oklahoma": {
+    "state": "40",
+    "place": "57600",
+    "population": "2984"
+  },
+  "Pawnee, Oklahoma": {
+    "state": "40",
+    "place": "57650",
+    "population": "1936"
+  },
+  "Perkins, Oklahoma": {
+    "state": "40",
+    "place": "58150",
+    "population": "3205"
+  },
+  "Perry, Oklahoma": {
+    "state": "40",
+    "place": "58250",
+    "population": "4484"
+  },
+  "Piedmont, Oklahoma": {
+    "state": "40",
+    "place": "58700",
+    "population": "7402"
+  },
+  "Ponca City, Oklahoma": {
+    "state": "40",
+    "place": "59850",
+    "population": "24424"
+  },
+  "Pond Creek, Oklahoma": {
+    "state": "40",
+    "place": "59950",
+    "population": "885"
+  },
+  "Poteau, Oklahoma": {
+    "state": "40",
+    "place": "60350",
+    "population": "8807"
+  },
+  "Prague, Oklahoma": {
+    "state": "40",
+    "place": "60500",
+    "population": "2356"
+  },
+  "Pryor Creek, Oklahoma": {
+    "state": "40",
+    "place": "61000",
+    "population": "9444"
+  },
+  "Purcell, Oklahoma": {
+    "state": "40",
+    "place": "61150",
+    "population": "6651"
+  },
+  "Sallisaw, Oklahoma": {
+    "state": "40",
+    "place": "65000",
+    "population": "8510"
+  },
+  "Sand Springs, Oklahoma": {
+    "state": "40",
+    "place": "65300",
+    "population": "19874"
+  },
+  "Sayre, Oklahoma": {
+    "state": "40",
+    "place": "65700",
+    "population": "4809"
+  },
+  "Seiling, Oklahoma": {
+    "state": "40",
+    "place": "66250",
+    "population": "850"
+  },
+  "Seminole, Oklahoma": {
+    "state": "40",
+    "place": "66350",
+    "population": "7146"
+  },
+  "Shawnee, Oklahoma": {
+    "state": "40",
+    "place": "66800",
+    "population": "31377"
+  },
+  "Shidler, Oklahoma": {
+    "state": "40",
+    "place": "67200",
+    "population": "328"
+  },
+  "Skiatook, Oklahoma": {
+    "state": "40",
+    "place": "67850",
+    "population": "8450"
+  },
+  "Snyder, Oklahoma": {
+    "state": "40",
+    "place": "68400",
+    "population": "1301"
+  },
+  "Spencer, Oklahoma": {
+    "state": "40",
+    "place": "69200",
+    "population": "3978"
+  },
+  "Sapulpa, Oklahoma": {
+    "state": "40",
+    "place": "65400",
+    "population": "21929"
+  },
+  "Stigler, Oklahoma": {
+    "state": "40",
+    "place": "70250",
+    "population": "2703"
+  },
+  "Stillwater, Oklahoma": {
+    "state": "40",
+    "place": "70300",
+    "population": "48394"
+  },
+  "Stilwell, Oklahoma": {
+    "state": "40",
+    "place": "70350",
+    "population": "3700"
+  },
+  "Stroud, Oklahoma": {
+    "state": "40",
+    "place": "71000",
+    "population": "2719"
+  },
+  "Sulphur, Oklahoma": {
+    "state": "40",
+    "place": "71350",
+    "population": "5065"
+  },
+  "Tahlequah, Oklahoma": {
+    "state": "40",
+    "place": "72100",
+    "population": "16209"
+  },
+  "Tecumseh, Oklahoma": {
+    "state": "40",
+    "place": "72650",
+    "population": "6302"
+  },
+  "The Village, Oklahoma": {
+    "state": "40",
+    "place": "73250",
+    "population": "9538"
+  },
+  "Thomas, Oklahoma": {
+    "state": "40",
+    "place": "73450",
+    "population": "1143"
+  },
+  "Tishomingo, Oklahoma": {
+    "state": "40",
+    "place": "73900",
+    "population": "3101"
+  },
+  "Tonkawa, Oklahoma": {
+    "state": "40",
+    "place": "74150",
+    "population": "3015"
+  },
+  "Tulsa, Oklahoma": {
+    "state": "40",
+    "place": "75000",
+    "population": "413066"
+  },
+  "Tupelo, Oklahoma": {
+    "state": "40",
+    "place": "75050",
+    "population": "327"
+  },
+  "Tuttle, Oklahoma": {
+    "state": "40",
+    "place": "75450",
+    "population": "7413"
+  },
+  "Vinita, Oklahoma": {
+    "state": "40",
+    "place": "77550",
+    "population": "5193"
+  },
+  "Wagoner, Oklahoma": {
+    "state": "40",
+    "place": "77850",
+    "population": "7621"
+  },
+  "Walters, Oklahoma": {
+    "state": "40",
+    "place": "78150",
+    "population": "2412"
+  },
+  "Warr Acres, Oklahoma": {
+    "state": "40",
+    "place": "78500",
+    "population": "10452"
+  },
+  "Watonga, Oklahoma": {
+    "state": "40",
+    "place": "78950",
+    "population": "2690"
+  },
+  "Waurika, Oklahoma": {
+    "state": "40",
+    "place": "79250",
+    "population": "1837"
+  },
+  "Waynoka, Oklahoma": {
+    "state": "40",
+    "place": "79350",
+    "population": "708"
+  },
+  "Weatherford, Oklahoma": {
+    "state": "40",
+    "place": "79450",
+    "population": "12076"
+  },
+  "Wetumka, Oklahoma": {
+    "state": "40",
+    "place": "80500",
+    "population": "1135"
+  },
+  "Wewoka, Oklahoma": {
+    "state": "40",
+    "place": "80550",
+    "population": "3133"
+  },
+  "Wilburton, Oklahoma": {
+    "state": "40",
+    "place": "81000",
+    "population": "2285"
+  },
+  "Wilson, Oklahoma": {
+    "state": "40",
+    "place": "81500",
+    "population": "1399"
+  },
+  "Woodward, Oklahoma": {
+    "state": "40",
+    "place": "82150",
+    "population": "12133"
+  },
+  "Wynnewood, Oklahoma": {
+    "state": "40",
+    "place": "82400",
+    "population": "1927"
+  },
+  "Yale, Oklahoma": {
+    "state": "40",
+    "place": "82500",
+    "population": "1059"
+  },
+  "Yukon, Oklahoma": {
+    "state": "40",
+    "place": "82950",
+    "population": "23630"
+  },
+  "Ada, Oklahoma": {
+    "state": "40",
+    "place": "00200",
+    "population": "16481"
+  },
+  "Altus, Oklahoma": {
+    "state": "40",
+    "place": "01700",
+    "population": "18729"
+  },
+  "Alva, Oklahoma": {
+    "state": "40",
+    "place": "01800",
+    "population": "5028"
+  },
+  "Anadarko, Oklahoma": {
+    "state": "40",
+    "place": "02050",
+    "population": "5745"
+  },
+  "Antlers, Oklahoma": {
+    "state": "40",
+    "place": "02250",
+    "population": "2221"
+  },
+  "Ardmore, Oklahoma": {
+    "state": "40",
+    "place": "02600",
+    "population": "24725"
+  },
+  "Atoka, Oklahoma": {
+    "state": "40",
+    "place": "03300",
+    "population": "3195"
+  },
+  "Barnsdall, Oklahoma": {
+    "state": "40",
+    "place": "04250",
+    "population": "1034"
+  },
+  "Bartlesville, Oklahoma": {
+    "state": "40",
+    "place": "04450",
+    "population": "37290"
+  },
+  "Beggs, Oklahoma": {
+    "state": "40",
+    "place": "05000",
+    "population": "1179"
+  },
+  "Bethany, Oklahoma": {
+    "state": "40",
+    "place": "05700",
+    "population": "20831"
+  },
+  "Bixby, Oklahoma": {
+    "state": "40",
+    "place": "06400",
+    "population": "28609"
+  },
+  "Blackwell, Oklahoma": {
+    "state": "40",
+    "place": "06600",
+    "population": "6085"
+  },
+  "Blanchard, Oklahoma": {
+    "state": "40",
+    "place": "06700",
+    "population": "8879"
+  },
+  "Boise City, Oklahoma": {
+    "state": "40",
+    "place": "07300",
+    "population": "1166"
+  },
+  "Bridgeport, Oklahoma": {
+    "state": "40",
+    "place": "08750",
+    "population": "97"
+  },
+  "Bristow, Oklahoma": {
+    "state": "40",
+    "place": "08900",
+    "population": "4248"
+  },
+  "Broken Arrow, Oklahoma": {
+    "state": "40",
+    "place": "09050",
+    "population": "113540"
+  },
+  "Broken Bow, Oklahoma": {
+    "state": "40",
+    "place": "09100",
+    "population": "4228"
+  },
+  "Cache, Oklahoma": {
+    "state": "40",
+    "place": "10700",
+    "population": "2930"
+  },
+  "Catoosa, Oklahoma": {
+    "state": "40",
+    "place": "12900",
+    "population": "7440"
+  },
+  "Cedar Valley, Oklahoma": {
+    "state": "40",
+    "place": "12960",
+    "population": "405"
+  },
+  "Centrahoma, Oklahoma": {
+    "state": "40",
+    "place": "13100",
+    "population": "81"
+  },
+  "Chandler, Oklahoma": {
+    "state": "40",
+    "place": "13500",
+    "population": "2858"
+  },
+  "Checotah, Oklahoma": {
+    "state": "40",
+    "place": "13650",
+    "population": "3018"
+  },
+  "Cherokee, Oklahoma": {
+    "state": "40",
+    "place": "13750",
+    "population": "1476"
+  },
+  "Chickasha, Oklahoma": {
+    "state": "40",
+    "place": "13950",
+    "population": "16051"
+  },
+  "Choctaw, Oklahoma": {
+    "state": "40",
+    "place": "14200",
+    "population": "12182"
+  },
+  "Claremore, Oklahoma": {
+    "state": "40",
+    "place": "14700",
+    "population": "19580"
+  },
+  "Cleveland, Oklahoma": {
+    "state": "40",
+    "place": "15350",
+    "population": "3205"
+  },
+  "Clinton, Oklahoma": {
+    "state": "40",
+    "place": "15400",
+    "population": "8521"
+  },
+  "Coalgate, Oklahoma": {
+    "state": "40",
+    "place": "15800",
+    "population": "1667"
+  },
+  "Collinsville, Oklahoma": {
+    "state": "40",
+    "place": "16350",
+    "population": "7881"
+  },
+  "Comanche, Oklahoma": {
+    "state": "40",
+    "place": "16450",
+    "population": "1378"
+  },
+  "Commerce, Oklahoma": {
+    "state": "40",
+    "place": "16500",
+    "population": "2271"
+  },
+  "Coweta, Oklahoma": {
+    "state": "40",
+    "place": "17800",
+    "population": "9654"
+  },
+  "Crescent, Oklahoma": {
+    "state": "40",
+    "place": "18250",
+    "population": "1299"
+  },
+  "Cushing, Oklahoma": {
+    "state": "40",
+    "place": "18850",
+    "population": "8327"
+  },
+  "Davis, Oklahoma": {
+    "state": "40",
+    "place": "19450",
+    "population": "2823"
+  },
+  "Del City, Oklahoma": {
+    "state": "40",
+    "place": "19900",
+    "population": "21822"
+  },
+  "Dewey, Oklahoma": {
+    "state": "40",
+    "place": "20550",
+    "population": "3372"
+  },
+  "Drumright, Oklahoma": {
+    "state": "40",
+    "place": "21750",
+    "population": "2560"
+  },
+  "Duncan, Oklahoma": {
+    "state": "40",
+    "place": "21900",
+    "population": "22692"
+  },
+  "Durant, Oklahoma": {
+    "state": "40",
+    "place": "22050",
+    "population": "18589"
+  },
+  "Edmond, Oklahoma": {
+    "state": "40",
+    "place": "23200",
+    "population": "94428"
+  },
+  "Elgin, Oklahoma": {
+    "state": "40",
+    "place": "23450",
+    "population": "3656"
+  },
+  "Elk City, Oklahoma": {
+    "state": "40",
+    "place": "23500",
+    "population": "11561"
+  },
+  "El Reno, Oklahoma": {
+    "state": "40",
+    "place": "23700",
+    "population": "16989"
+  },
+  "Enid, Oklahoma": {
+    "state": "40",
+    "place": "23950",
+    "population": "51308"
+  }
+}

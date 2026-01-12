@@ -1,0 +1,2192 @@
+{
+  "Palmyra, Virginia": {
+    "state": "51",
+    "place": "60392",
+    "population": "127"
+  },
+  "Pantops, Virginia": {
+    "state": "51",
+    "place": "60512",
+    "population": "4682"
+  },
+  "Paris, Virginia": {
+    "state": "51",
+    "place": "60536",
+    "population": "44"
+  },
+  "Parrott, Virginia": {
+    "state": "51",
+    "place": "60840",
+    "population": "358"
+  },
+  "Passapatanzy, Virginia": {
+    "state": "51",
+    "place": "60888",
+    "population": "1244"
+  },
+  "Pastoria, Virginia": {
+    "state": "51",
+    "place": "60920",
+    "population": "627"
+  },
+  "Patrick Springs, Virginia": {
+    "state": "51",
+    "place": "60984",
+    "population": "1813"
+  },
+  "Penhook, Virginia": {
+    "state": "51",
+    "place": "61464",
+    "population": "782"
+  },
+  "Pimmit Hills, Virginia": {
+    "state": "51",
+    "place": "62264",
+    "population": "6569"
+  },
+  "Piney Mountain, Virginia": {
+    "state": "51",
+    "place": "62738",
+    "population": "1880"
+  },
+  "Plum Creek, Virginia": {
+    "state": "51",
+    "place": "63190",
+    "population": "1350"
+  },
+  "Port Republic, Virginia": {
+    "state": "51",
+    "place": "63896",
+    "population": "408"
+  },
+  "Potomac Mills, Virginia": {
+    "state": "51",
+    "place": "64152",
+    "population": "6332"
+  },
+  "Pounding Mill, Virginia": {
+    "state": "51",
+    "place": "64288",
+    "population": "367"
+  },
+  "Powhatan, Virginia": {
+    "state": "51",
+    "place": "64384",
+    "population": "402"
+  },
+  "Prices Fork, Virginia": {
+    "state": "51",
+    "place": "64512",
+    "population": "1142"
+  },
+  "Prince George, Virginia": {
+    "state": "51",
+    "place": "64560",
+    "population": "2315"
+  },
+  "Pungoteague, Virginia": {
+    "state": "51",
+    "place": "64976",
+    "population": "346"
+  },
+  "Quantico Base, Virginia": {
+    "state": "51",
+    "place": "65128",
+    "population": "5221"
+  },
+  "Quinby, Virginia": {
+    "state": "51",
+    "place": "65280",
+    "population": "285"
+  },
+  "Raven, Virginia": {
+    "state": "51",
+    "place": "65744",
+    "population": "1988"
+  },
+  "Ravensworth, Virginia": {
+    "state": "51",
+    "place": "65776",
+    "population": "2680"
+  },
+  "Rectortown, Virginia": {
+    "state": "51",
+    "place": "66032",
+    "population": "121"
+  },
+  "Reston, Virginia": {
+    "state": "51",
+    "place": "66672",
+    "population": "63226"
+  },
+  "Riner, Virginia": {
+    "state": "51",
+    "place": "67256",
+    "population": "949"
+  },
+  "Rio, Virginia": {
+    "state": "51",
+    "place": "67288",
+    "population": "2076"
+  },
+  "Ripplemead, Virginia": {
+    "state": "51",
+    "place": "67304",
+    "population": "306"
+  },
+  "Rivanna, Virginia": {
+    "state": "51",
+    "place": "67331",
+    "population": "2174"
+  },
+  "Riverdale, Virginia": {
+    "state": "51",
+    "place": "67352",
+    "population": "949"
+  },
+  "Riverview, Virginia": {
+    "state": "51",
+    "place": "67704",
+    "population": "616"
+  },
+  "Rockwood, Virginia": {
+    "state": "51",
+    "place": "68470",
+    "population": "8685"
+  },
+  "Rocky Gap, Virginia": {
+    "state": "51",
+    "place": "68480",
+    "population": "87"
+  },
+  "Ruckersville, Virginia": {
+    "state": "51",
+    "place": "69360",
+    "population": "1484"
+  },
+  "Rushmere, Virginia": {
+    "state": "51",
+    "place": "69472",
+    "population": "1175"
+  },
+  "Rustburg, Virginia": {
+    "state": "51",
+    "place": "69536",
+    "population": "1281"
+  },
+  "Saluda, Virginia": {
+    "state": "51",
+    "place": "70112",
+    "population": "627"
+  },
+  "Sandston, Virginia": {
+    "state": "51",
+    "place": "70256",
+    "population": "7779"
+  },
+  "Sandy Level, Virginia": {
+    "state": "51",
+    "place": "70296",
+    "population": "464"
+  },
+  "Sanford, Virginia": {
+    "state": "51",
+    "place": "70352",
+    "population": "168"
+  },
+  "Savage Town, Virginia": {
+    "state": "51",
+    "place": "70520",
+    "population": "72"
+  },
+  "Savageville, Virginia": {
+    "state": "51",
+    "place": "70528",
+    "population": "175"
+  },
+  "Schooner Bay, Virginia": {
+    "state": "51",
+    "place": "70680",
+    "population": "97"
+  },
+  "Schuyler, Virginia": {
+    "state": "51",
+    "place": "70704",
+    "population": "252"
+  },
+  "Scotland, Virginia": {
+    "state": "51",
+    "place": "70715",
+    "population": "153"
+  },
+  "Sedley, Virginia": {
+    "state": "51",
+    "place": "71040",
+    "population": "517"
+  },
+  "Selma, Virginia": {
+    "state": "51",
+    "place": "71072",
+    "population": "357"
+  },
+  "Seven Corners, Virginia": {
+    "state": "51",
+    "place": "71216",
+    "population": "9131"
+  },
+  "Seven Mile Ford, Virginia": {
+    "state": "51",
+    "place": "71264",
+    "population": "664"
+  },
+  "Shawneeland, Virginia": {
+    "state": "51",
+    "place": "71625",
+    "population": "2248"
+  },
+  "Shawsville, Virginia": {
+    "state": "51",
+    "place": "71632",
+    "population": "1241"
+  },
+  "Shenandoah Farms, Virginia": {
+    "state": "51",
+    "place": "71810",
+    "population": "4135"
+  },
+  "Shenandoah Retreat, Virginia": {
+    "state": "51",
+    "place": "71825",
+    "population": "549"
+  },
+  "Shenandoah Shores, Virginia": {
+    "state": "51",
+    "place": "71826",
+    "population": "1112"
+  },
+  "Sherando, Virginia": {
+    "state": "51",
+    "place": "71904",
+    "population": "696"
+  },
+  "Shipman, Virginia": {
+    "state": "51",
+    "place": "72080",
+    "population": "492"
+  },
+  "Short Pump, Virginia": {
+    "state": "51",
+    "place": "72272",
+    "population": "30626"
+  },
+  "Singers Glen, Virginia": {
+    "state": "51",
+    "place": "72736",
+    "population": "195"
+  },
+  "Skyland Estates, Virginia": {
+    "state": "51",
+    "place": "72935",
+    "population": "862"
+  },
+  "Snowville, Virginia": {
+    "state": "51",
+    "place": "73376",
+    "population": "125"
+  },
+  "Southampton Meadows, Virginia": {
+    "state": "51",
+    "place": "73624",
+    "population": "503"
+  },
+  "Southern Gateway, Virginia": {
+    "state": "51",
+    "place": "73760",
+    "population": "3133"
+  },
+  "South Riding, Virginia": {
+    "state": "51",
+    "place": "74100",
+    "population": "33877"
+  },
+  "South Run, Virginia": {
+    "state": "51",
+    "place": "74120",
+    "population": "6462"
+  },
+  "Southside Chesconessex, Virginia": {
+    "state": "51",
+    "place": "74160",
+    "population": "115"
+  },
+  "Sperryville, Virginia": {
+    "state": "51",
+    "place": "74384",
+    "population": "302"
+  },
+  "Spotsylvania Courthouse, Virginia": {
+    "state": "51",
+    "place": "74470",
+    "population": "5610"
+  },
+  "Springfield, Virginia": {
+    "state": "51",
+    "place": "74592",
+    "population": "31339"
+  },
+  "Springville, Virginia": {
+    "state": "51",
+    "place": "74848",
+    "population": "1043"
+  },
+  "Stafford Courthouse, Virginia": {
+    "state": "51",
+    "place": "74916",
+    "population": "5370"
+  },
+  "Stanleytown, Virginia": {
+    "state": "51",
+    "place": "75040",
+    "population": "1385"
+  },
+  "Sterling, Virginia": {
+    "state": "51",
+    "place": "75376",
+    "population": "30337"
+  },
+  "Stevens Creek, Virginia": {
+    "state": "51",
+    "place": "75440",
+    "population": "240"
+  },
+  "Stewartsville, Virginia": {
+    "state": "51",
+    "place": "75504",
+    "population": "533"
+  },
+  "Stickleyville, Virginia": {
+    "state": "51",
+    "place": "75536",
+    "population": "279"
+  },
+  "Stonega, Virginia": {
+    "state": "51",
+    "place": "75680",
+    "population": "93"
+  },
+  "Stone Ridge, Virginia": {
+    "state": "51",
+    "place": "75702",
+    "population": "15039"
+  },
+  "Stuarts Draft, Virginia": {
+    "state": "51",
+    "place": "76272",
+    "population": "12142"
+  },
+  "Sudley, Virginia": {
+    "state": "51",
+    "place": "76416",
+    "population": "19008"
+  },
+  "Sugar Grove, Virginia": {
+    "state": "51",
+    "place": "76448",
+    "population": "610"
+  },
+  "Sugarland Run, Virginia": {
+    "state": "51",
+    "place": "76464",
+    "population": "12345"
+  },
+  "Sully Square, Virginia": {
+    "state": "51",
+    "place": "76516",
+    "population": "2300"
+  },
+  "Sussex, Virginia": {
+    "state": "51",
+    "place": "76912",
+    "population": "181"
+  },
+  "Tacoma, Virginia": {
+    "state": "51",
+    "place": "77408",
+    "population": "204"
+  },
+  "Tasley, Virginia": {
+    "state": "51",
+    "place": "77648",
+    "population": "222"
+  },
+  "Temperanceville, Virginia": {
+    "state": "51",
+    "place": "77856",
+    "population": "308"
+  },
+  "Templeton, Virginia": {
+    "state": "51",
+    "place": "77925",
+    "population": "372"
+  },
+  "The University of Virginia's College at Wise, Virginia": {
+    "state": "51",
+    "place": "78264",
+    "population": "430"
+  },
+  "Thynedale, Virginia": {
+    "state": "51",
+    "place": "78532",
+    "population": "152"
+  },
+  "Timberlake, Virginia": {
+    "state": "51",
+    "place": "78688",
+    "population": "13267"
+  },
+  "Triangle, Virginia": {
+    "state": "51",
+    "place": "79360",
+    "population": "9589"
+  },
+  "Tuckahoe, Virginia": {
+    "state": "51",
+    "place": "79560",
+    "population": "48051"
+  },
+  "Twin Lakes, Virginia": {
+    "state": "51",
+    "place": "79768",
+    "population": "1602"
+  },
+  "Tysons, Virginia": {
+    "state": "51",
+    "place": "79950",
+    "population": "26374"
+  },
+  "Union Hall, Virginia": {
+    "state": "51",
+    "place": "80000",
+    "population": "1328"
+  },
+  "Union Level, Virginia": {
+    "state": "51",
+    "place": "80016",
+    "population": "161"
+  },
+  "Union Mill, Virginia": {
+    "state": "51",
+    "place": "80029",
+    "population": "4997"
+  },
+  "University Center, Virginia": {
+    "state": "51",
+    "place": "80120",
+    "population": "3969"
+  },
+  "University of Virginia, Virginia": {
+    "state": "51",
+    "place": "80165",
+    "population": "7909"
+  },
+  "Upperville, Virginia": {
+    "state": "51",
+    "place": "80224",
+    "population": "178"
+  },
+  "Vansant, Virginia": {
+    "state": "51",
+    "place": "80608",
+    "population": "442"
+  },
+  "Verona, Virginia": {
+    "state": "51",
+    "place": "80864",
+    "population": "4398"
+  },
+  "Villa Heights, Virginia": {
+    "state": "51",
+    "place": "81152",
+    "population": "638"
+  },
+  "Wakefield, Virginia": {
+    "state": "51",
+    "place": "82371",
+    "population": "11805"
+  },
+  "Warfield, Virginia": {
+    "state": "51",
+    "place": "83056",
+    "population": "104"
+  },
+  "Warm Springs, Virginia": {
+    "state": "51",
+    "place": "83088",
+    "population": "121"
+  },
+  "Waterford, Virginia": {
+    "state": "51",
+    "place": "83440",
+    "population": "181"
+  },
+  "Wattsville, Virginia": {
+    "state": "51",
+    "place": "83568",
+    "population": "1341"
+  },
+  "Weems, Virginia": {
+    "state": "51",
+    "place": "83888",
+    "population": "184"
+  },
+  "West Falls Church, Virginia": {
+    "state": "51",
+    "place": "84368",
+    "population": "30243"
+  },
+  "Westlake Corner, Virginia": {
+    "state": "51",
+    "place": "84632",
+    "population": "1553"
+  },
+  "West Springfield, Virginia": {
+    "state": "51",
+    "place": "84976",
+    "population": "23369"
+  },
+  "Weyers Cave, Virginia": {
+    "state": "51",
+    "place": "85184",
+    "population": "2700"
+  },
+  "Whitesville, Virginia": {
+    "state": "51",
+    "place": "85608",
+    "population": "215"
+  },
+  "Willis Wharf, Virginia": {
+    "state": "51",
+    "place": "86336",
+    "population": "210"
+  },
+  "Wintergreen, Virginia": {
+    "state": "51",
+    "place": "87008",
+    "population": "346"
+  },
+  "Wolf Trap, Virginia": {
+    "state": "51",
+    "place": "87240",
+    "population": "16496"
+  },
+  "Woodbridge, Virginia": {
+    "state": "51",
+    "place": "87312",
+    "population": "44668"
+  },
+  "Woodburn, Virginia": {
+    "state": "51",
+    "place": "87333",
+    "population": "8797"
+  },
+  "Woodlake, Virginia": {
+    "state": "51",
+    "place": "87380",
+    "population": "7493"
+  },
+  "Wyndham, Virginia": {
+    "state": "51",
+    "place": "87960",
+    "population": "11087"
+  },
+  "Yogaville, Virginia": {
+    "state": "51",
+    "place": "88145",
+    "population": "242"
+  },
+  "Yorkshire, Virginia": {
+    "state": "51",
+    "place": "88176",
+    "population": "10992"
+  },
+  "Yorktown, Virginia": {
+    "state": "51",
+    "place": "88240",
+    "population": "221"
+  },
+  "Abbs Valley, Virginia": {
+    "state": "51",
+    "place": "00110",
+    "population": "299"
+  },
+  "Adwolf, Virginia": {
+    "state": "51",
+    "place": "00468",
+    "population": "1658"
+  },
+  "Afton, Virginia": {
+    "state": "51",
+    "place": "00484",
+    "population": "313"
+  },
+  "Aldie, Virginia": {
+    "state": "51",
+    "place": "00772",
+    "population": "70"
+  },
+  "Allison Gap, Virginia": {
+    "state": "51",
+    "place": "01240",
+    "population": "610"
+  },
+  "Allisonia, Virginia": {
+    "state": "51",
+    "place": "01256",
+    "population": "111"
+  },
+  "Amelia Court House, Virginia": {
+    "state": "51",
+    "place": "01640",
+    "population": "965"
+  },
+  "Amonate, Virginia": {
+    "state": "51",
+    "place": "01752",
+    "population": "59"
+  },
+  "Annandale, Virginia": {
+    "state": "51",
+    "place": "01912",
+    "population": "43363"
+  },
+  "Apple Mountain Lake, Virginia": {
+    "state": "51",
+    "place": "02064",
+    "population": "1400"
+  },
+  "Aquia Harbour, Virginia": {
+    "state": "51",
+    "place": "02112",
+    "population": "6836"
+  },
+  "Arcola, Virginia": {
+    "state": "51",
+    "place": "02248",
+    "population": "2412"
+  },
+  "Arlington, Virginia": {
+    "state": "51",
+    "place": "03000",
+    "population": "238643"
+  },
+  "Arrington, Virginia": {
+    "state": "51",
+    "place": "03208",
+    "population": "718"
+  },
+  "Ashburn, Virginia": {
+    "state": "51",
+    "place": "03320",
+    "population": "46349"
+  },
+  "Atkins, Virginia": {
+    "state": "51",
+    "place": "03512",
+    "population": "1121"
+  },
+  "Atlantic, Virginia": {
+    "state": "51",
+    "place": "03528",
+    "population": "808"
+  },
+  "Augusta Springs, Virginia": {
+    "state": "51",
+    "place": "03608",
+    "population": "236"
+  },
+  "Austinville, Virginia": {
+    "state": "51",
+    "place": "03656",
+    "population": "119"
+  },
+  "Bailey's Crossroads, Virginia": {
+    "state": "51",
+    "place": "04088",
+    "population": "24749"
+  },
+  "Barboursville, Virginia": {
+    "state": "51",
+    "place": "04392",
+    "population": "177"
+  },
+  "Baskerville, Virginia": {
+    "state": "51",
+    "place": "04856",
+    "population": "120"
+  },
+  "Bassett, Virginia": {
+    "state": "51",
+    "place": "04872",
+    "population": "1028"
+  },
+  "Bastian, Virginia": {
+    "state": "51",
+    "place": "04904",
+    "population": "343"
+  },
+  "Basye, Virginia": {
+    "state": "51",
+    "place": "04920",
+    "population": "1374"
+  },
+  "Bayside, Virginia": {
+    "state": "51",
+    "place": "05200",
+    "population": "107"
+  },
+  "Baywood, Virginia": {
+    "state": "51",
+    "place": "05256",
+    "population": "414"
+  },
+  "Bealeton, Virginia": {
+    "state": "51",
+    "place": "05336",
+    "population": "5882"
+  },
+  "Belle Haven, Virginia": {
+    "state": "51",
+    "place": "05928",
+    "population": "6851"
+  },
+  "Bellwood, Virginia": {
+    "state": "51",
+    "place": "06216",
+    "population": "7678"
+  },
+  "Belmont, Virginia": {
+    "state": "51",
+    "place": "06275",
+    "population": "10268"
+  },
+  "Belmont Estates, Virginia": {
+    "state": "51",
+    "place": "06336",
+    "population": "1263"
+  },
+  "Belspring, Virginia": {
+    "state": "51",
+    "place": "06424",
+    "population": "204"
+  },
+  "Belview, Virginia": {
+    "state": "51",
+    "place": "06512",
+    "population": "1128"
+  },
+  "Benns Church, Virginia": {
+    "state": "51",
+    "place": "06712",
+    "population": "1453"
+  },
+  "Bensley, Virginia": {
+    "state": "51",
+    "place": "06728",
+    "population": "5971"
+  },
+  "Bethel Manor, Virginia": {
+    "state": "51",
+    "place": "07160",
+    "population": "4540"
+  },
+  "Big Island, Virginia": {
+    "state": "51",
+    "place": "07400",
+    "population": "300"
+  },
+  "Big Rock, Virginia": {
+    "state": "51",
+    "place": "07448",
+    "population": "199"
+  },
+  "Big Stone Gap East, Virginia": {
+    "state": "51",
+    "place": "07484",
+    "population": "687"
+  },
+  "Blairs, Virginia": {
+    "state": "51",
+    "place": "07944",
+    "population": "841"
+  },
+  "Bland, Virginia": {
+    "state": "51",
+    "place": "07976",
+    "population": "383"
+  },
+  "Blue Ridge, Virginia": {
+    "state": "51",
+    "place": "08200",
+    "population": "3185"
+  },
+  "Blue Ridge Shores, Virginia": {
+    "state": "51",
+    "place": "08264",
+    "population": "801"
+  },
+  "Bobtown, Virginia": {
+    "state": "51",
+    "place": "08320",
+    "population": "267"
+  },
+  "Boissevain, Virginia": {
+    "state": "51",
+    "place": "08376",
+    "population": "457"
+  },
+  "Bon Air, Virginia": {
+    "state": "51",
+    "place": "08472",
+    "population": "18022"
+  },
+  "Boston, Virginia": {
+    "state": "51",
+    "place": "08675",
+    "population": "454"
+  },
+  "Boswell's Corner, Virginia": {
+    "state": "51",
+    "place": "08708",
+    "population": "1656"
+  },
+  "Bracey, Virginia": {
+    "state": "51",
+    "place": "09064",
+    "population": "1372"
+  },
+  "Braddock, Virginia": {
+    "state": "51",
+    "place": "09072",
+    "population": "6549"
+  },
+  "Brambleton, Virginia": {
+    "state": "51",
+    "place": "09188",
+    "population": "23486"
+  },
+  "Brandermill, Virginia": {
+    "state": "51",
+    "place": "09248",
+    "population": "13730"
+  },
+  "Brandy Station, Virginia": {
+    "state": "51",
+    "place": "09352",
+    "population": "191"
+  },
+  "Breaks, Virginia": {
+    "state": "51",
+    "place": "09400",
+    "population": "144"
+  },
+  "Brightwood, Virginia": {
+    "state": "51",
+    "place": "09752",
+    "population": "1064"
+  },
+  "Broadlands, Virginia": {
+    "state": "51",
+    "place": "09952",
+    "population": "14021"
+  },
+  "Brucetown, Virginia": {
+    "state": "51",
+    "place": "10568",
+    "population": "274"
+  },
+  "Buckhall, Virginia": {
+    "state": "51",
+    "place": "10776",
+    "population": "20420"
+  },
+  "Buckingham Courthouse, Virginia": {
+    "state": "51",
+    "place": "10856",
+    "population": "129"
+  },
+  "Bull Run Mountain Estates, Virginia": {
+    "state": "51",
+    "place": "11245",
+    "population": "1220"
+  },
+  "Burke, Virginia": {
+    "state": "51",
+    "place": "11464",
+    "population": "42312"
+  },
+  "Burke Centre, Virginia": {
+    "state": "51",
+    "place": "11470",
+    "population": "17518"
+  },
+  "Callaghan, Virginia": {
+    "state": "51",
+    "place": "12136",
+    "population": "203"
+  },
+  "Calverton, Virginia": {
+    "state": "51",
+    "place": "12264",
+    "population": "279"
+  },
+  "Camp Barrett, Virginia": {
+    "state": "51",
+    "place": "12472",
+    "population": "1140"
+  },
+  "Camptown, Virginia": {
+    "state": "51",
+    "place": "12590",
+    "population": "718"
+  },
+  "Cana, Virginia": {
+    "state": "51",
+    "place": "12600",
+    "population": "1243"
+  },
+  "Captains Cove, Virginia": {
+    "state": "51",
+    "place": "12915",
+    "population": "1544"
+  },
+  "Carrollton, Virginia": {
+    "state": "51",
+    "place": "13160",
+    "population": "7498"
+  },
+  "Carrsville, Virginia": {
+    "state": "51",
+    "place": "13192",
+    "population": "346"
+  },
+  "Cascades, Virginia": {
+    "state": "51",
+    "place": "13403",
+    "population": "12366"
+  },
+  "Castlewood, Virginia": {
+    "state": "51",
+    "place": "13512",
+    "population": "1704"
+  },
+  "Catlett, Virginia": {
+    "state": "51",
+    "place": "13624",
+    "population": "331"
+  },
+  "Cats Bridge, Virginia": {
+    "state": "51",
+    "place": "13635",
+    "population": "184"
+  },
+  "Cave Spring, Virginia": {
+    "state": "51",
+    "place": "13720",
+    "population": "26755"
+  },
+  "Central Garage, Virginia": {
+    "state": "51",
+    "place": "14312",
+    "population": "1810"
+  },
+  "Centreville, Virginia": {
+    "state": "51",
+    "place": "14440",
+    "population": "73518"
+  },
+  "Chamberlayne, Virginia": {
+    "state": "51",
+    "place": "14544",
+    "population": "5581"
+  },
+  "Chantilly, Virginia": {
+    "state": "51",
+    "place": "14744",
+    "population": "24301"
+  },
+  "Charles City, Virginia": {
+    "state": "51",
+    "place": "14904",
+    "population": "104"
+  },
+  "Chase Crossing, Virginia": {
+    "state": "51",
+    "place": "14995",
+    "population": "335"
+  },
+  "Chatmoss, Virginia": {
+    "state": "51",
+    "place": "15048",
+    "population": "1671"
+  },
+  "Cherry Hill, Virginia": {
+    "state": "51",
+    "place": "15176",
+    "population": "23683"
+  },
+  "Chester, Virginia": {
+    "state": "51",
+    "place": "16096",
+    "population": "23414"
+  },
+  "Chester Gap, Virginia": {
+    "state": "51",
+    "place": "16240",
+    "population": "894"
+  },
+  "Churchville, Virginia": {
+    "state": "51",
+    "place": "16736",
+    "population": "195"
+  },
+  "Claypool Hill, Virginia": {
+    "state": "51",
+    "place": "17120",
+    "population": "1699"
+  },
+  "Cliftondale Park, Virginia": {
+    "state": "51",
+    "place": "17424",
+    "population": "266"
+  },
+  "Clover, Virginia": {
+    "state": "51",
+    "place": "17632",
+    "population": "366"
+  },
+  "Cloverdale, Virginia": {
+    "state": "51",
+    "place": "17680",
+    "population": "3410"
+  },
+  "Cluster Springs, Virginia": {
+    "state": "51",
+    "place": "17776",
+    "population": "718"
+  },
+  "Collinsville, Virginia": {
+    "state": "51",
+    "place": "18352",
+    "population": "7380"
+  },
+  "Columbia, Virginia": {
+    "state": "51",
+    "place": "18624",
+    "population": "72"
+  },
+  "Concord, Virginia": {
+    "state": "51",
+    "place": "18880",
+    "population": "1557"
+  },
+  "Countryside, Virginia": {
+    "state": "51",
+    "place": "19560",
+    "population": "10418"
+  },
+  "County Center, Virginia": {
+    "state": "51",
+    "place": "19571",
+    "population": "3787"
+  },
+  "Crimora, Virginia": {
+    "state": "51",
+    "place": "20240",
+    "population": "2219"
+  },
+  "Crosspointe, Virginia": {
+    "state": "51",
+    "place": "20436",
+    "population": "5722"
+  },
+  "Crozet, Virginia": {
+    "state": "51",
+    "place": "20560",
+    "population": "9224"
+  },
+  "Cumberland, Virginia": {
+    "state": "51",
+    "place": "20768",
+    "population": "365"
+  },
+  "Dahlgren, Virginia": {
+    "state": "51",
+    "place": "21008",
+    "population": "2946"
+  },
+  "Dahlgren Center, Virginia": {
+    "state": "51",
+    "place": "21016",
+    "population": "724"
+  },
+  "Dale City, Virginia": {
+    "state": "51",
+    "place": "21088",
+    "population": "72088"
+  },
+  "Daleville, Virginia": {
+    "state": "51",
+    "place": "21152",
+    "population": "3070"
+  },
+  "Dante, Virginia": {
+    "state": "51",
+    "place": "21312",
+    "population": "572"
+  },
+  "Deep Creek, Virginia": {
+    "state": "51",
+    "place": "21776",
+    "population": "94"
+  },
+  "Deerfield, Virginia": {
+    "state": "51",
+    "place": "21872",
+    "population": "110"
+  },
+  "Deltaville, Virginia": {
+    "state": "51",
+    "place": "22064",
+    "population": "1057"
+  },
+  "Difficult Run, Virginia": {
+    "state": "51",
+    "place": "22472",
+    "population": "10600"
+  },
+  "Dinwiddie, Virginia": {
+    "state": "51",
+    "place": "22576",
+    "population": "619"
+  },
+  "Disputanta, Virginia": {
+    "state": "51",
+    "place": "22640",
+    "population": "373"
+  },
+  "Dooms, Virginia": {
+    "state": "51",
+    "place": "22976",
+    "population": "1279"
+  },
+  "Doran, Virginia": {
+    "state": "51",
+    "place": "23008",
+    "population": "113"
+  },
+  "Dranesville, Virginia": {
+    "state": "51",
+    "place": "23392",
+    "population": "11785"
+  },
+  "Draper, Virginia": {
+    "state": "51",
+    "place": "23408",
+    "population": "291"
+  },
+  "Dryden, Virginia": {
+    "state": "51",
+    "place": "23584",
+    "population": "986"
+  },
+  "Dulles Town Center, Virginia": {
+    "state": "51",
+    "place": "23732",
+    "population": "5909"
+  },
+  "Dumbarton, Virginia": {
+    "state": "51",
+    "place": "23744",
+    "population": "8506"
+  },
+  "Dunbar, Virginia": {
+    "state": "51",
+    "place": "23776",
+    "population": "79"
+  },
+  "Dunn Loring, Virginia": {
+    "state": "51",
+    "place": "23984",
+    "population": "9464"
+  },
+  "Eagle Rock, Virginia": {
+    "state": "51",
+    "place": "24208",
+    "population": "209"
+  },
+  "Earlysville, Virginia": {
+    "state": "51",
+    "place": "24272",
+    "population": "1153"
+  },
+  "East Highland Park, Virginia": {
+    "state": "51",
+    "place": "24496",
+    "population": "15131"
+  },
+  "East Lexington, Virginia": {
+    "state": "51",
+    "place": "24544",
+    "population": "1824"
+  },
+  "East Stone Gap, Virginia": {
+    "state": "51",
+    "place": "24720",
+    "population": "537"
+  },
+  "Ebony, Virginia": {
+    "state": "51",
+    "place": "24816",
+    "population": "150"
+  },
+  "Eggleston, Virginia": {
+    "state": "51",
+    "place": "25136",
+    "population": "143"
+  },
+  "Elliston, Virginia": {
+    "state": "51",
+    "place": "25488",
+    "population": "855"
+  },
+  "Emory, Virginia": {
+    "state": "51",
+    "place": "25792",
+    "population": "1237"
+  },
+  "Enon, Virginia": {
+    "state": "51",
+    "place": "25877",
+    "population": "4075"
+  },
+  "Esmont, Virginia": {
+    "state": "51",
+    "place": "25968",
+    "population": "491"
+  },
+  "Ettrick, Virginia": {
+    "state": "51",
+    "place": "26128",
+    "population": "7241"
+  },
+  "Ewing, Virginia": {
+    "state": "51",
+    "place": "26384",
+    "population": "381"
+  },
+  "Fairfax Station, Virginia": {
+    "state": "51",
+    "place": "26592",
+    "population": "12420"
+  },
+  "Fairfield, Virginia": {
+    "state": "51",
+    "place": "26656",
+    "population": "257"
+  },
+  "Fair Lakes, Virginia": {
+    "state": "51",
+    "place": "26701",
+    "population": "8404"
+  },
+  "Fairlawn, Virginia": {
+    "state": "51",
+    "place": "26736",
+    "population": "2419"
+  },
+  "Fair Oaks, Virginia": {
+    "state": "51",
+    "place": "26875",
+    "population": "34052"
+  },
+  "Fairview, Virginia": {
+    "state": "51",
+    "place": "26944",
+    "population": "237"
+  },
+  "Fairview Beach, Virginia": {
+    "state": "51",
+    "place": "27040",
+    "population": "376"
+  },
+  "Falls Mills, Virginia": {
+    "state": "51",
+    "place": "27232",
+    "population": "305"
+  },
+  "Falmouth, Virginia": {
+    "state": "51",
+    "place": "27264",
+    "population": "4956"
+  },
+  "Fancy Gap, Virginia": {
+    "state": "51",
+    "place": "27296",
+    "population": "214"
+  },
+  "Ferrum, Virginia": {
+    "state": "51",
+    "place": "27712",
+    "population": "1827"
+  },
+  "Fieldale, Virginia": {
+    "state": "51",
+    "place": "27744",
+    "population": "852"
+  },
+  "Fishersville, Virginia": {
+    "state": "51",
+    "place": "27968",
+    "population": "9629"
+  },
+  "Flint Hill, Virginia": {
+    "state": "51",
+    "place": "28496",
+    "population": "222"
+  },
+  "Floris, Virginia": {
+    "state": "51",
+    "place": "28528",
+    "population": "8341"
+  },
+  "Forest, Virginia": {
+    "state": "51",
+    "place": "28688",
+    "population": "11709"
+  },
+  "Fort Belvoir, Virginia": {
+    "state": "51",
+    "place": "29008",
+    "population": "7637"
+  },
+  "Fort Chiswell, Virginia": {
+    "state": "51",
+    "place": "29040",
+    "population": "876"
+  },
+  "Fort Hunt, Virginia": {
+    "state": "51",
+    "place": "29136",
+    "population": "17231"
+  },
+  "Fort Lee, Virginia": {
+    "state": "51",
+    "place": "29152",
+    "population": "9874"
+  },
+  "Franconia, Virginia": {
+    "state": "51",
+    "place": "29552",
+    "population": "18943"
+  },
+  "Franklin Farm, Virginia": {
+    "state": "51",
+    "place": "29628",
+    "population": "19189"
+  },
+  "Franktown, Virginia": {
+    "state": "51",
+    "place": "29712",
+    "population": "61"
+  },
+  "Free Union, Virginia": {
+    "state": "51",
+    "place": "29840",
+    "population": "187"
+  },
+  "Gainesville, Virginia": {
+    "state": "51",
+    "place": "30176",
+    "population": "18112"
+  },
+  "Gargatha, Virginia": {
+    "state": "51",
+    "place": "30384",
+    "population": "415"
+  },
+  "Gasburg, Virginia": {
+    "state": "51",
+    "place": "30480",
+    "population": "408"
+  },
+  "George Mason, Virginia": {
+    "state": "51",
+    "place": "30618",
+    "population": "11162"
+  },
+  "Glen Allen, Virginia": {
+    "state": "51",
+    "place": "31200",
+    "population": "16187"
+  },
+  "Glenvar, Virginia": {
+    "state": "51",
+    "place": "31488",
+    "population": "892"
+  },
+  "Glen Wilton, Virginia": {
+    "state": "51",
+    "place": "31504",
+    "population": "129"
+  },
+  "Gloucester Courthouse, Virginia": {
+    "state": "51",
+    "place": "31608",
+    "population": "3030"
+  },
+  "Gloucester Point, Virginia": {
+    "state": "51",
+    "place": "31616",
+    "population": "10587"
+  },
+  "Goochland, Virginia": {
+    "state": "51",
+    "place": "31808",
+    "population": "899"
+  },
+  "Goose Creek Village, Virginia": {
+    "state": "51",
+    "place": "31912",
+    "population": "2298"
+  },
+  "Gore, Virginia": {
+    "state": "51",
+    "place": "31952",
+    "population": "249"
+  },
+  "Gratton, Virginia": {
+    "state": "51",
+    "place": "32320",
+    "population": "865"
+  },
+  "Great Falls, Virginia": {
+    "state": "51",
+    "place": "32496",
+    "population": "15953"
+  },
+  "Great Falls Crossing, Virginia": {
+    "state": "51",
+    "place": "32498",
+    "population": "1392"
+  },
+  "Greenbackville, Virginia": {
+    "state": "51",
+    "place": "32560",
+    "population": "173"
+  },
+  "Greenbriar, Virginia": {
+    "state": "51",
+    "place": "32592",
+    "population": "8421"
+  },
+  "Greenbush, Virginia": {
+    "state": "51",
+    "place": "32624",
+    "population": "224"
+  },
+  "Greenville, Virginia": {
+    "state": "51",
+    "place": "32944",
+    "population": "887"
+  },
+  "Groveton, Virginia": {
+    "state": "51",
+    "place": "33584",
+    "population": "15725"
+  },
+  "Gwynn, Virginia": {
+    "state": "51",
+    "place": "33824",
+    "population": "578"
+  },
+  "Hampden-Sydney, Virginia": {
+    "state": "51",
+    "place": "34304",
+    "population": "1191"
+  },
+  "Hanover, Virginia": {
+    "state": "51",
+    "place": "35160",
+    "population": "235"
+  },
+  "Harborton, Virginia": {
+    "state": "51",
+    "place": "35240",
+    "population": "130"
+  },
+  "Harriston, Virginia": {
+    "state": "51",
+    "place": "35640",
+    "population": "948"
+  },
+  "Hayfield, Virginia": {
+    "state": "51",
+    "place": "35912",
+    "population": "4154"
+  },
+  "Heathsville, Virginia": {
+    "state": "51",
+    "place": "36216",
+    "population": "136"
+  },
+  "Henry Fork, Virginia": {
+    "state": "51",
+    "place": "36445",
+    "population": "1120"
+  },
+  "Highland Springs, Virginia": {
+    "state": "51",
+    "place": "37032",
+    "population": "16604"
+  },
+  "Hilltown, Virginia": {
+    "state": "51",
+    "place": "37380",
+    "population": "216"
+  },
+  "Hiltons, Virginia": {
+    "state": "51",
+    "place": "37432",
+    "population": "334"
+  },
+  "Hiwassee, Virginia": {
+    "state": "51",
+    "place": "37544",
+    "population": "212"
+  },
+  "Hollins, Virginia": {
+    "state": "51",
+    "place": "37880",
+    "population": "15574"
+  },
+  "Hollymead, Virginia": {
+    "state": "51",
+    "place": "38032",
+    "population": "8601"
+  },
+  "Horntown, Virginia": {
+    "state": "51",
+    "place": "38504",
+    "population": "912"
+  },
+  "Horse Pasture, Virginia": {
+    "state": "51",
+    "place": "38552",
+    "population": "2058"
+  },
+  "Hot Springs, Virginia": {
+    "state": "51",
+    "place": "38632",
+    "population": "524"
+  },
+  "Huntington, Virginia": {
+    "state": "51",
+    "place": "39064",
+    "population": "13749"
+  },
+  "Hutchison, Virginia": {
+    "state": "51",
+    "place": "39259",
+    "population": "6231"
+  },
+  "Hybla Valley, Virginia": {
+    "state": "51",
+    "place": "39304",
+    "population": "16319"
+  },
+  "Idylwood, Virginia": {
+    "state": "51",
+    "place": "39448",
+    "population": "17954"
+  },
+  "Independent Hill, Virginia": {
+    "state": "51",
+    "place": "39544",
+    "population": "10165"
+  },
+  "Innovation, Virginia": {
+    "state": "51",
+    "place": "39916",
+    "population": "926"
+  },
+  "Innsbrook, Virginia": {
+    "state": "51",
+    "place": "39920",
+    "population": "8998"
+  },
+  "Ivanhoe, Virginia": {
+    "state": "51",
+    "place": "40216",
+    "population": "501"
+  },
+  "Ivy, Virginia": {
+    "state": "51",
+    "place": "40248",
+    "population": "917"
+  },
+  "Jewell Ridge, Virginia": {
+    "state": "51",
+    "place": "41016",
+    "population": "149"
+  },
+  "Jolivue, Virginia": {
+    "state": "51",
+    "place": "41144",
+    "population": "1168"
+  },
+  "Keezletown, Virginia": {
+    "state": "51",
+    "place": "41624",
+    "population": "369"
+  },
+  "Keokee, Virginia": {
+    "state": "51",
+    "place": "42104",
+    "population": "330"
+  },
+  "Keswick, Virginia": {
+    "state": "51",
+    "place": "42216",
+    "population": "321"
+  },
+  "Kincora, Virginia": {
+    "state": "51",
+    "place": "42501",
+    "population": "367"
+  },
+  "King and Queen Court House, Virginia": {
+    "state": "51",
+    "place": "42536",
+    "population": "82"
+  },
+  "King George, Virginia": {
+    "state": "51",
+    "place": "42568",
+    "population": "4970"
+  },
+  "Kings Park, Virginia": {
+    "state": "51",
+    "place": "42664",
+    "population": "4537"
+  },
+  "Kings Park West, Virginia": {
+    "state": "51",
+    "place": "42680",
+    "population": "13465"
+  },
+  "Kingstowne, Virginia": {
+    "state": "51",
+    "place": "42746",
+    "population": "16825"
+  },
+  "King William, Virginia": {
+    "state": "51",
+    "place": "42792",
+    "population": "276"
+  },
+  "Lafayette, Virginia": {
+    "state": "51",
+    "place": "43224",
+    "population": "429"
+  },
+  "Lake Barcroft, Virginia": {
+    "state": "51",
+    "place": "43352",
+    "population": "9770"
+  },
+  "Lake Caroline, Virginia": {
+    "state": "51",
+    "place": "43359",
+    "population": "2511"
+  },
+  "Lake Holiday, Virginia": {
+    "state": "51",
+    "place": "43392",
+    "population": "2196"
+  },
+  "Lake Land'Or, Virginia": {
+    "state": "51",
+    "place": "43420",
+    "population": "4555"
+  },
+  "Lake Monticello, Virginia": {
+    "state": "51",
+    "place": "43424",
+    "population": "10126"
+  },
+  "Lake of the Woods, Virginia": {
+    "state": "51",
+    "place": "43430",
+    "population": "8081"
+  },
+  "Lake Ridge, Virginia": {
+    "state": "51",
+    "place": "43432",
+    "population": "46162"
+  },
+  "Lakeside, Virginia": {
+    "state": "51",
+    "place": "43464",
+    "population": "12203"
+  },
+  "Lake Wilderness, Virginia": {
+    "state": "51",
+    "place": "43600",
+    "population": "2960"
+  },
+  "Lancaster, Virginia": {
+    "state": "51",
+    "place": "43704",
+    "population": "105"
+  },
+  "Lansdowne, Virginia": {
+    "state": "51",
+    "place": "44048",
+    "population": "12427"
+  },
+  "Laurel, Virginia": {
+    "state": "51",
+    "place": "44280",
+    "population": "17769"
+  },
+  "Laurel Hill, Virginia": {
+    "state": "51",
+    "place": "44430",
+    "population": "8307"
+  },
+  "Laurel Park, Virginia": {
+    "state": "51",
+    "place": "44476",
+    "population": "657"
+  },
+  "Laymantown, Virginia": {
+    "state": "51",
+    "place": "44620",
+    "population": "1867"
+  },
+  "Lee Mont, Virginia": {
+    "state": "51",
+    "place": "44952",
+    "population": "102"
+  },
+  "Lincolnia, Virginia": {
+    "state": "51",
+    "place": "45784",
+    "population": "22922"
+  },
+  "Linton Hall, Virginia": {
+    "state": "51",
+    "place": "45957",
+    "population": "41754"
+  },
+  "Linville, Virginia": {
+    "state": "51",
+    "place": "45960",
+    "population": "355"
+  },
+  "Loch Lomond, Virginia": {
+    "state": "51",
+    "place": "46328",
+    "population": "4050"
+  },
+  "Locust Mount, Virginia": {
+    "state": "51",
+    "place": "46456",
+    "population": "52"
+  },
+  "Long Branch, Virginia": {
+    "state": "51",
+    "place": "46760",
+    "population": "7890"
+  },
+  "Lorton, Virginia": {
+    "state": "51",
+    "place": "47064",
+    "population": "20072"
+  },
+  "Loudoun Valley Estates, Virginia": {
+    "state": "51",
+    "place": "47136",
+    "population": "11436"
+  },
+  "Lovingston, Virginia": {
+    "state": "51",
+    "place": "47224",
+    "population": "503"
+  },
+  "Lowes Island, Virginia": {
+    "state": "51",
+    "place": "47296",
+    "population": "11023"
+  },
+  "Low Moor, Virginia": {
+    "state": "51",
+    "place": "47352",
+    "population": "402"
+  },
+  "Lunenburg, Virginia": {
+    "state": "51",
+    "place": "47496",
+    "population": "142"
+  },
+  "Lyndhurst, Virginia": {
+    "state": "51",
+    "place": "47720",
+    "population": "1554"
+  },
+  "McDowell, Virginia": {
+    "state": "51",
+    "place": "48184",
+    "population": "94"
+  },
+  "McGaheysville, Virginia": {
+    "state": "51",
+    "place": "48232",
+    "population": "978"
+  },
+  "McLean, Virginia": {
+    "state": "51",
+    "place": "48376",
+    "population": "50773"
+  },
+  "McMullin, Virginia": {
+    "state": "51",
+    "place": "48445",
+    "population": "455"
+  },
+  "McNair, Virginia": {
+    "state": "51",
+    "place": "48450",
+    "population": "21598"
+  },
+  "Madison Heights, Virginia": {
+    "state": "51",
+    "place": "48520",
+    "population": "10893"
+  },
+  "Makemie Park, Virginia": {
+    "state": "51",
+    "place": "48776",
+    "population": "138"
+  },
+  "Mallow, Virginia": {
+    "state": "51",
+    "place": "48856",
+    "population": "671"
+  },
+  "Manchester, Virginia": {
+    "state": "51",
+    "place": "48996",
+    "population": "12129"
+  },
+  "Mantua, Virginia": {
+    "state": "51",
+    "place": "49144",
+    "population": "7503"
+  },
+  "Mappsburg, Virginia": {
+    "state": "51",
+    "place": "49320",
+    "population": "51"
+  },
+  "Mappsville, Virginia": {
+    "state": "51",
+    "place": "49336",
+    "population": "311"
+  },
+  "Marshall, Virginia": {
+    "state": "51",
+    "place": "49656",
+    "population": "1854"
+  },
+  "Mason Neck, Virginia": {
+    "state": "51",
+    "place": "49998",
+    "population": "2025"
+  },
+  "Massanetta Springs, Virginia": {
+    "state": "51",
+    "place": "50020",
+    "population": "6384"
+  },
+  "Massanutten, Virginia": {
+    "state": "51",
+    "place": "50030",
+    "population": "2164"
+  },
+  "Leesylvania, Virginia": {
+    "state": "51",
+    "place": "45008",
+    "population": "21193"
+  },
+  "Mathews, Virginia": {
+    "state": "51",
+    "place": "50104",
+    "population": "525"
+  },
+  "Matoaca, Virginia": {
+    "state": "51",
+    "place": "50136",
+    "population": "2655"
+  },
+  "Maurertown, Virginia": {
+    "state": "51",
+    "place": "50200",
+    "population": "973"
+  },
+  "Max Meadows, Virginia": {
+    "state": "51",
+    "place": "50312",
+    "population": "553"
+  },
+  "Meadowbrook, Virginia": {
+    "state": "51",
+    "place": "50568",
+    "population": "20898"
+  },
+  "Meadows of Dan, Virginia": {
+    "state": "51",
+    "place": "50696",
+    "population": "72"
+  },
+  "Meadowview, Virginia": {
+    "state": "51",
+    "place": "50760",
+    "population": "861"
+  },
+  "Mechanicsburg, Virginia": {
+    "state": "51",
+    "place": "50840",
+    "population": "81"
+  },
+  "Mechanicsville, Virginia": {
+    "state": "51",
+    "place": "50856",
+    "population": "39482"
+  },
+  "Mendota, Virginia": {
+    "state": "51",
+    "place": "51096",
+    "population": "135"
+  },
+  "Merrifield, Virginia": {
+    "state": "51",
+    "place": "51192",
+    "population": "20488"
+  },
+  "Merrimac, Virginia": {
+    "state": "51",
+    "place": "51208",
+    "population": "2858"
+  },
+  "Metompkin, Virginia": {
+    "state": "51",
+    "place": "51362",
+    "population": "490"
+  },
+  "Middlebrook, Virginia": {
+    "state": "51",
+    "place": "51432",
+    "population": "184"
+  },
+  "Midland, Virginia": {
+    "state": "51",
+    "place": "51544",
+    "population": "214"
+  },
+  "Midlothian, Virginia": {
+    "state": "51",
+    "place": "51560",
+    "population": "18320"
+  },
+  "Millboro, Virginia": {
+    "state": "51",
+    "place": "51848",
+    "population": "236"
+  },
+  "Modest Town, Virginia": {
+    "state": "51",
+    "place": "52408",
+    "population": "120"
+  },
+  "Moneta, Virginia": {
+    "state": "51",
+    "place": "52536",
+    "population": "450"
+  },
+  "Montclair, Virginia": {
+    "state": "51",
+    "place": "52658",
+    "population": "22279"
+  },
+  "Montrose, Virginia": {
+    "state": "51",
+    "place": "52904",
+    "population": "7909"
+  },
+  "Montvale, Virginia": {
+    "state": "51",
+    "place": "52968",
+    "population": "635"
+  },
+  "Moorefield, Virginia": {
+    "state": "51",
+    "place": "53030",
+    "population": "4421"
+  },
+  "Motley, Virginia": {
+    "state": "51",
+    "place": "53480",
+    "population": "825"
+  },
+  "Mountain Road, Virginia": {
+    "state": "51",
+    "place": "53584",
+    "population": "1009"
+  },
+  "Mount Clifton, Virginia": {
+    "state": "51",
+    "place": "53832",
+    "population": "110"
+  },
+  "Mount Hermon, Virginia": {
+    "state": "51",
+    "place": "53944",
+    "population": "4057"
+  },
+  "Mount Sidney, Virginia": {
+    "state": "51",
+    "place": "54120",
+    "population": "678"
+  },
+  "Mount Vernon, Virginia": {
+    "state": "51",
+    "place": "54144",
+    "population": "12914"
+  },
+  "Nathalie, Virginia": {
+    "state": "51",
+    "place": "55000",
+    "population": "173"
+  },
+  "Navy, Virginia": {
+    "state": "51",
+    "place": "55208",
+    "population": "4327"
+  },
+  "Nellysford, Virginia": {
+    "state": "51",
+    "place": "55400",
+    "population": "1254"
+  },
+  "Nelsonia, Virginia": {
+    "state": "51",
+    "place": "55448",
+    "population": "451"
+  },
+  "New Baltimore, Virginia": {
+    "state": "51",
+    "place": "55528",
+    "population": "11251"
+  },
+  "New Church, Virginia": {
+    "state": "51",
+    "place": "55608",
+    "population": "256"
+  },
+  "New Hope, Virginia": {
+    "state": "51",
+    "place": "55720",
+    "population": "843"
+  },
+  "Newington, Virginia": {
+    "state": "51",
+    "place": "55752",
+    "population": "13223"
+  },
+  "Newington Forest, Virginia": {
+    "state": "51",
+    "place": "55758",
+    "population": "12957"
+  },
+  "New Kent, Virginia": {
+    "state": "51",
+    "place": "55800",
+    "population": "739"
+  },
+  "New River, Virginia": {
+    "state": "51",
+    "place": "56048",
+    "population": "237"
+  },
+  "Nokesville, Virginia": {
+    "state": "51",
+    "place": "56464",
+    "population": "1619"
+  },
+  "North Garden, Virginia": {
+    "state": "51",
+    "place": "57368",
+    "population": "461"
+  },
+  "North Shore, Virginia": {
+    "state": "51",
+    "place": "57531",
+    "population": "3332"
+  },
+  "North Springfield, Virginia": {
+    "state": "51",
+    "place": "57560",
+    "population": "7430"
+  },
+  "Nottoway Court House, Virginia": {
+    "state": "51",
+    "place": "57870",
+    "population": "63"
+  },
+  "Oak Grove, Virginia": {
+    "state": "51",
+    "place": "58104",
+    "population": "2452"
+  },
+  "Oak Hall, Virginia": {
+    "state": "51",
+    "place": "58184",
+    "population": "226"
+  },
+  "Oak Level, Virginia": {
+    "state": "51",
+    "place": "58312",
+    "population": "803"
+  },
+  "Oakton, Virginia": {
+    "state": "51",
+    "place": "58472",
+    "population": "36732"
+  },
+  "One Loudoun, Virginia": {
+    "state": "51",
+    "place": "59364",
+    "population": "2285"
+  },
+  "Opal, Virginia": {
+    "state": "51",
+    "place": "59416",
+    "population": "678"
+  },
+  "Osaka, Virginia": {
+    "state": "51",
+    "place": "59752",
+    "population": "132"
+  }
+}

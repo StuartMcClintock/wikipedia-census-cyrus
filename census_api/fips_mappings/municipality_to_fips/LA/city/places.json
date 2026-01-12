@@ -1,0 +1,347 @@
+{
+  "Bastrop, Louisiana": {
+    "state": "22",
+    "place": "04685",
+    "population": "9691"
+  },
+  "Baton Rouge, Louisiana": {
+    "state": "22",
+    "place": "05000",
+    "population": "227470"
+  },
+  "Bogalusa, Louisiana": {
+    "state": "22",
+    "place": "08150",
+    "population": "10659"
+  },
+  "Bossier City, Louisiana": {
+    "state": "22",
+    "place": "08920",
+    "population": "62701"
+  },
+  "Breaux Bridge, Louisiana": {
+    "state": "22",
+    "place": "09340",
+    "population": "7513"
+  },
+  "Broussard, Louisiana": {
+    "state": "22",
+    "place": "10075",
+    "population": "13417"
+  },
+  "Bunkie, Louisiana": {
+    "state": "22",
+    "place": "10950",
+    "population": "3346"
+  },
+  "Carencro, Louisiana": {
+    "state": "22",
+    "place": "12665",
+    "population": "9272"
+  },
+  "Central, Louisiana": {
+    "state": "22",
+    "place": "13960",
+    "population": "29565"
+  },
+  "Covington, Louisiana": {
+    "state": "22",
+    "place": "18125",
+    "population": "11564"
+  },
+  "Crowley, Louisiana": {
+    "state": "22",
+    "place": "18650",
+    "population": "11710"
+  },
+  "Denham Springs, Louisiana": {
+    "state": "22",
+    "place": "20435",
+    "population": "9286"
+  },
+  "DeQuincy, Louisiana": {
+    "state": "22",
+    "place": "20575",
+    "population": "3144"
+  },
+  "DeRidder, Louisiana": {
+    "state": "22",
+    "place": "20610",
+    "population": "9852"
+  },
+  "Donaldsonville, Louisiana": {
+    "state": "22",
+    "place": "21240",
+    "population": "6695"
+  },
+  "Eunice, Louisiana": {
+    "state": "22",
+    "place": "24565",
+    "population": "9422"
+  },
+  "Franklin, Louisiana": {
+    "state": "22",
+    "place": "27155",
+    "population": "6728"
+  },
+  "Gonzales, Louisiana": {
+    "state": "22",
+    "place": "29850",
+    "population": "12231"
+  },
+  "Grambling, Louisiana": {
+    "state": "22",
+    "place": "30515",
+    "population": "5239"
+  },
+  "Gretna, Louisiana": {
+    "state": "22",
+    "place": "31915",
+    "population": "17814"
+  },
+  "Hammond, Louisiana": {
+    "state": "22",
+    "place": "32755",
+    "population": "19584"
+  },
+  "Harahan, Louisiana": {
+    "state": "22",
+    "place": "32930",
+    "population": "9116"
+  },
+  "Houma, Louisiana": {
+    "state": "22",
+    "place": "36255",
+    "population": "33406"
+  },
+  "Jeanerette, Louisiana": {
+    "state": "22",
+    "place": "38075",
+    "population": "4813"
+  },
+  "Jennings, Louisiana": {
+    "state": "22",
+    "place": "38355",
+    "population": "9837"
+  },
+  "Kaplan, Louisiana": {
+    "state": "22",
+    "place": "39055",
+    "population": "4352"
+  },
+  "Kenner, Louisiana": {
+    "state": "22",
+    "place": "39475",
+    "population": "66448"
+  },
+  "Lafayette, Louisiana": {
+    "state": "22",
+    "place": "40735",
+    "population": "121374"
+  },
+  "Lake Charles, Louisiana": {
+    "state": "22",
+    "place": "41155",
+    "population": "84872"
+  },
+  "Leesville, Louisiana": {
+    "state": "22",
+    "place": "43010",
+    "population": "5649"
+  },
+  "Mandeville, Louisiana": {
+    "state": "22",
+    "place": "48225",
+    "population": "13192"
+  },
+  "Mansfield, Louisiana": {
+    "state": "22",
+    "place": "48365",
+    "population": "4714"
+  },
+  "Marksville, Louisiana": {
+    "state": "22",
+    "place": "48750",
+    "population": "5065"
+  },
+  "Minden, Louisiana": {
+    "state": "22",
+    "place": "50885",
+    "population": "11928"
+  },
+  "Monroe, Louisiana": {
+    "state": "22",
+    "place": "51410",
+    "population": "47702"
+  },
+  "Morgan City, Louisiana": {
+    "state": "22",
+    "place": "52040",
+    "population": "11472"
+  },
+  "Natchitoches, Louisiana": {
+    "state": "22",
+    "place": "53545",
+    "population": "18039"
+  },
+  "New Iberia, Louisiana": {
+    "state": "22",
+    "place": "54035",
+    "population": "28555"
+  },
+  "New Orleans, Louisiana": {
+    "state": "22",
+    "place": "55000",
+    "population": "383997"
+  },
+  "New Roads, Louisiana": {
+    "state": "22",
+    "place": "55105",
+    "population": "4549"
+  },
+  "Oakdale, Louisiana": {
+    "state": "22",
+    "place": "56540",
+    "population": "6692"
+  },
+  "Opelousas, Louisiana": {
+    "state": "22",
+    "place": "58045",
+    "population": "15786"
+  },
+  "Patterson, Louisiana": {
+    "state": "22",
+    "place": "59340",
+    "population": "5931"
+  },
+  "Pineville, Louisiana": {
+    "state": "22",
+    "place": "60530",
+    "population": "14384"
+  },
+  "Plaquemine, Louisiana": {
+    "state": "22",
+    "place": "60880",
+    "population": "6269"
+  },
+  "Ponchatoula, Louisiana": {
+    "state": "22",
+    "place": "61615",
+    "population": "7822"
+  },
+  "Port Allen, Louisiana": {
+    "state": "22",
+    "place": "61790",
+    "population": "4939"
+  },
+  "Rayne, Louisiana": {
+    "state": "22",
+    "place": "63645",
+    "population": "7236"
+  },
+  "Ruston, Louisiana": {
+    "state": "22",
+    "place": "66655",
+    "population": "22166"
+  },
+  "St. Gabriel, Louisiana": {
+    "state": "22",
+    "place": "67250",
+    "population": "6433"
+  },
+  "St. Martinville, Louisiana": {
+    "state": "22",
+    "place": "67600",
+    "population": "5379"
+  },
+  "Scott, Louisiana": {
+    "state": "22",
+    "place": "68475",
+    "population": "8119"
+  },
+  "Shreveport, Louisiana": {
+    "state": "22",
+    "place": "70000",
+    "population": "187593"
+  },
+  "Slidell, Louisiana": {
+    "state": "22",
+    "place": "70805",
+    "population": "28781"
+  },
+  "Springhill, Louisiana": {
+    "state": "22",
+    "place": "72485",
+    "population": "4801"
+  },
+  "Sulphur, Louisiana": {
+    "state": "22",
+    "place": "73640",
+    "population": "21809"
+  },
+  "Tallulah, Louisiana": {
+    "state": "22",
+    "place": "74690",
+    "population": "6286"
+  },
+  "Thibodaux, Louisiana": {
+    "state": "22",
+    "place": "75425",
+    "population": "15948"
+  },
+  "Ville Platte, Louisiana": {
+    "state": "22",
+    "place": "78715",
+    "population": "6303"
+  },
+  "Westlake, Louisiana": {
+    "state": "22",
+    "place": "80815",
+    "population": "4781"
+  },
+  "West Monroe, Louisiana": {
+    "state": "22",
+    "place": "80955",
+    "population": "13103"
+  },
+  "Westwego, Louisiana": {
+    "state": "22",
+    "place": "81165",
+    "population": "8568"
+  },
+  "Winnfield, Louisiana": {
+    "state": "22",
+    "place": "82460",
+    "population": "4153"
+  },
+  "Winnsboro, Louisiana": {
+    "state": "22",
+    "place": "82495",
+    "population": "4862"
+  },
+  "Youngsville, Louisiana": {
+    "state": "22",
+    "place": "83335",
+    "population": "15929"
+  },
+  "Zachary, Louisiana": {
+    "state": "22",
+    "place": "83405",
+    "population": "19316"
+  },
+  "Abbeville, Louisiana": {
+    "state": "22",
+    "place": "00100",
+    "population": "11186"
+  },
+  "Alexandria, Louisiana": {
+    "state": "22",
+    "place": "00975",
+    "population": "45275"
+  },
+  "Baker, Louisiana": {
+    "state": "22",
+    "place": "03985",
+    "population": "12455"
+  }
+}

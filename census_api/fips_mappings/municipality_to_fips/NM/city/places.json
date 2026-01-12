@@ -1,0 +1,187 @@
+{
+  "Alamogordo, New Mexico": {
+    "state": "35",
+    "place": "01780",
+    "population": "30898"
+  },
+  "Albuquerque, New Mexico": {
+    "state": "35",
+    "place": "02000",
+    "population": "564559"
+  },
+  "Anthony, New Mexico": {
+    "state": "35",
+    "place": "03820",
+    "population": "8693"
+  },
+  "Artesia, New Mexico": {
+    "state": "35",
+    "place": "05220",
+    "population": "12875"
+  },
+  "Aztec, New Mexico": {
+    "state": "35",
+    "place": "05780",
+    "population": "6201"
+  },
+  "Bayard, New Mexico": {
+    "state": "35",
+    "place": "06270",
+    "population": "2116"
+  },
+  "Belen, New Mexico": {
+    "state": "35",
+    "place": "06480",
+    "population": "7360"
+  },
+  "Bloomfield, New Mexico": {
+    "state": "35",
+    "place": "07880",
+    "population": "7421"
+  },
+  "Carlsbad, New Mexico": {
+    "state": "35",
+    "place": "12150",
+    "population": "32238"
+  },
+  "Clovis, New Mexico": {
+    "state": "35",
+    "place": "16420",
+    "population": "38567"
+  },
+  "Deming, New Mexico": {
+    "state": "35",
+    "place": "20270",
+    "population": "14758"
+  },
+  "Elephant Butte, New Mexico": {
+    "state": "35",
+    "place": "22720",
+    "population": "1447"
+  },
+  "Española, New Mexico": {
+    "state": "35",
+    "place": "25170",
+    "population": "10526"
+  },
+  "Eunice, New Mexico": {
+    "state": "35",
+    "place": "25450",
+    "population": "3056"
+  },
+  "Farmington, New Mexico": {
+    "state": "35",
+    "place": "25800",
+    "population": "46624"
+  },
+  "Gallup, New Mexico": {
+    "state": "35",
+    "place": "28460",
+    "population": "21899"
+  },
+  "Grants, New Mexico": {
+    "state": "35",
+    "place": "30490",
+    "population": "9163"
+  },
+  "Hobbs, New Mexico": {
+    "state": "35",
+    "place": "32520",
+    "population": "40508"
+  },
+  "Jal, New Mexico": {
+    "state": "35",
+    "place": "35040",
+    "population": "2202"
+  },
+  "Las Cruces, New Mexico": {
+    "state": "35",
+    "place": "39380",
+    "population": "111385"
+  },
+  "Las Vegas, New Mexico": {
+    "state": "35",
+    "place": "39940",
+    "population": "13166"
+  },
+  "Lordsburg, New Mexico": {
+    "state": "35",
+    "place": "42180",
+    "population": "2335"
+  },
+  "Lovington, New Mexico": {
+    "state": "35",
+    "place": "44490",
+    "population": "11668"
+  },
+  "Moriarty, New Mexico": {
+    "state": "35",
+    "place": "50160",
+    "population": "1946"
+  },
+  "Portales, New Mexico": {
+    "state": "35",
+    "place": "59260",
+    "population": "12137"
+  },
+  "Raton, New Mexico": {
+    "state": "35",
+    "place": "62060",
+    "population": "6041"
+  },
+  "Rio Communities, New Mexico": {
+    "state": "35",
+    "place": "63145",
+    "population": "4926"
+  },
+  "Rio Rancho, New Mexico": {
+    "state": "35",
+    "place": "63460",
+    "population": "104046"
+  },
+  "Roswell, New Mexico": {
+    "state": "35",
+    "place": "64930",
+    "population": "48422"
+  },
+  "Ruidoso Downs, New Mexico": {
+    "state": "35",
+    "place": "65280",
+    "population": "2620"
+  },
+  "Santa Fe, New Mexico": {
+    "state": "35",
+    "place": "70500",
+    "population": "87505"
+  },
+  "Santa Rosa, New Mexico": {
+    "state": "35",
+    "place": "70670",
+    "population": "2850"
+  },
+  "Socorro, New Mexico": {
+    "state": "35",
+    "place": "73540",
+    "population": "8707"
+  },
+  "Sunland Park, New Mexico": {
+    "state": "35",
+    "place": "75640",
+    "population": "16702"
+  },
+  "Texico, New Mexico": {
+    "state": "35",
+    "place": "77250",
+    "population": "956"
+  },
+  "Truth or Consequences, New Mexico": {
+    "state": "35",
+    "place": "79840",
+    "population": "6052"
+  },
+  "Tucumcari, New Mexico": {
+    "state": "35",
+    "place": "79910",
+    "population": "5278"
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "Cohoes, New York": {
+    "state": "36",
+    "place": "16749",
+    "population": "18147"
+  },
+  "Corning, New York": {
+    "state": "36",
+    "place": "18256",
+    "population": "10551"
+  },
+  "Cortland, New York": {
+    "state": "36",
+    "place": "18388",
+    "population": "17556"
+  },
+  "Dunkirk, New York": {
+    "state": "36",
+    "place": "21105",
+    "population": "12743"
+  },
+  "Fulton, New York": {
+    "state": "36",
+    "place": "27815",
+    "population": "11389"
+  },
+  "Geneva, New York": {
+    "state": "36",
+    "place": "28640",
+    "population": "12812"
+  },
+  "Glen Cove, New York": {
+    "state": "36",
+    "place": "29113",
+    "population": "28365"
+  },
+  "Glens Falls, New York": {
+    "state": "36",
+    "place": "29333",
+    "population": "14830"
+  },
+  "Gloversville, New York": {
+    "state": "36",
+    "place": "29443",
+    "population": "15131"
+  },
+  "Albany, New York": {
+    "state": "36",
+    "place": "01000",
+    "population": "99224"
+  },
+  "Amsterdam, New York": {
+    "state": "36",
+    "place": "02066",
+    "population": "18219"
+  },
+  "Elmira, New York": {
+    "state": "36",
+    "place": "24229",
+    "population": "26523"
+  },
+  "Hornell, New York": {
+    "state": "36",
+    "place": "35672",
+    "population": "8263"
+  },
+  "Hudson, New York": {
+    "state": "36",
+    "place": "35969",
+    "population": "5894"
+  },
+  "Ithaca, New York": {
+    "state": "36",
+    "place": "38077",
+    "population": "32108"
+  },
+  "Jamestown, New York": {
+    "state": "36",
+    "place": "38264",
+    "population": "28712"
+  },
+  "Johnstown, New York": {
+    "state": "36",
+    "place": "38781",
+    "population": "8204"
+  },
+  "Kingston, New York": {
+    "state": "36",
+    "place": "39727",
+    "population": "24069"
+  },
+  "Lackawanna, New York": {
+    "state": "36",
+    "place": "40189",
+    "population": "19949"
+  },
+  "Mechanicville, New York": {
+    "state": "36",
+    "place": "46360",
+    "population": "5163"
+  },
+  "Middletown, New York": {
+    "state": "36",
+    "place": "47042",
+    "population": "30345"
+  },
+  "North Tonawanda, New York": {
+    "state": "36",
+    "place": "53682",
+    "population": "30496"
+  },
+  "Norwich, New York": {
+    "state": "36",
+    "place": "53979",
+    "population": "7051"
+  },
+  "Ogdensburg, New York": {
+    "state": "36",
+    "place": "54485",
+    "population": "10064"
+  },
+  "Auburn, New York": {
+    "state": "36",
+    "place": "03078",
+    "population": "26866"
+  },
+  "Batavia, New York": {
+    "state": "36",
+    "place": "04715",
+    "population": "15600"
+  },
+  "Beacon, New York": {
+    "state": "36",
+    "place": "05100",
+    "population": "13769"
+  },
+  "Binghamton, New York": {
+    "state": "36",
+    "place": "06607",
+    "population": "47969"
+  },
+  "Little Falls, New York": {
+    "state": "36",
+    "place": "42741",
+    "population": "4605"
+  },
+  "Lockport, New York": {
+    "state": "36",
+    "place": "43082",
+    "population": "20876"
+  },
+  "Long Beach, New York": {
+    "state": "36",
+    "place": "43335",
+    "population": "35029"
+  },
+  "Mount Vernon, New York": {
+    "state": "36",
+    "place": "49121",
+    "population": "73893"
+  },
+  "Newburgh, New York": {
+    "state": "36",
+    "place": "50034",
+    "population": "28856"
+  },
+  "New Rochelle, New York": {
+    "state": "36",
+    "place": "50617",
+    "population": "79726"
+  },
+  "New York, New York": {
+    "state": "36",
+    "place": "51000",
+    "population": "8804190"
+  },
+  "Niagara Falls, New York": {
+    "state": "36",
+    "place": "51055",
+    "population": "48671"
+  },
+  "Olean, New York": {
+    "state": "36",
+    "place": "54716",
+    "population": "13937"
+  },
+  "Oneida, New York": {
+    "state": "36",
+    "place": "54837",
+    "population": "10329"
+  },
+  "Oneonta, New York": {
+    "state": "36",
+    "place": "54881",
+    "population": "13079"
+  },
+  "Oswego, New York": {
+    "state": "36",
+    "place": "55574",
+    "population": "16921"
+  },
+  "Peekskill, New York": {
+    "state": "36",
+    "place": "56979",
+    "population": "25431"
+  },
+  "Plattsburgh, New York": {
+    "state": "36",
+    "place": "58574",
+    "population": "19841"
+  },
+  "Port Jervis, New York": {
+    "state": "36",
+    "place": "59388",
+    "population": "8775"
+  },
+  "Poughkeepsie, New York": {
+    "state": "36",
+    "place": "59641",
+    "population": "31577"
+  },
+  "Rensselaer, New York": {
+    "state": "36",
+    "place": "61148",
+    "population": "9210"
+  },
+  "Rochester, New York": {
+    "state": "36",
+    "place": "63000",
+    "population": "211328"
+  },
+  "Rome, New York": {
+    "state": "36",
+    "place": "63418",
+    "population": "32127"
+  },
+  "Rye, New York": {
+    "state": "36",
+    "place": "64309",
+    "population": "16592"
+  },
+  "Salamanca, New York": {
+    "state": "36",
+    "place": "64749",
+    "population": "5929"
+  },
+  "Watertown, New York": {
+    "state": "36",
+    "place": "78608",
+    "population": "24685"
+  },
+  "Watervliet, New York": {
+    "state": "36",
+    "place": "78674",
+    "population": "10375"
+  },
+  "Buffalo, New York": {
+    "state": "36",
+    "place": "11000",
+    "population": "278349"
+  },
+  "Canandaigua, New York": {
+    "state": "36",
+    "place": "12144",
+    "population": "10576"
+  },
+  "Saratoga Springs, New York": {
+    "state": "36",
+    "place": "65255",
+    "population": "28491"
+  },
+  "Schenectady, New York": {
+    "state": "36",
+    "place": "65508",
+    "population": "67047"
+  },
+  "Sherrill, New York": {
+    "state": "36",
+    "place": "66993",
+    "population": "3077"
+  },
+  "Syracuse, New York": {
+    "state": "36",
+    "place": "73000",
+    "population": "148620"
+  },
+  "Tonawanda, New York": {
+    "state": "36",
+    "place": "74166",
+    "population": "15129"
+  },
+  "Troy, New York": {
+    "state": "36",
+    "place": "75484",
+    "population": "51401"
+  },
+  "Utica, New York": {
+    "state": "36",
+    "place": "76540",
+    "population": "65283"
+  },
+  "White Plains, New York": {
+    "state": "36",
+    "place": "81677",
+    "population": "59559"
+  },
+  "Yonkers, New York": {
+    "state": "36",
+    "place": "84000",
+    "population": "211569"
+  }
+}

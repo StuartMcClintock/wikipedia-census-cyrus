@@ -1,0 +1,3387 @@
+{
+  "New Athens, Ohio": {
+    "state": "39",
+    "place": "54068",
+    "population": "222"
+  },
+  "New Bavaria, Ohio": {
+    "state": "39",
+    "place": "54110",
+    "population": "86"
+  },
+  "New Bloomington, Ohio": {
+    "state": "39",
+    "place": "54152",
+    "population": "413"
+  },
+  "New Boston, Ohio": {
+    "state": "39",
+    "place": "54166",
+    "population": "2297"
+  },
+  "New Bremen, Ohio": {
+    "state": "39",
+    "place": "54194",
+    "population": "3034"
+  },
+  "Newburgh Heights, Ohio": {
+    "state": "39",
+    "place": "54250",
+    "population": "1862"
+  },
+  "Newcomerstown, Ohio": {
+    "state": "39",
+    "place": "54432",
+    "population": "3702"
+  },
+  "New Concord, Ohio": {
+    "state": "39",
+    "place": "54446",
+    "population": "2361"
+  },
+  "New Holland, Ohio": {
+    "state": "39",
+    "place": "54726",
+    "population": "804"
+  },
+  "New Knoxville, Ohio": {
+    "state": "39",
+    "place": "54838",
+    "population": "946"
+  },
+  "New Lebanon, Ohio": {
+    "state": "39",
+    "place": "54852",
+    "population": "3796"
+  },
+  "New Lexington, Ohio": {
+    "state": "39",
+    "place": "54866",
+    "population": "4435"
+  },
+  "New London, Ohio": {
+    "state": "39",
+    "place": "54908",
+    "population": "2416"
+  },
+  "New Madison, Ohio": {
+    "state": "39",
+    "place": "54978",
+    "population": "840"
+  },
+  "New Miami, Ohio": {
+    "state": "39",
+    "place": "55104",
+    "population": "2217"
+  },
+  "New Middletown, Ohio": {
+    "state": "39",
+    "place": "55118",
+    "population": "1507"
+  },
+  "New Paris, Ohio": {
+    "state": "39",
+    "place": "55188",
+    "population": "1494"
+  },
+  "New Richmond, Ohio": {
+    "state": "39",
+    "place": "55384",
+    "population": "2727"
+  },
+  "New Riegel, Ohio": {
+    "state": "39",
+    "place": "55398",
+    "population": "286"
+  },
+  "New Straitsville, Ohio": {
+    "state": "39",
+    "place": "55552",
+    "population": "652"
+  },
+  "Newton Falls, Ohio": {
+    "state": "39",
+    "place": "55650",
+    "population": "4557"
+  },
+  "Newtown, Ohio": {
+    "state": "39",
+    "place": "55678",
+    "population": "2702"
+  },
+  "New Vienna, Ohio": {
+    "state": "39",
+    "place": "55748",
+    "population": "1108"
+  },
+  "New Washington, Ohio": {
+    "state": "39",
+    "place": "55776",
+    "population": "873"
+  },
+  "New Waterford, Ohio": {
+    "state": "39",
+    "place": "55790",
+    "population": "1194"
+  },
+  "New Weston, Ohio": {
+    "state": "39",
+    "place": "55818",
+    "population": "124"
+  },
+  "Ney, Ohio": {
+    "state": "39",
+    "place": "55874",
+    "population": "303"
+  },
+  "North Baltimore, Ohio": {
+    "state": "39",
+    "place": "56154",
+    "population": "3369"
+  },
+  "North Bend, Ohio": {
+    "state": "39",
+    "place": "56182",
+    "population": "835"
+  },
+  "North Fairfield, Ohio": {
+    "state": "39",
+    "place": "56420",
+    "population": "465"
+  },
+  "Northfield, Ohio": {
+    "state": "39",
+    "place": "56448",
+    "population": "3541"
+  },
+  "North Hampton, Ohio": {
+    "state": "39",
+    "place": "56588",
+    "population": "457"
+  },
+  "North Kingsville, Ohio": {
+    "state": "39",
+    "place": "56700",
+    "population": "2742"
+  },
+  "North Lewisburg, Ohio": {
+    "state": "39",
+    "place": "56770",
+    "population": "1636"
+  },
+  "North Perry, Ohio": {
+    "state": "39",
+    "place": "56910",
+    "population": "915"
+  },
+  "North Randall, Ohio": {
+    "state": "39",
+    "place": "56924",
+    "population": "954"
+  },
+  "North Robinson, Ohio": {
+    "state": "39",
+    "place": "56994",
+    "population": "219"
+  },
+  "North Star, Ohio": {
+    "state": "39",
+    "place": "57064",
+    "population": "224"
+  },
+  "Norwich, Ohio": {
+    "state": "39",
+    "place": "57372",
+    "population": "87"
+  },
+  "Oak Harbor, Ohio": {
+    "state": "39",
+    "place": "57582",
+    "population": "2821"
+  },
+  "Oak Hill, Ohio": {
+    "state": "39",
+    "place": "57596",
+    "population": "1407"
+  },
+  "Obetz, Ohio": {
+    "state": "39",
+    "place": "57862",
+    "population": "5489"
+  },
+  "Octa, Ohio": {
+    "state": "39",
+    "place": "57918",
+    "population": "58"
+  },
+  "Ohio City, Ohio": {
+    "state": "39",
+    "place": "58002",
+    "population": "651"
+  },
+  "Old Washington, Ohio": {
+    "state": "39",
+    "place": "58226",
+    "population": "223"
+  },
+  "Orange, Ohio": {
+    "state": "39",
+    "place": "58604",
+    "population": "3421"
+  },
+  "Orangeville, Ohio": {
+    "state": "39",
+    "place": "58674",
+    "population": "174"
+  },
+  "Orwell, Ohio": {
+    "state": "39",
+    "place": "58856",
+    "population": "1533"
+  },
+  "Osgood, Ohio": {
+    "state": "39",
+    "place": "58912",
+    "population": "306"
+  },
+  "Ostrander, Ohio": {
+    "state": "39",
+    "place": "58940",
+    "population": "1094"
+  },
+  "Ottawa, Ohio": {
+    "state": "39",
+    "place": "58982",
+    "population": "4456"
+  },
+  "Ottawa Hills, Ohio": {
+    "state": "39",
+    "place": "59010",
+    "population": "4790"
+  },
+  "Ottoville, Ohio": {
+    "state": "39",
+    "place": "59052",
+    "population": "966"
+  },
+  "Otway, Ohio": {
+    "state": "39",
+    "place": "59066",
+    "population": "92"
+  },
+  "Owensville, Ohio": {
+    "state": "39",
+    "place": "59220",
+    "population": "786"
+  },
+  "Palestine, Ohio": {
+    "state": "39",
+    "place": "59598",
+    "population": "180"
+  },
+  "Pandora, Ohio": {
+    "state": "39",
+    "place": "59738",
+    "population": "1204"
+  },
+  "Parral, Ohio": {
+    "state": "39",
+    "place": "61056",
+    "population": "205"
+  },
+  "Patterson, Ohio": {
+    "state": "39",
+    "place": "61182",
+    "population": "130"
+  },
+  "Paulding, Ohio": {
+    "state": "39",
+    "place": "61252",
+    "population": "3555"
+  },
+  "Payne, Ohio": {
+    "state": "39",
+    "place": "61322",
+    "population": "1192"
+  },
+  "Peebles, Ohio": {
+    "state": "39",
+    "place": "61420",
+    "population": "1774"
+  },
+  "Pemberville, Ohio": {
+    "state": "39",
+    "place": "61504",
+    "population": "1326"
+  },
+  "Peninsula, Ohio": {
+    "state": "39",
+    "place": "61574",
+    "population": "536"
+  },
+  "Perry, Ohio": {
+    "state": "39",
+    "place": "61882",
+    "population": "1602"
+  },
+  "Perrysville, Ohio": {
+    "state": "39",
+    "place": "62190",
+    "population": "729"
+  },
+  "Phillipsburg, Ohio": {
+    "state": "39",
+    "place": "62414",
+    "population": "498"
+  },
+  "Philo, Ohio": {
+    "state": "39",
+    "place": "62442",
+    "population": "720"
+  },
+  "Piketon, Ohio": {
+    "state": "39",
+    "place": "62708",
+    "population": "2111"
+  },
+  "Pioneer, Ohio": {
+    "state": "39",
+    "place": "62834",
+    "population": "1429"
+  },
+  "Pitsburg, Ohio": {
+    "state": "39",
+    "place": "62890",
+    "population": "381"
+  },
+  "Plain City, Ohio": {
+    "state": "39",
+    "place": "63030",
+    "population": "4065"
+  },
+  "Plainfield, Ohio": {
+    "state": "39",
+    "place": "63044",
+    "population": "141"
+  },
+  "Pleasant City, Ohio": {
+    "state": "39",
+    "place": "63436",
+    "population": "400"
+  },
+  "Pleasant Hill, Ohio": {
+    "state": "39",
+    "place": "63534",
+    "population": "1241"
+  },
+  "Pleasant Plain, Ohio": {
+    "state": "39",
+    "place": "63576",
+    "population": "129"
+  },
+  "Pleasantville, Ohio": {
+    "state": "39",
+    "place": "63716",
+    "population": "934"
+  },
+  "Plymouth, Ohio": {
+    "state": "39",
+    "place": "63800",
+    "population": "1707"
+  },
+  "Poland, Ohio": {
+    "state": "39",
+    "place": "63954",
+    "population": "2463"
+  },
+  "Polk, Ohio": {
+    "state": "39",
+    "place": "63996",
+    "population": "310"
+  },
+  "Pomeroy, Ohio": {
+    "state": "39",
+    "place": "64024",
+    "population": "1573"
+  },
+  "Portage, Ohio": {
+    "state": "39",
+    "place": "64108",
+    "population": "398"
+  },
+  "Port Jefferson, Ohio": {
+    "state": "39",
+    "place": "64262",
+    "population": "308"
+  },
+  "Port Washington, Ohio": {
+    "state": "39",
+    "place": "64346",
+    "population": "548"
+  },
+  "Port William, Ohio": {
+    "state": "39",
+    "place": "64360",
+    "population": "229"
+  },
+  "Potsdam, Ohio": {
+    "state": "39",
+    "place": "64430",
+    "population": "225"
+  },
+  "Powhatan Point, Ohio": {
+    "state": "39",
+    "place": "64542",
+    "population": "1461"
+  },
+  "Proctorville, Ohio": {
+    "state": "39",
+    "place": "64766",
+    "population": "523"
+  },
+  "Prospect, Ohio": {
+    "state": "39",
+    "place": "64780",
+    "population": "1067"
+  },
+  "Put-in-Bay, Ohio": {
+    "state": "39",
+    "place": "65032",
+    "population": "154"
+  },
+  "Quaker City, Ohio": {
+    "state": "39",
+    "place": "65116",
+    "population": "379"
+  },
+  "Quincy, Ohio": {
+    "state": "39",
+    "place": "65200",
+    "population": "536"
+  },
+  "Racine, Ohio": {
+    "state": "39",
+    "place": "65256",
+    "population": "683"
+  },
+  "Rarden, Ohio": {
+    "state": "39",
+    "place": "65508",
+    "population": "146"
+  },
+  "Rawson, Ohio": {
+    "state": "39",
+    "place": "65634",
+    "population": "567"
+  },
+  "Rayland, Ohio": {
+    "state": "39",
+    "place": "65662",
+    "population": "395"
+  },
+  "Reminderville, Ohio": {
+    "state": "39",
+    "place": "66152",
+    "population": "5412"
+  },
+  "Rendville, Ohio": {
+    "state": "39",
+    "place": "66222",
+    "population": "28"
+  },
+  "Republic, Ohio": {
+    "state": "39",
+    "place": "66320",
+    "population": "556"
+  },
+  "Richfield, Ohio": {
+    "state": "39",
+    "place": "66530",
+    "population": "3729"
+  },
+  "Richmond, Ohio": {
+    "state": "39",
+    "place": "66824",
+    "population": "412"
+  },
+  "Richwood, Ohio": {
+    "state": "39",
+    "place": "66936",
+    "population": "2222"
+  },
+  "Ridgeway, Ohio": {
+    "state": "39",
+    "place": "67118",
+    "population": "314"
+  },
+  "Rio Grande, Ohio": {
+    "state": "39",
+    "place": "67258",
+    "population": "724"
+  },
+  "Ripley, Ohio": {
+    "state": "39",
+    "place": "67272",
+    "population": "1591"
+  },
+  "Risingsun, Ohio": {
+    "state": "39",
+    "place": "67314",
+    "population": "541"
+  },
+  "Riverlea, Ohio": {
+    "state": "39",
+    "place": "67440",
+    "population": "599"
+  },
+  "Roaming Shores, Ohio": {
+    "state": "39",
+    "place": "67600",
+    "population": "1586"
+  },
+  "Rochester, Ohio": {
+    "state": "39",
+    "place": "67762",
+    "population": "159"
+  },
+  "Rock Creek, Ohio": {
+    "state": "39",
+    "place": "67846",
+    "population": "667"
+  },
+  "Rockford, Ohio": {
+    "state": "39",
+    "place": "67874",
+    "population": "1051"
+  },
+  "Rocky Ridge, Ohio": {
+    "state": "39",
+    "place": "68042",
+    "population": "312"
+  },
+  "Rogers, Ohio": {
+    "state": "39",
+    "place": "68084",
+    "population": "194"
+  },
+  "Rome (Stout), Ohio": {
+    "state": "39",
+    "place": "68196",
+    "population": "83"
+  },
+  "Roseville, Ohio": {
+    "state": "39",
+    "place": "68560",
+    "population": "1746"
+  },
+  "Rossburg, Ohio": {
+    "state": "39",
+    "place": "68672",
+    "population": "159"
+  },
+  "Roswell, Ohio": {
+    "state": "39",
+    "place": "68742",
+    "population": "219"
+  },
+  "Rushsylvania, Ohio": {
+    "state": "39",
+    "place": "69176",
+    "population": "491"
+  },
+  "Rushville, Ohio": {
+    "state": "39",
+    "place": "69204",
+    "population": "304"
+  },
+  "Russells Point, Ohio": {
+    "state": "39",
+    "place": "69302",
+    "population": "1320"
+  },
+  "Russellville, Ohio": {
+    "state": "39",
+    "place": "69316",
+    "population": "542"
+  },
+  "Russia, Ohio": {
+    "state": "39",
+    "place": "69344",
+    "population": "712"
+  },
+  "Rutland, Ohio": {
+    "state": "39",
+    "place": "69358",
+    "population": "427"
+  },
+  "Sabina, Ohio": {
+    "state": "39",
+    "place": "69400",
+    "population": "2499"
+  },
+  "St. Bernard, Ohio": {
+    "state": "39",
+    "place": "69470",
+    "population": "4070"
+  },
+  "St. Henry, Ohio": {
+    "state": "39",
+    "place": "69540",
+    "population": "2596"
+  },
+  "St. Louisville, Ohio": {
+    "state": "39",
+    "place": "69652",
+    "population": "352"
+  },
+  "St. Paris, Ohio": {
+    "state": "39",
+    "place": "69708",
+    "population": "1882"
+  },
+  "Salineville, Ohio": {
+    "state": "39",
+    "place": "70100",
+    "population": "1206"
+  },
+  "Sarahsville, Ohio": {
+    "state": "39",
+    "place": "70520",
+    "population": "147"
+  },
+  "Sardinia, Ohio": {
+    "state": "39",
+    "place": "70534",
+    "population": "1083"
+  },
+  "Savannah, Ohio": {
+    "state": "39",
+    "place": "70576",
+    "population": "329"
+  },
+  "Scio, Ohio": {
+    "state": "39",
+    "place": "70814",
+    "population": "673"
+  },
+  "Scott, Ohio": {
+    "state": "39",
+    "place": "71080",
+    "population": "242"
+  },
+  "Seaman, Ohio": {
+    "state": "39",
+    "place": "71206",
+    "population": "973"
+  },
+  "Sebring, Ohio": {
+    "state": "39",
+    "place": "71220",
+    "population": "4191"
+  },
+  "Senecaville, Ohio": {
+    "state": "39",
+    "place": "71360",
+    "population": "422"
+  },
+  "Seven Mile, Ohio": {
+    "state": "39",
+    "place": "71444",
+    "population": "712"
+  },
+  "Seville, Ohio": {
+    "state": "39",
+    "place": "71486",
+    "population": "2335"
+  },
+  "Shadyside, Ohio": {
+    "state": "39",
+    "place": "71640",
+    "population": "3454"
+  },
+  "Shawnee, Ohio": {
+    "state": "39",
+    "place": "71962",
+    "population": "505"
+  },
+  "Shawnee Hills, Ohio": {
+    "state": "39",
+    "place": "71976",
+    "population": "835"
+  },
+  "Sheffield, Ohio": {
+    "state": "39",
+    "place": "72060",
+    "population": "4135"
+  },
+  "Sherrodsville, Ohio": {
+    "state": "39",
+    "place": "72242",
+    "population": "222"
+  },
+  "Sherwood, Ohio": {
+    "state": "39",
+    "place": "72256",
+    "population": "802"
+  },
+  "Shiloh, Ohio": {
+    "state": "39",
+    "place": "72298",
+    "population": "619"
+  },
+  "Shreve, Ohio": {
+    "state": "39",
+    "place": "72396",
+    "population": "1497"
+  },
+  "Silver Lake, Ohio": {
+    "state": "39",
+    "place": "72494",
+    "population": "2516"
+  },
+  "Silverton, Ohio": {
+    "state": "39",
+    "place": "72522",
+    "population": "4908"
+  },
+  "Sinking Spring, Ohio": {
+    "state": "39",
+    "place": "72578",
+    "population": "118"
+  },
+  "Smithville, Ohio": {
+    "state": "39",
+    "place": "72788",
+    "population": "1338"
+  },
+  "Somerset, Ohio": {
+    "state": "39",
+    "place": "72977",
+    "population": "1481"
+  },
+  "South Amherst, Ohio": {
+    "state": "39",
+    "place": "73040",
+    "population": "1581"
+  },
+  "South Bloomfield, Ohio": {
+    "state": "39",
+    "place": "73068",
+    "population": "2143"
+  },
+  "South Charleston, Ohio": {
+    "state": "39",
+    "place": "73124",
+    "population": "1706"
+  },
+  "South Lebanon, Ohio": {
+    "state": "39",
+    "place": "73446",
+    "population": "6384"
+  },
+  "South Point, Ohio": {
+    "state": "39",
+    "place": "73670",
+    "population": "3836"
+  },
+  "South Russell, Ohio": {
+    "state": "39",
+    "place": "73684",
+    "population": "3972"
+  },
+  "South Salem, Ohio": {
+    "state": "39",
+    "place": "73698",
+    "population": "219"
+  },
+  "South Solon, Ohio": {
+    "state": "39",
+    "place": "73768",
+    "population": "329"
+  },
+  "South Vienna, Ohio": {
+    "state": "39",
+    "place": "73796",
+    "population": "402"
+  },
+  "South Webster, Ohio": {
+    "state": "39",
+    "place": "73824",
+    "population": "670"
+  },
+  "South Zanesville, Ohio": {
+    "state": "39",
+    "place": "73894",
+    "population": "1894"
+  },
+  "Sparta, Ohio": {
+    "state": "39",
+    "place": "73950",
+    "population": "121"
+  },
+  "Spencer, Ohio": {
+    "state": "39",
+    "place": "73992",
+    "population": "684"
+  },
+  "Spencerville, Ohio": {
+    "state": "39",
+    "place": "74034",
+    "population": "2198"
+  },
+  "Spring Valley, Ohio": {
+    "state": "39",
+    "place": "74216",
+    "population": "415"
+  },
+  "Stafford, Ohio": {
+    "state": "39",
+    "place": "74300",
+    "population": "71"
+  },
+  "Stockport, Ohio": {
+    "state": "39",
+    "place": "74748",
+    "population": "483"
+  },
+  "Stone Creek, Ohio": {
+    "state": "39",
+    "place": "74804",
+    "population": "153"
+  },
+  "Stoutsville, Ohio": {
+    "state": "39",
+    "place": "74916",
+    "population": "579"
+  },
+  "Strasburg, Ohio": {
+    "state": "39",
+    "place": "74958",
+    "population": "2735"
+  },
+  "Stratton, Ohio": {
+    "state": "39",
+    "place": "75000",
+    "population": "267"
+  },
+  "Stryker, Ohio": {
+    "state": "39",
+    "place": "75140",
+    "population": "1259"
+  },
+  "Sugar Bush Knolls, Ohio": {
+    "state": "39",
+    "place": "75196",
+    "population": "217"
+  },
+  "Sugarcreek, Ohio": {
+    "state": "39",
+    "place": "75210",
+    "population": "2373"
+  },
+  "Sugar Grove, Ohio": {
+    "state": "39",
+    "place": "75252",
+    "population": "429"
+  },
+  "Summerfield, Ohio": {
+    "state": "39",
+    "place": "75406",
+    "population": "237"
+  },
+  "Summitville, Ohio": {
+    "state": "39",
+    "place": "75574",
+    "population": "110"
+  },
+  "Sunbury, Ohio": {
+    "state": "39",
+    "place": "75602",
+    "population": "6614"
+  },
+  "Swanton, Ohio": {
+    "state": "39",
+    "place": "75896",
+    "population": "3897"
+  },
+  "Sycamore, Ohio": {
+    "state": "39",
+    "place": "75980",
+    "population": "793"
+  },
+  "Syracuse, Ohio": {
+    "state": "39",
+    "place": "76050",
+    "population": "781"
+  },
+  "Tarlton, Ohio": {
+    "state": "39",
+    "place": "76148",
+    "population": "254"
+  },
+  "Terrace Park, Ohio": {
+    "state": "39",
+    "place": "76428",
+    "population": "2355"
+  },
+  "Thornville, Ohio": {
+    "state": "39",
+    "place": "76680",
+    "population": "1087"
+  },
+  "Thurston, Ohio": {
+    "state": "39",
+    "place": "76764",
+    "population": "603"
+  },
+  "Tiltonsville, Ohio": {
+    "state": "39",
+    "place": "76806",
+    "population": "1259"
+  },
+  "Timberlake, Ohio": {
+    "state": "39",
+    "place": "76834",
+    "population": "629"
+  },
+  "Tiro, Ohio": {
+    "state": "39",
+    "place": "76932",
+    "population": "219"
+  },
+  "Tontogany, Ohio": {
+    "state": "39",
+    "place": "77070",
+    "population": "387"
+  },
+  "Tremont City, Ohio": {
+    "state": "39",
+    "place": "77308",
+    "population": "352"
+  },
+  "Trimble, Ohio": {
+    "state": "39",
+    "place": "77406",
+    "population": "329"
+  },
+  "Tuscarawas, Ohio": {
+    "state": "39",
+    "place": "77924",
+    "population": "1035"
+  },
+  "Union City, Ohio": {
+    "state": "39",
+    "place": "78624",
+    "population": "1582"
+  },
+  "Unionville Center, Ohio": {
+    "state": "39",
+    "place": "78834",
+    "population": "241"
+  },
+  "Urbancrest, Ohio": {
+    "state": "39",
+    "place": "79100",
+    "population": "1031"
+  },
+  "Utica, Ohio": {
+    "state": "39",
+    "place": "79114",
+    "population": "2064"
+  },
+  "Valley Hi, Ohio": {
+    "state": "39",
+    "place": "79226",
+    "population": "228"
+  },
+  "Valley View, Ohio": {
+    "state": "39",
+    "place": "79268",
+    "population": "1897"
+  },
+  "Valleyview, Ohio": {
+    "state": "39",
+    "place": "79282",
+    "population": "669"
+  },
+  "Van Buren, Ohio": {
+    "state": "39",
+    "place": "79394",
+    "population": "396"
+  },
+  "Vanlue, Ohio": {
+    "state": "39",
+    "place": "79534",
+    "population": "341"
+  },
+  "Venedocia, Ohio": {
+    "state": "39",
+    "place": "79632",
+    "population": "140"
+  },
+  "Verona, Ohio": {
+    "state": "39",
+    "place": "79898",
+    "population": "403"
+  },
+  "Versailles, Ohio": {
+    "state": "39",
+    "place": "79912",
+    "population": "2692"
+  },
+  "Vinton, Ohio": {
+    "state": "39",
+    "place": "80178",
+    "population": "224"
+  },
+  "Waite Hill, Ohio": {
+    "state": "39",
+    "place": "80402",
+    "population": "543"
+  },
+  "Wakeman, Ohio": {
+    "state": "39",
+    "place": "80458",
+    "population": "990"
+  },
+  "Walbridge, Ohio": {
+    "state": "39",
+    "place": "80486",
+    "population": "3011"
+  },
+  "Waldo, Ohio": {
+    "state": "39",
+    "place": "80500",
+    "population": "326"
+  },
+  "Walton Hills, Ohio": {
+    "state": "39",
+    "place": "80738",
+    "population": "2033"
+  },
+  "Warsaw, Ohio": {
+    "state": "39",
+    "place": "81032",
+    "population": "634"
+  },
+  "Washingtonville, Ohio": {
+    "state": "39",
+    "place": "81732",
+    "population": "712"
+  },
+  "Waverly, Ohio": {
+    "state": "39",
+    "place": "81935",
+    "population": "4165"
+  },
+  "Wayne, Ohio": {
+    "state": "39",
+    "place": "82334",
+    "population": "841"
+  },
+  "Wayne Lakes, Ohio": {
+    "state": "39",
+    "place": "82348",
+    "population": "693"
+  },
+  "Waynesburg, Ohio": {
+    "state": "39",
+    "place": "82376",
+    "population": "925"
+  },
+  "Waynesfield, Ohio": {
+    "state": "39",
+    "place": "82390",
+    "population": "749"
+  },
+  "Waynesville, Ohio": {
+    "state": "39",
+    "place": "82418",
+    "population": "2669"
+  },
+  "Wellington, Ohio": {
+    "state": "39",
+    "place": "82642",
+    "population": "4799"
+  },
+  "Wellsville, Ohio": {
+    "state": "39",
+    "place": "82740",
+    "population": "3113"
+  },
+  "West Alexandria, Ohio": {
+    "state": "39",
+    "place": "82880",
+    "population": "1334"
+  },
+  "West Elkton, Ohio": {
+    "state": "39",
+    "place": "83216",
+    "population": "164"
+  },
+  "West Farmington, Ohio": {
+    "state": "39",
+    "place": "83384",
+    "population": "542"
+  },
+  "Westfield Center, Ohio": {
+    "state": "39",
+    "place": "83468",
+    "population": "1184"
+  },
+  "West Jefferson, Ohio": {
+    "state": "39",
+    "place": "83580",
+    "population": "4137"
+  },
+  "West Lafayette, Ohio": {
+    "state": "39",
+    "place": "83608",
+    "population": "2417"
+  },
+  "West Leipsic, Ohio": {
+    "state": "39",
+    "place": "83706",
+    "population": "226"
+  },
+  "West Liberty, Ohio": {
+    "state": "39",
+    "place": "83734",
+    "population": "1770"
+  },
+  "West Manchester, Ohio": {
+    "state": "39",
+    "place": "83804",
+    "population": "415"
+  },
+  "West Mansfield, Ohio": {
+    "state": "39",
+    "place": "83818",
+    "population": "749"
+  },
+  "West Millgrove, Ohio": {
+    "state": "39",
+    "place": "83888",
+    "population": "131"
+  },
+  "West Milton, Ohio": {
+    "state": "39",
+    "place": "83902",
+    "population": "4697"
+  },
+  "Weston, Ohio": {
+    "state": "39",
+    "place": "83972",
+    "population": "1455"
+  },
+  "West Rushville, Ohio": {
+    "state": "39",
+    "place": "84182",
+    "population": "166"
+  },
+  "West Salem, Ohio": {
+    "state": "39",
+    "place": "84196",
+    "population": "1430"
+  },
+  "West Union, Ohio": {
+    "state": "39",
+    "place": "84294",
+    "population": "3004"
+  },
+  "West Unity, Ohio": {
+    "state": "39",
+    "place": "84308",
+    "population": "1763"
+  },
+  "Wharton, Ohio": {
+    "state": "39",
+    "place": "84574",
+    "population": "328"
+  },
+  "Whitehouse, Ohio": {
+    "state": "39",
+    "place": "84770",
+    "population": "4990"
+  },
+  "Wilkesville, Ohio": {
+    "state": "39",
+    "place": "85190",
+    "population": "116"
+  },
+  "Williamsburg, Ohio": {
+    "state": "39",
+    "place": "85288",
+    "population": "2570"
+  },
+  "Williamsport, Ohio": {
+    "state": "39",
+    "place": "85414",
+    "population": "970"
+  },
+  "Willshire, Ohio": {
+    "state": "39",
+    "place": "85736",
+    "population": "405"
+  },
+  "Wilmot, Ohio": {
+    "state": "39",
+    "place": "85806",
+    "population": "282"
+  },
+  "Wilson, Ohio": {
+    "state": "39",
+    "place": "85834",
+    "population": "129"
+  },
+  "Winchester, Ohio": {
+    "state": "39",
+    "place": "85876",
+    "population": "987"
+  },
+  "Windham, Ohio": {
+    "state": "39",
+    "place": "85946",
+    "population": "1666"
+  },
+  "Wintersville, Ohio": {
+    "state": "39",
+    "place": "86184",
+    "population": "3765"
+  },
+  "Woodlawn, Ohio": {
+    "state": "39",
+    "place": "86366",
+    "population": "3916"
+  },
+  "Woodmere, Ohio": {
+    "state": "39",
+    "place": "86394",
+    "population": "641"
+  },
+  "Woodsfield, Ohio": {
+    "state": "39",
+    "place": "86436",
+    "population": "2210"
+  },
+  "Woodstock, Ohio": {
+    "state": "39",
+    "place": "86478",
+    "population": "287"
+  },
+  "Woodville, Ohio": {
+    "state": "39",
+    "place": "86492",
+    "population": "2006"
+  },
+  "Wren, Ohio": {
+    "state": "39",
+    "place": "86632",
+    "population": "165"
+  },
+  "Yankee Lake, Ohio": {
+    "state": "39",
+    "place": "86856",
+    "population": "75"
+  },
+  "Yellow Springs, Ohio": {
+    "state": "39",
+    "place": "86940",
+    "population": "3697"
+  },
+  "Yorkshire, Ohio": {
+    "state": "39",
+    "place": "87164",
+    "population": "95"
+  },
+  "Yorkville, Ohio": {
+    "state": "39",
+    "place": "87178",
+    "population": "968"
+  },
+  "Zaleski, Ohio": {
+    "state": "39",
+    "place": "88028",
+    "population": "230"
+  },
+  "Zanesfield, Ohio": {
+    "state": "39",
+    "place": "88070",
+    "population": "194"
+  },
+  "Zoar, Ohio": {
+    "state": "39",
+    "place": "88168",
+    "population": "172"
+  },
+  "Marengo, Ohio": {
+    "state": "39",
+    "place": "47558",
+    "population": "283"
+  },
+  "Mariemont, Ohio": {
+    "state": "39",
+    "place": "47600",
+    "population": "3518"
+  },
+  "Marseilles, Ohio": {
+    "state": "39",
+    "place": "47992",
+    "population": "93"
+  },
+  "Marshallville, Ohio": {
+    "state": "39",
+    "place": "48048",
+    "population": "789"
+  },
+  "Martinsburg, Ohio": {
+    "state": "39",
+    "place": "48090",
+    "population": "222"
+  },
+  "Martinsville, Ohio": {
+    "state": "39",
+    "place": "48118",
+    "population": "416"
+  },
+  "Matamoras, Ohio": {
+    "state": "39",
+    "place": "48286",
+    "population": "702"
+  },
+  "Mayfield, Ohio": {
+    "state": "39",
+    "place": "48468",
+    "population": "3356"
+  },
+  "Mechanicsburg, Ohio": {
+    "state": "39",
+    "place": "48706",
+    "population": "1681"
+  },
+  "Melrose, Ohio": {
+    "state": "39",
+    "place": "49000",
+    "population": "233"
+  },
+  "Mendon, Ohio": {
+    "state": "39",
+    "place": "49042",
+    "population": "628"
+  },
+  "Metamora, Ohio": {
+    "state": "39",
+    "place": "49238",
+    "population": "566"
+  },
+  "Meyers Lake, Ohio": {
+    "state": "39",
+    "place": "49294",
+    "population": "724"
+  },
+  "Middlefield, Ohio": {
+    "state": "39",
+    "place": "49700",
+    "population": "2748"
+  },
+  "Middle Point, Ohio": {
+    "state": "39",
+    "place": "49728",
+    "population": "566"
+  },
+  "Middleport, Ohio": {
+    "state": "39",
+    "place": "49756",
+    "population": "2208"
+  },
+  "Midland, Ohio": {
+    "state": "39",
+    "place": "49896",
+    "population": "307"
+  },
+  "Midvale, Ohio": {
+    "state": "39",
+    "place": "49966",
+    "population": "673"
+  },
+  "Midway, Ohio": {
+    "state": "39",
+    "place": "50008",
+    "population": "269"
+  },
+  "Mifflin, Ohio": {
+    "state": "39",
+    "place": "50036",
+    "population": "158"
+  },
+  "Milan, Ohio": {
+    "state": "39",
+    "place": "50134",
+    "population": "1371"
+  },
+  "Milford Center, Ohio": {
+    "state": "39",
+    "place": "50218",
+    "population": "807"
+  },
+  "Millbury, Ohio": {
+    "state": "39",
+    "place": "50260",
+    "population": "1193"
+  },
+  "Milledgeville, Ohio": {
+    "state": "39",
+    "place": "50316",
+    "population": "98"
+  },
+  "Miller City, Ohio": {
+    "state": "39",
+    "place": "50358",
+    "population": "134"
+  },
+  "Millersburg, Ohio": {
+    "state": "39",
+    "place": "50372",
+    "population": "3151"
+  },
+  "Millersport, Ohio": {
+    "state": "39",
+    "place": "50400",
+    "population": "978"
+  },
+  "Millville, Ohio": {
+    "state": "39",
+    "place": "50540",
+    "population": "634"
+  },
+  "Milton Center, Ohio": {
+    "state": "39",
+    "place": "50708",
+    "population": "137"
+  },
+  "Miltonsburg, Ohio": {
+    "state": "39",
+    "place": "50722",
+    "population": "42"
+  },
+  "Mineral City, Ohio": {
+    "state": "39",
+    "place": "50764",
+    "population": "652"
+  },
+  "Minerva, Ohio": {
+    "state": "39",
+    "place": "50834",
+    "population": "3684"
+  },
+  "Minerva Park, Ohio": {
+    "state": "39",
+    "place": "50862",
+    "population": "2009"
+  },
+  "Mingo Junction, Ohio": {
+    "state": "39",
+    "place": "50904",
+    "population": "3347"
+  },
+  "Minster, Ohio": {
+    "state": "39",
+    "place": "50918",
+    "population": "3046"
+  },
+  "Mogadore, Ohio": {
+    "state": "39",
+    "place": "51058",
+    "population": "3811"
+  },
+  "Monroeville, Ohio": {
+    "state": "39",
+    "place": "51618",
+    "population": "1300"
+  },
+  "Montezuma, Ohio": {
+    "state": "39",
+    "place": "51674",
+    "population": "152"
+  },
+  "Montpelier, Ohio": {
+    "state": "39",
+    "place": "51772",
+    "population": "3942"
+  },
+  "Moreland Hills, Ohio": {
+    "state": "39",
+    "place": "52052",
+    "population": "3466"
+  },
+  "Morral, Ohio": {
+    "state": "39",
+    "place": "52276",
+    "population": "373"
+  },
+  "Morristown, Ohio": {
+    "state": "39",
+    "place": "52346",
+    "population": "248"
+  },
+  "Morrow, Ohio": {
+    "state": "39",
+    "place": "52374",
+    "population": "2049"
+  },
+  "Moscow, Ohio": {
+    "state": "39",
+    "place": "52416",
+    "population": "155"
+  },
+  "Mount Blanchard, Ohio": {
+    "state": "39",
+    "place": "52598",
+    "population": "471"
+  },
+  "Mount Cory, Ohio": {
+    "state": "39",
+    "place": "52668",
+    "population": "225"
+  },
+  "Mount Eaton, Ohio": {
+    "state": "39",
+    "place": "52682",
+    "population": "171"
+  },
+  "Mount Gilead, Ohio": {
+    "state": "39",
+    "place": "52738",
+    "population": "3503"
+  },
+  "Mount Orab, Ohio": {
+    "state": "39",
+    "place": "52906",
+    "population": "4347"
+  },
+  "Mount Pleasant, Ohio": {
+    "state": "39",
+    "place": "52976",
+    "population": "394"
+  },
+  "Mount Sterling, Ohio": {
+    "state": "39",
+    "place": "53046",
+    "population": "1945"
+  },
+  "Mount Victory, Ohio": {
+    "state": "39",
+    "place": "53144",
+    "population": "601"
+  },
+  "Mowrystown, Ohio": {
+    "state": "39",
+    "place": "53186",
+    "population": "385"
+  },
+  "Murray City, Ohio": {
+    "state": "39",
+    "place": "53410",
+    "population": "341"
+  },
+  "Mutual, Ohio": {
+    "state": "39",
+    "place": "53480",
+    "population": "127"
+  },
+  "Nashville, Ohio": {
+    "state": "39",
+    "place": "53634",
+    "population": "183"
+  },
+  "Navarre, Ohio": {
+    "state": "39",
+    "place": "53690",
+    "population": "1846"
+  },
+  "Nellie, Ohio": {
+    "state": "39",
+    "place": "53816",
+    "population": "122"
+  },
+  "Nevada, Ohio": {
+    "state": "39",
+    "place": "53942",
+    "population": "706"
+  },
+  "Neville, Ohio": {
+    "state": "39",
+    "place": "53956",
+    "population": "87"
+  },
+  "New Alexandria, Ohio": {
+    "state": "39",
+    "place": "54012",
+    "population": "232"
+  },
+  "Aberdeen, Ohio": {
+    "state": "39",
+    "place": "00142",
+    "population": "1515"
+  },
+  "Ada, Ohio": {
+    "state": "39",
+    "place": "00198",
+    "population": "5334"
+  },
+  "Adamsville, Ohio": {
+    "state": "39",
+    "place": "00380",
+    "population": "140"
+  },
+  "Addyston, Ohio": {
+    "state": "39",
+    "place": "00436",
+    "population": "927"
+  },
+  "Adelphi, Ohio": {
+    "state": "39",
+    "place": "00450",
+    "population": "322"
+  },
+  "Adena, Ohio": {
+    "state": "39",
+    "place": "00464",
+    "population": "664"
+  },
+  "Albany, Ohio": {
+    "state": "39",
+    "place": "01042",
+    "population": "917"
+  },
+  "Alexandria, Ohio": {
+    "state": "39",
+    "place": "01154",
+    "population": "483"
+  },
+  "Alger, Ohio": {
+    "state": "39",
+    "place": "01210",
+    "population": "837"
+  },
+  "Amanda, Ohio": {
+    "state": "39",
+    "place": "01630",
+    "population": "673"
+  },
+  "Amberley, Ohio": {
+    "state": "39",
+    "place": "01672",
+    "population": "3840"
+  },
+  "Amesville, Ohio": {
+    "state": "39",
+    "place": "01784",
+    "population": "171"
+  },
+  "Amsterdam, Ohio": {
+    "state": "39",
+    "place": "01938",
+    "population": "436"
+  },
+  "Andover, Ohio": {
+    "state": "39",
+    "place": "02050",
+    "population": "972"
+  },
+  "Anna, Ohio": {
+    "state": "39",
+    "place": "02092",
+    "population": "1470"
+  },
+  "Ansonia, Ohio": {
+    "state": "39",
+    "place": "02120",
+    "population": "1160"
+  },
+  "Antioch, Ohio": {
+    "state": "39",
+    "place": "02148",
+    "population": "71"
+  },
+  "Antwerp, Ohio": {
+    "state": "39",
+    "place": "02204",
+    "population": "1676"
+  },
+  "Apple Creek, Ohio": {
+    "state": "39",
+    "place": "02232",
+    "population": "1188"
+  },
+  "Aquilla, Ohio": {
+    "state": "39",
+    "place": "02274",
+    "population": "305"
+  },
+  "Arcadia, Ohio": {
+    "state": "39",
+    "place": "02316",
+    "population": "564"
+  },
+  "Arcanum, Ohio": {
+    "state": "39",
+    "place": "02330",
+    "population": "2347"
+  },
+  "Archbold, Ohio": {
+    "state": "39",
+    "place": "02344",
+    "population": "4516"
+  },
+  "Arlington, Ohio": {
+    "state": "39",
+    "place": "02400",
+    "population": "1492"
+  },
+  "Arlington Heights, Ohio": {
+    "state": "39",
+    "place": "02428",
+    "population": "823"
+  },
+  "Ashley, Ohio": {
+    "state": "39",
+    "place": "02582",
+    "population": "1198"
+  },
+  "Ashville, Ohio": {
+    "state": "39",
+    "place": "02680",
+    "population": "4529"
+  },
+  "Athalia, Ohio": {
+    "state": "39",
+    "place": "02722",
+    "population": "279"
+  },
+  "Attica, Ohio": {
+    "state": "39",
+    "place": "02820",
+    "population": "873"
+  },
+  "Bailey Lakes, Ohio": {
+    "state": "39",
+    "place": "03562",
+    "population": "349"
+  },
+  "Bainbridge, Ohio": {
+    "state": "39",
+    "place": "03604",
+    "population": "765"
+  },
+  "Bairdstown, Ohio": {
+    "state": "39",
+    "place": "03646",
+    "population": "115"
+  },
+  "Baltic, Ohio": {
+    "state": "39",
+    "place": "03744",
+    "population": "851"
+  },
+  "Baltimore, Ohio": {
+    "state": "39",
+    "place": "03758",
+    "population": "2981"
+  },
+  "Barnesville, Ohio": {
+    "state": "39",
+    "place": "03926",
+    "population": "4008"
+  },
+  "Barnhill, Ohio": {
+    "state": "39",
+    "place": "03940",
+    "population": "383"
+  },
+  "Batavia, Ohio": {
+    "state": "39",
+    "place": "04150",
+    "population": "1972"
+  },
+  "Batesville, Ohio": {
+    "state": "39",
+    "place": "04192",
+    "population": "101"
+  },
+  "Bay View, Ohio": {
+    "state": "39",
+    "place": "04402",
+    "population": "608"
+  },
+  "Beach City, Ohio": {
+    "state": "39",
+    "place": "04458",
+    "population": "940"
+  },
+  "Beallsville, Ohio": {
+    "state": "39",
+    "place": "04542",
+    "population": "355"
+  },
+  "Beaver, Ohio": {
+    "state": "39",
+    "place": "04696",
+    "population": "442"
+  },
+  "Beaverdam, Ohio": {
+    "state": "39",
+    "place": "04752",
+    "population": "319"
+  },
+  "Bellaire, Ohio": {
+    "state": "39",
+    "place": "05074",
+    "population": "3870"
+  },
+  "Belle Center, Ohio": {
+    "state": "39",
+    "place": "05116",
+    "population": "809"
+  },
+  "Belle Valley, Ohio": {
+    "state": "39",
+    "place": "05158",
+    "population": "201"
+  },
+  "Bellville, Ohio": {
+    "state": "39",
+    "place": "05284",
+    "population": "1963"
+  },
+  "Belmont, Ohio": {
+    "state": "39",
+    "place": "05312",
+    "population": "414"
+  },
+  "Belmore, Ohio": {
+    "state": "39",
+    "place": "05396",
+    "population": "65"
+  },
+  "Beloit, Ohio": {
+    "state": "39",
+    "place": "05410",
+    "population": "903"
+  },
+  "Bentleyville, Ohio": {
+    "state": "39",
+    "place": "05550",
+    "population": "897"
+  },
+  "Benton Ridge, Ohio": {
+    "state": "39",
+    "place": "05662",
+    "population": "272"
+  },
+  "Bergholz, Ohio": {
+    "state": "39",
+    "place": "05718",
+    "population": "544"
+  },
+  "Berkey, Ohio": {
+    "state": "39",
+    "place": "05732",
+    "population": "275"
+  },
+  "Berlin Heights, Ohio": {
+    "state": "39",
+    "place": "05900",
+    "population": "651"
+  },
+  "Bethel, Ohio": {
+    "state": "39",
+    "place": "06068",
+    "population": "2620"
+  },
+  "Bethesda, Ohio": {
+    "state": "39",
+    "place": "06138",
+    "population": "1211"
+  },
+  "Bettsville, Ohio": {
+    "state": "39",
+    "place": "06194",
+    "population": "595"
+  },
+  "Beverly, Ohio": {
+    "state": "39",
+    "place": "06222",
+    "population": "1233"
+  },
+  "Blakeslee, Ohio": {
+    "state": "39",
+    "place": "06810",
+    "population": "104"
+  },
+  "Blanchester, Ohio": {
+    "state": "39",
+    "place": "06908",
+    "population": "4224"
+  },
+  "Bloomdale, Ohio": {
+    "state": "39",
+    "place": "07062",
+    "population": "665"
+  },
+  "Bloomingburg, Ohio": {
+    "state": "39",
+    "place": "07188",
+    "population": "878"
+  },
+  "Bloomingdale, Ohio": {
+    "state": "39",
+    "place": "07202",
+    "population": "145"
+  },
+  "Bloomville, Ohio": {
+    "state": "39",
+    "place": "07286",
+    "population": "867"
+  },
+  "Bluffton, Ohio": {
+    "state": "39",
+    "place": "07426",
+    "population": "3967"
+  },
+  "Bolivar, Ohio": {
+    "state": "39",
+    "place": "07594",
+    "population": "1000"
+  },
+  "Boston Heights, Ohio": {
+    "state": "39",
+    "place": "07790",
+    "population": "1402"
+  },
+  "Botkins, Ohio": {
+    "state": "39",
+    "place": "07832",
+    "population": "1155"
+  },
+  "Bowerston, Ohio": {
+    "state": "39",
+    "place": "07916",
+    "population": "356"
+  },
+  "Bowersville, Ohio": {
+    "state": "39",
+    "place": "07930",
+    "population": "261"
+  },
+  "Bradford, Ohio": {
+    "state": "39",
+    "place": "08084",
+    "population": "1796"
+  },
+  "Bradner, Ohio": {
+    "state": "39",
+    "place": "08112",
+    "population": "971"
+  },
+  "Bratenahl, Ohio": {
+    "state": "39",
+    "place": "08336",
+    "population": "1430"
+  },
+  "Bremen, Ohio": {
+    "state": "39",
+    "place": "08392",
+    "population": "1479"
+  },
+  "Brewster, Ohio": {
+    "state": "39",
+    "place": "08504",
+    "population": "2113"
+  },
+  "Brice, Ohio": {
+    "state": "39",
+    "place": "08532",
+    "population": "93"
+  },
+  "Bridgeport, Ohio": {
+    "state": "39",
+    "place": "08560",
+    "population": "1582"
+  },
+  "Brooklyn Heights, Ohio": {
+    "state": "39",
+    "place": "09274",
+    "population": "1519"
+  },
+  "Brookside, Ohio": {
+    "state": "39",
+    "place": "09316",
+    "population": "538"
+  },
+  "Broughton, Ohio": {
+    "state": "39",
+    "place": "09386",
+    "population": "116"
+  },
+  "Buchtel, Ohio": {
+    "state": "39",
+    "place": "09834",
+    "population": "518"
+  },
+  "Buckeye Lake, Ohio": {
+    "state": "39",
+    "place": "09890",
+    "population": "2520"
+  },
+  "Buckland, Ohio": {
+    "state": "39",
+    "place": "09974",
+    "population": "233"
+  },
+  "Burbank, Ohio": {
+    "state": "39",
+    "place": "10254",
+    "population": "296"
+  },
+  "Burgoon, Ohio": {
+    "state": "39",
+    "place": "10282",
+    "population": "183"
+  },
+  "Burkettsville, Ohio": {
+    "state": "39",
+    "place": "10296",
+    "population": "272"
+  },
+  "Burton, Ohio": {
+    "state": "39",
+    "place": "10436",
+    "population": "1407"
+  },
+  "Butler, Ohio": {
+    "state": "39",
+    "place": "10632",
+    "population": "941"
+  },
+  "Butlerville, Ohio": {
+    "state": "39",
+    "place": "10674",
+    "population": "155"
+  },
+  "Byesville, Ohio": {
+    "state": "39",
+    "place": "10716",
+    "population": "2364"
+  },
+  "Cadiz, Ohio": {
+    "state": "39",
+    "place": "10800",
+    "population": "3051"
+  },
+  "Cairo, Ohio": {
+    "state": "39",
+    "place": "10884",
+    "population": "517"
+  },
+  "Caldwell, Ohio": {
+    "state": "39",
+    "place": "10940",
+    "population": "1691"
+  },
+  "Caledonia, Ohio": {
+    "state": "39",
+    "place": "10954",
+    "population": "560"
+  },
+  "Camden, Ohio": {
+    "state": "39",
+    "place": "11024",
+    "population": "1989"
+  },
+  "Cardington, Ohio": {
+    "state": "39",
+    "place": "12084",
+    "population": "2079"
+  },
+  "Carey, Ohio": {
+    "state": "39",
+    "place": "12112",
+    "population": "3565"
+  },
+  "Carlisle, Ohio": {
+    "state": "39",
+    "place": "12168",
+    "population": "5501"
+  },
+  "Carroll, Ohio": {
+    "state": "39",
+    "place": "12252",
+    "population": "501"
+  },
+  "Carrollton, Ohio": {
+    "state": "39",
+    "place": "12280",
+    "population": "3087"
+  },
+  "Casstown, Ohio": {
+    "state": "39",
+    "place": "12462",
+    "population": "270"
+  },
+  "Castalia, Ohio": {
+    "state": "39",
+    "place": "12476",
+    "population": "774"
+  },
+  "Castine, Ohio": {
+    "state": "39",
+    "place": "12504",
+    "population": "110"
+  },
+  "Catawba, Ohio": {
+    "state": "39",
+    "place": "12560",
+    "population": "245"
+  },
+  "Cecil, Ohio": {
+    "state": "39",
+    "place": "12700",
+    "population": "146"
+  },
+  "Cedarville, Ohio": {
+    "state": "39",
+    "place": "12784",
+    "population": "4257"
+  },
+  "Centerburg, Ohio": {
+    "state": "39",
+    "place": "13036",
+    "population": "1690"
+  },
+  "Centerville (Thurman), Ohio": {
+    "state": "39",
+    "place": "13169",
+    "population": "87"
+  },
+  "Chagrin Falls, Ohio": {
+    "state": "39",
+    "place": "13358",
+    "population": "4188"
+  },
+  "Chatfield, Ohio": {
+    "state": "39",
+    "place": "13694",
+    "population": "205"
+  },
+  "Chauncey, Ohio": {
+    "state": "39",
+    "place": "13778",
+    "population": "959"
+  },
+  "Chesapeake, Ohio": {
+    "state": "39",
+    "place": "13904",
+    "population": "765"
+  },
+  "Cheshire, Ohio": {
+    "state": "39",
+    "place": "13932",
+    "population": "123"
+  },
+  "Chesterhill, Ohio": {
+    "state": "39",
+    "place": "14086",
+    "population": "276"
+  },
+  "Chesterville, Ohio": {
+    "state": "39",
+    "place": "14114",
+    "population": "191"
+  },
+  "Chickasaw, Ohio": {
+    "state": "39",
+    "place": "14156",
+    "population": "358"
+  },
+  "Chilo, Ohio": {
+    "state": "39",
+    "place": "14226",
+    "population": "71"
+  },
+  "Chippewa Lake, Ohio": {
+    "state": "39",
+    "place": "14254",
+    "population": "654"
+  },
+  "Christiansburg, Ohio": {
+    "state": "39",
+    "place": "14296",
+    "population": "505"
+  },
+  "Clarington, Ohio": {
+    "state": "39",
+    "place": "15210",
+    "population": "280"
+  },
+  "Clarksburg, Ohio": {
+    "state": "39",
+    "place": "15336",
+    "population": "409"
+  },
+  "Clarksville, Ohio": {
+    "state": "39",
+    "place": "15406",
+    "population": "534"
+  },
+  "Clay Center, Ohio": {
+    "state": "39",
+    "place": "15588",
+    "population": "262"
+  },
+  "Cleves, Ohio": {
+    "state": "39",
+    "place": "16028",
+    "population": "3414"
+  },
+  "Clifton, Ohio": {
+    "state": "39",
+    "place": "16056",
+    "population": "131"
+  },
+  "Clinton, Ohio": {
+    "state": "39",
+    "place": "16182",
+    "population": "1197"
+  },
+  "Cloverdale, Ohio": {
+    "state": "39",
+    "place": "16266",
+    "population": "170"
+  },
+  "Coal Grove, Ohio": {
+    "state": "39",
+    "place": "16378",
+    "population": "1889"
+  },
+  "Coalton, Ohio": {
+    "state": "39",
+    "place": "16434",
+    "population": "445"
+  },
+  "Coldwater, Ohio": {
+    "state": "39",
+    "place": "16532",
+    "population": "4774"
+  },
+  "College Corner, Ohio": {
+    "state": "39",
+    "place": "16700",
+    "population": "387"
+  },
+  "Columbus Grove, Ohio": {
+    "state": "39",
+    "place": "18014",
+    "population": "2160"
+  },
+  "Commercial Point, Ohio": {
+    "state": "39",
+    "place": "18070",
+    "population": "3078"
+  },
+  "Conesville, Ohio": {
+    "state": "39",
+    "place": "18266",
+    "population": "328"
+  },
+  "Congress, Ohio": {
+    "state": "39",
+    "place": "18308",
+    "population": "132"
+  },
+  "Continental, Ohio": {
+    "state": "39",
+    "place": "18504",
+    "population": "1102"
+  },
+  "Convoy, Ohio": {
+    "state": "39",
+    "place": "18546",
+    "population": "1012"
+  },
+  "Coolville, Ohio": {
+    "state": "39",
+    "place": "18588",
+    "population": "454"
+  },
+  "Corning, Ohio": {
+    "state": "39",
+    "place": "18770",
+    "population": "488"
+  },
+  "Corwin, Ohio": {
+    "state": "39",
+    "place": "18840",
+    "population": "484"
+  },
+  "Covington, Ohio": {
+    "state": "39",
+    "place": "19050",
+    "population": "2548"
+  },
+  "Craig Beach, Ohio": {
+    "state": "39",
+    "place": "19106",
+    "population": "1076"
+  },
+  "Crestline, Ohio": {
+    "state": "39",
+    "place": "19330",
+    "population": "4525"
+  },
+  "Creston, Ohio": {
+    "state": "39",
+    "place": "19344",
+    "population": "2139"
+  },
+  "Cridersville, Ohio": {
+    "state": "39",
+    "place": "19400",
+    "population": "1791"
+  },
+  "Crooksville, Ohio": {
+    "state": "39",
+    "place": "19456",
+    "population": "2418"
+  },
+  "Crown City, Ohio": {
+    "state": "39",
+    "place": "19554",
+    "population": "424"
+  },
+  "Cumberland, Ohio": {
+    "state": "39",
+    "place": "19694",
+    "population": "317"
+  },
+  "Custar, Ohio": {
+    "state": "39",
+    "place": "19750",
+    "population": "178"
+  },
+  "Cuyahoga Heights, Ohio": {
+    "state": "39",
+    "place": "19806",
+    "population": "573"
+  },
+  "Cygnet, Ohio": {
+    "state": "39",
+    "place": "19820",
+    "population": "543"
+  },
+  "Dalton, Ohio": {
+    "state": "39",
+    "place": "19974",
+    "population": "1927"
+  },
+  "Danville, Ohio": {
+    "state": "39",
+    "place": "20114",
+    "population": "1019"
+  },
+  "Darbyville, Ohio": {
+    "state": "39",
+    "place": "20212",
+    "population": "186"
+  },
+  "Deersville, Ohio": {
+    "state": "39",
+    "place": "21294",
+    "population": "69"
+  },
+  "De Graff, Ohio": {
+    "state": "39",
+    "place": "21378",
+    "population": "1250"
+  },
+  "Dellroy, Ohio": {
+    "state": "39",
+    "place": "21560",
+    "population": "268"
+  },
+  "Delta, Ohio": {
+    "state": "39",
+    "place": "21616",
+    "population": "3316"
+  },
+  "Dennison, Ohio": {
+    "state": "39",
+    "place": "21714",
+    "population": "2709"
+  },
+  "Deshler, Ohio": {
+    "state": "39",
+    "place": "21812",
+    "population": "1588"
+  },
+  "Dexter City, Ohio": {
+    "state": "39",
+    "place": "21910",
+    "population": "81"
+  },
+  "Dillonvale, Ohio": {
+    "state": "39",
+    "place": "22022",
+    "population": "589"
+  },
+  "Donnelsville, Ohio": {
+    "state": "39",
+    "place": "22288",
+    "population": "255"
+  },
+  "Doylestown, Ohio": {
+    "state": "39",
+    "place": "22568",
+    "population": "3051"
+  },
+  "Dresden, Ohio": {
+    "state": "39",
+    "place": "22610",
+    "population": "1650"
+  },
+  "Dunkirk, Ohio": {
+    "state": "39",
+    "place": "22946",
+    "population": "774"
+  },
+  "Dupont, Ohio": {
+    "state": "39",
+    "place": "22974",
+    "population": "212"
+  },
+  "East Canton, Ohio": {
+    "state": "39",
+    "place": "23324",
+    "population": "1521"
+  },
+  "East Palestine, Ohio": {
+    "state": "39",
+    "place": "23940",
+    "population": "4761"
+  },
+  "East Sparta, Ohio": {
+    "state": "39",
+    "place": "24052",
+    "population": "749"
+  },
+  "Edgerton, Ohio": {
+    "state": "39",
+    "place": "24486",
+    "population": "1881"
+  },
+  "Edison, Ohio": {
+    "state": "39",
+    "place": "24598",
+    "population": "422"
+  },
+  "Edon, Ohio": {
+    "state": "39",
+    "place": "24640",
+    "population": "796"
+  },
+  "Eldorado, Ohio": {
+    "state": "39",
+    "place": "24766",
+    "population": "458"
+  },
+  "Elgin, Ohio": {
+    "state": "39",
+    "place": "24794",
+    "population": "49"
+  },
+  "Elida, Ohio": {
+    "state": "39",
+    "place": "24808",
+    "population": "1923"
+  },
+  "Elmore, Ohio": {
+    "state": "39",
+    "place": "25144",
+    "population": "1370"
+  },
+  "Elmwood Place, Ohio": {
+    "state": "39",
+    "place": "25186",
+    "population": "2087"
+  },
+  "Empire, Ohio": {
+    "state": "39",
+    "place": "25368",
+    "population": "232"
+  },
+  "Enon, Ohio": {
+    "state": "39",
+    "place": "25452",
+    "population": "2449"
+  },
+  "Evendale, Ohio": {
+    "state": "39",
+    "place": "25802",
+    "population": "2669"
+  },
+  "Fairfax, Ohio": {
+    "state": "39",
+    "place": "25942",
+    "population": "1768"
+  },
+  "Fairport Harbor, Ohio": {
+    "state": "39",
+    "place": "26306",
+    "population": "3108"
+  },
+  "Fairview, Ohio": {
+    "state": "39",
+    "place": "26348",
+    "population": "67"
+  },
+  "Farmersville, Ohio": {
+    "state": "39",
+    "place": "26656",
+    "population": "975"
+  },
+  "Fayette, Ohio": {
+    "state": "39",
+    "place": "26768",
+    "population": "1305"
+  },
+  "Fayetteville, Ohio": {
+    "state": "39",
+    "place": "26796",
+    "population": "317"
+  },
+  "Felicity, Ohio": {
+    "state": "39",
+    "place": "26880",
+    "population": "651"
+  },
+  "Fletcher, Ohio": {
+    "state": "39",
+    "place": "27412",
+    "population": "451"
+  },
+  "Florida, Ohio": {
+    "state": "39",
+    "place": "27538",
+    "population": "215"
+  },
+  "Flushing, Ohio": {
+    "state": "39",
+    "place": "27552",
+    "population": "830"
+  },
+  "Forest, Ohio": {
+    "state": "39",
+    "place": "27636",
+    "population": "1350"
+  },
+  "Fort Jennings, Ohio": {
+    "state": "39",
+    "place": "27818",
+    "population": "525"
+  },
+  "Fort Loramie, Ohio": {
+    "state": "39",
+    "place": "27832",
+    "population": "1590"
+  },
+  "Fort Recovery, Ohio": {
+    "state": "39",
+    "place": "27902",
+    "population": "1501"
+  },
+  "Frankfort, Ohio": {
+    "state": "39",
+    "place": "28182",
+    "population": "1084"
+  },
+  "Frazeysburg, Ohio": {
+    "state": "39",
+    "place": "28574",
+    "population": "1354"
+  },
+  "Fredericksburg, Ohio": {
+    "state": "39",
+    "place": "28616",
+    "population": "409"
+  },
+  "Fredericktown, Ohio": {
+    "state": "39",
+    "place": "28658",
+    "population": "2648"
+  },
+  "Freeport, Ohio": {
+    "state": "39",
+    "place": "28798",
+    "population": "321"
+  },
+  "Fulton, Ohio": {
+    "state": "39",
+    "place": "29050",
+    "population": "250"
+  },
+  "Fultonham, Ohio": {
+    "state": "39",
+    "place": "29064",
+    "population": "115"
+  },
+  "Galena, Ohio": {
+    "state": "39",
+    "place": "29148",
+    "population": "924"
+  },
+  "Gallipolis, Ohio": {
+    "state": "39",
+    "place": "29204",
+    "population": "3313"
+  },
+  "Gambier, Ohio": {
+    "state": "39",
+    "place": "29246",
+    "population": "2213"
+  },
+  "Gann (Brinkhaven), Ohio": {
+    "state": "39",
+    "place": "29288",
+    "population": "114"
+  },
+  "Garrettsville, Ohio": {
+    "state": "39",
+    "place": "29442",
+    "population": "2449"
+  },
+  "Gates Mills, Ohio": {
+    "state": "39",
+    "place": "29498",
+    "population": "2264"
+  },
+  "Geneva-on-the-Lake, Ohio": {
+    "state": "39",
+    "place": "29652",
+    "population": "916"
+  },
+  "Genoa, Ohio": {
+    "state": "39",
+    "place": "29722",
+    "population": "2232"
+  },
+  "Georgetown, Ohio": {
+    "state": "39",
+    "place": "29778",
+    "population": "4453"
+  },
+  "Gettysburg, Ohio": {
+    "state": "39",
+    "place": "29974",
+    "population": "463"
+  },
+  "Gibsonburg, Ohio": {
+    "state": "39",
+    "place": "30072",
+    "population": "2452"
+  },
+  "Gilboa, Ohio": {
+    "state": "39",
+    "place": "30114",
+    "population": "168"
+  },
+  "Glandorf, Ohio": {
+    "state": "39",
+    "place": "30282",
+    "population": "969"
+  },
+  "Glendale, Ohio": {
+    "state": "39",
+    "place": "30380",
+    "population": "2298"
+  },
+  "Glenford, Ohio": {
+    "state": "39",
+    "place": "30436",
+    "population": "165"
+  },
+  "Glenmont, Ohio": {
+    "state": "39",
+    "place": "30506",
+    "population": "240"
+  },
+  "Glenwillow, Ohio": {
+    "state": "39",
+    "place": "30632",
+    "population": "994"
+  },
+  "Gloria Glens Park, Ohio": {
+    "state": "39",
+    "place": "30660",
+    "population": "369"
+  },
+  "Glouster, Ohio": {
+    "state": "39",
+    "place": "30674",
+    "population": "1659"
+  },
+  "Gnadenhutten, Ohio": {
+    "state": "39",
+    "place": "30702",
+    "population": "1240"
+  },
+  "Golf Manor, Ohio": {
+    "state": "39",
+    "place": "30786",
+    "population": "3814"
+  },
+  "Gordon, Ohio": {
+    "state": "39",
+    "place": "30912",
+    "population": "245"
+  },
+  "Grafton, Ohio": {
+    "state": "39",
+    "place": "31150",
+    "population": "5895"
+  },
+  "Grand Rapids, Ohio": {
+    "state": "39",
+    "place": "31206",
+    "population": "925"
+  },
+  "Grand River, Ohio": {
+    "state": "39",
+    "place": "31234",
+    "population": "394"
+  },
+  "Granville, Ohio": {
+    "state": "39",
+    "place": "31402",
+    "population": "5946"
+  },
+  "Gratiot, Ohio": {
+    "state": "39",
+    "place": "31458",
+    "population": "215"
+  },
+  "Gratis, Ohio": {
+    "state": "39",
+    "place": "31472",
+    "population": "842"
+  },
+  "Graysville, Ohio": {
+    "state": "39",
+    "place": "31542",
+    "population": "70"
+  },
+  "Green Camp, Ohio": {
+    "state": "39",
+    "place": "31948",
+    "population": "310"
+  },
+  "Greenfield, Ohio": {
+    "state": "39",
+    "place": "32088",
+    "population": "4339"
+  },
+  "Greenhills, Ohio": {
+    "state": "39",
+    "place": "32158",
+    "population": "3741"
+  },
+  "Green Springs, Ohio": {
+    "state": "39",
+    "place": "32256",
+    "population": "1233"
+  },
+  "Greenwich, Ohio": {
+    "state": "39",
+    "place": "32368",
+    "population": "1409"
+  },
+  "Grover Hill, Ohio": {
+    "state": "39",
+    "place": "32620",
+    "population": "382"
+  },
+  "Hamden, Ohio": {
+    "state": "39",
+    "place": "32956",
+    "population": "727"
+  },
+  "Hamersville, Ohio": {
+    "state": "39",
+    "place": "32984",
+    "population": "485"
+  },
+  "Hamler, Ohio": {
+    "state": "39",
+    "place": "33096",
+    "population": "600"
+  },
+  "Hanging Rock, Ohio": {
+    "state": "39",
+    "place": "33194",
+    "population": "204"
+  },
+  "Hanover, Ohio": {
+    "state": "39",
+    "place": "33292",
+    "population": "1270"
+  },
+  "Hanoverton, Ohio": {
+    "state": "39",
+    "place": "33306",
+    "population": "354"
+  },
+  "Harbor View, Ohio": {
+    "state": "39",
+    "place": "33376",
+    "population": "89"
+  },
+  "Harpster, Ohio": {
+    "state": "39",
+    "place": "33656",
+    "population": "160"
+  },
+  "Harrisburg, Ohio": {
+    "state": "39",
+    "place": "33740",
+    "population": "315"
+  },
+  "Harrisville, Ohio": {
+    "state": "39",
+    "place": "34090",
+    "population": "179"
+  },
+  "Harrod, Ohio": {
+    "state": "39",
+    "place": "34118",
+    "population": "423"
+  },
+  "Hartford (Croton), Ohio": {
+    "state": "39",
+    "place": "34202",
+    "population": "404"
+  },
+  "Hartville, Ohio": {
+    "state": "39",
+    "place": "34328",
+    "population": "3329"
+  },
+  "Harveysburg, Ohio": {
+    "state": "39",
+    "place": "34384",
+    "population": "554"
+  },
+  "Haskins, Ohio": {
+    "state": "39",
+    "place": "34412",
+    "population": "1245"
+  },
+  "Haviland, Ohio": {
+    "state": "39",
+    "place": "34552",
+    "population": "160"
+  },
+  "Hayesville, Ohio": {
+    "state": "39",
+    "place": "34636",
+    "population": "447"
+  },
+  "Hebron, Ohio": {
+    "state": "39",
+    "place": "34790",
+    "population": "2326"
+  },
+  "Helena, Ohio": {
+    "state": "39",
+    "place": "34860",
+    "population": "211"
+  },
+  "Hemlock, Ohio": {
+    "state": "39",
+    "place": "34888",
+    "population": "142"
+  },
+  "Hicksville, Ohio": {
+    "state": "39",
+    "place": "35098",
+    "population": "3431"
+  },
+  "Higginsport, Ohio": {
+    "state": "39",
+    "place": "35168",
+    "population": "213"
+  },
+  "Highland, Ohio": {
+    "state": "39",
+    "place": "35210",
+    "population": "232"
+  },
+  "Highland Hills, Ohio": {
+    "state": "39",
+    "place": "35255",
+    "population": "662"
+  },
+  "Hiram, Ohio": {
+    "state": "39",
+    "place": "35658",
+    "population": "996"
+  },
+  "Holgate, Ohio": {
+    "state": "39",
+    "place": "35854",
+    "population": "1061"
+  },
+  "Holiday City, Ohio": {
+    "state": "39",
+    "place": "35864",
+    "population": "48"
+  },
+  "Holland, Ohio": {
+    "state": "39",
+    "place": "35882",
+    "population": "1820"
+  },
+  "Hollansburg, Ohio": {
+    "state": "39",
+    "place": "35896",
+    "population": "243"
+  },
+  "Holloway, Ohio": {
+    "state": "39",
+    "place": "35924",
+    "population": "330"
+  },
+  "Holmesville, Ohio": {
+    "state": "39",
+    "place": "35994",
+    "population": "371"
+  },
+  "Hopedale, Ohio": {
+    "state": "39",
+    "place": "36260",
+    "population": "920"
+  },
+  "Hoytville, Ohio": {
+    "state": "39",
+    "place": "36568",
+    "population": "220"
+  },
+  "Hunting Valley, Ohio": {
+    "state": "39",
+    "place": "36918",
+    "population": "763"
+  },
+  "Huntsville, Ohio": {
+    "state": "39",
+    "place": "36988",
+    "population": "408"
+  },
+  "Irondale, Ohio": {
+    "state": "39",
+    "place": "37422",
+    "population": "326"
+  },
+  "Ithaca, Ohio": {
+    "state": "39",
+    "place": "37604",
+    "population": "81"
+  },
+  "Jacksonburg, Ohio": {
+    "state": "39",
+    "place": "38192",
+    "population": "55"
+  },
+  "Jackson Center, Ohio": {
+    "state": "39",
+    "place": "38220",
+    "population": "1441"
+  },
+  "Jacksonville, Ohio": {
+    "state": "39",
+    "place": "38304",
+    "population": "400"
+  },
+  "Jamestown, Ohio": {
+    "state": "39",
+    "place": "38374",
+    "population": "2052"
+  },
+  "Jefferson, Ohio": {
+    "state": "39",
+    "place": "38500",
+    "population": "3226"
+  },
+  "Jeffersonville, Ohio": {
+    "state": "39",
+    "place": "38920",
+    "population": "1258"
+  },
+  "Jenera, Ohio": {
+    "state": "39",
+    "place": "38948",
+    "population": "257"
+  },
+  "Jeromesville, Ohio": {
+    "state": "39",
+    "place": "39060",
+    "population": "531"
+  },
+  "Hills and Dales, Ohio": {
+    "state": "39",
+    "place": "35532",
+    "population": "250"
+  },
+  "Jerry City, Ohio": {
+    "state": "39",
+    "place": "39074",
+    "population": "454"
+  },
+  "Jerusalem, Ohio": {
+    "state": "39",
+    "place": "39130",
+    "population": "121"
+  },
+  "Jewett, Ohio": {
+    "state": "39",
+    "place": "39172",
+    "population": "554"
+  },
+  "Johnstown, Ohio": {
+    "state": "39",
+    "place": "39340",
+    "population": "5182"
+  },
+  "Junction City, Ohio": {
+    "state": "39",
+    "place": "39508",
+    "population": "721"
+  },
+  "Kalida, Ohio": {
+    "state": "39",
+    "place": "39536",
+    "population": "1455"
+  },
+  "Kelleys Island, Ohio": {
+    "state": "39",
+    "place": "39662",
+    "population": "256"
+  },
+  "Kettlersville, Ohio": {
+    "state": "39",
+    "place": "40054",
+    "population": "164"
+  },
+  "Killbuck, Ohio": {
+    "state": "39",
+    "place": "40180",
+    "population": "810"
+  },
+  "Kingston, Ohio": {
+    "state": "39",
+    "place": "40376",
+    "population": "1262"
+  },
+  "Kipton, Ohio": {
+    "state": "39",
+    "place": "40544",
+    "population": "209"
+  },
+  "Kirby, Ohio": {
+    "state": "39",
+    "place": "40558",
+    "population": "120"
+  },
+  "Kirkersville, Ohio": {
+    "state": "39",
+    "place": "40572",
+    "population": "471"
+  },
+  "Kirtland Hills, Ohio": {
+    "state": "39",
+    "place": "40670",
+    "population": "692"
+  },
+  "Lafayette, Ohio": {
+    "state": "39",
+    "place": "41118",
+    "population": "406"
+  },
+  "LaGrange, Ohio": {
+    "state": "39",
+    "place": "41230",
+    "population": "2595"
+  },
+  "Lakeline, Ohio": {
+    "state": "39",
+    "place": "41398",
+    "population": "216"
+  },
+  "Lakemore, Ohio": {
+    "state": "39",
+    "place": "41454",
+    "population": "2926"
+  },
+  "Lakeview, Ohio": {
+    "state": "39",
+    "place": "41608",
+    "population": "1184"
+  },
+  "La Rue, Ohio": {
+    "state": "39",
+    "place": "41902",
+    "population": "676"
+  },
+  "Latty, Ohio": {
+    "state": "39",
+    "place": "41986",
+    "population": "165"
+  },
+  "Laura, Ohio": {
+    "state": "39",
+    "place": "42028",
+    "population": "398"
+  },
+  "Laurelville, Ohio": {
+    "state": "39",
+    "place": "42084",
+    "population": "512"
+  },
+  "Leesburg, Ohio": {
+    "state": "39",
+    "place": "42476",
+    "population": "1273"
+  },
+  "Leesville, Ohio": {
+    "state": "39",
+    "place": "42518",
+    "population": "127"
+  },
+  "Leetonia, Ohio": {
+    "state": "39",
+    "place": "42560",
+    "population": "1833"
+  },
+  "Leipsic, Ohio": {
+    "state": "39",
+    "place": "42602",
+    "population": "2177"
+  },
+  "Lewisburg, Ohio": {
+    "state": "39",
+    "place": "42938",
+    "population": "1745"
+  },
+  "Lewisville, Ohio": {
+    "state": "39",
+    "place": "42980",
+    "population": "184"
+  },
+  "Lexington, Ohio": {
+    "state": "39",
+    "place": "42994",
+    "population": "4848"
+  },
+  "Liberty Center, Ohio": {
+    "state": "39",
+    "place": "43414",
+    "population": "1108"
+  },
+  "Lincoln Heights, Ohio": {
+    "state": "39",
+    "place": "43722",
+    "population": "3144"
+  },
+  "Lindsey, Ohio": {
+    "state": "39",
+    "place": "43904",
+    "population": "457"
+  },
+  "Linndale, Ohio": {
+    "state": "39",
+    "place": "43918",
+    "population": "108"
+  },
+  "Lisbon, Ohio": {
+    "state": "39",
+    "place": "44030",
+    "population": "2597"
+  },
+  "Lithopolis, Ohio": {
+    "state": "39",
+    "place": "44086",
+    "population": "2134"
+  },
+  "Lockbourne, Ohio": {
+    "state": "39",
+    "place": "44310",
+    "population": "236"
+  },
+  "Lockington, Ohio": {
+    "state": "39",
+    "place": "44352",
+    "population": "162"
+  },
+  "Lockland, Ohio": {
+    "state": "39",
+    "place": "44366",
+    "population": "3514"
+  },
+  "Lodi, Ohio": {
+    "state": "39",
+    "place": "44604",
+    "population": "2746"
+  },
+  "Lordstown, Ohio": {
+    "state": "39",
+    "place": "44912",
+    "population": "3332"
+  },
+  "Lore City, Ohio": {
+    "state": "39",
+    "place": "44954",
+    "population": "282"
+  },
+  "Loudonville, Ohio": {
+    "state": "39",
+    "place": "45066",
+    "population": "2786"
+  },
+  "Lowell, Ohio": {
+    "state": "39",
+    "place": "45164",
+    "population": "565"
+  },
+  "Lowellville, Ohio": {
+    "state": "39",
+    "place": "45178",
+    "population": "996"
+  },
+  "Lower Salem, Ohio": {
+    "state": "39",
+    "place": "45220",
+    "population": "75"
+  },
+  "Lucas, Ohio": {
+    "state": "39",
+    "place": "45276",
+    "population": "589"
+  },
+  "Luckey, Ohio": {
+    "state": "39",
+    "place": "45332",
+    "population": "1009"
+  },
+  "Ludlow Falls, Ohio": {
+    "state": "39",
+    "place": "45374",
+    "population": "175"
+  },
+  "Lynchburg, Ohio": {
+    "state": "39",
+    "place": "45542",
+    "population": "1510"
+  },
+  "Lyons, Ohio": {
+    "state": "39",
+    "place": "45626",
+    "population": "602"
+  },
+  "McArthur, Ohio": {
+    "state": "39",
+    "place": "45696",
+    "population": "1783"
+  },
+  "McClure, Ohio": {
+    "state": "39",
+    "place": "45794",
+    "population": "700"
+  },
+  "McComb, Ohio": {
+    "state": "39",
+    "place": "45808",
+    "population": "1558"
+  },
+  "McConnelsville, Ohio": {
+    "state": "39",
+    "place": "45822",
+    "population": "1667"
+  },
+  "McDonald, Ohio": {
+    "state": "39",
+    "place": "45934",
+    "population": "3172"
+  },
+  "McGuffey, Ohio": {
+    "state": "39",
+    "place": "46046",
+    "population": "466"
+  },
+  "Macksburg, Ohio": {
+    "state": "39",
+    "place": "46158",
+    "population": "120"
+  },
+  "Madison, Ohio": {
+    "state": "39",
+    "place": "46480",
+    "population": "3435"
+  },
+  "Magnetic Springs, Ohio": {
+    "state": "39",
+    "place": "46830",
+    "population": "267"
+  },
+  "Magnolia, Ohio": {
+    "state": "39",
+    "place": "46844",
+    "population": "1013"
+  },
+  "Maineville, Ohio": {
+    "state": "39",
+    "place": "46872",
+    "population": "1405"
+  },
+  "Malinta, Ohio": {
+    "state": "39",
+    "place": "46942",
+    "population": "236"
+  },
+  "Malta, Ohio": {
+    "state": "39",
+    "place": "46970",
+    "population": "559"
+  },
+  "Malvern, Ohio": {
+    "state": "39",
+    "place": "46998",
+    "population": "1110"
+  },
+  "Manchester, Ohio": {
+    "state": "39",
+    "place": "47012",
+    "population": "1839"
+  },
+  "Mantua, Ohio": {
+    "state": "39",
+    "place": "47180",
+    "population": "1001"
+  },
+  "Marble Cliff, Ohio": {
+    "state": "39",
+    "place": "47474",
+    "population": "634"
+  },
+  "Marblehead, Ohio": {
+    "state": "39",
+    "place": "47502",
+    "population": "865"
+  }
+}

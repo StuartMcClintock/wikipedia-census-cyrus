@@ -1,0 +1,597 @@
+{
+  "Mishawaka, Indiana": {
+    "state": "18",
+    "place": "49932",
+    "population": "51063"
+  },
+  "Mitchell, Indiana": {
+    "state": "18",
+    "place": "49950",
+    "population": "3933"
+  },
+  "Monticello, Indiana": {
+    "state": "18",
+    "place": "50760",
+    "population": "5508"
+  },
+  "Montpelier, Indiana": {
+    "state": "18",
+    "place": "50796",
+    "population": "1540"
+  },
+  "Mount Vernon, Indiana": {
+    "state": "18",
+    "place": "51732",
+    "population": "6493"
+  },
+  "Muncie, Indiana": {
+    "state": "18",
+    "place": "51876",
+    "population": "65194"
+  },
+  "Nappanee, Indiana": {
+    "state": "18",
+    "place": "52020",
+    "population": "6949"
+  },
+  "New Albany, Indiana": {
+    "state": "18",
+    "place": "52326",
+    "population": "37841"
+  },
+  "New Castle, Indiana": {
+    "state": "18",
+    "place": "52740",
+    "population": "17396"
+  },
+  "New Haven, Indiana": {
+    "state": "18",
+    "place": "52992",
+    "population": "15583"
+  },
+  "Noblesville, Indiana": {
+    "state": "18",
+    "place": "54180",
+    "population": "69604"
+  },
+  "Rensselaer, Indiana": {
+    "state": "18",
+    "place": "63792",
+    "population": "5733"
+  },
+  "Richmond, Indiana": {
+    "state": "18",
+    "place": "64260",
+    "population": "35720"
+  },
+  "Rising Sun, Indiana": {
+    "state": "18",
+    "place": "64674",
+    "population": "2248"
+  },
+  "Rochester, Indiana": {
+    "state": "18",
+    "place": "65214",
+    "population": "6270"
+  },
+  "Rockport, Indiana": {
+    "state": "18",
+    "place": "65484",
+    "population": "1984"
+  },
+  "Rushville, Indiana": {
+    "state": "18",
+    "place": "66438",
+    "population": "6208"
+  },
+  "Salem, Indiana": {
+    "state": "18",
+    "place": "67464",
+    "population": "6371"
+  },
+  "Scottsburg, Indiana": {
+    "state": "18",
+    "place": "68526",
+    "population": "7345"
+  },
+  "Seymour, Indiana": {
+    "state": "18",
+    "place": "68832",
+    "population": "21569"
+  },
+  "Shelbyville, Indiana": {
+    "state": "18",
+    "place": "69318",
+    "population": "20067"
+  },
+  "South Bend, Indiana": {
+    "state": "18",
+    "place": "71000",
+    "population": "103453"
+  },
+  "Southport, Indiana": {
+    "state": "18",
+    "place": "71486",
+    "population": "2123"
+  },
+  "Sullivan, Indiana": {
+    "state": "18",
+    "place": "74006",
+    "population": "4264"
+  },
+  "Tell City, Indiana": {
+    "state": "18",
+    "place": "75248",
+    "population": "7506"
+  },
+  "Terre Haute, Indiana": {
+    "state": "18",
+    "place": "75428",
+    "population": "58389"
+  },
+  "Tipton, Indiana": {
+    "state": "18",
+    "place": "75986",
+    "population": "5275"
+  },
+  "Union City, Indiana": {
+    "state": "18",
+    "place": "77768",
+    "population": "3454"
+  },
+  "Valparaiso, Indiana": {
+    "state": "18",
+    "place": "78326",
+    "population": "34151"
+  },
+  "Vincennes, Indiana": {
+    "state": "18",
+    "place": "79208",
+    "population": "16759"
+  },
+  "Wabash, Indiana": {
+    "state": "18",
+    "place": "79370",
+    "population": "10440"
+  },
+  "Warsaw, Indiana": {
+    "state": "18",
+    "place": "80306",
+    "population": "15804"
+  },
+  "Washington, Indiana": {
+    "state": "18",
+    "place": "80504",
+    "population": "12017"
+  },
+  "Westfield, Indiana": {
+    "state": "18",
+    "place": "82700",
+    "population": "46410"
+  },
+  "West Lafayette, Indiana": {
+    "state": "18",
+    "place": "82862",
+    "population": "44595"
+  },
+  "Whiting, Indiana": {
+    "state": "18",
+    "place": "84122",
+    "population": "4559"
+  },
+  "Winchester, Indiana": {
+    "state": "18",
+    "place": "84752",
+    "population": "4843"
+  },
+  "Woodburn, Indiana": {
+    "state": "18",
+    "place": "85184",
+    "population": "1551"
+  },
+  "Alexandria, Indiana": {
+    "state": "18",
+    "place": "00910",
+    "population": "5149"
+  },
+  "Anderson, Indiana": {
+    "state": "18",
+    "place": "01468",
+    "population": "54788"
+  },
+  "Angola, Indiana": {
+    "state": "18",
+    "place": "01666",
+    "population": "9340"
+  },
+  "Attica, Indiana": {
+    "state": "18",
+    "place": "02620",
+    "population": "3036"
+  },
+  "Auburn, Indiana": {
+    "state": "18",
+    "place": "02674",
+    "population": "13412"
+  },
+  "Aurora, Indiana": {
+    "state": "18",
+    "place": "02782",
+    "population": "3479"
+  },
+  "Austin, Indiana": {
+    "state": "18",
+    "place": "02800",
+    "population": "4064"
+  },
+  "Batesville, Indiana": {
+    "state": "18",
+    "place": "03664",
+    "population": "7202"
+  },
+  "Bedford, Indiana": {
+    "state": "18",
+    "place": "04114",
+    "population": "13792"
+  },
+  "Beech Grove, Indiana": {
+    "state": "18",
+    "place": "04204",
+    "population": "14717"
+  },
+  "Berne, Indiana": {
+    "state": "18",
+    "place": "04888",
+    "population": "4173"
+  },
+  "Bicknell, Indiana": {
+    "state": "18",
+    "place": "05176",
+    "population": "3029"
+  },
+  "Bloomington, Indiana": {
+    "state": "18",
+    "place": "05860",
+    "population": "79168"
+  },
+  "Bluffton, Indiana": {
+    "state": "18",
+    "place": "06220",
+    "population": "10308"
+  },
+  "Boonville, Indiana": {
+    "state": "18",
+    "place": "06616",
+    "population": "6712"
+  },
+  "Brazil, Indiana": {
+    "state": "18",
+    "place": "07174",
+    "population": "8181"
+  },
+  "Butler, Indiana": {
+    "state": "18",
+    "place": "09532",
+    "population": "2635"
+  },
+  "Cannelton, Indiana": {
+    "state": "18",
+    "place": "10108",
+    "population": "1524"
+  },
+  "Carmel, Indiana": {
+    "state": "18",
+    "place": "10342",
+    "population": "99757"
+  },
+  "Charlestown, Indiana": {
+    "state": "18",
+    "place": "12124",
+    "population": "7775"
+  },
+  "Clinton, Indiana": {
+    "state": "18",
+    "place": "13780",
+    "population": "4831"
+  },
+  "Columbia City, Indiana": {
+    "state": "18",
+    "place": "14716",
+    "population": "9892"
+  },
+  "Columbus, Indiana": {
+    "state": "18",
+    "place": "14734",
+    "population": "50474"
+  },
+  "Connersville, Indiana": {
+    "state": "18",
+    "place": "14932",
+    "population": "13324"
+  },
+  "Covington, Indiana": {
+    "state": "18",
+    "place": "15490",
+    "population": "2668"
+  },
+  "Crawfordsville, Indiana": {
+    "state": "18",
+    "place": "15742",
+    "population": "16306"
+  },
+  "Crown Point, Indiana": {
+    "state": "18",
+    "place": "16138",
+    "population": "33899"
+  },
+  "Decatur, Indiana": {
+    "state": "18",
+    "place": "17074",
+    "population": "9913"
+  },
+  "Delphi, Indiana": {
+    "state": "18",
+    "place": "17614",
+    "population": "2961"
+  },
+  "Dunkirk, Indiana": {
+    "state": "18",
+    "place": "19054",
+    "population": "2164"
+  },
+  "East Chicago, Indiana": {
+    "state": "18",
+    "place": "19486",
+    "population": "26370"
+  },
+  "Elkhart, Indiana": {
+    "state": "18",
+    "place": "20728",
+    "population": "53923"
+  },
+  "Elwood, Indiana": {
+    "state": "18",
+    "place": "21070",
+    "population": "8410"
+  },
+  "Evansville, Indiana": {
+    "state": "18",
+    "place": "22000",
+    "population": "117298"
+  },
+  "Fishers, Indiana": {
+    "state": "18",
+    "place": "23278",
+    "population": "98977"
+  },
+  "Fort Wayne, Indiana": {
+    "state": "18",
+    "place": "25000",
+    "population": "263886"
+  },
+  "Frankfort, Indiana": {
+    "state": "18",
+    "place": "25324",
+    "population": "16715"
+  },
+  "Franklin, Indiana": {
+    "state": "18",
+    "place": "25450",
+    "population": "25313"
+  },
+  "Garrett, Indiana": {
+    "state": "18",
+    "place": "26386",
+    "population": "6542"
+  },
+  "Gary, Indiana": {
+    "state": "18",
+    "place": "27000",
+    "population": "69093"
+  },
+  "Gas City, Indiana": {
+    "state": "18",
+    "place": "27054",
+    "population": "6157"
+  },
+  "Goshen, Indiana": {
+    "state": "18",
+    "place": "28386",
+    "population": "34517"
+  },
+  "Greencastle, Indiana": {
+    "state": "18",
+    "place": "29358",
+    "population": "9820"
+  },
+  "Greendale, Indiana": {
+    "state": "18",
+    "place": "29448",
+    "population": "4602"
+  },
+  "Greenfield, Indiana": {
+    "state": "18",
+    "place": "29520",
+    "population": "23488"
+  },
+  "Greensburg, Indiana": {
+    "state": "18",
+    "place": "29718",
+    "population": "12312"
+  },
+  "Greenwood, Indiana": {
+    "state": "18",
+    "place": "29898",
+    "population": "63830"
+  },
+  "Hammond, Indiana": {
+    "state": "18",
+    "place": "31000",
+    "population": "77879"
+  },
+  "Hartford City, Indiana": {
+    "state": "18",
+    "place": "32242",
+    "population": "6086"
+  },
+  "Hobart, Indiana": {
+    "state": "18",
+    "place": "34114",
+    "population": "29752"
+  },
+  "Huntingburg, Indiana": {
+    "state": "18",
+    "place": "35284",
+    "population": "6362"
+  },
+  "Huntington, Indiana": {
+    "state": "18",
+    "place": "35302",
+    "population": "17022"
+  },
+  "Jasonville, Indiana": {
+    "state": "18",
+    "place": "37764",
+    "population": "1983"
+  },
+  "Jasper, Indiana": {
+    "state": "18",
+    "place": "37782",
+    "population": "16703"
+  },
+  "Jeffersonville, Indiana": {
+    "state": "18",
+    "place": "38358",
+    "population": "49447"
+  },
+  "Jonesboro, Indiana": {
+    "state": "18",
+    "place": "38862",
+    "population": "1516"
+  },
+  "Kendallville, Indiana": {
+    "state": "18",
+    "place": "39402",
+    "population": "10271"
+  },
+  "Knox, Indiana": {
+    "state": "18",
+    "place": "40374",
+    "population": "3662"
+  },
+  "Kokomo, Indiana": {
+    "state": "18",
+    "place": "40392",
+    "population": "59604"
+  },
+  "Lafayette, Indiana": {
+    "state": "18",
+    "place": "40788",
+    "population": "70783"
+  },
+  "Lake Station, Indiana": {
+    "state": "18",
+    "place": "41535",
+    "population": "13235"
+  },
+  "La Porte, Indiana": {
+    "state": "18",
+    "place": "42246",
+    "population": "22471"
+  },
+  "Lawrence, Indiana": {
+    "state": "18",
+    "place": "42426",
+    "population": "49370"
+  },
+  "Lawrenceburg, Indiana": {
+    "state": "18",
+    "place": "42462",
+    "population": "5129"
+  },
+  "Lebanon, Indiana": {
+    "state": "18",
+    "place": "42624",
+    "population": "16662"
+  },
+  "Ligonier, Indiana": {
+    "state": "18",
+    "place": "43686",
+    "population": "4568"
+  },
+  "Linton, Indiana": {
+    "state": "18",
+    "place": "44190",
+    "population": "5133"
+  },
+  "Logansport, Indiana": {
+    "state": "18",
+    "place": "44658",
+    "population": "18366"
+  },
+  "Loogootee, Indiana": {
+    "state": "18",
+    "place": "44910",
+    "population": "2601"
+  },
+  "Madison, Indiana": {
+    "state": "18",
+    "place": "45990",
+    "population": "12357"
+  },
+  "Marion, Indiana": {
+    "state": "18",
+    "place": "46908",
+    "population": "28310"
+  },
+  "Martinsville, Indiana": {
+    "state": "18",
+    "place": "47448",
+    "population": "11932"
+  },
+  "Michigan City, Indiana": {
+    "state": "18",
+    "place": "48798",
+    "population": "32075"
+  },
+  "North Vernon, Indiana": {
+    "state": "18",
+    "place": "55116",
+    "population": "6608"
+  },
+  "Oakland City, Indiana": {
+    "state": "18",
+    "place": "55710",
+    "population": "2279"
+  },
+  "Peru, Indiana": {
+    "state": "18",
+    "place": "59328",
+    "population": "11073"
+  },
+  "Petersburg, Indiana": {
+    "state": "18",
+    "place": "59364",
+    "population": "2304"
+  },
+  "Plymouth, Indiana": {
+    "state": "18",
+    "place": "60822",
+    "population": "10214"
+  },
+  "Portage, Indiana": {
+    "state": "18",
+    "place": "61092",
+    "population": "37926"
+  },
+  "Portland, Indiana": {
+    "state": "18",
+    "place": "61236",
+    "population": "6320"
+  },
+  "Princeton, Indiana": {
+    "state": "18",
+    "place": "62046",
+    "population": "8301"
+  }
+}

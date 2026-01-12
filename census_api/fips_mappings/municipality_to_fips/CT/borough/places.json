@@ -1,0 +1,52 @@
+{
+  "Woodmont, Connecticut": {
+    "state": "09",
+    "place": "88050",
+    "population": "1486"
+  },
+  "Bantam, Connecticut": {
+    "state": "09",
+    "place": "02690",
+    "population": "720"
+  },
+  "Danielson, Connecticut": {
+    "state": "09",
+    "place": "18780",
+    "population": "4155"
+  },
+  "Fenwick, Connecticut": {
+    "state": "09",
+    "place": "27810",
+    "population": "53"
+  },
+  "Groton Long Point, Connecticut": {
+    "state": "09",
+    "place": "34460",
+    "population": "530"
+  },
+  "Jewett City, Connecticut": {
+    "state": "09",
+    "place": "39940",
+    "population": "3328"
+  },
+  "Litchfield, Connecticut": {
+    "state": "09",
+    "place": "43300",
+    "population": "1179"
+  },
+  "Naugatuck, Connecticut": {
+    "state": "09",
+    "place": "49880",
+    "population": "31519"
+  },
+  "Newtown, Connecticut": {
+    "state": "09",
+    "place": "52910",
+    "population": "1914"
+  },
+  "Stonington, Connecticut": {
+    "state": "09",
+    "place": "73700",
+    "population": "976"
+  }
+}

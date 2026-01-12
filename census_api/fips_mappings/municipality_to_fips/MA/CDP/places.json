@@ -1,0 +1,952 @@
+{
+  "Abington, Massachusetts": {
+    "state": "25",
+    "place": "00135",
+    "population": "17062"
+  },
+  "Acushnet Center, Massachusetts": {
+    "state": "25",
+    "place": "00530",
+    "population": "3030"
+  },
+  "Adams, Massachusetts": {
+    "state": "25",
+    "place": "00590",
+    "population": "5466"
+  },
+  "Andover, Massachusetts": {
+    "state": "25",
+    "place": "01430",
+    "population": "9735"
+  },
+  "Arlington, Massachusetts": {
+    "state": "25",
+    "place": "01640",
+    "population": "46308"
+  },
+  "Athol, Massachusetts": {
+    "state": "25",
+    "place": "02515",
+    "population": "8486"
+  },
+  "Ayer, Massachusetts": {
+    "state": "25",
+    "place": "03040",
+    "population": "2986"
+  },
+  "Baldwinville, Massachusetts": {
+    "state": "25",
+    "place": "03355",
+    "population": "2117"
+  },
+  "Barre, Massachusetts": {
+    "state": "25",
+    "place": "03705",
+    "population": "1029"
+  },
+  "Belchertown, Massachusetts": {
+    "state": "25",
+    "place": "04790",
+    "population": "3129"
+  },
+  "Bellingham, Massachusetts": {
+    "state": "25",
+    "place": "04965",
+    "population": "4782"
+  },
+  "Belmont, Massachusetts": {
+    "state": "25",
+    "place": "05105",
+    "population": "27295"
+  },
+  "Blandford, Massachusetts": {
+    "state": "25",
+    "place": "06050",
+    "population": "363"
+  },
+  "Bliss Corner, Massachusetts": {
+    "state": "25",
+    "place": "06170",
+    "population": "5480"
+  },
+  "Bourne, Massachusetts": {
+    "state": "25",
+    "place": "07140",
+    "population": "1497"
+  },
+  "Boxford, Massachusetts": {
+    "state": "25",
+    "place": "07385",
+    "population": "2432"
+  },
+  "Brewster, Massachusetts": {
+    "state": "25",
+    "place": "07945",
+    "population": "2028"
+  },
+  "Brookfield, Massachusetts": {
+    "state": "25",
+    "place": "09070",
+    "population": "824"
+  },
+  "Brookline, Massachusetts": {
+    "state": "25",
+    "place": "09210",
+    "population": "63191"
+  },
+  "Burlington, Massachusetts": {
+    "state": "25",
+    "place": "09875",
+    "population": "26377"
+  },
+  "Buzzards Bay, Massachusetts": {
+    "state": "25",
+    "place": "10015",
+    "population": "4279"
+  },
+  "Cedar Crest, Massachusetts": {
+    "state": "25",
+    "place": "11945",
+    "population": "2230"
+  },
+  "Chatham, Massachusetts": {
+    "state": "25",
+    "place": "12960",
+    "population": "1551"
+  },
+  "Cheshire, Massachusetts": {
+    "state": "25",
+    "place": "13310",
+    "population": "545"
+  },
+  "Chester, Massachusetts": {
+    "state": "25",
+    "place": "13450",
+    "population": "552"
+  },
+  "Clinton, Massachusetts": {
+    "state": "25",
+    "place": "14430",
+    "population": "8166"
+  },
+  "Cochituate, Massachusetts": {
+    "state": "25",
+    "place": "14570",
+    "population": "6927"
+  },
+  "Cordaville, Massachusetts": {
+    "state": "25",
+    "place": "15340",
+    "population": "2703"
+  },
+  "Danvers, Massachusetts": {
+    "state": "25",
+    "place": "16285",
+    "population": "28087"
+  },
+  "Deerfield, Massachusetts": {
+    "state": "25",
+    "place": "16635",
+    "population": "479"
+  },
+  "Dennis, Massachusetts": {
+    "state": "25",
+    "place": "16740",
+    "population": "2399"
+  },
+  "Dennis Port, Massachusetts": {
+    "state": "25",
+    "place": "16810",
+    "population": "3487"
+  },
+  "Devens, Massachusetts": {
+    "state": "25",
+    "place": "16840",
+    "population": "1697"
+  },
+  "Dover, Massachusetts": {
+    "state": "25",
+    "place": "17370",
+    "population": "2452"
+  },
+  "Duxbury, Massachusetts": {
+    "state": "25",
+    "place": "17860",
+    "population": "1896"
+  },
+  "East Brookfield, Massachusetts": {
+    "state": "25",
+    "place": "18595",
+    "population": "1292"
+  },
+  "East Dennis, Massachusetts": {
+    "state": "25",
+    "place": "18840",
+    "population": "2585"
+  },
+  "East Douglas, Massachusetts": {
+    "state": "25",
+    "place": "18875",
+    "population": "2702"
+  },
+  "East Falmouth, Massachusetts": {
+    "state": "25",
+    "place": "18980",
+    "population": "6278"
+  },
+  "East Harwich, Massachusetts": {
+    "state": "25",
+    "place": "19400",
+    "population": "5250"
+  },
+  "East Pepperell, Massachusetts": {
+    "state": "25",
+    "place": "20310",
+    "population": "2120"
+  },
+  "East Sandwich, Massachusetts": {
+    "state": "25",
+    "place": "20380",
+    "population": "3669"
+  },
+  "Edgartown, Massachusetts": {
+    "state": "25",
+    "place": "21115",
+    "population": "1107"
+  },
+  "Essex, Massachusetts": {
+    "state": "25",
+    "place": "21815",
+    "population": "1517"
+  },
+  "Falmouth, Massachusetts": {
+    "state": "25",
+    "place": "23070",
+    "population": "3818"
+  },
+  "Fiskdale, Massachusetts": {
+    "state": "25",
+    "place": "23840",
+    "population": "2797"
+  },
+  "Forestdale, Massachusetts": {
+    "state": "25",
+    "place": "24190",
+    "population": "4116"
+  },
+  "Foxborough, Massachusetts": {
+    "state": "25",
+    "place": "24855",
+    "population": "6227"
+  },
+  "Granby, Massachusetts": {
+    "state": "25",
+    "place": "26500",
+    "population": "1306"
+  },
+  "Great Barrington, Massachusetts": {
+    "state": "25",
+    "place": "26780",
+    "population": "2234"
+  },
+  "Green Harbor, Massachusetts": {
+    "state": "25",
+    "place": "27130",
+    "population": "394"
+  },
+  "Groton, Massachusetts": {
+    "state": "25",
+    "place": "27445",
+    "population": "1353"
+  },
+  "Hanscom AFB, Massachusetts": {
+    "state": "25",
+    "place": "28425",
+    "population": "1516"
+  },
+  "Hanson, Massachusetts": {
+    "state": "25",
+    "place": "28460",
+    "population": "2028"
+  },
+  "Harwich Center, Massachusetts": {
+    "state": "25",
+    "place": "29055",
+    "population": "1995"
+  },
+  "Harwich Port, Massachusetts": {
+    "state": "25",
+    "place": "29090",
+    "population": "1899"
+  },
+  "Hatfield, Massachusetts": {
+    "state": "25",
+    "place": "29230",
+    "population": "1453"
+  },
+  "Hingham, Massachusetts": {
+    "state": "25",
+    "place": "30175",
+    "population": "5979"
+  },
+  "Holbrook, Massachusetts": {
+    "state": "25",
+    "place": "30420",
+    "population": "11405"
+  },
+  "Dedham, Massachusetts": {
+    "state": "25",
+    "place": "16530",
+    "population": "25364"
+  },
+  "Holland, Massachusetts": {
+    "state": "25",
+    "place": "30630",
+    "population": "1551"
+  },
+  "Hopedale, Massachusetts": {
+    "state": "25",
+    "place": "30980",
+    "population": "3939"
+  },
+  "Hopkinton, Massachusetts": {
+    "state": "25",
+    "place": "31050",
+    "population": "2651"
+  },
+  "Housatonic, Massachusetts": {
+    "state": "25",
+    "place": "31295",
+    "population": "1083"
+  },
+  "Hudson, Massachusetts": {
+    "state": "25",
+    "place": "31575",
+    "population": "15749"
+  },
+  "Hull, Massachusetts": {
+    "state": "25",
+    "place": "31680",
+    "population": "10072"
+  },
+  "Huntington, Massachusetts": {
+    "state": "25",
+    "place": "31750",
+    "population": "857"
+  },
+  "Ipswich, Massachusetts": {
+    "state": "25",
+    "place": "32275",
+    "population": "4370"
+  },
+  "Kingston, Massachusetts": {
+    "state": "25",
+    "place": "33185",
+    "population": "5700"
+  },
+  "Lee, Massachusetts": {
+    "state": "25",
+    "place": "34620",
+    "population": "1880"
+  },
+  "Lenox, Massachusetts": {
+    "state": "25",
+    "place": "34935",
+    "population": "1639"
+  },
+  "Lenox Dale, Massachusetts": {
+    "state": "25",
+    "place": "35040",
+    "population": "466"
+  },
+  "Lexington, Massachusetts": {
+    "state": "25",
+    "place": "35250",
+    "population": "34454"
+  },
+  "Littleton Common, Massachusetts": {
+    "state": "25",
+    "place": "36020",
+    "population": "3065"
+  },
+  "Longmeadow, Massachusetts": {
+    "state": "25",
+    "place": "36335",
+    "population": "15853"
+  },
+  "Lunenburg, Massachusetts": {
+    "state": "25",
+    "place": "37385",
+    "population": "1789"
+  },
+  "Lynnfield, Massachusetts": {
+    "state": "25",
+    "place": "37595",
+    "population": "13000"
+  },
+  "Madaket, Massachusetts": {
+    "state": "25",
+    "place": "37735",
+    "population": "377"
+  },
+  "Mansfield Center, Massachusetts": {
+    "state": "25",
+    "place": "38230",
+    "population": "7830"
+  },
+  "Marblehead, Massachusetts": {
+    "state": "25",
+    "place": "38435",
+    "population": "20441"
+  },
+  "Marion Center, Massachusetts": {
+    "state": "25",
+    "place": "38575",
+    "population": "1172"
+  },
+  "Marshfield, Massachusetts": {
+    "state": "25",
+    "place": "38820",
+    "population": "4653"
+  },
+  "Marshfield Hills, Massachusetts": {
+    "state": "25",
+    "place": "38960",
+    "population": "2491"
+  },
+  "Mashpee Neck, Massachusetts": {
+    "state": "25",
+    "place": "39152",
+    "population": "1076"
+  },
+  "Mattapoisett Center, Massachusetts": {
+    "state": "25",
+    "place": "39485",
+    "population": "3190"
+  },
+  "Maynard, Massachusetts": {
+    "state": "25",
+    "place": "39660",
+    "population": "10746"
+  },
+  "Medfield, Massachusetts": {
+    "state": "25",
+    "place": "39730",
+    "population": "6939"
+  },
+  "Middleborough Center, Massachusetts": {
+    "state": "25",
+    "place": "40885",
+    "population": "7921"
+  },
+  "Milford, Massachusetts": {
+    "state": "25",
+    "place": "41200",
+    "population": "26971"
+  },
+  "Millers Falls, Massachusetts": {
+    "state": "25",
+    "place": "41410",
+    "population": "994"
+  },
+  "Millis-Clicquot, Massachusetts": {
+    "state": "25",
+    "place": "41532",
+    "population": "4499"
+  },
+  "Milton, Massachusetts": {
+    "state": "25",
+    "place": "41725",
+    "population": "28630"
+  },
+  "Monomoscoy Island, Massachusetts": {
+    "state": "25",
+    "place": "41960",
+    "population": "139"
+  },
+  "Monson Center, Massachusetts": {
+    "state": "25",
+    "place": "42180",
+    "population": "1952"
+  },
+  "Monument Beach, Massachusetts": {
+    "state": "25",
+    "place": "42670",
+    "population": "2784"
+  },
+  "Nahant, Massachusetts": {
+    "state": "25",
+    "place": "43615",
+    "population": "3334"
+  },
+  "Nantucket, Massachusetts": {
+    "state": "25",
+    "place": "43755",
+    "population": "10166"
+  },
+  "Needham, Massachusetts": {
+    "state": "25",
+    "place": "44140",
+    "population": "32091"
+  },
+  "New Seabury, Massachusetts": {
+    "state": "25",
+    "place": "45500",
+    "population": "852"
+  },
+  "Northborough, Massachusetts": {
+    "state": "25",
+    "place": "46785",
+    "population": "6474"
+  },
+  "North Brookfield, Massachusetts": {
+    "state": "25",
+    "place": "47100",
+    "population": "2256"
+  },
+  "North Eastham, Massachusetts": {
+    "state": "25",
+    "place": "47590",
+    "population": "2296"
+  },
+  "North Falmouth, Massachusetts": {
+    "state": "25",
+    "place": "47730",
+    "population": "3293"
+  },
+  "Northfield, Massachusetts": {
+    "state": "25",
+    "place": "47800",
+    "population": "1051"
+  },
+  "North Lakeville, Massachusetts": {
+    "state": "25",
+    "place": "48220",
+    "population": "3290"
+  },
+  "North Pembroke, Massachusetts": {
+    "state": "25",
+    "place": "48710",
+    "population": "3490"
+  },
+  "North Plymouth, Massachusetts": {
+    "state": "25",
+    "place": "48780",
+    "population": "3983"
+  },
+  "North Scituate, Massachusetts": {
+    "state": "25",
+    "place": "49165",
+    "population": "5414"
+  },
+  "North Seekonk, Massachusetts": {
+    "state": "25",
+    "place": "49200",
+    "population": "2726"
+  },
+  "Northwest Harwich, Massachusetts": {
+    "state": "25",
+    "place": "49700",
+    "population": "4296"
+  },
+  "North Westport, Massachusetts": {
+    "state": "25",
+    "place": "49710",
+    "population": "4720"
+  },
+  "Norton Center, Massachusetts": {
+    "state": "25",
+    "place": "50005",
+    "population": "2677"
+  },
+  "Norwood, Massachusetts": {
+    "state": "25",
+    "place": "50285",
+    "population": "31611"
+  },
+  "Oak Bluffs, Massachusetts": {
+    "state": "25",
+    "place": "50425",
+    "population": "2324"
+  },
+  "Ocean Bluff-Brant Rock, Massachusetts": {
+    "state": "25",
+    "place": "50862",
+    "population": "4744"
+  },
+  "Ocean Grove, Massachusetts": {
+    "state": "25",
+    "place": "50880",
+    "population": "2904"
+  },
+  "Onset, Massachusetts": {
+    "state": "25",
+    "place": "51160",
+    "population": "1617"
+  },
+  "Orange, Massachusetts": {
+    "state": "25",
+    "place": "51230",
+    "population": "3636"
+  },
+  "Orleans, Massachusetts": {
+    "state": "25",
+    "place": "51405",
+    "population": "1767"
+  },
+  "Oxford, Massachusetts": {
+    "state": "25",
+    "place": "51790",
+    "population": "5928"
+  },
+  "Pepperell, Massachusetts": {
+    "state": "25",
+    "place": "52770",
+    "population": "2390"
+  },
+  "Petersham, Massachusetts": {
+    "state": "25",
+    "place": "53085",
+    "population": "225"
+  },
+  "Pinehurst, Massachusetts": {
+    "state": "25",
+    "place": "53680",
+    "population": "7368"
+  },
+  "Plymouth, Massachusetts": {
+    "state": "25",
+    "place": "54275",
+    "population": "7667"
+  },
+  "Pocasset, Massachusetts": {
+    "state": "25",
+    "place": "54450",
+    "population": "2843"
+  },
+  "Popponesset, Massachusetts": {
+    "state": "25",
+    "place": "55070",
+    "population": "280"
+  },
+  "Popponesset Island, Massachusetts": {
+    "state": "25",
+    "place": "55090",
+    "population": "45"
+  },
+  "Provincetown, Massachusetts": {
+    "state": "25",
+    "place": "55535",
+    "population": "3318"
+  },
+  "Raynham Center, Massachusetts": {
+    "state": "25",
+    "place": "56095",
+    "population": "4365"
+  },
+  "Reading, Massachusetts": {
+    "state": "25",
+    "place": "56165",
+    "population": "25518"
+  },
+  "Rockport, Massachusetts": {
+    "state": "25",
+    "place": "57845",
+    "population": "5010"
+  },
+  "Rowley, Massachusetts": {
+    "state": "25",
+    "place": "58370",
+    "population": "1523"
+  },
+  "Russell, Massachusetts": {
+    "state": "25",
+    "place": "58615",
+    "population": "690"
+  },
+  "Rutland, Massachusetts": {
+    "state": "25",
+    "place": "58790",
+    "population": "2179"
+  },
+  "Sagamore, Massachusetts": {
+    "state": "25",
+    "place": "58965",
+    "population": "3851"
+  },
+  "Salisbury, Massachusetts": {
+    "state": "25",
+    "place": "59210",
+    "population": "5629"
+  },
+  "Sandwich, Massachusetts": {
+    "state": "25",
+    "place": "59700",
+    "population": "2998"
+  },
+  "Saugus, Massachusetts": {
+    "state": "25",
+    "place": "60050",
+    "population": "28619"
+  },
+  "Scituate, Massachusetts": {
+    "state": "25",
+    "place": "60295",
+    "population": "5620"
+  },
+  "Seabrook, Massachusetts": {
+    "state": "25",
+    "place": "60505",
+    "population": "448"
+  },
+  "Seconsett Island, Massachusetts": {
+    "state": "25",
+    "place": "60627",
+    "population": "98"
+  },
+  "Sharon, Massachusetts": {
+    "state": "25",
+    "place": "60820",
+    "population": "6184"
+  },
+  "Shelburne Falls, Massachusetts": {
+    "state": "25",
+    "place": "61205",
+    "population": "1719"
+  },
+  "Shirley, Massachusetts": {
+    "state": "25",
+    "place": "61555",
+    "population": "1611"
+  },
+  "Siasconset, Massachusetts": {
+    "state": "25",
+    "place": "61940",
+    "population": "505"
+  },
+  "Smith Mills, Massachusetts": {
+    "state": "25",
+    "place": "62300",
+    "population": "4832"
+  },
+  "Somerset, Massachusetts": {
+    "state": "25",
+    "place": "62465",
+    "population": "18303"
+  },
+  "South Ashburnham, Massachusetts": {
+    "state": "25",
+    "place": "62780",
+    "population": "1136"
+  },
+  "South Deerfield, Massachusetts": {
+    "state": "25",
+    "place": "63620",
+    "population": "1930"
+  },
+  "South Dennis, Massachusetts": {
+    "state": "25",
+    "place": "63655",
+    "population": "3899"
+  },
+  "South Duxbury, Massachusetts": {
+    "state": "25",
+    "place": "63690",
+    "population": "3463"
+  },
+  "South Lancaster, Massachusetts": {
+    "state": "25",
+    "place": "64460",
+    "population": "1838"
+  },
+  "South Yarmouth, Massachusetts": {
+    "state": "25",
+    "place": "66035",
+    "population": "11703"
+  },
+  "Spencer, Massachusetts": {
+    "state": "25",
+    "place": "66070",
+    "population": "5810"
+  },
+  "Stoneham, Massachusetts": {
+    "state": "25",
+    "place": "67700",
+    "population": "23244"
+  },
+  "Sturbridge, Massachusetts": {
+    "state": "25",
+    "place": "68120",
+    "population": "2385"
+  },
+  "Swampscott, Massachusetts": {
+    "state": "25",
+    "place": "68680",
+    "population": "15111"
+  },
+  "Teaticket, Massachusetts": {
+    "state": "25",
+    "place": "69205",
+    "population": "1663"
+  },
+  "The Pinehills, Massachusetts": {
+    "state": "25",
+    "place": "69585",
+    "population": "4515"
+  },
+  "Topsfield, Massachusetts": {
+    "state": "25",
+    "place": "70115",
+    "population": "2864"
+  },
+  "Townsend, Massachusetts": {
+    "state": "25",
+    "place": "70325",
+    "population": "1213"
+  },
+  "Turners Falls, Massachusetts": {
+    "state": "25",
+    "place": "70815",
+    "population": "4512"
+  },
+  "Upton, Massachusetts": {
+    "state": "25",
+    "place": "71445",
+    "population": "3090"
+  },
+  "Vineyard Haven, Massachusetts": {
+    "state": "25",
+    "place": "71970",
+    "population": "2747"
+  },
+  "Wakefield, Massachusetts": {
+    "state": "25",
+    "place": "72250",
+    "population": "27090"
+  },
+  "Walpole, Massachusetts": {
+    "state": "25",
+    "place": "72460",
+    "population": "6119"
+  },
+  "Ware, Massachusetts": {
+    "state": "25",
+    "place": "72845",
+    "population": "6266"
+  },
+  "Wareham Center, Massachusetts": {
+    "state": "25",
+    "place": "73020",
+    "population": "2972"
+  },
+  "Warren, Massachusetts": {
+    "state": "25",
+    "place": "73055",
+    "population": "1333"
+  },
+  "Webster, Massachusetts": {
+    "state": "25",
+    "place": "73930",
+    "population": "12194"
+  },
+  "Wellesley, Massachusetts": {
+    "state": "25",
+    "place": "74210",
+    "population": "29550"
+  },
+  "Westborough, Massachusetts": {
+    "state": "25",
+    "place": "75050",
+    "population": "4255"
+  },
+  "West Brookfield, Massachusetts": {
+    "state": "25",
+    "place": "75365",
+    "population": "1375"
+  },
+  "West Chatham, Massachusetts": {
+    "state": "25",
+    "place": "75505",
+    "population": "1619"
+  },
+  "West Concord, Massachusetts": {
+    "state": "25",
+    "place": "75680",
+    "population": "6320"
+  },
+  "West Dennis, Massachusetts": {
+    "state": "25",
+    "place": "75820",
+    "population": "2304"
+  },
+  "West Falmouth, Massachusetts": {
+    "state": "25",
+    "place": "75960",
+    "population": "1812"
+  },
+  "West Wareham, Massachusetts": {
+    "state": "25",
+    "place": "78410",
+    "population": "2224"
+  },
+  "West Warren, Massachusetts": {
+    "state": "25",
+    "place": "78445",
+    "population": "721"
+  },
+  "West Yarmouth, Massachusetts": {
+    "state": "25",
+    "place": "78795",
+    "population": "6278"
+  },
+  "Weweantic, Massachusetts": {
+    "state": "25",
+    "place": "78850",
+    "population": "2109"
+  },
+  "White Island Shores, Massachusetts": {
+    "state": "25",
+    "place": "79390",
+    "population": "2180"
+  },
+  "Whitinsville, Massachusetts": {
+    "state": "25",
+    "place": "79495",
+    "population": "6750"
+  },
+  "Wilbraham, Massachusetts": {
+    "state": "25",
+    "place": "79705",
+    "population": "4003"
+  },
+  "Williamstown, Massachusetts": {
+    "state": "25",
+    "place": "79950",
+    "population": "4308"
+  },
+  "Wilmington, Massachusetts": {
+    "state": "25",
+    "place": "80195",
+    "population": "23349"
+  },
+  "Winchendon, Massachusetts": {
+    "state": "25",
+    "place": "80370",
+    "population": "4160"
+  },
+  "Winchester, Massachusetts": {
+    "state": "25",
+    "place": "80545",
+    "population": "22970"
+  },
+  "Woods Hole, Massachusetts": {
+    "state": "25",
+    "place": "81245",
+    "population": "834"
+  },
+  "Yarmouth Port, Massachusetts": {
+    "state": "25",
+    "place": "82595",
+    "population": "5403"
+  }
+}

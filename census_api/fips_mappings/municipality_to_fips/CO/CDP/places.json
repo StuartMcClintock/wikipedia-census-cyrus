@@ -1,0 +1,1042 @@
+{
+  "Acres Green, Colorado": {
+    "state": "08",
+    "place": "00320",
+    "population": "2922"
+  },
+  "Aetna Estates, Colorado": {
+    "state": "08",
+    "place": "00620",
+    "population": "1496"
+  },
+  "Air Force Academy, Colorado": {
+    "state": "08",
+    "place": "00870",
+    "population": "6608"
+  },
+  "Alamosa East, Colorado": {
+    "state": "08",
+    "place": "01145",
+    "population": "1453"
+  },
+  "Allenspark, Colorado": {
+    "state": "08",
+    "place": "01420",
+    "population": "568"
+  },
+  "Alpine, Colorado": {
+    "state": "08",
+    "place": "01640",
+    "population": "169"
+  },
+  "Altona, Colorado": {
+    "state": "08",
+    "place": "01740",
+    "population": "512"
+  },
+  "Amherst, Colorado": {
+    "state": "08",
+    "place": "01915",
+    "population": "47"
+  },
+  "Applewood, Colorado": {
+    "state": "08",
+    "place": "02575",
+    "population": "7833"
+  },
+  "Arapahoe, Colorado": {
+    "state": "08",
+    "place": "02850",
+    "population": "102"
+  },
+  "Arboles, Colorado": {
+    "state": "08",
+    "place": "02905",
+    "population": "308"
+  },
+  "Aristocrat Ranchettes, Colorado": {
+    "state": "08",
+    "place": "03015",
+    "population": "1715"
+  },
+  "Aspen Park, Colorado": {
+    "state": "08",
+    "place": "03730",
+    "population": "810"
+  },
+  "Atwood, Colorado": {
+    "state": "08",
+    "place": "03840",
+    "population": "138"
+  },
+  "Avondale, Colorado": {
+    "state": "08",
+    "place": "04165",
+    "population": "594"
+  },
+  "Bark Ranch, Colorado": {
+    "state": "08",
+    "place": "04620",
+    "population": "202"
+  },
+  "Battlement Mesa, Colorado": {
+    "state": "08",
+    "place": "05120",
+    "population": "5438"
+  },
+  "Berkley, Colorado": {
+    "state": "08",
+    "place": "06172",
+    "population": "12536"
+  },
+  "Beulah Valley, Colorado": {
+    "state": "08",
+    "place": "06602",
+    "population": "518"
+  },
+  "Black Forest, Colorado": {
+    "state": "08",
+    "place": "06970",
+    "population": "15097"
+  },
+  "Blende, Colorado": {
+    "state": "08",
+    "place": "07245",
+    "population": "788"
+  },
+  "Blue Sky, Colorado": {
+    "state": "08",
+    "place": "07420",
+    "population": "65"
+  },
+  "Blue Valley, Colorado": {
+    "state": "08",
+    "place": "07455",
+    "population": "173"
+  },
+  "Bonanza Mountain Estates, Colorado": {
+    "state": "08",
+    "place": "07580",
+    "population": "127"
+  },
+  "Brandon, Colorado": {
+    "state": "08",
+    "place": "08290",
+    "population": "21"
+  },
+  "Brick Center, Colorado": {
+    "state": "08",
+    "place": "08530",
+    "population": "105"
+  },
+  "Briggsdale, Colorado": {
+    "state": "08",
+    "place": "08620",
+    "population": "134"
+  },
+  "Brook Forest, Colorado": {
+    "state": "08",
+    "place": "08950",
+    "population": "622"
+  },
+  "Byers, Colorado": {
+    "state": "08",
+    "place": "10985",
+    "population": "1322"
+  },
+  "Capulin, Colorado": {
+    "state": "08",
+    "place": "11975",
+    "population": "134"
+  },
+  "Cascade-Chipita Park, Colorado": {
+    "state": "08",
+    "place": "12325",
+    "population": "1628"
+  },
+  "Castle Pines Village, Colorado": {
+    "state": "08",
+    "place": "12393",
+    "population": "4327"
+  },
+  "Cathedral, Colorado": {
+    "state": "08",
+    "place": "12450",
+    "population": "15"
+  },
+  "Catherine, Colorado": {
+    "state": "08",
+    "place": "12460",
+    "population": "235"
+  },
+  "Cattle Creek, Colorado": {
+    "state": "08",
+    "place": "12470",
+    "population": "662"
+  },
+  "Chacra, Colorado": {
+    "state": "08",
+    "place": "12945",
+    "population": "331"
+  },
+  "Cherry Creek, Colorado": {
+    "state": "08",
+    "place": "13590",
+    "population": "11488"
+  },
+  "Cimarron Hills, Colorado": {
+    "state": "08",
+    "place": "14587",
+    "population": "19311"
+  },
+  "Clifton, Colorado": {
+    "state": "08",
+    "place": "15165",
+    "population": "20413"
+  },
+  "Coal Creek, Colorado": {
+    "state": "08",
+    "place": "15302",
+    "population": "2494"
+  },
+  "Coaldale, Colorado": {
+    "state": "08",
+    "place": "15440",
+    "population": "343"
+  },
+  "Colona, Colorado": {
+    "state": "08",
+    "place": "15825",
+    "population": "36"
+  },
+  "Colorado City, Colorado": {
+    "state": "08",
+    "place": "15935",
+    "population": "2237"
+  },
+  "Columbine, Colorado": {
+    "state": "08",
+    "place": "16110",
+    "population": "25229"
+  },
+  "Comanche Creek, Colorado": {
+    "state": "08",
+    "place": "16465",
+    "population": "442"
+  },
+  "Conejos, Colorado": {
+    "state": "08",
+    "place": "16715",
+    "population": "46"
+  },
+  "Cope, Colorado": {
+    "state": "08",
+    "place": "17100",
+    "population": "53"
+  },
+  "Copper Mountain, Colorado": {
+    "state": "08",
+    "place": "17150",
+    "population": "650"
+  },
+  "Cotopaxi, Colorado": {
+    "state": "08",
+    "place": "17485",
+    "population": "44"
+  },
+  "Crisman, Colorado": {
+    "state": "08",
+    "place": "18585",
+    "population": "179"
+  },
+  "Dakota Ridge, Colorado": {
+    "state": "08",
+    "place": "19150",
+    "population": "33892"
+  },
+  "Derby, Colorado": {
+    "state": "08",
+    "place": "20275",
+    "population": "8407"
+  },
+  "Divide, Colorado": {
+    "state": "08",
+    "place": "20605",
+    "population": "143"
+  },
+  "Dotsero, Colorado": {
+    "state": "08",
+    "place": "21155",
+    "population": "1172"
+  },
+  "Dove Valley, Colorado": {
+    "state": "08",
+    "place": "21330",
+    "population": "5640"
+  },
+  "Downieville-Lawson-Dumont, Colorado": {
+    "state": "08",
+    "place": "21390",
+    "population": "527"
+  },
+  "East Pleasant View, Colorado": {
+    "state": "08",
+    "place": "22575",
+    "population": "333"
+  },
+  "Echo Hills, Colorado": {
+    "state": "08",
+    "place": "22882",
+    "population": "313"
+  },
+  "Edwards, Colorado": {
+    "state": "08",
+    "place": "23300",
+    "population": "11246"
+  },
+  "Elbert, Colorado": {
+    "state": "08",
+    "place": "23520",
+    "population": "188"
+  },
+  "Eldora, Colorado": {
+    "state": "08",
+    "place": "23575",
+    "population": "140"
+  },
+  "Eldorado Springs, Colorado": {
+    "state": "08",
+    "place": "23630",
+    "population": "559"
+  },
+  "El Jebel, Colorado": {
+    "state": "08",
+    "place": "23795",
+    "population": "4130"
+  },
+  "Ellicott, Colorado": {
+    "state": "08",
+    "place": "24235",
+    "population": "1248"
+  },
+  "El Moro, Colorado": {
+    "state": "08",
+    "place": "24290",
+    "population": "216"
+  },
+  "Evergreen, Colorado": {
+    "state": "08",
+    "place": "25390",
+    "population": "9307"
+  },
+  "Fairmount, Colorado": {
+    "state": "08",
+    "place": "25550",
+    "population": "9324"
+  },
+  "Florissant, Colorado": {
+    "state": "08",
+    "place": "27095",
+    "population": "128"
+  },
+  "Floyd Hill, Colorado": {
+    "state": "08",
+    "place": "27175",
+    "population": "1048"
+  },
+  "Fort Carson, Colorado": {
+    "state": "08",
+    "place": "27370",
+    "population": "17693"
+  },
+  "Fort Garland, Colorado": {
+    "state": "08",
+    "place": "27535",
+    "population": "464"
+  },
+  "Four Square Mile, Colorado": {
+    "state": "08",
+    "place": "27950",
+    "population": "22872"
+  },
+  "Franktown, Colorado": {
+    "state": "08",
+    "place": "28250",
+    "population": "409"
+  },
+  "Fruitvale, Colorado": {
+    "state": "08",
+    "place": "28800",
+    "population": "8271"
+  },
+  "Fulford, Colorado": {
+    "state": "08",
+    "place": "28830",
+    "population": "0"
+  },
+  "Gardner, Colorado": {
+    "state": "08",
+    "place": "29240",
+    "population": "106"
+  },
+  "Garfield, Colorado": {
+    "state": "08",
+    "place": "29295",
+    "population": "27"
+  },
+  "Genesee, Colorado": {
+    "state": "08",
+    "place": "29625",
+    "population": "3610"
+  },
+  "Gerrard, Colorado": {
+    "state": "08",
+    "place": "29845",
+    "population": "264"
+  },
+  "Glendale, Colorado": {
+    "state": "08",
+    "place": "30350",
+    "population": "64"
+  },
+  "Gleneagle, Colorado": {
+    "state": "08",
+    "place": "30420",
+    "population": "6649"
+  },
+  "Goldfield, Colorado": {
+    "state": "08",
+    "place": "30890",
+    "population": "63"
+  },
+  "Gold Hill, Colorado": {
+    "state": "08",
+    "place": "30945",
+    "population": "218"
+  },
+  "Grand View Estates, Colorado": {
+    "state": "08",
+    "place": "31935",
+    "population": "689"
+  },
+  "Guffey, Colorado": {
+    "state": "08",
+    "place": "33420",
+    "population": "111"
+  },
+  "Gunbarrel, Colorado": {
+    "state": "08",
+    "place": "33502",
+    "population": "9554"
+  },
+  "Hartsel, Colorado": {
+    "state": "08",
+    "place": "34630",
+    "population": "38"
+  },
+  "Hasty, Colorado": {
+    "state": "08",
+    "place": "34685",
+    "population": "182"
+  },
+  "Heeney, Colorado": {
+    "state": "08",
+    "place": "35400",
+    "population": "74"
+  },
+  "Hidden Lake, Colorado": {
+    "state": "08",
+    "place": "35860",
+    "population": "24"
+  },
+  "Highlands Ranch, Colorado": {
+    "state": "08",
+    "place": "36410",
+    "population": "103444"
+  },
+  "Hoehne, Colorado": {
+    "state": "08",
+    "place": "36940",
+    "population": "80"
+  },
+  "Holly Hills, Colorado": {
+    "state": "08",
+    "place": "37220",
+    "population": "2683"
+  },
+  "Howard, Colorado": {
+    "state": "08",
+    "place": "37655",
+    "population": "852"
+  },
+  "Idalia, Colorado": {
+    "state": "08",
+    "place": "38425",
+    "population": "97"
+  },
+  "Idledale, Colorado": {
+    "state": "08",
+    "place": "38480",
+    "population": "244"
+  },
+  "Indian Hills, Colorado": {
+    "state": "08",
+    "place": "38810",
+    "population": "1474"
+  },
+  "Inverness, Colorado": {
+    "state": "08",
+    "place": "38910",
+    "population": "2226"
+  },
+  "Jackson Lake, Colorado": {
+    "state": "08",
+    "place": "39160",
+    "population": "131"
+  },
+  "Jansen, Colorado": {
+    "state": "08",
+    "place": "39250",
+    "population": "101"
+  },
+  "Joes, Colorado": {
+    "state": "08",
+    "place": "39745",
+    "population": "82"
+  },
+  "Johnson Village, Colorado": {
+    "state": "08",
+    "place": "39800",
+    "population": "299"
+  },
+  "Ken Caryl, Colorado": {
+    "state": "08",
+    "place": "40377",
+    "population": "33811"
+  },
+  "Keystone, Colorado": {
+    "state": "08",
+    "place": "40550",
+    "population": "1369"
+  },
+  "Kirk, Colorado": {
+    "state": "08",
+    "place": "40900",
+    "population": "61"
+  },
+  "Kittredge, Colorado": {
+    "state": "08",
+    "place": "41065",
+    "population": "1308"
+  },
+  "Laird, Colorado": {
+    "state": "08",
+    "place": "42000",
+    "population": "46"
+  },
+  "La Junta Gardens, Colorado": {
+    "state": "08",
+    "place": "42165",
+    "population": "123"
+  },
+  "Laporte, Colorado": {
+    "state": "08",
+    "place": "43220",
+    "population": "2409"
+  },
+  "Lazear, Colorado": {
+    "state": "08",
+    "place": "44265",
+    "population": "168"
+  },
+  "Lazy Acres, Colorado": {
+    "state": "08",
+    "place": "44270",
+    "population": "957"
+  },
+  "Leadville North, Colorado": {
+    "state": "08",
+    "place": "44375",
+    "population": "1892"
+  },
+  "Lewis, Colorado": {
+    "state": "08",
+    "place": "44595",
+    "population": "257"
+  },
+  "Leyner, Colorado": {
+    "state": "08",
+    "place": "44695",
+    "population": "40"
+  },
+  "Lincoln Park, Colorado": {
+    "state": "08",
+    "place": "45145",
+    "population": "3934"
+  },
+  "Loghill Village, Colorado": {
+    "state": "08",
+    "place": "45680",
+    "population": "617"
+  },
+  "Loma, Colorado": {
+    "state": "08",
+    "place": "45750",
+    "population": "1314"
+  },
+  "Louviers, Colorado": {
+    "state": "08",
+    "place": "46410",
+    "population": "293"
+  },
+  "Lynn, Colorado": {
+    "state": "08",
+    "place": "47015",
+    "population": "11"
+  },
+  "McClave, Colorado": {
+    "state": "08",
+    "place": "47235",
+    "population": "129"
+  },
+  "McCoy, Colorado": {
+    "state": "08",
+    "place": "47345",
+    "population": "30"
+  },
+  "Marvel, Colorado": {
+    "state": "08",
+    "place": "48940",
+    "population": "68"
+  },
+  "Matheson, Colorado": {
+    "state": "08",
+    "place": "49215",
+    "population": "79"
+  },
+  "Maybell, Colorado": {
+    "state": "08",
+    "place": "49325",
+    "population": "76"
+  },
+  "Maysville, Colorado": {
+    "state": "08",
+    "place": "49490",
+    "population": "173"
+  },
+  "Meridian, Colorado": {
+    "state": "08",
+    "place": "50012",
+    "population": "4786"
+  },
+  "Meridian Village, Colorado": {
+    "state": "08",
+    "place": "50026",
+    "population": "3202"
+  },
+  "Midland, Colorado": {
+    "state": "08",
+    "place": "50380",
+    "population": "182"
+  },
+  "Morgan Heights, Colorado": {
+    "state": "08",
+    "place": "51975",
+    "population": "298"
+  },
+  "Mountain Meadows, Colorado": {
+    "state": "08",
+    "place": "52210",
+    "population": "237"
+  },
+  "Mulford, Colorado": {
+    "state": "08",
+    "place": "52820",
+    "population": "259"
+  },
+  "Nathrop, Colorado": {
+    "state": "08",
+    "place": "53010",
+    "population": "288"
+  },
+  "Niwot, Colorado": {
+    "state": "08",
+    "place": "53780",
+    "population": "4306"
+  },
+  "No Name, Colorado": {
+    "state": "08",
+    "place": "53875",
+    "population": "117"
+  },
+  "Norrie, Colorado": {
+    "state": "08",
+    "place": "53945",
+    "population": "7"
+  },
+  "North La Junta, Colorado": {
+    "state": "08",
+    "place": "54495",
+    "population": "482"
+  },
+  "North Washington, Colorado": {
+    "state": "08",
+    "place": "54750",
+    "population": "733"
+  },
+  "Orchard, Colorado": {
+    "state": "08",
+    "place": "55925",
+    "population": "76"
+  },
+  "Orchard Mesa, Colorado": {
+    "state": "08",
+    "place": "56035",
+    "population": "6688"
+  },
+  "Padroni, Colorado": {
+    "state": "08",
+    "place": "56695",
+    "population": "75"
+  },
+  "Paragon Estates, Colorado": {
+    "state": "08",
+    "place": "57445",
+    "population": "975"
+  },
+  "Park Center, Colorado": {
+    "state": "08",
+    "place": "57465",
+    "population": "2953"
+  },
+  "Parshall, Colorado": {
+    "state": "08",
+    "place": "57850",
+    "population": "42"
+  },
+  "Penrose, Colorado": {
+    "state": "08",
+    "place": "58400",
+    "population": "3685"
+  },
+  "Peoria, Colorado": {
+    "state": "08",
+    "place": "58510",
+    "population": "153"
+  },
+  "Perry Park, Colorado": {
+    "state": "08",
+    "place": "58592",
+    "population": "1932"
+  },
+  "Peyton, Colorado": {
+    "state": "08",
+    "place": "58675",
+    "population": "214"
+  },
+  "Phippsburg, Colorado": {
+    "state": "08",
+    "place": "58785",
+    "population": "234"
+  },
+  "Piedra, Colorado": {
+    "state": "08",
+    "place": "58960",
+    "population": "31"
+  },
+  "Pine Brook Hill, Colorado": {
+    "state": "08",
+    "place": "59240",
+    "population": "975"
+  },
+  "Pine Valley, Colorado": {
+    "state": "08",
+    "place": "59520",
+    "population": "363"
+  },
+  "Placerville, Colorado": {
+    "state": "08",
+    "place": "59885",
+    "population": "362"
+  },
+  "Ponderosa Park, Colorado": {
+    "state": "08",
+    "place": "60655",
+    "population": "3334"
+  },
+  "Portland, Colorado": {
+    "state": "08",
+    "place": "60765",
+    "population": "136"
+  },
+  "Pueblo West, Colorado": {
+    "state": "08",
+    "place": "62220",
+    "population": "33086"
+  },
+  "Red Feather Lakes, Colorado": {
+    "state": "08",
+    "place": "63320",
+    "population": "426"
+  },
+  "Redlands, Colorado": {
+    "state": "08",
+    "place": "63375",
+    "population": "9061"
+  },
+  "Redstone, Colorado": {
+    "state": "08",
+    "place": "63650",
+    "population": "127"
+  },
+  "Redvale, Colorado": {
+    "state": "08",
+    "place": "63705",
+    "population": "172"
+  },
+  "Rock Creek Park, Colorado": {
+    "state": "08",
+    "place": "64870",
+    "population": "68"
+  },
+  "Rollinsville, Colorado": {
+    "state": "08",
+    "place": "65685",
+    "population": "194"
+  },
+  "Roxborough Park, Colorado": {
+    "state": "08",
+    "place": "66197",
+    "population": "9416"
+  },
+  "Saddle Ridge, Colorado": {
+    "state": "08",
+    "place": "66995",
+    "population": "66"
+  },
+  "St. Ann Highlands, Colorado": {
+    "state": "08",
+    "place": "67040",
+    "population": "325"
+  },
+  "St. Mary's, Colorado": {
+    "state": "08",
+    "place": "67142",
+    "population": "333"
+  },
+  "Salt Creek, Colorado": {
+    "state": "08",
+    "place": "67445",
+    "population": "507"
+  },
+  "San Acacio, Colorado": {
+    "state": "08",
+    "place": "67500",
+    "population": "56"
+  },
+  "Security-Widefield, Colorado": {
+    "state": "08",
+    "place": "68847",
+    "population": "38639"
+  },
+  "Sedalia, Colorado": {
+    "state": "08",
+    "place": "68875",
+    "population": "177"
+  },
+  "Segundo, Colorado": {
+    "state": "08",
+    "place": "68985",
+    "population": "100"
+  },
+  "Seven Hills, Colorado": {
+    "state": "08",
+    "place": "69110",
+    "population": "129"
+  },
+  "Shaw Heights, Colorado": {
+    "state": "08",
+    "place": "69480",
+    "population": "5185"
+  },
+  "Sherrelwood, Colorado": {
+    "state": "08",
+    "place": "69810",
+    "population": "19228"
+  },
+  "Sierra Ridge, Colorado": {
+    "state": "08",
+    "place": "70112",
+    "population": "3490"
+  },
+  "Smeltertown, Colorado": {
+    "state": "08",
+    "place": "71625",
+    "population": "88"
+  },
+  "Snyder, Colorado": {
+    "state": "08",
+    "place": "71790",
+    "population": "136"
+  },
+  "Somerset, Colorado": {
+    "state": "08",
+    "place": "71845",
+    "population": "55"
+  },
+  "Southern Ute, Colorado": {
+    "state": "08",
+    "place": "72320",
+    "population": "158"
+  },
+  "Stepping Stone, Colorado": {
+    "state": "08",
+    "place": "73925",
+    "population": "2780"
+  },
+  "Sterling Ranch, Colorado": {
+    "state": "08",
+    "place": "73943",
+    "population": "1789"
+  },
+  "Stonegate, Colorado": {
+    "state": "08",
+    "place": "74080",
+    "population": "9072"
+  },
+  "Stonewall Gap, Colorado": {
+    "state": "08",
+    "place": "74275",
+    "population": "66"
+  },
+  "Strasburg, Colorado": {
+    "state": "08",
+    "place": "74375",
+    "population": "3307"
+  },
+  "Stratmoor, Colorado": {
+    "state": "08",
+    "place": "74430",
+    "population": "6518"
+  },
+  "Sugarloaf, Colorado": {
+    "state": "08",
+    "place": "74980",
+    "population": "274"
+  },
+  "Sunshine, Colorado": {
+    "state": "08",
+    "place": "75585",
+    "population": "198"
+  },
+  "Tabernash, Colorado": {
+    "state": "08",
+    "place": "76190",
+    "population": "401"
+  },
+  "Tall Timber, Colorado": {
+    "state": "08",
+    "place": "76325",
+    "population": "185"
+  },
+  "The Pinery, Colorado": {
+    "state": "08",
+    "place": "77235",
+    "population": "11311"
+  },
+  "Todd Creek, Colorado": {
+    "state": "08",
+    "place": "77757",
+    "population": "5028"
+  },
+  "Towaoc, Colorado": {
+    "state": "08",
+    "place": "78280",
+    "population": "1120"
+  },
+  "Towner, Colorado": {
+    "state": "08",
+    "place": "78335",
+    "population": "18"
+  },
+  "Trail Side, Colorado": {
+    "state": "08",
+    "place": "78345",
+    "population": "157"
+  },
+  "Upper Bear Creek, Colorado": {
+    "state": "08",
+    "place": "79785",
+    "population": "984"
+  },
+  "Upper Witter Gulch, Colorado": {
+    "state": "08",
+    "place": "79800",
+    "population": "380"
+  },
+  "Valdez, Colorado": {
+    "state": "08",
+    "place": "80095",
+    "population": "46"
+  },
+  "Valmont, Colorado": {
+    "state": "08",
+    "place": "80370",
+    "population": "64"
+  },
+  "Vernon, Colorado": {
+    "state": "08",
+    "place": "80755",
+    "population": "38"
+  },
+  "Vineland, Colorado": {
+    "state": "08",
+    "place": "81305",
+    "population": "269"
+  },
+  "Watkins, Colorado": {
+    "state": "08",
+    "place": "82900",
+    "population": "682"
+  },
+  "Welby, Colorado": {
+    "state": "08",
+    "place": "83120",
+    "population": "15553"
+  },
+  "Weldona, Colorado": {
+    "state": "08",
+    "place": "83175",
+    "population": "113"
+  },
+  "Westcreek, Colorado": {
+    "state": "08",
+    "place": "83500",
+    "population": "120"
+  },
+  "Weston, Colorado": {
+    "state": "08",
+    "place": "84000",
+    "population": "53"
+  },
+  "West Pleasant View, Colorado": {
+    "state": "08",
+    "place": "84042",
+    "population": "4327"
+  },
+  "Wolcott, Colorado": {
+    "state": "08",
+    "place": "85760",
+    "population": "20"
+  },
+  "Woodmoor, Colorado": {
+    "state": "08",
+    "place": "86117",
+    "population": "9536"
+  },
+  "Woody Creek, Colorado": {
+    "state": "08",
+    "place": "86200",
+    "population": "290"
+  }
+}

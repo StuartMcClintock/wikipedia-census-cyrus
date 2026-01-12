@@ -1,0 +1,647 @@
+{
+  "Montmorenci, Indiana": {
+    "state": "18",
+    "place": "50778",
+    "population": "173"
+  },
+  "New Goshen, Indiana": {
+    "state": "18",
+    "place": "52956",
+    "population": "402"
+  },
+  "New Paris, Indiana": {
+    "state": "18",
+    "place": "53370",
+    "population": "1587"
+  },
+  "New Salisbury, Indiana": {
+    "state": "18",
+    "place": "53586",
+    "population": "550"
+  },
+  "New Trenton, Indiana": {
+    "state": "18",
+    "place": "53712",
+    "population": "269"
+  },
+  "New Washington, Indiana": {
+    "state": "18",
+    "place": "53820",
+    "population": "595"
+  },
+  "Ragsdale, Indiana": {
+    "state": "18",
+    "place": "62730",
+    "population": "119"
+  },
+  "Rainsville, Indiana": {
+    "state": "18",
+    "place": "62856",
+    "population": "28"
+  },
+  "Raub, Indiana": {
+    "state": "18",
+    "place": "63072",
+    "population": "53"
+  },
+  "Rockfield, Indiana": {
+    "state": "18",
+    "place": "65358",
+    "population": "211"
+  },
+  "Rolling Prairie, Indiana": {
+    "state": "18",
+    "place": "65736",
+    "population": "562"
+  },
+  "Romney, Indiana": {
+    "state": "18",
+    "place": "65826",
+    "population": "304"
+  },
+  "Roselawn, Indiana": {
+    "state": "18",
+    "place": "66006",
+    "population": "4132"
+  },
+  "St. Bernice, Indiana": {
+    "state": "18",
+    "place": "66762",
+    "population": "595"
+  },
+  "St. Mary of the Woods, Indiana": {
+    "state": "18",
+    "place": "67050",
+    "population": "767"
+  },
+  "St. Meinrad, Indiana": {
+    "state": "18",
+    "place": "67176",
+    "population": "664"
+  },
+  "Salt Creek Commons, Indiana": {
+    "state": "18",
+    "place": "67608",
+    "population": "1979"
+  },
+  "San Pierre, Indiana": {
+    "state": "18",
+    "place": "68004",
+    "population": "153"
+  },
+  "Scipio, Indiana": {
+    "state": "18",
+    "place": "68328",
+    "population": "197"
+  },
+  "Scotland, Indiana": {
+    "state": "18",
+    "place": "68382",
+    "population": "98"
+  },
+  "Shelby, Indiana": {
+    "state": "18",
+    "place": "69246",
+    "population": "453"
+  },
+  "Shepardsville, Indiana": {
+    "state": "18",
+    "place": "69336",
+    "population": "219"
+  },
+  "Shorewood Forest, Indiana": {
+    "state": "18",
+    "place": "69642",
+    "population": "3033"
+  },
+  "Simonton Lake, Indiana": {
+    "state": "18",
+    "place": "69840",
+    "population": "4710"
+  },
+  "Sims, Indiana": {
+    "state": "18",
+    "place": "69894",
+    "population": "164"
+  },
+  "Smithville-Sanders, Indiana": {
+    "state": "18",
+    "place": "70330",
+    "population": "3323"
+  },
+  "Somerset, Indiana": {
+    "state": "18",
+    "place": "70524",
+    "population": "385"
+  },
+  "South Haven, Indiana": {
+    "state": "18",
+    "place": "71288",
+    "population": "5084"
+  },
+  "Star City, Indiana": {
+    "state": "18",
+    "place": "72638",
+    "population": "281"
+  },
+  "Stockwell, Indiana": {
+    "state": "18",
+    "place": "73340",
+    "population": "494"
+  },
+  "Tab, Indiana": {
+    "state": "18",
+    "place": "74780",
+    "population": "36"
+  },
+  "Taylorsville, Indiana": {
+    "state": "18",
+    "place": "75104",
+    "population": "867"
+  },
+  "Tecumseh, Indiana": {
+    "state": "18",
+    "place": "75176",
+    "population": "778"
+  },
+  "Templeton, Indiana": {
+    "state": "18",
+    "place": "75284",
+    "population": "75"
+  },
+  "Toad Hop, Indiana": {
+    "state": "18",
+    "place": "76022",
+    "population": "104"
+  },
+  "Tri-Lakes, Indiana": {
+    "state": "18",
+    "place": "76526",
+    "population": "1329"
+  },
+  "Vallonia, Indiana": {
+    "state": "18",
+    "place": "78290",
+    "population": "379"
+  },
+  "Van Bibber Lake, Indiana": {
+    "state": "18",
+    "place": "78380",
+    "population": "460"
+  },
+  "Waldron, Indiana": {
+    "state": "18",
+    "place": "79568",
+    "population": "805"
+  },
+  "Westphalia, Indiana": {
+    "state": "18",
+    "place": "83204",
+    "population": "181"
+  },
+  "West Point, Indiana": {
+    "state": "18",
+    "place": "83222",
+    "population": "318"
+  },
+  "Wheeler, Indiana": {
+    "state": "18",
+    "place": "83600",
+    "population": "435"
+  },
+  "Williams, Indiana": {
+    "state": "18",
+    "place": "84338",
+    "population": "229"
+  },
+  "Aberdeen, Indiana": {
+    "state": "18",
+    "place": "00140",
+    "population": "2117"
+  },
+  "Americus, Indiana": {
+    "state": "18",
+    "place": "01396",
+    "population": "431"
+  },
+  "Arlington, Indiana": {
+    "state": "18",
+    "place": "02116",
+    "population": "408"
+  },
+  "Avoca, Indiana": {
+    "state": "18",
+    "place": "02890",
+    "population": "545"
+  },
+  "Bass Lake, Indiana": {
+    "state": "18",
+    "place": "03610",
+    "population": "1384"
+  },
+  "Blanford, Indiana": {
+    "state": "18",
+    "place": "05662",
+    "population": "280"
+  },
+  "Bright, Indiana": {
+    "state": "18",
+    "place": "07624",
+    "population": "5814"
+  },
+  "Bringhurst, Indiana": {
+    "state": "18",
+    "place": "07714",
+    "population": "215"
+  },
+  "Buck Creek, Indiana": {
+    "state": "18",
+    "place": "08812",
+    "population": "182"
+  },
+  "Buffalo, Indiana": {
+    "state": "18",
+    "place": "08992",
+    "population": "619"
+  },
+  "Burns City, Indiana": {
+    "state": "18",
+    "place": "09352",
+    "population": "114"
+  },
+  "Burrows, Indiana": {
+    "state": "18",
+    "place": "09460",
+    "population": "125"
+  },
+  "Butlerville, Indiana": {
+    "state": "18",
+    "place": "09622",
+    "population": "300"
+  },
+  "Canaan, Indiana": {
+    "state": "18",
+    "place": "10036",
+    "population": "72"
+  },
+  "Clarksburg, Indiana": {
+    "state": "18",
+    "place": "12880",
+    "population": "127"
+  },
+  "Coalmont, Indiana": {
+    "state": "18",
+    "place": "14032",
+    "population": "354"
+  },
+  "Colburn, Indiana": {
+    "state": "18",
+    "place": "14176",
+    "population": "164"
+  },
+  "Collegeville, Indiana": {
+    "state": "18",
+    "place": "14464",
+    "population": "84"
+  },
+  "Cordry Sweetwater Lakes, Indiana": {
+    "state": "18",
+    "place": "15115",
+    "population": "1274"
+  },
+  "Country Squire Lakes, Indiana": {
+    "state": "18",
+    "place": "15409",
+    "population": "3558"
+  },
+  "Deer Creek, Indiana": {
+    "state": "18",
+    "place": "17245",
+    "population": "115"
+  },
+  "Deputy, Indiana": {
+    "state": "18",
+    "place": "17812",
+    "population": "86"
+  },
+  "Dover Hill, Indiana": {
+    "state": "18",
+    "place": "18550",
+    "population": "96"
+  },
+  "Dresser, Indiana": {
+    "state": "18",
+    "place": "18658",
+    "population": "38"
+  },
+  "Dubois, Indiana": {
+    "state": "18",
+    "place": "18784",
+    "population": "478"
+  },
+  "Dunlap, Indiana": {
+    "state": "18",
+    "place": "19072",
+    "population": "6442"
+  },
+  "East Enterprise, Indiana": {
+    "state": "18",
+    "place": "19576",
+    "population": "145"
+  },
+  "Emison, Indiana": {
+    "state": "18",
+    "place": "21124",
+    "population": "145"
+  },
+  "Fish Lake, Indiana": {
+    "state": "18",
+    "place": "23386",
+    "population": "1052"
+  },
+  "Florence, Indiana": {
+    "state": "18",
+    "place": "23728",
+    "population": "60"
+  },
+  "Fontanet, Indiana": {
+    "state": "18",
+    "place": "23854",
+    "population": "347"
+  },
+  "Foster, Indiana": {
+    "state": "18",
+    "place": "25054",
+    "population": "104"
+  },
+  "Fredericksburg, Indiana": {
+    "state": "18",
+    "place": "25720",
+    "population": "129"
+  },
+  "Freelandville, Indiana": {
+    "state": "18",
+    "place": "25810",
+    "population": "617"
+  },
+  "Freetown, Indiana": {
+    "state": "18",
+    "place": "25864",
+    "population": "369"
+  },
+  "Galena, Indiana": {
+    "state": "18",
+    "place": "26206",
+    "population": "1726"
+  },
+  "Granger, Indiana": {
+    "state": "18",
+    "place": "28800",
+    "population": "30337"
+  },
+  "Green Hill, Indiana": {
+    "state": "18",
+    "place": "29592",
+    "population": "125"
+  },
+  "Grissom AFB, Indiana": {
+    "state": "18",
+    "place": "30060",
+    "population": "3009"
+  },
+  "Hanna, Indiana": {
+    "state": "18",
+    "place": "31180",
+    "population": "450"
+  },
+  "Harlan, Indiana": {
+    "state": "18",
+    "place": "31432",
+    "population": "1577"
+  },
+  "Harrodsburg, Indiana": {
+    "state": "18",
+    "place": "32170",
+    "population": "656"
+  },
+  "Hatfield, Indiana": {
+    "state": "18",
+    "place": "32494",
+    "population": "708"
+  },
+  "Hayden, Indiana": {
+    "state": "18",
+    "place": "32584",
+    "population": "501"
+  },
+  "Hedrick, Indiana": {
+    "state": "18",
+    "place": "32854",
+    "population": "67"
+  },
+  "Henryville, Indiana": {
+    "state": "18",
+    "place": "33142",
+    "population": "1878"
+  },
+  "Herbst, Indiana": {
+    "state": "18",
+    "place": "33178",
+    "population": "99"
+  },
+  "Heritage Lake, Indiana": {
+    "state": "18",
+    "place": "33187",
+    "population": "3012"
+  },
+  "Hidden Valley, Indiana": {
+    "state": "18",
+    "place": "33392",
+    "population": "5529"
+  },
+  "Highland, Indiana": {
+    "state": "18",
+    "place": "33484",
+    "population": "4435"
+  },
+  "Hoagland, Indiana": {
+    "state": "18",
+    "place": "34096",
+    "population": "824"
+  },
+  "Howe, Indiana": {
+    "state": "18",
+    "place": "34978",
+    "population": "610"
+  },
+  "Hudson Lake, Indiana": {
+    "state": "18",
+    "place": "35104",
+    "population": "1226"
+  },
+  "Idaville, Indiana": {
+    "state": "18",
+    "place": "35536",
+    "population": "440"
+  },
+  "Independence, Indiana": {
+    "state": "18",
+    "place": "35626",
+    "population": "79"
+  },
+  "Jalapa, Indiana": {
+    "state": "18",
+    "place": "37674",
+    "population": "182"
+  },
+  "Judyville, Indiana": {
+    "state": "18",
+    "place": "39096",
+    "population": "38"
+  },
+  "Kent, Indiana": {
+    "state": "18",
+    "place": "39510",
+    "population": "90"
+  },
+  "Kimmell, Indiana": {
+    "state": "18",
+    "place": "39744",
+    "population": "433"
+  },
+  "Koontz Lake, Indiana": {
+    "state": "18",
+    "place": "40464",
+    "population": "1667"
+  },
+  "Kramer, Indiana": {
+    "state": "18",
+    "place": "40536",
+    "population": "86"
+  },
+  "Lake Dalecarlia, Indiana": {
+    "state": "18",
+    "place": "41058",
+    "population": "1332"
+  },
+  "Lake Holiday, Indiana": {
+    "state": "18",
+    "place": "41211",
+    "population": "921"
+  },
+  "Lake Santee, Indiana": {
+    "state": "18",
+    "place": "41444",
+    "population": "889"
+  },
+  "Lakes of the Four Seasons, Indiana": {
+    "state": "18",
+    "place": "41530",
+    "population": "7091"
+  },
+  "Laketon, Indiana": {
+    "state": "18",
+    "place": "41562",
+    "population": "606"
+  },
+  "Lake Village, Indiana": {
+    "state": "18",
+    "place": "41652",
+    "population": "748"
+  },
+  "Landess, Indiana": {
+    "state": "18",
+    "place": "41994",
+    "population": "153"
+  },
+  "Manilla, Indiana": {
+    "state": "18",
+    "place": "46422",
+    "population": "230"
+  },
+  "Marshfield, Indiana": {
+    "state": "18",
+    "place": "47340",
+    "population": "41"
+  },
+  "Melody Hill, Indiana": {
+    "state": "18",
+    "place": "48330",
+    "population": "3689"
+  },
+  "Memphis, Indiana": {
+    "state": "18",
+    "place": "48384",
+    "population": "1077"
+  },
+  "Metamora, Indiana": {
+    "state": "18",
+    "place": "48563",
+    "population": "207"
+  },
+  "Mexico, Indiana": {
+    "state": "18",
+    "place": "48636",
+    "population": "915"
+  },
+  "Mier, Indiana": {
+    "state": "18",
+    "place": "49212",
+    "population": "67"
+  },
+  "Milroy, Indiana": {
+    "state": "18",
+    "place": "49806",
+    "population": "628"
+  },
+  "North Terre Haute, Indiana": {
+    "state": "18",
+    "place": "55098",
+    "population": "4222"
+  },
+  "Norway, Indiana": {
+    "state": "18",
+    "place": "55350",
+    "population": "327"
+  },
+  "Notre Dame, Indiana": {
+    "state": "18",
+    "place": "55386",
+    "population": "7234"
+  },
+  "Otwell, Indiana": {
+    "state": "18",
+    "place": "57384",
+    "population": "396"
+  },
+  "Owensburg, Indiana": {
+    "state": "18",
+    "place": "57510",
+    "population": "402"
+  },
+  "Painted Hills, Indiana": {
+    "state": "18",
+    "place": "57632",
+    "population": "766"
+  },
+  "Parkers Settlement, Indiana": {
+    "state": "18",
+    "place": "58050",
+    "population": "661"
+  },
+  "Pence, Indiana": {
+    "state": "18",
+    "place": "58644",
+    "population": "41"
+  },
+  "Point Isabel, Indiana": {
+    "state": "18",
+    "place": "60894",
+    "population": "114"
+  },
+  "Raglesville, Indiana": {
+    "state": "18",
+    "place": "62712",
+    "population": "115"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "Albany, Vermont": {
+    "state": "50",
+    "place": "00400",
+    "population": "166"
+  },
+  "Alburgh, Vermont": {
+    "state": "50",
+    "place": "00850",
+    "population": "571"
+  },
+  "Barton, Vermont": {
+    "state": "50",
+    "place": "03475",
+    "population": "690"
+  },
+  "Bellows Falls, Vermont": {
+    "state": "50",
+    "place": "04225",
+    "population": "2747"
+  },
+  "Cambridge, Vermont": {
+    "state": "50",
+    "place": "11425",
+    "population": "210"
+  },
+  "Derby Center, Vermont": {
+    "state": "50",
+    "place": "17425",
+    "population": "635"
+  },
+  "Derby Line, Vermont": {
+    "state": "50",
+    "place": "17500",
+    "population": "687"
+  },
+  "Enosburg Falls, Vermont": {
+    "state": "50",
+    "place": "24025",
+    "population": "1356"
+  },
+  "Essex Junction, Vermont": {
+    "state": "50",
+    "place": "24400",
+    "population": "10590"
+  },
+  "Hyde Park, Vermont": {
+    "state": "50",
+    "place": "34975",
+    "population": "410"
+  },
+  "Jacksonville, Vermont": {
+    "state": "50",
+    "place": "36025",
+    "population": "213"
+  },
+  "Jeffersonville, Vermont": {
+    "state": "50",
+    "place": "36475",
+    "population": "750"
+  },
+  "Jericho, Vermont": {
+    "state": "50",
+    "place": "36625",
+    "population": "1333"
+  },
+  "Johnson, Vermont": {
+    "state": "50",
+    "place": "37000",
+    "population": "1332"
+  },
+  "Ludlow, Vermont": {
+    "state": "50",
+    "place": "41200",
+    "population": "773"
+  },
+  "Lyndonville, Vermont": {
+    "state": "50",
+    "place": "41950",
+    "population": "1136"
+  },
+  "Manchester, Vermont": {
+    "state": "50",
+    "place": "42700",
+    "population": "783"
+  },
+  "Marshfield, Vermont": {
+    "state": "50",
+    "place": "43525",
+    "population": "229"
+  },
+  "Morrisville, Vermont": {
+    "state": "50",
+    "place": "46825",
+    "population": "2086"
+  },
+  "Newbury, Vermont": {
+    "state": "50",
+    "place": "48100",
+    "population": "447"
+  },
+  "Newfane, Vermont": {
+    "state": "50",
+    "place": "48325",
+    "population": "87"
+  },
+  "North Bennington, Vermont": {
+    "state": "50",
+    "place": "49075",
+    "population": "1716"
+  },
+  "North Troy, Vermont": {
+    "state": "50",
+    "place": "52075",
+    "population": "631"
+  },
+  "Old Bennington, Vermont": {
+    "state": "50",
+    "place": "53125",
+    "population": "156"
+  },
+  "Orleans, Vermont": {
+    "state": "50",
+    "place": "53575",
+    "population": "788"
+  },
+  "Perkinsville, Vermont": {
+    "state": "50",
+    "place": "54850",
+    "population": "108"
+  },
+  "Poultney, Vermont": {
+    "state": "50",
+    "place": "56800",
+    "population": "1079"
+  },
+  "Saxtons River, Vermont": {
+    "state": "50",
+    "place": "62950",
+    "population": "479"
+  },
+  "Swanton, Vermont": {
+    "state": "50",
+    "place": "71650",
+    "population": "2328"
+  },
+  "Wells River, Vermont": {
+    "state": "50",
+    "place": "78025",
+    "population": "431"
+  },
+  "West Burke, Vermont": {
+    "state": "50",
+    "place": "79150",
+    "population": "281"
+  },
+  "Westminster, Vermont": {
+    "state": "50",
+    "place": "81325",
+    "population": "287"
+  },
+  "Woodstock, Vermont": {
+    "state": "50",
+    "place": "85900",
+    "population": "900"
+  }
+}

@@ -1,0 +1,4822 @@
+{
+  "Baytown, Texas": {
+    "state": "48",
+    "place": "06128",
+    "population": "83701"
+  },
+  "Beach City, Texas": {
+    "state": "48",
+    "place": "06200",
+    "population": "3221"
+  },
+  "Beasley, Texas": {
+    "state": "48",
+    "place": "06272",
+    "population": "608"
+  },
+  "Beaumont, Texas": {
+    "state": "48",
+    "place": "07000",
+    "population": "115282"
+  },
+  "Beckville, Texas": {
+    "state": "48",
+    "place": "07108",
+    "population": "722"
+  },
+  "Bedford, Texas": {
+    "state": "48",
+    "place": "07132",
+    "population": "49928"
+  },
+  "Bedias, Texas": {
+    "state": "48",
+    "place": "07144",
+    "population": "361"
+  },
+  "Bee Cave, Texas": {
+    "state": "48",
+    "place": "07156",
+    "population": "9144"
+  },
+  "Beeville, Texas": {
+    "state": "48",
+    "place": "07192",
+    "population": "13669"
+  },
+  "Bellaire, Texas": {
+    "state": "48",
+    "place": "07300",
+    "population": "17202"
+  },
+  "Bellevue, Texas": {
+    "state": "48",
+    "place": "07396",
+    "population": "289"
+  },
+  "Bellmead, Texas": {
+    "state": "48",
+    "place": "07408",
+    "population": "10494"
+  },
+  "Bellville, Texas": {
+    "state": "48",
+    "place": "07432",
+    "population": "4206"
+  },
+  "Belton, Texas": {
+    "state": "48",
+    "place": "07492",
+    "population": "23054"
+  },
+  "Benavides, Texas": {
+    "state": "48",
+    "place": "07528",
+    "population": "1183"
+  },
+  "Benbrook, Texas": {
+    "state": "48",
+    "place": "07552",
+    "population": "24520"
+  },
+  "Benjamin, Texas": {
+    "state": "48",
+    "place": "07636",
+    "population": "196"
+  },
+  "Bertram, Texas": {
+    "state": "48",
+    "place": "07864",
+    "population": "1616"
+  },
+  "Beverly Hills, Texas": {
+    "state": "48",
+    "place": "08104",
+    "population": "1878"
+  },
+  "Bevil Oaks, Texas": {
+    "state": "48",
+    "place": "08128",
+    "population": "1089"
+  },
+  "Big Lake, Texas": {
+    "state": "48",
+    "place": "08212",
+    "population": "2965"
+  },
+  "Big Spring, Texas": {
+    "state": "48",
+    "place": "08236",
+    "population": "26144"
+  },
+  "Big Wells, Texas": {
+    "state": "48",
+    "place": "08260",
+    "population": "483"
+  },
+  "Bishop, Texas": {
+    "state": "48",
+    "place": "08392",
+    "population": "3174"
+  },
+  "Blackwell, Texas": {
+    "state": "48",
+    "place": "08488",
+    "population": "258"
+  },
+  "Blanco, Texas": {
+    "state": "48",
+    "place": "08536",
+    "population": "1682"
+  },
+  "Blossom, Texas": {
+    "state": "48",
+    "place": "08812",
+    "population": "1402"
+  },
+  "Blue Mound, Texas": {
+    "state": "48",
+    "place": "08860",
+    "population": "2393"
+  },
+  "Blue Ridge, Texas": {
+    "state": "48",
+    "place": "08872",
+    "population": "1180"
+  },
+  "Boerne, Texas": {
+    "state": "48",
+    "place": "09160",
+    "population": "17850"
+  },
+  "Mason, Texas": {
+    "state": "48",
+    "place": "46968",
+    "population": "2121"
+  },
+  "Mathis, Texas": {
+    "state": "48",
+    "place": "47040",
+    "population": "4333"
+  },
+  "Maud, Texas": {
+    "state": "48",
+    "place": "47088",
+    "population": "977"
+  },
+  "Maypearl, Texas": {
+    "state": "48",
+    "place": "47268",
+    "population": "939"
+  },
+  "Meadowlakes, Texas": {
+    "state": "48",
+    "place": "47330",
+    "population": "1907"
+  },
+  "Meadows Place, Texas": {
+    "state": "48",
+    "place": "47337",
+    "population": "4767"
+  },
+  "Melissa, Texas": {
+    "state": "48",
+    "place": "47496",
+    "population": "13901"
+  },
+  "Memphis, Texas": {
+    "state": "48",
+    "place": "47616",
+    "population": "2048"
+  },
+  "Menard, Texas": {
+    "state": "48",
+    "place": "47628",
+    "population": "1348"
+  },
+  "Mercedes, Texas": {
+    "state": "48",
+    "place": "47700",
+    "population": "16258"
+  },
+  "Meridian, Texas": {
+    "state": "48",
+    "place": "47760",
+    "population": "1396"
+  },
+  "Mertzon, Texas": {
+    "state": "48",
+    "place": "47832",
+    "population": "747"
+  },
+  "Mesquite, Texas": {
+    "state": "48",
+    "place": "47892",
+    "population": "150108"
+  },
+  "Mexia, Texas": {
+    "state": "48",
+    "place": "47916",
+    "population": "6893"
+  },
+  "Miami, Texas": {
+    "state": "48",
+    "place": "47988",
+    "population": "539"
+  },
+  "Midland, Texas": {
+    "state": "48",
+    "place": "48072",
+    "population": "132524"
+  },
+  "Midlothian, Texas": {
+    "state": "48",
+    "place": "48096",
+    "population": "35125"
+  },
+  "Midway, Texas": {
+    "state": "48",
+    "place": "48180",
+    "population": "173"
+  },
+  "Milano, Texas": {
+    "state": "48",
+    "place": "48336",
+    "population": "390"
+  },
+  "Miles, Texas": {
+    "state": "48",
+    "place": "48396",
+    "population": "875"
+  },
+  "Mineola, Texas": {
+    "state": "48",
+    "place": "48648",
+    "population": "4823"
+  },
+  "Mineral Wells, Texas": {
+    "state": "48",
+    "place": "48684",
+    "population": "14820"
+  },
+  "Mingus, Texas": {
+    "state": "48",
+    "place": "48720",
+    "population": "223"
+  },
+  "Mission, Texas": {
+    "state": "48",
+    "place": "48768",
+    "population": "85778"
+  },
+  "Missouri City, Texas": {
+    "state": "48",
+    "place": "48804",
+    "population": "74259"
+  },
+  "Mobeetie, Texas": {
+    "state": "48",
+    "place": "48852",
+    "population": "87"
+  },
+  "Mobile City, Texas": {
+    "state": "48",
+    "place": "48858",
+    "population": "142"
+  },
+  "Monahans, Texas": {
+    "state": "48",
+    "place": "48936",
+    "population": "7836"
+  },
+  "Mont Belvieu, Texas": {
+    "state": "48",
+    "place": "49068",
+    "population": "7654"
+  },
+  "Montgomery, Texas": {
+    "state": "48",
+    "place": "49128",
+    "population": "1948"
+  },
+  "Bogata, Texas": {
+    "state": "48",
+    "place": "09172",
+    "population": "1074"
+  },
+  "Bonham, Texas": {
+    "state": "48",
+    "place": "09328",
+    "population": "10408"
+  },
+  "Borger, Texas": {
+    "state": "48",
+    "place": "09556",
+    "population": "12551"
+  },
+  "Bovina, Texas": {
+    "state": "48",
+    "place": "09628",
+    "population": "1699"
+  },
+  "Bowie, Texas": {
+    "state": "48",
+    "place": "09640",
+    "population": "5448"
+  },
+  "Brackettville, Texas": {
+    "state": "48",
+    "place": "09868",
+    "population": "1341"
+  },
+  "Brady, Texas": {
+    "state": "48",
+    "place": "09916",
+    "population": "5118"
+  },
+  "Brazoria, Texas": {
+    "state": "48",
+    "place": "10072",
+    "population": "2866"
+  },
+  "Brazos Country, Texas": {
+    "state": "48",
+    "place": "10090",
+    "population": "514"
+  },
+  "Breckenridge, Texas": {
+    "state": "48",
+    "place": "10132",
+    "population": "5187"
+  },
+  "Bremond, Texas": {
+    "state": "48",
+    "place": "10144",
+    "population": "858"
+  },
+  "Brenham, Texas": {
+    "state": "48",
+    "place": "10156",
+    "population": "17369"
+  },
+  "Briaroaks, Texas": {
+    "state": "48",
+    "place": "10216",
+    "population": "507"
+  },
+  "Bridge City, Texas": {
+    "state": "48",
+    "place": "10252",
+    "population": "9546"
+  },
+  "Bridgeport, Texas": {
+    "state": "48",
+    "place": "10264",
+    "population": "5923"
+  },
+  "Brookshire, Texas": {
+    "state": "48",
+    "place": "10636",
+    "population": "5066"
+  },
+  "Brookside Village, Texas": {
+    "state": "48",
+    "place": "10648",
+    "population": "1548"
+  },
+  "Browndell, Texas": {
+    "state": "48",
+    "place": "10708",
+    "population": "160"
+  },
+  "Brownfield, Texas": {
+    "state": "48",
+    "place": "10720",
+    "population": "8936"
+  },
+  "Brownsboro, Texas": {
+    "state": "48",
+    "place": "10756",
+    "population": "1212"
+  },
+  "Brownsville, Texas": {
+    "state": "48",
+    "place": "10768",
+    "population": "186738"
+  },
+  "Brownwood, Texas": {
+    "state": "48",
+    "place": "10780",
+    "population": "18862"
+  },
+  "Bruceville-Eddy, Texas": {
+    "state": "48",
+    "place": "10828",
+    "population": "1413"
+  },
+  "Bryan, Texas": {
+    "state": "48",
+    "place": "10912",
+    "population": "83980"
+  },
+  "Bryson, Texas": {
+    "state": "48",
+    "place": "10960",
+    "population": "430"
+  },
+  "Buda, Texas": {
+    "state": "48",
+    "place": "11080",
+    "population": "15108"
+  },
+  "Buffalo, Texas": {
+    "state": "48",
+    "place": "11116",
+    "population": "1767"
+  },
+  "Bulverde, Texas": {
+    "state": "48",
+    "place": "11224",
+    "population": "5692"
+  },
+  "Bunker Hill Village, Texas": {
+    "state": "48",
+    "place": "11300",
+    "population": "3822"
+  },
+  "Burkburnett, Texas": {
+    "state": "48",
+    "place": "11368",
+    "population": "10939"
+  },
+  "Burke, Texas": {
+    "state": "48",
+    "place": "11380",
+    "population": "691"
+  },
+  "Moore Station, Texas": {
+    "state": "48",
+    "place": "49272",
+    "population": "160"
+  },
+  "Moran, Texas": {
+    "state": "48",
+    "place": "49320",
+    "population": "226"
+  },
+  "Morgan, Texas": {
+    "state": "48",
+    "place": "49356",
+    "population": "454"
+  },
+  "Morgan's Point, Texas": {
+    "state": "48",
+    "place": "49380",
+    "population": "273"
+  },
+  "Morgan's Point Resort, Texas": {
+    "state": "48",
+    "place": "49392",
+    "population": "4636"
+  },
+  "Morton, Texas": {
+    "state": "48",
+    "place": "49464",
+    "population": "1690"
+  },
+  "Mountain City, Texas": {
+    "state": "48",
+    "place": "49600",
+    "population": "622"
+  },
+  "Mount Calm, Texas": {
+    "state": "48",
+    "place": "49692",
+    "population": "282"
+  },
+  "Mount Enterprise, Texas": {
+    "state": "48",
+    "place": "49728",
+    "population": "505"
+  },
+  "Mount Pleasant, Texas": {
+    "state": "48",
+    "place": "49800",
+    "population": "16047"
+  },
+  "Muenster, Texas": {
+    "state": "48",
+    "place": "49932",
+    "population": "1536"
+  },
+  "Muleshoe, Texas": {
+    "state": "48",
+    "place": "49968",
+    "population": "5160"
+  },
+  "Munday, Texas": {
+    "state": "48",
+    "place": "50040",
+    "population": "1246"
+  },
+  "Murchison, Texas": {
+    "state": "48",
+    "place": "50076",
+    "population": "516"
+  },
+  "Murphy, Texas": {
+    "state": "48",
+    "place": "50100",
+    "population": "21013"
+  },
+  "Mustang Ridge, Texas": {
+    "state": "48",
+    "place": "50200",
+    "population": "944"
+  },
+  "Nacogdoches, Texas": {
+    "state": "48",
+    "place": "50256",
+    "population": "32147"
+  },
+  "Naples, Texas": {
+    "state": "48",
+    "place": "50316",
+    "population": "1387"
+  },
+  "Nash, Texas": {
+    "state": "48",
+    "place": "50352",
+    "population": "3814"
+  },
+  "Nassau Bay, Texas": {
+    "state": "48",
+    "place": "50376",
+    "population": "5347"
+  },
+  "Natalia, Texas": {
+    "state": "48",
+    "place": "50400",
+    "population": "1202"
+  },
+  "Navasota, Texas": {
+    "state": "48",
+    "place": "50472",
+    "population": "7643"
+  },
+  "Moody, Texas": {
+    "state": "48",
+    "place": "49200",
+    "population": "1376"
+  },
+  "Nazareth, Texas": {
+    "state": "48",
+    "place": "50496",
+    "population": "310"
+  },
+  "Nederland, Texas": {
+    "state": "48",
+    "place": "50580",
+    "population": "18856"
+  },
+  "Needville, Texas": {
+    "state": "48",
+    "place": "50628",
+    "population": "3089"
+  },
+  "Nevada, Texas": {
+    "state": "48",
+    "place": "50760",
+    "population": "1314"
+  },
+  "Newark, Texas": {
+    "state": "48",
+    "place": "50772",
+    "population": "1096"
+  },
+  "New Berlin, Texas": {
+    "state": "48",
+    "place": "50796",
+    "population": "656"
+  },
+  "New Boston, Texas": {
+    "state": "48",
+    "place": "50808",
+    "population": "4612"
+  },
+  "New Braunfels, Texas": {
+    "state": "48",
+    "place": "50820",
+    "population": "90403"
+  },
+  "Newcastle, Texas": {
+    "state": "48",
+    "place": "50868",
+    "population": "526"
+  },
+  "New Chapel Hill, Texas": {
+    "state": "48",
+    "place": "50876",
+    "population": "620"
+  },
+  "New Fairview, Texas": {
+    "state": "48",
+    "place": "50920",
+    "population": "1386"
+  },
+  "New Home, Texas": {
+    "state": "48",
+    "place": "51012",
+    "population": "326"
+  },
+  "Burleson, Texas": {
+    "state": "48",
+    "place": "11428",
+    "population": "47641"
+  },
+  "Burnet, Texas": {
+    "state": "48",
+    "place": "11464",
+    "population": "6436"
+  },
+  "Burton, Texas": {
+    "state": "48",
+    "place": "11536",
+    "population": "297"
+  },
+  "Byers, Texas": {
+    "state": "48",
+    "place": "11644",
+    "population": "454"
+  },
+  "Cactus, Texas": {
+    "state": "48",
+    "place": "11692",
+    "population": "3057"
+  },
+  "Caddo Mills, Texas": {
+    "state": "48",
+    "place": "11716",
+    "population": "1495"
+  },
+  "Caldwell, Texas": {
+    "state": "48",
+    "place": "11836",
+    "population": "3993"
+  },
+  "Callisburg, Texas": {
+    "state": "48",
+    "place": "11968",
+    "population": "321"
+  },
+  "Calvert, Texas": {
+    "state": "48",
+    "place": "11992",
+    "population": "962"
+  },
+  "Cameron, Texas": {
+    "state": "48",
+    "place": "12040",
+    "population": "5306"
+  },
+  "Campbell, Texas": {
+    "state": "48",
+    "place": "12112",
+    "population": "542"
+  },
+  "Camp Wood, Texas": {
+    "state": "48",
+    "place": "12388",
+    "population": "517"
+  },
+  "Canadian, Texas": {
+    "state": "48",
+    "place": "12412",
+    "population": "2339"
+  },
+  "Canton, Texas": {
+    "state": "48",
+    "place": "12496",
+    "population": "4229"
+  },
+  "Canyon, Texas": {
+    "state": "48",
+    "place": "12532",
+    "population": "14836"
+  },
+  "Carmine, Texas": {
+    "state": "48",
+    "place": "12916",
+    "population": "244"
+  },
+  "Carrizo Springs, Texas": {
+    "state": "48",
+    "place": "12988",
+    "population": "4892"
+  },
+  "Carrollton, Texas": {
+    "state": "48",
+    "place": "13024",
+    "population": "133434"
+  },
+  "Carthage, Texas": {
+    "state": "48",
+    "place": "13108",
+    "population": "6569"
+  },
+  "Cashion Community, Texas": {
+    "state": "48",
+    "place": "13198",
+    "population": "286"
+  },
+  "Castle Hills, Texas": {
+    "state": "48",
+    "place": "13276",
+    "population": "3978"
+  },
+  "Castroville, Texas": {
+    "state": "48",
+    "place": "13312",
+    "population": "2954"
+  },
+  "Cedar Hill, Texas": {
+    "state": "48",
+    "place": "13492",
+    "population": "49148"
+  },
+  "Cedar Park, Texas": {
+    "state": "48",
+    "place": "13552",
+    "population": "77595"
+  },
+  "Celeste, Texas": {
+    "state": "48",
+    "place": "13672",
+    "population": "809"
+  },
+  "Celina, Texas": {
+    "state": "48",
+    "place": "13684",
+    "population": "16739"
+  },
+  "Center, Texas": {
+    "state": "48",
+    "place": "13732",
+    "population": "5221"
+  },
+  "Centerville, Texas": {
+    "state": "48",
+    "place": "13900",
+    "population": "905"
+  },
+  "Chandler, Texas": {
+    "state": "48",
+    "place": "14224",
+    "population": "3275"
+  },
+  "New London, Texas": {
+    "state": "48",
+    "place": "51168",
+    "population": "958"
+  },
+  "New Summerfield, Texas": {
+    "state": "48",
+    "place": "51336",
+    "population": "843"
+  },
+  "Newton, Texas": {
+    "state": "48",
+    "place": "51372",
+    "population": "1633"
+  },
+  "New Waverly, Texas": {
+    "state": "48",
+    "place": "51396",
+    "population": "914"
+  },
+  "Niederwald, Texas": {
+    "state": "48",
+    "place": "51492",
+    "population": "668"
+  },
+  "Nixon, Texas": {
+    "state": "48",
+    "place": "51588",
+    "population": "2341"
+  },
+  "Nocona, Texas": {
+    "state": "48",
+    "place": "51648",
+    "population": "3002"
+  },
+  "Nolanville, Texas": {
+    "state": "48",
+    "place": "51708",
+    "population": "5917"
+  },
+  "Nome, Texas": {
+    "state": "48",
+    "place": "51720",
+    "population": "469"
+  },
+  "Noonday, Texas": {
+    "state": "48",
+    "place": "51756",
+    "population": "612"
+  },
+  "Nordheim, Texas": {
+    "state": "48",
+    "place": "51792",
+    "population": "336"
+  },
+  "North Cleveland, Texas": {
+    "state": "48",
+    "place": "51984",
+    "population": "225"
+  },
+  "North Richland Hills, Texas": {
+    "state": "48",
+    "place": "52356",
+    "population": "69917"
+  },
+  "Novice, Texas": {
+    "state": "48",
+    "place": "52668",
+    "population": "122"
+  },
+  "Oak Leaf, Texas": {
+    "state": "48",
+    "place": "53115",
+    "population": "1552"
+  },
+  "Oak Point, Texas": {
+    "state": "48",
+    "place": "53130",
+    "population": "4357"
+  },
+  "Oak Ridge North, Texas": {
+    "state": "48",
+    "place": "53190",
+    "population": "3057"
+  },
+  "O'Brien, Texas": {
+    "state": "48",
+    "place": "53304",
+    "population": "91"
+  },
+  "Odem, Texas": {
+    "state": "48",
+    "place": "53376",
+    "population": "2255"
+  },
+  "Odessa, Texas": {
+    "state": "48",
+    "place": "53388",
+    "population": "114428"
+  },
+  "O'Donnell, Texas": {
+    "state": "48",
+    "place": "53436",
+    "population": "704"
+  },
+  "Oglesby, Texas": {
+    "state": "48",
+    "place": "53520",
+    "population": "441"
+  },
+  "Old River-Winfree, Texas": {
+    "state": "48",
+    "place": "53824",
+    "population": "1315"
+  },
+  "Olmos Park, Texas": {
+    "state": "48",
+    "place": "53988",
+    "population": "2180"
+  },
+  "Olney, Texas": {
+    "state": "48",
+    "place": "54000",
+    "population": "3007"
+  },
+  "Olton, Texas": {
+    "state": "48",
+    "place": "54012",
+    "population": "1989"
+  },
+  "Omaha, Texas": {
+    "state": "48",
+    "place": "54024",
+    "population": "936"
+  },
+  "Onalaska, Texas": {
+    "state": "48",
+    "place": "54048",
+    "population": "3020"
+  },
+  "Orange, Texas": {
+    "state": "48",
+    "place": "54132",
+    "population": "19324"
+  },
+  "Orange Grove, Texas": {
+    "state": "48",
+    "place": "54168",
+    "population": "1165"
+  },
+  "Channing, Texas": {
+    "state": "48",
+    "place": "14260",
+    "population": "281"
+  },
+  "Charlotte, Texas": {
+    "state": "48",
+    "place": "14404",
+    "population": "1524"
+  },
+  "Chico, Texas": {
+    "state": "48",
+    "place": "14620",
+    "population": "946"
+  },
+  "Childress, Texas": {
+    "state": "48",
+    "place": "14668",
+    "population": "5737"
+  },
+  "Chillicothe, Texas": {
+    "state": "48",
+    "place": "14680",
+    "population": "549"
+  },
+  "China, Texas": {
+    "state": "48",
+    "place": "14704",
+    "population": "1260"
+  },
+  "Chireno, Texas": {
+    "state": "48",
+    "place": "14776",
+    "population": "370"
+  },
+  "Cibolo, Texas": {
+    "state": "48",
+    "place": "14920",
+    "population": "32276"
+  },
+  "Cisco, Texas": {
+    "state": "48",
+    "place": "15004",
+    "population": "3883"
+  },
+  "Clarendon, Texas": {
+    "state": "48",
+    "place": "15112",
+    "population": "1877"
+  },
+  "Clarksville, Texas": {
+    "state": "48",
+    "place": "15160",
+    "population": "2857"
+  },
+  "Clarksville City, Texas": {
+    "state": "48",
+    "place": "15172",
+    "population": "780"
+  },
+  "Claude, Texas": {
+    "state": "48",
+    "place": "15196",
+    "population": "1186"
+  },
+  "Clear Lake Shores, Texas": {
+    "state": "48",
+    "place": "15328",
+    "population": "1258"
+  },
+  "Cleburne, Texas": {
+    "state": "48",
+    "place": "15364",
+    "population": "31352"
+  },
+  "Cleveland, Texas": {
+    "state": "48",
+    "place": "15436",
+    "population": "7471"
+  },
+  "Clifton, Texas": {
+    "state": "48",
+    "place": "15472",
+    "population": "3465"
+  },
+  "Clute, Texas": {
+    "state": "48",
+    "place": "15652",
+    "population": "10604"
+  },
+  "Clyde, Texas": {
+    "state": "48",
+    "place": "15676",
+    "population": "3811"
+  },
+  "Cockrell Hill, Texas": {
+    "state": "48",
+    "place": "15796",
+    "population": "3815"
+  },
+  "Coldspring, Texas": {
+    "state": "48",
+    "place": "15892",
+    "population": "819"
+  },
+  "Coleman, Texas": {
+    "state": "48",
+    "place": "15916",
+    "population": "3912"
+  },
+  "College Station, Texas": {
+    "state": "48",
+    "place": "15976",
+    "population": "120511"
+  },
+  "Colleyville, Texas": {
+    "state": "48",
+    "place": "15988",
+    "population": "26057"
+  },
+  "Colmesneil, Texas": {
+    "state": "48",
+    "place": "16048",
+    "population": "542"
+  },
+  "Colorado City, Texas": {
+    "state": "48",
+    "place": "16120",
+    "population": "3991"
+  },
+  "Columbus, Texas": {
+    "state": "48",
+    "place": "16168",
+    "population": "3699"
+  },
+  "Comanche, Texas": {
+    "state": "48",
+    "place": "16192",
+    "population": "4211"
+  },
+  "Combine, Texas": {
+    "state": "48",
+    "place": "16216",
+    "population": "2245"
+  },
+  "Commerce, Texas": {
+    "state": "48",
+    "place": "16240",
+    "population": "9090"
+  },
+  "Conroe, Texas": {
+    "state": "48",
+    "place": "16432",
+    "population": "89956"
+  },
+  "Orchard, Texas": {
+    "state": "48",
+    "place": "54192",
+    "population": "313"
+  },
+  "Ore City, Texas": {
+    "state": "48",
+    "place": "54216",
+    "population": "1108"
+  },
+  "Overton, Texas": {
+    "state": "48",
+    "place": "54432",
+    "population": "2275"
+  },
+  "Ovilla, Texas": {
+    "state": "48",
+    "place": "54444",
+    "population": "4304"
+  },
+  "Oyster Creek, Texas": {
+    "state": "48",
+    "place": "54528",
+    "population": "1173"
+  },
+  "Palacios, Texas": {
+    "state": "48",
+    "place": "54684",
+    "population": "4395"
+  },
+  "Palestine, Texas": {
+    "state": "48",
+    "place": "54708",
+    "population": "18544"
+  },
+  "Palmhurst, Texas": {
+    "state": "48",
+    "place": "54780",
+    "population": "2601"
+  },
+  "Palm Valley, Texas": {
+    "state": "48",
+    "place": "54798",
+    "population": "1413"
+  },
+  "Palmview, Texas": {
+    "state": "48",
+    "place": "54804",
+    "population": "15830"
+  },
+  "Pampa, Texas": {
+    "state": "48",
+    "place": "54912",
+    "population": "16867"
+  },
+  "Panorama Village, Texas": {
+    "state": "48",
+    "place": "55008",
+    "population": "2515"
+  },
+  "Paradise, Texas": {
+    "state": "48",
+    "place": "55056",
+    "population": "475"
+  },
+  "Paris, Texas": {
+    "state": "48",
+    "place": "55080",
+    "population": "24476"
+  },
+  "Parker, Texas": {
+    "state": "48",
+    "place": "55152",
+    "population": "5462"
+  },
+  "Pasadena, Texas": {
+    "state": "48",
+    "place": "56000",
+    "population": "151950"
+  },
+  "Pattison, Texas": {
+    "state": "48",
+    "place": "56108",
+    "population": "547"
+  },
+  "Patton Village, Texas": {
+    "state": "48",
+    "place": "56156",
+    "population": "1647"
+  },
+  "Pearland, Texas": {
+    "state": "48",
+    "place": "56348",
+    "population": "125828"
+  },
+  "Pearsall, Texas": {
+    "state": "48",
+    "place": "56384",
+    "population": "7325"
+  },
+  "Pecan Gap, Texas": {
+    "state": "48",
+    "place": "56468",
+    "population": "178"
+  },
+  "Pecan Hill, Texas": {
+    "state": "48",
+    "place": "56485",
+    "population": "735"
+  },
+  "Pecos, Texas": {
+    "state": "48",
+    "place": "56516",
+    "population": "12916"
+  },
+  "Pelican Bay, Texas": {
+    "state": "48",
+    "place": "56640",
+    "population": "2049"
+  },
+  "Penitas, Texas": {
+    "state": "48",
+    "place": "56696",
+    "population": "6460"
+  },
+  "Perryton, Texas": {
+    "state": "48",
+    "place": "56912",
+    "population": "8492"
+  },
+  "Petersburg, Texas": {
+    "state": "48",
+    "place": "56996",
+    "population": "1014"
+  },
+  "Petrolia, Texas": {
+    "state": "48",
+    "place": "57044",
+    "population": "514"
+  },
+  "Petronila, Texas": {
+    "state": "48",
+    "place": "57056",
+    "population": "89"
+  },
+  "Converse, Texas": {
+    "state": "48",
+    "place": "16468",
+    "population": "27466"
+  },
+  "Cool, Texas": {
+    "state": "48",
+    "place": "16540",
+    "population": "211"
+  },
+  "Cooper, Texas": {
+    "state": "48",
+    "place": "16564",
+    "population": "1911"
+  },
+  "Coppell, Texas": {
+    "state": "48",
+    "place": "16612",
+    "population": "42983"
+  },
+  "Copperas Cove, Texas": {
+    "state": "48",
+    "place": "16624",
+    "population": "36670"
+  },
+  "Corinth, Texas": {
+    "state": "48",
+    "place": "16696",
+    "population": "22634"
+  },
+  "Corpus Christi, Texas": {
+    "state": "48",
+    "place": "17000",
+    "population": "317863"
+  },
+  "Corsicana, Texas": {
+    "state": "48",
+    "place": "17060",
+    "population": "25109"
+  },
+  "Cottonwood, Texas": {
+    "state": "48",
+    "place": "17200",
+    "population": "181"
+  },
+  "Cottonwood Shores, Texas": {
+    "state": "48",
+    "place": "17208",
+    "population": "1403"
+  },
+  "Cotulla, Texas": {
+    "state": "48",
+    "place": "17216",
+    "population": "3718"
+  },
+  "Coupland, Texas": {
+    "state": "48",
+    "place": "17312",
+    "population": "289"
+  },
+  "Cove, Texas": {
+    "state": "48",
+    "place": "17336",
+    "population": "525"
+  },
+  "Covington, Texas": {
+    "state": "48",
+    "place": "17372",
+    "population": "261"
+  },
+  "Coyote Flats, Texas": {
+    "state": "48",
+    "place": "17429",
+    "population": "345"
+  },
+  "Crandall, Texas": {
+    "state": "48",
+    "place": "17504",
+    "population": "3860"
+  },
+  "Crane, Texas": {
+    "state": "48",
+    "place": "17516",
+    "population": "3478"
+  },
+  "Cranfills Gap, Texas": {
+    "state": "48",
+    "place": "17540",
+    "population": "277"
+  },
+  "Creedmoor, Texas": {
+    "state": "48",
+    "place": "17612",
+    "population": "458"
+  },
+  "Cresson, Texas": {
+    "state": "48",
+    "place": "17648",
+    "population": "1349"
+  },
+  "Crockett, Texas": {
+    "state": "48",
+    "place": "17744",
+    "population": "6332"
+  },
+  "Crosbyton, Texas": {
+    "state": "48",
+    "place": "17768",
+    "population": "1492"
+  },
+  "Crowell, Texas": {
+    "state": "48",
+    "place": "17948",
+    "population": "769"
+  },
+  "Crowley, Texas": {
+    "state": "48",
+    "place": "17960",
+    "population": "18070"
+  },
+  "Crystal City, Texas": {
+    "state": "48",
+    "place": "18020",
+    "population": "6354"
+  },
+  "Cuero, Texas": {
+    "state": "48",
+    "place": "18092",
+    "population": "8128"
+  },
+  "Cumby, Texas": {
+    "state": "48",
+    "place": "18128",
+    "population": "679"
+  },
+  "Cushing, Texas": {
+    "state": "48",
+    "place": "18224",
+    "population": "557"
+  },
+  "Cut and Shoot, Texas": {
+    "state": "48",
+    "place": "18260",
+    "population": "1087"
+  },
+  "Daingerfield, Texas": {
+    "state": "48",
+    "place": "18464",
+    "population": "2522"
+  },
+  "Daisetta, Texas": {
+    "state": "48",
+    "place": "18476",
+    "population": "923"
+  },
+  "Dalhart, Texas": {
+    "state": "48",
+    "place": "18524",
+    "population": "8447"
+  },
+  "Dallas, Texas": {
+    "state": "48",
+    "place": "19000",
+    "population": "1304379"
+  },
+  "Dalworthington Gardens, Texas": {
+    "state": "48",
+    "place": "19084",
+    "population": "2293"
+  },
+  "Danbury, Texas": {
+    "state": "48",
+    "place": "19120",
+    "population": "1671"
+  },
+  "Dayton, Texas": {
+    "state": "48",
+    "place": "19432",
+    "population": "8777"
+  },
+  "Dayton Lakes, Texas": {
+    "state": "48",
+    "place": "19435",
+    "population": "45"
+  },
+  "Dean, Texas": {
+    "state": "48",
+    "place": "19456",
+    "population": "488"
+  },
+  "Decatur, Texas": {
+    "state": "48",
+    "place": "19528",
+    "population": "6538"
+  },
+  "DeCordova, Texas": {
+    "state": "48",
+    "place": "19570",
+    "population": "3007"
+  },
+  "Pharr, Texas": {
+    "state": "48",
+    "place": "57200",
+    "population": "79715"
+  },
+  "Pilot Point, Texas": {
+    "state": "48",
+    "place": "57476",
+    "population": "4381"
+  },
+  "Pine Forest, Texas": {
+    "state": "48",
+    "place": "57524",
+    "population": "499"
+  },
+  "Pinehurst, Texas": {
+    "state": "48",
+    "place": "57608",
+    "population": "2232"
+  },
+  "Pineland, Texas": {
+    "state": "48",
+    "place": "57644",
+    "population": "888"
+  },
+  "Piney Point Village, Texas": {
+    "state": "48",
+    "place": "57800",
+    "population": "3128"
+  },
+  "Pittsburg, Texas": {
+    "state": "48",
+    "place": "57908",
+    "population": "4335"
+  },
+  "Plainview, Texas": {
+    "state": "48",
+    "place": "57980",
+    "population": "20187"
+  },
+  "Plano, Texas": {
+    "state": "48",
+    "place": "58016",
+    "population": "285494"
+  },
+  "Plantersville, Texas": {
+    "state": "48",
+    "place": "58040",
+    "population": "464"
+  },
+  "Pleasanton, Texas": {
+    "state": "48",
+    "place": "58280",
+    "population": "10648"
+  },
+  "Plum Grove, Texas": {
+    "state": "48",
+    "place": "58448",
+    "population": "1245"
+  },
+  "Point, Texas": {
+    "state": "48",
+    "place": "58532",
+    "population": "745"
+  },
+  "Point Blank, Texas": {
+    "state": "48",
+    "place": "58556",
+    "population": "643"
+  },
+  "Point Comfort, Texas": {
+    "state": "48",
+    "place": "58568",
+    "population": "603"
+  },
+  "Port Aransas, Texas": {
+    "state": "48",
+    "place": "58808",
+    "population": "2904"
+  },
+  "Port Arthur, Texas": {
+    "state": "48",
+    "place": "58820",
+    "population": "56039"
+  },
+  "Port Isabel, Texas": {
+    "state": "48",
+    "place": "58892",
+    "population": "5028"
+  },
+  "Portland, Texas": {
+    "state": "48",
+    "place": "58904",
+    "population": "20383"
+  },
+  "Port Lavaca, Texas": {
+    "state": "48",
+    "place": "58916",
+    "population": "11557"
+  },
+  "Port Neches, Texas": {
+    "state": "48",
+    "place": "58940",
+    "population": "13692"
+  },
+  "Post, Texas": {
+    "state": "48",
+    "place": "59012",
+    "population": "4790"
+  },
+  "Poteet, Texas": {
+    "state": "48",
+    "place": "59084",
+    "population": "2795"
+  },
+  "Pflugerville, Texas": {
+    "state": "48",
+    "place": "57176",
+    "population": "65191"
+  },
+  "Prairie View, Texas": {
+    "state": "48",
+    "place": "59336",
+    "population": "8184"
+  },
+  "Premont, Texas": {
+    "state": "48",
+    "place": "59384",
+    "population": "2455"
+  },
+  "Presidio, Texas": {
+    "state": "48",
+    "place": "59396",
+    "population": "3264"
+  },
+  "Princeton, Texas": {
+    "state": "48",
+    "place": "59576",
+    "population": "17027"
+  },
+  "Progreso, Texas": {
+    "state": "48",
+    "place": "59636",
+    "population": "4807"
+  },
+  "De Kalb, Texas": {
+    "state": "48",
+    "place": "19648",
+    "population": "1527"
+  },
+  "De Leon, Texas": {
+    "state": "48",
+    "place": "19672",
+    "population": "2258"
+  },
+  "Dell City, Texas": {
+    "state": "48",
+    "place": "19708",
+    "population": "245"
+  },
+  "Del Rio, Texas": {
+    "state": "48",
+    "place": "19792",
+    "population": "34673"
+  },
+  "Denison, Texas": {
+    "state": "48",
+    "place": "19900",
+    "population": "24479"
+  },
+  "Denton, Texas": {
+    "state": "48",
+    "place": "19972",
+    "population": "139869"
+  },
+  "Deport, Texas": {
+    "state": "48",
+    "place": "20020",
+    "population": "550"
+  },
+  "DeSoto, Texas": {
+    "state": "48",
+    "place": "20092",
+    "population": "56145"
+  },
+  "Devers, Texas": {
+    "state": "48",
+    "place": "20140",
+    "population": "361"
+  },
+  "Devine, Texas": {
+    "state": "48",
+    "place": "20152",
+    "population": "4324"
+  },
+  "Diboll, Texas": {
+    "state": "48",
+    "place": "20308",
+    "population": "4457"
+  },
+  "Dickens, Texas": {
+    "state": "48",
+    "place": "20332",
+    "population": "219"
+  },
+  "Dickinson, Texas": {
+    "state": "48",
+    "place": "20344",
+    "population": "20847"
+  },
+  "Dilley, Texas": {
+    "state": "48",
+    "place": "20428",
+    "population": "3274"
+  },
+  "Dimmitt, Texas": {
+    "state": "48",
+    "place": "20464",
+    "population": "4171"
+  },
+  "Donna, Texas": {
+    "state": "48",
+    "place": "20884",
+    "population": "16797"
+  },
+  "Dorchester, Texas": {
+    "state": "48",
+    "place": "20932",
+    "population": "69"
+  },
+  "Dripping Springs, Texas": {
+    "state": "48",
+    "place": "21424",
+    "population": "4650"
+  },
+  "Driscoll, Texas": {
+    "state": "48",
+    "place": "21436",
+    "population": "680"
+  },
+  "Dublin, Texas": {
+    "state": "48",
+    "place": "21484",
+    "population": "3359"
+  },
+  "Dumas, Texas": {
+    "state": "48",
+    "place": "21556",
+    "population": "14501"
+  },
+  "Deer Park, Texas": {
+    "state": "48",
+    "place": "19624",
+    "population": "34495"
+  },
+  "Duncanville, Texas": {
+    "state": "48",
+    "place": "21628",
+    "population": "40706"
+  },
+  "Eagle Lake, Texas": {
+    "state": "48",
+    "place": "21844",
+    "population": "3442"
+  },
+  "Eagle Pass, Texas": {
+    "state": "48",
+    "place": "21892",
+    "population": "28130"
+  },
+  "Early, Texas": {
+    "state": "48",
+    "place": "21904",
+    "population": "3087"
+  },
+  "Earth, Texas": {
+    "state": "48",
+    "place": "21928",
+    "population": "901"
+  },
+  "East Bernard, Texas": {
+    "state": "48",
+    "place": "21988",
+    "population": "2218"
+  },
+  "Eastland, Texas": {
+    "state": "48",
+    "place": "22132",
+    "population": "3609"
+  },
+  "East Mountain, Texas": {
+    "state": "48",
+    "place": "22168",
+    "population": "899"
+  },
+  "Easton, Texas": {
+    "state": "48",
+    "place": "22192",
+    "population": "499"
+  },
+  "East Tawakoni, Texas": {
+    "state": "48",
+    "place": "22276",
+    "population": "824"
+  },
+  "Ector, Texas": {
+    "state": "48",
+    "place": "22516",
+    "population": "737"
+  },
+  "Edcouch, Texas": {
+    "state": "48",
+    "place": "22528",
+    "population": "2732"
+  },
+  "Eden, Texas": {
+    "state": "48",
+    "place": "22552",
+    "population": "1100"
+  },
+  "Progreso Lakes, Texas": {
+    "state": "48",
+    "place": "59642",
+    "population": "257"
+  },
+  "Quanah, Texas": {
+    "state": "48",
+    "place": "60044",
+    "population": "2279"
+  },
+  "Queen City, Texas": {
+    "state": "48",
+    "place": "60080",
+    "population": "1397"
+  },
+  "Quinlan, Texas": {
+    "state": "48",
+    "place": "60140",
+    "population": "1414"
+  },
+  "Quitaque, Texas": {
+    "state": "48",
+    "place": "60176",
+    "population": "342"
+  },
+  "Quitman, Texas": {
+    "state": "48",
+    "place": "60188",
+    "population": "1942"
+  },
+  "Ralls, Texas": {
+    "state": "48",
+    "place": "60356",
+    "population": "1665"
+  },
+  "Ranger, Texas": {
+    "state": "48",
+    "place": "60632",
+    "population": "2300"
+  },
+  "Rankin, Texas": {
+    "state": "48",
+    "place": "60668",
+    "population": "780"
+  },
+  "Ravenna, Texas": {
+    "state": "48",
+    "place": "60752",
+    "population": "175"
+  },
+  "Raymondville, Texas": {
+    "state": "48",
+    "place": "60836",
+    "population": "10236"
+  },
+  "Red Lick, Texas": {
+    "state": "48",
+    "place": "61172",
+    "population": "946"
+  },
+  "Red Oak, Texas": {
+    "state": "48",
+    "place": "61196",
+    "population": "14222"
+  },
+  "Redwater, Texas": {
+    "state": "48",
+    "place": "61340",
+    "population": "853"
+  },
+  "Reklaw, Texas": {
+    "state": "48",
+    "place": "61508",
+    "population": "332"
+  },
+  "Edinburg, Texas": {
+    "state": "48",
+    "place": "22660",
+    "population": "100243"
+  },
+  "Edna, Texas": {
+    "state": "48",
+    "place": "22720",
+    "population": "5987"
+  },
+  "Edom, Texas": {
+    "state": "48",
+    "place": "22744",
+    "population": "339"
+  },
+  "El Campo, Texas": {
+    "state": "48",
+    "place": "22864",
+    "population": "12350"
+  },
+  "El Cenizo, Texas": {
+    "state": "48",
+    "place": "22905",
+    "population": "2540"
+  },
+  "Eldorado, Texas": {
+    "state": "48",
+    "place": "22960",
+    "population": "1574"
+  },
+  "Electra, Texas": {
+    "state": "48",
+    "place": "22984",
+    "population": "2292"
+  },
+  "Elgin, Texas": {
+    "state": "48",
+    "place": "23044",
+    "population": "9784"
+  },
+  "El Lago, Texas": {
+    "state": "48",
+    "place": "23164",
+    "population": "3090"
+  },
+  "Elmendorf, Texas": {
+    "state": "48",
+    "place": "23272",
+    "population": "1862"
+  },
+  "El Paso, Texas": {
+    "state": "48",
+    "place": "24000",
+    "population": "678815"
+  },
+  "Elsa, Texas": {
+    "state": "48",
+    "place": "24036",
+    "population": "5668"
+  },
+  "Emory, Texas": {
+    "state": "48",
+    "place": "24216",
+    "population": "1251"
+  },
+  "Encinal, Texas": {
+    "state": "48",
+    "place": "24240",
+    "population": "540"
+  },
+  "Ennis, Texas": {
+    "state": "48",
+    "place": "24348",
+    "population": "20159"
+  },
+  "Escobares, Texas": {
+    "state": "48",
+    "place": "24552",
+    "population": "2588"
+  },
+  "Euless, Texas": {
+    "state": "48",
+    "place": "24768",
+    "population": "61032"
+  },
+  "Eureka, Texas": {
+    "state": "48",
+    "place": "24816",
+    "population": "313"
+  },
+  "Eustace, Texas": {
+    "state": "48",
+    "place": "24828",
+    "population": "1137"
+  },
+  "Everman, Texas": {
+    "state": "48",
+    "place": "24912",
+    "population": "6154"
+  },
+  "Fairfield, Texas": {
+    "state": "48",
+    "place": "25104",
+    "population": "2850"
+  },
+  "Fair Oaks Ranch, Texas": {
+    "state": "48",
+    "place": "25168",
+    "population": "9833"
+  },
+  "Rhome, Texas": {
+    "state": "48",
+    "place": "61700",
+    "population": "1630"
+  },
+  "Rice, Texas": {
+    "state": "48",
+    "place": "61736",
+    "population": "1203"
+  },
+  "Richardson, Texas": {
+    "state": "48",
+    "place": "61796",
+    "population": "119469"
+  },
+  "Richland Hills, Texas": {
+    "state": "48",
+    "place": "61844",
+    "population": "8621"
+  },
+  "Richmond, Texas": {
+    "state": "48",
+    "place": "61892",
+    "population": "11627"
+  },
+  "Richwood, Texas": {
+    "state": "48",
+    "place": "61904",
+    "population": "4781"
+  },
+  "Riesel, Texas": {
+    "state": "48",
+    "place": "62108",
+    "population": "1062"
+  },
+  "Rio Bravo, Texas": {
+    "state": "48",
+    "place": "62138",
+    "population": "4450"
+  },
+  "Rio Grande City, Texas": {
+    "state": "48",
+    "place": "62168",
+    "population": "15317"
+  },
+  "Rio Hondo, Texas": {
+    "state": "48",
+    "place": "62180",
+    "population": "2021"
+  },
+  "Rio Vista, Texas": {
+    "state": "48",
+    "place": "62240",
+    "population": "1008"
+  },
+  "River Oaks, Texas": {
+    "state": "48",
+    "place": "62384",
+    "population": "7646"
+  },
+  "Riverside, Texas": {
+    "state": "48",
+    "place": "62408",
+    "population": "522"
+  },
+  "Roanoke, Texas": {
+    "state": "48",
+    "place": "62504",
+    "population": "9665"
+  },
+  "Robert Lee, Texas": {
+    "state": "48",
+    "place": "62564",
+    "population": "1027"
+  },
+  "Robinson, Texas": {
+    "state": "48",
+    "place": "62588",
+    "population": "12443"
+  },
+  "Robstown, Texas": {
+    "state": "48",
+    "place": "62600",
+    "population": "10143"
+  },
+  "Roby, Texas": {
+    "state": "48",
+    "place": "62612",
+    "population": "591"
+  },
+  "Rockdale, Texas": {
+    "state": "48",
+    "place": "62672",
+    "population": "5323"
+  },
+  "Rockport, Texas": {
+    "state": "48",
+    "place": "62804",
+    "population": "10070"
+  },
+  "Rockwall, Texas": {
+    "state": "48",
+    "place": "62828",
+    "population": "47251"
+  },
+  "Rollingwood, Texas": {
+    "state": "48",
+    "place": "63008",
+    "population": "1467"
+  },
+  "Roma, Texas": {
+    "state": "48",
+    "place": "63020",
+    "population": "11561"
+  },
+  "Roman Forest, Texas": {
+    "state": "48",
+    "place": "63044",
+    "population": "1781"
+  },
+  "Ropesville, Texas": {
+    "state": "48",
+    "place": "63140",
+    "population": "430"
+  },
+  "Roscoe, Texas": {
+    "state": "48",
+    "place": "63176",
+    "population": "1271"
+  },
+  "Rosebud, Texas": {
+    "state": "48",
+    "place": "63188",
+    "population": "1296"
+  },
+  "Rose City, Texas": {
+    "state": "48",
+    "place": "63200",
+    "population": "326"
+  },
+  "Rose Hill Acres, Texas": {
+    "state": "48",
+    "place": "63272",
+    "population": "325"
+  },
+  "Rosenberg, Texas": {
+    "state": "48",
+    "place": "63284",
+    "population": "38282"
+  },
+  "Ross, Texas": {
+    "state": "48",
+    "place": "63380",
+    "population": "245"
+  },
+  "Rotan, Texas": {
+    "state": "48",
+    "place": "63464",
+    "population": "1332"
+  },
+  "Round Rock, Texas": {
+    "state": "48",
+    "place": "63500",
+    "population": "119468"
+  },
+  "Falfurrias, Texas": {
+    "state": "48",
+    "place": "25368",
+    "population": "4609"
+  },
+  "Falls City, Texas": {
+    "state": "48",
+    "place": "25392",
+    "population": "514"
+  },
+  "Farmers Branch, Texas": {
+    "state": "48",
+    "place": "25452",
+    "population": "35991"
+  },
+  "Farmersville, Texas": {
+    "state": "48",
+    "place": "25488",
+    "population": "3612"
+  },
+  "Farwell, Texas": {
+    "state": "48",
+    "place": "25548",
+    "population": "1425"
+  },
+  "Fate, Texas": {
+    "state": "48",
+    "place": "25572",
+    "population": "17958"
+  },
+  "Fayetteville, Texas": {
+    "state": "48",
+    "place": "25644",
+    "population": "246"
+  },
+  "Ferris, Texas": {
+    "state": "48",
+    "place": "25752",
+    "population": "2788"
+  },
+  "Florence, Texas": {
+    "state": "48",
+    "place": "26136",
+    "population": "1171"
+  },
+  "Floresville, Texas": {
+    "state": "48",
+    "place": "26160",
+    "population": "7203"
+  },
+  "Floydada, Texas": {
+    "state": "48",
+    "place": "26268",
+    "population": "2675"
+  },
+  "Follett, Texas": {
+    "state": "48",
+    "place": "26328",
+    "population": "373"
+  },
+  "Forest Hill, Texas": {
+    "state": "48",
+    "place": "26544",
+    "population": "13955"
+  },
+  "Forney, Texas": {
+    "state": "48",
+    "place": "26604",
+    "population": "23455"
+  },
+  "Forsan, Texas": {
+    "state": "48",
+    "place": "26640",
+    "population": "225"
+  },
+  "Fort Stockton, Texas": {
+    "state": "48",
+    "place": "26808",
+    "population": "8466"
+  },
+  "Fort Worth, Texas": {
+    "state": "48",
+    "place": "27000",
+    "population": "918915"
+  },
+  "Franklin, Texas": {
+    "state": "48",
+    "place": "27288",
+    "population": "1614"
+  },
+  "Fredericksburg, Texas": {
+    "state": "48",
+    "place": "27348",
+    "population": "10875"
+  },
+  "Freeport, Texas": {
+    "state": "48",
+    "place": "27420",
+    "population": "10696"
+  },
+  "Freer, Texas": {
+    "state": "48",
+    "place": "27432",
+    "population": "2461"
+  },
+  "Friendswood, Texas": {
+    "state": "48",
+    "place": "27648",
+    "population": "41213"
+  },
+  "Friona, Texas": {
+    "state": "48",
+    "place": "27660",
+    "population": "4171"
+  },
+  "Frisco, Texas": {
+    "state": "48",
+    "place": "27684",
+    "population": "200509"
+  },
+  "Fritch, Texas": {
+    "state": "48",
+    "place": "27696",
+    "population": "1859"
+  },
+  "Frost, Texas": {
+    "state": "48",
+    "place": "27768",
+    "population": "620"
+  },
+  "Fruitvale, Texas": {
+    "state": "48",
+    "place": "27804",
+    "population": "476"
+  },
+  "Fulshear, Texas": {
+    "state": "48",
+    "place": "27876",
+    "population": "16856"
+  },
+  "Gainesville, Texas": {
+    "state": "48",
+    "place": "27984",
+    "population": "17394"
+  },
+  "Roxton, Texas": {
+    "state": "48",
+    "place": "63584",
+    "population": "548"
+  },
+  "Royse City, Texas": {
+    "state": "48",
+    "place": "63668",
+    "population": "13508"
+  },
+  "Runaway Bay, Texas": {
+    "state": "48",
+    "place": "63782",
+    "population": "1546"
+  },
+  "Rusk, Texas": {
+    "state": "48",
+    "place": "63848",
+    "population": "5285"
+  },
+  "Sabinal, Texas": {
+    "state": "48",
+    "place": "64004",
+    "population": "1364"
+  },
+  "Sachse, Texas": {
+    "state": "48",
+    "place": "64064",
+    "population": "27103"
+  },
+  "Sadler, Texas": {
+    "state": "48",
+    "place": "64088",
+    "population": "336"
+  },
+  "Saginaw, Texas": {
+    "state": "48",
+    "place": "64112",
+    "population": "23890"
+  },
+  "St. Jo, Texas": {
+    "state": "48",
+    "place": "64184",
+    "population": "881"
+  },
+  "San Angelo, Texas": {
+    "state": "48",
+    "place": "64472",
+    "population": "99893"
+  },
+  "San Antonio, Texas": {
+    "state": "48",
+    "place": "65000",
+    "population": "1434625"
+  },
+  "San Augustine, Texas": {
+    "state": "48",
+    "place": "65024",
+    "population": "1920"
+  },
+  "San Benito, Texas": {
+    "state": "48",
+    "place": "65036",
+    "population": "24861"
+  },
+  "San Diego, Texas": {
+    "state": "48",
+    "place": "65180",
+    "population": "3748"
+  },
+  "Sandy Oaks, Texas": {
+    "state": "48",
+    "place": "65344",
+    "population": "5075"
+  },
+  "Sandy Point, Texas": {
+    "state": "48",
+    "place": "65345",
+    "population": "207"
+  },
+  "San Elizario, Texas": {
+    "state": "48",
+    "place": "65360",
+    "population": "10116"
+  },
+  "Rowlett, Texas": {
+    "state": "48",
+    "place": "63572",
+    "population": "62535"
+  },
+  "Sanger, Texas": {
+    "state": "48",
+    "place": "65408",
+    "population": "8839"
+  },
+  "San Juan, Texas": {
+    "state": "48",
+    "place": "65516",
+    "population": "35294"
+  },
+  "San Marcos, Texas": {
+    "state": "48",
+    "place": "65600",
+    "population": "67553"
+  },
+  "San Patricio, Texas": {
+    "state": "48",
+    "place": "65612",
+    "population": "384"
+  },
+  "San Perlita, Texas": {
+    "state": "48",
+    "place": "65636",
+    "population": "538"
+  },
+  "San Saba, Texas": {
+    "state": "48",
+    "place": "65648",
+    "population": "3117"
+  },
+  "Sansom Park, Texas": {
+    "state": "48",
+    "place": "65660",
+    "population": "5454"
+  },
+  "Santa Clara, Texas": {
+    "state": "48",
+    "place": "65690",
+    "population": "778"
+  },
+  "Galena Park, Texas": {
+    "state": "48",
+    "place": "27996",
+    "population": "10740"
+  },
+  "Gallatin, Texas": {
+    "state": "48",
+    "place": "28008",
+    "population": "321"
+  },
+  "Galveston, Texas": {
+    "state": "48",
+    "place": "28068",
+    "population": "53695"
+  },
+  "Ganado, Texas": {
+    "state": "48",
+    "place": "28080",
+    "population": "1975"
+  },
+  "Garden Ridge, Texas": {
+    "state": "48",
+    "place": "28248",
+    "population": "4186"
+  },
+  "Garland, Texas": {
+    "state": "48",
+    "place": "29000",
+    "population": "246018"
+  },
+  "Garrison, Texas": {
+    "state": "48",
+    "place": "29060",
+    "population": "789"
+  },
+  "Gatesville, Texas": {
+    "state": "48",
+    "place": "29168",
+    "population": "16135"
+  },
+  "Georgetown, Texas": {
+    "state": "48",
+    "place": "29336",
+    "population": "67176"
+  },
+  "George West, Texas": {
+    "state": "48",
+    "place": "29348",
+    "population": "2171"
+  },
+  "Gholson, Texas": {
+    "state": "48",
+    "place": "29408",
+    "population": "1250"
+  },
+  "Giddings, Texas": {
+    "state": "48",
+    "place": "29432",
+    "population": "4969"
+  },
+  "Gilmer, Texas": {
+    "state": "48",
+    "place": "29564",
+    "population": "4843"
+  },
+  "Gladewater, Texas": {
+    "state": "48",
+    "place": "29660",
+    "population": "6134"
+  },
+  "Glenn Heights, Texas": {
+    "state": "48",
+    "place": "29840",
+    "population": "15819"
+  },
+  "Glen Rose, Texas": {
+    "state": "48",
+    "place": "29876",
+    "population": "2659"
+  },
+  "Godley, Texas": {
+    "state": "48",
+    "place": "29972",
+    "population": "1450"
+  },
+  "Goldsmith, Texas": {
+    "state": "48",
+    "place": "30044",
+    "population": "236"
+  },
+  "Goldthwaite, Texas": {
+    "state": "48",
+    "place": "30056",
+    "population": "1738"
+  },
+  "Goliad, Texas": {
+    "state": "48",
+    "place": "30080",
+    "population": "1620"
+  },
+  "Golinda, Texas": {
+    "state": "48",
+    "place": "30092",
+    "population": "618"
+  },
+  "Gonzales, Texas": {
+    "state": "48",
+    "place": "30116",
+    "population": "7165"
+  },
+  "Goodlow, Texas": {
+    "state": "48",
+    "place": "30188",
+    "population": "178"
+  },
+  "Goodrich, Texas": {
+    "state": "48",
+    "place": "30224",
+    "population": "248"
+  },
+  "Gordon, Texas": {
+    "state": "48",
+    "place": "30272",
+    "population": "470"
+  },
+  "Goree, Texas": {
+    "state": "48",
+    "place": "30296",
+    "population": "158"
+  },
+  "Gorman, Texas": {
+    "state": "48",
+    "place": "30308",
+    "population": "976"
+  },
+  "Graford, Texas": {
+    "state": "48",
+    "place": "30380",
+    "population": "669"
+  },
+  "Graham, Texas": {
+    "state": "48",
+    "place": "30392",
+    "population": "8732"
+  },
+  "Granbury, Texas": {
+    "state": "48",
+    "place": "30416",
+    "population": "10958"
+  },
+  "Grand Prairie, Texas": {
+    "state": "48",
+    "place": "30464",
+    "population": "196100"
+  },
+  "Grand Saline, Texas": {
+    "state": "48",
+    "place": "30476",
+    "population": "3107"
+  },
+  "Grandview, Texas": {
+    "state": "48",
+    "place": "30512",
+    "population": "1879"
+  },
+  "Granger, Texas": {
+    "state": "48",
+    "place": "30548",
+    "population": "1183"
+  },
+  "Granite Shoals, Texas": {
+    "state": "48",
+    "place": "30584",
+    "population": "5129"
+  },
+  "Granjeno, Texas": {
+    "state": "48",
+    "place": "30608",
+    "population": "283"
+  },
+  "Grapeland, Texas": {
+    "state": "48",
+    "place": "30632",
+    "population": "1465"
+  },
+  "Grapevine, Texas": {
+    "state": "48",
+    "place": "30644",
+    "population": "50631"
+  },
+  "Greenville, Texas": {
+    "state": "48",
+    "place": "30920",
+    "population": "28164"
+  },
+  "Savoy, Texas": {
+    "state": "48",
+    "place": "66008",
+    "population": "712"
+  },
+  "Schertz, Texas": {
+    "state": "48",
+    "place": "66128",
+    "population": "42002"
+  },
+  "Schulenburg, Texas": {
+    "state": "48",
+    "place": "66188",
+    "population": "2633"
+  },
+  "Scotland, Texas": {
+    "state": "48",
+    "place": "66284",
+    "population": "413"
+  },
+  "Scottsville, Texas": {
+    "state": "48",
+    "place": "66332",
+    "population": "334"
+  },
+  "Seabrook, Texas": {
+    "state": "48",
+    "place": "66392",
+    "population": "13618"
+  },
+  "Seadrift, Texas": {
+    "state": "48",
+    "place": "66416",
+    "population": "995"
+  },
+  "Seagoville, Texas": {
+    "state": "48",
+    "place": "66428",
+    "population": "18446"
+  },
+  "Seagraves, Texas": {
+    "state": "48",
+    "place": "66440",
+    "population": "2153"
+  },
+  "Sealy, Texas": {
+    "state": "48",
+    "place": "66464",
+    "population": "6839"
+  },
+  "Seguin, Texas": {
+    "state": "48",
+    "place": "66644",
+    "population": "29433"
+  },
+  "Selma, Texas": {
+    "state": "48",
+    "place": "66704",
+    "population": "10952"
+  },
+  "Seminole, Texas": {
+    "state": "48",
+    "place": "66764",
+    "population": "6988"
+  },
+  "Seven Oaks, Texas": {
+    "state": "48",
+    "place": "66884",
+    "population": "68"
+  },
+  "Seven Points, Texas": {
+    "state": "48",
+    "place": "66908",
+    "population": "1370"
+  },
+  "Seymour, Texas": {
+    "state": "48",
+    "place": "66968",
+    "population": "2575"
+  },
+  "Shallowater, Texas": {
+    "state": "48",
+    "place": "67136",
+    "population": "2964"
+  },
+  "Shamrock, Texas": {
+    "state": "48",
+    "place": "67160",
+    "population": "1789"
+  },
+  "Santa Fe, Texas": {
+    "state": "48",
+    "place": "65726",
+    "population": "12735"
+  },
+  "Shavano Park, Texas": {
+    "state": "48",
+    "place": "67268",
+    "population": "3524"
+  },
+  "Shenandoah, Texas": {
+    "state": "48",
+    "place": "67400",
+    "population": "3499"
+  },
+  "Shepherd, Texas": {
+    "state": "48",
+    "place": "67424",
+    "population": "2105"
+  },
+  "Sherman, Texas": {
+    "state": "48",
+    "place": "67496",
+    "population": "43645"
+  },
+  "Shiner, Texas": {
+    "state": "48",
+    "place": "67640",
+    "population": "2127"
+  },
+  "Shoreacres, Texas": {
+    "state": "48",
+    "place": "67688",
+    "population": "1566"
+  },
+  "Silsbee, Texas": {
+    "state": "48",
+    "place": "67832",
+    "population": "6935"
+  },
+  "Silverton, Texas": {
+    "state": "48",
+    "place": "67904",
+    "population": "629"
+  },
+  "Gregory, Texas": {
+    "state": "48",
+    "place": "31064",
+    "population": "1740"
+  },
+  "Grey Forest, Texas": {
+    "state": "48",
+    "place": "31100",
+    "population": "492"
+  },
+  "Groesbeck, Texas": {
+    "state": "48",
+    "place": "31280",
+    "population": "3631"
+  },
+  "Groves, Texas": {
+    "state": "48",
+    "place": "31328",
+    "population": "17335"
+  },
+  "Groveton, Texas": {
+    "state": "48",
+    "place": "31340",
+    "population": "918"
+  },
+  "Gruver, Texas": {
+    "state": "48",
+    "place": "31412",
+    "population": "1130"
+  },
+  "Gun Barrel City, Texas": {
+    "state": "48",
+    "place": "31592",
+    "population": "6190"
+  },
+  "Gunter, Texas": {
+    "state": "48",
+    "place": "31616",
+    "population": "2060"
+  },
+  "Hale Center, Texas": {
+    "state": "48",
+    "place": "31820",
+    "population": "2062"
+  },
+  "Hallettsville, Texas": {
+    "state": "48",
+    "place": "31868",
+    "population": "2731"
+  },
+  "Hallsburg, Texas": {
+    "state": "48",
+    "place": "31880",
+    "population": "419"
+  },
+  "Hallsville, Texas": {
+    "state": "48",
+    "place": "31904",
+    "population": "4277"
+  },
+  "Haltom City, Texas": {
+    "state": "48",
+    "place": "31928",
+    "population": "46073"
+  },
+  "Hamilton, Texas": {
+    "state": "48",
+    "place": "31952",
+    "population": "2895"
+  },
+  "Hamlin, Texas": {
+    "state": "48",
+    "place": "31964",
+    "population": "1831"
+  },
+  "Hardin, Texas": {
+    "state": "48",
+    "place": "32240",
+    "population": "768"
+  },
+  "Harker Heights, Texas": {
+    "state": "48",
+    "place": "32312",
+    "population": "33097"
+  },
+  "Harlingen, Texas": {
+    "state": "48",
+    "place": "32372",
+    "population": "71829"
+  },
+  "Hart, Texas": {
+    "state": "48",
+    "place": "32576",
+    "population": "869"
+  },
+  "Haskell, Texas": {
+    "state": "48",
+    "place": "32696",
+    "population": "3089"
+  },
+  "Haslet, Texas": {
+    "state": "48",
+    "place": "32720",
+    "population": "1952"
+  },
+  "Hawk Cove, Texas": {
+    "state": "48",
+    "place": "32810",
+    "population": "452"
+  },
+  "Hawkins, Texas": {
+    "state": "48",
+    "place": "32816",
+    "population": "1274"
+  },
+  "Hawley, Texas": {
+    "state": "48",
+    "place": "32840",
+    "population": "545"
+  },
+  "Hays, Texas": {
+    "state": "48",
+    "place": "32906",
+    "population": "227"
+  },
+  "Hearne, Texas": {
+    "state": "48",
+    "place": "32972",
+    "population": "4544"
+  },
+  "Heath, Texas": {
+    "state": "48",
+    "place": "32984",
+    "population": "9769"
+  },
+  "Hedley, Texas": {
+    "state": "48",
+    "place": "33044",
+    "population": "275"
+  },
+  "Hedwig Village, Texas": {
+    "state": "48",
+    "place": "33068",
+    "population": "2370"
+  },
+  "Helotes, Texas": {
+    "state": "48",
+    "place": "33146",
+    "population": "9030"
+  },
+  "Hemphill, Texas": {
+    "state": "48",
+    "place": "33188",
+    "population": "1029"
+  },
+  "Hempstead, Texas": {
+    "state": "48",
+    "place": "33200",
+    "population": "5430"
+  },
+  "Henderson, Texas": {
+    "state": "48",
+    "place": "33212",
+    "population": "13271"
+  },
+  "Henrietta, Texas": {
+    "state": "48",
+    "place": "33284",
+    "population": "3111"
+  },
+  "Hereford, Texas": {
+    "state": "48",
+    "place": "33320",
+    "population": "14972"
+  },
+  "Hewitt, Texas": {
+    "state": "48",
+    "place": "33428",
+    "population": "16026"
+  },
+  "Simonton, Texas": {
+    "state": "48",
+    "place": "67964",
+    "population": "647"
+  },
+  "Sinton, Texas": {
+    "state": "48",
+    "place": "68036",
+    "population": "5504"
+  },
+  "Slaton, Texas": {
+    "state": "48",
+    "place": "68180",
+    "population": "5858"
+  },
+  "Smiley, Texas": {
+    "state": "48",
+    "place": "68300",
+    "population": "475"
+  },
+  "Smithville, Texas": {
+    "state": "48",
+    "place": "68456",
+    "population": "3922"
+  },
+  "Snook, Texas": {
+    "state": "48",
+    "place": "68576",
+    "population": "506"
+  },
+  "Snyder, Texas": {
+    "state": "48",
+    "place": "68624",
+    "population": "11438"
+  },
+  "Socorro, Texas": {
+    "state": "48",
+    "place": "68636",
+    "population": "34306"
+  },
+  "Somerset, Texas": {
+    "state": "48",
+    "place": "68708",
+    "population": "1756"
+  },
+  "Somerville, Texas": {
+    "state": "48",
+    "place": "68720",
+    "population": "1312"
+  },
+  "Sonora, Texas": {
+    "state": "48",
+    "place": "68756",
+    "population": "2502"
+  },
+  "Sour Lake, Texas": {
+    "state": "48",
+    "place": "68828",
+    "population": "1773"
+  },
+  "South Frydek, Texas": {
+    "state": "48",
+    "place": "68978",
+    "population": "207"
+  },
+  "South Houston, Texas": {
+    "state": "48",
+    "place": "69020",
+    "population": "16153"
+  },
+  "Southlake, Texas": {
+    "state": "48",
+    "place": "69032",
+    "population": "31265"
+  },
+  "Southmayd, Texas": {
+    "state": "48",
+    "place": "69104",
+    "population": "978"
+  },
+  "Southside Place, Texas": {
+    "state": "48",
+    "place": "69272",
+    "population": "1835"
+  },
+  "Spearman, Texas": {
+    "state": "48",
+    "place": "69476",
+    "population": "3171"
+  },
+  "Splendora, Texas": {
+    "state": "48",
+    "place": "69548",
+    "population": "1683"
+  },
+  "Spofford, Texas": {
+    "state": "48",
+    "place": "69560",
+    "population": "41"
+  },
+  "Spring Branch, Texas": {
+    "state": "48",
+    "place": "69608",
+    "population": "206"
+  },
+  "Springtown, Texas": {
+    "state": "48",
+    "place": "69800",
+    "population": "3064"
+  },
+  "Spring Valley Village, Texas": {
+    "state": "48",
+    "place": "69830",
+    "population": "4229"
+  },
+  "Spur, Texas": {
+    "state": "48",
+    "place": "69848",
+    "population": "863"
+  },
+  "Stafford, Texas": {
+    "state": "48",
+    "place": "69908",
+    "population": "17666"
+  },
+  "Stamford, Texas": {
+    "state": "48",
+    "place": "69980",
+    "population": "2907"
+  },
+  "Stanton, Texas": {
+    "state": "48",
+    "place": "70040",
+    "population": "2657"
+  },
+  "Staples, Texas": {
+    "state": "48",
+    "place": "70052",
+    "population": "193"
+  },
+  "Star Harbor, Texas": {
+    "state": "48",
+    "place": "70076",
+    "population": "482"
+  },
+  "Stephenville, Texas": {
+    "state": "48",
+    "place": "70208",
+    "population": "20897"
+  },
+  "Sterling City, Texas": {
+    "state": "48",
+    "place": "70232",
+    "population": "1121"
+  },
+  "Stinnett, Texas": {
+    "state": "48",
+    "place": "70340",
+    "population": "1650"
+  },
+  "Stockdale, Texas": {
+    "state": "48",
+    "place": "70376",
+    "population": "1413"
+  },
+  "Stockton Bend, Texas": {
+    "state": "48",
+    "place": "70406",
+    "population": "380"
+  },
+  "Stratford, Texas": {
+    "state": "48",
+    "place": "70544",
+    "population": "1939"
+  },
+  "Strawn, Texas": {
+    "state": "48",
+    "place": "70580",
+    "population": "540"
+  },
+  "Hidalgo, Texas": {
+    "state": "48",
+    "place": "33560",
+    "population": "13964"
+  },
+  "Hideaway, Texas": {
+    "state": "48",
+    "place": "33578",
+    "population": "3201"
+  },
+  "Higgins, Texas": {
+    "state": "48",
+    "place": "33608",
+    "population": "356"
+  },
+  "Highland Haven, Texas": {
+    "state": "48",
+    "place": "33794",
+    "population": "418"
+  },
+  "Highland Village, Texas": {
+    "state": "48",
+    "place": "33848",
+    "population": "15899"
+  },
+  "Hill Country Village, Texas": {
+    "state": "48",
+    "place": "33968",
+    "population": "942"
+  },
+  "Hillsboro, Texas": {
+    "state": "48",
+    "place": "34088",
+    "population": "8221"
+  },
+  "Hilshire Village, Texas": {
+    "state": "48",
+    "place": "34148",
+    "population": "816"
+  },
+  "Hitchcock, Texas": {
+    "state": "48",
+    "place": "34220",
+    "population": "7301"
+  },
+  "Holliday, Texas": {
+    "state": "48",
+    "place": "34532",
+    "population": "1524"
+  },
+  "Hondo, Texas": {
+    "state": "48",
+    "place": "34676",
+    "population": "8289"
+  },
+  "Honey Grove, Texas": {
+    "state": "48",
+    "place": "34700",
+    "population": "1715"
+  },
+  "Hooks, Texas": {
+    "state": "48",
+    "place": "34736",
+    "population": "2518"
+  },
+  "Horizon City, Texas": {
+    "state": "48",
+    "place": "34832",
+    "population": "22489"
+  },
+  "Horseshoe Bay, Texas": {
+    "state": "48",
+    "place": "34862",
+    "population": "4257"
+  },
+  "Houston, Texas": {
+    "state": "48",
+    "place": "35000",
+    "population": "2304580"
+  },
+  "Howardwick, Texas": {
+    "state": "48",
+    "place": "35072",
+    "population": "370"
+  },
+  "Hubbard, Texas": {
+    "state": "48",
+    "place": "35180",
+    "population": "1394"
+  },
+  "Hudson, Texas": {
+    "state": "48",
+    "place": "35228",
+    "population": "4849"
+  },
+  "Hudson Oaks, Texas": {
+    "state": "48",
+    "place": "35254",
+    "population": "2174"
+  },
+  "Hughes Springs, Texas": {
+    "state": "48",
+    "place": "35300",
+    "population": "1575"
+  },
+  "Hico, Texas": {
+    "state": "48",
+    "place": "33548",
+    "population": "1335"
+  },
+  "Humble, Texas": {
+    "state": "48",
+    "place": "35348",
+    "population": "16795"
+  },
+  "Hunters Creek Village, Texas": {
+    "state": "48",
+    "place": "35480",
+    "population": "4385"
+  },
+  "Huntington, Texas": {
+    "state": "48",
+    "place": "35492",
+    "population": "2025"
+  },
+  "Huntsville, Texas": {
+    "state": "48",
+    "place": "35528",
+    "population": "45941"
+  },
+  "Hurst, Texas": {
+    "state": "48",
+    "place": "35576",
+    "population": "40413"
+  },
+  "Hutchins, Texas": {
+    "state": "48",
+    "place": "35612",
+    "population": "5607"
+  },
+  "Hutto, Texas": {
+    "state": "48",
+    "place": "35624",
+    "population": "27577"
+  },
+  "Huxley, Texas": {
+    "state": "48",
+    "place": "35636",
+    "population": "361"
+  },
+  "Idalou, Texas": {
+    "state": "48",
+    "place": "35732",
+    "population": "2193"
+  },
+  "Sudan, Texas": {
+    "state": "48",
+    "place": "70772",
+    "population": "940"
+  },
+  "Sugar Land, Texas": {
+    "state": "48",
+    "place": "70808",
+    "population": "111026"
+  },
+  "Sullivan City, Texas": {
+    "state": "48",
+    "place": "70868",
+    "population": "3908"
+  },
+  "Sulphur Springs, Texas": {
+    "state": "48",
+    "place": "70904",
+    "population": "15941"
+  },
+  "Sundown, Texas": {
+    "state": "48",
+    "place": "71060",
+    "population": "1283"
+  },
+  "Sunray, Texas": {
+    "state": "48",
+    "place": "71180",
+    "population": "1707"
+  },
+  "Sunrise Beach Village, Texas": {
+    "state": "48",
+    "place": "71228",
+    "population": "739"
+  },
+  "Sunset Valley, Texas": {
+    "state": "48",
+    "place": "71324",
+    "population": "683"
+  },
+  "Sun Valley, Texas": {
+    "state": "48",
+    "place": "71356",
+    "population": "70"
+  },
+  "Surfside Beach, Texas": {
+    "state": "48",
+    "place": "71384",
+    "population": "640"
+  },
+  "Sweeny, Texas": {
+    "state": "48",
+    "place": "71492",
+    "population": "3626"
+  },
+  "Sweetwater, Texas": {
+    "state": "48",
+    "place": "71540",
+    "population": "10622"
+  },
+  "Taft, Texas": {
+    "state": "48",
+    "place": "71684",
+    "population": "2801"
+  },
+  "Tahoka, Texas": {
+    "state": "48",
+    "place": "71708",
+    "population": "2375"
+  },
+  "Talco, Texas": {
+    "state": "48",
+    "place": "71732",
+    "population": "494"
+  },
+  "Tatum, Texas": {
+    "state": "48",
+    "place": "71924",
+    "population": "1342"
+  },
+  "Taylor, Texas": {
+    "state": "48",
+    "place": "71948",
+    "population": "16267"
+  },
+  "Taylor Lake Village, Texas": {
+    "state": "48",
+    "place": "71960",
+    "population": "3704"
+  },
+  "Taylor Landing, Texas": {
+    "state": "48",
+    "place": "71966",
+    "population": "278"
+  },
+  "Teague, Texas": {
+    "state": "48",
+    "place": "72020",
+    "population": "3384"
+  },
+  "Temple, Texas": {
+    "state": "48",
+    "place": "72176",
+    "population": "82073"
+  },
+  "Terrell, Texas": {
+    "state": "48",
+    "place": "72284",
+    "population": "17465"
+  },
+  "Terrell Hills, Texas": {
+    "state": "48",
+    "place": "72296",
+    "population": "5045"
+  },
+  "Texarkana, Texas": {
+    "state": "48",
+    "place": "72368",
+    "population": "36193"
+  },
+  "Texas City, Texas": {
+    "state": "48",
+    "place": "72392",
+    "population": "51898"
+  },
+  "Texhoma, Texas": {
+    "state": "48",
+    "place": "72464",
+    "population": "258"
+  },
+  "The Colony, Texas": {
+    "state": "48",
+    "place": "72530",
+    "population": "44534"
+  },
+  "Thorndale, Texas": {
+    "state": "48",
+    "place": "72776",
+    "population": "1263"
+  },
+  "Thrall, Texas": {
+    "state": "48",
+    "place": "72824",
+    "population": "816"
+  },
+  "Three Rivers, Texas": {
+    "state": "48",
+    "place": "72872",
+    "population": "1474"
+  },
+  "Industry, Texas": {
+    "state": "48",
+    "place": "35984",
+    "population": "268"
+  },
+  "Ingleside, Texas": {
+    "state": "48",
+    "place": "36008",
+    "population": "9519"
+  },
+  "Ingleside on the Bay, Texas": {
+    "state": "48",
+    "place": "36020",
+    "population": "614"
+  },
+  "Ingram, Texas": {
+    "state": "48",
+    "place": "36032",
+    "population": "1787"
+  },
+  "Iola, Texas": {
+    "state": "48",
+    "place": "36068",
+    "population": "311"
+  },
+  "Iowa Park, Texas": {
+    "state": "48",
+    "place": "36104",
+    "population": "6535"
+  },
+  "Iraan, Texas": {
+    "state": "48",
+    "place": "36128",
+    "population": "1055"
+  },
+  "Iredell, Texas": {
+    "state": "48",
+    "place": "36140",
+    "population": "305"
+  },
+  "Irving, Texas": {
+    "state": "48",
+    "place": "37000",
+    "population": "256684"
+  },
+  "Itasca, Texas": {
+    "state": "48",
+    "place": "37084",
+    "population": "1562"
+  },
+  "Ivanhoe, Texas": {
+    "state": "48",
+    "place": "37112",
+    "population": "1327"
+  },
+  "Jacinto City, Texas": {
+    "state": "48",
+    "place": "37156",
+    "population": "9613"
+  },
+  "Jacksboro, Texas": {
+    "state": "48",
+    "place": "37168",
+    "population": "4184"
+  },
+  "Jacksonville, Texas": {
+    "state": "48",
+    "place": "37216",
+    "population": "13997"
+  },
+  "Jamaica Beach, Texas": {
+    "state": "48",
+    "place": "37252",
+    "population": "1078"
+  },
+  "Jarrell, Texas": {
+    "state": "48",
+    "place": "37396",
+    "population": "1753"
+  },
+  "Jasper, Texas": {
+    "state": "48",
+    "place": "37420",
+    "population": "6884"
+  },
+  "Jayton, Texas": {
+    "state": "48",
+    "place": "37468",
+    "population": "511"
+  },
+  "Jefferson, Texas": {
+    "state": "48",
+    "place": "37528",
+    "population": "1875"
+  },
+  "Jersey Village, Texas": {
+    "state": "48",
+    "place": "37612",
+    "population": "7921"
+  },
+  "Jewett, Texas": {
+    "state": "48",
+    "place": "37648",
+    "population": "793"
+  },
+  "Joaquin, Texas": {
+    "state": "48",
+    "place": "37684",
+    "population": "734"
+  },
+  "Johnson City, Texas": {
+    "state": "48",
+    "place": "37780",
+    "population": "1627"
+  },
+  "Jolly, Texas": {
+    "state": "48",
+    "place": "37924",
+    "population": "172"
+  },
+  "Jonestown, Texas": {
+    "state": "48",
+    "place": "38020",
+    "population": "2365"
+  },
+  "Josephine, Texas": {
+    "state": "48",
+    "place": "38068",
+    "population": "2119"
+  },
+  "Joshua, Texas": {
+    "state": "48",
+    "place": "38080",
+    "population": "7891"
+  },
+  "Jourdanton, Texas": {
+    "state": "48",
+    "place": "38116",
+    "population": "4094"
+  },
+  "Junction, Texas": {
+    "state": "48",
+    "place": "38248",
+    "population": "2451"
+  },
+  "Justin, Texas": {
+    "state": "48",
+    "place": "38332",
+    "population": "4409"
+  },
+  "Karnes City, Texas": {
+    "state": "48",
+    "place": "38452",
+    "population": "3111"
+  },
+  "Katy, Texas": {
+    "state": "48",
+    "place": "38476",
+    "population": "21894"
+  },
+  "Kaufman, Texas": {
+    "state": "48",
+    "place": "38488",
+    "population": "6797"
+  },
+  "Keene, Texas": {
+    "state": "48",
+    "place": "38548",
+    "population": "6387"
+  },
+  "Keller, Texas": {
+    "state": "48",
+    "place": "38632",
+    "population": "45776"
+  },
+  "Kemah, Texas": {
+    "state": "48",
+    "place": "38776",
+    "population": "1807"
+  },
+  "Kemp, Texas": {
+    "state": "48",
+    "place": "38788",
+    "population": "1129"
+  },
+  "Kempner, Texas": {
+    "state": "48",
+    "place": "38800",
+    "population": "1146"
+  },
+  "Kendleton, Texas": {
+    "state": "48",
+    "place": "38848",
+    "population": "343"
+  },
+  "Kenedy, Texas": {
+    "state": "48",
+    "place": "38860",
+    "population": "3473"
+  },
+  "Kennard, Texas": {
+    "state": "48",
+    "place": "38884",
+    "population": "272"
+  },
+  "Kennedale, Texas": {
+    "state": "48",
+    "place": "38896",
+    "population": "8517"
+  },
+  "Kerens, Texas": {
+    "state": "48",
+    "place": "38992",
+    "population": "1505"
+  },
+  "Kermit, Texas": {
+    "state": "48",
+    "place": "39004",
+    "population": "6267"
+  },
+  "Kerrville, Texas": {
+    "state": "48",
+    "place": "39040",
+    "population": "24278"
+  },
+  "Kilgore, Texas": {
+    "state": "48",
+    "place": "39124",
+    "population": "13376"
+  },
+  "Killeen, Texas": {
+    "state": "48",
+    "place": "39148",
+    "population": "153095"
+  },
+  "Kingsbury, Texas": {
+    "state": "48",
+    "place": "39292",
+    "population": "132"
+  },
+  "Timpson, Texas": {
+    "state": "48",
+    "place": "73076",
+    "population": "989"
+  },
+  "Toco, Texas": {
+    "state": "48",
+    "place": "73196",
+    "population": "91"
+  },
+  "Todd Mission, Texas": {
+    "state": "48",
+    "place": "73224",
+    "population": "121"
+  },
+  "Tolar, Texas": {
+    "state": "48",
+    "place": "73268",
+    "population": "941"
+  },
+  "Tomball, Texas": {
+    "state": "48",
+    "place": "73316",
+    "population": "12341"
+  },
+  "Tom Bean, Texas": {
+    "state": "48",
+    "place": "73328",
+    "population": "930"
+  },
+  "Tool, Texas": {
+    "state": "48",
+    "place": "73352",
+    "population": "2175"
+  },
+  "Trenton, Texas": {
+    "state": "48",
+    "place": "73592",
+    "population": "743"
+  },
+  "Trinidad, Texas": {
+    "state": "48",
+    "place": "73652",
+    "population": "860"
+  },
+  "Trinity, Texas": {
+    "state": "48",
+    "place": "73664",
+    "population": "2343"
+  },
+  "Troup, Texas": {
+    "state": "48",
+    "place": "73724",
+    "population": "2006"
+  },
+  "Troy, Texas": {
+    "state": "48",
+    "place": "73748",
+    "population": "2375"
+  },
+  "Tulia, Texas": {
+    "state": "48",
+    "place": "73868",
+    "population": "4473"
+  },
+  "Turkey, Texas": {
+    "state": "48",
+    "place": "73964",
+    "population": "317"
+  },
+  "Tuscola, Texas": {
+    "state": "48",
+    "place": "74048",
+    "population": "850"
+  },
+  "Tye, Texas": {
+    "state": "48",
+    "place": "74132",
+    "population": "1176"
+  },
+  "Tyler, Texas": {
+    "state": "48",
+    "place": "74144",
+    "population": "105995"
+  },
+  "Uhland, Texas": {
+    "state": "48",
+    "place": "74216",
+    "population": "1588"
+  },
+  "Uncertain, Texas": {
+    "state": "48",
+    "place": "74240",
+    "population": "85"
+  },
+  "Union Grove, Texas": {
+    "state": "48",
+    "place": "74312",
+    "population": "441"
+  },
+  "Union Valley, Texas": {
+    "state": "48",
+    "place": "74372",
+    "population": "370"
+  },
+  "Universal City, Texas": {
+    "state": "48",
+    "place": "74408",
+    "population": "19720"
+  },
+  "University Park, Texas": {
+    "state": "48",
+    "place": "74492",
+    "population": "25278"
+  },
+  "Uvalde, Texas": {
+    "state": "48",
+    "place": "74588",
+    "population": "15217"
+  },
+  "Valley Mills, Texas": {
+    "state": "48",
+    "place": "74732",
+    "population": "1229"
+  },
+  "Valley View, Texas": {
+    "state": "48",
+    "place": "74756",
+    "population": "737"
+  },
+  "Van, Texas": {
+    "state": "48",
+    "place": "74912",
+    "population": "2664"
+  },
+  "Van Alstyne, Texas": {
+    "state": "48",
+    "place": "74924",
+    "population": "4369"
+  },
+  "Kingsville, Texas": {
+    "state": "48",
+    "place": "39352",
+    "population": "25402"
+  },
+  "Kirby, Texas": {
+    "state": "48",
+    "place": "39448",
+    "population": "8142"
+  },
+  "Kirbyville, Texas": {
+    "state": "48",
+    "place": "39460",
+    "population": "2036"
+  },
+  "Knollwood, Texas": {
+    "state": "48",
+    "place": "39680",
+    "population": "764"
+  },
+  "Kountze, Texas": {
+    "state": "48",
+    "place": "39868",
+    "population": "1981"
+  },
+  "Kress, Texas": {
+    "state": "48",
+    "place": "39904",
+    "population": "596"
+  },
+  "Krugerville, Texas": {
+    "state": "48",
+    "place": "39916",
+    "population": "1766"
+  },
+  "Krum, Texas": {
+    "state": "48",
+    "place": "39928",
+    "population": "5483"
+  },
+  "Kyle, Texas": {
+    "state": "48",
+    "place": "39952",
+    "population": "45697"
+  },
+  "LaCoste, Texas": {
+    "state": "48",
+    "place": "40108",
+    "population": "1077"
+  },
+  "Lacy-Lakeview, Texas": {
+    "state": "48",
+    "place": "40168",
+    "population": "6988"
+  },
+  "La Feria, Texas": {
+    "state": "48",
+    "place": "40204",
+    "population": "6817"
+  },
+  "Lago Vista, Texas": {
+    "state": "48",
+    "place": "40264",
+    "population": "8896"
+  },
+  "La Grange, Texas": {
+    "state": "48",
+    "place": "40276",
+    "population": "4391"
+  },
+  "La Grulla, Texas": {
+    "state": "48",
+    "place": "40288",
+    "population": "1222"
+  },
+  "La Joya, Texas": {
+    "state": "48",
+    "place": "40384",
+    "population": "4457"
+  },
+  "Lake Bridgeport, Texas": {
+    "state": "48",
+    "place": "40450",
+    "population": "339"
+  },
+  "Lake Dallas, Texas": {
+    "state": "48",
+    "place": "40516",
+    "population": "7708"
+  },
+  "Lake Jackson, Texas": {
+    "state": "48",
+    "place": "40588",
+    "population": "28177"
+  },
+  "Lakeport, Texas": {
+    "state": "48",
+    "place": "40696",
+    "population": "976"
+  },
+  "Vega, Texas": {
+    "state": "48",
+    "place": "75188",
+    "population": "879"
+  },
+  "Vernon, Texas": {
+    "state": "48",
+    "place": "75308",
+    "population": "10078"
+  },
+  "Victoria, Texas": {
+    "state": "48",
+    "place": "75428",
+    "population": "65534"
+  },
+  "Vidor, Texas": {
+    "state": "48",
+    "place": "75476",
+    "population": "9789"
+  },
+  "Von Ormy, Texas": {
+    "state": "48",
+    "place": "75764",
+    "population": "1174"
+  },
+  "Waco, Texas": {
+    "state": "48",
+    "place": "76000",
+    "population": "138486"
+  },
+  "Waelder, Texas": {
+    "state": "48",
+    "place": "76024",
+    "population": "933"
+  },
+  "Wake Village, Texas": {
+    "state": "48",
+    "place": "76096",
+    "population": "5945"
+  },
+  "Waller, Texas": {
+    "state": "48",
+    "place": "76228",
+    "population": "2682"
+  },
+  "Wallis, Texas": {
+    "state": "48",
+    "place": "76240",
+    "population": "1292"
+  },
+  "Walnut Springs, Texas": {
+    "state": "48",
+    "place": "76348",
+    "population": "795"
+  },
+  "Warren City, Texas": {
+    "state": "48",
+    "place": "76576",
+    "population": "319"
+  },
+  "Waskom, Texas": {
+    "state": "48",
+    "place": "76636",
+    "population": "1910"
+  },
+  "Watauga, Texas": {
+    "state": "48",
+    "place": "76672",
+    "population": "23650"
+  },
+  "Waxahachie, Texas": {
+    "state": "48",
+    "place": "76816",
+    "population": "41140"
+  },
+  "Weatherford, Texas": {
+    "state": "48",
+    "place": "76864",
+    "population": "30854"
+  },
+  "Webster, Texas": {
+    "state": "48",
+    "place": "76948",
+    "population": "12499"
+  },
+  "Weimar, Texas": {
+    "state": "48",
+    "place": "77020",
+    "population": "2076"
+  },
+  "Weinert, Texas": {
+    "state": "48",
+    "place": "77044",
+    "population": "172"
+  },
+  "Weir, Texas": {
+    "state": "48",
+    "place": "77056",
+    "population": "699"
+  },
+  "Wellington, Texas": {
+    "state": "48",
+    "place": "77152",
+    "population": "1896"
+  },
+  "Wellman, Texas": {
+    "state": "48",
+    "place": "77164",
+    "population": "230"
+  },
+  "Weslaco, Texas": {
+    "state": "48",
+    "place": "77272",
+    "population": "40160"
+  },
+  "West, Texas": {
+    "state": "48",
+    "place": "77332",
+    "population": "2531"
+  },
+  "Westbrook, Texas": {
+    "state": "48",
+    "place": "77380",
+    "population": "201"
+  },
+  "West Columbia, Texas": {
+    "state": "48",
+    "place": "77416",
+    "population": "3644"
+  },
+  "West Lake Hills, Texas": {
+    "state": "48",
+    "place": "77632",
+    "population": "3444"
+  },
+  "Weston, Texas": {
+    "state": "48",
+    "place": "77740",
+    "population": "283"
+  },
+  "Weston Lakes, Texas": {
+    "state": "48",
+    "place": "77746",
+    "population": "3853"
+  },
+  "West Orange, Texas": {
+    "state": "48",
+    "place": "77752",
+    "population": "3459"
+  },
+  "West Tawakoni, Texas": {
+    "state": "48",
+    "place": "77896",
+    "population": "1895"
+  },
+  "West University Place, Texas": {
+    "state": "48",
+    "place": "77956",
+    "population": "14955"
+  },
+  "Lakeway, Texas": {
+    "state": "48",
+    "place": "40984",
+    "population": "19189"
+  },
+  "Lakewood Village, Texas": {
+    "state": "48",
+    "place": "41050",
+    "population": "635"
+  },
+  "Lake Worth, Texas": {
+    "state": "48",
+    "place": "41056",
+    "population": "4711"
+  },
+  "La Marque, Texas": {
+    "state": "48",
+    "place": "41116",
+    "population": "18030"
+  },
+  "Lamesa, Texas": {
+    "state": "48",
+    "place": "41164",
+    "population": "8674"
+  },
+  "Lampasas, Texas": {
+    "state": "48",
+    "place": "41188",
+    "population": "7291"
+  },
+  "Lancaster, Texas": {
+    "state": "48",
+    "place": "41212",
+    "population": "41275"
+  },
+  "La Porte, Texas": {
+    "state": "48",
+    "place": "41440",
+    "population": "35124"
+  },
+  "Laredo, Texas": {
+    "state": "48",
+    "place": "41464",
+    "population": "255205"
+  },
+  "Latexo, Texas": {
+    "state": "48",
+    "place": "41644",
+    "population": "232"
+  },
+  "La Vernia, Texas": {
+    "state": "48",
+    "place": "41764",
+    "population": "1077"
+  },
+  "La Villa, Texas": {
+    "state": "48",
+    "place": "41788",
+    "population": "2804"
+  },
+  "Lavon, Texas": {
+    "state": "48",
+    "place": "41800",
+    "population": "4469"
+  },
+  "La Ward, Texas": {
+    "state": "48",
+    "place": "41848",
+    "population": "176"
+  },
+  "League City, Texas": {
+    "state": "48",
+    "place": "41980",
+    "population": "114392"
+  },
+  "Leakey, Texas": {
+    "state": "48",
+    "place": "42004",
+    "population": "315"
+  },
+  "Leander, Texas": {
+    "state": "48",
+    "place": "42016",
+    "population": "59202"
+  },
+  "Leary, Texas": {
+    "state": "48",
+    "place": "42028",
+    "population": "433"
+  },
+  "Leona, Texas": {
+    "state": "48",
+    "place": "42340",
+    "population": "151"
+  },
+  "Leonard, Texas": {
+    "state": "48",
+    "place": "42352",
+    "population": "1987"
+  },
+  "Leon Valley, Texas": {
+    "state": "48",
+    "place": "42388",
+    "population": "11542"
+  },
+  "Westworth Village, Texas": {
+    "state": "48",
+    "place": "78076",
+    "population": "2585"
+  },
+  "Wharton, Texas": {
+    "state": "48",
+    "place": "78136",
+    "population": "8627"
+  },
+  "Wheeler, Texas": {
+    "state": "48",
+    "place": "78208",
+    "population": "1487"
+  },
+  "Whitehouse, Texas": {
+    "state": "48",
+    "place": "78388",
+    "population": "8257"
+  },
+  "White Oak, Texas": {
+    "state": "48",
+    "place": "78436",
+    "population": "6225"
+  },
+  "Whitesboro, Texas": {
+    "state": "48",
+    "place": "78532",
+    "population": "4074"
+  },
+  "White Settlement, Texas": {
+    "state": "48",
+    "place": "78544",
+    "population": "18269"
+  },
+  "Wichita Falls, Texas": {
+    "state": "48",
+    "place": "79000",
+    "population": "102316"
+  },
+  "Willis, Texas": {
+    "state": "48",
+    "place": "79408",
+    "population": "6431"
+  },
+  "Willow Park, Texas": {
+    "state": "48",
+    "place": "79492",
+    "population": "4936"
+  },
+  "Wills Point, Texas": {
+    "state": "48",
+    "place": "79564",
+    "population": "3747"
+  },
+  "Wilmer, Texas": {
+    "state": "48",
+    "place": "79576",
+    "population": "4974"
+  },
+  "Wilson, Texas": {
+    "state": "48",
+    "place": "79612",
+    "population": "434"
+  },
+  "Wimberley, Texas": {
+    "state": "48",
+    "place": "79624",
+    "population": "2839"
+  },
+  "Windcrest, Texas": {
+    "state": "48",
+    "place": "79672",
+    "population": "5865"
+  },
+  "Winfield, Texas": {
+    "state": "48",
+    "place": "79720",
+    "population": "422"
+  },
+  "Wink, Texas": {
+    "state": "48",
+    "place": "79768",
+    "population": "915"
+  },
+  "Winnsboro, Texas": {
+    "state": "48",
+    "place": "79816",
+    "population": "3455"
+  },
+  "Winters, Texas": {
+    "state": "48",
+    "place": "79876",
+    "population": "2345"
+  },
+  "Wixon Valley, Texas": {
+    "state": "48",
+    "place": "79919",
+    "population": "228"
+  },
+  "Wolfe City, Texas": {
+    "state": "48",
+    "place": "79948",
+    "population": "1399"
+  },
+  "Wolfforth, Texas": {
+    "state": "48",
+    "place": "79972",
+    "population": "5521"
+  },
+  "Woodbranch, Texas": {
+    "state": "48",
+    "place": "80044",
+    "population": "1330"
+  },
+  "Woodcreek, Texas": {
+    "state": "48",
+    "place": "80058",
+    "population": "1770"
+  },
+  "Woodway, Texas": {
+    "state": "48",
+    "place": "80224",
+    "population": "9383"
+  },
+  "Wylie, Texas": {
+    "state": "48",
+    "place": "80356",
+    "population": "57526"
+  },
+  "Yoakum, Texas": {
+    "state": "48",
+    "place": "80560",
+    "population": "5908"
+  },
+  "Yorktown, Texas": {
+    "state": "48",
+    "place": "80584",
+    "population": "1810"
+  },
+  "Zavalla, Texas": {
+    "state": "48",
+    "place": "80728",
+    "population": "603"
+  },
+  "Abbott, Texas": {
+    "state": "48",
+    "place": "00100",
+    "population": "352"
+  },
+  "Abernathy, Texas": {
+    "state": "48",
+    "place": "00160",
+    "population": "2865"
+  },
+  "Abilene, Texas": {
+    "state": "48",
+    "place": "01000",
+    "population": "125182"
+  },
+  "Ackerly, Texas": {
+    "state": "48",
+    "place": "01108",
+    "population": "264"
+  },
+  "Adrian, Texas": {
+    "state": "48",
+    "place": "01324",
+    "population": "128"
+  },
+  "Agua Dulce, Texas": {
+    "state": "48",
+    "place": "01396",
+    "population": "685"
+  },
+  "Alamo, Texas": {
+    "state": "48",
+    "place": "01576",
+    "population": "19493"
+  },
+  "Alamo Heights, Texas": {
+    "state": "48",
+    "place": "01600",
+    "population": "7357"
+  },
+  "Albany, Texas": {
+    "state": "48",
+    "place": "01648",
+    "population": "1854"
+  },
+  "Aledo, Texas": {
+    "state": "48",
+    "place": "01744",
+    "population": "4858"
+  },
+  "Alice, Texas": {
+    "state": "48",
+    "place": "01852",
+    "population": "17891"
+  },
+  "Allen, Texas": {
+    "state": "48",
+    "place": "01924",
+    "population": "104627"
+  },
+  "Alpine, Texas": {
+    "state": "48",
+    "place": "02104",
+    "population": "6035"
+  },
+  "Alton, Texas": {
+    "state": "48",
+    "place": "02212",
+    "population": "18198"
+  },
+  "Alvarado, Texas": {
+    "state": "48",
+    "place": "02260",
+    "population": "4739"
+  },
+  "Alvin, Texas": {
+    "state": "48",
+    "place": "02272",
+    "population": "27098"
+  },
+  "Amarillo, Texas": {
+    "state": "48",
+    "place": "03000",
+    "population": "200393"
+  },
+  "Ames, Texas": {
+    "state": "48",
+    "place": "03072",
+    "population": "937"
+  },
+  "Amherst, Texas": {
+    "state": "48",
+    "place": "03084",
+    "population": "678"
+  },
+  "Anahuac, Texas": {
+    "state": "48",
+    "place": "03144",
+    "population": "1980"
+  },
+  "Leroy, Texas": {
+    "state": "48",
+    "place": "42400",
+    "population": "354"
+  },
+  "Levelland, Texas": {
+    "state": "48",
+    "place": "42448",
+    "population": "12652"
+  },
+  "Lewisville, Texas": {
+    "state": "48",
+    "place": "42508",
+    "population": "111822"
+  },
+  "Liberty, Texas": {
+    "state": "48",
+    "place": "42568",
+    "population": "8279"
+  },
+  "Liberty Hill, Texas": {
+    "state": "48",
+    "place": "42664",
+    "population": "3646"
+  },
+  "Lindale, Texas": {
+    "state": "48",
+    "place": "42820",
+    "population": "6059"
+  },
+  "Linden, Texas": {
+    "state": "48",
+    "place": "42844",
+    "population": "1825"
+  },
+  "Lindsay, Texas": {
+    "state": "48",
+    "place": "42868",
+    "population": "1045"
+  },
+  "Lipan, Texas": {
+    "state": "48",
+    "place": "42940",
+    "population": "505"
+  },
+  "Little Elm, Texas": {
+    "state": "48",
+    "place": "43012",
+    "population": "46453"
+  },
+  "Littlefield, Texas": {
+    "state": "48",
+    "place": "43024",
+    "population": "5943"
+  },
+  "Little River-Academy, Texas": {
+    "state": "48",
+    "place": "43066",
+    "population": "1992"
+  },
+  "Live Oak, Texas": {
+    "state": "48",
+    "place": "43096",
+    "population": "15781"
+  },
+  "Liverpool, Texas": {
+    "state": "48",
+    "place": "43120",
+    "population": "475"
+  },
+  "Llano, Texas": {
+    "state": "48",
+    "place": "43144",
+    "population": "3325"
+  },
+  "Lockhart, Texas": {
+    "state": "48",
+    "place": "43240",
+    "population": "14379"
+  },
+  "Log Cabin, Texas": {
+    "state": "48",
+    "place": "43354",
+    "population": "678"
+  },
+  "Lometa, Texas": {
+    "state": "48",
+    "place": "43516",
+    "population": "753"
+  },
+  "Lone Oak, Texas": {
+    "state": "48",
+    "place": "43636",
+    "population": "643"
+  },
+  "Lone Star, Texas": {
+    "state": "48",
+    "place": "43684",
+    "population": "1400"
+  },
+  "Longview, Texas": {
+    "state": "48",
+    "place": "43888",
+    "population": "81638"
+  },
+  "Lorena, Texas": {
+    "state": "48",
+    "place": "44020",
+    "population": "1785"
+  },
+  "Lorenzo, Texas": {
+    "state": "48",
+    "place": "44032",
+    "population": "964"
+  },
+  "Los Fresnos, Texas": {
+    "state": "48",
+    "place": "44116",
+    "population": "8114"
+  },
+  "Anderson, Texas": {
+    "state": "48",
+    "place": "03192",
+    "population": "193"
+  },
+  "Andrews, Texas": {
+    "state": "48",
+    "place": "03216",
+    "population": "13487"
+  },
+  "Angleton, Texas": {
+    "state": "48",
+    "place": "03264",
+    "population": "19429"
+  },
+  "Angus, Texas": {
+    "state": "48",
+    "place": "03288",
+    "population": "444"
+  },
+  "Anna, Texas": {
+    "state": "48",
+    "place": "03300",
+    "population": "16896"
+  },
+  "Anson, Texas": {
+    "state": "48",
+    "place": "03372",
+    "population": "2294"
+  },
+  "Anton, Texas": {
+    "state": "48",
+    "place": "03540",
+    "population": "907"
+  },
+  "Appleby, Texas": {
+    "state": "48",
+    "place": "03564",
+    "population": "552"
+  },
+  "Aquilla, Texas": {
+    "state": "48",
+    "place": "03588",
+    "population": "101"
+  },
+  "Aransas Pass, Texas": {
+    "state": "48",
+    "place": "03600",
+    "population": "7941"
+  },
+  "Archer City, Texas": {
+    "state": "48",
+    "place": "03696",
+    "population": "1601"
+  },
+  "Arcola, Texas": {
+    "state": "48",
+    "place": "03708",
+    "population": "2034"
+  },
+  "Argyle, Texas": {
+    "state": "48",
+    "place": "03768",
+    "population": "4403"
+  },
+  "Arlington, Texas": {
+    "state": "48",
+    "place": "04000",
+    "population": "394266"
+  },
+  "Arp, Texas": {
+    "state": "48",
+    "place": "04156",
+    "population": "892"
+  },
+  "Asherton, Texas": {
+    "state": "48",
+    "place": "04300",
+    "population": "722"
+  },
+  "Athens, Texas": {
+    "state": "48",
+    "place": "04504",
+    "population": "12857"
+  },
+  "Atlanta, Texas": {
+    "state": "48",
+    "place": "04516",
+    "population": "5433"
+  },
+  "Aubrey, Texas": {
+    "state": "48",
+    "place": "04600",
+    "population": "5006"
+  },
+  "Aurora, Texas": {
+    "state": "48",
+    "place": "04672",
+    "population": "1390"
+  },
+  "Austin, Texas": {
+    "state": "48",
+    "place": "05000",
+    "population": "961855"
+  },
+  "Austwell, Texas": {
+    "state": "48",
+    "place": "05036",
+    "population": "118"
+  },
+  "Azle, Texas": {
+    "state": "48",
+    "place": "05168",
+    "population": "13369"
+  },
+  "Bailey, Texas": {
+    "state": "48",
+    "place": "05264",
+    "population": "220"
+  },
+  "Baird, Texas": {
+    "state": "48",
+    "place": "05336",
+    "population": "1479"
+  },
+  "Balch Springs, Texas": {
+    "state": "48",
+    "place": "05372",
+    "population": "27685"
+  },
+  "Balcones Heights, Texas": {
+    "state": "48",
+    "place": "05384",
+    "population": "2746"
+  },
+  "Ballinger, Texas": {
+    "state": "48",
+    "place": "05456",
+    "population": "3619"
+  },
+  "Balmorhea, Texas": {
+    "state": "48",
+    "place": "05468",
+    "population": "408"
+  },
+  "Bandera, Texas": {
+    "state": "48",
+    "place": "05528",
+    "population": "829"
+  },
+  "Bangs, Texas": {
+    "state": "48",
+    "place": "05552",
+    "population": "1540"
+  },
+  "Bardwell, Texas": {
+    "state": "48",
+    "place": "05612",
+    "population": "625"
+  },
+  "Barry, Texas": {
+    "state": "48",
+    "place": "05708",
+    "population": "220"
+  },
+  "Barstow, Texas": {
+    "state": "48",
+    "place": "05720",
+    "population": "265"
+  },
+  "Bartlett, Texas": {
+    "state": "48",
+    "place": "05732",
+    "population": "1633"
+  },
+  "Bastrop, Texas": {
+    "state": "48",
+    "place": "05864",
+    "population": "9688"
+  },
+  "Bay City, Texas": {
+    "state": "48",
+    "place": "05984",
+    "population": "18061"
+  },
+  "Bayou Vista, Texas": {
+    "state": "48",
+    "place": "06060",
+    "population": "1763"
+  },
+  "Los Ybanez, Texas": {
+    "state": "48",
+    "place": "44170",
+    "population": "28"
+  },
+  "Lott, Texas": {
+    "state": "48",
+    "place": "44176",
+    "population": "644"
+  },
+  "Lovelady, Texas": {
+    "state": "48",
+    "place": "44260",
+    "population": "570"
+  },
+  "Lowry Crossing, Texas": {
+    "state": "48",
+    "place": "44308",
+    "population": "1689"
+  },
+  "Lubbock, Texas": {
+    "state": "48",
+    "place": "45000",
+    "population": "257141"
+  },
+  "Lucas, Texas": {
+    "state": "48",
+    "place": "45012",
+    "population": "7612"
+  },
+  "Lueders, Texas": {
+    "state": "48",
+    "place": "45048",
+    "population": "258"
+  },
+  "Lufkin, Texas": {
+    "state": "48",
+    "place": "45072",
+    "population": "34143"
+  },
+  "Luling, Texas": {
+    "state": "48",
+    "place": "45096",
+    "population": "5599"
+  },
+  "Lumberton, Texas": {
+    "state": "48",
+    "place": "45120",
+    "population": "13554"
+  },
+  "Lyford, Texas": {
+    "state": "48",
+    "place": "45228",
+    "population": "2249"
+  },
+  "Lytle, Texas": {
+    "state": "48",
+    "place": "45288",
+    "population": "2914"
+  },
+  "McAllen, Texas": {
+    "state": "48",
+    "place": "45384",
+    "population": "142210"
+  },
+  "McCamey, Texas": {
+    "state": "48",
+    "place": "45432",
+    "population": "1831"
+  },
+  "McGregor, Texas": {
+    "state": "48",
+    "place": "45672",
+    "population": "5321"
+  },
+  "McKinney, Texas": {
+    "state": "48",
+    "place": "45744",
+    "population": "195308"
+  },
+  "McLendon-Chisholm, Texas": {
+    "state": "48",
+    "place": "45804",
+    "population": "3562"
+  },
+  "Madisonville, Texas": {
+    "state": "48",
+    "place": "45996",
+    "population": "4420"
+  },
+  "Magnolia, Texas": {
+    "state": "48",
+    "place": "46056",
+    "population": "2359"
+  },
+  "Malakoff, Texas": {
+    "state": "48",
+    "place": "46224",
+    "population": "2179"
+  },
+  "Manor, Texas": {
+    "state": "48",
+    "place": "46440",
+    "population": "13652"
+  },
+  "Mansfield, Texas": {
+    "state": "48",
+    "place": "46452",
+    "population": "72602"
+  },
+  "Manvel, Texas": {
+    "state": "48",
+    "place": "46500",
+    "population": "9992"
+  },
+  "Marble Falls, Texas": {
+    "state": "48",
+    "place": "46584",
+    "population": "7037"
+  },
+  "Marfa, Texas": {
+    "state": "48",
+    "place": "46620",
+    "population": "1788"
+  },
+  "Marion, Texas": {
+    "state": "48",
+    "place": "46692",
+    "population": "1034"
+  },
+  "Marlin, Texas": {
+    "state": "48",
+    "place": "46740",
+    "population": "5462"
+  },
+  "Marquez, Texas": {
+    "state": "48",
+    "place": "46752",
+    "population": "181"
+  },
+  "Marshall, Texas": {
+    "state": "48",
+    "place": "46776",
+    "population": "23392"
+  },
+  "Mart, Texas": {
+    "state": "48",
+    "place": "46824",
+    "population": "1748"
+  },
+  "Martindale, Texas": {
+    "state": "48",
+    "place": "46848",
+    "population": "1253"
+  }
+}

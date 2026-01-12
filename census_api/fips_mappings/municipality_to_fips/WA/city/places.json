@@ -1,0 +1,1057 @@
+{
+  "Aberdeen, Washington": {
+    "state": "53",
+    "place": "00100",
+    "population": "17013"
+  },
+  "Airway Heights, Washington": {
+    "state": "53",
+    "place": "00905",
+    "population": "10757"
+  },
+  "Algona, Washington": {
+    "state": "53",
+    "place": "01290",
+    "population": "3290"
+  },
+  "Anacortes, Washington": {
+    "state": "53",
+    "place": "01990",
+    "population": "17637"
+  },
+  "Arlington, Washington": {
+    "state": "53",
+    "place": "02585",
+    "population": "19868"
+  },
+  "Asotin, Washington": {
+    "state": "53",
+    "place": "03075",
+    "population": "1204"
+  },
+  "Auburn, Washington": {
+    "state": "53",
+    "place": "03180",
+    "population": "87256"
+  },
+  "Bainbridge Island, Washington": {
+    "state": "53",
+    "place": "03736",
+    "population": "24825"
+  },
+  "Battle Ground, Washington": {
+    "state": "53",
+    "place": "04475",
+    "population": "20743"
+  },
+  "Bellevue, Washington": {
+    "state": "53",
+    "place": "05210",
+    "population": "151854"
+  },
+  "Bellingham, Washington": {
+    "state": "53",
+    "place": "05280",
+    "population": "91482"
+  },
+  "Benton City, Washington": {
+    "state": "53",
+    "place": "05560",
+    "population": "3479"
+  },
+  "Bingen, Washington": {
+    "state": "53",
+    "place": "06085",
+    "population": "778"
+  },
+  "Black Diamond, Washington": {
+    "state": "53",
+    "place": "06330",
+    "population": "4697"
+  },
+  "Blaine, Washington": {
+    "state": "53",
+    "place": "06505",
+    "population": "5884"
+  },
+  "Bonney Lake, Washington": {
+    "state": "53",
+    "place": "07170",
+    "population": "22487"
+  },
+  "Bothell, Washington": {
+    "state": "53",
+    "place": "07380",
+    "population": "48161"
+  },
+  "Bremerton, Washington": {
+    "state": "53",
+    "place": "07695",
+    "population": "43505"
+  },
+  "Brewster, Washington": {
+    "state": "53",
+    "place": "07835",
+    "population": "1983"
+  },
+  "Bridgeport, Washington": {
+    "state": "53",
+    "place": "07870",
+    "population": "2141"
+  },
+  "Brier, Washington": {
+    "state": "53",
+    "place": "07940",
+    "population": "6560"
+  },
+  "Buckley, Washington": {
+    "state": "53",
+    "place": "08570",
+    "population": "5114"
+  },
+  "Burien, Washington": {
+    "state": "53",
+    "place": "08850",
+    "population": "52066"
+  },
+  "Burlington, Washington": {
+    "state": "53",
+    "place": "08920",
+    "population": "9152"
+  },
+  "Camas, Washington": {
+    "state": "53",
+    "place": "09480",
+    "population": "26065"
+  },
+  "Carnation, Washington": {
+    "state": "53",
+    "place": "10215",
+    "population": "2158"
+  },
+  "Cashmere, Washington": {
+    "state": "53",
+    "place": "10495",
+    "population": "3248"
+  },
+  "Castle Rock, Washington": {
+    "state": "53",
+    "place": "10565",
+    "population": "2446"
+  },
+  "Centralia, Washington": {
+    "state": "53",
+    "place": "11160",
+    "population": "18183"
+  },
+  "Chehalis, Washington": {
+    "state": "53",
+    "place": "11475",
+    "population": "7439"
+  },
+  "Chelan, Washington": {
+    "state": "53",
+    "place": "11615",
+    "population": "4222"
+  },
+  "Cheney, Washington": {
+    "state": "53",
+    "place": "11825",
+    "population": "13255"
+  },
+  "Chewelah, Washington": {
+    "state": "53",
+    "place": "12140",
+    "population": "2470"
+  },
+  "Clarkston, Washington": {
+    "state": "53",
+    "place": "12630",
+    "population": "7161"
+  },
+  "Cle Elum, Washington": {
+    "state": "53",
+    "place": "12945",
+    "population": "2157"
+  },
+  "Clyde Hill, Washington": {
+    "state": "53",
+    "place": "13365",
+    "population": "3126"
+  },
+  "Colfax, Washington": {
+    "state": "53",
+    "place": "13785",
+    "population": "2782"
+  },
+  "College Place, Washington": {
+    "state": "53",
+    "place": "13855",
+    "population": "9902"
+  },
+  "Colville, Washington": {
+    "state": "53",
+    "place": "14170",
+    "population": "4917"
+  },
+  "Connell, Washington": {
+    "state": "53",
+    "place": "14485",
+    "population": "5441"
+  },
+  "Cosmopolis, Washington": {
+    "state": "53",
+    "place": "14870",
+    "population": "1638"
+  },
+  "Covington, Washington": {
+    "state": "53",
+    "place": "15290",
+    "population": "20777"
+  },
+  "Davenport, Washington": {
+    "state": "53",
+    "place": "16795",
+    "population": "1703"
+  },
+  "Dayton, Washington": {
+    "state": "53",
+    "place": "16970",
+    "population": "2448"
+  },
+  "Deer Park, Washington": {
+    "state": "53",
+    "place": "17320",
+    "population": "4383"
+  },
+  "Des Moines, Washington": {
+    "state": "53",
+    "place": "17635",
+    "population": "32888"
+  },
+  "DuPont, Washington": {
+    "state": "53",
+    "place": "18965",
+    "population": "10151"
+  },
+  "Duvall, Washington": {
+    "state": "53",
+    "place": "19035",
+    "population": "8034"
+  },
+  "East Wenatchee, Washington": {
+    "state": "53",
+    "place": "20155",
+    "population": "14158"
+  },
+  "Edgewood, Washington": {
+    "state": "53",
+    "place": "20645",
+    "population": "12327"
+  },
+  "Edmonds, Washington": {
+    "state": "53",
+    "place": "20750",
+    "population": "42853"
+  },
+  "Electric City, Washington": {
+    "state": "53",
+    "place": "21030",
+    "population": "956"
+  },
+  "Ellensburg, Washington": {
+    "state": "53",
+    "place": "21240",
+    "population": "18666"
+  },
+  "Elma, Washington": {
+    "state": "53",
+    "place": "21450",
+    "population": "3438"
+  },
+  "Entiat, Washington": {
+    "state": "53",
+    "place": "22010",
+    "population": "1326"
+  },
+  "Enumclaw, Washington": {
+    "state": "53",
+    "place": "22045",
+    "population": "12543"
+  },
+  "Ephrata, Washington": {
+    "state": "53",
+    "place": "22080",
+    "population": "8477"
+  },
+  "Everett, Washington": {
+    "state": "53",
+    "place": "22640",
+    "population": "110629"
+  },
+  "Everson, Washington": {
+    "state": "53",
+    "place": "22745",
+    "population": "2888"
+  },
+  "Ferndale, Washington": {
+    "state": "53",
+    "place": "23620",
+    "population": "15048"
+  },
+  "Fife, Washington": {
+    "state": "53",
+    "place": "23795",
+    "population": "10999"
+  },
+  "Fircrest, Washington": {
+    "state": "53",
+    "place": "23970",
+    "population": "7156"
+  },
+  "Forks, Washington": {
+    "state": "53",
+    "place": "24810",
+    "population": "3335"
+  },
+  "George, Washington": {
+    "state": "53",
+    "place": "26455",
+    "population": "809"
+  },
+  "Gig Harbor, Washington": {
+    "state": "53",
+    "place": "26735",
+    "population": "12029"
+  },
+  "Gold Bar, Washington": {
+    "state": "53",
+    "place": "27365",
+    "population": "2403"
+  },
+  "Goldendale, Washington": {
+    "state": "53",
+    "place": "27435",
+    "population": "3453"
+  },
+  "Grand Coulee, Washington": {
+    "state": "53",
+    "place": "27855",
+    "population": "972"
+  },
+  "Grandview, Washington": {
+    "state": "53",
+    "place": "27925",
+    "population": "10907"
+  },
+  "Granger, Washington": {
+    "state": "53",
+    "place": "27960",
+    "population": "3624"
+  },
+  "Granite Falls, Washington": {
+    "state": "53",
+    "place": "27995",
+    "population": "4450"
+  },
+  "Federal Way, Washington": {
+    "state": "53",
+    "place": "23515",
+    "population": "101030"
+  },
+  "Harrington, Washington": {
+    "state": "53",
+    "place": "29745",
+    "population": "429"
+  },
+  "Hoquiam, Washington": {
+    "state": "53",
+    "place": "32300",
+    "population": "8776"
+  },
+  "Ilwaco, Washington": {
+    "state": "53",
+    "place": "33000",
+    "population": "1087"
+  },
+  "Issaquah, Washington": {
+    "state": "53",
+    "place": "33805",
+    "population": "40051"
+  },
+  "Kahlotus, Washington": {
+    "state": "53",
+    "place": "34575",
+    "population": "147"
+  },
+  "Kalama, Washington": {
+    "state": "53",
+    "place": "34645",
+    "population": "2959"
+  },
+  "Kelso, Washington": {
+    "state": "53",
+    "place": "35065",
+    "population": "12720"
+  },
+  "Kenmore, Washington": {
+    "state": "53",
+    "place": "35170",
+    "population": "23914"
+  },
+  "Kennewick, Washington": {
+    "state": "53",
+    "place": "35275",
+    "population": "83921"
+  },
+  "Kent, Washington": {
+    "state": "53",
+    "place": "35415",
+    "population": "136588"
+  },
+  "Kettle Falls, Washington": {
+    "state": "53",
+    "place": "35485",
+    "population": "1636"
+  },
+  "Kirkland, Washington": {
+    "state": "53",
+    "place": "35940",
+    "population": "92175"
+  },
+  "Kittitas, Washington": {
+    "state": "53",
+    "place": "36045",
+    "population": "1438"
+  },
+  "La Center, Washington": {
+    "state": "53",
+    "place": "36710",
+    "population": "3424"
+  },
+  "Lacey, Washington": {
+    "state": "53",
+    "place": "36745",
+    "population": "53526"
+  },
+  "Lake Forest Park, Washington": {
+    "state": "53",
+    "place": "37270",
+    "population": "13630"
+  },
+  "Lake Stevens, Washington": {
+    "state": "53",
+    "place": "37900",
+    "population": "35630"
+  },
+  "Lakewood, Washington": {
+    "state": "53",
+    "place": "38038",
+    "population": "63612"
+  },
+  "Langley, Washington": {
+    "state": "53",
+    "place": "38355",
+    "population": "1147"
+  },
+  "Leavenworth, Washington": {
+    "state": "53",
+    "place": "38845",
+    "population": "2263"
+  },
+  "Liberty Lake, Washington": {
+    "state": "53",
+    "place": "39335",
+    "population": "12003"
+  },
+  "Long Beach, Washington": {
+    "state": "53",
+    "place": "40070",
+    "population": "1688"
+  },
+  "Longview, Washington": {
+    "state": "53",
+    "place": "40245",
+    "population": "37818"
+  },
+  "Lynden, Washington": {
+    "state": "53",
+    "place": "40805",
+    "population": "15749"
+  },
+  "Lynnwood, Washington": {
+    "state": "53",
+    "place": "40840",
+    "population": "38568"
+  },
+  "Mabton, Washington": {
+    "state": "53",
+    "place": "40980",
+    "population": "1959"
+  },
+  "McCleary, Washington": {
+    "state": "53",
+    "place": "41225",
+    "population": "1997"
+  },
+  "Maple Valley, Washington": {
+    "state": "53",
+    "place": "43150",
+    "population": "28013"
+  },
+  "Marysville, Washington": {
+    "state": "53",
+    "place": "43955",
+    "population": "70714"
+  },
+  "Mattawa, Washington": {
+    "state": "53",
+    "place": "44165",
+    "population": "3335"
+  },
+  "Medical Lake, Washington": {
+    "state": "53",
+    "place": "44690",
+    "population": "4874"
+  },
+  "Medina, Washington": {
+    "state": "53",
+    "place": "44725",
+    "population": "2915"
+  },
+  "Mercer Island, Washington": {
+    "state": "53",
+    "place": "45005",
+    "population": "25748"
+  },
+  "Mesa, Washington": {
+    "state": "53",
+    "place": "45180",
+    "population": "385"
+  },
+  "Mill Creek, Washington": {
+    "state": "53",
+    "place": "45865",
+    "population": "20926"
+  },
+  "Millwood, Washington": {
+    "state": "53",
+    "place": "45985",
+    "population": "1881"
+  },
+  "Milton, Washington": {
+    "state": "53",
+    "place": "46020",
+    "population": "8697"
+  },
+  "Monroe, Washington": {
+    "state": "53",
+    "place": "46685",
+    "population": "19699"
+  },
+  "Montesano, Washington": {
+    "state": "53",
+    "place": "46895",
+    "population": "4138"
+  },
+  "Morton, Washington": {
+    "state": "53",
+    "place": "47175",
+    "population": "1036"
+  },
+  "Moses Lake, Washington": {
+    "state": "53",
+    "place": "47245",
+    "population": "25146"
+  },
+  "Mossyrock, Washington": {
+    "state": "53",
+    "place": "47315",
+    "population": "768"
+  },
+  "Mountlake Terrace, Washington": {
+    "state": "53",
+    "place": "47490",
+    "population": "21286"
+  },
+  "Mount Vernon, Washington": {
+    "state": "53",
+    "place": "47560",
+    "population": "35219"
+  },
+  "Moxee, Washington": {
+    "state": "53",
+    "place": "47665",
+    "population": "4326"
+  },
+  "Mukilteo, Washington": {
+    "state": "53",
+    "place": "47735",
+    "population": "21538"
+  },
+  "Napavine, Washington": {
+    "state": "53",
+    "place": "47980",
+    "population": "1888"
+  },
+  "Newcastle, Washington": {
+    "state": "53",
+    "place": "48645",
+    "population": "13017"
+  },
+  "Newport, Washington": {
+    "state": "53",
+    "place": "48820",
+    "population": "2114"
+  },
+  "Nooksack, Washington": {
+    "state": "53",
+    "place": "49275",
+    "population": "1471"
+  },
+  "Normandy Park, Washington": {
+    "state": "53",
+    "place": "49415",
+    "population": "6771"
+  },
+  "North Bend, Washington": {
+    "state": "53",
+    "place": "49485",
+    "population": "7461"
+  },
+  "North Bonneville, Washington": {
+    "state": "53",
+    "place": "49555",
+    "population": "1397"
+  },
+  "Oak Harbor, Washington": {
+    "state": "53",
+    "place": "50360",
+    "population": "24622"
+  },
+  "Oakville, Washington": {
+    "state": "53",
+    "place": "50430",
+    "population": "715"
+  },
+  "Ocean Shores, Washington": {
+    "state": "53",
+    "place": "50570",
+    "population": "6715"
+  },
+  "Okanogan, Washington": {
+    "state": "53",
+    "place": "50920",
+    "population": "2379"
+  },
+  "Olympia, Washington": {
+    "state": "53",
+    "place": "51300",
+    "population": "55605"
+  },
+  "Omak, Washington": {
+    "state": "53",
+    "place": "51340",
+    "population": "4860"
+  },
+  "Oroville, Washington": {
+    "state": "53",
+    "place": "51970",
+    "population": "1795"
+  },
+  "Orting, Washington": {
+    "state": "53",
+    "place": "52005",
+    "population": "9041"
+  },
+  "Othello, Washington": {
+    "state": "53",
+    "place": "52215",
+    "population": "8549"
+  },
+  "Pacific, Washington": {
+    "state": "53",
+    "place": "52495",
+    "population": "7235"
+  },
+  "Palouse, Washington": {
+    "state": "53",
+    "place": "52950",
+    "population": "1015"
+  },
+  "Pasco, Washington": {
+    "state": "53",
+    "place": "53545",
+    "population": "77108"
+  },
+  "Pateros, Washington": {
+    "state": "53",
+    "place": "53720",
+    "population": "593"
+  },
+  "Pomeroy, Washington": {
+    "state": "53",
+    "place": "55120",
+    "population": "1389"
+  },
+  "Port Angeles, Washington": {
+    "state": "53",
+    "place": "55365",
+    "population": "19960"
+  },
+  "Port Orchard, Washington": {
+    "state": "53",
+    "place": "55785",
+    "population": "15587"
+  },
+  "Port Townsend, Washington": {
+    "state": "53",
+    "place": "55855",
+    "population": "10148"
+  },
+  "Poulsbo, Washington": {
+    "state": "53",
+    "place": "55995",
+    "population": "11975"
+  },
+  "Prescott, Washington": {
+    "state": "53",
+    "place": "56240",
+    "population": "372"
+  },
+  "Prosser, Washington": {
+    "state": "53",
+    "place": "56450",
+    "population": "6062"
+  },
+  "Pullman, Washington": {
+    "state": "53",
+    "place": "56625",
+    "population": "32901"
+  },
+  "Puyallup, Washington": {
+    "state": "53",
+    "place": "56695",
+    "population": "42973"
+  },
+  "Quincy, Washington": {
+    "state": "53",
+    "place": "57115",
+    "population": "7543"
+  },
+  "Rainier, Washington": {
+    "state": "53",
+    "place": "57220",
+    "population": "2369"
+  },
+  "Raymond, Washington": {
+    "state": "53",
+    "place": "57430",
+    "population": "3081"
+  },
+  "Redmond, Washington": {
+    "state": "53",
+    "place": "57535",
+    "population": "73256"
+  },
+  "Renton, Washington": {
+    "state": "53",
+    "place": "57745",
+    "population": "106785"
+  },
+  "Republic, Washington": {
+    "state": "53",
+    "place": "57850",
+    "population": "992"
+  },
+  "Richland, Washington": {
+    "state": "53",
+    "place": "58235",
+    "population": "60560"
+  },
+  "Ridgefield, Washington": {
+    "state": "53",
+    "place": "58410",
+    "population": "10319"
+  },
+  "Ritzville, Washington": {
+    "state": "53",
+    "place": "58725",
+    "population": "1767"
+  },
+  "Rock Island, Washington": {
+    "state": "53",
+    "place": "59180",
+    "population": "1279"
+  },
+  "Roslyn, Washington": {
+    "state": "53",
+    "place": "60055",
+    "population": "950"
+  },
+  "Roy, Washington": {
+    "state": "53",
+    "place": "60160",
+    "population": "816"
+  },
+  "Royal City, Washington": {
+    "state": "53",
+    "place": "60230",
+    "population": "1776"
+  },
+  "Sammamish, Washington": {
+    "state": "53",
+    "place": "61115",
+    "population": "67455"
+  },
+  "SeaTac, Washington": {
+    "state": "53",
+    "place": "62288",
+    "population": "31454"
+  },
+  "Seattle, Washington": {
+    "state": "53",
+    "place": "63000",
+    "population": "737015"
+  },
+  "Sedro-Woolley, Washington": {
+    "state": "53",
+    "place": "63210",
+    "population": "12421"
+  },
+  "Selah, Washington": {
+    "state": "53",
+    "place": "63280",
+    "population": "8153"
+  },
+  "Sequim, Washington": {
+    "state": "53",
+    "place": "63385",
+    "population": "8024"
+  },
+  "Shelton, Washington": {
+    "state": "53",
+    "place": "63735",
+    "population": "10371"
+  },
+  "Shoreline, Washington": {
+    "state": "53",
+    "place": "63960",
+    "population": "58608"
+  },
+  "Snohomish, Washington": {
+    "state": "53",
+    "place": "65170",
+    "population": "10126"
+  },
+  "Snoqualmie, Washington": {
+    "state": "53",
+    "place": "65205",
+    "population": "14121"
+  },
+  "Soap Lake, Washington": {
+    "state": "53",
+    "place": "65345",
+    "population": "1691"
+  },
+  "South Bend, Washington": {
+    "state": "53",
+    "place": "65625",
+    "population": "1746"
+  },
+  "Spangle, Washington": {
+    "state": "53",
+    "place": "66290",
+    "population": "280"
+  },
+  "Spokane, Washington": {
+    "state": "53",
+    "place": "67000",
+    "population": "228989"
+  },
+  "Spokane Valley, Washington": {
+    "state": "53",
+    "place": "67167",
+    "population": "102976"
+  },
+  "Sprague, Washington": {
+    "state": "53",
+    "place": "67175",
+    "population": "495"
+  },
+  "Stanwood, Washington": {
+    "state": "53",
+    "place": "67455",
+    "population": "7705"
+  },
+  "Stevenson, Washington": {
+    "state": "53",
+    "place": "67875",
+    "population": "1491"
+  },
+  "Sultan, Washington": {
+    "state": "53",
+    "place": "68260",
+    "population": "5146"
+  },
+  "Sumas, Washington": {
+    "state": "53",
+    "place": "68330",
+    "population": "1583"
+  },
+  "Sumner, Washington": {
+    "state": "53",
+    "place": "68435",
+    "population": "10621"
+  },
+  "Sunnyside, Washington": {
+    "state": "53",
+    "place": "68750",
+    "population": "16375"
+  },
+  "Tacoma, Washington": {
+    "state": "53",
+    "place": "70000",
+    "population": "219346"
+  },
+  "Tekoa, Washington": {
+    "state": "53",
+    "place": "70560",
+    "population": "817"
+  },
+  "Tenino, Washington": {
+    "state": "53",
+    "place": "70630",
+    "population": "1870"
+  },
+  "Tieton, Washington": {
+    "state": "53",
+    "place": "71400",
+    "population": "1389"
+  },
+  "Toledo, Washington": {
+    "state": "53",
+    "place": "71785",
+    "population": "631"
+  },
+  "Tonasket, Washington": {
+    "state": "53",
+    "place": "71890",
+    "population": "1103"
+  },
+  "Toppenish, Washington": {
+    "state": "53",
+    "place": "71960",
+    "population": "8854"
+  },
+  "Tukwila, Washington": {
+    "state": "53",
+    "place": "72625",
+    "population": "21798"
+  },
+  "Tumwater, Washington": {
+    "state": "53",
+    "place": "72905",
+    "population": "25350"
+  },
+  "Union Gap, Washington": {
+    "state": "53",
+    "place": "73290",
+    "population": "6568"
+  },
+  "University Place, Washington": {
+    "state": "53",
+    "place": "73465",
+    "population": "34866"
+  },
+  "Vader, Washington": {
+    "state": "53",
+    "place": "73780",
+    "population": "629"
+  },
+  "Vancouver, Washington": {
+    "state": "53",
+    "place": "74060",
+    "population": "190915"
+  },
+  "Waitsburg, Washington": {
+    "state": "53",
+    "place": "75565",
+    "population": "1166"
+  },
+  "Walla Walla, Washington": {
+    "state": "53",
+    "place": "75775",
+    "population": "34060"
+  },
+  "Wapato, Washington": {
+    "state": "53",
+    "place": "76125",
+    "population": "4607"
+  },
+  "Warden, Washington": {
+    "state": "53",
+    "place": "76160",
+    "population": "2449"
+  },
+  "Washougal, Washington": {
+    "state": "53",
+    "place": "76405",
+    "population": "17039"
+  },
+  "Wenatchee, Washington": {
+    "state": "53",
+    "place": "77105",
+    "population": "35508"
+  },
+  "Westport, Washington": {
+    "state": "53",
+    "place": "77630",
+    "population": "2213"
+  },
+  "West Richland, Washington": {
+    "state": "53",
+    "place": "77665",
+    "population": "16295"
+  },
+  "White Salmon, Washington": {
+    "state": "53",
+    "place": "78330",
+    "population": "2485"
+  },
+  "Winlock, Washington": {
+    "state": "53",
+    "place": "79275",
+    "population": "1472"
+  },
+  "Woodinville, Washington": {
+    "state": "53",
+    "place": "79590",
+    "population": "13069"
+  },
+  "Woodland, Washington": {
+    "state": "53",
+    "place": "79625",
+    "population": "6531"
+  },
+  "Woodway, Washington": {
+    "state": "53",
+    "place": "79835",
+    "population": "1318"
+  },
+  "Yakima, Washington": {
+    "state": "53",
+    "place": "80010",
+    "population": "96968"
+  },
+  "Yelm, Washington": {
+    "state": "53",
+    "place": "80220",
+    "population": "10617"
+  },
+  "Zillah, Washington": {
+    "state": "53",
+    "place": "80500",
+    "population": "3179"
+  }
+}

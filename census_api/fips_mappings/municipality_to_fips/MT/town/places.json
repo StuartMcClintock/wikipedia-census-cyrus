@@ -1,0 +1,372 @@
+{
+  "Alberton, Montana": {
+    "state": "30",
+    "place": "00700",
+    "population": "452"
+  },
+  "Bainville, Montana": {
+    "state": "30",
+    "place": "03400",
+    "population": "271"
+  },
+  "Bearcreek, Montana": {
+    "state": "30",
+    "place": "04300",
+    "population": "91"
+  },
+  "Belt, Montana": {
+    "state": "30",
+    "place": "05275",
+    "population": "510"
+  },
+  "Big Sandy, Montana": {
+    "state": "30",
+    "place": "06250",
+    "population": "605"
+  },
+  "Broadus, Montana": {
+    "state": "30",
+    "place": "09700",
+    "population": "456"
+  },
+  "Broadview, Montana": {
+    "state": "30",
+    "place": "09775",
+    "population": "139"
+  },
+  "Browning, Montana": {
+    "state": "30",
+    "place": "10375",
+    "population": "1018"
+  },
+  "Cascade, Montana": {
+    "state": "30",
+    "place": "12775",
+    "population": "600"
+  },
+  "Chester, Montana": {
+    "state": "30",
+    "place": "14200",
+    "population": "847"
+  },
+  "Circle, Montana": {
+    "state": "30",
+    "place": "14950",
+    "population": "591"
+  },
+  "Clyde Park, Montana": {
+    "state": "30",
+    "place": "15550",
+    "population": "332"
+  },
+  "Columbus, Montana": {
+    "state": "30",
+    "place": "16825",
+    "population": "1857"
+  },
+  "Bridger, Montana": {
+    "state": "30",
+    "place": "09475",
+    "population": "662"
+  },
+  "Culbertson, Montana": {
+    "state": "30",
+    "place": "18475",
+    "population": "753"
+  },
+  "Darby, Montana": {
+    "state": "30",
+    "place": "19300",
+    "population": "783"
+  },
+  "Denton, Montana": {
+    "state": "30",
+    "place": "20425",
+    "population": "205"
+  },
+  "Dodson, Montana": {
+    "state": "30",
+    "place": "21025",
+    "population": "125"
+  },
+  "Drummond, Montana": {
+    "state": "30",
+    "place": "21850",
+    "population": "272"
+  },
+  "Dutton, Montana": {
+    "state": "30",
+    "place": "22600",
+    "population": "303"
+  },
+  "Ekalaka, Montana": {
+    "state": "30",
+    "place": "23650",
+    "population": "399"
+  },
+  "Ennis, Montana": {
+    "state": "30",
+    "place": "24475",
+    "population": "917"
+  },
+  "Eureka, Montana": {
+    "state": "30",
+    "place": "24850",
+    "population": "1380"
+  },
+  "Fairfield, Montana": {
+    "state": "30",
+    "place": "25225",
+    "population": "759"
+  },
+  "Fairview, Montana": {
+    "state": "30",
+    "place": "25300",
+    "population": "896"
+  },
+  "Flaxville, Montana": {
+    "state": "30",
+    "place": "26800",
+    "population": "63"
+  },
+  "Fort Peck, Montana": {
+    "state": "30",
+    "place": "28450",
+    "population": "239"
+  },
+  "Froid, Montana": {
+    "state": "30",
+    "place": "29500",
+    "population": "195"
+  },
+  "Fromberg, Montana": {
+    "state": "30",
+    "place": "29575",
+    "population": "392"
+  },
+  "Geraldine, Montana": {
+    "state": "30",
+    "place": "30400",
+    "population": "207"
+  },
+  "Grass Range, Montana": {
+    "state": "30",
+    "place": "32575",
+    "population": "110"
+  },
+  "Hingham, Montana": {
+    "state": "30",
+    "place": "36400",
+    "population": "131"
+  },
+  "Hot Springs, Montana": {
+    "state": "30",
+    "place": "37825",
+    "population": "557"
+  },
+  "Hysham, Montana": {
+    "state": "30",
+    "place": "38350",
+    "population": "276"
+  },
+  "Ismay, Montana": {
+    "state": "30",
+    "place": "38950",
+    "population": "17"
+  },
+  "Joliet, Montana": {
+    "state": "30",
+    "place": "39700",
+    "population": "577"
+  },
+  "Jordan, Montana": {
+    "state": "30",
+    "place": "39925",
+    "population": "356"
+  },
+  "Kevin, Montana": {
+    "state": "30",
+    "place": "40525",
+    "population": "154"
+  },
+  "Lavina, Montana": {
+    "state": "30",
+    "place": "42850",
+    "population": "136"
+  },
+  "Lima, Montana": {
+    "state": "30",
+    "place": "43525",
+    "population": "212"
+  },
+  "Lodge Grass, Montana": {
+    "state": "30",
+    "place": "44275",
+    "population": "441"
+  },
+  "Manhattan, Montana": {
+    "state": "30",
+    "place": "47575",
+    "population": "2086"
+  },
+  "Medicine Lake, Montana": {
+    "state": "30",
+    "place": "48775",
+    "population": "244"
+  },
+  "Melstone, Montana": {
+    "state": "30",
+    "place": "49000",
+    "population": "126"
+  },
+  "Moore, Montana": {
+    "state": "30",
+    "place": "51550",
+    "population": "194"
+  },
+  "Nashua, Montana": {
+    "state": "30",
+    "place": "52900",
+    "population": "301"
+  },
+  "Neihart, Montana": {
+    "state": "30",
+    "place": "53200",
+    "population": "43"
+  },
+  "Opheim, Montana": {
+    "state": "30",
+    "place": "55525",
+    "population": "75"
+  },
+  "Outlook, Montana": {
+    "state": "30",
+    "place": "56050",
+    "population": "84"
+  },
+  "Philipsburg, Montana": {
+    "state": "30",
+    "place": "57175",
+    "population": "841"
+  },
+  "Pinesdale, Montana": {
+    "state": "30",
+    "place": "57700",
+    "population": "805"
+  },
+  "Plains, Montana": {
+    "state": "30",
+    "place": "58150",
+    "population": "1106"
+  },
+  "Plevna, Montana": {
+    "state": "30",
+    "place": "58450",
+    "population": "179"
+  },
+  "Rexford, Montana": {
+    "state": "30",
+    "place": "62200",
+    "population": "78"
+  },
+  "Richey, Montana": {
+    "state": "30",
+    "place": "62275",
+    "population": "164"
+  },
+  "Ryegate, Montana": {
+    "state": "30",
+    "place": "64975",
+    "population": "223"
+  },
+  "Saco, Montana": {
+    "state": "30",
+    "place": "65050",
+    "population": "159"
+  },
+  "St. Ignatius, Montana": {
+    "state": "30",
+    "place": "65275",
+    "population": "768"
+  },
+  "Sheridan, Montana": {
+    "state": "30",
+    "place": "67600",
+    "population": "694"
+  },
+  "Stanford, Montana": {
+    "state": "30",
+    "place": "70675",
+    "population": "403"
+  },
+  "Stevensville, Montana": {
+    "state": "30",
+    "place": "71200",
+    "population": "2002"
+  },
+  "Sunburst, Montana": {
+    "state": "30",
+    "place": "72175",
+    "population": "333"
+  },
+  "Superior, Montana": {
+    "state": "30",
+    "place": "72625",
+    "population": "830"
+  },
+  "Terry, Montana": {
+    "state": "30",
+    "place": "73675",
+    "population": "562"
+  },
+  "Twin Bridges, Montana": {
+    "state": "30",
+    "place": "75475",
+    "population": "330"
+  },
+  "Valier, Montana": {
+    "state": "30",
+    "place": "76225",
+    "population": "530"
+  },
+  "Virginia City, Montana": {
+    "state": "30",
+    "place": "77125",
+    "population": "219"
+  },
+  "Walkerville, Montana": {
+    "state": "30",
+    "place": "77650",
+    "population": "639"
+  },
+  "Westby, Montana": {
+    "state": "30",
+    "place": "78925",
+    "population": "167"
+  },
+  "West Yellowstone, Montana": {
+    "state": "30",
+    "place": "79525",
+    "population": "1272"
+  },
+  "Whitehall, Montana": {
+    "state": "30",
+    "place": "79900",
+    "population": "1006"
+  },
+  "Wibaux, Montana": {
+    "state": "30",
+    "place": "80350",
+    "population": "462"
+  },
+  "Winifred, Montana": {
+    "state": "30",
+    "place": "81025",
+    "population": "172"
+  },
+  "Winnett, Montana": {
+    "state": "30",
+    "place": "81100",
+    "population": "188"
+  }
+}

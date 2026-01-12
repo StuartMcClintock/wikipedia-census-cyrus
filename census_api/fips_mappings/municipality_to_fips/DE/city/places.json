@@ -1,0 +1,52 @@
+{
+  "Wilmington, Delaware": {
+    "state": "10",
+    "place": "77580",
+    "population": "70898"
+  },
+  "Delaware City, Delaware": {
+    "state": "10",
+    "place": "19730",
+    "population": "1885"
+  },
+  "Dover, Delaware": {
+    "state": "10",
+    "place": "21200",
+    "population": "39403"
+  },
+  "Harrington, Delaware": {
+    "state": "10",
+    "place": "33120",
+    "population": "3774"
+  },
+  "Lewes, Delaware": {
+    "state": "10",
+    "place": "41830",
+    "population": "3303"
+  },
+  "Milford, Delaware": {
+    "state": "10",
+    "place": "47420",
+    "population": "11190"
+  },
+  "Newark, Delaware": {
+    "state": "10",
+    "place": "50670",
+    "population": "30601"
+  },
+  "New Castle, Delaware": {
+    "state": "10",
+    "place": "50800",
+    "population": "5551"
+  },
+  "Rehoboth Beach, Delaware": {
+    "state": "10",
+    "place": "60290",
+    "population": "1108"
+  },
+  "Seaford, Delaware": {
+    "state": "10",
+    "place": "64320",
+    "population": "7957"
+  }
+}

@@ -1,0 +1,727 @@
+{
+  "Adak, Alaska": {
+    "state": "02",
+    "place": "00065",
+    "population": "171"
+  },
+  "Akhiok, Alaska": {
+    "state": "02",
+    "place": "00650",
+    "population": "63"
+  },
+  "Akiak, Alaska": {
+    "state": "02",
+    "place": "00870",
+    "population": "462"
+  },
+  "Akutan, Alaska": {
+    "state": "02",
+    "place": "01090",
+    "population": "1589"
+  },
+  "Alakanuk, Alaska": {
+    "state": "02",
+    "place": "01200",
+    "population": "756"
+  },
+  "Aleknagik, Alaska": {
+    "state": "02",
+    "place": "01420",
+    "population": "211"
+  },
+  "Allakaket, Alaska": {
+    "state": "02",
+    "place": "01860",
+    "population": "177"
+  },
+  "Ambler, Alaska": {
+    "state": "02",
+    "place": "01970",
+    "population": "274"
+  },
+  "Anaktuvuk Pass, Alaska": {
+    "state": "02",
+    "place": "02080",
+    "population": "425"
+  },
+  "Anderson, Alaska": {
+    "state": "02",
+    "place": "03220",
+    "population": "177"
+  },
+  "Angoon, Alaska": {
+    "state": "02",
+    "place": "03440",
+    "population": "357"
+  },
+  "Aniak, Alaska": {
+    "state": "02",
+    "place": "03550",
+    "population": "507"
+  },
+  "Anvik, Alaska": {
+    "state": "02",
+    "place": "03880",
+    "population": "70"
+  },
+  "Atka, Alaska": {
+    "state": "02",
+    "place": "04210",
+    "population": "53"
+  },
+  "Atqasuk, Alaska": {
+    "state": "02",
+    "place": "04500",
+    "population": "276"
+  },
+  "Bethel, Alaska": {
+    "state": "02",
+    "place": "06520",
+    "population": "6325"
+  },
+  "Bettles, Alaska": {
+    "state": "02",
+    "place": "06630",
+    "population": "23"
+  },
+  "Brevig Mission, Alaska": {
+    "state": "02",
+    "place": "08740",
+    "population": "428"
+  },
+  "Buckland, Alaska": {
+    "state": "02",
+    "place": "09600",
+    "population": "550"
+  },
+  "Chefornak, Alaska": {
+    "state": "02",
+    "place": "12680",
+    "population": "506"
+  },
+  "Chevak, Alaska": {
+    "state": "02",
+    "place": "13230",
+    "population": "951"
+  },
+  "Chignik, Alaska": {
+    "state": "02",
+    "place": "13550",
+    "population": "97"
+  },
+  "Chuathbaluk, Alaska": {
+    "state": "02",
+    "place": "14330",
+    "population": "104"
+  },
+  "Clark's Point, Alaska": {
+    "state": "02",
+    "place": "15430",
+    "population": "67"
+  },
+  "Coffman Cove, Alaska": {
+    "state": "02",
+    "place": "16360",
+    "population": "127"
+  },
+  "Cold Bay, Alaska": {
+    "state": "02",
+    "place": "16530",
+    "population": "50"
+  },
+  "Cordova, Alaska": {
+    "state": "02",
+    "place": "17410",
+    "population": "2609"
+  },
+  "Craig, Alaska": {
+    "state": "02",
+    "place": "17740",
+    "population": "1036"
+  },
+  "Deering, Alaska": {
+    "state": "02",
+    "place": "18510",
+    "population": "182"
+  },
+  "Delta Junction, Alaska": {
+    "state": "02",
+    "place": "18620",
+    "population": "918"
+  },
+  "Dillingham, Alaska": {
+    "state": "02",
+    "place": "18950",
+    "population": "2249"
+  },
+  "Diomede, Alaska": {
+    "state": "02",
+    "place": "19060",
+    "population": "83"
+  },
+  "Eagle, Alaska": {
+    "state": "02",
+    "place": "20380",
+    "population": "83"
+  },
+  "Edna Bay, Alaska": {
+    "state": "02",
+    "place": "20970",
+    "population": "25"
+  },
+  "Eek, Alaska": {
+    "state": "02",
+    "place": "21040",
+    "population": "404"
+  },
+  "Egegik, Alaska": {
+    "state": "02",
+    "place": "21150",
+    "population": "39"
+  },
+  "Ekwok, Alaska": {
+    "state": "02",
+    "place": "21810",
+    "population": "111"
+  },
+  "Elim, Alaska": {
+    "state": "02",
+    "place": "22250",
+    "population": "366"
+  },
+  "Emmonak, Alaska": {
+    "state": "02",
+    "place": "22910",
+    "population": "825"
+  },
+  "Fairbanks, Alaska": {
+    "state": "02",
+    "place": "24230",
+    "population": "32515"
+  },
+  "False Pass, Alaska": {
+    "state": "02",
+    "place": "24660",
+    "population": "397"
+  },
+  "Fort Yukon, Alaska": {
+    "state": "02",
+    "place": "26760",
+    "population": "428"
+  },
+  "Galena, Alaska": {
+    "state": "02",
+    "place": "27530",
+    "population": "472"
+  },
+  "Gambell, Alaska": {
+    "state": "02",
+    "place": "27640",
+    "population": "640"
+  },
+  "Golovin, Alaska": {
+    "state": "02",
+    "place": "29180",
+    "population": "175"
+  },
+  "Goodnews Bay, Alaska": {
+    "state": "02",
+    "place": "29290",
+    "population": "258"
+  },
+  "Grayling, Alaska": {
+    "state": "02",
+    "place": "30060",
+    "population": "210"
+  },
+  "Gustavus, Alaska": {
+    "state": "02",
+    "place": "30940",
+    "population": "655"
+  },
+  "Holy Cross, Alaska": {
+    "state": "02",
+    "place": "33030",
+    "population": "176"
+  },
+  "Homer, Alaska": {
+    "state": "02",
+    "place": "33140",
+    "population": "5522"
+  },
+  "Hoonah, Alaska": {
+    "state": "02",
+    "place": "33360",
+    "population": "931"
+  },
+  "Hooper Bay, Alaska": {
+    "state": "02",
+    "place": "33470",
+    "population": "1375"
+  },
+  "Houston, Alaska": {
+    "state": "02",
+    "place": "33800",
+    "population": "1975"
+  },
+  "Hughes, Alaska": {
+    "state": "02",
+    "place": "33910",
+    "population": "85"
+  },
+  "Huslia, Alaska": {
+    "state": "02",
+    "place": "34350",
+    "population": "304"
+  },
+  "Hydaburg, Alaska": {
+    "state": "02",
+    "place": "34460",
+    "population": "380"
+  },
+  "Kachemak, Alaska": {
+    "state": "02",
+    "place": "36540",
+    "population": "576"
+  },
+  "Kake, Alaska": {
+    "state": "02",
+    "place": "36770",
+    "population": "543"
+  },
+  "Kaktovik, Alaska": {
+    "state": "02",
+    "place": "36990",
+    "population": "283"
+  },
+  "Kaltag, Alaska": {
+    "state": "02",
+    "place": "37430",
+    "population": "158"
+  },
+  "Kasaan, Alaska": {
+    "state": "02",
+    "place": "37650",
+    "population": "30"
+  },
+  "Kenai, Alaska": {
+    "state": "02",
+    "place": "38420",
+    "population": "7424"
+  },
+  "Ketchikan, Alaska": {
+    "state": "02",
+    "place": "38970",
+    "population": "8192"
+  },
+  "Kiana, Alaska": {
+    "state": "02",
+    "place": "39300",
+    "population": "447"
+  },
+  "King Cove, Alaska": {
+    "state": "02",
+    "place": "39410",
+    "population": "757"
+  },
+  "Kivalina, Alaska": {
+    "state": "02",
+    "place": "39960",
+    "population": "444"
+  },
+  "Klawock, Alaska": {
+    "state": "02",
+    "place": "40400",
+    "population": "720"
+  },
+  "Kobuk, Alaska": {
+    "state": "02",
+    "place": "40840",
+    "population": "191"
+  },
+  "Kodiak, Alaska": {
+    "state": "02",
+    "place": "40950",
+    "population": "5581"
+  },
+  "Kotlik, Alaska": {
+    "state": "02",
+    "place": "41720",
+    "population": "655"
+  },
+  "Kotzebue, Alaska": {
+    "state": "02",
+    "place": "41830",
+    "population": "3102"
+  },
+  "Koyuk, Alaska": {
+    "state": "02",
+    "place": "41940",
+    "population": "312"
+  },
+  "Koyukuk, Alaska": {
+    "state": "02",
+    "place": "42050",
+    "population": "98"
+  },
+  "Kupreanof, Alaska": {
+    "state": "02",
+    "place": "42160",
+    "population": "21"
+  },
+  "Kwethluk, Alaska": {
+    "state": "02",
+    "place": "42380",
+    "population": "812"
+  },
+  "Larsen Bay, Alaska": {
+    "state": "02",
+    "place": "43040",
+    "population": "34"
+  },
+  "Lower Kalskag, Alaska": {
+    "state": "02",
+    "place": "45460",
+    "population": "278"
+  },
+  "McGrath, Alaska": {
+    "state": "02",
+    "place": "46010",
+    "population": "301"
+  },
+  "Manokotak, Alaska": {
+    "state": "02",
+    "place": "46890",
+    "population": "488"
+  },
+  "Marshall, Alaska": {
+    "state": "02",
+    "place": "47000",
+    "population": "492"
+  },
+  "Mekoryuk, Alaska": {
+    "state": "02",
+    "place": "47990",
+    "population": "206"
+  },
+  "Mountain Village, Alaska": {
+    "state": "02",
+    "place": "51180",
+    "population": "621"
+  },
+  "Napakiak, Alaska": {
+    "state": "02",
+    "place": "52390",
+    "population": "358"
+  },
+  "Napaskiak, Alaska": {
+    "state": "02",
+    "place": "52720",
+    "population": "509"
+  },
+  "Nenana, Alaska": {
+    "state": "02",
+    "place": "53050",
+    "population": "358"
+  },
+  "Newhalen, Alaska": {
+    "state": "02",
+    "place": "53270",
+    "population": "168"
+  },
+  "New Stuyahok, Alaska": {
+    "state": "02",
+    "place": "53710",
+    "population": "512"
+  },
+  "Nightmute, Alaska": {
+    "state": "02",
+    "place": "53930",
+    "population": "306"
+  },
+  "Nikolai, Alaska": {
+    "state": "02",
+    "place": "54150",
+    "population": "89"
+  },
+  "Nome, Alaska": {
+    "state": "02",
+    "place": "54920",
+    "population": "3699"
+  },
+  "Nondalton, Alaska": {
+    "state": "02",
+    "place": "55030",
+    "population": "133"
+  },
+  "Noorvik, Alaska": {
+    "state": "02",
+    "place": "55140",
+    "population": "694"
+  },
+  "North Pole, Alaska": {
+    "state": "02",
+    "place": "55910",
+    "population": "2243"
+  },
+  "Nuiqsut, Alaska": {
+    "state": "02",
+    "place": "56320",
+    "population": "512"
+  },
+  "Nulato, Alaska": {
+    "state": "02",
+    "place": "56350",
+    "population": "239"
+  },
+  "Nunam Iqua, Alaska": {
+    "state": "02",
+    "place": "56600",
+    "population": "217"
+  },
+  "Nunapitchuk, Alaska": {
+    "state": "02",
+    "place": "56680",
+    "population": "594"
+  },
+  "Old Harbor, Alaska": {
+    "state": "02",
+    "place": "57340",
+    "population": "216"
+  },
+  "Ouzinkie, Alaska": {
+    "state": "02",
+    "place": "58550",
+    "population": "109"
+  },
+  "Palmer, Alaska": {
+    "state": "02",
+    "place": "58660",
+    "population": "5888"
+  },
+  "Pelican, Alaska": {
+    "state": "02",
+    "place": "59650",
+    "population": "98"
+  },
+  "Pilot Point, Alaska": {
+    "state": "02",
+    "place": "60640",
+    "population": "70"
+  },
+  "Pilot Station, Alaska": {
+    "state": "02",
+    "place": "60750",
+    "population": "615"
+  },
+  "Platinum, Alaska": {
+    "state": "02",
+    "place": "61080",
+    "population": "55"
+  },
+  "Point Hope, Alaska": {
+    "state": "02",
+    "place": "61630",
+    "population": "830"
+  },
+  "Port Alexander, Alaska": {
+    "state": "02",
+    "place": "62510",
+    "population": "78"
+  },
+  "Port Heiden, Alaska": {
+    "state": "02",
+    "place": "63390",
+    "population": "100"
+  },
+  "Port Lions, Alaska": {
+    "state": "02",
+    "place": "63610",
+    "population": "170"
+  },
+  "Quinhagak, Alaska": {
+    "state": "02",
+    "place": "64600",
+    "population": "776"
+  },
+  "Ruby, Alaska": {
+    "state": "02",
+    "place": "65590",
+    "population": "139"
+  },
+  "Russian Mission, Alaska": {
+    "state": "02",
+    "place": "65700",
+    "population": "421"
+  },
+  "St. George, Alaska": {
+    "state": "02",
+    "place": "65800",
+    "population": "67"
+  },
+  "St. Mary's, Alaska": {
+    "state": "02",
+    "place": "66140",
+    "population": "599"
+  },
+  "St. Michael, Alaska": {
+    "state": "02",
+    "place": "66360",
+    "population": "456"
+  },
+  "Sand Point, Alaska": {
+    "state": "02",
+    "place": "67020",
+    "population": "578"
+  },
+  "Savoonga, Alaska": {
+    "state": "02",
+    "place": "67460",
+    "population": "835"
+  },
+  "Saxman, Alaska": {
+    "state": "02",
+    "place": "67570",
+    "population": "384"
+  },
+  "Scammon Bay, Alaska": {
+    "state": "02",
+    "place": "67680",
+    "population": "600"
+  },
+  "Selawik, Alaska": {
+    "state": "02",
+    "place": "68230",
+    "population": "809"
+  },
+  "Seldovia, Alaska": {
+    "state": "02",
+    "place": "68340",
+    "population": "235"
+  },
+  "Seward, Alaska": {
+    "state": "02",
+    "place": "68560",
+    "population": "2717"
+  },
+  "Shageluk, Alaska": {
+    "state": "02",
+    "place": "68670",
+    "population": "100"
+  },
+  "Shaktoolik, Alaska": {
+    "state": "02",
+    "place": "68890",
+    "population": "212"
+  },
+  "Shishmaref, Alaska": {
+    "state": "02",
+    "place": "69770",
+    "population": "576"
+  },
+  "Shungnak, Alaska": {
+    "state": "02",
+    "place": "70100",
+    "population": "272"
+  },
+  "Soldotna, Alaska": {
+    "state": "02",
+    "place": "71640",
+    "population": "4342"
+  },
+  "Stebbins, Alaska": {
+    "state": "02",
+    "place": "72960",
+    "population": "634"
+  },
+  "Tanana, Alaska": {
+    "state": "02",
+    "place": "75160",
+    "population": "246"
+  },
+  "St. Paul, Alaska": {
+    "state": "02",
+    "place": "66470",
+    "population": "413"
+  },
+  "Teller, Alaska": {
+    "state": "02",
+    "place": "75930",
+    "population": "249"
+  },
+  "Tenakee Springs, Alaska": {
+    "state": "02",
+    "place": "76260",
+    "population": "116"
+  },
+  "Thorne Bay, Alaska": {
+    "state": "02",
+    "place": "77140",
+    "population": "476"
+  },
+  "Togiak, Alaska": {
+    "state": "02",
+    "place": "77690",
+    "population": "817"
+  },
+  "Toksook Bay, Alaska": {
+    "state": "02",
+    "place": "78240",
+    "population": "658"
+  },
+  "Unalakleet, Alaska": {
+    "state": "02",
+    "place": "80660",
+    "population": "765"
+  },
+  "Unalaska, Alaska": {
+    "state": "02",
+    "place": "80770",
+    "population": "4254"
+  },
+  "Upper Kalskag, Alaska": {
+    "state": "02",
+    "place": "81320",
+    "population": "212"
+  },
+  "Utqiaġvik, Alaska": {
+    "state": "02",
+    "place": "81920",
+    "population": "4927"
+  },
+  "Valdez, Alaska": {
+    "state": "02",
+    "place": "82200",
+    "population": "3985"
+  },
+  "Wainwright, Alaska": {
+    "state": "02",
+    "place": "82750",
+    "population": "628"
+  },
+  "Wales, Alaska": {
+    "state": "02",
+    "place": "82860",
+    "population": "168"
+  },
+  "Wasilla, Alaska": {
+    "state": "02",
+    "place": "83080",
+    "population": "9054"
+  },
+  "Whale Pass, Alaska": {
+    "state": "02",
+    "place": "84000",
+    "population": "86"
+  },
+  "White Mountain, Alaska": {
+    "state": "02",
+    "place": "84070",
+    "population": "185"
+  },
+  "Whittier, Alaska": {
+    "state": "02",
+    "place": "84510",
+    "population": "272"
+  }
+}
