@@ -1,0 +1,787 @@
+{
+  "Flandreau, South Dakota": {
+    "state": "46",
+    "place": "21540",
+    "population": "2372"
+  },
+  "Fort Pierre, South Dakota": {
+    "state": "46",
+    "place": "22260",
+    "population": "2115"
+  },
+  "Frankfort, South Dakota": {
+    "state": "46",
+    "place": "22580",
+    "population": "134"
+  },
+  "Freeman, South Dakota": {
+    "state": "46",
+    "place": "23020",
+    "population": "1329"
+  },
+  "Garretson, South Dakota": {
+    "state": "46",
+    "place": "23820",
+    "population": "1228"
+  },
+  "Gary, South Dakota": {
+    "state": "46",
+    "place": "23860",
+    "population": "240"
+  },
+  "Geddes, South Dakota": {
+    "state": "46",
+    "place": "23980",
+    "population": "156"
+  },
+  "Gettysburg, South Dakota": {
+    "state": "46",
+    "place": "24260",
+    "population": "1104"
+  },
+  "Gregory, South Dakota": {
+    "state": "46",
+    "place": "26180",
+    "population": "1221"
+  },
+  "Groton, South Dakota": {
+    "state": "46",
+    "place": "26340",
+    "population": "1380"
+  },
+  "Harrisburg, South Dakota": {
+    "state": "46",
+    "place": "27260",
+    "population": "6732"
+  },
+  "Hartford, South Dakota": {
+    "state": "46",
+    "place": "27540",
+    "population": "3354"
+  },
+  "Hecla, South Dakota": {
+    "state": "46",
+    "place": "27980",
+    "population": "193"
+  },
+  "Herreid, South Dakota": {
+    "state": "46",
+    "place": "28340",
+    "population": "416"
+  },
+  "Highmore, South Dakota": {
+    "state": "46",
+    "place": "28980",
+    "population": "682"
+  },
+  "Hill City, South Dakota": {
+    "state": "46",
+    "place": "29100",
+    "population": "872"
+  },
+  "Hosmer, South Dakota": {
+    "state": "46",
+    "place": "30140",
+    "population": "164"
+  },
+  "Hot Springs, South Dakota": {
+    "state": "46",
+    "place": "30220",
+    "population": "3395"
+  },
+  "Howard, South Dakota": {
+    "state": "46",
+    "place": "30460",
+    "population": "848"
+  },
+  "Hurley, South Dakota": {
+    "state": "46",
+    "place": "30980",
+    "population": "379"
+  },
+  "Huron, South Dakota": {
+    "state": "46",
+    "place": "31060",
+    "population": "14263"
+  },
+  "Ipswich, South Dakota": {
+    "state": "46",
+    "place": "31860",
+    "population": "928"
+  },
+  "Irene, South Dakota": {
+    "state": "46",
+    "place": "31940",
+    "population": "422"
+  },
+  "Iroquois, South Dakota": {
+    "state": "46",
+    "place": "32020",
+    "population": "292"
+  },
+  "Jefferson, South Dakota": {
+    "state": "46",
+    "place": "32700",
+    "population": "475"
+  },
+  "Kadoka, South Dakota": {
+    "state": "46",
+    "place": "33180",
+    "population": "543"
+  },
+  "Kimball, South Dakota": {
+    "state": "46",
+    "place": "33980",
+    "population": "572"
+  },
+  "Lake Andes, South Dakota": {
+    "state": "46",
+    "place": "35100",
+    "population": "710"
+  },
+  "Lake Norden, South Dakota": {
+    "state": "46",
+    "place": "35460",
+    "population": "554"
+  },
+  "Lake Preston, South Dakota": {
+    "state": "46",
+    "place": "35500",
+    "population": "589"
+  },
+  "Lead, South Dakota": {
+    "state": "46",
+    "place": "36220",
+    "population": "2982"
+  },
+  "Lemmon, South Dakota": {
+    "state": "46",
+    "place": "36340",
+    "population": "1160"
+  },
+  "Lennox, South Dakota": {
+    "state": "46",
+    "place": "36380",
+    "population": "2423"
+  },
+  "Leola, South Dakota": {
+    "state": "46",
+    "place": "36460",
+    "population": "434"
+  },
+  "McIntosh, South Dakota": {
+    "state": "46",
+    "place": "39940",
+    "population": "111"
+  },
+  "McLaughlin, South Dakota": {
+    "state": "46",
+    "place": "40020",
+    "population": "569"
+  },
+  "Madison, South Dakota": {
+    "state": "46",
+    "place": "40220",
+    "population": "6191"
+  },
+  "Marion, South Dakota": {
+    "state": "46",
+    "place": "40860",
+    "population": "849"
+  },
+  "Martin, South Dakota": {
+    "state": "46",
+    "place": "41100",
+    "population": "938"
+  },
+  "Mellette, South Dakota": {
+    "state": "46",
+    "place": "41860",
+    "population": "199"
+  },
+  "Menno, South Dakota": {
+    "state": "46",
+    "place": "41980",
+    "population": "614"
+  },
+  "Milbank, South Dakota": {
+    "state": "46",
+    "place": "42260",
+    "population": "3544"
+  },
+  "Miller, South Dakota": {
+    "state": "46",
+    "place": "42460",
+    "population": "1349"
+  },
+  "Mission, South Dakota": {
+    "state": "46",
+    "place": "42940",
+    "population": "1156"
+  },
+  "Mitchell, South Dakota": {
+    "state": "46",
+    "place": "43100",
+    "population": "15660"
+  },
+  "Mobridge, South Dakota": {
+    "state": "46",
+    "place": "43180",
+    "population": "3261"
+  },
+  "Montrose, South Dakota": {
+    "state": "46",
+    "place": "43500",
+    "population": "468"
+  },
+  "Mount Vernon, South Dakota": {
+    "state": "46",
+    "place": "44100",
+    "population": "461"
+  },
+  "Murdo, South Dakota": {
+    "state": "46",
+    "place": "44260",
+    "population": "475"
+  },
+  "Newell, South Dakota": {
+    "state": "46",
+    "place": "44860",
+    "population": "584"
+  },
+  "New Underwood, South Dakota": {
+    "state": "46",
+    "place": "45060",
+    "population": "590"
+  },
+  "North Sioux City, South Dakota": {
+    "state": "46",
+    "place": "45700",
+    "population": "3042"
+  },
+  "Oldham, South Dakota": {
+    "state": "46",
+    "place": "46780",
+    "population": "121"
+  },
+  "Onida, South Dakota": {
+    "state": "46",
+    "place": "47180",
+    "population": "666"
+  },
+  "Parker, South Dakota": {
+    "state": "46",
+    "place": "48380",
+    "population": "1194"
+  },
+  "Parkston, South Dakota": {
+    "state": "46",
+    "place": "48460",
+    "population": "1567"
+  },
+  "Philip, South Dakota": {
+    "state": "46",
+    "place": "49300",
+    "population": "759"
+  },
+  "Piedmont, South Dakota": {
+    "state": "46",
+    "place": "49500",
+    "population": "971"
+  },
+  "Pierre, South Dakota": {
+    "state": "46",
+    "place": "49600",
+    "population": "14091"
+  },
+  "Plankinton, South Dakota": {
+    "state": "46",
+    "place": "50020",
+    "population": "781"
+  },
+  "Platte, South Dakota": {
+    "state": "46",
+    "place": "50260",
+    "population": "1296"
+  },
+  "Presho, South Dakota": {
+    "state": "46",
+    "place": "51820",
+    "population": "472"
+  },
+  "Rapid City, South Dakota": {
+    "state": "46",
+    "place": "52980",
+    "population": "74703"
+  },
+  "Redfield, South Dakota": {
+    "state": "46",
+    "place": "53460",
+    "population": "2214"
+  },
+  "Roscoe, South Dakota": {
+    "state": "46",
+    "place": "55820",
+    "population": "269"
+  },
+  "Salem, South Dakota": {
+    "state": "46",
+    "place": "57340",
+    "population": "1325"
+  },
+  "Scotland, South Dakota": {
+    "state": "46",
+    "place": "57940",
+    "population": "785"
+  },
+  "Selby, South Dakota": {
+    "state": "46",
+    "place": "58140",
+    "population": "610"
+  },
+  "Sioux Falls, South Dakota": {
+    "state": "46",
+    "place": "59020",
+    "population": "192517"
+  },
+  "Sisseton, South Dakota": {
+    "state": "46",
+    "place": "59260",
+    "population": "2479"
+  },
+  "Spearfish, South Dakota": {
+    "state": "46",
+    "place": "60020",
+    "population": "12193"
+  },
+  "Spencer, South Dakota": {
+    "state": "46",
+    "place": "60060",
+    "population": "136"
+  },
+  "Springfield, South Dakota": {
+    "state": "46",
+    "place": "60660",
+    "population": "1914"
+  },
+  "Sturgis, South Dakota": {
+    "state": "46",
+    "place": "62100",
+    "population": "7020"
+  },
+  "Summerset, South Dakota": {
+    "state": "46",
+    "place": "62155",
+    "population": "2972"
+  },
+  "Tea, South Dakota": {
+    "state": "46",
+    "place": "63100",
+    "population": "5598"
+  },
+  "Timber Lake, South Dakota": {
+    "state": "46",
+    "place": "63620",
+    "population": "509"
+  },
+  "Tripp, South Dakota": {
+    "state": "46",
+    "place": "64020",
+    "population": "575"
+  },
+  "Tyndall, South Dakota": {
+    "state": "46",
+    "place": "64860",
+    "population": "1057"
+  },
+  "Valley Springs, South Dakota": {
+    "state": "46",
+    "place": "66260",
+    "population": "885"
+  },
+  "Veblen, South Dakota": {
+    "state": "46",
+    "place": "66540",
+    "population": "317"
+  },
+  "Vermillion, South Dakota": {
+    "state": "46",
+    "place": "66700",
+    "population": "11695"
+  },
+  "Viborg, South Dakota": {
+    "state": "46",
+    "place": "67020",
+    "population": "814"
+  },
+  "Volga, South Dakota": {
+    "state": "46",
+    "place": "67700",
+    "population": "2113"
+  },
+  "Wagner, South Dakota": {
+    "state": "46",
+    "place": "68020",
+    "population": "1490"
+  },
+  "Watertown, South Dakota": {
+    "state": "46",
+    "place": "69300",
+    "population": "22655"
+  },
+  "Waubay, South Dakota": {
+    "state": "46",
+    "place": "69340",
+    "population": "473"
+  },
+  "Webster, South Dakota": {
+    "state": "46",
+    "place": "69780",
+    "population": "1728"
+  },
+  "Wessington, South Dakota": {
+    "state": "46",
+    "place": "70140",
+    "population": "197"
+  },
+  "Wessington Springs, South Dakota": {
+    "state": "46",
+    "place": "70220",
+    "population": "771"
+  },
+  "White, South Dakota": {
+    "state": "46",
+    "place": "70940",
+    "population": "537"
+  },
+  "White Lake, South Dakota": {
+    "state": "46",
+    "place": "71180",
+    "population": "394"
+  },
+  "White River, South Dakota": {
+    "state": "46",
+    "place": "71340",
+    "population": "533"
+  },
+  "Whitewood, South Dakota": {
+    "state": "46",
+    "place": "71580",
+    "population": "879"
+  },
+  "Willow Lake, South Dakota": {
+    "state": "46",
+    "place": "71940",
+    "population": "255"
+  },
+  "Wilmot, South Dakota": {
+    "state": "46",
+    "place": "71980",
+    "population": "432"
+  },
+  "Winner, South Dakota": {
+    "state": "46",
+    "place": "72180",
+    "population": "2921"
+  },
+  "Woonsocket, South Dakota": {
+    "state": "46",
+    "place": "72700",
+    "population": "631"
+  },
+  "Worthing, South Dakota": {
+    "state": "46",
+    "place": "72820",
+    "population": "927"
+  },
+  "Yankton, South Dakota": {
+    "state": "46",
+    "place": "73060",
+    "population": "15411"
+  },
+  "Aberdeen, South Dakota": {
+    "state": "46",
+    "place": "00100",
+    "population": "28495"
+  },
+  "Alcester, South Dakota": {
+    "state": "46",
+    "place": "00700",
+    "population": "820"
+  },
+  "Alexandria, South Dakota": {
+    "state": "46",
+    "place": "00820",
+    "population": "649"
+  },
+  "Arlington, South Dakota": {
+    "state": "46",
+    "place": "02180",
+    "population": "915"
+  },
+  "Armour, South Dakota": {
+    "state": "46",
+    "place": "02260",
+    "population": "698"
+  },
+  "Ashton, South Dakota": {
+    "state": "46",
+    "place": "02540",
+    "population": "108"
+  },
+  "Avon, South Dakota": {
+    "state": "46",
+    "place": "02900",
+    "population": "586"
+  },
+  "Baltic, South Dakota": {
+    "state": "46",
+    "place": "03380",
+    "population": "1246"
+  },
+  "Belle Fourche, South Dakota": {
+    "state": "46",
+    "place": "04380",
+    "population": "5617"
+  },
+  "Beresford, South Dakota": {
+    "state": "46",
+    "place": "04980",
+    "population": "2180"
+  },
+  "Big Stone City, South Dakota": {
+    "state": "46",
+    "place": "05540",
+    "population": "412"
+  },
+  "Blunt, South Dakota": {
+    "state": "46",
+    "place": "06180",
+    "population": "342"
+  },
+  "Bonesteel, South Dakota": {
+    "state": "46",
+    "place": "06220",
+    "population": "258"
+  },
+  "Bowdle, South Dakota": {
+    "state": "46",
+    "place": "06540",
+    "population": "470"
+  },
+  "Box Elder, South Dakota": {
+    "state": "46",
+    "place": "06620",
+    "population": "11746"
+  },
+  "Brandon, South Dakota": {
+    "state": "46",
+    "place": "06840",
+    "population": "11048"
+  },
+  "Brant Lake, South Dakota": {
+    "state": "46",
+    "place": "07040",
+    "population": "56"
+  },
+  "Bridgewater, South Dakota": {
+    "state": "46",
+    "place": "07180",
+    "population": "511"
+  },
+  "Bristol, South Dakota": {
+    "state": "46",
+    "place": "07300",
+    "population": "288"
+  },
+  "Britton, South Dakota": {
+    "state": "46",
+    "place": "07380",
+    "population": "1215"
+  },
+  "Brookings, South Dakota": {
+    "state": "46",
+    "place": "07580",
+    "population": "23377"
+  },
+  "Bruce, South Dakota": {
+    "state": "46",
+    "place": "07740",
+    "population": "210"
+  },
+  "Bryant, South Dakota": {
+    "state": "46",
+    "place": "08060",
+    "population": "471"
+  },
+  "Burke, South Dakota": {
+    "state": "46",
+    "place": "08700",
+    "population": "575"
+  },
+  "Canistota, South Dakota": {
+    "state": "46",
+    "place": "09300",
+    "population": "631"
+  },
+  "Canton, South Dakota": {
+    "state": "46",
+    "place": "09500",
+    "population": "3066"
+  },
+  "Carthage, South Dakota": {
+    "state": "46",
+    "place": "10220",
+    "population": "127"
+  },
+  "Castlewood, South Dakota": {
+    "state": "46",
+    "place": "10500",
+    "population": "698"
+  },
+  "Centerville, South Dakota": {
+    "state": "46",
+    "place": "11060",
+    "population": "918"
+  },
+  "Central City, South Dakota": {
+    "state": "46",
+    "place": "11140",
+    "population": "93"
+  },
+  "Chamberlain, South Dakota": {
+    "state": "46",
+    "place": "11220",
+    "population": "2473"
+  },
+  "Clark, South Dakota": {
+    "state": "46",
+    "place": "12180",
+    "population": "1148"
+  },
+  "Clear Lake, South Dakota": {
+    "state": "46",
+    "place": "12540",
+    "population": "1218"
+  },
+  "Colman, South Dakota": {
+    "state": "46",
+    "place": "13220",
+    "population": "634"
+  },
+  "Colome, South Dakota": {
+    "state": "46",
+    "place": "13300",
+    "population": "331"
+  },
+  "Colton, South Dakota": {
+    "state": "46",
+    "place": "13380",
+    "population": "738"
+  },
+  "Columbia, South Dakota": {
+    "state": "46",
+    "place": "13420",
+    "population": "160"
+  },
+  "Conde, South Dakota": {
+    "state": "46",
+    "place": "13700",
+    "population": "142"
+  },
+  "Corsica, South Dakota": {
+    "state": "46",
+    "place": "13980",
+    "population": "561"
+  },
+  "Crooks, South Dakota": {
+    "state": "46",
+    "place": "14740",
+    "population": "1362"
+  },
+  "Custer, South Dakota": {
+    "state": "46",
+    "place": "15140",
+    "population": "1919"
+  },
+  "Deadwood, South Dakota": {
+    "state": "46",
+    "place": "15700",
+    "population": "1156"
+  },
+  "Dell Rapids, South Dakota": {
+    "state": "46",
+    "place": "15980",
+    "population": "3996"
+  },
+  "Delmont, South Dakota": {
+    "state": "46",
+    "place": "16060",
+    "population": "153"
+  },
+  "De Smet, South Dakota": {
+    "state": "46",
+    "place": "16260",
+    "population": "1056"
+  },
+  "Doland, South Dakota": {
+    "state": "46",
+    "place": "16820",
+    "population": "199"
+  },
+  "Dupree, South Dakota": {
+    "state": "46",
+    "place": "17420",
+    "population": "494"
+  },
+  "Eagle Butte, South Dakota": {
+    "state": "46",
+    "place": "17620",
+    "population": "1258"
+  },
+  "Edgemont, South Dakota": {
+    "state": "46",
+    "place": "18300",
+    "population": "725"
+  },
+  "Egan, South Dakota": {
+    "state": "46",
+    "place": "18460",
+    "population": "241"
+  },
+  "Elk Point, South Dakota": {
+    "state": "46",
+    "place": "18620",
+    "population": "2149"
+  },
+  "Elkton, South Dakota": {
+    "state": "46",
+    "place": "18700",
+    "population": "755"
+  },
+  "Emery, South Dakota": {
+    "state": "46",
+    "place": "19420",
+    "population": "484"
+  },
+  "Estelline, South Dakota": {
+    "state": "46",
+    "place": "19980",
+    "population": "749"
+  },
+  "Eureka, South Dakota": {
+    "state": "46",
+    "place": "20180",
+    "population": "813"
+  },
+  "Faith, South Dakota": {
+    "state": "46",
+    "place": "20980",
+    "population": "367"
+  },
+  "Faulkton, South Dakota": {
+    "state": "46",
+    "place": "21260",
+    "population": "826"
+  }
+}

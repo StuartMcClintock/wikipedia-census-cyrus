@@ -1,0 +1,307 @@
+{
+  "Inland, Nebraska": {
+    "state": "31",
+    "place": "24005",
+    "population": "58"
+  },
+  "Keystone, Nebraska": {
+    "state": "31",
+    "place": "25335",
+    "population": "73"
+  },
+  "King Lake, Nebraska": {
+    "state": "31",
+    "place": "25510",
+    "population": "114"
+  },
+  "Kramer, Nebraska": {
+    "state": "31",
+    "place": "25720",
+    "population": "26"
+  },
+  "Lakeview, Nebraska": {
+    "state": "31",
+    "place": "26150",
+    "population": "378"
+  },
+  "La Platte, Nebraska": {
+    "state": "31",
+    "place": "26315",
+    "population": "50"
+  },
+  "Lemoyne, Nebraska": {
+    "state": "31",
+    "place": "26595",
+    "population": "44"
+  },
+  "Lindy, Nebraska": {
+    "state": "31",
+    "place": "28140",
+    "population": "13"
+  },
+  "Linoma Beach, Nebraska": {
+    "state": "31",
+    "place": "28165",
+    "population": "43"
+  },
+  "Lisco, Nebraska": {
+    "state": "31",
+    "place": "28315",
+    "population": "68"
+  },
+  "Inavale, Nebraska": {
+    "state": "31",
+    "place": "23725",
+    "population": "66"
+  },
+  "Lorenzo, Nebraska": {
+    "state": "31",
+    "place": "29120",
+    "population": "36"
+  },
+  "Loretto, Nebraska": {
+    "state": "31",
+    "place": "29155",
+    "population": "50"
+  },
+  "Macy, Nebraska": {
+    "state": "31",
+    "place": "30170",
+    "population": "1045"
+  },
+  "Martell, Nebraska": {
+    "state": "31",
+    "place": "30835",
+    "population": "125"
+  },
+  "Martin, Nebraska": {
+    "state": "31",
+    "place": "30905",
+    "population": "76"
+  },
+  "Max, Nebraska": {
+    "state": "31",
+    "place": "31150",
+    "population": "50"
+  },
+  "Melia, Nebraska": {
+    "state": "31",
+    "place": "31605",
+    "population": "98"
+  },
+  "Odessa, Nebraska": {
+    "state": "31",
+    "place": "35770",
+    "population": "132"
+  },
+  "Offutt AFB, Nebraska": {
+    "state": "31",
+    "place": "35875",
+    "population": "5363"
+  },
+  "Overland, Nebraska": {
+    "state": "31",
+    "place": "37735",
+    "population": "202"
+  },
+  "Parks, Nebraska": {
+    "state": "31",
+    "place": "38365",
+    "population": "12"
+  },
+  "Poole, Nebraska": {
+    "state": "31",
+    "place": "39835",
+    "population": "22"
+  },
+  "Prairie Home, Nebraska": {
+    "state": "31",
+    "place": "40255",
+    "population": "38"
+  },
+  "Princeton, Nebraska": {
+    "state": "31",
+    "place": "40395",
+    "population": "51"
+  },
+  "Raeville, Nebraska": {
+    "state": "31",
+    "place": "40535",
+    "population": "18"
+  },
+  "Richfield, Nebraska": {
+    "state": "31",
+    "place": "41340",
+    "population": "42"
+  },
+  "Roscoe, Nebraska": {
+    "state": "31",
+    "place": "42285",
+    "population": "44"
+  },
+  "St. Libory, Nebraska": {
+    "state": "31",
+    "place": "43160",
+    "population": "241"
+  },
+  "Sarben, Nebraska": {
+    "state": "31",
+    "place": "43650",
+    "population": "31"
+  },
+  "Seneca, Nebraska": {
+    "state": "31",
+    "place": "44385",
+    "population": "49"
+  },
+  "Agnew, Nebraska": {
+    "state": "31",
+    "place": "00380",
+    "population": "30"
+  },
+  "Ames, Nebraska": {
+    "state": "31",
+    "place": "01220",
+    "population": "14"
+  },
+  "Archer, Nebraska": {
+    "state": "31",
+    "place": "01920",
+    "population": "68"
+  },
+  "Aten, Nebraska": {
+    "state": "31",
+    "place": "02480",
+    "population": "134"
+  },
+  "Beacon View, Nebraska": {
+    "state": "31",
+    "place": "03377",
+    "population": "55"
+  },
+  "Sunol, Nebraska": {
+    "state": "31",
+    "place": "47745",
+    "population": "57"
+  },
+  "Tamora, Nebraska": {
+    "state": "31",
+    "place": "48340",
+    "population": "44"
+  },
+  "Tryon, Nebraska": {
+    "state": "31",
+    "place": "49320",
+    "population": "107"
+  },
+  "Venice, Nebraska": {
+    "state": "31",
+    "place": "50265",
+    "population": "75"
+  },
+  "Walton, Nebraska": {
+    "state": "31",
+    "place": "51280",
+    "population": "351"
+  },
+  "Wann, Nebraska": {
+    "state": "31",
+    "place": "51350",
+    "population": "102"
+  },
+  "Belmar, Nebraska": {
+    "state": "31",
+    "place": "04055",
+    "population": "199"
+  },
+  "Berea, Nebraska": {
+    "state": "31",
+    "place": "04545",
+    "population": "49"
+  },
+  "Bow Valley, Nebraska": {
+    "state": "31",
+    "place": "05980",
+    "population": "95"
+  },
+  "Brownlee, Nebraska": {
+    "state": "31",
+    "place": "06680",
+    "population": "13"
+  },
+  "Westerville, Nebraska": {
+    "state": "31",
+    "place": "52330",
+    "population": "31"
+  },
+  "White Clay, Nebraska": {
+    "state": "31",
+    "place": "52855",
+    "population": "8"
+  },
+  "Willow Island, Nebraska": {
+    "state": "31",
+    "place": "53205",
+    "population": "25"
+  },
+  "Woodland Hills, Nebraska": {
+    "state": "31",
+    "place": "53575",
+    "population": "232"
+  },
+  "Woodland Park, Nebraska": {
+    "state": "31",
+    "place": "53580",
+    "population": "1830"
+  },
+  "Yankee Hill, Nebraska": {
+    "state": "31",
+    "place": "54020",
+    "population": "286"
+  },
+  "Chalco, Nebraska": {
+    "state": "31",
+    "place": "08640",
+    "population": "11064"
+  },
+  "Champion, Nebraska": {
+    "state": "31",
+    "place": "08745",
+    "population": "115"
+  },
+  "Cheney, Nebraska": {
+    "state": "31",
+    "place": "08990",
+    "population": "164"
+  },
+  "Emerald, Nebraska": {
+    "state": "31",
+    "place": "15675",
+    "population": "45"
+  },
+  "Enders, Nebraska": {
+    "state": "31",
+    "place": "15885",
+    "population": "37"
+  },
+  "Fontanelle, Nebraska": {
+    "state": "31",
+    "place": "17040",
+    "population": "67"
+  },
+  "Glenwood, Nebraska": {
+    "state": "31",
+    "place": "19160",
+    "population": "503"
+  },
+  "Harrisburg, Nebraska": {
+    "state": "31",
+    "place": "21030",
+    "population": "99"
+  },
+  "Holmesville, Nebraska": {
+    "state": "31",
+    "place": "22780",
+    "population": "60"
+  }
+}

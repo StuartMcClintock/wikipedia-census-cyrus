@@ -1,0 +1,17 @@
+{
+  "Juneau, Alaska": {
+    "state": "02",
+    "place": "36400",
+    "population": "32255"
+  },
+  "Sitka, Alaska": {
+    "state": "02",
+    "place": "70540",
+    "population": "8458"
+  },
+  "Wrangell, Alaska": {
+    "state": "02",
+    "place": "86380",
+    "population": "2127"
+  }
+}

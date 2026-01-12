@@ -1,0 +1,532 @@
+{
+  "Albany, Wyoming": {
+    "state": "56",
+    "place": "00680",
+    "population": "31"
+  },
+  "Alcova, Wyoming": {
+    "state": "56",
+    "place": "01115",
+    "population": "34"
+  },
+  "Alpine Northeast, Wyoming": {
+    "state": "56",
+    "place": "01888",
+    "population": "246"
+  },
+  "Alpine Northwest, Wyoming": {
+    "state": "56",
+    "place": "01936",
+    "population": "305"
+  },
+  "Alta, Wyoming": {
+    "state": "56",
+    "place": "01985",
+    "population": "429"
+  },
+  "Antelope Hills, Wyoming": {
+    "state": "56",
+    "place": "02877",
+    "population": "95"
+  },
+  "Arapahoe, Wyoming": {
+    "state": "56",
+    "place": "03000",
+    "population": "1612"
+  },
+  "Arlington, Wyoming": {
+    "state": "56",
+    "place": "03245",
+    "population": "37"
+  },
+  "Arrowhead Springs, Wyoming": {
+    "state": "56",
+    "place": "03652",
+    "population": "59"
+  },
+  "Arvada, Wyoming": {
+    "state": "56",
+    "place": "03725",
+    "population": "33"
+  },
+  "Atlantic City, Wyoming": {
+    "state": "56",
+    "place": "04015",
+    "population": "54"
+  },
+  "Auburn, Wyoming": {
+    "state": "56",
+    "place": "04160",
+    "population": "375"
+  },
+  "Bedford, Wyoming": {
+    "state": "56",
+    "place": "06045",
+    "population": "465"
+  },
+  "Bessemer Bend, Wyoming": {
+    "state": "56",
+    "place": "06407",
+    "population": "202"
+  },
+  "Beulah, Wyoming": {
+    "state": "56",
+    "place": "06480",
+    "population": "84"
+  },
+  "Big Horn, Wyoming": {
+    "state": "56",
+    "place": "06770",
+    "population": "457"
+  },
+  "Bondurant, Wyoming": {
+    "state": "56",
+    "place": "08365",
+    "population": "108"
+  },
+  "Boulder, Wyoming": {
+    "state": "56",
+    "place": "09235",
+    "population": "115"
+  },
+  "Boulder Flats, Wyoming": {
+    "state": "56",
+    "place": "09307",
+    "population": "450"
+  },
+  "Brookhurst, Wyoming": {
+    "state": "56",
+    "place": "10175",
+    "population": "205"
+  },
+  "Carpenter, Wyoming": {
+    "state": "56",
+    "place": "12860",
+    "population": "93"
+  },
+  "Carter, Wyoming": {
+    "state": "56",
+    "place": "13005",
+    "population": "0"
+  },
+  "Casper Mountain, Wyoming": {
+    "state": "56",
+    "place": "13222",
+    "population": "545"
+  },
+  "Centennial, Wyoming": {
+    "state": "56",
+    "place": "13440",
+    "population": "283"
+  },
+  "Chugcreek, Wyoming": {
+    "state": "56",
+    "place": "14097",
+    "population": "154"
+  },
+  "Clearview Acres, Wyoming": {
+    "state": "56",
+    "place": "15400",
+    "population": "758"
+  },
+  "Cora, Wyoming": {
+    "state": "56",
+    "place": "17210",
+    "population": "114"
+  },
+  "Crowheart, Wyoming": {
+    "state": "56",
+    "place": "18225",
+    "population": "120"
+  },
+  "Daniel, Wyoming": {
+    "state": "56",
+    "place": "18950",
+    "population": "108"
+  },
+  "Eden, Wyoming": {
+    "state": "56",
+    "place": "23010",
+    "population": "235"
+  },
+  "El Rancho, Wyoming": {
+    "state": "56",
+    "place": "24350",
+    "population": "18"
+  },
+  "Esterbrook, Wyoming": {
+    "state": "56",
+    "place": "25185",
+    "population": "40"
+  },
+  "Ethete, Wyoming": {
+    "state": "56",
+    "place": "25330",
+    "population": "1393"
+  },
+  "Etna, Wyoming": {
+    "state": "56",
+    "place": "25475",
+    "population": "185"
+  },
+  "Fairview, Wyoming": {
+    "state": "56",
+    "place": "25910",
+    "population": "277"
+  },
+  "Farson, Wyoming": {
+    "state": "56",
+    "place": "26055",
+    "population": "272"
+  },
+  "Fontenelle, Wyoming": {
+    "state": "56",
+    "place": "27650",
+    "population": "5"
+  },
+  "Fort Bridger, Wyoming": {
+    "state": "56",
+    "place": "27940",
+    "population": "354"
+  },
+  "Fort Washakie, Wyoming": {
+    "state": "56",
+    "place": "28665",
+    "population": "1650"
+  },
+  "Fox Farm-College, Wyoming": {
+    "state": "56",
+    "place": "29300",
+    "population": "3876"
+  },
+  "Fox Park, Wyoming": {
+    "state": "56",
+    "place": "29400",
+    "population": "12"
+  },
+  "Freedom, Wyoming": {
+    "state": "56",
+    "place": "30115",
+    "population": "247"
+  },
+  "Garland, Wyoming": {
+    "state": "56",
+    "place": "30985",
+    "population": "110"
+  },
+  "Grover, Wyoming": {
+    "state": "56",
+    "place": "34030",
+    "population": "481"
+  },
+  "Hartrandt, Wyoming": {
+    "state": "56",
+    "place": "35552",
+    "population": "724"
+  },
+  "Hawk Springs, Wyoming": {
+    "state": "56",
+    "place": "36060",
+    "population": "47"
+  },
+  "Hillsdale, Wyoming": {
+    "state": "56",
+    "place": "37510",
+    "population": "40"
+  },
+  "Hill View Heights, Wyoming": {
+    "state": "56",
+    "place": "37727",
+    "population": "144"
+  },
+  "Hoback, Wyoming": {
+    "state": "56",
+    "place": "37945",
+    "population": "1276"
+  },
+  "Homa Hills, Wyoming": {
+    "state": "56",
+    "place": "38307",
+    "population": "224"
+  },
+  "Huntley, Wyoming": {
+    "state": "56",
+    "place": "39250",
+    "population": "11"
+  },
+  "Hyattville, Wyoming": {
+    "state": "56",
+    "place": "39395",
+    "population": "79"
+  },
+  "James Town, Wyoming": {
+    "state": "56",
+    "place": "40265",
+    "population": "455"
+  },
+  "Jeffrey City, Wyoming": {
+    "state": "56",
+    "place": "40555",
+    "population": "47"
+  },
+  "Johnstown, Wyoming": {
+    "state": "56",
+    "place": "40945",
+    "population": "227"
+  },
+  "Kelly, Wyoming": {
+    "state": "56",
+    "place": "41860",
+    "population": "127"
+  },
+  "Lakeview North, Wyoming": {
+    "state": "56",
+    "place": "44252",
+    "population": "97"
+  },
+  "Lance Creek, Wyoming": {
+    "state": "56",
+    "place": "44615",
+    "population": "43"
+  },
+  "Little America, Wyoming": {
+    "state": "56",
+    "place": "46935",
+    "population": "47"
+  },
+  "Lonetree, Wyoming": {
+    "state": "56",
+    "place": "47370",
+    "population": "57"
+  },
+  "Lucerne, Wyoming": {
+    "state": "56",
+    "place": "48240",
+    "population": "548"
+  },
+  "McKinnon, Wyoming": {
+    "state": "56",
+    "place": "49400",
+    "population": "20"
+  },
+  "Mammoth, Wyoming": {
+    "state": "56",
+    "place": "49775",
+    "population": "262"
+  },
+  "Meadow Acres, Wyoming": {
+    "state": "56",
+    "place": "51285",
+    "population": "201"
+  },
+  "Moose Wilson Road, Wyoming": {
+    "state": "56",
+    "place": "54402",
+    "population": "1661"
+  },
+  "Mountain View, Wyoming": {
+    "state": "56",
+    "place": "55200",
+    "population": "67"
+  },
+  "Nordic, Wyoming": {
+    "state": "56",
+    "place": "56520",
+    "population": "628"
+  },
+  "North Rock Springs, Wyoming": {
+    "state": "56",
+    "place": "56700",
+    "population": "2439"
+  },
+  "Oakley, Wyoming": {
+    "state": "56",
+    "place": "57375",
+    "population": "25"
+  },
+  "Orin, Wyoming": {
+    "state": "56",
+    "place": "58100",
+    "population": "52"
+  },
+  "Osage, Wyoming": {
+    "state": "56",
+    "place": "58680",
+    "population": "151"
+  },
+  "Osmond, Wyoming": {
+    "state": "56",
+    "place": "58970",
+    "population": "405"
+  },
+  "Owl Creek, Wyoming": {
+    "state": "56",
+    "place": "59332",
+    "population": "4"
+  },
+  "Parkman, Wyoming": {
+    "state": "56",
+    "place": "59985",
+    "population": "180"
+  },
+  "Point of Rocks, Wyoming": {
+    "state": "56",
+    "place": "62160",
+    "population": "53"
+  },
+  "Powder Horn, Wyoming": {
+    "state": "56",
+    "place": "62269",
+    "population": "682"
+  },
+  "Powder River, Wyoming": {
+    "state": "56",
+    "place": "62305",
+    "population": "30"
+  },
+  "Purple Sage, Wyoming": {
+    "state": "56",
+    "place": "62812",
+    "population": "319"
+  },
+  "Rafter J Ranch, Wyoming": {
+    "state": "56",
+    "place": "63100",
+    "population": "1179"
+  },
+  "Ralston, Wyoming": {
+    "state": "56",
+    "place": "63465",
+    "population": "240"
+  },
+  "Ranchettes, Wyoming": {
+    "state": "56",
+    "place": "63800",
+    "population": "6199"
+  },
+  "Red Butte, Wyoming": {
+    "state": "56",
+    "place": "64400",
+    "population": "410"
+  },
+  "Reliance, Wyoming": {
+    "state": "56",
+    "place": "65060",
+    "population": "622"
+  },
+  "Robertson, Wyoming": {
+    "state": "56",
+    "place": "66655",
+    "population": "95"
+  },
+  "Ryan Park, Wyoming": {
+    "state": "56",
+    "place": "67670",
+    "population": "33"
+  },
+  "Shell, Wyoming": {
+    "state": "56",
+    "place": "69700",
+    "population": "74"
+  },
+  "Slater, Wyoming": {
+    "state": "56",
+    "place": "71295",
+    "population": "78"
+  },
+  "Sleepy Hollow, Wyoming": {
+    "state": "56",
+    "place": "71350",
+    "population": "1227"
+  },
+  "Smoot, Wyoming": {
+    "state": "56",
+    "place": "71440",
+    "population": "376"
+  },
+  "South Greeley, Wyoming": {
+    "state": "56",
+    "place": "71800",
+    "population": "4733"
+  },
+  "South Park, Wyoming": {
+    "state": "56",
+    "place": "71947",
+    "population": "1908"
+  },
+  "Story, Wyoming": {
+    "state": "56",
+    "place": "73615",
+    "population": "903"
+  },
+  "Table Rock, Wyoming": {
+    "state": "56",
+    "place": "75355",
+    "population": "0"
+  },
+  "Taylor, Wyoming": {
+    "state": "56",
+    "place": "75572",
+    "population": "104"
+  },
+  "Teton Village, Wyoming": {
+    "state": "56",
+    "place": "75935",
+    "population": "517"
+  },
+  "Turnerville, Wyoming": {
+    "state": "56",
+    "place": "78400",
+    "population": "222"
+  },
+  "Urie, Wyoming": {
+    "state": "56",
+    "place": "79270",
+    "population": "206"
+  },
+  "Veteran, Wyoming": {
+    "state": "56",
+    "place": "80285",
+    "population": "21"
+  },
+  "Vista West, Wyoming": {
+    "state": "56",
+    "place": "80575",
+    "population": "940"
+  },
+  "Warren AFB, Wyoming": {
+    "state": "56",
+    "place": "81640",
+    "population": "2863"
+  },
+  "Washam, Wyoming": {
+    "state": "56",
+    "place": "81703",
+    "population": "39"
+  },
+  "Westview Circle, Wyoming": {
+    "state": "56",
+    "place": "82967",
+    "population": "41"
+  },
+  "Whiting, Wyoming": {
+    "state": "56",
+    "place": "83100",
+    "population": "94"
+  },
+  "Wilson, Wyoming": {
+    "state": "56",
+    "place": "83765",
+    "population": "1567"
+  },
+  "Woods Landing-Jelm, Wyoming": {
+    "state": "56",
+    "place": "84852",
+    "population": "118"
+  },
+  "Y-O Ranch, Wyoming": {
+    "state": "56",
+    "place": "86737",
+    "population": "172"
+  }
+}

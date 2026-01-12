@@ -1,0 +1,77 @@
+{
+  "Westfield, New Jersey": {
+    "state": "34",
+    "place": "79040",
+    "population": "31032"
+  },
+  "West New York, New Jersey": {
+    "state": "34",
+    "place": "79610",
+    "population": "52912"
+  },
+  "Belvidere, New Jersey": {
+    "state": "34",
+    "place": "04990",
+    "population": "2520"
+  },
+  "Boonton, New Jersey": {
+    "state": "34",
+    "place": "06610",
+    "population": "8815"
+  },
+  "Clinton, New Jersey": {
+    "state": "34",
+    "place": "13720",
+    "population": "2773"
+  },
+  "Dover, New Jersey": {
+    "state": "34",
+    "place": "18070",
+    "population": "18460"
+  },
+  "Guttenberg, New Jersey": {
+    "state": "34",
+    "place": "28650",
+    "population": "12017"
+  },
+  "Hackettstown, New Jersey": {
+    "state": "34",
+    "place": "28710",
+    "population": "10248"
+  },
+  "Hammonton, New Jersey": {
+    "state": "34",
+    "place": "29430",
+    "population": "14711"
+  },
+  "Harrison, New Jersey": {
+    "state": "34",
+    "place": "30210",
+    "population": "19450"
+  },
+  "Kearny, New Jersey": {
+    "state": "34",
+    "place": "36510",
+    "population": "41999"
+  },
+  "Morristown, New Jersey": {
+    "state": "34",
+    "place": "48300",
+    "population": "20180"
+  },
+  "Newton, New Jersey": {
+    "state": "34",
+    "place": "51930",
+    "population": "8374"
+  },
+  "Phillipsburg, New Jersey": {
+    "state": "34",
+    "place": "58350",
+    "population": "15249"
+  },
+  "Secaucus, New Jersey": {
+    "state": "34",
+    "place": "66570",
+    "population": "22181"
+  }
+}

@@ -1,0 +1,1872 @@
+{
+  "Aguila, Arizona": {
+    "state": "04",
+    "place": "00730",
+    "population": "565"
+  },
+  "Ajo, Arizona": {
+    "state": "04",
+    "place": "00870",
+    "population": "3039"
+  },
+  "Ak Chin, Arizona": {
+    "state": "04",
+    "place": "00940",
+    "population": "50"
+  },
+  "Ak-Chin Village, Arizona": {
+    "state": "04",
+    "place": "01090",
+    "population": "884"
+  },
+  "Alamo Lake, Arizona": {
+    "state": "04",
+    "place": "01170",
+    "population": "4"
+  },
+  "Ali Chuk, Arizona": {
+    "state": "04",
+    "place": "01560",
+    "population": "119"
+  },
+  "Ali Chukson, Arizona": {
+    "state": "04",
+    "place": "01570",
+    "population": "113"
+  },
+  "Ali Molina, Arizona": {
+    "state": "04",
+    "place": "01620",
+    "population": "61"
+  },
+  "Alpine, Arizona": {
+    "state": "04",
+    "place": "01920",
+    "population": "146"
+  },
+  "Amado, Arizona": {
+    "state": "04",
+    "place": "01990",
+    "population": "198"
+  },
+  "Anegam, Arizona": {
+    "state": "04",
+    "place": "02270",
+    "population": "149"
+  },
+  "Antares, Arizona": {
+    "state": "04",
+    "place": "02410",
+    "population": "132"
+  },
+  "Anthem, Arizona": {
+    "state": "04",
+    "place": "02430",
+    "population": "23190"
+  },
+  "Arivaca, Arizona": {
+    "state": "04",
+    "place": "03320",
+    "population": "623"
+  },
+  "Arivaca Junction, Arizona": {
+    "state": "04",
+    "place": "03380",
+    "population": "970"
+  },
+  "Arizona City, Arizona": {
+    "state": "04",
+    "place": "03530",
+    "population": "9868"
+  },
+  "Arizona Village, Arizona": {
+    "state": "04",
+    "place": "03915",
+    "population": "1057"
+  },
+  "Arlington, Arizona": {
+    "state": "04",
+    "place": "04020",
+    "population": "150"
+  },
+  "Ash Fork, Arizona": {
+    "state": "04",
+    "place": "04440",
+    "population": "361"
+  },
+  "Avenue B and C, Arizona": {
+    "state": "04",
+    "place": "04710",
+    "population": "4101"
+  },
+  "Avra Valley, Arizona": {
+    "state": "04",
+    "place": "04880",
+    "population": "5569"
+  },
+  "Aztec, Arizona": {
+    "state": "04",
+    "place": "04930",
+    "population": "2"
+  },
+  "Bagdad, Arizona": {
+    "state": "04",
+    "place": "05140",
+    "population": "1932"
+  },
+  "Bear Flat, Arizona": {
+    "state": "04",
+    "place": "05450",
+    "population": "11"
+  },
+  "Beaver Dam, Arizona": {
+    "state": "04",
+    "place": "05490",
+    "population": "1552"
+  },
+  "Beaver Valley, Arizona": {
+    "state": "04",
+    "place": "05495",
+    "population": "226"
+  },
+  "Bellemont, Arizona": {
+    "state": "04",
+    "place": "05700",
+    "population": "1167"
+  },
+  "Beyerville, Arizona": {
+    "state": "04",
+    "place": "05970",
+    "population": "72"
+  },
+  "Bitter Springs, Arizona": {
+    "state": "04",
+    "place": "06470",
+    "population": "355"
+  },
+  "Black Canyon City, Arizona": {
+    "state": "04",
+    "place": "06610",
+    "population": "2677"
+  },
+  "Blackwater, Arizona": {
+    "state": "04",
+    "place": "06820",
+    "population": "1190"
+  },
+  "Blue Ridge, Arizona": {
+    "state": "04",
+    "place": "06997",
+    "population": "594"
+  },
+  "Bluewater, Arizona": {
+    "state": "04",
+    "place": "07025",
+    "population": "682"
+  },
+  "Bouse, Arizona": {
+    "state": "04",
+    "place": "07310",
+    "population": "707"
+  },
+  "Bowie, Arizona": {
+    "state": "04",
+    "place": "07380",
+    "population": "406"
+  },
+  "Brenda, Arizona": {
+    "state": "04",
+    "place": "07590",
+    "population": "466"
+  },
+  "Bryce, Arizona": {
+    "state": "04",
+    "place": "07915",
+    "population": "173"
+  },
+  "Buckshot, Arizona": {
+    "state": "04",
+    "place": "08020",
+    "population": "70"
+  },
+  "Burnside, Arizona": {
+    "state": "04",
+    "place": "08535",
+    "population": "494"
+  },
+  "Bylas, Arizona": {
+    "state": "04",
+    "place": "08710",
+    "population": "1782"
+  },
+  "Cactus Flats, Arizona": {
+    "state": "04",
+    "place": "08920",
+    "population": "1524"
+  },
+  "Cactus Forest, Arizona": {
+    "state": "04",
+    "place": "08990",
+    "population": "606"
+  },
+  "Cameron, Arizona": {
+    "state": "04",
+    "place": "09340",
+    "population": "734"
+  },
+  "Campo Bonito, Arizona": {
+    "state": "04",
+    "place": "09580",
+    "population": "83"
+  },
+  "Cane Beds, Arizona": {
+    "state": "04",
+    "place": "09900",
+    "population": "466"
+  },
+  "Canyon Day, Arizona": {
+    "state": "04",
+    "place": "10040",
+    "population": "1205"
+  },
+  "Carrizo, Arizona": {
+    "state": "04",
+    "place": "10320",
+    "population": "92"
+  },
+  "Casa Blanca, Arizona": {
+    "state": "04",
+    "place": "10460",
+    "population": "1727"
+  },
+  "Casas Adobes, Arizona": {
+    "state": "04",
+    "place": "10670",
+    "population": "70973"
+  },
+  "Catalina, Arizona": {
+    "state": "04",
+    "place": "11160",
+    "population": "7551"
+  },
+  "Catalina Foothills, Arizona": {
+    "state": "04",
+    "place": "11230",
+    "population": "52401"
+  },
+  "Cedar Creek, Arizona": {
+    "state": "04",
+    "place": "11370",
+    "population": "372"
+  },
+  "Centennial Park, Arizona": {
+    "state": "04",
+    "place": "11500",
+    "population": "1578"
+  },
+  "Central, Arizona": {
+    "state": "04",
+    "place": "11580",
+    "population": "758"
+  },
+  "Central Heights-Midland City, Arizona": {
+    "state": "04",
+    "place": "11720",
+    "population": "2319"
+  },
+  "Charco, Arizona": {
+    "state": "04",
+    "place": "12150",
+    "population": "27"
+  },
+  "Chiawuli Tak, Arizona": {
+    "state": "04",
+    "place": "12560",
+    "population": "48"
+  },
+  "Chilchinbito, Arizona": {
+    "state": "04",
+    "place": "12630",
+    "population": "769"
+  },
+  "Chinle, Arizona": {
+    "state": "04",
+    "place": "12770",
+    "population": "4573"
+  },
+  "Chloride, Arizona": {
+    "state": "04",
+    "place": "12910",
+    "population": "229"
+  },
+  "Christopher Creek, Arizona": {
+    "state": "04",
+    "place": "13140",
+    "population": "121"
+  },
+  "Chuichu, Arizona": {
+    "state": "04",
+    "place": "13190",
+    "population": "240"
+  },
+  "Cibecue, Arizona": {
+    "state": "04",
+    "place": "13400",
+    "population": "1816"
+  },
+  "Cibola, Arizona": {
+    "state": "04",
+    "place": "13470",
+    "population": "198"
+  },
+  "Cienega Springs, Arizona": {
+    "state": "04",
+    "place": "13540",
+    "population": "1690"
+  },
+  "Circle City, Arizona": {
+    "state": "04",
+    "place": "13610",
+    "population": "522"
+  },
+  "Citrus Park, Arizona": {
+    "state": "04",
+    "place": "13820",
+    "population": "5194"
+  },
+  "Clacks Canyon, Arizona": {
+    "state": "04",
+    "place": "13850",
+    "population": "167"
+  },
+  "Claypool, Arizona": {
+    "state": "04",
+    "place": "13960",
+    "population": "1395"
+  },
+  "Clay Springs, Arizona": {
+    "state": "04",
+    "place": "14030",
+    "population": "331"
+  },
+  "Comobabi, Arizona": {
+    "state": "04",
+    "place": "15080",
+    "population": "44"
+  },
+  "Concho, Arizona": {
+    "state": "04",
+    "place": "15150",
+    "population": "54"
+  },
+  "Congress, Arizona": {
+    "state": "04",
+    "place": "15220",
+    "population": "1811"
+  },
+  "Copper Hill, Arizona": {
+    "state": "04",
+    "place": "15600",
+    "population": "158"
+  },
+  "Cordes Lakes, Arizona": {
+    "state": "04",
+    "place": "15765",
+    "population": "2684"
+  },
+  "Cornfields, Arizona": {
+    "state": "04",
+    "place": "15850",
+    "population": "221"
+  },
+  "Cornville, Arizona": {
+    "state": "04",
+    "place": "15920",
+    "population": "3362"
+  },
+  "Corona de Tucson, Arizona": {
+    "state": "04",
+    "place": "16030",
+    "population": "9240"
+  },
+  "Cottonwood, Arizona": {
+    "state": "04",
+    "place": "16360",
+    "population": "167"
+  },
+  "Crozier, Arizona": {
+    "state": "04",
+    "place": "17460",
+    "population": "21"
+  },
+  "Crystal Beach, Arizona": {
+    "state": "04",
+    "place": "17500",
+    "population": "250"
+  },
+  "Cutter, Arizona": {
+    "state": "04",
+    "place": "17810",
+    "population": "84"
+  },
+  "Dateland, Arizona": {
+    "state": "04",
+    "place": "18160",
+    "population": "257"
+  },
+  "Deer Creek, Arizona": {
+    "state": "04",
+    "place": "18448",
+    "population": "230"
+  },
+  "Del Muerto, Arizona": {
+    "state": "04",
+    "place": "18490",
+    "population": "258"
+  },
+  "Dennehotso, Arizona": {
+    "state": "04",
+    "place": "18580",
+    "population": "587"
+  },
+  "Desert Hills, Arizona": {
+    "state": "04",
+    "place": "18740",
+    "population": "2764"
+  },
+  "Dilkon, Arizona": {
+    "state": "04",
+    "place": "19280",
+    "population": "1194"
+  },
+  "Dolan Springs, Arizona": {
+    "state": "04",
+    "place": "19630",
+    "population": "1734"
+  },
+  "Doney Park, Arizona": {
+    "state": "04",
+    "place": "19740",
+    "population": "5910"
+  },
+  "Donovan Estates, Arizona": {
+    "state": "04",
+    "place": "19790",
+    "population": "1295"
+  },
+  "Dragoon, Arizona": {
+    "state": "04",
+    "place": "20330",
+    "population": "178"
+  },
+  "Drexel Heights, Arizona": {
+    "state": "04",
+    "place": "20540",
+    "population": "27523"
+  },
+  "Dripping Springs, Arizona": {
+    "state": "04",
+    "place": "20560",
+    "population": "142"
+  },
+  "Drysdale, Arizona": {
+    "state": "04",
+    "place": "20570",
+    "population": "225"
+  },
+  "Dudleyville, Arizona": {
+    "state": "04",
+    "place": "20680",
+    "population": "597"
+  },
+  "East Fork, Arizona": {
+    "state": "04",
+    "place": "21310",
+    "population": "672"
+  },
+  "East Globe, Arizona": {
+    "state": "04",
+    "place": "21410",
+    "population": "259"
+  },
+  "East Verde Estates, Arizona": {
+    "state": "04",
+    "place": "21545",
+    "population": "151"
+  },
+  "Ehrenberg, Arizona": {
+    "state": "04",
+    "place": "21800",
+    "population": "763"
+  },
+  "El Capitan, Arizona": {
+    "state": "04",
+    "place": "21900",
+    "population": "48"
+  },
+  "Elephant Head, Arizona": {
+    "state": "04",
+    "place": "21980",
+    "population": "588"
+  },
+  "Elfrida, Arizona": {
+    "state": "04",
+    "place": "22080",
+    "population": "421"
+  },
+  "Elgin, Arizona": {
+    "state": "04",
+    "place": "22150",
+    "population": "162"
+  },
+  "El Prado Estates, Arizona": {
+    "state": "04",
+    "place": "22400",
+    "population": "320"
+  },
+  "First Mesa, Arizona": {
+    "state": "04",
+    "place": "23512",
+    "population": "1352"
+  },
+  "Flowing Springs, Arizona": {
+    "state": "04",
+    "place": "23955",
+    "population": "34"
+  },
+  "Flowing Wells, Arizona": {
+    "state": "04",
+    "place": "23960",
+    "population": "15657"
+  },
+  "Forest Lakes, Arizona": {
+    "state": "04",
+    "place": "24100",
+    "population": "155"
+  },
+  "Fort Apache, Arizona": {
+    "state": "04",
+    "place": "24250",
+    "population": "113"
+  },
+  "Cowlic, Arizona": {
+    "state": "04",
+    "place": "16830",
+    "population": "105"
+  },
+  "Fort Defiance, Arizona": {
+    "state": "04",
+    "place": "24460",
+    "population": "3541"
+  },
+  "Fort Mohave, Arizona": {
+    "state": "04",
+    "place": "24895",
+    "population": "16190"
+  },
+  "Fort Thomas, Arizona": {
+    "state": "04",
+    "place": "24950",
+    "population": "319"
+  },
+  "Fortuna Foothills, Arizona": {
+    "state": "04",
+    "place": "25030",
+    "population": "27776"
+  },
+  "Fort Valley, Arizona": {
+    "state": "04",
+    "place": "25045",
+    "population": "1682"
+  },
+  "Franklin, Arizona": {
+    "state": "04",
+    "place": "25650",
+    "population": "75"
+  },
+  "Freedom Acres, Arizona": {
+    "state": "04",
+    "place": "25735",
+    "population": "90"
+  },
+  "Gadsden, Arizona": {
+    "state": "04",
+    "place": "26070",
+    "population": "571"
+  },
+  "Ganado, Arizona": {
+    "state": "04",
+    "place": "26210",
+    "population": "883"
+  },
+  "Geronimo Estates, Arizona": {
+    "state": "04",
+    "place": "26780",
+    "population": "30"
+  },
+  "Gila Crossing, Arizona": {
+    "state": "04",
+    "place": "27260",
+    "population": "636"
+  },
+  "Gisela, Arizona": {
+    "state": "04",
+    "place": "27540",
+    "population": "536"
+  },
+  "Gold Canyon, Arizona": {
+    "state": "04",
+    "place": "28140",
+    "population": "11404"
+  },
+  "Golden Shores, Arizona": {
+    "state": "04",
+    "place": "28190",
+    "population": "1927"
+  },
+  "Golden Valley, Arizona": {
+    "state": "04",
+    "place": "28195",
+    "population": "8801"
+  },
+  "Goodyear Village, Arizona": {
+    "state": "04",
+    "place": "28465",
+    "population": "463"
+  },
+  "Grand Canyon Village, Arizona": {
+    "state": "04",
+    "place": "28981",
+    "population": "1784"
+  },
+  "Grand Canyon West, Arizona": {
+    "state": "04",
+    "place": "28985",
+    "population": "0"
+  },
+  "Greasewood, Arizona": {
+    "state": "04",
+    "place": "29430",
+    "population": "372"
+  },
+  "Greenehaven, Arizona": {
+    "state": "04",
+    "place": "29603",
+    "population": "381"
+  },
+  "Green Valley, Arizona": {
+    "state": "04",
+    "place": "29710",
+    "population": "22616"
+  },
+  "Greer, Arizona": {
+    "state": "04",
+    "place": "29850",
+    "population": "58"
+  },
+  "Gu Oidak, Arizona": {
+    "state": "04",
+    "place": "30550",
+    "population": "126"
+  },
+  "Hackberry, Arizona": {
+    "state": "04",
+    "place": "30830",
+    "population": "103"
+  },
+  "Haigler Creek, Arizona": {
+    "state": "04",
+    "place": "30840",
+    "population": "35"
+  },
+  "Haivana Nakya, Arizona": {
+    "state": "04",
+    "place": "30850",
+    "population": "72"
+  },
+  "Hard Rock, Arizona": {
+    "state": "04",
+    "place": "31182",
+    "population": "38"
+  },
+  "Heber-Overgaard, Arizona": {
+    "state": "04",
+    "place": "32310",
+    "population": "2898"
+  },
+  "Hondah, Arizona": {
+    "state": "04",
+    "place": "33440",
+    "population": "814"
+  },
+  "Hotevilla-Bacavi, Arizona": {
+    "state": "04",
+    "place": "33945",
+    "population": "1001"
+  },
+  "Houck, Arizona": {
+    "state": "04",
+    "place": "33980",
+    "population": "886"
+  },
+  "Hunter Creek, Arizona": {
+    "state": "04",
+    "place": "34700",
+    "population": "51"
+  },
+  "Icehouse Canyon, Arizona": {
+    "state": "04",
+    "place": "34980",
+    "population": "574"
+  },
+  "Indian Wells, Arizona": {
+    "state": "04",
+    "place": "35310",
+    "population": "232"
+  },
+  "Jakes Corner, Arizona": {
+    "state": "04",
+    "place": "36010",
+    "population": "98"
+  },
+  "Jeddito, Arizona": {
+    "state": "04",
+    "place": "36150",
+    "population": "346"
+  },
+  "Joseph City, Arizona": {
+    "state": "04",
+    "place": "36430",
+    "population": "1307"
+  },
+  "J-Six Ranchettes, Arizona": {
+    "state": "04",
+    "place": "36440",
+    "population": "647"
+  },
+  "Kachina Village, Arizona": {
+    "state": "04",
+    "place": "36475",
+    "population": "2502"
+  },
+  "Kaibab, Arizona": {
+    "state": "04",
+    "place": "36500",
+    "population": "140"
+  },
+  "Kaibab Estates West, Arizona": {
+    "state": "04",
+    "place": "36535",
+    "population": "1034"
+  },
+  "Kaibito, Arizona": {
+    "state": "04",
+    "place": "36640",
+    "population": "1540"
+  },
+  "Kaka, Arizona": {
+    "state": "04",
+    "place": "36780",
+    "population": "83"
+  },
+  "Katherine, Arizona": {
+    "state": "04",
+    "place": "36920",
+    "population": "76"
+  },
+  "Kayenta, Arizona": {
+    "state": "04",
+    "place": "36990",
+    "population": "4670"
+  },
+  "Keams Canyon, Arizona": {
+    "state": "04",
+    "place": "37130",
+    "population": "265"
+  },
+  "Kino Springs, Arizona": {
+    "state": "04",
+    "place": "37935",
+    "population": "166"
+  },
+  "Klagetoh, Arizona": {
+    "state": "04",
+    "place": "38250",
+    "population": "181"
+  },
+  "Kleindale, Arizona": {
+    "state": "04",
+    "place": "38290",
+    "population": "165"
+  },
+  "Kohatk, Arizona": {
+    "state": "04",
+    "place": "38530",
+    "population": "37"
+  },
+  "Kohls Ranch, Arizona": {
+    "state": "04",
+    "place": "38600",
+    "population": "30"
+  },
+  "Komatke, Arizona": {
+    "state": "04",
+    "place": "38655",
+    "population": "1013"
+  },
+  "Ko Vaya, Arizona": {
+    "state": "04",
+    "place": "38950",
+    "population": "43"
+  },
+  "Kykotsmovi Village, Arizona": {
+    "state": "04",
+    "place": "39100",
+    "population": "736"
+  },
+  "Lake Montezuma, Arizona": {
+    "state": "04",
+    "place": "39720",
+    "population": "5111"
+  },
+  "Lake of the Woods, Arizona": {
+    "state": "04",
+    "place": "39790",
+    "population": "3648"
+  },
+  "La Paz Valley, Arizona": {
+    "state": "04",
+    "place": "40160",
+    "population": "368"
+  },
+  "Lazy Y U, Arizona": {
+    "state": "04",
+    "place": "40400",
+    "population": "474"
+  },
+  "LeChee, Arizona": {
+    "state": "04",
+    "place": "40415",
+    "population": "1236"
+  },
+  "Leupp, Arizona": {
+    "state": "04",
+    "place": "40630",
+    "population": "934"
+  },
+  "Linden, Arizona": {
+    "state": "04",
+    "place": "41085",
+    "population": "2760"
+  },
+  "Littlefield, Arizona": {
+    "state": "04",
+    "place": "41470",
+    "population": "256"
+  },
+  "Lower Santan Village, Arizona": {
+    "state": "04",
+    "place": "42460",
+    "population": "437"
+  },
+  "Low Mountain, Arizona": {
+    "state": "04",
+    "place": "42590",
+    "population": "631"
+  },
+  "Lukachukai, Arizona": {
+    "state": "04",
+    "place": "42660",
+    "population": "1424"
+  },
+  "Lupton, Arizona": {
+    "state": "04",
+    "place": "42940",
+    "population": "19"
+  },
+  "McConnico, Arizona": {
+    "state": "04",
+    "place": "43150",
+    "population": "63"
+  },
+  "McNary, Arizona": {
+    "state": "04",
+    "place": "43430",
+    "population": "484"
+  },
+  "McNeal, Arizona": {
+    "state": "04",
+    "place": "43570",
+    "population": "182"
+  },
+  "Maish Vaya, Arizona": {
+    "state": "04",
+    "place": "43920",
+    "population": "129"
+  },
+  "Many Farms, Arizona": {
+    "state": "04",
+    "place": "44200",
+    "population": "1243"
+  },
+  "Maricopa Colony, Arizona": {
+    "state": "04",
+    "place": "44450",
+    "population": "854"
+  },
+  "Martinez Lake, Arizona": {
+    "state": "04",
+    "place": "44830",
+    "population": "94"
+  },
+  "Mayer, Arizona": {
+    "state": "04",
+    "place": "45180",
+    "population": "1558"
+  },
+  "Mead Ranch, Arizona": {
+    "state": "04",
+    "place": "45275",
+    "population": "42"
+  },
+  "Meadview, Arizona": {
+    "state": "04",
+    "place": "45285",
+    "population": "1420"
+  },
+  "Mesa del Caballo, Arizona": {
+    "state": "04",
+    "place": "46005",
+    "population": "781"
+  },
+  "Mescal, Arizona": {
+    "state": "04",
+    "place": "46070",
+    "population": "1751"
+  },
+  "Mesquite Creek, Arizona": {
+    "state": "04",
+    "place": "46087",
+    "population": "403"
+  },
+  "Miracle Valley, Arizona": {
+    "state": "04",
+    "place": "46840",
+    "population": "571"
+  },
+  "Moccasin, Arizona": {
+    "state": "04",
+    "place": "47190",
+    "population": "53"
+  },
+  "Moenkopi, Arizona": {
+    "state": "04",
+    "place": "47330",
+    "population": "771"
+  },
+  "Mohave Valley, Arizona": {
+    "state": "04",
+    "place": "47400",
+    "population": "2693"
+  },
+  "Mojave Ranch Estates, Arizona": {
+    "state": "04",
+    "place": "47495",
+    "population": "53"
+  },
+  "Morenci, Arizona": {
+    "state": "04",
+    "place": "47610",
+    "population": "2028"
+  },
+  "Mormon Lake, Arizona": {
+    "state": "04",
+    "place": "47680",
+    "population": "90"
+  },
+  "Morristown, Arizona": {
+    "state": "04",
+    "place": "47750",
+    "population": "186"
+  },
+  "Mountainaire, Arizona": {
+    "state": "04",
+    "place": "47820",
+    "population": "1068"
+  },
+  "Mountain View Ranches, Arizona": {
+    "state": "04",
+    "place": "47925",
+    "population": "1508"
+  },
+  "Munds Park, Arizona": {
+    "state": "04",
+    "place": "48170",
+    "population": "1096"
+  },
+  "Naco, Arizona": {
+    "state": "04",
+    "place": "48310",
+    "population": "824"
+  },
+  "Nazlini, Arizona": {
+    "state": "04",
+    "place": "49010",
+    "population": "505"
+  },
+  "Nelson, Arizona": {
+    "state": "04",
+    "place": "49100",
+    "population": "249"
+  },
+  "New Kingman-Butler, Arizona": {
+    "state": "04",
+    "place": "49270",
+    "population": "12907"
+  },
+  "New River, Arizona": {
+    "state": "04",
+    "place": "49360",
+    "population": "17290"
+  },
+  "Nolic, Arizona": {
+    "state": "04",
+    "place": "49710",
+    "population": "12"
+  },
+  "North Fork, Arizona": {
+    "state": "04",
+    "place": "50000",
+    "population": "1467"
+  },
+  "Nutrioso, Arizona": {
+    "state": "04",
+    "place": "50340",
+    "population": "39"
+  },
+  "Oak Creek Canyon, Arizona": {
+    "state": "04",
+    "place": "50362",
+    "population": "442"
+  },
+  "Oak Springs, Arizona": {
+    "state": "04",
+    "place": "50480",
+    "population": "54"
+  },
+  "Oatman, Arizona": {
+    "state": "04",
+    "place": "50620",
+    "population": "102"
+  },
+  "Oljato-Monument Valley, Arizona": {
+    "state": "04",
+    "place": "51142",
+    "population": "115"
+  },
+  "Oracle, Arizona": {
+    "state": "04",
+    "place": "51180",
+    "population": "3051"
+  },
+  "Orange Grove Mobile Manor, Arizona": {
+    "state": "04",
+    "place": "51465",
+    "population": "495"
+  },
+  "Oxbow Estates, Arizona": {
+    "state": "04",
+    "place": "51775",
+    "population": "198"
+  },
+  "Padre Ranchitos, Arizona": {
+    "state": "04",
+    "place": "51800",
+    "population": "133"
+  },
+  "Palominas, Arizona": {
+    "state": "04",
+    "place": "52230",
+    "population": "222"
+  },
+  "Parker Strip, Arizona": {
+    "state": "04",
+    "place": "53210",
+    "population": "621"
+  },
+  "Parks, Arizona": {
+    "state": "04",
+    "place": "53350",
+    "population": "1382"
+  },
+  "Paulden, Arizona": {
+    "state": "04",
+    "place": "53560",
+    "population": "5567"
+  },
+  "Peach Springs, Arizona": {
+    "state": "04",
+    "place": "53770",
+    "population": "1098"
+  },
+  "Peeples Valley, Arizona": {
+    "state": "04",
+    "place": "53910",
+    "population": "499"
+  },
+  "Peridot, Arizona": {
+    "state": "04",
+    "place": "54190",
+    "population": "1308"
+  },
+  "Picacho, Arizona": {
+    "state": "04",
+    "place": "55210",
+    "population": "250"
+  },
+  "Picture Rocks, Arizona": {
+    "state": "04",
+    "place": "55300",
+    "population": "9551"
+  },
+  "Pinal, Arizona": {
+    "state": "04",
+    "place": "55630",
+    "population": "456"
+  },
+  "Pine, Arizona": {
+    "state": "04",
+    "place": "55700",
+    "population": "1953"
+  },
+  "Pinedale, Arizona": {
+    "state": "04",
+    "place": "55840",
+    "population": "482"
+  },
+  "Pine Lake, Arizona": {
+    "state": "04",
+    "place": "55845",
+    "population": "142"
+  },
+  "Pinetop Country Club, Arizona": {
+    "state": "04",
+    "place": "55880",
+    "population": "1409"
+  },
+  "Pinion Pines, Arizona": {
+    "state": "04",
+    "place": "55983",
+    "population": "158"
+  },
+  "Pinon, Arizona": {
+    "state": "04",
+    "place": "56120",
+    "population": "1084"
+  },
+  "Pirtleville, Arizona": {
+    "state": "04",
+    "place": "56400",
+    "population": "1412"
+  },
+  "Pisinemo, Arizona": {
+    "state": "04",
+    "place": "56470",
+    "population": "359"
+  },
+  "Poston, Arizona": {
+    "state": "04",
+    "place": "57170",
+    "population": "183"
+  },
+  "Queen Valley, Arizona": {
+    "state": "04",
+    "place": "58290",
+    "population": "967"
+  },
+  "Rainbow City, Arizona": {
+    "state": "04",
+    "place": "58620",
+    "population": "1001"
+  },
+  "Rancho Mesa Verde, Arizona": {
+    "state": "04",
+    "place": "58870",
+    "population": "571"
+  },
+  "Red Lake, Arizona": {
+    "state": "04",
+    "place": "59372",
+    "population": "1680"
+  },
+  "Red Mesa, Arizona": {
+    "state": "04",
+    "place": "59550",
+    "population": "354"
+  },
+  "Rillito, Arizona": {
+    "state": "04",
+    "place": "59900",
+    "population": "94"
+  },
+  "Rincon Valley, Arizona": {
+    "state": "04",
+    "place": "60120",
+    "population": "5612"
+  },
+  "Rio Rico, Arizona": {
+    "state": "04",
+    "place": "60180",
+    "population": "20549"
+  },
+  "Rio Verde, Arizona": {
+    "state": "04",
+    "place": "60250",
+    "population": "2210"
+  },
+  "Rock House, Arizona": {
+    "state": "04",
+    "place": "60770",
+    "population": "10"
+  },
+  "Rock Point, Arizona": {
+    "state": "04",
+    "place": "60880",
+    "population": "552"
+  },
+  "Roosevelt, Arizona": {
+    "state": "04",
+    "place": "61300",
+    "population": "26"
+  },
+  "Roosevelt Estates, Arizona": {
+    "state": "04",
+    "place": "61302",
+    "population": "449"
+  },
+  "Rough Rock, Arizona": {
+    "state": "04",
+    "place": "61370",
+    "population": "428"
+  },
+  "Round Rock, Arizona": {
+    "state": "04",
+    "place": "61440",
+    "population": "640"
+  },
+  "Round Valley, Arizona": {
+    "state": "04",
+    "place": "61448",
+    "population": "459"
+  },
+  "Rye, Arizona": {
+    "state": "04",
+    "place": "61690",
+    "population": "104"
+  },
+  "Sacate Village, Arizona": {
+    "state": "04",
+    "place": "61715",
+    "population": "260"
+  },
+  "Sacaton, Arizona": {
+    "state": "04",
+    "place": "61720",
+    "population": "3254"
+  },
+  "Sacaton Flats Village, Arizona": {
+    "state": "04",
+    "place": "61800",
+    "population": "576"
+  },
+  "Saddlebrooke, Arizona": {
+    "state": "04",
+    "place": "61940",
+    "population": "12574"
+  },
+  "St. David, Arizona": {
+    "state": "04",
+    "place": "62280",
+    "population": "1639"
+  },
+  "St. Michaels, Arizona": {
+    "state": "04",
+    "place": "62420",
+    "population": "1384"
+  },
+  "Salome, Arizona": {
+    "state": "04",
+    "place": "62700",
+    "population": "1162"
+  },
+  "San Carlos, Arizona": {
+    "state": "04",
+    "place": "62910",
+    "population": "3987"
+  },
+  "Sanders, Arizona": {
+    "state": "04",
+    "place": "63050",
+    "population": "575"
+  },
+  "San Jose, Arizona": {
+    "state": "04",
+    "place": "63260",
+    "population": "467"
+  },
+  "San Manuel, Arizona": {
+    "state": "04",
+    "place": "63540",
+    "population": "3114"
+  },
+  "San Miguel, Arizona": {
+    "state": "04",
+    "place": "63610",
+    "population": "205"
+  },
+  "San Simon, Arizona": {
+    "state": "04",
+    "place": "63820",
+    "population": "158"
+  },
+  "Santa Cruz, Arizona": {
+    "state": "04",
+    "place": "63960",
+    "population": "39"
+  },
+  "San Tan Valley, Arizona": {
+    "state": "04",
+    "place": "64210",
+    "population": "99894"
+  },
+  "Santa Rosa, Arizona": {
+    "state": "04",
+    "place": "64310",
+    "population": "474"
+  },
+  "Sawmill, Arizona": {
+    "state": "04",
+    "place": "64590",
+    "population": "564"
+  },
+  "Scenic, Arizona": {
+    "state": "04",
+    "place": "64650",
+    "population": "1321"
+  },
+  "Seba Dalkai, Arizona": {
+    "state": "04",
+    "place": "65167",
+    "population": "126"
+  },
+  "Second Mesa, Arizona": {
+    "state": "04",
+    "place": "65280",
+    "population": "843"
+  },
+  "Sehili, Arizona": {
+    "state": "04",
+    "place": "65400",
+    "population": "153"
+  },
+  "Seligman, Arizona": {
+    "state": "04",
+    "place": "65420",
+    "population": "446"
+  },
+  "Sells, Arizona": {
+    "state": "04",
+    "place": "65490",
+    "population": "2121"
+  },
+  "Seven Mile, Arizona": {
+    "state": "04",
+    "place": "65780",
+    "population": "742"
+  },
+  "Shongopovi, Arizona": {
+    "state": "04",
+    "place": "66190",
+    "population": "711"
+  },
+  "Shonto, Arizona": {
+    "state": "04",
+    "place": "66260",
+    "population": "494"
+  },
+  "Shumway, Arizona": {
+    "state": "04",
+    "place": "66540",
+    "population": "347"
+  },
+  "Sierra Vista Southeast, Arizona": {
+    "state": "04",
+    "place": "66845",
+    "population": "14428"
+  },
+  "Six Shooter Canyon, Arizona": {
+    "state": "04",
+    "place": "67295",
+    "population": "958"
+  },
+  "So-Hi, Arizona": {
+    "state": "04",
+    "place": "67920",
+    "population": "428"
+  },
+  "Solomon, Arizona": {
+    "state": "04",
+    "place": "68010",
+    "population": "399"
+  },
+  "Sonoita, Arizona": {
+    "state": "04",
+    "place": "68220",
+    "population": "803"
+  },
+  "South Komelik, Arizona": {
+    "state": "04",
+    "place": "68670",
+    "population": "176"
+  },
+  "Spring Valley, Arizona": {
+    "state": "04",
+    "place": "69060",
+    "population": "1143"
+  },
+  "Stanfield, Arizona": {
+    "state": "04",
+    "place": "69130",
+    "population": "558"
+  },
+  "St. Johns, Arizona": {
+    "state": "04",
+    "place": "62362",
+    "population": "690"
+  },
+  "Steamboat, Arizona": {
+    "state": "04",
+    "place": "69585",
+    "population": "235"
+  },
+  "Stotonic Village, Arizona": {
+    "state": "04",
+    "place": "69872",
+    "population": "610"
+  },
+  "Strawberry, Arizona": {
+    "state": "04",
+    "place": "70040",
+    "population": "943"
+  },
+  "Summerhaven, Arizona": {
+    "state": "04",
+    "place": "70175",
+    "population": "71"
+  },
+  "Summit, Arizona": {
+    "state": "04",
+    "place": "70240",
+    "population": "4724"
+  },
+  "Sun City, Arizona": {
+    "state": "04",
+    "place": "70320",
+    "population": "39931"
+  },
+  "Sun City West, Arizona": {
+    "state": "04",
+    "place": "70355",
+    "population": "25806"
+  },
+  "Sunizona, Arizona": {
+    "state": "04",
+    "place": "70460",
+    "population": "233"
+  },
+  "Sun Lakes, Arizona": {
+    "state": "04",
+    "place": "70530",
+    "population": "14868"
+  },
+  "Sunsites, Arizona": {
+    "state": "04",
+    "place": "71020",
+    "population": "790"
+  },
+  "Sun Valley, Arizona": {
+    "state": "04",
+    "place": "71160",
+    "population": "153"
+  },
+  "Sunwest, Arizona": {
+    "state": "04",
+    "place": "71220",
+    "population": "5"
+  },
+  "Supai, Arizona": {
+    "state": "04",
+    "place": "71230",
+    "population": "0"
+  },
+  "Sweet Water Village, Arizona": {
+    "state": "04",
+    "place": "71642",
+    "population": "123"
+  },
+  "Swift Trail Junction, Arizona": {
+    "state": "04",
+    "place": "71650",
+    "population": "2810"
+  },
+  "Tacna, Arizona": {
+    "state": "04",
+    "place": "71790",
+    "population": "425"
+  },
+  "Tanque Verde, Arizona": {
+    "state": "04",
+    "place": "72000",
+    "population": "16250"
+  },
+  "Tat Momoli, Arizona": {
+    "state": "04",
+    "place": "72280",
+    "population": "18"
+  },
+  "Teec Nos Pos, Arizona": {
+    "state": "04",
+    "place": "72560",
+    "population": "507"
+  },
+  "Tees Toh, Arizona": {
+    "state": "04",
+    "place": "72630",
+    "population": "420"
+  },
+  "Theba, Arizona": {
+    "state": "04",
+    "place": "73490",
+    "population": "111"
+  },
+  "Three Points, Arizona": {
+    "state": "04",
+    "place": "73700",
+    "population": "5184"
+  },
+  "Timberline-Fernwood, Arizona": {
+    "state": "04",
+    "place": "73890",
+    "population": "2572"
+  },
+  "Tolani Lake, Arizona": {
+    "state": "04",
+    "place": "74120",
+    "population": "227"
+  },
+  "Tonalea, Arizona": {
+    "state": "04",
+    "place": "74470",
+    "population": "451"
+  },
+  "Tonopah, Arizona": {
+    "state": "04",
+    "place": "74540",
+    "population": "23"
+  },
+  "Tonto Basin, Arizona": {
+    "state": "04",
+    "place": "74610",
+    "population": "1444"
+  },
+  "Tonto Village, Arizona": {
+    "state": "04",
+    "place": "74665",
+    "population": "209"
+  },
+  "Topawa, Arizona": {
+    "state": "04",
+    "place": "74680",
+    "population": "233"
+  },
+  "Topock, Arizona": {
+    "state": "04",
+    "place": "74750",
+    "population": "2"
+  },
+  "Top-of-the-World, Arizona": {
+    "state": "04",
+    "place": "74820",
+    "population": "189"
+  },
+  "Toyei, Arizona": {
+    "state": "04",
+    "place": "75310",
+    "population": "2"
+  },
+  "Truxton, Arizona": {
+    "state": "04",
+    "place": "75590",
+    "population": "104"
+  },
+  "Tsaile, Arizona": {
+    "state": "04",
+    "place": "75660",
+    "population": "1408"
+  },
+  "Tubac, Arizona": {
+    "state": "04",
+    "place": "75940",
+    "population": "1581"
+  },
+  "Tuba City, Arizona": {
+    "state": "04",
+    "place": "76010",
+    "population": "8072"
+  },
+  "Tucson Estates, Arizona": {
+    "state": "04",
+    "place": "77035",
+    "population": "12069"
+  },
+  "Tucson Mountains, Arizona": {
+    "state": "04",
+    "place": "77179",
+    "population": "10862"
+  },
+  "Tumacacori-Carmen, Arizona": {
+    "state": "04",
+    "place": "77367",
+    "population": "329"
+  },
+  "Turkey Creek, Arizona": {
+    "state": "04",
+    "place": "77415",
+    "population": "377"
+  },
+  "Upper Santan Village, Arizona": {
+    "state": "04",
+    "place": "78300",
+    "population": "665"
+  },
+  "Utting, Arizona": {
+    "state": "04",
+    "place": "78400",
+    "population": "92"
+  },
+  "Vail, Arizona": {
+    "state": "04",
+    "place": "78540",
+    "population": "13604"
+  },
+  "Vaiva Vo, Arizona": {
+    "state": "04",
+    "place": "78680",
+    "population": "93"
+  },
+  "Valencia West, Arizona": {
+    "state": "04",
+    "place": "78760",
+    "population": "14101"
+  },
+  "Valentine, Arizona": {
+    "state": "04",
+    "place": "78820",
+    "population": "39"
+  },
+  "Valle, Arizona": {
+    "state": "04",
+    "place": "78855",
+    "population": "759"
+  },
+  "Valle Vista, Arizona": {
+    "state": "04",
+    "place": "78865",
+    "population": "1802"
+  },
+  "Ventana, Arizona": {
+    "state": "04",
+    "place": "79590",
+    "population": "52"
+  },
+  "Verde Village, Arizona": {
+    "state": "04",
+    "place": "79830",
+    "population": "12019"
+  },
+  "Vernon, Arizona": {
+    "state": "04",
+    "place": "79870",
+    "population": "126"
+  },
+  "Vicksburg, Arizona": {
+    "state": "04",
+    "place": "79940",
+    "population": "418"
+  },
+  "Village of Oak Creek (Big Park), Arizona": {
+    "state": "04",
+    "place": "80095",
+    "population": "6128"
+  },
+  "Wagon Wheel, Arizona": {
+    "state": "04",
+    "place": "80380",
+    "population": "1856"
+  },
+  "Wahak Hotrontk, Arizona": {
+    "state": "04",
+    "place": "80430",
+    "population": "88"
+  },
+  "Wall Lane, Arizona": {
+    "state": "04",
+    "place": "80790",
+    "population": "262"
+  },
+  "Walnut Creek, Arizona": {
+    "state": "04",
+    "place": "80825",
+    "population": "571"
+  },
+  "Washington Park, Arizona": {
+    "state": "04",
+    "place": "81175",
+    "population": "85"
+  },
+  "Wellton Hills, Arizona": {
+    "state": "04",
+    "place": "81490",
+    "population": "167"
+  },
+  "Wenden, Arizona": {
+    "state": "04",
+    "place": "81550",
+    "population": "458"
+  },
+  "Wet Camp Village, Arizona": {
+    "state": "04",
+    "place": "82060",
+    "population": "300"
+  },
+  "Wheatfields, Arizona": {
+    "state": "04",
+    "place": "82120",
+    "population": "556"
+  },
+  "Whetstone, Arizona": {
+    "state": "04",
+    "place": "82156",
+    "population": "3236"
+  },
+  "Whispering Pines, Arizona": {
+    "state": "04",
+    "place": "82270",
+    "population": "124"
+  },
+  "Whitecone, Arizona": {
+    "state": "04",
+    "place": "82390",
+    "population": "768"
+  },
+  "White Hills, Arizona": {
+    "state": "04",
+    "place": "82425",
+    "population": "345"
+  },
+  "White Mountain Lake, Arizona": {
+    "state": "04",
+    "place": "82450",
+    "population": "2335"
+  },
+  "Whiteriver, Arizona": {
+    "state": "04",
+    "place": "82530",
+    "population": "4520"
+  },
+  "Why, Arizona": {
+    "state": "04",
+    "place": "82670",
+    "population": "122"
+  },
+  "Wide Ruins, Arizona": {
+    "state": "04",
+    "place": "82810",
+    "population": "20"
+  },
+  "Wikieup, Arizona": {
+    "state": "04",
+    "place": "82880",
+    "population": "135"
+  },
+  "Wilhoit, Arizona": {
+    "state": "04",
+    "place": "82950",
+    "population": "864"
+  },
+  "Williamson, Arizona": {
+    "state": "04",
+    "place": "83388",
+    "population": "6196"
+  },
+  "Willow Canyon, Arizona": {
+    "state": "04",
+    "place": "83475",
+    "population": "2"
+  },
+  "Willow Valley, Arizona": {
+    "state": "04",
+    "place": "83570",
+    "population": "1059"
+  },
+  "Window Rock, Arizona": {
+    "state": "04",
+    "place": "83720",
+    "population": "2500"
+  },
+  "Winslow West, Arizona": {
+    "state": "04",
+    "place": "83960",
+    "population": "457"
+  },
+  "Wintersburg, Arizona": {
+    "state": "04",
+    "place": "84000",
+    "population": "51"
+  },
+  "Wittmann, Arizona": {
+    "state": "04",
+    "place": "84140",
+    "population": "684"
+  },
+  "Woodruff, Arizona": {
+    "state": "04",
+    "place": "84350",
+    "population": "154"
+  },
+  "Yarnell, Arizona": {
+    "state": "04",
+    "place": "84980",
+    "population": "570"
+  },
+  "York, Arizona": {
+    "state": "04",
+    "place": "85260",
+    "population": "599"
+  },
+  "Young, Arizona": {
+    "state": "04",
+    "place": "85330",
+    "population": "588"
+  },
+  "Yucca, Arizona": {
+    "state": "04",
+    "place": "85470",
+    "population": "96"
+  },
+  "Yuma Proving Ground, Arizona": {
+    "state": "04",
+    "place": "85680",
+    "population": "313"
+  }
+}

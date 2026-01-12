@@ -1,0 +1,1012 @@
+{
+  "Allendale, South Carolina": {
+    "state": "45",
+    "place": "00955",
+    "population": "2694"
+  },
+  "Andrews, South Carolina": {
+    "state": "45",
+    "place": "01450",
+    "population": "2575"
+  },
+  "Arcadia Lakes, South Carolina": {
+    "state": "45",
+    "place": "02125",
+    "population": "865"
+  },
+  "Atlantic Beach, South Carolina": {
+    "state": "45",
+    "place": "03205",
+    "population": "195"
+  },
+  "Awendaw, South Carolina": {
+    "state": "45",
+    "place": "03385",
+    "population": "1399"
+  },
+  "Aynor, South Carolina": {
+    "state": "45",
+    "place": "03430",
+    "population": "974"
+  },
+  "Bamberg, South Carolina": {
+    "state": "45",
+    "place": "03790",
+    "population": "3076"
+  },
+  "Batesburg-Leesville, South Carolina": {
+    "state": "45",
+    "place": "04300",
+    "population": "5270"
+  },
+  "Bethune, South Carolina": {
+    "state": "45",
+    "place": "06040",
+    "population": "315"
+  },
+  "Blacksburg, South Carolina": {
+    "state": "45",
+    "place": "06400",
+    "population": "1889"
+  },
+  "Blackville, South Carolina": {
+    "state": "45",
+    "place": "06490",
+    "population": "1923"
+  },
+  "Blenheim, South Carolina": {
+    "state": "45",
+    "place": "06850",
+    "population": "115"
+  },
+  "Bluffton, South Carolina": {
+    "state": "45",
+    "place": "07210",
+    "population": "27716"
+  },
+  "Blythewood, South Carolina": {
+    "state": "45",
+    "place": "07255",
+    "population": "4772"
+  },
+  "Bonneau, South Carolina": {
+    "state": "45",
+    "place": "07525",
+    "population": "431"
+  },
+  "Bowman, South Carolina": {
+    "state": "45",
+    "place": "07840",
+    "population": "788"
+  },
+  "Branchville, South Carolina": {
+    "state": "45",
+    "place": "08245",
+    "population": "998"
+  },
+  "Briarcliffe Acres, South Carolina": {
+    "state": "45",
+    "place": "08830",
+    "population": "479"
+  },
+  "Brunson, South Carolina": {
+    "state": "45",
+    "place": "09865",
+    "population": "431"
+  },
+  "Burnettown, South Carolina": {
+    "state": "45",
+    "place": "10270",
+    "population": "3105"
+  },
+  "Calhoun Falls, South Carolina": {
+    "state": "45",
+    "place": "10720",
+    "population": "1727"
+  },
+  "Cameron, South Carolina": {
+    "state": "45",
+    "place": "10900",
+    "population": "376"
+  },
+  "Campobello, South Carolina": {
+    "state": "45",
+    "place": "11125",
+    "population": "675"
+  },
+  "Carlisle, South Carolina": {
+    "state": "45",
+    "place": "11755",
+    "population": "321"
+  },
+  "Central, South Carolina": {
+    "state": "45",
+    "place": "13015",
+    "population": "5247"
+  },
+  "Central Pacolet, South Carolina": {
+    "state": "45",
+    "place": "13060",
+    "population": "209"
+  },
+  "Chapin, South Carolina": {
+    "state": "45",
+    "place": "13150",
+    "population": "1809"
+  },
+  "Cheraw, South Carolina": {
+    "state": "45",
+    "place": "13600",
+    "population": "5040"
+  },
+  "Chesterfield, South Carolina": {
+    "state": "45",
+    "place": "14140",
+    "population": "1357"
+  },
+  "Clio, South Carolina": {
+    "state": "45",
+    "place": "15310",
+    "population": "608"
+  },
+  "Clover, South Carolina": {
+    "state": "45",
+    "place": "15355",
+    "population": "6671"
+  },
+  "Cope, South Carolina": {
+    "state": "45",
+    "place": "16720",
+    "population": "37"
+  },
+  "Cordova, South Carolina": {
+    "state": "45",
+    "place": "16855",
+    "population": "136"
+  },
+  "Cottageville, South Carolina": {
+    "state": "45",
+    "place": "16990",
+    "population": "701"
+  },
+  "Coward, South Carolina": {
+    "state": "45",
+    "place": "17215",
+    "population": "748"
+  },
+  "Cowpens, South Carolina": {
+    "state": "45",
+    "place": "17260",
+    "population": "2023"
+  },
+  "Cross Hill, South Carolina": {
+    "state": "45",
+    "place": "17890",
+    "population": "404"
+  },
+  "Donalds, South Carolina": {
+    "state": "45",
+    "place": "19870",
+    "population": "328"
+  },
+  "Due West, South Carolina": {
+    "state": "45",
+    "place": "21040",
+    "population": "1219"
+  },
+  "Duncan, South Carolina": {
+    "state": "45",
+    "place": "21265",
+    "population": "4041"
+  },
+  "Eastover, South Carolina": {
+    "state": "45",
+    "place": "22390",
+    "population": "614"
+  },
+  "Edgefield, South Carolina": {
+    "state": "45",
+    "place": "22795",
+    "population": "2322"
+  },
+  "Edisto Beach, South Carolina": {
+    "state": "45",
+    "place": "23020",
+    "population": "1033"
+  },
+  "Ehrhardt, South Carolina": {
+    "state": "45",
+    "place": "23200",
+    "population": "457"
+  },
+  "Elgin, South Carolina": {
+    "state": "45",
+    "place": "23245",
+    "population": "1634"
+  },
+  "Elko, South Carolina": {
+    "state": "45",
+    "place": "23335",
+    "population": "140"
+  },
+  "Elloree, South Carolina": {
+    "state": "45",
+    "place": "23470",
+    "population": "570"
+  },
+  "Estill, South Carolina": {
+    "state": "45",
+    "place": "23830",
+    "population": "1821"
+  },
+  "Eutawville, South Carolina": {
+    "state": "45",
+    "place": "24100",
+    "population": "235"
+  },
+  "Fairfax, South Carolina": {
+    "state": "45",
+    "place": "24370",
+    "population": "1505"
+  },
+  "Fort Lawn, South Carolina": {
+    "state": "45",
+    "place": "26845",
+    "population": "962"
+  },
+  "Fort Mill, South Carolina": {
+    "state": "45",
+    "place": "26890",
+    "population": "24521"
+  },
+  "Furman, South Carolina": {
+    "state": "45",
+    "place": "27835",
+    "population": "224"
+  },
+  "Gaston, South Carolina": {
+    "state": "45",
+    "place": "28780",
+    "population": "1608"
+  },
+  "Gifford, South Carolina": {
+    "state": "45",
+    "place": "29005",
+    "population": "257"
+  },
+  "Gilbert, South Carolina": {
+    "state": "45",
+    "place": "29050",
+    "population": "571"
+  },
+  "Govan, South Carolina": {
+    "state": "45",
+    "place": "29950",
+    "population": "56"
+  },
+  "Gray Court, South Carolina": {
+    "state": "45",
+    "place": "30355",
+    "population": "763"
+  },
+  "Great Falls, South Carolina": {
+    "state": "45",
+    "place": "30490",
+    "population": "1951"
+  },
+  "Greeleyville, South Carolina": {
+    "state": "45",
+    "place": "30535",
+    "population": "384"
+  },
+  "Hampton, South Carolina": {
+    "state": "45",
+    "place": "31885",
+    "population": "2694"
+  },
+  "Harleyville, South Carolina": {
+    "state": "45",
+    "place": "32335",
+    "population": "666"
+  },
+  "Heath Springs, South Carolina": {
+    "state": "45",
+    "place": "32965",
+    "population": "742"
+  },
+  "Hemingway, South Carolina": {
+    "state": "45",
+    "place": "33145",
+    "population": "504"
+  },
+  "Hickory Grove, South Carolina": {
+    "state": "45",
+    "place": "33640",
+    "population": "449"
+  },
+  "Hilda, South Carolina": {
+    "state": "45",
+    "place": "33820",
+    "population": "418"
+  },
+  "Hilton Head Island, South Carolina": {
+    "state": "45",
+    "place": "34045",
+    "population": "37661"
+  },
+  "Hodges, South Carolina": {
+    "state": "45",
+    "place": "34225",
+    "population": "162"
+  },
+  "Holly Hill, South Carolina": {
+    "state": "45",
+    "place": "34360",
+    "population": "1298"
+  },
+  "Hollywood, South Carolina": {
+    "state": "45",
+    "place": "34495",
+    "population": "5339"
+  },
+  "Honea Path, South Carolina": {
+    "state": "45",
+    "place": "34810",
+    "population": "3686"
+  },
+  "Irmo, South Carolina": {
+    "state": "45",
+    "place": "35890",
+    "population": "11569"
+  },
+  "Iva, South Carolina": {
+    "state": "45",
+    "place": "36160",
+    "population": "1015"
+  },
+  "Jackson, South Carolina": {
+    "state": "45",
+    "place": "36205",
+    "population": "1521"
+  },
+  "James Island, South Carolina": {
+    "state": "45",
+    "place": "36430",
+    "population": "11621"
+  },
+  "Jamestown, South Carolina": {
+    "state": "45",
+    "place": "36475",
+    "population": "68"
+  },
+  "Jefferson, South Carolina": {
+    "state": "45",
+    "place": "36610",
+    "population": "772"
+  },
+  "Jenkinsville, South Carolina": {
+    "state": "45",
+    "place": "36655",
+    "population": "40"
+  },
+  "Johnston, South Carolina": {
+    "state": "45",
+    "place": "37150",
+    "population": "1997"
+  },
+  "Jonesville, South Carolina": {
+    "state": "45",
+    "place": "37330",
+    "population": "852"
+  },
+  "Kershaw, South Carolina": {
+    "state": "45",
+    "place": "38095",
+    "population": "1693"
+  },
+  "Kiawah Island, South Carolina": {
+    "state": "45",
+    "place": "38162",
+    "population": "2013"
+  },
+  "Kingstree, South Carolina": {
+    "state": "45",
+    "place": "38590",
+    "population": "3244"
+  },
+  "Kline, South Carolina": {
+    "state": "45",
+    "place": "38950",
+    "population": "148"
+  },
+  "Lake View, South Carolina": {
+    "state": "45",
+    "place": "39715",
+    "population": "764"
+  },
+  "Lamar, South Carolina": {
+    "state": "45",
+    "place": "39805",
+    "population": "862"
+  },
+  "Lane, South Carolina": {
+    "state": "45",
+    "place": "40210",
+    "population": "472"
+  },
+  "Latta, South Carolina": {
+    "state": "45",
+    "place": "40480",
+    "population": "1296"
+  },
+  "Lexington, South Carolina": {
+    "state": "45",
+    "place": "41335",
+    "population": "23568"
+  },
+  "Lincolnville, South Carolina": {
+    "state": "45",
+    "place": "41740",
+    "population": "1147"
+  },
+  "Little Mountain, South Carolina": {
+    "state": "45",
+    "place": "41965",
+    "population": "249"
+  },
+  "Livingston, South Carolina": {
+    "state": "45",
+    "place": "42100",
+    "population": "132"
+  },
+  "Lockhart, South Carolina": {
+    "state": "45",
+    "place": "42190",
+    "population": "384"
+  },
+  "Lodge, South Carolina": {
+    "state": "45",
+    "place": "42280",
+    "population": "82"
+  },
+  "Lowndesville, South Carolina": {
+    "state": "45",
+    "place": "42820",
+    "population": "120"
+  },
+  "Lowrys, South Carolina": {
+    "state": "45",
+    "place": "42865",
+    "population": "184"
+  },
+  "Luray, South Carolina": {
+    "state": "45",
+    "place": "43090",
+    "population": "98"
+  },
+  "Lyman, South Carolina": {
+    "state": "45",
+    "place": "43315",
+    "population": "6173"
+  },
+  "Lynchburg, South Carolina": {
+    "state": "45",
+    "place": "43360",
+    "population": "318"
+  },
+  "McBee, South Carolina": {
+    "state": "45",
+    "place": "43495",
+    "population": "758"
+  },
+  "McClellanville, South Carolina": {
+    "state": "45",
+    "place": "43585",
+    "population": "605"
+  },
+  "McColl, South Carolina": {
+    "state": "45",
+    "place": "43630",
+    "population": "2070"
+  },
+  "McConnells, South Carolina": {
+    "state": "45",
+    "place": "43675",
+    "population": "280"
+  },
+  "McCormick, South Carolina": {
+    "state": "45",
+    "place": "43720",
+    "population": "2232"
+  },
+  "Mayesville, South Carolina": {
+    "state": "45",
+    "place": "45295",
+    "population": "548"
+  },
+  "Meggett, South Carolina": {
+    "state": "45",
+    "place": "45790",
+    "population": "1390"
+  },
+  "Moncks Corner, South Carolina": {
+    "state": "45",
+    "place": "47275",
+    "population": "13297"
+  },
+  "Monetta, South Carolina": {
+    "state": "45",
+    "place": "47320",
+    "population": "205"
+  },
+  "Mount Croghan, South Carolina": {
+    "state": "45",
+    "place": "48355",
+    "population": "135"
+  },
+  "Mount Pleasant, South Carolina": {
+    "state": "45",
+    "place": "48535",
+    "population": "90801"
+  },
+  "Neeses, South Carolina": {
+    "state": "45",
+    "place": "49390",
+    "population": "320"
+  },
+  "New Ellenton, South Carolina": {
+    "state": "45",
+    "place": "49705",
+    "population": "2210"
+  },
+  "Nichols, South Carolina": {
+    "state": "45",
+    "place": "50110",
+    "population": "234"
+  },
+  "Ninety Six, South Carolina": {
+    "state": "45",
+    "place": "50290",
+    "population": "2076"
+  },
+  "Norris, South Carolina": {
+    "state": "45",
+    "place": "50515",
+    "population": "741"
+  },
+  "North, South Carolina": {
+    "state": "45",
+    "place": "50560",
+    "population": "696"
+  },
+  "Norway, South Carolina": {
+    "state": "45",
+    "place": "51550",
+    "population": "289"
+  },
+  "Olanta, South Carolina": {
+    "state": "45",
+    "place": "52540",
+    "population": "550"
+  },
+  "Olar, South Carolina": {
+    "state": "45",
+    "place": "52585",
+    "population": "215"
+  },
+  "Pacolet, South Carolina": {
+    "state": "45",
+    "place": "53845",
+    "population": "2274"
+  },
+  "Pageland, South Carolina": {
+    "state": "45",
+    "place": "54025",
+    "population": "2456"
+  },
+  "Pamplico, South Carolina": {
+    "state": "45",
+    "place": "54340",
+    "population": "1061"
+  },
+  "Parksville, South Carolina": {
+    "state": "45",
+    "place": "54700",
+    "population": "120"
+  },
+  "Patrick, South Carolina": {
+    "state": "45",
+    "place": "54925",
+    "population": "266"
+  },
+  "Pawleys Island, South Carolina": {
+    "state": "45",
+    "place": "55015",
+    "population": "130"
+  },
+  "Paxville, South Carolina": {
+    "state": "45",
+    "place": "55060",
+    "population": "232"
+  },
+  "Peak, South Carolina": {
+    "state": "45",
+    "place": "55150",
+    "population": "51"
+  },
+  "Pelion, South Carolina": {
+    "state": "45",
+    "place": "55420",
+    "population": "631"
+  },
+  "Pelzer, South Carolina": {
+    "state": "45",
+    "place": "55465",
+    "population": "1344"
+  },
+  "Pendleton, South Carolina": {
+    "state": "45",
+    "place": "55645",
+    "population": "3489"
+  },
+  "Perry, South Carolina": {
+    "state": "45",
+    "place": "55960",
+    "population": "194"
+  },
+  "Pine Ridge, South Carolina": {
+    "state": "45",
+    "place": "56950",
+    "population": "2167"
+  },
+  "Pinewood, South Carolina": {
+    "state": "45",
+    "place": "57085",
+    "population": "503"
+  },
+  "Plum Branch, South Carolina": {
+    "state": "45",
+    "place": "57670",
+    "population": "72"
+  },
+  "Pomaria, South Carolina": {
+    "state": "45",
+    "place": "57850",
+    "population": "127"
+  },
+  "Port Royal, South Carolina": {
+    "state": "45",
+    "place": "58030",
+    "population": "14220"
+  },
+  "Prosperity, South Carolina": {
+    "state": "45",
+    "place": "58705",
+    "population": "1178"
+  },
+  "Quinby, South Carolina": {
+    "state": "45",
+    "place": "58795",
+    "population": "915"
+  },
+  "Ravenel, South Carolina": {
+    "state": "45",
+    "place": "59020",
+    "population": "2542"
+  },
+  "Reevesville, South Carolina": {
+    "state": "45",
+    "place": "59380",
+    "population": "201"
+  },
+  "Reidville, South Carolina": {
+    "state": "45",
+    "place": "59425",
+    "population": "1634"
+  },
+  "Richburg, South Carolina": {
+    "state": "45",
+    "place": "59920",
+    "population": "280"
+  },
+  "Ridgeland, South Carolina": {
+    "state": "45",
+    "place": "60280",
+    "population": "3758"
+  },
+  "Ridge Spring, South Carolina": {
+    "state": "45",
+    "place": "60325",
+    "population": "579"
+  },
+  "Ridgeville, South Carolina": {
+    "state": "45",
+    "place": "60370",
+    "population": "1672"
+  },
+  "Ridgeway, South Carolina": {
+    "state": "45",
+    "place": "60415",
+    "population": "266"
+  },
+  "Rockville, South Carolina": {
+    "state": "45",
+    "place": "61495",
+    "population": "141"
+  },
+  "Rowesville, South Carolina": {
+    "state": "45",
+    "place": "62035",
+    "population": "253"
+  },
+  "Ruby, South Carolina": {
+    "state": "45",
+    "place": "62080",
+    "population": "307"
+  },
+  "St. George, South Carolina": {
+    "state": "45",
+    "place": "62530",
+    "population": "1843"
+  },
+  "St. Matthews, South Carolina": {
+    "state": "45",
+    "place": "62620",
+    "population": "1841"
+  },
+  "St. Stephen, South Carolina": {
+    "state": "45",
+    "place": "62755",
+    "population": "1571"
+  },
+  "Salem, South Carolina": {
+    "state": "45",
+    "place": "62980",
+    "population": "120"
+  },
+  "Salley, South Carolina": {
+    "state": "45",
+    "place": "63115",
+    "population": "329"
+  },
+  "Saluda, South Carolina": {
+    "state": "45",
+    "place": "63250",
+    "population": "3122"
+  },
+  "Santee, South Carolina": {
+    "state": "45",
+    "place": "63790",
+    "population": "797"
+  },
+  "Scotia, South Carolina": {
+    "state": "45",
+    "place": "64465",
+    "population": "158"
+  },
+  "Scranton, South Carolina": {
+    "state": "45",
+    "place": "64600",
+    "population": "648"
+  },
+  "Seabrook Island, South Carolina": {
+    "state": "45",
+    "place": "64712",
+    "population": "2050"
+  },
+  "Sellers, South Carolina": {
+    "state": "45",
+    "place": "65005",
+    "population": "147"
+  },
+  "Sharon, South Carolina": {
+    "state": "45",
+    "place": "65410",
+    "population": "462"
+  },
+  "Silverstreet, South Carolina": {
+    "state": "45",
+    "place": "66400",
+    "population": "164"
+  },
+  "Six Mile, South Carolina": {
+    "state": "45",
+    "place": "66760",
+    "population": "759"
+  },
+  "Smoaks, South Carolina": {
+    "state": "45",
+    "place": "67165",
+    "population": "98"
+  },
+  "Smyrna, South Carolina": {
+    "state": "45",
+    "place": "67210",
+    "population": "55"
+  },
+  "Snelling, South Carolina": {
+    "state": "45",
+    "place": "67255",
+    "population": "250"
+  },
+  "Society Hill, South Carolina": {
+    "state": "45",
+    "place": "67435",
+    "population": "438"
+  },
+  "South Congaree, South Carolina": {
+    "state": "45",
+    "place": "67705",
+    "population": "2377"
+  },
+  "Springdale, South Carolina": {
+    "state": "45",
+    "place": "68425",
+    "population": "2744"
+  },
+  "Springfield, South Carolina": {
+    "state": "45",
+    "place": "68470",
+    "population": "455"
+  },
+  "Starr, South Carolina": {
+    "state": "45",
+    "place": "68875",
+    "population": "165"
+  },
+  "Stuckey, South Carolina": {
+    "state": "45",
+    "place": "70045",
+    "population": "200"
+  },
+  "Sullivan's Island, South Carolina": {
+    "state": "45",
+    "place": "70090",
+    "population": "1891"
+  },
+  "Summerton, South Carolina": {
+    "state": "45",
+    "place": "70225",
+    "population": "814"
+  },
+  "Summerville, South Carolina": {
+    "state": "45",
+    "place": "70270",
+    "population": "50915"
+  },
+  "Summit, South Carolina": {
+    "state": "45",
+    "place": "70315",
+    "population": "423"
+  },
+  "Surfside Beach, South Carolina": {
+    "state": "45",
+    "place": "70585",
+    "population": "4155"
+  },
+  "Swansea, South Carolina": {
+    "state": "45",
+    "place": "70675",
+    "population": "722"
+  },
+  "Sycamore, South Carolina": {
+    "state": "45",
+    "place": "70900",
+    "population": "147"
+  },
+  "Tatum, South Carolina": {
+    "state": "45",
+    "place": "71305",
+    "population": "76"
+  },
+  "Timmonsville, South Carolina": {
+    "state": "45",
+    "place": "71980",
+    "population": "2099"
+  },
+  "Trenton, South Carolina": {
+    "state": "45",
+    "place": "72520",
+    "population": "200"
+  },
+  "Troy, South Carolina": {
+    "state": "45",
+    "place": "72655",
+    "population": "83"
+  },
+  "Turbeville, South Carolina": {
+    "state": "45",
+    "place": "72745",
+    "population": "760"
+  },
+  "Ulmer, South Carolina": {
+    "state": "45",
+    "place": "72880",
+    "population": "65"
+  },
+  "Vance, South Carolina": {
+    "state": "45",
+    "place": "73510",
+    "population": "128"
+  },
+  "Van Wyck, South Carolina": {
+    "state": "45",
+    "place": "73555",
+    "population": "848"
+  },
+  "Varnville, South Carolina": {
+    "state": "45",
+    "place": "73600",
+    "population": "1669"
+  },
+  "Wagener, South Carolina": {
+    "state": "45",
+    "place": "74050",
+    "population": "631"
+  },
+  "Ward, South Carolina": {
+    "state": "45",
+    "place": "74590",
+    "population": "119"
+  },
+  "Ware Shoals, South Carolina": {
+    "state": "45",
+    "place": "74680",
+    "population": "1701"
+  },
+  "Waterloo, South Carolina": {
+    "state": "45",
+    "place": "74995",
+    "population": "149"
+  },
+  "West Pelzer, South Carolina": {
+    "state": "45",
+    "place": "76345",
+    "population": "962"
+  },
+  "West Union, South Carolina": {
+    "state": "45",
+    "place": "76435",
+    "population": "374"
+  },
+  "Whitmire, South Carolina": {
+    "state": "45",
+    "place": "77380",
+    "population": "1390"
+  },
+  "Williams, South Carolina": {
+    "state": "45",
+    "place": "77785",
+    "population": "98"
+  },
+  "Williamston, South Carolina": {
+    "state": "45",
+    "place": "77875",
+    "population": "4043"
+  },
+  "Williston, South Carolina": {
+    "state": "45",
+    "place": "77965",
+    "population": "2877"
+  },
+  "Windsor, South Carolina": {
+    "state": "45",
+    "place": "78190",
+    "population": "115"
+  },
+  "Winnsboro, South Carolina": {
+    "state": "45",
+    "place": "78460",
+    "population": "3215"
+  },
+  "Woodford, South Carolina": {
+    "state": "45",
+    "place": "78910",
+    "population": "161"
+  },
+  "Yemassee, South Carolina": {
+    "state": "45",
+    "place": "79450",
+    "population": "1080"
+  }
+}

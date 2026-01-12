@@ -1,0 +1,1912 @@
+{
+  "Inglewood, Nebraska": {
+    "state": "31",
+    "place": "23970",
+    "population": "380"
+  },
+  "Inman, Nebraska": {
+    "state": "31",
+    "place": "24075",
+    "population": "95"
+  },
+  "Ithaca, Nebraska": {
+    "state": "31",
+    "place": "24285",
+    "population": "160"
+  },
+  "Jackson, Nebraska": {
+    "state": "31",
+    "place": "24355",
+    "population": "207"
+  },
+  "Jansen, Nebraska": {
+    "state": "31",
+    "place": "24530",
+    "population": "101"
+  },
+  "Johnson, Nebraska": {
+    "state": "31",
+    "place": "24670",
+    "population": "309"
+  },
+  "Johnstown, Nebraska": {
+    "state": "31",
+    "place": "24740",
+    "population": "47"
+  },
+  "Julian, Nebraska": {
+    "state": "31",
+    "place": "24915",
+    "population": "46"
+  },
+  "Juniata, Nebraska": {
+    "state": "31",
+    "place": "24950",
+    "population": "748"
+  },
+  "Kenesaw, Nebraska": {
+    "state": "31",
+    "place": "25160",
+    "population": "919"
+  },
+  "Kennard, Nebraska": {
+    "state": "31",
+    "place": "25230",
+    "population": "381"
+  },
+  "Kilgore, Nebraska": {
+    "state": "31",
+    "place": "25405",
+    "population": "63"
+  },
+  "Lamar, Nebraska": {
+    "state": "31",
+    "place": "26175",
+    "population": "28"
+  },
+  "Lawrence, Nebraska": {
+    "state": "31",
+    "place": "26420",
+    "population": "272"
+  },
+  "Lebanon, Nebraska": {
+    "state": "31",
+    "place": "26455",
+    "population": "46"
+  },
+  "Leigh, Nebraska": {
+    "state": "31",
+    "place": "26560",
+    "population": "435"
+  },
+  "Leshara, Nebraska": {
+    "state": "31",
+    "place": "26630",
+    "population": "108"
+  },
+  "Lewellen, Nebraska": {
+    "state": "31",
+    "place": "26805",
+    "population": "175"
+  },
+  "Lewiston, Nebraska": {
+    "state": "31",
+    "place": "26875",
+    "population": "55"
+  },
+  "Liberty, Nebraska": {
+    "state": "31",
+    "place": "26980",
+    "population": "37"
+  },
+  "Lindsay, Nebraska": {
+    "state": "31",
+    "place": "28105",
+    "population": "283"
+  },
+  "Linwood, Nebraska": {
+    "state": "31",
+    "place": "28245",
+    "population": "94"
+  },
+  "Litchfield, Nebraska": {
+    "state": "31",
+    "place": "28350",
+    "population": "220"
+  },
+  "Lodgepole, Nebraska": {
+    "state": "31",
+    "place": "28420",
+    "population": "312"
+  },
+  "Loomis, Nebraska": {
+    "state": "31",
+    "place": "29085",
+    "population": "391"
+  },
+  "Lorton, Nebraska": {
+    "state": "31",
+    "place": "29175",
+    "population": "35"
+  },
+  "Lushton, Nebraska": {
+    "state": "31",
+    "place": "29645",
+    "population": "28"
+  },
+  "Lyman, Nebraska": {
+    "state": "31",
+    "place": "29715",
+    "population": "259"
+  },
+  "Lynch, Nebraska": {
+    "state": "31",
+    "place": "29750",
+    "population": "194"
+  },
+  "McCool Junction, Nebraska": {
+    "state": "31",
+    "place": "29960",
+    "population": "453"
+  },
+  "McGrew, Nebraska": {
+    "state": "31",
+    "place": "30030",
+    "population": "75"
+  },
+  "McLean, Nebraska": {
+    "state": "31",
+    "place": "30065",
+    "population": "33"
+  },
+  "Madrid, Nebraska": {
+    "state": "31",
+    "place": "30275",
+    "population": "242"
+  },
+  "Magnet, Nebraska": {
+    "state": "31",
+    "place": "30310",
+    "population": "43"
+  },
+  "Malcolm, Nebraska": {
+    "state": "31",
+    "place": "30345",
+    "population": "457"
+  },
+  "Malmo, Nebraska": {
+    "state": "31",
+    "place": "30380",
+    "population": "94"
+  },
+  "Manley, Nebraska": {
+    "state": "31",
+    "place": "30415",
+    "population": "167"
+  },
+  "Marquette, Nebraska": {
+    "state": "31",
+    "place": "30730",
+    "population": "236"
+  },
+  "Martinsburg, Nebraska": {
+    "state": "31",
+    "place": "30940",
+    "population": "78"
+  },
+  "Maskell, Nebraska": {
+    "state": "31",
+    "place": "31045",
+    "population": "58"
+  },
+  "Mason City, Nebraska": {
+    "state": "31",
+    "place": "31115",
+    "population": "151"
+  },
+  "Maxwell, Nebraska": {
+    "state": "31",
+    "place": "31220",
+    "population": "257"
+  },
+  "Maywood, Nebraska": {
+    "state": "31",
+    "place": "31325",
+    "population": "262"
+  },
+  "Mead, Nebraska": {
+    "state": "31",
+    "place": "31395",
+    "population": "617"
+  },
+  "Meadow Grove, Nebraska": {
+    "state": "31",
+    "place": "31465",
+    "population": "287"
+  },
+  "Melbeta, Nebraska": {
+    "state": "31",
+    "place": "31570",
+    "population": "108"
+  },
+  "Memphis, Nebraska": {
+    "state": "31",
+    "place": "31640",
+    "population": "109"
+  },
+  "Merna, Nebraska": {
+    "state": "31",
+    "place": "31780",
+    "population": "343"
+  },
+  "Merriman, Nebraska": {
+    "state": "31",
+    "place": "31815",
+    "population": "87"
+  },
+  "Miller, Nebraska": {
+    "state": "31",
+    "place": "32130",
+    "population": "129"
+  },
+  "Milligan, Nebraska": {
+    "state": "31",
+    "place": "32200",
+    "population": "244"
+  },
+  "Monowi, Nebraska": {
+    "state": "31",
+    "place": "32550",
+    "population": "2"
+  },
+  "Monroe, Nebraska": {
+    "state": "31",
+    "place": "32585",
+    "population": "296"
+  },
+  "Moorefield, Nebraska": {
+    "state": "31",
+    "place": "32760",
+    "population": "27"
+  },
+  "Morrill, Nebraska": {
+    "state": "31",
+    "place": "32830",
+    "population": "934"
+  },
+  "Morse Bluff, Nebraska": {
+    "state": "31",
+    "place": "32865",
+    "population": "117"
+  },
+  "Mullen, Nebraska": {
+    "state": "31",
+    "place": "33250",
+    "population": "500"
+  },
+  "Murdock, Nebraska": {
+    "state": "31",
+    "place": "33320",
+    "population": "270"
+  },
+  "Murray, Nebraska": {
+    "state": "31",
+    "place": "33425",
+    "population": "480"
+  },
+  "Naper, Nebraska": {
+    "state": "31",
+    "place": "33530",
+    "population": "89"
+  },
+  "Naponee, Nebraska": {
+    "state": "31",
+    "place": "33565",
+    "population": "83"
+  },
+  "Nehawka, Nebraska": {
+    "state": "31",
+    "place": "33740",
+    "population": "173"
+  },
+  "Nemaha, Nebraska": {
+    "state": "31",
+    "place": "33950",
+    "population": "114"
+  },
+  "Nenzel, Nebraska": {
+    "state": "31",
+    "place": "33985",
+    "population": "17"
+  },
+  "Newcastle, Nebraska": {
+    "state": "31",
+    "place": "34090",
+    "population": "272"
+  },
+  "Newport, Nebraska": {
+    "state": "31",
+    "place": "34265",
+    "population": "68"
+  },
+  "Nickerson, Nebraska": {
+    "state": "31",
+    "place": "34300",
+    "population": "312"
+  },
+  "Niobrara, Nebraska": {
+    "state": "31",
+    "place": "34370",
+    "population": "365"
+  },
+  "Nora, Nebraska": {
+    "state": "31",
+    "place": "34545",
+    "population": "21"
+  },
+  "Norman, Nebraska": {
+    "state": "31",
+    "place": "34650",
+    "population": "32"
+  },
+  "North Loup, Nebraska": {
+    "state": "31",
+    "place": "34825",
+    "population": "254"
+  },
+  "Oak, Nebraska": {
+    "state": "31",
+    "place": "35245",
+    "population": "54"
+  },
+  "Obert, Nebraska": {
+    "state": "31",
+    "place": "35560",
+    "population": "22"
+  },
+  "Oconto, Nebraska": {
+    "state": "31",
+    "place": "35665",
+    "population": "138"
+  },
+  "Octavia, Nebraska": {
+    "state": "31",
+    "place": "35700",
+    "population": "107"
+  },
+  "Odell, Nebraska": {
+    "state": "31",
+    "place": "35735",
+    "population": "260"
+  },
+  "Ohiowa, Nebraska": {
+    "state": "31",
+    "place": "36015",
+    "population": "120"
+  },
+  "Ong, Nebraska": {
+    "state": "31",
+    "place": "37140",
+    "population": "49"
+  },
+  "Orchard, Nebraska": {
+    "state": "31",
+    "place": "37210",
+    "population": "363"
+  },
+  "Orleans, Nebraska": {
+    "state": "31",
+    "place": "37420",
+    "population": "341"
+  },
+  "Otoe, Nebraska": {
+    "state": "31",
+    "place": "37630",
+    "population": "161"
+  },
+  "Overton, Nebraska": {
+    "state": "31",
+    "place": "37770",
+    "population": "607"
+  },
+  "Oxford, Nebraska": {
+    "state": "31",
+    "place": "37910",
+    "population": "718"
+  },
+  "Page, Nebraska": {
+    "state": "31",
+    "place": "38085",
+    "population": "166"
+  },
+  "Palisade, Nebraska": {
+    "state": "31",
+    "place": "38130",
+    "population": "294"
+  },
+  "Palmer, Nebraska": {
+    "state": "31",
+    "place": "38160",
+    "population": "439"
+  },
+  "Palmyra, Nebraska": {
+    "state": "31",
+    "place": "38190",
+    "population": "534"
+  },
+  "Panama, Nebraska": {
+    "state": "31",
+    "place": "38225",
+    "population": "235"
+  },
+  "Paxton, Nebraska": {
+    "state": "31",
+    "place": "38610",
+    "population": "516"
+  },
+  "Pender, Nebraska": {
+    "state": "31",
+    "place": "38750",
+    "population": "1115"
+  },
+  "Petersburg, Nebraska": {
+    "state": "31",
+    "place": "38995",
+    "population": "332"
+  },
+  "Phillips, Nebraska": {
+    "state": "31",
+    "place": "39030",
+    "population": "320"
+  },
+  "Pickrell, Nebraska": {
+    "state": "31",
+    "place": "39065",
+    "population": "186"
+  },
+  "Pilger, Nebraska": {
+    "state": "31",
+    "place": "39135",
+    "population": "240"
+  },
+  "Oakdale, Nebraska": {
+    "state": "31",
+    "place": "35385",
+    "population": "276"
+  },
+  "Platte Center, Nebraska": {
+    "state": "31",
+    "place": "39310",
+    "population": "333"
+  },
+  "Pleasant Dale, Nebraska": {
+    "state": "31",
+    "place": "39380",
+    "population": "218"
+  },
+  "Pleasanton, Nebraska": {
+    "state": "31",
+    "place": "39450",
+    "population": "361"
+  },
+  "Plymouth, Nebraska": {
+    "state": "31",
+    "place": "39590",
+    "population": "364"
+  },
+  "Polk, Nebraska": {
+    "state": "31",
+    "place": "39660",
+    "population": "346"
+  },
+  "Potter, Nebraska": {
+    "state": "31",
+    "place": "39870",
+    "population": "342"
+  },
+  "Prague, Nebraska": {
+    "state": "31",
+    "place": "39975",
+    "population": "291"
+  },
+  "Preston, Nebraska": {
+    "state": "31",
+    "place": "40325",
+    "population": "19"
+  },
+  "Primrose, Nebraska": {
+    "state": "31",
+    "place": "40360",
+    "population": "55"
+  },
+  "Prosser, Nebraska": {
+    "state": "31",
+    "place": "40430",
+    "population": "76"
+  },
+  "Ragan, Nebraska": {
+    "state": "31",
+    "place": "40570",
+    "population": "22"
+  },
+  "Raymond, Nebraska": {
+    "state": "31",
+    "place": "40780",
+    "population": "159"
+  },
+  "Republican City, Nebraska": {
+    "state": "31",
+    "place": "41130",
+    "population": "134"
+  },
+  "Reynolds, Nebraska": {
+    "state": "31",
+    "place": "41235",
+    "population": "57"
+  },
+  "Richland, Nebraska": {
+    "state": "31",
+    "place": "41375",
+    "population": "70"
+  },
+  "Rising City, Nebraska": {
+    "state": "31",
+    "place": "41480",
+    "population": "356"
+  },
+  "Riverdale, Nebraska": {
+    "state": "31",
+    "place": "41515",
+    "population": "247"
+  },
+  "Riverton, Nebraska": {
+    "state": "31",
+    "place": "41760",
+    "population": "57"
+  },
+  "Roca, Nebraska": {
+    "state": "31",
+    "place": "41830",
+    "population": "201"
+  },
+  "Rockville, Nebraska": {
+    "state": "31",
+    "place": "42075",
+    "population": "89"
+  },
+  "Rogers, Nebraska": {
+    "state": "31",
+    "place": "42145",
+    "population": "82"
+  },
+  "Rosalie, Nebraska": {
+    "state": "31",
+    "place": "42250",
+    "population": "159"
+  },
+  "Roseland, Nebraska": {
+    "state": "31",
+    "place": "42355",
+    "population": "263"
+  },
+  "Royal, Nebraska": {
+    "state": "31",
+    "place": "42495",
+    "population": "58"
+  },
+  "Rulo, Nebraska": {
+    "state": "31",
+    "place": "42670",
+    "population": "145"
+  },
+  "Ruskin, Nebraska": {
+    "state": "31",
+    "place": "42810",
+    "population": "105"
+  },
+  "St. Helena, Nebraska": {
+    "state": "31",
+    "place": "43090",
+    "population": "89"
+  },
+  "Salem, Nebraska": {
+    "state": "31",
+    "place": "43370",
+    "population": "83"
+  },
+  "Santee, Nebraska": {
+    "state": "31",
+    "place": "43475",
+    "population": "424"
+  },
+  "Saronville, Nebraska": {
+    "state": "31",
+    "place": "43755",
+    "population": "35"
+  },
+  "Scotia, Nebraska": {
+    "state": "31",
+    "place": "44070",
+    "population": "301"
+  },
+  "Shelby, Nebraska": {
+    "state": "31",
+    "place": "44595",
+    "population": "710"
+  },
+  "Shelton, Nebraska": {
+    "state": "31",
+    "place": "44700",
+    "population": "1034"
+  },
+  "Shickley, Nebraska": {
+    "state": "31",
+    "place": "45085",
+    "population": "347"
+  },
+  "Sholes, Nebraska": {
+    "state": "31",
+    "place": "45190",
+    "population": "16"
+  },
+  "Shubert, Nebraska": {
+    "state": "31",
+    "place": "45225",
+    "population": "163"
+  },
+  "Silver Creek, Nebraska": {
+    "state": "31",
+    "place": "45400",
+    "population": "320"
+  },
+  "Smithfield, Nebraska": {
+    "state": "31",
+    "place": "45575",
+    "population": "60"
+  },
+  "Snyder, Nebraska": {
+    "state": "31",
+    "place": "45610",
+    "population": "254"
+  },
+  "South Bend, Nebraska": {
+    "state": "31",
+    "place": "45680",
+    "population": "92"
+  },
+  "Spalding, Nebraska": {
+    "state": "31",
+    "place": "46135",
+    "population": "408"
+  },
+  "Spencer, Nebraska": {
+    "state": "31",
+    "place": "46275",
+    "population": "408"
+  },
+  "Sprague, Nebraska": {
+    "state": "31",
+    "place": "46380",
+    "population": "136"
+  },
+  "Springview, Nebraska": {
+    "state": "31",
+    "place": "46625",
+    "population": "238"
+  },
+  "Stamford, Nebraska": {
+    "state": "31",
+    "place": "46695",
+    "population": "158"
+  },
+  "Staplehurst, Nebraska": {
+    "state": "31",
+    "place": "46835",
+    "population": "236"
+  },
+  "Stapleton, Nebraska": {
+    "state": "31",
+    "place": "46870",
+    "population": "267"
+  },
+  "Abie, Nebraska": {
+    "state": "31",
+    "place": "00205",
+    "population": "65"
+  },
+  "Adams, Nebraska": {
+    "state": "31",
+    "place": "00240",
+    "population": "604"
+  },
+  "Alda, Nebraska": {
+    "state": "31",
+    "place": "00625",
+    "population": "647"
+  },
+  "Alexandria, Nebraska": {
+    "state": "31",
+    "place": "00730",
+    "population": "148"
+  },
+  "Allen, Nebraska": {
+    "state": "31",
+    "place": "00870",
+    "population": "355"
+  },
+  "Alvo, Nebraska": {
+    "state": "31",
+    "place": "01150",
+    "population": "115"
+  },
+  "Amherst, Nebraska": {
+    "state": "31",
+    "place": "01290",
+    "population": "201"
+  },
+  "Anoka, Nebraska": {
+    "state": "31",
+    "place": "01465",
+    "population": "10"
+  },
+  "Anselmo, Nebraska": {
+    "state": "31",
+    "place": "01500",
+    "population": "108"
+  },
+  "Ansley, Nebraska": {
+    "state": "31",
+    "place": "01535",
+    "population": "459"
+  },
+  "Arcadia, Nebraska": {
+    "state": "31",
+    "place": "01850",
+    "population": "283"
+  },
+  "Arlington, Nebraska": {
+    "state": "31",
+    "place": "01990",
+    "population": "1300"
+  },
+  "Arnold, Nebraska": {
+    "state": "31",
+    "place": "02095",
+    "population": "592"
+  },
+  "Arthur, Nebraska": {
+    "state": "31",
+    "place": "02200",
+    "population": "128"
+  },
+  "Ashton, Nebraska": {
+    "state": "31",
+    "place": "02375",
+    "population": "198"
+  },
+  "Atlanta, Nebraska": {
+    "state": "31",
+    "place": "02620",
+    "population": "106"
+  },
+  "Avoca, Nebraska": {
+    "state": "31",
+    "place": "02795",
+    "population": "178"
+  },
+  "Axtell, Nebraska": {
+    "state": "31",
+    "place": "02830",
+    "population": "732"
+  },
+  "Ayr, Nebraska": {
+    "state": "31",
+    "place": "02865",
+    "population": "83"
+  },
+  "Bancroft, Nebraska": {
+    "state": "31",
+    "place": "03005",
+    "population": "496"
+  },
+  "Barada, Nebraska": {
+    "state": "31",
+    "place": "03040",
+    "population": "21"
+  },
+  "Barneston, Nebraska": {
+    "state": "31",
+    "place": "03075",
+    "population": "90"
+  },
+  "Bartlett, Nebraska": {
+    "state": "31",
+    "place": "03145",
+    "population": "109"
+  },
+  "Bartley, Nebraska": {
+    "state": "31",
+    "place": "03180",
+    "population": "270"
+  },
+  "Bazile Mills, Nebraska": {
+    "state": "31",
+    "place": "03355",
+    "population": "26"
+  },
+  "Steele City, Nebraska": {
+    "state": "31",
+    "place": "47010",
+    "population": "44"
+  },
+  "Steinauer, Nebraska": {
+    "state": "31",
+    "place": "47080",
+    "population": "59"
+  },
+  "Stella, Nebraska": {
+    "state": "31",
+    "place": "47115",
+    "population": "145"
+  },
+  "Sterling, Nebraska": {
+    "state": "31",
+    "place": "47150",
+    "population": "480"
+  },
+  "Stockham, Nebraska": {
+    "state": "31",
+    "place": "47220",
+    "population": "32"
+  },
+  "Stockville, Nebraska": {
+    "state": "31",
+    "place": "47290",
+    "population": "25"
+  },
+  "Strang, Nebraska": {
+    "state": "31",
+    "place": "47360",
+    "population": "30"
+  },
+  "Stratton, Nebraska": {
+    "state": "31",
+    "place": "47395",
+    "population": "310"
+  },
+  "Stuart, Nebraska": {
+    "state": "31",
+    "place": "47500",
+    "population": "486"
+  },
+  "Sumner, Nebraska": {
+    "state": "31",
+    "place": "47675",
+    "population": "252"
+  },
+  "Surprise, Nebraska": {
+    "state": "31",
+    "place": "47850",
+    "population": "37"
+  },
+  "Sutherland, Nebraska": {
+    "state": "31",
+    "place": "47920",
+    "population": "1313"
+  },
+  "Swanton, Nebraska": {
+    "state": "31",
+    "place": "48060",
+    "population": "82"
+  },
+  "Table Rock, Nebraska": {
+    "state": "31",
+    "place": "48270",
+    "population": "233"
+  },
+  "Talmage, Nebraska": {
+    "state": "31",
+    "place": "48305",
+    "population": "198"
+  },
+  "Tarnov, Nebraska": {
+    "state": "31",
+    "place": "48410",
+    "population": "52"
+  },
+  "Taylor, Nebraska": {
+    "state": "31",
+    "place": "48445",
+    "population": "141"
+  },
+  "Thayer, Nebraska": {
+    "state": "31",
+    "place": "48690",
+    "population": "44"
+  },
+  "Thedford, Nebraska": {
+    "state": "31",
+    "place": "48760",
+    "population": "208"
+  },
+  "Thurston, Nebraska": {
+    "state": "31",
+    "place": "48900",
+    "population": "116"
+  },
+  "Tobias, Nebraska": {
+    "state": "31",
+    "place": "49005",
+    "population": "114"
+  },
+  "Trenton, Nebraska": {
+    "state": "31",
+    "place": "49145",
+    "population": "516"
+  },
+  "Trumbull, Nebraska": {
+    "state": "31",
+    "place": "49285",
+    "population": "194"
+  },
+  "Uehling, Nebraska": {
+    "state": "31",
+    "place": "49425",
+    "population": "241"
+  },
+  "Ulysses, Nebraska": {
+    "state": "31",
+    "place": "49460",
+    "population": "196"
+  },
+  "Unadilla, Nebraska": {
+    "state": "31",
+    "place": "49530",
+    "population": "296"
+  },
+  "Union, Nebraska": {
+    "state": "31",
+    "place": "49635",
+    "population": "195"
+  },
+  "Upland, Nebraska": {
+    "state": "31",
+    "place": "49880",
+    "population": "125"
+  },
+  "Utica, Nebraska": {
+    "state": "31",
+    "place": "49915",
+    "population": "840"
+  },
+  "Valparaiso, Nebraska": {
+    "state": "31",
+    "place": "50125",
+    "population": "595"
+  },
+  "Venango, Nebraska": {
+    "state": "31",
+    "place": "50230",
+    "population": "157"
+  },
+  "Verdel, Nebraska": {
+    "state": "31",
+    "place": "50335",
+    "population": "38"
+  },
+  "Verdigre, Nebraska": {
+    "state": "31",
+    "place": "50370",
+    "population": "554"
+  },
+  "Verdon, Nebraska": {
+    "state": "31",
+    "place": "50510",
+    "population": "164"
+  },
+  "Virginia, Nebraska": {
+    "state": "31",
+    "place": "50790",
+    "population": "74"
+  },
+  "Waco, Nebraska": {
+    "state": "31",
+    "place": "50895",
+    "population": "296"
+  },
+  "Wallace, Nebraska": {
+    "state": "31",
+    "place": "51175",
+    "population": "318"
+  },
+  "Walthill, Nebraska": {
+    "state": "31",
+    "place": "51245",
+    "population": "682"
+  },
+  "Washington, Nebraska": {
+    "state": "31",
+    "place": "51595",
+    "population": "129"
+  },
+  "Beaver Crossing, Nebraska": {
+    "state": "31",
+    "place": "03530",
+    "population": "375"
+  },
+  "Bee, Nebraska": {
+    "state": "31",
+    "place": "03600",
+    "population": "171"
+  },
+  "Beemer, Nebraska": {
+    "state": "31",
+    "place": "03635",
+    "population": "611"
+  },
+  "Belden, Nebraska": {
+    "state": "31",
+    "place": "03775",
+    "population": "113"
+  },
+  "Belgrade, Nebraska": {
+    "state": "31",
+    "place": "03810",
+    "population": "103"
+  },
+  "Bellwood, Nebraska": {
+    "state": "31",
+    "place": "04020",
+    "population": "407"
+  },
+  "Belvidere, Nebraska": {
+    "state": "31",
+    "place": "04160",
+    "population": "51"
+  },
+  "Benedict, Nebraska": {
+    "state": "31",
+    "place": "04195",
+    "population": "203"
+  },
+  "Bennet, Nebraska": {
+    "state": "31",
+    "place": "04300",
+    "population": "1082"
+  },
+  "Bertrand, Nebraska": {
+    "state": "31",
+    "place": "04615",
+    "population": "709"
+  },
+  "Berwyn, Nebraska": {
+    "state": "31",
+    "place": "04650",
+    "population": "75"
+  },
+  "Big Springs, Nebraska": {
+    "state": "31",
+    "place": "04895",
+    "population": "394"
+  },
+  "Bladen, Nebraska": {
+    "state": "31",
+    "place": "05140",
+    "population": "205"
+  },
+  "Bloomington, Nebraska": {
+    "state": "31",
+    "place": "05490",
+    "population": "110"
+  },
+  "Boys Town, Nebraska": {
+    "state": "31",
+    "place": "06015",
+    "population": "410"
+  },
+  "Bradshaw, Nebraska": {
+    "state": "31",
+    "place": "06050",
+    "population": "273"
+  },
+  "Brady, Nebraska": {
+    "state": "31",
+    "place": "06085",
+    "population": "383"
+  },
+  "Brainard, Nebraska": {
+    "state": "31",
+    "place": "06120",
+    "population": "336"
+  },
+  "Brewster, Nebraska": {
+    "state": "31",
+    "place": "06260",
+    "population": "12"
+  },
+  "Bristow, Nebraska": {
+    "state": "31",
+    "place": "06400",
+    "population": "70"
+  },
+  "Broadwater, Nebraska": {
+    "state": "31",
+    "place": "06470",
+    "population": "95"
+  },
+  "Brock, Nebraska": {
+    "state": "31",
+    "place": "06505",
+    "population": "123"
+  },
+  "Brownville, Nebraska": {
+    "state": "31",
+    "place": "06750",
+    "population": "139"
+  },
+  "Brule, Nebraska": {
+    "state": "31",
+    "place": "06785",
+    "population": "331"
+  },
+  "Bruning, Nebraska": {
+    "state": "31",
+    "place": "06820",
+    "population": "281"
+  },
+  "Bruno, Nebraska": {
+    "state": "31",
+    "place": "06855",
+    "population": "95"
+  },
+  "Brunswick, Nebraska": {
+    "state": "31",
+    "place": "06890",
+    "population": "152"
+  },
+  "Burchard, Nebraska": {
+    "state": "31",
+    "place": "07065",
+    "population": "76"
+  },
+  "Burr, Nebraska": {
+    "state": "31",
+    "place": "07205",
+    "population": "52"
+  },
+  "Burton, Nebraska": {
+    "state": "31",
+    "place": "07310",
+    "population": "11"
+  },
+  "Bushnell, Nebraska": {
+    "state": "31",
+    "place": "07415",
+    "population": "115"
+  },
+  "Butte, Nebraska": {
+    "state": "31",
+    "place": "07485",
+    "population": "286"
+  },
+  "Byron, Nebraska": {
+    "state": "31",
+    "place": "07555",
+    "population": "83"
+  },
+  "Cairo, Nebraska": {
+    "state": "31",
+    "place": "07625",
+    "population": "822"
+  },
+  "Callaway, Nebraska": {
+    "state": "31",
+    "place": "07660",
+    "population": "563"
+  },
+  "Campbell, Nebraska": {
+    "state": "31",
+    "place": "07870",
+    "population": "272"
+  },
+  "Carleton, Nebraska": {
+    "state": "31",
+    "place": "07975",
+    "population": "92"
+  },
+  "Carroll, Nebraska": {
+    "state": "31",
+    "place": "08010",
+    "population": "191"
+  },
+  "Cedar Bluffs, Nebraska": {
+    "state": "31",
+    "place": "08150",
+    "population": "615"
+  },
+  "Cedar Creek, Nebraska": {
+    "state": "31",
+    "place": "08185",
+    "population": "465"
+  },
+  "Cedar Rapids, Nebraska": {
+    "state": "31",
+    "place": "08220",
+    "population": "382"
+  },
+  "Center, Nebraska": {
+    "state": "31",
+    "place": "08360",
+    "population": "79"
+  },
+  "Waterbury, Nebraska": {
+    "state": "31",
+    "place": "51630",
+    "population": "72"
+  },
+  "Waterloo, Nebraska": {
+    "state": "31",
+    "place": "51665",
+    "population": "935"
+  },
+  "Wauneta, Nebraska": {
+    "state": "31",
+    "place": "51700",
+    "population": "549"
+  },
+  "Wausa, Nebraska": {
+    "state": "31",
+    "place": "51735",
+    "population": "592"
+  },
+  "Wellfleet, Nebraska": {
+    "state": "31",
+    "place": "52085",
+    "population": "72"
+  },
+  "Western, Nebraska": {
+    "state": "31",
+    "place": "52295",
+    "population": "227"
+  },
+  "Weston, Nebraska": {
+    "state": "31",
+    "place": "52540",
+    "population": "250"
+  },
+  "Whitney, Nebraska": {
+    "state": "31",
+    "place": "52925",
+    "population": "62"
+  },
+  "Wilcox, Nebraska": {
+    "state": "31",
+    "place": "52995",
+    "population": "330"
+  },
+  "Wilsonville, Nebraska": {
+    "state": "31",
+    "place": "53240",
+    "population": "75"
+  },
+  "Winnebago, Nebraska": {
+    "state": "31",
+    "place": "53275",
+    "population": "916"
+  },
+  "Winnetoon, Nebraska": {
+    "state": "31",
+    "place": "53345",
+    "population": "54"
+  },
+  "Winside, Nebraska": {
+    "state": "31",
+    "place": "53380",
+    "population": "379"
+  },
+  "Winslow, Nebraska": {
+    "state": "31",
+    "place": "53415",
+    "population": "19"
+  },
+  "Wolbach, Nebraska": {
+    "state": "31",
+    "place": "53520",
+    "population": "224"
+  },
+  "Wood Lake, Nebraska": {
+    "state": "31",
+    "place": "53555",
+    "population": "46"
+  },
+  "Wynot, Nebraska": {
+    "state": "31",
+    "place": "53905",
+    "population": "216"
+  },
+  "Ceresco, Nebraska": {
+    "state": "31",
+    "place": "08570",
+    "population": "919"
+  },
+  "Chambers, Nebraska": {
+    "state": "31",
+    "place": "08675",
+    "population": "288"
+  },
+  "Chapman, Nebraska": {
+    "state": "31",
+    "place": "08780",
+    "population": "260"
+  },
+  "Chester, Nebraska": {
+    "state": "31",
+    "place": "09095",
+    "population": "224"
+  },
+  "Clarks, Nebraska": {
+    "state": "31",
+    "place": "09165",
+    "population": "344"
+  },
+  "Clatonia, Nebraska": {
+    "state": "31",
+    "place": "09270",
+    "population": "263"
+  },
+  "Clearwater, Nebraska": {
+    "state": "31",
+    "place": "09445",
+    "population": "320"
+  },
+  "Clinton, Nebraska": {
+    "state": "31",
+    "place": "09655",
+    "population": "38"
+  },
+  "Cody, Nebraska": {
+    "state": "31",
+    "place": "09760",
+    "population": "168"
+  },
+  "Coleridge, Nebraska": {
+    "state": "31",
+    "place": "09865",
+    "population": "537"
+  },
+  "Colon, Nebraska": {
+    "state": "31",
+    "place": "10005",
+    "population": "107"
+  },
+  "Comstock, Nebraska": {
+    "state": "31",
+    "place": "10180",
+    "population": "68"
+  },
+  "Concord, Nebraska": {
+    "state": "31",
+    "place": "10250",
+    "population": "126"
+  },
+  "Cook, Nebraska": {
+    "state": "31",
+    "place": "10390",
+    "population": "319"
+  },
+  "Cordova, Nebraska": {
+    "state": "31",
+    "place": "10495",
+    "population": "92"
+  },
+  "Cornlea, Nebraska": {
+    "state": "31",
+    "place": "10600",
+    "population": "33"
+  },
+  "Cortland, Nebraska": {
+    "state": "31",
+    "place": "10635",
+    "population": "504"
+  },
+  "Cotesfield, Nebraska": {
+    "state": "31",
+    "place": "10740",
+    "population": "29"
+  },
+  "Cowles, Nebraska": {
+    "state": "31",
+    "place": "10985",
+    "population": "21"
+  },
+  "Crab Orchard, Nebraska": {
+    "state": "31",
+    "place": "11055",
+    "population": "46"
+  },
+  "Craig, Nebraska": {
+    "state": "31",
+    "place": "11090",
+    "population": "202"
+  },
+  "Creston, Nebraska": {
+    "state": "31",
+    "place": "11300",
+    "population": "181"
+  },
+  "Crookston, Nebraska": {
+    "state": "31",
+    "place": "11475",
+    "population": "71"
+  },
+  "Culbertson, Nebraska": {
+    "state": "31",
+    "place": "11615",
+    "population": "534"
+  },
+  "Cushing, Nebraska": {
+    "state": "31",
+    "place": "11860",
+    "population": "37"
+  },
+  "Dalton, Nebraska": {
+    "state": "31",
+    "place": "12070",
+    "population": "284"
+  },
+  "Danbury, Nebraska": {
+    "state": "31",
+    "place": "12105",
+    "population": "80"
+  },
+  "Dannebrog, Nebraska": {
+    "state": "31",
+    "place": "12140",
+    "population": "273"
+  },
+  "Davenport, Nebraska": {
+    "state": "31",
+    "place": "12245",
+    "population": "319"
+  },
+  "Davey, Nebraska": {
+    "state": "31",
+    "place": "12280",
+    "population": "135"
+  },
+  "Dawson, Nebraska": {
+    "state": "31",
+    "place": "12420",
+    "population": "148"
+  },
+  "Daykin, Nebraska": {
+    "state": "31",
+    "place": "12455",
+    "population": "153"
+  },
+  "Decatur, Nebraska": {
+    "state": "31",
+    "place": "12525",
+    "population": "410"
+  },
+  "Denton, Nebraska": {
+    "state": "31",
+    "place": "12770",
+    "population": "189"
+  },
+  "Deweese, Nebraska": {
+    "state": "31",
+    "place": "12945",
+    "population": "42"
+  },
+  "De Witt, Nebraska": {
+    "state": "31",
+    "place": "13015",
+    "population": "530"
+  },
+  "Diller, Nebraska": {
+    "state": "31",
+    "place": "13085",
+    "population": "247"
+  },
+  "Dix, Nebraska": {
+    "state": "31",
+    "place": "13190",
+    "population": "187"
+  },
+  "Dixon, Nebraska": {
+    "state": "31",
+    "place": "13225",
+    "population": "77"
+  },
+  "Doniphan, Nebraska": {
+    "state": "31",
+    "place": "13365",
+    "population": "809"
+  },
+  "Dorchester, Nebraska": {
+    "state": "31",
+    "place": "13435",
+    "population": "610"
+  },
+  "Douglas, Nebraska": {
+    "state": "31",
+    "place": "13505",
+    "population": "166"
+  },
+  "Du Bois, Nebraska": {
+    "state": "31",
+    "place": "13750",
+    "population": "122"
+  },
+  "Dunbar, Nebraska": {
+    "state": "31",
+    "place": "13855",
+    "population": "165"
+  },
+  "Duncan, Nebraska": {
+    "state": "31",
+    "place": "13890",
+    "population": "392"
+  },
+  "Dunning, Nebraska": {
+    "state": "31",
+    "place": "13960",
+    "population": "80"
+  },
+  "Dwight, Nebraska": {
+    "state": "31",
+    "place": "14065",
+    "population": "229"
+  },
+  "Eagle, Nebraska": {
+    "state": "31",
+    "place": "14100",
+    "population": "1065"
+  },
+  "Eddyville, Nebraska": {
+    "state": "31",
+    "place": "14380",
+    "population": "88"
+  },
+  "Edison, Nebraska": {
+    "state": "31",
+    "place": "14520",
+    "population": "111"
+  },
+  "Elba, Nebraska": {
+    "state": "31",
+    "place": "14555",
+    "population": "192"
+  },
+  "Elk Creek, Nebraska": {
+    "state": "31",
+    "place": "14975",
+    "population": "69"
+  },
+  "Elm Creek, Nebraska": {
+    "state": "31",
+    "place": "15360",
+    "population": "979"
+  },
+  "Elmwood, Nebraska": {
+    "state": "31",
+    "place": "15430",
+    "population": "654"
+  },
+  "Elsie, Nebraska": {
+    "state": "31",
+    "place": "15500",
+    "population": "102"
+  },
+  "Elwood, Nebraska": {
+    "state": "31",
+    "place": "15570",
+    "population": "658"
+  },
+  "Elyria, Nebraska": {
+    "state": "31",
+    "place": "15605",
+    "population": "50"
+  },
+  "Emerson, Nebraska": {
+    "state": "31",
+    "place": "15710",
+    "population": "840"
+  },
+  "Emmet, Nebraska": {
+    "state": "31",
+    "place": "15815",
+    "population": "46"
+  },
+  "Endicott, Nebraska": {
+    "state": "31",
+    "place": "15920",
+    "population": "113"
+  },
+  "Ericson, Nebraska": {
+    "state": "31",
+    "place": "16025",
+    "population": "89"
+  },
+  "Eustis, Nebraska": {
+    "state": "31",
+    "place": "16165",
+    "population": "389"
+  },
+  "Ewing, Nebraska": {
+    "state": "31",
+    "place": "16270",
+    "population": "373"
+  },
+  "Exeter, Nebraska": {
+    "state": "31",
+    "place": "16340",
+    "population": "523"
+  },
+  "Fairmont, Nebraska": {
+    "state": "31",
+    "place": "16550",
+    "population": "592"
+  },
+  "Farnam, Nebraska": {
+    "state": "31",
+    "place": "16725",
+    "population": "182"
+  },
+  "Farwell, Nebraska": {
+    "state": "31",
+    "place": "16760",
+    "population": "138"
+  },
+  "Filley, Nebraska": {
+    "state": "31",
+    "place": "16830",
+    "population": "124"
+  },
+  "Firth, Nebraska": {
+    "state": "31",
+    "place": "16935",
+    "population": "649"
+  },
+  "Fordyce, Nebraska": {
+    "state": "31",
+    "place": "17110",
+    "population": "134"
+  },
+  "Dodge, Nebraska": {
+    "state": "31",
+    "place": "13295",
+    "population": "611"
+  },
+  "Foster, Nebraska": {
+    "state": "31",
+    "place": "17320",
+    "population": "42"
+  },
+  "Funk, Nebraska": {
+    "state": "31",
+    "place": "17880",
+    "population": "175"
+  },
+  "Gandy, Nebraska": {
+    "state": "31",
+    "place": "17950",
+    "population": "34"
+  },
+  "Garland, Nebraska": {
+    "state": "31",
+    "place": "18230",
+    "population": "210"
+  },
+  "Garrison, Nebraska": {
+    "state": "31",
+    "place": "18300",
+    "population": "55"
+  },
+  "Gilead, Nebraska": {
+    "state": "31",
+    "place": "18720",
+    "population": "30"
+  },
+  "Giltner, Nebraska": {
+    "state": "31",
+    "place": "18825",
+    "population": "406"
+  },
+  "Glenvil, Nebraska": {
+    "state": "31",
+    "place": "19070",
+    "population": "260"
+  },
+  "Goehner, Nebraska": {
+    "state": "31",
+    "place": "19245",
+    "population": "181"
+  },
+  "Grafton, Nebraska": {
+    "state": "31",
+    "place": "19455",
+    "population": "106"
+  },
+  "Greeley Center, Nebraska": {
+    "state": "31",
+    "place": "20050",
+    "population": "402"
+  },
+  "Greenwood, Nebraska": {
+    "state": "31",
+    "place": "20190",
+    "population": "595"
+  },
+  "Gresham, Nebraska": {
+    "state": "31",
+    "place": "20225",
+    "population": "219"
+  },
+  "Gross, Nebraska": {
+    "state": "31",
+    "place": "20295",
+    "population": "3"
+  },
+  "Guide Rock, Nebraska": {
+    "state": "31",
+    "place": "20365",
+    "population": "199"
+  },
+  "Gurley, Nebraska": {
+    "state": "31",
+    "place": "20435",
+    "population": "187"
+  },
+  "Hadar, Nebraska": {
+    "state": "31",
+    "place": "20470",
+    "population": "280"
+  },
+  "Haigler, Nebraska": {
+    "state": "31",
+    "place": "20540",
+    "population": "145"
+  },
+  "Hallam, Nebraska": {
+    "state": "31",
+    "place": "20610",
+    "population": "268"
+  },
+  "Halsey, Nebraska": {
+    "state": "31",
+    "place": "20680",
+    "population": "68"
+  },
+  "Hamlet, Nebraska": {
+    "state": "31",
+    "place": "20750",
+    "population": "27"
+  },
+  "Hampton, Nebraska": {
+    "state": "31",
+    "place": "20785",
+    "population": "432"
+  },
+  "Harbine, Nebraska": {
+    "state": "31",
+    "place": "20960",
+    "population": "56"
+  },
+  "Hardy, Nebraska": {
+    "state": "31",
+    "place": "20995",
+    "population": "97"
+  },
+  "Harrison, Nebraska": {
+    "state": "31",
+    "place": "21240",
+    "population": "239"
+  },
+  "Hayes Center, Nebraska": {
+    "state": "31",
+    "place": "21660",
+    "population": "224"
+  },
+  "Hay Springs, Nebraska": {
+    "state": "31",
+    "place": "21730",
+    "population": "599"
+  },
+  "Hazard, Nebraska": {
+    "state": "31",
+    "place": "21765",
+    "population": "57"
+  },
+  "Heartwell, Nebraska": {
+    "state": "31",
+    "place": "21835",
+    "population": "81"
+  },
+  "Hemingford, Nebraska": {
+    "state": "31",
+    "place": "22045",
+    "population": "787"
+  },
+  "Hendley, Nebraska": {
+    "state": "31",
+    "place": "22115",
+    "population": "20"
+  },
+  "Henry, Nebraska": {
+    "state": "31",
+    "place": "22150",
+    "population": "125"
+  },
+  "Herman, Nebraska": {
+    "state": "31",
+    "place": "22185",
+    "population": "247"
+  },
+  "Hershey, Nebraska": {
+    "state": "31",
+    "place": "22290",
+    "population": "649"
+  },
+  "Hildreth, Nebraska": {
+    "state": "31",
+    "place": "22430",
+    "population": "377"
+  },
+  "Holbrook, Nebraska": {
+    "state": "31",
+    "place": "22605",
+    "population": "201"
+  },
+  "Holstein, Nebraska": {
+    "state": "31",
+    "place": "22815",
+    "population": "191"
+  },
+  "Homer, Nebraska": {
+    "state": "31",
+    "place": "22920",
+    "population": "532"
+  },
+  "Hordville, Nebraska": {
+    "state": "31",
+    "place": "23200",
+    "population": "131"
+  },
+  "Hoskins, Nebraska": {
+    "state": "31",
+    "place": "23235",
+    "population": "263"
+  },
+  "Howard City (Boelus), Nebraska": {
+    "state": "31",
+    "place": "23270",
+    "population": "181"
+  },
+  "Howells, Nebraska": {
+    "state": "31",
+    "place": "23340",
+    "population": "561"
+  },
+  "Hubbard, Nebraska": {
+    "state": "31",
+    "place": "23375",
+    "population": "153"
+  },
+  "Hubbell, Nebraska": {
+    "state": "31",
+    "place": "23410",
+    "population": "63"
+  },
+  "Huntley, Nebraska": {
+    "state": "31",
+    "place": "23550",
+    "population": "33"
+  },
+  "Hyannis, Nebraska": {
+    "state": "31",
+    "place": "23655",
+    "population": "165"
+  }
+}

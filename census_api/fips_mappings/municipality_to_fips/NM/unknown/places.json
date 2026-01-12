@@ -1,0 +1,92 @@
+{
+  "Arroyo Hondo CDP (Santa Fe County), New Mexico": {
+    "state": "35",
+    "place": "05002",
+    "population": "331"
+  },
+  "Arroyo Hondo CDP (Taos County), New Mexico": {
+    "state": "35",
+    "place": "05010",
+    "population": "428"
+  },
+  "La Cueva CDP (Sandoval County), New Mexico": {
+    "state": "35",
+    "place": "36880",
+    "population": "176"
+  },
+  "La Cueva CDP (Santa Fe County), New Mexico": {
+    "state": "35",
+    "place": "36930",
+    "population": "473"
+  },
+  "La Madera CDP (Rio Arriba County), New Mexico": {
+    "state": "35",
+    "place": "38470",
+    "population": "140"
+  },
+  "La Madera CDP (Sandoval County), New Mexico": {
+    "state": "35",
+    "place": "38540",
+    "population": "729"
+  },
+  "Mountain View CDP (Cibola County), New Mexico": {
+    "state": "35",
+    "place": "50512",
+    "population": "56"
+  },
+  "Mountain View CDP (Luna County), New Mexico": {
+    "state": "35",
+    "place": "50515",
+    "population": "134"
+  },
+  "Placitas CDP (Doña Ana County), New Mexico": {
+    "state": "35",
+    "place": "57990",
+    "population": "488"
+  },
+  "Placitas CDP (Sandoval County), New Mexico": {
+    "state": "35",
+    "place": "58070",
+    "population": "5041"
+  },
+  "San Antonito CDP (Bernalillo County), New Mexico": {
+    "state": "35",
+    "place": "66330",
+    "population": "989"
+  },
+  "San Antonito CDP (Socorro County), New Mexico": {
+    "state": "35",
+    "place": "66400",
+    "population": "81"
+  },
+  "San Jose CDP (Rio Arriba County), New Mexico": {
+    "state": "35",
+    "place": "68430",
+    "population": "670"
+  },
+  "San Jose CDP (San Miguel County), New Mexico": {
+    "state": "35",
+    "place": "68500",
+    "population": "67"
+  },
+  "Torreon CDP (Sandoval County), New Mexico": {
+    "state": "35",
+    "place": "79070",
+    "population": "281"
+  },
+  "Torreon CDP (Torrance County), New Mexico": {
+    "state": "35",
+    "place": "79140",
+    "population": "167"
+  },
+  "Valencia CDP (Santa Fe County), New Mexico": {
+    "state": "35",
+    "place": "81775",
+    "population": "115"
+  },
+  "Valencia CDP (Valencia County), New Mexico": {
+    "state": "35",
+    "place": "81800",
+    "population": "2052"
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "Apache Junction, Arizona": {
+    "state": "04",
+    "place": "02830",
+    "population": "38499"
+  },
+  "Avondale, Arizona": {
+    "state": "04",
+    "place": "04720",
+    "population": "89334"
+  },
+  "Benson, Arizona": {
+    "state": "04",
+    "place": "05770",
+    "population": "5355"
+  },
+  "Bisbee, Arizona": {
+    "state": "04",
+    "place": "06260",
+    "population": "4923"
+  },
+  "Buckeye, Arizona": {
+    "state": "04",
+    "place": "07940",
+    "population": "91502"
+  },
+  "Bullhead City, Arizona": {
+    "state": "04",
+    "place": "08220",
+    "population": "41348"
+  },
+  "Casa Grande, Arizona": {
+    "state": "04",
+    "place": "10530",
+    "population": "53658"
+  },
+  "Chandler, Arizona": {
+    "state": "04",
+    "place": "12000",
+    "population": "275987"
+  },
+  "Coolidge, Arizona": {
+    "state": "04",
+    "place": "15500",
+    "population": "13218"
+  },
+  "Cottonwood, Arizona": {
+    "state": "04",
+    "place": "16410",
+    "population": "12029"
+  },
+  "Douglas, Arizona": {
+    "state": "04",
+    "place": "20050",
+    "population": "16534"
+  },
+  "El Mirage, Arizona": {
+    "state": "04",
+    "place": "22220",
+    "population": "35805"
+  },
+  "Eloy, Arizona": {
+    "state": "04",
+    "place": "22360",
+    "population": "15635"
+  },
+  "Flagstaff, Arizona": {
+    "state": "04",
+    "place": "23620",
+    "population": "76831"
+  },
+  "Glendale, Arizona": {
+    "state": "04",
+    "place": "27820",
+    "population": "248325"
+  },
+  "Goodyear, Arizona": {
+    "state": "04",
+    "place": "28380",
+    "population": "95294"
+  },
+  "Holbrook, Arizona": {
+    "state": "04",
+    "place": "33280",
+    "population": "4858"
+  },
+  "Globe, Arizona": {
+    "state": "04",
+    "place": "28030",
+    "population": "7249"
+  },
+  "Kingman, Arizona": {
+    "state": "04",
+    "place": "37620",
+    "population": "32689"
+  },
+  "Lake Havasu City, Arizona": {
+    "state": "04",
+    "place": "39370",
+    "population": "57144"
+  },
+  "Litchfield Park, Arizona": {
+    "state": "04",
+    "place": "41330",
+    "population": "6847"
+  },
+  "Maricopa, Arizona": {
+    "state": "04",
+    "place": "44410",
+    "population": "58125"
+  },
+  "Mesa, Arizona": {
+    "state": "04",
+    "place": "46000",
+    "population": "504258"
+  },
+  "Nogales, Arizona": {
+    "state": "04",
+    "place": "49640",
+    "population": "19770"
+  },
+  "Page, Arizona": {
+    "state": "04",
+    "place": "51810",
+    "population": "7440"
+  },
+  "Peoria, Arizona": {
+    "state": "04",
+    "place": "54050",
+    "population": "190985"
+  },
+  "Phoenix, Arizona": {
+    "state": "04",
+    "place": "55000",
+    "population": "1608139"
+  },
+  "Prescott, Arizona": {
+    "state": "04",
+    "place": "57380",
+    "population": "45827"
+  },
+  "Safford, Arizona": {
+    "state": "04",
+    "place": "62000",
+    "population": "10129"
+  },
+  "St. Johns, Arizona": {
+    "state": "04",
+    "place": "62350",
+    "population": "3417"
+  },
+  "San Luis, Arizona": {
+    "state": "04",
+    "place": "63470",
+    "population": "35257"
+  },
+  "Scottsdale, Arizona": {
+    "state": "04",
+    "place": "65000",
+    "population": "241361"
+  },
+  "Sedona, Arizona": {
+    "state": "04",
+    "place": "65350",
+    "population": "9684"
+  },
+  "Show Low, Arizona": {
+    "state": "04",
+    "place": "66470",
+    "population": "11732"
+  },
+  "Sierra Vista, Arizona": {
+    "state": "04",
+    "place": "66820",
+    "population": "45308"
+  },
+  "Somerton, Arizona": {
+    "state": "04",
+    "place": "68080",
+    "population": "14197"
+  },
+  "South Tucson, Arizona": {
+    "state": "04",
+    "place": "68850",
+    "population": "4613"
+  },
+  "Surprise, Arizona": {
+    "state": "04",
+    "place": "71510",
+    "population": "143148"
+  },
+  "Tempe, Arizona": {
+    "state": "04",
+    "place": "73000",
+    "population": "180587"
+  },
+  "Tolleson, Arizona": {
+    "state": "04",
+    "place": "74190",
+    "population": "7216"
+  },
+  "Tombstone, Arizona": {
+    "state": "04",
+    "place": "74400",
+    "population": "1308"
+  },
+  "Tucson, Arizona": {
+    "state": "04",
+    "place": "77000",
+    "population": "542629"
+  },
+  "Willcox, Arizona": {
+    "state": "04",
+    "place": "83090",
+    "population": "3213"
+  },
+  "Williams, Arizona": {
+    "state": "04",
+    "place": "83160",
+    "population": "3202"
+  },
+  "Winslow, Arizona": {
+    "state": "04",
+    "place": "83930",
+    "population": "9005"
+  },
+  "Yuma, Arizona": {
+    "state": "04",
+    "place": "85540",
+    "population": "95548"
+  }
+}

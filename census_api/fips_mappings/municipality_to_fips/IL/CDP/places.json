@@ -1,0 +1,842 @@
+{
+  "Como, Illinois": {
+    "state": "17",
+    "place": "15950",
+    "population": "528"
+  },
+  "Coral, Illinois": {
+    "state": "17",
+    "place": "16301",
+    "population": "16"
+  },
+  "Cornland, Illinois": {
+    "state": "17",
+    "place": "16431",
+    "population": "89"
+  },
+  "Coyne Center, Illinois": {
+    "state": "17",
+    "place": "17077",
+    "population": "877"
+  },
+  "Crab Orchard, Illinois": {
+    "state": "17",
+    "place": "17094",
+    "population": "356"
+  },
+  "Crystal Lawns, Illinois": {
+    "state": "17",
+    "place": "17939",
+    "population": "1830"
+  },
+  "Custer Park, Illinois": {
+    "state": "17",
+    "place": "18212",
+    "population": "112"
+  },
+  "Darmstadt, Illinois": {
+    "state": "17",
+    "place": "18641",
+    "population": "49"
+  },
+  "Scott AFB, Illinois": {
+    "state": "17",
+    "place": "68328",
+    "population": "3688"
+  },
+  "Serena, Illinois": {
+    "state": "17",
+    "place": "68679",
+    "population": "129"
+  },
+  "Seymour, Illinois": {
+    "state": "17",
+    "place": "68809",
+    "population": "317"
+  },
+  "Shirley, Illinois": {
+    "state": "17",
+    "place": "69628",
+    "population": "135"
+  },
+  "Dayton, Illinois": {
+    "state": "17",
+    "place": "18771",
+    "population": "528"
+  },
+  "Dewey, Illinois": {
+    "state": "17",
+    "place": "19746",
+    "population": "105"
+  },
+  "Dundas, Illinois": {
+    "state": "17",
+    "place": "21020",
+    "population": "146"
+  },
+  "Eagle Lake, Illinois": {
+    "state": "17",
+    "place": "21475",
+    "population": "76"
+  },
+  "East Lynn, Illinois": {
+    "state": "17",
+    "place": "22021",
+    "population": "90"
+  },
+  "Smithville, Illinois": {
+    "state": "17",
+    "place": "70278",
+    "population": "157"
+  },
+  "Solon Mills, Illinois": {
+    "state": "17",
+    "place": "70356",
+    "population": "133"
+  },
+  "Edgington, Illinois": {
+    "state": "17",
+    "place": "22619",
+    "population": "391"
+  },
+  "Eliza, Illinois": {
+    "state": "17",
+    "place": "23139",
+    "population": "25"
+  },
+  "Elwin, Illinois": {
+    "state": "17",
+    "place": "23919",
+    "population": "119"
+  },
+  "Fairmont, Illinois": {
+    "state": "17",
+    "place": "24920",
+    "population": "2389"
+  },
+  "Fall Creek, Illinois": {
+    "state": "17",
+    "place": "25245",
+    "population": "31"
+  },
+  "Sunnyland, Illinois": {
+    "state": "17",
+    "place": "73872",
+    "population": "822"
+  },
+  "Swedona, Illinois": {
+    "state": "17",
+    "place": "74145",
+    "population": "109"
+  },
+  "Taylor Ridge, Illinois": {
+    "state": "17",
+    "place": "74548",
+    "population": "141"
+  },
+  "The Galena Territory, Illinois": {
+    "state": "17",
+    "place": "74970",
+    "population": "1500"
+  },
+  "Trilla, Illinois": {
+    "state": "17",
+    "place": "76017",
+    "population": "156"
+  },
+  "Triumph, Illinois": {
+    "state": "17",
+    "place": "76082",
+    "population": "100"
+  },
+  "Trivoli, Illinois": {
+    "state": "17",
+    "place": "76108",
+    "population": "385"
+  },
+  "Twin Grove, Illinois": {
+    "state": "17",
+    "place": "76511",
+    "population": "1524"
+  },
+  "Floraville, Illinois": {
+    "state": "17",
+    "place": "26467",
+    "population": "49"
+  },
+  "Forest Lake, Illinois": {
+    "state": "17",
+    "place": "26896",
+    "population": "1784"
+  },
+  "Fowler, Illinois": {
+    "state": "17",
+    "place": "27377",
+    "population": "154"
+  },
+  "Fox Lake Hills, Illinois": {
+    "state": "17",
+    "place": "27455",
+    "population": "2684"
+  },
+  "Frankfort Square, Illinois": {
+    "state": "17",
+    "place": "27644",
+    "population": "8968"
+  },
+  "Franklinville, Illinois": {
+    "state": "17",
+    "place": "27728",
+    "population": "38"
+  },
+  "Gages Lake, Illinois": {
+    "state": "17",
+    "place": "28248",
+    "population": "10637"
+  },
+  "Galt, Illinois": {
+    "state": "17",
+    "place": "28404",
+    "population": "193"
+  },
+  "Garden Prairie, Illinois": {
+    "state": "17",
+    "place": "28612",
+    "population": "300"
+  },
+  "Georgetown, Illinois": {
+    "state": "17",
+    "place": "28950",
+    "population": "368"
+  },
+  "Venetian Village, Illinois": {
+    "state": "17",
+    "place": "77460",
+    "population": "2761"
+  },
+  "Unity, Illinois": {
+    "state": "17",
+    "place": "76875",
+    "population": "98"
+  },
+  "Wedron, Illinois": {
+    "state": "17",
+    "place": "79618",
+    "population": "140"
+  },
+  "Gilson, Illinois": {
+    "state": "17",
+    "place": "29340",
+    "population": "156"
+  },
+  "Goodenow, Illinois": {
+    "state": "17",
+    "place": "30419",
+    "population": "60"
+  },
+  "Goofy Ridge, Illinois": {
+    "state": "17",
+    "place": "30510",
+    "population": "210"
+  },
+  "Grand Detour, Illinois": {
+    "state": "17",
+    "place": "30705",
+    "population": "424"
+  },
+  "Grandwood Park, Illinois": {
+    "state": "17",
+    "place": "30900",
+    "population": "5297"
+  },
+  "Hamlet, Illinois": {
+    "state": "17",
+    "place": "32473",
+    "population": "21"
+  },
+  "Westervelt, Illinois": {
+    "state": "17",
+    "place": "80255",
+    "population": "131"
+  },
+  "Westlake Village, Illinois": {
+    "state": "17",
+    "place": "80570",
+    "population": "1493"
+  },
+  "West Liberty, Illinois": {
+    "state": "17",
+    "place": "80580",
+    "population": "96"
+  },
+  "West Union, Illinois": {
+    "state": "17",
+    "place": "80879",
+    "population": "271"
+  },
+  "West York, Illinois": {
+    "state": "17",
+    "place": "80957",
+    "population": "74"
+  },
+  "Whiteash, Illinois": {
+    "state": "17",
+    "place": "81165",
+    "population": "279"
+  },
+  "White Heath, Illinois": {
+    "state": "17",
+    "place": "81295",
+    "population": "251"
+  },
+  "Willowbrook, Illinois": {
+    "state": "17",
+    "place": "81938",
+    "population": "1346"
+  },
+  "Willow Lake, Illinois": {
+    "state": "17",
+    "place": "82029",
+    "population": "1026"
+  },
+  "Wilton Center, Illinois": {
+    "state": "17",
+    "place": "82257",
+    "population": "122"
+  },
+  "Harding, Illinois": {
+    "state": "17",
+    "place": "32876",
+    "population": "133"
+  },
+  "Harmony, Illinois": {
+    "state": "17",
+    "place": "33019",
+    "population": "20"
+  },
+  "Harrison, Illinois": {
+    "state": "17",
+    "place": "33162",
+    "population": "895"
+  },
+  "Hartland, Illinois": {
+    "state": "17",
+    "place": "33292",
+    "population": "157"
+  },
+  "Heritage Lake, Illinois": {
+    "state": "17",
+    "place": "34272",
+    "population": "1523"
+  },
+  "Holcomb, Illinois": {
+    "state": "17",
+    "place": "35463",
+    "population": "149"
+  },
+  "Holiday Shores, Illinois": {
+    "state": "17",
+    "place": "35541",
+    "population": "2840"
+  },
+  "Illinois City, Illinois": {
+    "state": "17",
+    "place": "37062",
+    "population": "159"
+  },
+  "Ingalls Park, Illinois": {
+    "state": "17",
+    "place": "37465",
+    "population": "3460"
+  },
+  "Janesville, Illinois": {
+    "state": "17",
+    "place": "38232",
+    "population": "76"
+  },
+  "Joslin, Illinois": {
+    "state": "17",
+    "place": "38726",
+    "population": "85"
+  },
+  "Kings, Illinois": {
+    "state": "17",
+    "place": "39987",
+    "population": "146"
+  },
+  "Kingston, Illinois": {
+    "state": "17",
+    "place": "40052",
+    "population": "20"
+  },
+  "Knollwood, Illinois": {
+    "state": "17",
+    "place": "40364",
+    "population": "2121"
+  },
+  "La Clede, Illinois": {
+    "state": "17",
+    "place": "40520",
+    "population": "113"
+  },
+  "Lake Camelot, Illinois": {
+    "state": "17",
+    "place": "40962",
+    "population": "1798"
+  },
+  "Lake Carroll, Illinois": {
+    "state": "17",
+    "place": "40980",
+    "population": "852"
+  },
+  "Lake Catherine, Illinois": {
+    "state": "17",
+    "place": "40988",
+    "population": "1279"
+  },
+  "Lake City, Illinois": {
+    "state": "17",
+    "place": "41040",
+    "population": "69"
+  },
+  "Lake Holiday, Illinois": {
+    "state": "17",
+    "place": "41157",
+    "population": "5687"
+  },
+  "Lake of the Woods, Illinois": {
+    "state": "17",
+    "place": "41346",
+    "population": "2403"
+  },
+  "Lake Petersburg, Illinois": {
+    "state": "17",
+    "place": "41404",
+    "population": "740"
+  },
+  "Lake Summerset, Illinois": {
+    "state": "17",
+    "place": "41456",
+    "population": "2342"
+  },
+  "Lakewood, Illinois": {
+    "state": "17",
+    "place": "41677",
+    "population": "91"
+  },
+  "Lakewood Shores, Illinois": {
+    "state": "17",
+    "place": "41716",
+    "population": "665"
+  },
+  "Lane, Illinois": {
+    "state": "17",
+    "place": "41950",
+    "population": "95"
+  },
+  "Langleyville, Illinois": {
+    "state": "17",
+    "place": "42002",
+    "population": "391"
+  },
+  "LaPlace, Illinois": {
+    "state": "17",
+    "place": "42067",
+    "population": "239"
+  },
+  "Lawrence, Illinois": {
+    "state": "17",
+    "place": "42392",
+    "population": "220"
+  },
+  "Lee Center, Illinois": {
+    "state": "17",
+    "place": "42600",
+    "population": "146"
+  },
+  "Literberry, Illinois": {
+    "state": "17",
+    "place": "43978",
+    "population": "71"
+  },
+  "Lockport Heights, Illinois": {
+    "state": "17",
+    "place": "44244",
+    "population": "749"
+  },
+  "Long Lake, Illinois": {
+    "state": "17",
+    "place": "44550",
+    "population": "3663"
+  },
+  "Lorenzo, Illinois": {
+    "state": "17",
+    "place": "44784",
+    "population": "26"
+  },
+  "Lost Nation, Illinois": {
+    "state": "17",
+    "place": "44836",
+    "population": "714"
+  },
+  "Lowpoint, Illinois": {
+    "state": "17",
+    "place": "45109",
+    "population": "148"
+  },
+  "Lynn Center, Illinois": {
+    "state": "17",
+    "place": "45343",
+    "population": "85"
+  },
+  "Marcelline, Illinois": {
+    "state": "17",
+    "place": "46734",
+    "population": "75"
+  },
+  "Marley, Illinois": {
+    "state": "17",
+    "place": "47046",
+    "population": "128"
+  },
+  "Merritt, Illinois": {
+    "state": "17",
+    "place": "48567",
+    "population": "48"
+  },
+  "Meyer, Illinois": {
+    "state": "17",
+    "place": "48684",
+    "population": "18"
+  },
+  "Millersburg, Illinois": {
+    "state": "17",
+    "place": "49243",
+    "population": "54"
+  },
+  "Mitchell, Illinois": {
+    "state": "17",
+    "place": "49698",
+    "population": "1217"
+  },
+  "Moro, Illinois": {
+    "state": "17",
+    "place": "50452",
+    "population": "397"
+  },
+  "Adair, Illinois": {
+    "state": "17",
+    "place": "00178",
+    "population": "212"
+  },
+  "Adams, Illinois": {
+    "state": "17",
+    "place": "00191",
+    "population": "75"
+  },
+  "Alden, Illinois": {
+    "state": "17",
+    "place": "00594",
+    "population": "113"
+  },
+  "Alexander, Illinois": {
+    "state": "17",
+    "place": "00659",
+    "population": "155"
+  },
+  "Andres, Illinois": {
+    "state": "17",
+    "place": "01517",
+    "population": "43"
+  },
+  "Annapolis, Illinois": {
+    "state": "17",
+    "place": "01556",
+    "population": "106"
+  },
+  "Apple Canyon Lake, Illinois": {
+    "state": "17",
+    "place": "01647",
+    "population": "574"
+  },
+  "Arbury Hills, Illinois": {
+    "state": "17",
+    "place": "01803",
+    "population": "1132"
+  },
+  "Argyle, Illinois": {
+    "state": "17",
+    "place": "02050",
+    "population": "332"
+  },
+  "Mulkeytown, Illinois": {
+    "state": "17",
+    "place": "51310",
+    "population": "162"
+  },
+  "Nachusa, Illinois": {
+    "state": "17",
+    "place": "51544",
+    "population": "137"
+  },
+  "Nekoma, Illinois": {
+    "state": "17",
+    "place": "51934",
+    "population": "23"
+  },
+  "Mossville, Illinois": {
+    "state": "17",
+    "place": "50699",
+    "population": "268"
+  },
+  "Baileyville, Illinois": {
+    "state": "17",
+    "place": "03337",
+    "population": "187"
+  },
+  "Barstow, Illinois": {
+    "state": "17",
+    "place": "03987",
+    "population": "89"
+  },
+  "Beason, Illinois": {
+    "state": "17",
+    "place": "04403",
+    "population": "147"
+  },
+  "Niota, Illinois": {
+    "state": "17",
+    "place": "53078",
+    "population": "114"
+  },
+  "Oak Run, Illinois": {
+    "state": "17",
+    "place": "54924",
+    "population": "721"
+  },
+  "Olive Branch, Illinois": {
+    "state": "17",
+    "place": "55847",
+    "population": "650"
+  },
+  "Olivet, Illinois": {
+    "state": "17",
+    "place": "55886",
+    "population": "336"
+  },
+  "Opdyke, Illinois": {
+    "state": "17",
+    "place": "56198",
+    "population": "236"
+  },
+  "Ophiem, Illinois": {
+    "state": "17",
+    "place": "56211",
+    "population": "123"
+  },
+  "Beverly, Illinois": {
+    "state": "17",
+    "place": "05729",
+    "population": "72"
+  },
+  "Big Foot Prairie, Illinois": {
+    "state": "17",
+    "place": "05859",
+    "population": "65"
+  },
+  "Blairsville, Illinois": {
+    "state": "17",
+    "place": "06444",
+    "population": "243"
+  },
+  "Bloomfield, Illinois": {
+    "state": "17",
+    "place": "06565",
+    "population": "32"
+  },
+  "Bonnie Brae, Illinois": {
+    "state": "17",
+    "place": "07276",
+    "population": "1287"
+  },
+  "Boody, Illinois": {
+    "state": "17",
+    "place": "07315",
+    "population": "232"
+  },
+  "Boulder Hill, Illinois": {
+    "state": "17",
+    "place": "07419",
+    "population": "8394"
+  },
+  "Osco, Illinois": {
+    "state": "17",
+    "place": "56796",
+    "population": "108"
+  },
+  "Oxville, Illinois": {
+    "state": "17",
+    "place": "57121",
+    "population": "24"
+  },
+  "Paderborn, Illinois": {
+    "state": "17",
+    "place": "57160",
+    "population": "35"
+  },
+  "Paloma, Illinois": {
+    "state": "17",
+    "place": "57342",
+    "population": "114"
+  },
+  "Penfield, Illinois": {
+    "state": "17",
+    "place": "58577",
+    "population": "151"
+  },
+  "Buffalo Prairie, Illinois": {
+    "state": "17",
+    "place": "09499",
+    "population": "64"
+  },
+  "Burton, Illinois": {
+    "state": "17",
+    "place": "10006",
+    "population": "103"
+  },
+  "Burtons Bridge, Illinois": {
+    "state": "17",
+    "place": "10045",
+    "population": "226"
+  },
+  "Cable, Illinois": {
+    "state": "17",
+    "place": "10305",
+    "population": "117"
+  },
+  "Cameron, Illinois": {
+    "state": "17",
+    "place": "10747",
+    "population": "188"
+  },
+  "Campbell's Island, Illinois": {
+    "state": "17",
+    "place": "10786",
+    "population": "275"
+  },
+  "Candlewick Lake, Illinois": {
+    "state": "17",
+    "place": "10936",
+    "population": "5115"
+  },
+  "Plum Valley, Illinois": {
+    "state": "17",
+    "place": "60826",
+    "population": "632"
+  },
+  "Prairietown, Illinois": {
+    "state": "17",
+    "place": "61743",
+    "population": "153"
+  },
+  "Preemption, Illinois": {
+    "state": "17",
+    "place": "61782",
+    "population": "254"
+  },
+  "Prestbury, Illinois": {
+    "state": "17",
+    "place": "61821",
+    "population": "1657"
+  },
+  "Preston Heights, Illinois": {
+    "state": "17",
+    "place": "61860",
+    "population": "2898"
+  },
+  "Pistakee Highlands, Illinois": {
+    "state": "17",
+    "place": "60144",
+    "population": "3237"
+  },
+  "Rentchler, Illinois": {
+    "state": "17",
+    "place": "63355",
+    "population": "45"
+  },
+  "Rest Haven, Illinois": {
+    "state": "17",
+    "place": "63382",
+    "population": "502"
+  },
+  "Richfield, Illinois": {
+    "state": "17",
+    "place": "63537",
+    "population": "26"
+  },
+  "Ridgefield, Illinois": {
+    "state": "17",
+    "place": "63875",
+    "population": "210"
+  },
+  "Ridgewood, Illinois": {
+    "state": "17",
+    "place": "64005",
+    "population": "2956"
+  },
+  "Carman, Illinois": {
+    "state": "17",
+    "place": "11267",
+    "population": "67"
+  },
+  "Channel Lake, Illinois": {
+    "state": "17",
+    "place": "12489",
+    "population": "1581"
+  },
+  "Chemung, Illinois": {
+    "state": "17",
+    "place": "12879",
+    "population": "276"
+  },
+  "Chestnut, Illinois": {
+    "state": "17",
+    "place": "13230",
+    "population": "220"
+  },
+  "Riggston, Illinois": {
+    "state": "17",
+    "place": "64083",
+    "population": "14"
+  },
+  "Riley, Illinois": {
+    "state": "17",
+    "place": "64094",
+    "population": "10"
+  },
+  "Ritchie, Illinois": {
+    "state": "17",
+    "place": "64239",
+    "population": "190"
+  },
+  "Rock Island Arsenal, Illinois": {
+    "state": "17",
+    "place": "65104",
+    "population": "182"
+  },
+  "Rockport, Illinois": {
+    "state": "17",
+    "place": "65130",
+    "population": "67"
+  },
+  "Rome, Illinois": {
+    "state": "17",
+    "place": "65403",
+    "population": "1604"
+  },
+  "Rosewood Heights, Illinois": {
+    "state": "17",
+    "place": "65884",
+    "population": "3971"
+  }
+}

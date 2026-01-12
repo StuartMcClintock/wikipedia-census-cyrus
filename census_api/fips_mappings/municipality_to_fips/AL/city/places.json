@@ -1,0 +1,862 @@
+{
+  "Luverne, Alabama": {
+    "state": "01",
+    "place": "44728",
+    "population": "2765"
+  },
+  "Madison, Alabama": {
+    "state": "01",
+    "place": "45784",
+    "population": "56933"
+  },
+  "Marion, Alabama": {
+    "state": "01",
+    "place": "46768",
+    "population": "3176"
+  },
+  "Midfield, Alabama": {
+    "state": "01",
+    "place": "48376",
+    "population": "5211"
+  },
+  "Millbrook, Alabama": {
+    "state": "01",
+    "place": "48712",
+    "population": "16564"
+  },
+  "Mobile, Alabama": {
+    "state": "01",
+    "place": "50000",
+    "population": "187041"
+  },
+  "Monroeville, Alabama": {
+    "state": "01",
+    "place": "50192",
+    "population": "5951"
+  },
+  "Montevallo, Alabama": {
+    "state": "01",
+    "place": "50312",
+    "population": "7229"
+  },
+  "Montgomery, Alabama": {
+    "state": "01",
+    "place": "51000",
+    "population": "200603"
+  },
+  "Moody, Alabama": {
+    "state": "01",
+    "place": "51096",
+    "population": "13170"
+  },
+  "Moulton, Alabama": {
+    "state": "01",
+    "place": "51600",
+    "population": "3398"
+  },
+  "Mountain Brook, Alabama": {
+    "state": "01",
+    "place": "51696",
+    "population": "22461"
+  },
+  "Muscle Shoals, Alabama": {
+    "state": "01",
+    "place": "53016",
+    "population": "16275"
+  },
+  "New Hope, Alabama": {
+    "state": "01",
+    "place": "54168",
+    "population": "2889"
+  },
+  "Northport, Alabama": {
+    "state": "01",
+    "place": "55200",
+    "population": "31125"
+  },
+  "Odenville, Alabama": {
+    "state": "01",
+    "place": "56400",
+    "population": "4969"
+  },
+  "Oneonta, Alabama": {
+    "state": "01",
+    "place": "57000",
+    "population": "6938"
+  },
+  "Opelika, Alabama": {
+    "state": "01",
+    "place": "57048",
+    "population": "30995"
+  },
+  "Opp, Alabama": {
+    "state": "01",
+    "place": "57120",
+    "population": "6771"
+  },
+  "Orange Beach, Alabama": {
+    "state": "01",
+    "place": "57144",
+    "population": "8095"
+  },
+  "Oxford, Alabama": {
+    "state": "01",
+    "place": "57576",
+    "population": "22069"
+  },
+  "Ozark, Alabama": {
+    "state": "01",
+    "place": "57648",
+    "population": "14368"
+  },
+  "Pelham, Alabama": {
+    "state": "01",
+    "place": "58848",
+    "population": "24318"
+  },
+  "Pell City, Alabama": {
+    "state": "01",
+    "place": "58896",
+    "population": "12939"
+  },
+  "Phenix City, Alabama": {
+    "state": "01",
+    "place": "59472",
+    "population": "38816"
+  },
+  "Piedmont, Alabama": {
+    "state": "01",
+    "place": "59640",
+    "population": "4787"
+  },
+  "Pinson, Alabama": {
+    "state": "01",
+    "place": "60648",
+    "population": "7215"
+  },
+  "Pleasant Grove, Alabama": {
+    "state": "01",
+    "place": "61008",
+    "population": "9544"
+  },
+  "Prattville, Alabama": {
+    "state": "01",
+    "place": "62328",
+    "population": "37781"
+  },
+  "Prichard, Alabama": {
+    "state": "01",
+    "place": "62496",
+    "population": "19322"
+  },
+  "Rainbow City, Alabama": {
+    "state": "01",
+    "place": "63288",
+    "population": "10191"
+  },
+  "Rainsville, Alabama": {
+    "state": "01",
+    "place": "63336",
+    "population": "5505"
+  },
+  "Red Bay, Alabama": {
+    "state": "01",
+    "place": "63576",
+    "population": "3232"
+  },
+  "Riverside, Alabama": {
+    "state": "01",
+    "place": "64920",
+    "population": "2227"
+  },
+  "Roanoke, Alabama": {
+    "state": "01",
+    "place": "65040",
+    "population": "5311"
+  },
+  "Robertsdale, Alabama": {
+    "state": "01",
+    "place": "65208",
+    "population": "6708"
+  },
+  "Russellville, Alabama": {
+    "state": "01",
+    "place": "67056",
+    "population": "10855"
+  },
+  "Samson, Alabama": {
+    "state": "01",
+    "place": "67800",
+    "population": "1874"
+  },
+  "Saraland, Alabama": {
+    "state": "01",
+    "place": "68160",
+    "population": "16171"
+  },
+  "Satsuma, Alabama": {
+    "state": "01",
+    "place": "68352",
+    "population": "6749"
+  },
+  "Scottsboro, Alabama": {
+    "state": "01",
+    "place": "68736",
+    "population": "15578"
+  },
+  "Selma, Alabama": {
+    "state": "01",
+    "place": "69120",
+    "population": "17971"
+  },
+  "Semmes, Alabama": {
+    "state": "01",
+    "place": "69240",
+    "population": "4941"
+  },
+  "Sheffield, Alabama": {
+    "state": "01",
+    "place": "69648",
+    "population": "9403"
+  },
+  "Slocomb, Alabama": {
+    "state": "01",
+    "place": "71040",
+    "population": "2082"
+  },
+  "Smiths Station, Alabama": {
+    "state": "01",
+    "place": "71190",
+    "population": "5384"
+  },
+  "Southside, Alabama": {
+    "state": "01",
+    "place": "71832",
+    "population": "9426"
+  },
+  "Spanish Fort, Alabama": {
+    "state": "01",
+    "place": "71976",
+    "population": "10049"
+  },
+  "Springville, Alabama": {
+    "state": "01",
+    "place": "72600",
+    "population": "4786"
+  },
+  "Stevenson, Alabama": {
+    "state": "01",
+    "place": "73080",
+    "population": "1955"
+  },
+  "Sulligent, Alabama": {
+    "state": "01",
+    "place": "73728",
+    "population": "1879"
+  },
+  "Sumiton, Alabama": {
+    "state": "01",
+    "place": "73848",
+    "population": "2444"
+  },
+  "Sylacauga, Alabama": {
+    "state": "01",
+    "place": "74352",
+    "population": "12578"
+  },
+  "Talladega, Alabama": {
+    "state": "01",
+    "place": "74592",
+    "population": "15861"
+  },
+  "Tallassee, Alabama": {
+    "state": "01",
+    "place": "74688",
+    "population": "4763"
+  },
+  "Tarrant, Alabama": {
+    "state": "01",
+    "place": "74976",
+    "population": "6124"
+  },
+  "Thomasville, Alabama": {
+    "state": "01",
+    "place": "75960",
+    "population": "3649"
+  },
+  "Troy, Alabama": {
+    "state": "01",
+    "place": "76920",
+    "population": "17727"
+  },
+  "Trussville, Alabama": {
+    "state": "01",
+    "place": "76944",
+    "population": "26123"
+  },
+  "Tuscaloosa, Alabama": {
+    "state": "01",
+    "place": "77256",
+    "population": "99600"
+  },
+  "Tuscumbia, Alabama": {
+    "state": "01",
+    "place": "77280",
+    "population": "9054"
+  },
+  "Tuskegee, Alabama": {
+    "state": "01",
+    "place": "77304",
+    "population": "9395"
+  },
+  "Union Springs, Alabama": {
+    "state": "01",
+    "place": "77880",
+    "population": "3358"
+  },
+  "Valley, Alabama": {
+    "state": "01",
+    "place": "78204",
+    "population": "10529"
+  },
+  "Valley Grande, Alabama": {
+    "state": "01",
+    "place": "78232",
+    "population": "4190"
+  },
+  "Vernon, Alabama": {
+    "state": "01",
+    "place": "78480",
+    "population": "1921"
+  },
+  "Vestavia Hills, Alabama": {
+    "state": "01",
+    "place": "78552",
+    "population": "39102"
+  },
+  "Warrior, Alabama": {
+    "state": "01",
+    "place": "79944",
+    "population": "3224"
+  },
+  "Weaver, Alabama": {
+    "state": "01",
+    "place": "80352",
+    "population": "3339"
+  },
+  "Wetumpka, Alabama": {
+    "state": "01",
+    "place": "81720",
+    "population": "7220"
+  },
+  "Winfield, Alabama": {
+    "state": "01",
+    "place": "82992",
+    "population": "4845"
+  },
+  "York, Alabama": {
+    "state": "01",
+    "place": "84096",
+    "population": "2414"
+  },
+  "Abbeville, Alabama": {
+    "state": "01",
+    "place": "00124",
+    "population": "2358"
+  },
+  "Adamsville, Alabama": {
+    "state": "01",
+    "place": "00460",
+    "population": "4366"
+  },
+  "Alabaster, Alabama": {
+    "state": "01",
+    "place": "00820",
+    "population": "33284"
+  },
+  "Albertville, Alabama": {
+    "state": "01",
+    "place": "00988",
+    "population": "22386"
+  },
+  "Alexander City, Alabama": {
+    "state": "01",
+    "place": "01132",
+    "population": "14843"
+  },
+  "Aliceville, Alabama": {
+    "state": "01",
+    "place": "01228",
+    "population": "2177"
+  },
+  "Andalusia, Alabama": {
+    "state": "01",
+    "place": "01708",
+    "population": "8805"
+  },
+  "Anniston, Alabama": {
+    "state": "01",
+    "place": "01852",
+    "population": "21564"
+  },
+  "Arab, Alabama": {
+    "state": "01",
+    "place": "02116",
+    "population": "8461"
+  },
+  "Ashville, Alabama": {
+    "state": "01",
+    "place": "02908",
+    "population": "2346"
+  },
+  "Athens, Alabama": {
+    "state": "01",
+    "place": "02956",
+    "population": "25406"
+  },
+  "Atmore, Alabama": {
+    "state": "01",
+    "place": "03004",
+    "population": "8391"
+  },
+  "Attalla, Alabama": {
+    "state": "01",
+    "place": "03028",
+    "population": "5827"
+  },
+  "Auburn, Alabama": {
+    "state": "01",
+    "place": "03076",
+    "population": "76143"
+  },
+  "Bay Minette, Alabama": {
+    "state": "01",
+    "place": "04660",
+    "population": "8107"
+  },
+  "Bayou La Batre, Alabama": {
+    "state": "01",
+    "place": "04684",
+    "population": "2204"
+  },
+  "Bessemer, Alabama": {
+    "state": "01",
+    "place": "05980",
+    "population": "26019"
+  },
+  "Birmingham, Alabama": {
+    "state": "01",
+    "place": "07000",
+    "population": "200733"
+  },
+  "Boaz, Alabama": {
+    "state": "01",
+    "place": "07912",
+    "population": "10107"
+  },
+  "Brent, Alabama": {
+    "state": "01",
+    "place": "09136",
+    "population": "2972"
+  },
+  "Brewton, Alabama": {
+    "state": "01",
+    "place": "09208",
+    "population": "5276"
+  },
+  "Bridgeport, Alabama": {
+    "state": "01",
+    "place": "09328",
+    "population": "2264"
+  },
+  "Brighton, Alabama": {
+    "state": "01",
+    "place": "09400",
+    "population": "2337"
+  },
+  "Brundidge, Alabama": {
+    "state": "01",
+    "place": "10240",
+    "population": "2073"
+  },
+  "Calera, Alabama": {
+    "state": "01",
+    "place": "11416",
+    "population": "16494"
+  },
+  "Camden, Alabama": {
+    "state": "01",
+    "place": "11512",
+    "population": "1927"
+  },
+  "Carbon Hill, Alabama": {
+    "state": "01",
+    "place": "12016",
+    "population": "1769"
+  },
+  "Center Point, Alabama": {
+    "state": "01",
+    "place": "13264",
+    "population": "16406"
+  },
+  "Centre, Alabama": {
+    "state": "01",
+    "place": "13648",
+    "population": "3587"
+  },
+  "Centreville, Alabama": {
+    "state": "01",
+    "place": "13672",
+    "population": "2800"
+  },
+  "Chelsea, Alabama": {
+    "state": "01",
+    "place": "14104",
+    "population": "14982"
+  },
+  "Chickasaw, Alabama": {
+    "state": "01",
+    "place": "14392",
+    "population": "6457"
+  },
+  "Childersburg, Alabama": {
+    "state": "01",
+    "place": "14464",
+    "population": "4754"
+  },
+  "Citronelle, Alabama": {
+    "state": "01",
+    "place": "15064",
+    "population": "3946"
+  },
+  "Clanton, Alabama": {
+    "state": "01",
+    "place": "15136",
+    "population": "8768"
+  },
+  "Clay, Alabama": {
+    "state": "01",
+    "place": "15256",
+    "population": "10291"
+  },
+  "Clio, Alabama": {
+    "state": "01",
+    "place": "15640",
+    "population": "1220"
+  },
+  "Columbiana, Alabama": {
+    "state": "01",
+    "place": "16768",
+    "population": "4462"
+  },
+  "Cordova, Alabama": {
+    "state": "01",
+    "place": "17368",
+    "population": "1728"
+  },
+  "Creola, Alabama": {
+    "state": "01",
+    "place": "18304",
+    "population": "1936"
+  },
+  "Cullman, Alabama": {
+    "state": "01",
+    "place": "18976",
+    "population": "18213"
+  },
+  "Dadeville, Alabama": {
+    "state": "01",
+    "place": "19336",
+    "population": "3084"
+  },
+  "Daleville, Alabama": {
+    "state": "01",
+    "place": "19360",
+    "population": "4866"
+  },
+  "Daphne, Alabama": {
+    "state": "01",
+    "place": "19648",
+    "population": "27462"
+  },
+  "Decatur, Alabama": {
+    "state": "01",
+    "place": "20104",
+    "population": "57938"
+  },
+  "Demopolis, Alabama": {
+    "state": "01",
+    "place": "20296",
+    "population": "7162"
+  },
+  "Dora, Alabama": {
+    "state": "01",
+    "place": "21136",
+    "population": "2297"
+  },
+  "Dothan, Alabama": {
+    "state": "01",
+    "place": "21184",
+    "population": "71072"
+  },
+  "East Brewton, Alabama": {
+    "state": "01",
+    "place": "22216",
+    "population": "2293"
+  },
+  "Elba, Alabama": {
+    "state": "01",
+    "place": "23296",
+    "population": "3508"
+  },
+  "Enterprise, Alabama": {
+    "state": "01",
+    "place": "24184",
+    "population": "28711"
+  },
+  "Eufaula, Alabama": {
+    "state": "01",
+    "place": "24568",
+    "population": "12882"
+  },
+  "Evergreen, Alabama": {
+    "state": "01",
+    "place": "24808",
+    "population": "3520"
+  },
+  "Fairfield, Alabama": {
+    "state": "01",
+    "place": "25120",
+    "population": "10000"
+  },
+  "Fairhope, Alabama": {
+    "state": "01",
+    "place": "25240",
+    "population": "22477"
+  },
+  "Fayette, Alabama": {
+    "state": "01",
+    "place": "25840",
+    "population": "4285"
+  },
+  "Florence, Alabama": {
+    "state": "01",
+    "place": "26896",
+    "population": "40184"
+  },
+  "Foley, Alabama": {
+    "state": "01",
+    "place": "26992",
+    "population": "20335"
+  },
+  "Fort Payne, Alabama": {
+    "state": "01",
+    "place": "27616",
+    "population": "14877"
+  },
+  "Fultondale, Alabama": {
+    "state": "01",
+    "place": "28552",
+    "population": "9876"
+  },
+  "Gadsden, Alabama": {
+    "state": "01",
+    "place": "28696",
+    "population": "33945"
+  },
+  "Gardendale, Alabama": {
+    "state": "01",
+    "place": "29056",
+    "population": "16044"
+  },
+  "Geneva, Alabama": {
+    "state": "01",
+    "place": "29464",
+    "population": "4245"
+  },
+  "Glencoe, Alabama": {
+    "state": "01",
+    "place": "29992",
+    "population": "5372"
+  },
+  "Good Hope, Alabama": {
+    "state": "01",
+    "place": "30496",
+    "population": "2483"
+  },
+  "Graysville, Alabama": {
+    "state": "01",
+    "place": "31384",
+    "population": "1950"
+  },
+  "Greensboro, Alabama": {
+    "state": "01",
+    "place": "31720",
+    "population": "2218"
+  },
+  "Greenville, Alabama": {
+    "state": "01",
+    "place": "31912",
+    "population": "7374"
+  },
+  "Guin, Alabama": {
+    "state": "01",
+    "place": "32224",
+    "population": "2195"
+  },
+  "Gulf Shores, Alabama": {
+    "state": "01",
+    "place": "32272",
+    "population": "15014"
+  },
+  "Guntersville, Alabama": {
+    "state": "01",
+    "place": "32416",
+    "population": "8553"
+  },
+  "Haleyville, Alabama": {
+    "state": "01",
+    "place": "32704",
+    "population": "4361"
+  },
+  "Hamilton, Alabama": {
+    "state": "01",
+    "place": "32848",
+    "population": "7042"
+  },
+  "Hanceville, Alabama": {
+    "state": "01",
+    "place": "32968",
+    "population": "3217"
+  },
+  "Hartford, Alabama": {
+    "state": "01",
+    "place": "33424",
+    "population": "2651"
+  },
+  "Hartselle, Alabama": {
+    "state": "01",
+    "place": "33448",
+    "population": "15455"
+  },
+  "Headland, Alabama": {
+    "state": "01",
+    "place": "33856",
+    "population": "4973"
+  },
+  "Heflin, Alabama": {
+    "state": "01",
+    "place": "33976",
+    "population": "3431"
+  },
+  "Helena, Alabama": {
+    "state": "01",
+    "place": "34024",
+    "population": "20914"
+  },
+  "Henagar, Alabama": {
+    "state": "01",
+    "place": "34096",
+    "population": "2292"
+  },
+  "Hokes Bluff, Alabama": {
+    "state": "01",
+    "place": "35392",
+    "population": "4446"
+  },
+  "Homewood, Alabama": {
+    "state": "01",
+    "place": "35800",
+    "population": "26414"
+  },
+  "Hoover, Alabama": {
+    "state": "01",
+    "place": "35896",
+    "population": "92606"
+  },
+  "Hueytown, Alabama": {
+    "state": "01",
+    "place": "36448",
+    "population": "16776"
+  },
+  "Huntsville, Alabama": {
+    "state": "01",
+    "place": "37000",
+    "population": "215006"
+  },
+  "Indian Springs Village, Alabama": {
+    "state": "01",
+    "place": "37465",
+    "population": "2481"
+  },
+  "Irondale, Alabama": {
+    "state": "01",
+    "place": "37864",
+    "population": "13497"
+  },
+  "Jackson, Alabama": {
+    "state": "01",
+    "place": "38152",
+    "population": "4748"
+  },
+  "Jacksonville, Alabama": {
+    "state": "01",
+    "place": "38272",
+    "population": "14385"
+  },
+  "Jasper, Alabama": {
+    "state": "01",
+    "place": "38416",
+    "population": "14572"
+  },
+  "Jemison, Alabama": {
+    "state": "01",
+    "place": "38608",
+    "population": "2642"
+  },
+  "Kimberly, Alabama": {
+    "state": "01",
+    "place": "39856",
+    "population": "3841"
+  },
+  "La Fayette, Alabama": {
+    "state": "01",
+    "place": "40672",
+    "population": "2684"
+  },
+  "Lanett, Alabama": {
+    "state": "01",
+    "place": "41296",
+    "population": "6970"
+  },
+  "Leeds, Alabama": {
+    "state": "01",
+    "place": "41968",
+    "population": "12324"
+  },
+  "Lincoln, Alabama": {
+    "state": "01",
+    "place": "43120",
+    "population": "6845"
+  },
+  "Linden, Alabama": {
+    "state": "01",
+    "place": "43240",
+    "population": "1930"
+  },
+  "Lineville, Alabama": {
+    "state": "01",
+    "place": "43264",
+    "population": "2489"
+  },
+  "Lipscomb, Alabama": {
+    "state": "01",
+    "place": "43336",
+    "population": "2086"
+  },
+  "Livingston, Alabama": {
+    "state": "01",
+    "place": "43720",
+    "population": "3436"
+  }
+}

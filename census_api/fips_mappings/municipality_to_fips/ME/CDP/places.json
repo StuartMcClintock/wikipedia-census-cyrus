@@ -1,0 +1,662 @@
+{
+  "Kittery, Maine": {
+    "state": "23",
+    "place": "37235",
+    "population": "4973"
+  },
+  "Kittery Point, Maine": {
+    "state": "23",
+    "place": "37375",
+    "population": "1009"
+  },
+  "Lake Arrowhead, Maine": {
+    "state": "23",
+    "place": "37795",
+    "population": "3192"
+  },
+  "Limestone, Maine": {
+    "state": "23",
+    "place": "39265",
+    "population": "874"
+  },
+  "Lincoln, Maine": {
+    "state": "23",
+    "place": "39440",
+    "population": "2667"
+  },
+  "Lisbon, Maine": {
+    "state": "23",
+    "place": "40000",
+    "population": "3217"
+  },
+  "Lisbon Falls, Maine": {
+    "state": "23",
+    "place": "40105",
+    "population": "4182"
+  },
+  "Little Falls, Maine": {
+    "state": "23",
+    "place": "40350",
+    "population": "863"
+  },
+  "Littlejohn Island, Maine": {
+    "state": "23",
+    "place": "40470",
+    "population": "116"
+  },
+  "Livermore Falls, Maine": {
+    "state": "23",
+    "place": "40735",
+    "population": "1540"
+  },
+  "Lubec, Maine": {
+    "state": "23",
+    "place": "41575",
+    "population": "334"
+  },
+  "Machias, Maine": {
+    "state": "23",
+    "place": "41925",
+    "population": "1457"
+  },
+  "Madawaska, Maine": {
+    "state": "23",
+    "place": "42485",
+    "population": "2797"
+  },
+  "Madison, Maine": {
+    "state": "23",
+    "place": "42625",
+    "population": "2533"
+  },
+  "Mapleton, Maine": {
+    "state": "23",
+    "place": "43220",
+    "population": "623"
+  },
+  "Mars Hill, Maine": {
+    "state": "23",
+    "place": "43675",
+    "population": "818"
+  },
+  "Mattawamkeag, Maine": {
+    "state": "23",
+    "place": "44235",
+    "population": "422"
+  },
+  "Mechanic Falls, Maine": {
+    "state": "23",
+    "place": "44620",
+    "population": "2257"
+  },
+  "Mexico, Maine": {
+    "state": "23",
+    "place": "45250",
+    "population": "2234"
+  },
+  "Milbridge, Maine": {
+    "state": "23",
+    "place": "45565",
+    "population": "435"
+  },
+  "Milford, Maine": {
+    "state": "23",
+    "place": "45635",
+    "population": "2211"
+  },
+  "Millinocket, Maine": {
+    "state": "23",
+    "place": "45845",
+    "population": "4104"
+  },
+  "Milo, Maine": {
+    "state": "23",
+    "place": "45985",
+    "population": "1751"
+  },
+  "Naples, Maine": {
+    "state": "23",
+    "place": "48050",
+    "population": "415"
+  },
+  "Newcastle, Maine": {
+    "state": "23",
+    "place": "48610",
+    "population": "660"
+  },
+  "Newport, Maine": {
+    "state": "23",
+    "place": "49100",
+    "population": "1690"
+  },
+  "Norridgewock, Maine": {
+    "state": "23",
+    "place": "49800",
+    "population": "1351"
+  },
+  "North Anson, Maine": {
+    "state": "23",
+    "place": "49975",
+    "population": "459"
+  },
+  "North Berwick, Maine": {
+    "state": "23",
+    "place": "50290",
+    "population": "1721"
+  },
+  "Northeast Harbor, Maine": {
+    "state": "23",
+    "place": "51095",
+    "population": "370"
+  },
+  "North Windham, Maine": {
+    "state": "23",
+    "place": "53685",
+    "population": "5274"
+  },
+  "Norway, Maine": {
+    "state": "23",
+    "place": "53965",
+    "population": "2696"
+  },
+  "Oakfield, Maine": {
+    "state": "23",
+    "place": "54350",
+    "population": "378"
+  },
+  "Oak Hill, Maine": {
+    "state": "23",
+    "place": "54490",
+    "population": "5846"
+  },
+  "Oakland, Maine": {
+    "state": "23",
+    "place": "54525",
+    "population": "2536"
+  },
+  "Old Orchard Beach, Maine": {
+    "state": "23",
+    "place": "55120",
+    "population": "8960"
+  },
+  "Orono, Maine": {
+    "state": "23",
+    "place": "55575",
+    "population": "10185"
+  },
+  "Oxford, Maine": {
+    "state": "23",
+    "place": "56240",
+    "population": "1294"
+  },
+  "Kingfield, Maine": {
+    "state": "23",
+    "place": "36990",
+    "population": "640"
+  },
+  "Patten, Maine": {
+    "state": "23",
+    "place": "57115",
+    "population": "539"
+  },
+  "Pittsfield, Maine": {
+    "state": "23",
+    "place": "58970",
+    "population": "2822"
+  },
+  "Randolph, Maine": {
+    "state": "23",
+    "place": "61735",
+    "population": "1743"
+  },
+  "Rangeley, Maine": {
+    "state": "23",
+    "place": "61805",
+    "population": "590"
+  },
+  "Richmond, Maine": {
+    "state": "23",
+    "place": "62610",
+    "population": "1810"
+  },
+  "Rumford, Maine": {
+    "state": "23",
+    "place": "64255",
+    "population": "4298"
+  },
+  "Sabattus, Maine": {
+    "state": "23",
+    "place": "64535",
+    "population": "787"
+  },
+  "Searsport, Maine": {
+    "state": "23",
+    "place": "66600",
+    "population": "999"
+  },
+  "Skowhegan, Maine": {
+    "state": "23",
+    "place": "68875",
+    "population": "6404"
+  },
+  "South Berwick, Maine": {
+    "state": "23",
+    "place": "69995",
+    "population": "3825"
+  },
+  "South Eliot, Maine": {
+    "state": "23",
+    "place": "70660",
+    "population": "3719"
+  },
+  "South Paris, Maine": {
+    "state": "23",
+    "place": "71780",
+    "population": "2183"
+  },
+  "South Windham, Maine": {
+    "state": "23",
+    "place": "72900",
+    "population": "1215"
+  },
+  "Standish, Maine": {
+    "state": "23",
+    "place": "73635",
+    "population": "480"
+  },
+  "Steep Falls, Maine": {
+    "state": "23",
+    "place": "73985",
+    "population": "1223"
+  },
+  "Thomaston, Maine": {
+    "state": "23",
+    "place": "76330",
+    "population": "1836"
+  },
+  "Topsham, Maine": {
+    "state": "23",
+    "place": "76925",
+    "population": "6623"
+  },
+  "Turner, Maine": {
+    "state": "23",
+    "place": "77765",
+    "population": "544"
+  },
+  "Unity, Maine": {
+    "state": "23",
+    "place": "78220",
+    "population": "448"
+  },
+  "Van Buren, Maine": {
+    "state": "23",
+    "place": "78535",
+    "population": "1809"
+  },
+  "Vanceboro, Maine": {
+    "state": "23",
+    "place": "78640",
+    "population": "94"
+  },
+  "Veazie, Maine": {
+    "state": "23",
+    "place": "78815",
+    "population": "1814"
+  },
+  "Waldoboro, Maine": {
+    "state": "23",
+    "place": "79515",
+    "population": "1300"
+  },
+  "Washburn, Maine": {
+    "state": "23",
+    "place": "80250",
+    "population": "937"
+  },
+  "West Kennebunk, Maine": {
+    "state": "23",
+    "place": "83330",
+    "population": "1191"
+  },
+  "Wilton, Maine": {
+    "state": "23",
+    "place": "85815",
+    "population": "2071"
+  },
+  "Winslow, Maine": {
+    "state": "23",
+    "place": "86480",
+    "population": "5318"
+  },
+  "Winter Harbor, Maine": {
+    "state": "23",
+    "place": "86620",
+    "population": "385"
+  },
+  "Winterport, Maine": {
+    "state": "23",
+    "place": "86725",
+    "population": "1355"
+  },
+  "Winthrop, Maine": {
+    "state": "23",
+    "place": "86935",
+    "population": "2666"
+  },
+  "Wiscasset, Maine": {
+    "state": "23",
+    "place": "87040",
+    "population": "1232"
+  },
+  "Woodland, Maine": {
+    "state": "23",
+    "place": "87250",
+    "population": "853"
+  },
+  "Yarmouth, Maine": {
+    "state": "23",
+    "place": "87810",
+    "population": "6125"
+  },
+  "York Harbor, Maine": {
+    "state": "23",
+    "place": "88160",
+    "population": "3132"
+  },
+  "Southwest Harbor, Maine": {
+    "state": "23",
+    "place": "72830",
+    "population": "740"
+  },
+  "Alfred, Maine": {
+    "state": "23",
+    "place": "00695",
+    "population": "874"
+  },
+  "Anson, Maine": {
+    "state": "23",
+    "place": "01360",
+    "population": "680"
+  },
+  "Ashland, Maine": {
+    "state": "23",
+    "place": "01675",
+    "population": "639"
+  },
+  "Bar Harbor, Maine": {
+    "state": "23",
+    "place": "02830",
+    "population": "2260"
+  },
+  "Berwick, Maine": {
+    "state": "23",
+    "place": "04685",
+    "population": "2277"
+  },
+  "Bethel, Maine": {
+    "state": "23",
+    "place": "04790",
+    "population": "658"
+  },
+  "Bingham, Maine": {
+    "state": "23",
+    "place": "04965",
+    "population": "716"
+  },
+  "Blaine, Maine": {
+    "state": "23",
+    "place": "05350",
+    "population": "250"
+  },
+  "Blue Hill, Maine": {
+    "state": "23",
+    "place": "05665",
+    "population": "963"
+  },
+  "Boothbay Harbor, Maine": {
+    "state": "23",
+    "place": "06085",
+    "population": "872"
+  },
+  "Bowdoinham, Maine": {
+    "state": "23",
+    "place": "06330",
+    "population": "734"
+  },
+  "Bradley, Maine": {
+    "state": "23",
+    "place": "06645",
+    "population": "765"
+  },
+  "Bridgton, Maine": {
+    "state": "23",
+    "place": "07135",
+    "population": "2118"
+  },
+  "Brownville Junction, Maine": {
+    "state": "23",
+    "place": "08360",
+    "population": "506"
+  },
+  "Brunswick, Maine": {
+    "state": "23",
+    "place": "08395",
+    "population": "17033"
+  },
+  "Bucksport, Maine": {
+    "state": "23",
+    "place": "08780",
+    "population": "2832"
+  },
+  "Camden, Maine": {
+    "state": "23",
+    "place": "09690",
+    "population": "3850"
+  },
+  "Cape Neddick, Maine": {
+    "state": "23",
+    "place": "10320",
+    "population": "3037"
+  },
+  "Casco, Maine": {
+    "state": "23",
+    "place": "11090",
+    "population": "582"
+  },
+  "Castine, Maine": {
+    "state": "23",
+    "place": "11230",
+    "population": "1014"
+  },
+  "Chisholm, Maine": {
+    "state": "23",
+    "place": "12770",
+    "population": "1343"
+  },
+  "Clinton, Maine": {
+    "state": "23",
+    "place": "13435",
+    "population": "1386"
+  },
+  "Corinna, Maine": {
+    "state": "23",
+    "place": "14275",
+    "population": "729"
+  },
+  "Cornish, Maine": {
+    "state": "23",
+    "place": "14450",
+    "population": "764"
+  },
+  "Cousins Island, Maine": {
+    "state": "23",
+    "place": "14800",
+    "population": "528"
+  },
+  "Cumberland Center, Maine": {
+    "state": "23",
+    "place": "15500",
+    "population": "2739"
+  },
+  "Damariscotta, Maine": {
+    "state": "23",
+    "place": "16200",
+    "population": "1193"
+  },
+  "Danforth, Maine": {
+    "state": "23",
+    "place": "16375",
+    "population": "331"
+  },
+  "Dexter, Maine": {
+    "state": "23",
+    "place": "17495",
+    "population": "2093"
+  },
+  "Dixfield, Maine": {
+    "state": "23",
+    "place": "17705",
+    "population": "1323"
+  },
+  "Dover-Foxcroft, Maine": {
+    "state": "23",
+    "place": "18230",
+    "population": "2776"
+  },
+  "Dunstan, Maine": {
+    "state": "23",
+    "place": "18965",
+    "population": "2083"
+  },
+  "Eagle Lake, Maine": {
+    "state": "23",
+    "place": "19385",
+    "population": "553"
+  },
+  "East Millinocket, Maine": {
+    "state": "23",
+    "place": "21065",
+    "population": "1560"
+  },
+  "Fairfield, Maine": {
+    "state": "23",
+    "place": "24285",
+    "population": "2616"
+  },
+  "Falmouth, Maine": {
+    "state": "23",
+    "place": "24480",
+    "population": "1988"
+  },
+  "Falmouth Foreside, Maine": {
+    "state": "23",
+    "place": "24530",
+    "population": "1554"
+  },
+  "Farmingdale, Maine": {
+    "state": "23",
+    "place": "24635",
+    "population": "2000"
+  },
+  "Farmington, Maine": {
+    "state": "23",
+    "place": "24740",
+    "population": "4168"
+  },
+  "Fort Fairfield, Maine": {
+    "state": "23",
+    "place": "25580",
+    "population": "1666"
+  },
+  "Fort Kent, Maine": {
+    "state": "23",
+    "place": "25720",
+    "population": "2413"
+  },
+  "Freeport, Maine": {
+    "state": "23",
+    "place": "26490",
+    "population": "1700"
+  },
+  "Fryeburg, Maine": {
+    "state": "23",
+    "place": "26875",
+    "population": "1444"
+  },
+  "Gorham, Maine": {
+    "state": "23",
+    "place": "28205",
+    "population": "7469"
+  },
+  "Grand Isle, Maine": {
+    "state": "23",
+    "place": "28555",
+    "population": "184"
+  },
+  "Gray, Maine": {
+    "state": "23",
+    "place": "28835",
+    "population": "887"
+  },
+  "Greene, Maine": {
+    "state": "23",
+    "place": "29220",
+    "population": "750"
+  },
+  "Greenville, Maine": {
+    "state": "23",
+    "place": "29500",
+    "population": "1010"
+  },
+  "Guilford, Maine": {
+    "state": "23",
+    "place": "30060",
+    "population": "740"
+  },
+  "Hampden, Maine": {
+    "state": "23",
+    "place": "30760",
+    "population": "4516"
+  },
+  "Hartland, Maine": {
+    "state": "23",
+    "place": "31705",
+    "population": "756"
+  },
+  "Houlton, Maine": {
+    "state": "23",
+    "place": "33945",
+    "population": "4743"
+  },
+  "Howland, Maine": {
+    "state": "23",
+    "place": "34225",
+    "population": "947"
+  },
+  "Island Falls, Maine": {
+    "state": "23",
+    "place": "35030",
+    "population": "309"
+  },
+  "Jonesport, Maine": {
+    "state": "23",
+    "place": "35975",
+    "population": "608"
+  },
+  "Kennebunk, Maine": {
+    "state": "23",
+    "place": "36500",
+    "population": "5776"
+  },
+  "Kennebunkport, Maine": {
+    "state": "23",
+    "place": "36710",
+    "population": "1264"
+  },
+  "Kezar Falls, Maine": {
+    "state": "23",
+    "place": "36885",
+    "population": "736"
+  }
+}

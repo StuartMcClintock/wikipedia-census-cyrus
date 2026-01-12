@@ -1,0 +1,4707 @@
+{
+  "Hyde Park, Pennsylvania": {
+    "state": "42",
+    "place": "36592",
+    "population": "509"
+  },
+  "Hydetown, Pennsylvania": {
+    "state": "42",
+    "place": "36616",
+    "population": "529"
+  },
+  "Hyndman, Pennsylvania": {
+    "state": "42",
+    "place": "36640",
+    "population": "863"
+  },
+  "Indiana, Pennsylvania": {
+    "state": "42",
+    "place": "36816",
+    "population": "14044"
+  },
+  "Indian Lake, Pennsylvania": {
+    "state": "42",
+    "place": "36888",
+    "population": "390"
+  },
+  "Industry, Pennsylvania": {
+    "state": "42",
+    "place": "36944",
+    "population": "1838"
+  },
+  "Ingram, Pennsylvania": {
+    "state": "42",
+    "place": "37000",
+    "population": "3391"
+  },
+  "Irvona, Pennsylvania": {
+    "state": "42",
+    "place": "37192",
+    "population": "549"
+  },
+  "Irwin, Pennsylvania": {
+    "state": "42",
+    "place": "37208",
+    "population": "3902"
+  },
+  "Ivyland, Pennsylvania": {
+    "state": "42",
+    "place": "37304",
+    "population": "955"
+  },
+  "Jackson Center, Pennsylvania": {
+    "state": "42",
+    "place": "37496",
+    "population": "194"
+  },
+  "Jacobus, Pennsylvania": {
+    "state": "42",
+    "place": "37640",
+    "population": "1830"
+  },
+  "Jamestown, Pennsylvania": {
+    "state": "42",
+    "place": "37696",
+    "population": "582"
+  },
+  "Jeddo, Pennsylvania": {
+    "state": "42",
+    "place": "37792",
+    "population": "108"
+  },
+  "Jefferson Hills, Pennsylvania": {
+    "state": "42",
+    "place": "37955",
+    "population": "12424"
+  },
+  "Jenkintown, Pennsylvania": {
+    "state": "42",
+    "place": "38000",
+    "population": "4719"
+  },
+  "Jennerstown, Pennsylvania": {
+    "state": "42",
+    "place": "38048",
+    "population": "678"
+  },
+  "Jermyn, Pennsylvania": {
+    "state": "42",
+    "place": "38096",
+    "population": "2150"
+  },
+  "Jersey Shore, Pennsylvania": {
+    "state": "42",
+    "place": "38128",
+    "population": "4166"
+  },
+  "Jessup, Pennsylvania": {
+    "state": "42",
+    "place": "38160",
+    "population": "4520"
+  },
+  "Jim Thorpe, Pennsylvania": {
+    "state": "42",
+    "place": "38200",
+    "population": "4507"
+  },
+  "Johnsonburg, Pennsylvania": {
+    "state": "42",
+    "place": "38248",
+    "population": "2404"
+  },
+  "Jonestown, Pennsylvania": {
+    "state": "42",
+    "place": "38400",
+    "population": "1638"
+  },
+  "Juniata Terrace, Pennsylvania": {
+    "state": "42",
+    "place": "38640",
+    "population": "564"
+  },
+  "Kane, Pennsylvania": {
+    "state": "42",
+    "place": "38688",
+    "population": "3630"
+  },
+  "Karns City, Pennsylvania": {
+    "state": "42",
+    "place": "38768",
+    "population": "175"
+  },
+  "Kenhorst, Pennsylvania": {
+    "state": "42",
+    "place": "39256",
+    "population": "3001"
+  },
+  "Susquehanna Depot, Pennsylvania": {
+    "state": "42",
+    "place": "75568",
+    "population": "1365"
+  },
+  "Sutersville, Pennsylvania": {
+    "state": "42",
+    "place": "75584",
+    "population": "561"
+  },
+  "Swarthmore, Pennsylvania": {
+    "state": "42",
+    "place": "75648",
+    "population": "6543"
+  },
+  "Swissvale, Pennsylvania": {
+    "state": "42",
+    "place": "75816",
+    "population": "8624"
+  },
+  "Swoyersville, Pennsylvania": {
+    "state": "42",
+    "place": "75832",
+    "population": "5021"
+  },
+  "Sykesville, Pennsylvania": {
+    "state": "42",
+    "place": "75888",
+    "population": "1115"
+  },
+  "Sylvania, Pennsylvania": {
+    "state": "42",
+    "place": "75944",
+    "population": "215"
+  },
+  "Tamaqua, Pennsylvania": {
+    "state": "42",
+    "place": "76032",
+    "population": "6916"
+  },
+  "Tarentum, Pennsylvania": {
+    "state": "42",
+    "place": "76104",
+    "population": "4352"
+  },
+  "Tatamy, Pennsylvania": {
+    "state": "42",
+    "place": "76144",
+    "population": "1203"
+  },
+  "Taylor, Pennsylvania": {
+    "state": "42",
+    "place": "76184",
+    "population": "6294"
+  },
+  "Telford, Pennsylvania": {
+    "state": "42",
+    "place": "76304",
+    "population": "4928"
+  },
+  "Terre Hill, Pennsylvania": {
+    "state": "42",
+    "place": "76400",
+    "population": "1357"
+  },
+  "Thompson, Pennsylvania": {
+    "state": "42",
+    "place": "76496",
+    "population": "254"
+  },
+  "Thompsontown, Pennsylvania": {
+    "state": "42",
+    "place": "76536",
+    "population": "631"
+  },
+  "Thornburg, Pennsylvania": {
+    "state": "42",
+    "place": "76560",
+    "population": "466"
+  },
+  "Three Springs, Pennsylvania": {
+    "state": "42",
+    "place": "76632",
+    "population": "448"
+  },
+  "Throop, Pennsylvania": {
+    "state": "42",
+    "place": "76648",
+    "population": "4065"
+  },
+  "Tidioute, Pennsylvania": {
+    "state": "42",
+    "place": "76696",
+    "population": "626"
+  },
+  "Timblin, Pennsylvania": {
+    "state": "42",
+    "place": "76744",
+    "population": "147"
+  },
+  "Tioga, Pennsylvania": {
+    "state": "42",
+    "place": "76808",
+    "population": "606"
+  },
+  "Tionesta, Pennsylvania": {
+    "state": "42",
+    "place": "76848",
+    "population": "428"
+  },
+  "Topton, Pennsylvania": {
+    "state": "42",
+    "place": "77104",
+    "population": "2041"
+  },
+  "Towanda, Pennsylvania": {
+    "state": "42",
+    "place": "77168",
+    "population": "2798"
+  },
+  "Tower City, Pennsylvania": {
+    "state": "42",
+    "place": "77184",
+    "population": "1419"
+  },
+  "Townville, Pennsylvania": {
+    "state": "42",
+    "place": "77232",
+    "population": "326"
+  },
+  "Trafford, Pennsylvania": {
+    "state": "42",
+    "place": "77272",
+    "population": "3317"
+  },
+  "Trainer, Pennsylvania": {
+    "state": "42",
+    "place": "77288",
+    "population": "1976"
+  },
+  "Trappe, Pennsylvania": {
+    "state": "42",
+    "place": "77304",
+    "population": "4002"
+  },
+  "Tremont, Pennsylvania": {
+    "state": "42",
+    "place": "77392",
+    "population": "1676"
+  },
+  "Kennett Square, Pennsylvania": {
+    "state": "42",
+    "place": "39352",
+    "population": "5936"
+  },
+  "Kingston, Pennsylvania": {
+    "state": "42",
+    "place": "39784",
+    "population": "13349"
+  },
+  "Kistler, Pennsylvania": {
+    "state": "42",
+    "place": "40016",
+    "population": "291"
+  },
+  "Kittanning, Pennsylvania": {
+    "state": "42",
+    "place": "40040",
+    "population": "3921"
+  },
+  "Knox, Pennsylvania": {
+    "state": "42",
+    "place": "40272",
+    "population": "1093"
+  },
+  "Knoxville, Pennsylvania": {
+    "state": "42",
+    "place": "40360",
+    "population": "680"
+  },
+  "Koppel, Pennsylvania": {
+    "state": "42",
+    "place": "40400",
+    "population": "712"
+  },
+  "Kulpmont, Pennsylvania": {
+    "state": "42",
+    "place": "40584",
+    "population": "2758"
+  },
+  "Kutztown, Pennsylvania": {
+    "state": "42",
+    "place": "40656",
+    "population": "4162"
+  },
+  "Laceyville, Pennsylvania": {
+    "state": "42",
+    "place": "40744",
+    "population": "361"
+  },
+  "Laflin, Pennsylvania": {
+    "state": "42",
+    "place": "40848",
+    "population": "1451"
+  },
+  "Lake City, Pennsylvania": {
+    "state": "42",
+    "place": "40960",
+    "population": "2935"
+  },
+  "Landingville, Pennsylvania": {
+    "state": "42",
+    "place": "41264",
+    "population": "138"
+  },
+  "Landisburg, Pennsylvania": {
+    "state": "42",
+    "place": "41272",
+    "population": "221"
+  },
+  "Lanesboro, Pennsylvania": {
+    "state": "42",
+    "place": "41336",
+    "population": "508"
+  },
+  "Langhorne, Pennsylvania": {
+    "state": "42",
+    "place": "41392",
+    "population": "1643"
+  },
+  "Langhorne Manor, Pennsylvania": {
+    "state": "42",
+    "place": "41416",
+    "population": "1496"
+  },
+  "Lansdale, Pennsylvania": {
+    "state": "42",
+    "place": "41432",
+    "population": "18773"
+  },
+  "Lansdowne, Pennsylvania": {
+    "state": "42",
+    "place": "41440",
+    "population": "11107"
+  },
+  "Lansford, Pennsylvania": {
+    "state": "42",
+    "place": "41464",
+    "population": "4141"
+  },
+  "Laporte, Pennsylvania": {
+    "state": "42",
+    "place": "41512",
+    "population": "314"
+  },
+  "Larksville, Pennsylvania": {
+    "state": "42",
+    "place": "41608",
+    "population": "4225"
+  },
+  "Latrobe, Pennsylvania": {
+    "state": "42",
+    "place": "41680",
+    "population": "8060"
+  },
+  "Laureldale, Pennsylvania": {
+    "state": "42",
+    "place": "41768",
+    "population": "4277"
+  },
+  "Laurel Mountain, Pennsylvania": {
+    "state": "42",
+    "place": "41834",
+    "population": "146"
+  },
+  "Laurel Run, Pennsylvania": {
+    "state": "42",
+    "place": "41848",
+    "population": "558"
+  },
+  "Troy, Pennsylvania": {
+    "state": "42",
+    "place": "77584",
+    "population": "1249"
+  },
+  "Trumbauersville, Pennsylvania": {
+    "state": "42",
+    "place": "77704",
+    "population": "904"
+  },
+  "Tullytown, Pennsylvania": {
+    "state": "42",
+    "place": "77744",
+    "population": "2282"
+  },
+  "Tunkhannock, Pennsylvania": {
+    "state": "42",
+    "place": "77784",
+    "population": "1767"
+  },
+  "Tunnelhill, Pennsylvania": {
+    "state": "42",
+    "place": "77808",
+    "population": "315"
+  },
+  "Turbotville, Pennsylvania": {
+    "state": "42",
+    "place": "77832",
+    "population": "677"
+  },
+  "Turtle Creek, Pennsylvania": {
+    "state": "42",
+    "place": "77912",
+    "population": "5114"
+  },
+  "Twilight, Pennsylvania": {
+    "state": "42",
+    "place": "78008",
+    "population": "216"
+  },
+  "Tyrone, Pennsylvania": {
+    "state": "42",
+    "place": "78168",
+    "population": "5480"
+  },
+  "Ulysses, Pennsylvania": {
+    "state": "42",
+    "place": "78240",
+    "population": "599"
+  },
+  "Union City, Pennsylvania": {
+    "state": "42",
+    "place": "78448",
+    "population": "2927"
+  },
+  "Union Dale, Pennsylvania": {
+    "state": "42",
+    "place": "78456",
+    "population": "220"
+  },
+  "Unionville, Pennsylvania": {
+    "state": "42",
+    "place": "78616",
+    "population": "267"
+  },
+  "Upland, Pennsylvania": {
+    "state": "42",
+    "place": "78712",
+    "population": "3068"
+  },
+  "Ursina, Pennsylvania": {
+    "state": "42",
+    "place": "79424",
+    "population": "247"
+  },
+  "Utica, Pennsylvania": {
+    "state": "42",
+    "place": "79472",
+    "population": "184"
+  },
+  "Valencia, Pennsylvania": {
+    "state": "42",
+    "place": "79504",
+    "population": "537"
+  },
+  "Valley-Hi, Pennsylvania": {
+    "state": "42",
+    "place": "79644",
+    "population": "6"
+  },
+  "Vanderbilt, Pennsylvania": {
+    "state": "42",
+    "place": "79768",
+    "population": "419"
+  },
+  "Vandergrift, Pennsylvania": {
+    "state": "42",
+    "place": "79776",
+    "population": "5075"
+  },
+  "Vandling, Pennsylvania": {
+    "state": "42",
+    "place": "79792",
+    "population": "730"
+  },
+  "Troutville, Pennsylvania": {
+    "state": "42",
+    "place": "77568",
+    "population": "230"
+  },
+  "Venango, Pennsylvania": {
+    "state": "42",
+    "place": "79912",
+    "population": "212"
+  },
+  "Verona, Pennsylvania": {
+    "state": "42",
+    "place": "80032",
+    "population": "2492"
+  },
+  "Versailles, Pennsylvania": {
+    "state": "42",
+    "place": "80040",
+    "population": "1476"
+  },
+  "Vintondale, Pennsylvania": {
+    "state": "42",
+    "place": "80288",
+    "population": "412"
+  },
+  "Volant, Pennsylvania": {
+    "state": "42",
+    "place": "80368",
+    "population": "126"
+  },
+  "Abbottstown, Pennsylvania": {
+    "state": "42",
+    "place": "00116",
+    "population": "1022"
+  },
+  "Adamsburg, Pennsylvania": {
+    "state": "42",
+    "place": "00332",
+    "population": "142"
+  },
+  "Adamstown, Pennsylvania": {
+    "state": "42",
+    "place": "00364",
+    "population": "1938"
+  },
+  "Addison, Pennsylvania": {
+    "state": "42",
+    "place": "00396",
+    "population": "166"
+  },
+  "Akron, Pennsylvania": {
+    "state": "42",
+    "place": "00540",
+    "population": "4152"
+  },
+  "Alba, Pennsylvania": {
+    "state": "42",
+    "place": "00572",
+    "population": "133"
+  },
+  "Albion, Pennsylvania": {
+    "state": "42",
+    "place": "00628",
+    "population": "1528"
+  },
+  "Alburtis, Pennsylvania": {
+    "state": "42",
+    "place": "00660",
+    "population": "2596"
+  },
+  "Aldan, Pennsylvania": {
+    "state": "42",
+    "place": "00676",
+    "population": "4244"
+  },
+  "Alexandria, Pennsylvania": {
+    "state": "42",
+    "place": "00756",
+    "population": "384"
+  },
+  "Allenport, Pennsylvania": {
+    "state": "42",
+    "place": "00988",
+    "population": "484"
+  },
+  "Ambler, Pennsylvania": {
+    "state": "42",
+    "place": "02264",
+    "population": "6807"
+  },
+  "Ambridge, Pennsylvania": {
+    "state": "42",
+    "place": "02288",
+    "population": "6972"
+  },
+  "Apollo, Pennsylvania": {
+    "state": "42",
+    "place": "02720",
+    "population": "1615"
+  },
+  "Applewold, Pennsylvania": {
+    "state": "42",
+    "place": "02752",
+    "population": "334"
+  },
+  "Archbald, Pennsylvania": {
+    "state": "42",
+    "place": "02832",
+    "population": "7297"
+  },
+  "Arendtsville, Pennsylvania": {
+    "state": "42",
+    "place": "02928",
+    "population": "867"
+  },
+  "Armagh, Pennsylvania": {
+    "state": "42",
+    "place": "03032",
+    "population": "102"
+  },
+  "Arona, Pennsylvania": {
+    "state": "42",
+    "place": "03120",
+    "population": "255"
+  },
+  "Lawrenceville, Pennsylvania": {
+    "state": "42",
+    "place": "42016",
+    "population": "691"
+  },
+  "Leechburg, Pennsylvania": {
+    "state": "42",
+    "place": "42280",
+    "population": "2149"
+  },
+  "Leesport, Pennsylvania": {
+    "state": "42",
+    "place": "42352",
+    "population": "1954"
+  },
+  "Leetsdale, Pennsylvania": {
+    "state": "42",
+    "place": "42392",
+    "population": "1162"
+  },
+  "Lehighton, Pennsylvania": {
+    "state": "42",
+    "place": "42472",
+    "population": "5248"
+  },
+  "Lemoyne, Pennsylvania": {
+    "state": "42",
+    "place": "42648",
+    "population": "4659"
+  },
+  "Lenhartsville, Pennsylvania": {
+    "state": "42",
+    "place": "42688",
+    "population": "180"
+  },
+  "LeRaysville, Pennsylvania": {
+    "state": "42",
+    "place": "42824",
+    "population": "292"
+  },
+  "Lewisberry, Pennsylvania": {
+    "state": "42",
+    "place": "42968",
+    "population": "382"
+  },
+  "Lewisburg, Pennsylvania": {
+    "state": "42",
+    "place": "42976",
+    "population": "5158"
+  },
+  "Lewis Run, Pennsylvania": {
+    "state": "42",
+    "place": "42984",
+    "population": "583"
+  },
+  "Lewistown, Pennsylvania": {
+    "state": "42",
+    "place": "43000",
+    "population": "8579"
+  },
+  "Ligonier, Pennsylvania": {
+    "state": "42",
+    "place": "43232",
+    "population": "1513"
+  },
+  "Lilly, Pennsylvania": {
+    "state": "42",
+    "place": "43248",
+    "population": "879"
+  },
+  "Lincoln, Pennsylvania": {
+    "state": "42",
+    "place": "43408",
+    "population": "932"
+  },
+  "Linesville, Pennsylvania": {
+    "state": "42",
+    "place": "43656",
+    "population": "962"
+  },
+  "Lititz, Pennsylvania": {
+    "state": "42",
+    "place": "43816",
+    "population": "9381"
+  },
+  "Little Meadows, Pennsylvania": {
+    "state": "42",
+    "place": "43928",
+    "population": "245"
+  },
+  "Littlestown, Pennsylvania": {
+    "state": "42",
+    "place": "43944",
+    "population": "4782"
+  },
+  "Liverpool, Pennsylvania": {
+    "state": "42",
+    "place": "43968",
+    "population": "960"
+  },
+  "Wall, Pennsylvania": {
+    "state": "42",
+    "place": "80600",
+    "population": "519"
+  },
+  "Wallaceton, Pennsylvania": {
+    "state": "42",
+    "place": "80640",
+    "population": "297"
+  },
+  "Walnutport, Pennsylvania": {
+    "state": "42",
+    "place": "80800",
+    "population": "2067"
+  },
+  "Wampum, Pennsylvania": {
+    "state": "42",
+    "place": "80880",
+    "population": "559"
+  },
+  "Warrior Run, Pennsylvania": {
+    "state": "42",
+    "place": "81080",
+    "population": "527"
+  },
+  "Washingtonville, Pennsylvania": {
+    "state": "42",
+    "place": "81424",
+    "population": "202"
+  },
+  "Waterford, Pennsylvania": {
+    "state": "42",
+    "place": "81456",
+    "population": "1476"
+  },
+  "Watsontown, Pennsylvania": {
+    "state": "42",
+    "place": "81616",
+    "population": "2237"
+  },
+  "Wattsburg, Pennsylvania": {
+    "state": "42",
+    "place": "81648",
+    "population": "353"
+  },
+  "Waymart, Pennsylvania": {
+    "state": "42",
+    "place": "81712",
+    "population": "1297"
+  },
+  "Waynesboro, Pennsylvania": {
+    "state": "42",
+    "place": "81824",
+    "population": "10951"
+  },
+  "Waynesburg, Pennsylvania": {
+    "state": "42",
+    "place": "81832",
+    "population": "4006"
+  },
+  "Weatherly, Pennsylvania": {
+    "state": "42",
+    "place": "81856",
+    "population": "2541"
+  },
+  "Weissport, Pennsylvania": {
+    "state": "42",
+    "place": "82080",
+    "population": "413"
+  },
+  "Wellersburg, Pennsylvania": {
+    "state": "42",
+    "place": "82128",
+    "population": "214"
+  },
+  "Wellsboro, Pennsylvania": {
+    "state": "42",
+    "place": "82160",
+    "population": "3469"
+  },
+  "Wellsville, Pennsylvania": {
+    "state": "42",
+    "place": "82200",
+    "population": "301"
+  },
+  "Wernersville, Pennsylvania": {
+    "state": "42",
+    "place": "82296",
+    "population": "2776"
+  },
+  "Wesleyville, Pennsylvania": {
+    "state": "42",
+    "place": "82344",
+    "population": "3222"
+  },
+  "West Brownsville, Pennsylvania": {
+    "state": "42",
+    "place": "82616",
+    "population": "977"
+  },
+  "West Chester, Pennsylvania": {
+    "state": "42",
+    "place": "82704",
+    "population": "18671"
+  },
+  "West Conshohocken, Pennsylvania": {
+    "state": "42",
+    "place": "82736",
+    "population": "1493"
+  },
+  "West Easton, Pennsylvania": {
+    "state": "42",
+    "place": "82832",
+    "population": "1237"
+  },
+  "West Elizabeth, Pennsylvania": {
+    "state": "42",
+    "place": "82848",
+    "population": "403"
+  },
+  "Westfield, Pennsylvania": {
+    "state": "42",
+    "place": "82968",
+    "population": "1112"
+  },
+  "West Grove, Pennsylvania": {
+    "state": "42",
+    "place": "83104",
+    "population": "2770"
+  },
+  "West Hazleton, Pennsylvania": {
+    "state": "42",
+    "place": "83136",
+    "population": "5163"
+  },
+  "West Homestead, Pennsylvania": {
+    "state": "42",
+    "place": "83200",
+    "population": "1872"
+  },
+  "West Kittanning, Pennsylvania": {
+    "state": "42",
+    "place": "83248",
+    "population": "1192"
+  },
+  "Ashley, Pennsylvania": {
+    "state": "42",
+    "place": "03272",
+    "population": "2596"
+  },
+  "Ashville, Pennsylvania": {
+    "state": "42",
+    "place": "03296",
+    "population": "213"
+  },
+  "Aspinwall, Pennsylvania": {
+    "state": "42",
+    "place": "03320",
+    "population": "2916"
+  },
+  "Atglen, Pennsylvania": {
+    "state": "42",
+    "place": "03384",
+    "population": "1313"
+  },
+  "Athens, Pennsylvania": {
+    "state": "42",
+    "place": "03392",
+    "population": "3267"
+  },
+  "Atwood, Pennsylvania": {
+    "state": "42",
+    "place": "03480",
+    "population": "112"
+  },
+  "Auburn, Pennsylvania": {
+    "state": "42",
+    "place": "03488",
+    "population": "660"
+  },
+  "Austin, Pennsylvania": {
+    "state": "42",
+    "place": "03576",
+    "population": "482"
+  },
+  "Avalon, Pennsylvania": {
+    "state": "42",
+    "place": "03608",
+    "population": "4762"
+  },
+  "Avis, Pennsylvania": {
+    "state": "42",
+    "place": "03632",
+    "population": "1473"
+  },
+  "Avoca, Pennsylvania": {
+    "state": "42",
+    "place": "03640",
+    "population": "2507"
+  },
+  "Avondale, Pennsylvania": {
+    "state": "42",
+    "place": "03656",
+    "population": "1274"
+  },
+  "Avonmore, Pennsylvania": {
+    "state": "42",
+    "place": "03688",
+    "population": "900"
+  },
+  "Baden, Pennsylvania": {
+    "state": "42",
+    "place": "03736",
+    "population": "3904"
+  },
+  "Baldwin, Pennsylvania": {
+    "state": "42",
+    "place": "03928",
+    "population": "21510"
+  },
+  "Bally, Pennsylvania": {
+    "state": "42",
+    "place": "03984",
+    "population": "1228"
+  },
+  "Bangor, Pennsylvania": {
+    "state": "42",
+    "place": "04032",
+    "population": "5187"
+  },
+  "Barkeyville, Pennsylvania": {
+    "state": "42",
+    "place": "04136",
+    "population": "188"
+  },
+  "Bath, Pennsylvania": {
+    "state": "42",
+    "place": "04432",
+    "population": "2808"
+  },
+  "Beallsville, Pennsylvania": {
+    "state": "42",
+    "place": "04568",
+    "population": "393"
+  },
+  "Bear Creek Village, Pennsylvania": {
+    "state": "42",
+    "place": "04599",
+    "population": "291"
+  },
+  "Bear Lake, Pennsylvania": {
+    "state": "42",
+    "place": "04608",
+    "population": "148"
+  },
+  "Ashland, Pennsylvania": {
+    "state": "42",
+    "place": "03264",
+    "population": "2471"
+  },
+  "Beaver, Pennsylvania": {
+    "state": "42",
+    "place": "04688",
+    "population": "4438"
+  },
+  "Beaver Meadows, Pennsylvania": {
+    "state": "42",
+    "place": "04816",
+    "population": "897"
+  },
+  "Beavertown, Pennsylvania": {
+    "state": "42",
+    "place": "04848",
+    "population": "1004"
+  },
+  "Bechtelsville, Pennsylvania": {
+    "state": "42",
+    "place": "04896",
+    "population": "884"
+  },
+  "Bedford, Pennsylvania": {
+    "state": "42",
+    "place": "04944",
+    "population": "2865"
+  },
+  "Beech Creek, Pennsylvania": {
+    "state": "42",
+    "place": "04984",
+    "population": "736"
+  },
+  "Bell Acres, Pennsylvania": {
+    "state": "42",
+    "place": "05216",
+    "population": "1505"
+  },
+  "Loganton, Pennsylvania": {
+    "state": "42",
+    "place": "44400",
+    "population": "469"
+  },
+  "Loganville, Pennsylvania": {
+    "state": "42",
+    "place": "44416",
+    "population": "1426"
+  },
+  "Long Branch, Pennsylvania": {
+    "state": "42",
+    "place": "44512",
+    "population": "421"
+  },
+  "Lorain, Pennsylvania": {
+    "state": "42",
+    "place": "44664",
+    "population": "589"
+  },
+  "Loretto, Pennsylvania": {
+    "state": "42",
+    "place": "44704",
+    "population": "1196"
+  },
+  "Luzerne, Pennsylvania": {
+    "state": "42",
+    "place": "45568",
+    "population": "2711"
+  },
+  "Lykens, Pennsylvania": {
+    "state": "42",
+    "place": "45592",
+    "population": "1873"
+  },
+  "Lyons, Pennsylvania": {
+    "state": "42",
+    "place": "45752",
+    "population": "439"
+  },
+  "McAdoo, Pennsylvania": {
+    "state": "42",
+    "place": "45824",
+    "population": "2471"
+  },
+  "McClure, Pennsylvania": {
+    "state": "42",
+    "place": "45992",
+    "population": "889"
+  },
+  "McConnellsburg, Pennsylvania": {
+    "state": "42",
+    "place": "46000",
+    "population": "1151"
+  },
+  "McDonald, Pennsylvania": {
+    "state": "42",
+    "place": "46072",
+    "population": "2060"
+  },
+  "McEwensville, Pennsylvania": {
+    "state": "42",
+    "place": "46120",
+    "population": "293"
+  },
+  "McKean, Pennsylvania": {
+    "state": "42",
+    "place": "46216",
+    "population": "476"
+  },
+  "McKees Rocks, Pennsylvania": {
+    "state": "42",
+    "place": "46264",
+    "population": "5920"
+  },
+  "McSherrystown, Pennsylvania": {
+    "state": "42",
+    "place": "46376",
+    "population": "3077"
+  },
+  "Macungie, Pennsylvania": {
+    "state": "42",
+    "place": "46392",
+    "population": "3257"
+  },
+  "McVeytown, Pennsylvania": {
+    "state": "42",
+    "place": "46400",
+    "population": "344"
+  },
+  "Madison, Pennsylvania": {
+    "state": "42",
+    "place": "46488",
+    "population": "364"
+  },
+  "Mahaffey, Pennsylvania": {
+    "state": "42",
+    "place": "46568",
+    "population": "329"
+  },
+  "Mahanoy City, Pennsylvania": {
+    "state": "42",
+    "place": "46592",
+    "population": "3499"
+  },
+  "Malvern, Pennsylvania": {
+    "state": "42",
+    "place": "46792",
+    "population": "3419"
+  },
+  "Manchester, Pennsylvania": {
+    "state": "42",
+    "place": "46864",
+    "population": "2800"
+  },
+  "Manheim, Pennsylvania": {
+    "state": "42",
+    "place": "46888",
+    "population": "5046"
+  },
+  "Manns Choice, Pennsylvania": {
+    "state": "42",
+    "place": "46944",
+    "population": "316"
+  },
+  "Manor, Pennsylvania": {
+    "state": "42",
+    "place": "47000",
+    "population": "3585"
+  },
+  "Manorville, Pennsylvania": {
+    "state": "42",
+    "place": "47064",
+    "population": "382"
+  },
+  "Mansfield, Pennsylvania": {
+    "state": "42",
+    "place": "47080",
+    "population": "2839"
+  },
+  "Mapleton, Pennsylvania": {
+    "state": "42",
+    "place": "47248",
+    "population": "418"
+  },
+  "West Leechburg, Pennsylvania": {
+    "state": "42",
+    "place": "83328",
+    "population": "1269"
+  },
+  "West Liberty, Pennsylvania": {
+    "state": "42",
+    "place": "83376",
+    "population": "335"
+  },
+  "West Mayfield, Pennsylvania": {
+    "state": "42",
+    "place": "83472",
+    "population": "1195"
+  },
+  "West Middlesex, Pennsylvania": {
+    "state": "42",
+    "place": "83496",
+    "population": "818"
+  },
+  "West Middletown, Pennsylvania": {
+    "state": "42",
+    "place": "83504",
+    "population": "109"
+  },
+  "West Mifflin, Pennsylvania": {
+    "state": "42",
+    "place": "83512",
+    "population": "19589"
+  },
+  "Westmont, Pennsylvania": {
+    "state": "42",
+    "place": "83584",
+    "population": "4982"
+  },
+  "West Newton, Pennsylvania": {
+    "state": "42",
+    "place": "83680",
+    "population": "2665"
+  },
+  "Westover, Pennsylvania": {
+    "state": "42",
+    "place": "83736",
+    "population": "361"
+  },
+  "West Pittston, Pennsylvania": {
+    "state": "42",
+    "place": "83856",
+    "population": "4652"
+  },
+  "West Reading, Pennsylvania": {
+    "state": "42",
+    "place": "83928",
+    "population": "4553"
+  },
+  "West Sunbury, Pennsylvania": {
+    "state": "42",
+    "place": "84064",
+    "population": "182"
+  },
+  "West View, Pennsylvania": {
+    "state": "42",
+    "place": "84144",
+    "population": "6685"
+  },
+  "West Wyoming, Pennsylvania": {
+    "state": "42",
+    "place": "84272",
+    "population": "2638"
+  },
+  "West York, Pennsylvania": {
+    "state": "42",
+    "place": "84288",
+    "population": "5094"
+  },
+  "Wheatland, Pennsylvania": {
+    "state": "42",
+    "place": "84376",
+    "population": "585"
+  },
+  "Whitaker, Pennsylvania": {
+    "state": "42",
+    "place": "84440",
+    "population": "1179"
+  },
+  "Whitehall, Pennsylvania": {
+    "state": "42",
+    "place": "84512",
+    "population": "15064"
+  },
+  "White Haven, Pennsylvania": {
+    "state": "42",
+    "place": "84552",
+    "population": "1166"
+  },
+  "White Oak, Pennsylvania": {
+    "state": "42",
+    "place": "84704",
+    "population": "7630"
+  },
+  "Wilkinsburg, Pennsylvania": {
+    "state": "42",
+    "place": "85188",
+    "population": "14349"
+  },
+  "Williamsburg, Pennsylvania": {
+    "state": "42",
+    "place": "85272",
+    "population": "1233"
+  },
+  "Williamstown, Pennsylvania": {
+    "state": "42",
+    "place": "85320",
+    "population": "1303"
+  },
+  "Wilmerding, Pennsylvania": {
+    "state": "42",
+    "place": "85496",
+    "population": "1781"
+  },
+  "Wilmore, Pennsylvania": {
+    "state": "42",
+    "place": "85528",
+    "population": "206"
+  },
+  "Wilson, Pennsylvania": {
+    "state": "42",
+    "place": "85592",
+    "population": "8259"
+  },
+  "Windber, Pennsylvania": {
+    "state": "42",
+    "place": "85632",
+    "population": "3941"
+  },
+  "Wind Gap, Pennsylvania": {
+    "state": "42",
+    "place": "85664",
+    "population": "2820"
+  },
+  "Windsor, Pennsylvania": {
+    "state": "42",
+    "place": "85728",
+    "population": "1358"
+  },
+  "Winterstown, Pennsylvania": {
+    "state": "42",
+    "place": "85872",
+    "population": "608"
+  },
+  "Bellefonte, Pennsylvania": {
+    "state": "42",
+    "place": "05256",
+    "population": "6105"
+  },
+  "Belle Vernon, Pennsylvania": {
+    "state": "42",
+    "place": "05288",
+    "population": "1024"
+  },
+  "Bellevue, Pennsylvania": {
+    "state": "42",
+    "place": "05312",
+    "population": "8311"
+  },
+  "Bellwood, Pennsylvania": {
+    "state": "42",
+    "place": "05384",
+    "population": "1827"
+  },
+  "Ben Avon, Pennsylvania": {
+    "state": "42",
+    "place": "05504",
+    "population": "1918"
+  },
+  "Ben Avon Heights, Pennsylvania": {
+    "state": "42",
+    "place": "05520",
+    "population": "400"
+  },
+  "Bendersville, Pennsylvania": {
+    "state": "42",
+    "place": "05536",
+    "population": "736"
+  },
+  "Benson, Pennsylvania": {
+    "state": "42",
+    "place": "05648",
+    "population": "187"
+  },
+  "Bentleyville, Pennsylvania": {
+    "state": "42",
+    "place": "05672",
+    "population": "2352"
+  },
+  "Benton, Pennsylvania": {
+    "state": "42",
+    "place": "05680",
+    "population": "823"
+  },
+  "Berlin, Pennsylvania": {
+    "state": "42",
+    "place": "05776",
+    "population": "2003"
+  },
+  "Bernville, Pennsylvania": {
+    "state": "42",
+    "place": "05848",
+    "population": "905"
+  },
+  "Berrysburg, Pennsylvania": {
+    "state": "42",
+    "place": "05856",
+    "population": "326"
+  },
+  "Berwick, Pennsylvania": {
+    "state": "42",
+    "place": "05888",
+    "population": "10327"
+  },
+  "Bessemer, Pennsylvania": {
+    "state": "42",
+    "place": "05936",
+    "population": "1076"
+  },
+  "Bethany, Pennsylvania": {
+    "state": "42",
+    "place": "05976",
+    "population": "241"
+  },
+  "Big Beaver, Pennsylvania": {
+    "state": "42",
+    "place": "06240",
+    "population": "1852"
+  },
+  "Biglerville, Pennsylvania": {
+    "state": "42",
+    "place": "06296",
+    "population": "1225"
+  },
+  "Big Run, Pennsylvania": {
+    "state": "42",
+    "place": "06344",
+    "population": "647"
+  },
+  "Birdsboro, Pennsylvania": {
+    "state": "42",
+    "place": "06504",
+    "population": "5106"
+  },
+  "Birmingham, Pennsylvania": {
+    "state": "42",
+    "place": "06560",
+    "population": "89"
+  },
+  "Blain, Pennsylvania": {
+    "state": "42",
+    "place": "06824",
+    "population": "229"
+  },
+  "Blairsville, Pennsylvania": {
+    "state": "42",
+    "place": "06904",
+    "population": "3214"
+  },
+  "Blakely, Pennsylvania": {
+    "state": "42",
+    "place": "06928",
+    "population": "6657"
+  },
+  "Blawnox, Pennsylvania": {
+    "state": "42",
+    "place": "07000",
+    "population": "1454"
+  },
+  "Bloomfield, Pennsylvania": {
+    "state": "42",
+    "place": "07040",
+    "population": "1219"
+  },
+  "Blooming Valley, Pennsylvania": {
+    "state": "42",
+    "place": "07120",
+    "population": "344"
+  },
+  "Blossburg, Pennsylvania": {
+    "state": "42",
+    "place": "07160",
+    "population": "1533"
+  },
+  "Bolivar, Pennsylvania": {
+    "state": "42",
+    "place": "07480",
+    "population": "435"
+  },
+  "Bonneauville, Pennsylvania": {
+    "state": "42",
+    "place": "07560",
+    "population": "1758"
+  },
+  "Marianna, Pennsylvania": {
+    "state": "42",
+    "place": "47400",
+    "population": "399"
+  },
+  "Marietta, Pennsylvania": {
+    "state": "42",
+    "place": "47424",
+    "population": "2623"
+  },
+  "Marion Center, Pennsylvania": {
+    "state": "42",
+    "place": "47472",
+    "population": "405"
+  },
+  "Marion Heights, Pennsylvania": {
+    "state": "42",
+    "place": "47480",
+    "population": "560"
+  },
+  "Marklesburg, Pennsylvania": {
+    "state": "42",
+    "place": "47544",
+    "population": "200"
+  },
+  "Markleysburg, Pennsylvania": {
+    "state": "42",
+    "place": "47560",
+    "population": "246"
+  },
+  "Mars, Pennsylvania": {
+    "state": "42",
+    "place": "47672",
+    "population": "1458"
+  },
+  "Martinsburg, Pennsylvania": {
+    "state": "42",
+    "place": "47872",
+    "population": "1876"
+  },
+  "Marysville, Pennsylvania": {
+    "state": "42",
+    "place": "47968",
+    "population": "2652"
+  },
+  "Masontown, Pennsylvania": {
+    "state": "42",
+    "place": "48000",
+    "population": "3276"
+  },
+  "Matamoras, Pennsylvania": {
+    "state": "42",
+    "place": "48048",
+    "population": "2362"
+  },
+  "Mayfield, Pennsylvania": {
+    "state": "42",
+    "place": "48176",
+    "population": "1763"
+  },
+  "Mechanicsburg, Pennsylvania": {
+    "state": "42",
+    "place": "48376",
+    "population": "9311"
+  },
+  "Mechanicsville, Pennsylvania": {
+    "state": "42",
+    "place": "48448",
+    "population": "461"
+  },
+  "Media, Pennsylvania": {
+    "state": "42",
+    "place": "48480",
+    "population": "5901"
+  },
+  "Mercer, Pennsylvania": {
+    "state": "42",
+    "place": "48696",
+    "population": "1982"
+  },
+  "Mercersburg, Pennsylvania": {
+    "state": "42",
+    "place": "48704",
+    "population": "1507"
+  },
+  "Meshoppen, Pennsylvania": {
+    "state": "42",
+    "place": "48856",
+    "population": "326"
+  },
+  "Meyersdale, Pennsylvania": {
+    "state": "42",
+    "place": "48912",
+    "population": "2070"
+  },
+  "Marcus Hook, Pennsylvania": {
+    "state": "42",
+    "place": "47344",
+    "population": "2454"
+  },
+  "Middleburg, Pennsylvania": {
+    "state": "42",
+    "place": "48960",
+    "population": "1325"
+  },
+  "Middleport, Pennsylvania": {
+    "state": "42",
+    "place": "49048",
+    "population": "362"
+  },
+  "Middletown, Pennsylvania": {
+    "state": "42",
+    "place": "49128",
+    "population": "9533"
+  },
+  "Midland, Pennsylvania": {
+    "state": "42",
+    "place": "49184",
+    "population": "2433"
+  },
+  "Midway, Pennsylvania": {
+    "state": "42",
+    "place": "49240",
+    "population": "924"
+  },
+  "Mifflin, Pennsylvania": {
+    "state": "42",
+    "place": "49272",
+    "population": "530"
+  },
+  "Mifflinburg, Pennsylvania": {
+    "state": "42",
+    "place": "49288",
+    "population": "3485"
+  },
+  "Mifflintown, Pennsylvania": {
+    "state": "42",
+    "place": "49304",
+    "population": "840"
+  },
+  "Milesburg, Pennsylvania": {
+    "state": "42",
+    "place": "49368",
+    "population": "1093"
+  },
+  "Milford, Pennsylvania": {
+    "state": "42",
+    "place": "49400",
+    "population": "1103"
+  },
+  "Womelsdorf, Pennsylvania": {
+    "state": "42",
+    "place": "86056",
+    "population": "2892"
+  },
+  "Woodbury, Pennsylvania": {
+    "state": "42",
+    "place": "86128",
+    "population": "286"
+  },
+  "Woodcock, Pennsylvania": {
+    "state": "42",
+    "place": "86160",
+    "population": "141"
+  },
+  "Wormleysburg, Pennsylvania": {
+    "state": "42",
+    "place": "86528",
+    "population": "3043"
+  },
+  "Worthington, Pennsylvania": {
+    "state": "42",
+    "place": "86560",
+    "population": "594"
+  },
+  "Worthville, Pennsylvania": {
+    "state": "42",
+    "place": "86568",
+    "population": "80"
+  },
+  "Wrightsville, Pennsylvania": {
+    "state": "42",
+    "place": "86640",
+    "population": "2261"
+  },
+  "Wyalusing, Pennsylvania": {
+    "state": "42",
+    "place": "86656",
+    "population": "613"
+  },
+  "Wyoming, Pennsylvania": {
+    "state": "42",
+    "place": "86856",
+    "population": "3102"
+  },
+  "Wyomissing, Pennsylvania": {
+    "state": "42",
+    "place": "86880",
+    "population": "11114"
+  },
+  "Yardley, Pennsylvania": {
+    "state": "42",
+    "place": "86920",
+    "population": "2605"
+  },
+  "Yatesville, Pennsylvania": {
+    "state": "42",
+    "place": "86952",
+    "population": "638"
+  },
+  "Yeadon, Pennsylvania": {
+    "state": "42",
+    "place": "86968",
+    "population": "12054"
+  },
+  "Yoe, Pennsylvania": {
+    "state": "42",
+    "place": "87040",
+    "population": "1055"
+  },
+  "Yorkana, Pennsylvania": {
+    "state": "42",
+    "place": "87064",
+    "population": "239"
+  },
+  "York Haven, Pennsylvania": {
+    "state": "42",
+    "place": "87080",
+    "population": "686"
+  },
+  "York Springs, Pennsylvania": {
+    "state": "42",
+    "place": "87136",
+    "population": "683"
+  },
+  "Youngstown, Pennsylvania": {
+    "state": "42",
+    "place": "87208",
+    "population": "252"
+  },
+  "Youngsville, Pennsylvania": {
+    "state": "42",
+    "place": "87224",
+    "population": "1726"
+  },
+  "Youngwood, Pennsylvania": {
+    "state": "42",
+    "place": "87232",
+    "population": "2975"
+  },
+  "Zelienople, Pennsylvania": {
+    "state": "42",
+    "place": "87272",
+    "population": "3912"
+  },
+  "Boswell, Pennsylvania": {
+    "state": "42",
+    "place": "07712",
+    "population": "1224"
+  },
+  "Bowmanstown, Pennsylvania": {
+    "state": "42",
+    "place": "07880",
+    "population": "889"
+  },
+  "Boyertown, Pennsylvania": {
+    "state": "42",
+    "place": "07960",
+    "population": "4264"
+  },
+  "Brackenridge, Pennsylvania": {
+    "state": "42",
+    "place": "07976",
+    "population": "3240"
+  },
+  "Braddock, Pennsylvania": {
+    "state": "42",
+    "place": "07992",
+    "population": "1721"
+  },
+  "Braddock Hills, Pennsylvania": {
+    "state": "42",
+    "place": "08008",
+    "population": "1730"
+  },
+  "Bradford Woods, Pennsylvania": {
+    "state": "42",
+    "place": "08064",
+    "population": "1183"
+  },
+  "Brentwood, Pennsylvania": {
+    "state": "42",
+    "place": "08416",
+    "population": "10082"
+  },
+  "Briar Creek, Pennsylvania": {
+    "state": "42",
+    "place": "08472",
+    "population": "597"
+  },
+  "Bridgeport, Pennsylvania": {
+    "state": "42",
+    "place": "08568",
+    "population": "5015"
+  },
+  "Bridgeville, Pennsylvania": {
+    "state": "42",
+    "place": "08624",
+    "population": "4804"
+  },
+  "Bridgewater, Pennsylvania": {
+    "state": "42",
+    "place": "08632",
+    "population": "745"
+  },
+  "Brisbin, Pennsylvania": {
+    "state": "42",
+    "place": "08744",
+    "population": "422"
+  },
+  "Bristol, Pennsylvania": {
+    "state": "42",
+    "place": "08760",
+    "population": "9861"
+  },
+  "Broad Top City, Pennsylvania": {
+    "state": "42",
+    "place": "08896",
+    "population": "367"
+  },
+  "Brockway, Pennsylvania": {
+    "state": "42",
+    "place": "08960",
+    "population": "2276"
+  },
+  "Brookhaven, Pennsylvania": {
+    "state": "42",
+    "place": "09080",
+    "population": "8300"
+  },
+  "Brookville, Pennsylvania": {
+    "state": "42",
+    "place": "09224",
+    "population": "3995"
+  },
+  "Brownstown, Pennsylvania": {
+    "state": "42",
+    "place": "09400",
+    "population": "696"
+  },
+  "Brownsville, Pennsylvania": {
+    "state": "42",
+    "place": "09432",
+    "population": "2185"
+  },
+  "Bruin, Pennsylvania": {
+    "state": "42",
+    "place": "09528",
+    "population": "423"
+  },
+  "Bryn Athyn, Pennsylvania": {
+    "state": "42",
+    "place": "09696",
+    "population": "1272"
+  },
+  "Burgettstown, Pennsylvania": {
+    "state": "42",
+    "place": "10224",
+    "population": "1425"
+  },
+  "Burlington, Pennsylvania": {
+    "state": "42",
+    "place": "10240",
+    "population": "144"
+  },
+  "Burnham, Pennsylvania": {
+    "state": "42",
+    "place": "10256",
+    "population": "1991"
+  },
+  "Burnside, Pennsylvania": {
+    "state": "42",
+    "place": "10280",
+    "population": "188"
+  },
+  "California, Pennsylvania": {
+    "state": "42",
+    "place": "10768",
+    "population": "5362"
+  },
+  "Callensburg, Pennsylvania": {
+    "state": "42",
+    "place": "10792",
+    "population": "150"
+  },
+  "Callery, Pennsylvania": {
+    "state": "42",
+    "place": "10800",
+    "population": "364"
+  },
+  "Callimont, Pennsylvania": {
+    "state": "42",
+    "place": "10808",
+    "population": "56"
+  },
+  "Millbourne, Pennsylvania": {
+    "state": "42",
+    "place": "49504",
+    "population": "1212"
+  },
+  "Mill Creek, Pennsylvania": {
+    "state": "42",
+    "place": "49552",
+    "population": "285"
+  },
+  "Millersburg, Pennsylvania": {
+    "state": "42",
+    "place": "49680",
+    "population": "2545"
+  },
+  "Millerstown, Pennsylvania": {
+    "state": "42",
+    "place": "49720",
+    "population": "691"
+  },
+  "Millersville, Pennsylvania": {
+    "state": "42",
+    "place": "49728",
+    "population": "7903"
+  },
+  "Mill Hall, Pennsylvania": {
+    "state": "42",
+    "place": "49760",
+    "population": "1479"
+  },
+  "Millheim, Pennsylvania": {
+    "state": "42",
+    "place": "49768",
+    "population": "831"
+  },
+  "Millvale, Pennsylvania": {
+    "state": "42",
+    "place": "49920",
+    "population": "3376"
+  },
+  "Mill Village, Pennsylvania": {
+    "state": "42",
+    "place": "49936",
+    "population": "388"
+  },
+  "Millville, Pennsylvania": {
+    "state": "42",
+    "place": "49944",
+    "population": "976"
+  },
+  "Milton, Pennsylvania": {
+    "state": "42",
+    "place": "50016",
+    "population": "6609"
+  },
+  "Minersville, Pennsylvania": {
+    "state": "42",
+    "place": "50088",
+    "population": "4370"
+  },
+  "Modena, Pennsylvania": {
+    "state": "42",
+    "place": "50232",
+    "population": "541"
+  },
+  "Mohnton, Pennsylvania": {
+    "state": "42",
+    "place": "50272",
+    "population": "2927"
+  },
+  "Monaca, Pennsylvania": {
+    "state": "42",
+    "place": "50320",
+    "population": "5625"
+  },
+  "Monroe, Pennsylvania": {
+    "state": "42",
+    "place": "50432",
+    "population": "478"
+  },
+  "Mont Alto, Pennsylvania": {
+    "state": "42",
+    "place": "50544",
+    "population": "1580"
+  },
+  "Montgomery, Pennsylvania": {
+    "state": "42",
+    "place": "50632",
+    "population": "1568"
+  },
+  "Montoursville, Pennsylvania": {
+    "state": "42",
+    "place": "50720",
+    "population": "4750"
+  },
+  "Montrose, Pennsylvania": {
+    "state": "42",
+    "place": "50736",
+    "population": "1290"
+  },
+  "Moosic, Pennsylvania": {
+    "state": "42",
+    "place": "50880",
+    "population": "5959"
+  },
+  "Morrisville, Pennsylvania": {
+    "state": "42",
+    "place": "51144",
+    "population": "9809"
+  },
+  "Morton, Pennsylvania": {
+    "state": "42",
+    "place": "51176",
+    "population": "2778"
+  },
+  "Moscow, Pennsylvania": {
+    "state": "42",
+    "place": "51208",
+    "population": "2039"
+  },
+  "Mount Carbon, Pennsylvania": {
+    "state": "42",
+    "place": "51488",
+    "population": "91"
+  },
+  "Cambridge Springs, Pennsylvania": {
+    "state": "42",
+    "place": "10912",
+    "population": "2590"
+  },
+  "Camp Hill, Pennsylvania": {
+    "state": "42",
+    "place": "11000",
+    "population": "8130"
+  },
+  "Canonsburg, Pennsylvania": {
+    "state": "42",
+    "place": "11152",
+    "population": "9744"
+  },
+  "Canton, Pennsylvania": {
+    "state": "42",
+    "place": "11160",
+    "population": "1735"
+  },
+  "Carlisle, Pennsylvania": {
+    "state": "42",
+    "place": "11272",
+    "population": "20118"
+  },
+  "Carmichaels, Pennsylvania": {
+    "state": "42",
+    "place": "11328",
+    "population": "432"
+  },
+  "Carnegie, Pennsylvania": {
+    "state": "42",
+    "place": "11336",
+    "population": "8134"
+  },
+  "Carrolltown, Pennsylvania": {
+    "state": "42",
+    "place": "11456",
+    "population": "1051"
+  },
+  "Carroll Valley, Pennsylvania": {
+    "state": "42",
+    "place": "11472",
+    "population": "3940"
+  },
+  "Cassandra, Pennsylvania": {
+    "state": "42",
+    "place": "11616",
+    "population": "162"
+  },
+  "Casselman, Pennsylvania": {
+    "state": "42",
+    "place": "11624",
+    "population": "104"
+  },
+  "Cassville, Pennsylvania": {
+    "state": "42",
+    "place": "11632",
+    "population": "135"
+  },
+  "Castle Shannon, Pennsylvania": {
+    "state": "42",
+    "place": "11680",
+    "population": "8249"
+  },
+  "Catasauqua, Pennsylvania": {
+    "state": "42",
+    "place": "11720",
+    "population": "6518"
+  },
+  "Catawissa, Pennsylvania": {
+    "state": "42",
+    "place": "11736",
+    "population": "1536"
+  },
+  "Centerport, Pennsylvania": {
+    "state": "42",
+    "place": "12104",
+    "population": "314"
+  },
+  "Central City, Pennsylvania": {
+    "state": "42",
+    "place": "12296",
+    "population": "998"
+  },
+  "Centralia, Pennsylvania": {
+    "state": "42",
+    "place": "12312",
+    "population": "5"
+  },
+  "Centre Hall, Pennsylvania": {
+    "state": "42",
+    "place": "12376",
+    "population": "1268"
+  },
+  "Chalfant, Pennsylvania": {
+    "state": "42",
+    "place": "12496",
+    "population": "748"
+  },
+  "Chalfont, Pennsylvania": {
+    "state": "42",
+    "place": "12504",
+    "population": "4253"
+  },
+  "Chambersburg, Pennsylvania": {
+    "state": "42",
+    "place": "12536",
+    "population": "21903"
+  },
+  "Chapman, Pennsylvania": {
+    "state": "42",
+    "place": "12656",
+    "population": "223"
+  },
+  "Charleroi, Pennsylvania": {
+    "state": "42",
+    "place": "12704",
+    "population": "4234"
+  },
+  "Cherry Tree, Pennsylvania": {
+    "state": "42",
+    "place": "13120",
+    "population": "268"
+  },
+  "Cherry Valley, Pennsylvania": {
+    "state": "42",
+    "place": "13152",
+    "population": "60"
+  },
+  "Chester Heights, Pennsylvania": {
+    "state": "42",
+    "place": "13232",
+    "population": "2897"
+  },
+  "Chester Hill, Pennsylvania": {
+    "state": "42",
+    "place": "13240",
+    "population": "821"
+  },
+  "Mount Carmel, Pennsylvania": {
+    "state": "42",
+    "place": "51496",
+    "population": "5725"
+  },
+  "Mount Gretna, Pennsylvania": {
+    "state": "42",
+    "place": "51568",
+    "population": "193"
+  },
+  "Mount Holly Springs, Pennsylvania": {
+    "state": "42",
+    "place": "51592",
+    "population": "1995"
+  },
+  "Mount Jewett, Pennsylvania": {
+    "state": "42",
+    "place": "51632",
+    "population": "858"
+  },
+  "Mount Joy, Pennsylvania": {
+    "state": "42",
+    "place": "51656",
+    "population": "8325"
+  },
+  "Mount Oliver, Pennsylvania": {
+    "state": "42",
+    "place": "51744",
+    "population": "3394"
+  },
+  "Mount Penn, Pennsylvania": {
+    "state": "42",
+    "place": "51760",
+    "population": "3240"
+  },
+  "Mount Pleasant, Pennsylvania": {
+    "state": "42",
+    "place": "51880",
+    "population": "4245"
+  },
+  "Mount Pocono, Pennsylvania": {
+    "state": "42",
+    "place": "51912",
+    "population": "3089"
+  },
+  "Mount Union, Pennsylvania": {
+    "state": "42",
+    "place": "51984",
+    "population": "2308"
+  },
+  "Mountville, Pennsylvania": {
+    "state": "42",
+    "place": "52016",
+    "population": "3017"
+  },
+  "Mount Wolf, Pennsylvania": {
+    "state": "42",
+    "place": "52056",
+    "population": "1368"
+  },
+  "Muncy, Pennsylvania": {
+    "state": "42",
+    "place": "52264",
+    "population": "2440"
+  },
+  "Munhall, Pennsylvania": {
+    "state": "42",
+    "place": "52320",
+    "population": "10774"
+  },
+  "Myerstown, Pennsylvania": {
+    "state": "42",
+    "place": "52488",
+    "population": "3094"
+  },
+  "Nanty-Glo, Pennsylvania": {
+    "state": "42",
+    "place": "52616",
+    "population": "2511"
+  },
+  "Narberth, Pennsylvania": {
+    "state": "42",
+    "place": "52664",
+    "population": "4492"
+  },
+  "Nazareth, Pennsylvania": {
+    "state": "42",
+    "place": "52808",
+    "population": "6053"
+  },
+  "Nescopeck, Pennsylvania": {
+    "state": "42",
+    "place": "52984",
+    "population": "1480"
+  },
+  "Nesquehoning, Pennsylvania": {
+    "state": "42",
+    "place": "53088",
+    "population": "3336"
+  },
+  "New Albany, Pennsylvania": {
+    "state": "42",
+    "place": "53152",
+    "population": "251"
+  },
+  "New Alexandria, Pennsylvania": {
+    "state": "42",
+    "place": "53160",
+    "population": "501"
+  },
+  "New Baltimore, Pennsylvania": {
+    "state": "42",
+    "place": "53168",
+    "population": "142"
+  },
+  "New Beaver, Pennsylvania": {
+    "state": "42",
+    "place": "53184",
+    "population": "1372"
+  },
+  "New Berlin, Pennsylvania": {
+    "state": "42",
+    "place": "53200",
+    "population": "801"
+  },
+  "New Bethlehem, Pennsylvania": {
+    "state": "42",
+    "place": "53248",
+    "population": "978"
+  },
+  "New Brighton, Pennsylvania": {
+    "state": "42",
+    "place": "53288",
+    "population": "5729"
+  },
+  "New Britain, Pennsylvania": {
+    "state": "42",
+    "place": "53296",
+    "population": "2836"
+  },
+  "New Buffalo, Pennsylvania": {
+    "state": "42",
+    "place": "53320",
+    "population": "124"
+  },
+  "New Centerville, Pennsylvania": {
+    "state": "42",
+    "place": "53416",
+    "population": "128"
+  },
+  "Chest Springs, Pennsylvania": {
+    "state": "42",
+    "place": "13384",
+    "population": "140"
+  },
+  "Cheswick, Pennsylvania": {
+    "state": "42",
+    "place": "13392",
+    "population": "1672"
+  },
+  "Chicora, Pennsylvania": {
+    "state": "42",
+    "place": "13440",
+    "population": "916"
+  },
+  "Christiana, Pennsylvania": {
+    "state": "42",
+    "place": "13512",
+    "population": "1112"
+  },
+  "Churchill, Pennsylvania": {
+    "state": "42",
+    "place": "13608",
+    "population": "3157"
+  },
+  "Clarendon, Pennsylvania": {
+    "state": "42",
+    "place": "13776",
+    "population": "410"
+  },
+  "Clarion, Pennsylvania": {
+    "state": "42",
+    "place": "13800",
+    "population": "3931"
+  },
+  "Clark, Pennsylvania": {
+    "state": "42",
+    "place": "13832",
+    "population": "576"
+  },
+  "Clarks Green, Pennsylvania": {
+    "state": "42",
+    "place": "13864",
+    "population": "1524"
+  },
+  "Clarks Summit, Pennsylvania": {
+    "state": "42",
+    "place": "13880",
+    "population": "5107"
+  },
+  "Clarksville, Pennsylvania": {
+    "state": "42",
+    "place": "13896",
+    "population": "203"
+  },
+  "Claysville, Pennsylvania": {
+    "state": "42",
+    "place": "14000",
+    "population": "733"
+  },
+  "Clearfield, Pennsylvania": {
+    "state": "42",
+    "place": "14064",
+    "population": "5962"
+  },
+  "Cleona, Pennsylvania": {
+    "state": "42",
+    "place": "14160",
+    "population": "2013"
+  },
+  "Clifton Heights, Pennsylvania": {
+    "state": "42",
+    "place": "14264",
+    "population": "6863"
+  },
+  "Clintonville, Pennsylvania": {
+    "state": "42",
+    "place": "14376",
+    "population": "439"
+  },
+  "Clymer, Pennsylvania": {
+    "state": "42",
+    "place": "14520",
+    "population": "1321"
+  },
+  "Coal Center, Pennsylvania": {
+    "state": "42",
+    "place": "14568",
+    "population": "110"
+  },
+  "Coalmont, Pennsylvania": {
+    "state": "42",
+    "place": "14640",
+    "population": "90"
+  },
+  "Coalport, Pennsylvania": {
+    "state": "42",
+    "place": "14656",
+    "population": "425"
+  },
+  "Cochranton, Pennsylvania": {
+    "state": "42",
+    "place": "14800",
+    "population": "1118"
+  },
+  "Cokeburg, Pennsylvania": {
+    "state": "42",
+    "place": "14896",
+    "population": "629"
+  },
+  "Collegeville, Pennsylvania": {
+    "state": "42",
+    "place": "15192",
+    "population": "5043"
+  },
+  "Collingdale, Pennsylvania": {
+    "state": "42",
+    "place": "15232",
+    "population": "8908"
+  },
+  "Columbia, Pennsylvania": {
+    "state": "42",
+    "place": "15384",
+    "population": "10207"
+  },
+  "Colwyn, Pennsylvania": {
+    "state": "42",
+    "place": "15432",
+    "population": "2474"
+  },
+  "New Columbus, Pennsylvania": {
+    "state": "42",
+    "place": "53448",
+    "population": "222"
+  },
+  "New Cumberland, Pennsylvania": {
+    "state": "42",
+    "place": "53464",
+    "population": "7507"
+  },
+  "New Eagle, Pennsylvania": {
+    "state": "42",
+    "place": "53496",
+    "population": "2049"
+  },
+  "Newell, Pennsylvania": {
+    "state": "42",
+    "place": "53504",
+    "population": "513"
+  },
+  "New Florence, Pennsylvania": {
+    "state": "42",
+    "place": "53544",
+    "population": "671"
+  },
+  "New Freedom, Pennsylvania": {
+    "state": "42",
+    "place": "53568",
+    "population": "4877"
+  },
+  "New Galilee, Pennsylvania": {
+    "state": "42",
+    "place": "53592",
+    "population": "330"
+  },
+  "New Holland, Pennsylvania": {
+    "state": "42",
+    "place": "53696",
+    "population": "5743"
+  },
+  "New Hope, Pennsylvania": {
+    "state": "42",
+    "place": "53712",
+    "population": "2612"
+  },
+  "New Lebanon, Pennsylvania": {
+    "state": "42",
+    "place": "53768",
+    "population": "183"
+  },
+  "New Milford, Pennsylvania": {
+    "state": "42",
+    "place": "53880",
+    "population": "812"
+  },
+  "New Morgan, Pennsylvania": {
+    "state": "42",
+    "place": "53916",
+    "population": "54"
+  },
+  "New Oxford, Pennsylvania": {
+    "state": "42",
+    "place": "53920",
+    "population": "1868"
+  },
+  "New Paris, Pennsylvania": {
+    "state": "42",
+    "place": "53928",
+    "population": "192"
+  },
+  "New Philadelphia, Pennsylvania": {
+    "state": "42",
+    "place": "53944",
+    "population": "1054"
+  },
+  "Newport, Pennsylvania": {
+    "state": "42",
+    "place": "53968",
+    "population": "1485"
+  },
+  "New Ringgold, Pennsylvania": {
+    "state": "42",
+    "place": "54016",
+    "population": "253"
+  },
+  "Newry, Pennsylvania": {
+    "state": "42",
+    "place": "54024",
+    "population": "230"
+  },
+  "New Salem, Pennsylvania": {
+    "state": "42",
+    "place": "54056",
+    "population": "822"
+  },
+  "New Stanton, Pennsylvania": {
+    "state": "42",
+    "place": "54104",
+    "population": "2339"
+  },
+  "Newton Hamilton, Pennsylvania": {
+    "state": "42",
+    "place": "54160",
+    "population": "196"
+  },
+  "Newtown, Pennsylvania": {
+    "state": "42",
+    "place": "54184",
+    "population": "2268"
+  },
+  "Newville, Pennsylvania": {
+    "state": "42",
+    "place": "54320",
+    "population": "1376"
+  },
+  "New Washington, Pennsylvania": {
+    "state": "42",
+    "place": "54344",
+    "population": "50"
+  },
+  "New Wilmington, Pennsylvania": {
+    "state": "42",
+    "place": "54352",
+    "population": "2092"
+  },
+  "Nicholson, Pennsylvania": {
+    "state": "42",
+    "place": "54400",
+    "population": "696"
+  },
+  "Norristown, Pennsylvania": {
+    "state": "42",
+    "place": "54656",
+    "population": "35748"
+  },
+  "Northampton, Pennsylvania": {
+    "state": "42",
+    "place": "54696",
+    "population": "10395"
+  },
+  "North Apollo, Pennsylvania": {
+    "state": "42",
+    "place": "54728",
+    "population": "1252"
+  },
+  "North Belle Vernon, Pennsylvania": {
+    "state": "42",
+    "place": "54776",
+    "population": "1873"
+  },
+  "North Braddock, Pennsylvania": {
+    "state": "42",
+    "place": "54816",
+    "population": "4320"
+  },
+  "North Catasauqua, Pennsylvania": {
+    "state": "42",
+    "place": "54872",
+    "population": "2971"
+  },
+  "North Charleroi, Pennsylvania": {
+    "state": "42",
+    "place": "54888",
+    "population": "1303"
+  },
+  "North East, Pennsylvania": {
+    "state": "42",
+    "place": "54952",
+    "population": "4106"
+  },
+  "Northern Cambria, Pennsylvania": {
+    "state": "42",
+    "place": "55000",
+    "population": "3560"
+  },
+  "North Irwin, Pennsylvania": {
+    "state": "42",
+    "place": "55136",
+    "population": "823"
+  },
+  "Northumberland, Pennsylvania": {
+    "state": "42",
+    "place": "55456",
+    "population": "3911"
+  },
+  "Conneaut Lake, Pennsylvania": {
+    "state": "42",
+    "place": "15744",
+    "population": "624"
+  },
+  "Conneautville, Pennsylvania": {
+    "state": "42",
+    "place": "15760",
+    "population": "739"
+  },
+  "Connoquenessing, Pennsylvania": {
+    "state": "42",
+    "place": "15808",
+    "population": "668"
+  },
+  "Conshohocken, Pennsylvania": {
+    "state": "42",
+    "place": "15848",
+    "population": "9261"
+  },
+  "Conway, Pennsylvania": {
+    "state": "42",
+    "place": "15872",
+    "population": "2168"
+  },
+  "Conyngham, Pennsylvania": {
+    "state": "42",
+    "place": "15888",
+    "population": "1825"
+  },
+  "Coopersburg, Pennsylvania": {
+    "state": "42",
+    "place": "16056",
+    "population": "2447"
+  },
+  "Cooperstown, Pennsylvania": {
+    "state": "42",
+    "place": "16080",
+    "population": "399"
+  },
+  "Coplay, Pennsylvania": {
+    "state": "42",
+    "place": "16128",
+    "population": "3348"
+  },
+  "Coraopolis, Pennsylvania": {
+    "state": "42",
+    "place": "16144",
+    "population": "5559"
+  },
+  "Cornwall, Pennsylvania": {
+    "state": "42",
+    "place": "16256",
+    "population": "4604"
+  },
+  "Corsica, Pennsylvania": {
+    "state": "42",
+    "place": "16304",
+    "population": "319"
+  },
+  "Coudersport, Pennsylvania": {
+    "state": "42",
+    "place": "16448",
+    "population": "2381"
+  },
+  "Courtdale, Pennsylvania": {
+    "state": "42",
+    "place": "16568",
+    "population": "689"
+  },
+  "Crafton, Pennsylvania": {
+    "state": "42",
+    "place": "16848",
+    "population": "6099"
+  },
+  "Cranesville, Pennsylvania": {
+    "state": "42",
+    "place": "16960",
+    "population": "570"
+  },
+  "Creekside, Pennsylvania": {
+    "state": "42",
+    "place": "17024",
+    "population": "288"
+  },
+  "Cresson, Pennsylvania": {
+    "state": "42",
+    "place": "17136",
+    "population": "1525"
+  },
+  "Cressona, Pennsylvania": {
+    "state": "42",
+    "place": "17152",
+    "population": "1601"
+  },
+  "Cross Roads, Pennsylvania": {
+    "state": "42",
+    "place": "17416",
+    "population": "523"
+  },
+  "Curwensville, Pennsylvania": {
+    "state": "42",
+    "place": "17840",
+    "population": "2567"
+  },
+  "Confluence, Pennsylvania": {
+    "state": "42",
+    "place": "15680",
+    "population": "722"
+  },
+  "Daisytown, Pennsylvania": {
+    "state": "42",
+    "place": "17976",
+    "population": "298"
+  },
+  "Dale, Pennsylvania": {
+    "state": "42",
+    "place": "18000",
+    "population": "1008"
+  },
+  "Dallas, Pennsylvania": {
+    "state": "42",
+    "place": "18048",
+    "population": "2694"
+  },
+  "Dallastown, Pennsylvania": {
+    "state": "42",
+    "place": "18072",
+    "population": "4195"
+  },
+  "Dalton, Pennsylvania": {
+    "state": "42",
+    "place": "18088",
+    "population": "1284"
+  },
+  "Danville, Pennsylvania": {
+    "state": "42",
+    "place": "18136",
+    "population": "4239"
+  },
+  "Darby, Pennsylvania": {
+    "state": "42",
+    "place": "18152",
+    "population": "10715"
+  },
+  "Darlington, Pennsylvania": {
+    "state": "42",
+    "place": "18192",
+    "population": "249"
+  },
+  "Dauphin, Pennsylvania": {
+    "state": "42",
+    "place": "18272",
+    "population": "795"
+  },
+  "Dawson, Pennsylvania": {
+    "state": "42",
+    "place": "18360",
+    "population": "352"
+  },
+  "Dayton, Pennsylvania": {
+    "state": "42",
+    "place": "18400",
+    "population": "549"
+  },
+  "North York, Pennsylvania": {
+    "state": "42",
+    "place": "55608",
+    "population": "2200"
+  },
+  "Norwood, Pennsylvania": {
+    "state": "42",
+    "place": "55664",
+    "population": "5943"
+  },
+  "Nuangola, Pennsylvania": {
+    "state": "42",
+    "place": "55752",
+    "population": "666"
+  },
+  "Oakdale, Pennsylvania": {
+    "state": "42",
+    "place": "55840",
+    "population": "1475"
+  },
+  "Oakland, Pennsylvania": {
+    "state": "42",
+    "place": "56008",
+    "population": "563"
+  },
+  "Oakmont, Pennsylvania": {
+    "state": "42",
+    "place": "56088",
+    "population": "6758"
+  },
+  "Ohiopyle, Pennsylvania": {
+    "state": "42",
+    "place": "56408",
+    "population": "37"
+  },
+  "Ohioville, Pennsylvania": {
+    "state": "42",
+    "place": "56432",
+    "population": "3349"
+  },
+  "Oklahoma, Pennsylvania": {
+    "state": "42",
+    "place": "56496",
+    "population": "788"
+  },
+  "Old Forge, Pennsylvania": {
+    "state": "42",
+    "place": "56576",
+    "population": "8497"
+  },
+  "Olyphant, Pennsylvania": {
+    "state": "42",
+    "place": "56792",
+    "population": "5383"
+  },
+  "Orangeville, Pennsylvania": {
+    "state": "42",
+    "place": "56912",
+    "population": "479"
+  },
+  "Orbisonia, Pennsylvania": {
+    "state": "42",
+    "place": "56928",
+    "population": "449"
+  },
+  "Orrstown, Pennsylvania": {
+    "state": "42",
+    "place": "57112",
+    "population": "214"
+  },
+  "North Wales, Pennsylvania": {
+    "state": "42",
+    "place": "55512",
+    "population": "3426"
+  },
+  "Orwigsburg, Pennsylvania": {
+    "state": "42",
+    "place": "57184",
+    "population": "3000"
+  },
+  "Osceola Mills, Pennsylvania": {
+    "state": "42",
+    "place": "57232",
+    "population": "1045"
+  },
+  "Oswayo, Pennsylvania": {
+    "state": "42",
+    "place": "57280",
+    "population": "134"
+  },
+  "Oxford, Pennsylvania": {
+    "state": "42",
+    "place": "57480",
+    "population": "5736"
+  },
+  "Paint, Pennsylvania": {
+    "state": "42",
+    "place": "57544",
+    "population": "906"
+  },
+  "Palmerton, Pennsylvania": {
+    "state": "42",
+    "place": "57696",
+    "population": "5593"
+  },
+  "Palmyra, Pennsylvania": {
+    "state": "42",
+    "place": "57720",
+    "population": "7830"
+  },
+  "Palo Alto, Pennsylvania": {
+    "state": "42",
+    "place": "57752",
+    "population": "970"
+  },
+  "Deemston, Pennsylvania": {
+    "state": "42",
+    "place": "18496",
+    "population": "754"
+  },
+  "Deer Lake, Pennsylvania": {
+    "state": "42",
+    "place": "18576",
+    "population": "670"
+  },
+  "Delaware Water Gap, Pennsylvania": {
+    "state": "42",
+    "place": "18736",
+    "population": "675"
+  },
+  "Delmont, Pennsylvania": {
+    "state": "42",
+    "place": "18768",
+    "population": "2596"
+  },
+  "Delta, Pennsylvania": {
+    "state": "42",
+    "place": "18800",
+    "population": "707"
+  },
+  "Denver, Pennsylvania": {
+    "state": "42",
+    "place": "18888",
+    "population": "3792"
+  },
+  "Derry, Pennsylvania": {
+    "state": "42",
+    "place": "18960",
+    "population": "2639"
+  },
+  "Dickson City, Pennsylvania": {
+    "state": "42",
+    "place": "19160",
+    "population": "6038"
+  },
+  "Dillsburg, Pennsylvania": {
+    "state": "42",
+    "place": "19208",
+    "population": "2635"
+  },
+  "Donegal, Pennsylvania": {
+    "state": "42",
+    "place": "19472",
+    "population": "102"
+  },
+  "Donora, Pennsylvania": {
+    "state": "42",
+    "place": "19536",
+    "population": "4569"
+  },
+  "Dormont, Pennsylvania": {
+    "state": "42",
+    "place": "19576",
+    "population": "8244"
+  },
+  "Dover, Pennsylvania": {
+    "state": "42",
+    "place": "19696",
+    "population": "1954"
+  },
+  "Downingtown, Pennsylvania": {
+    "state": "42",
+    "place": "19752",
+    "population": "7892"
+  },
+  "Doylestown, Pennsylvania": {
+    "state": "42",
+    "place": "19784",
+    "population": "8300"
+  },
+  "Dravosburg, Pennsylvania": {
+    "state": "42",
+    "place": "19856",
+    "population": "1612"
+  },
+  "Driftwood, Pennsylvania": {
+    "state": "42",
+    "place": "19976",
+    "population": "38"
+  },
+  "Dublin, Pennsylvania": {
+    "state": "42",
+    "place": "20104",
+    "population": "2177"
+  },
+  "Duboistown, Pennsylvania": {
+    "state": "42",
+    "place": "20144",
+    "population": "1200"
+  },
+  "Dudley, Pennsylvania": {
+    "state": "42",
+    "place": "20152",
+    "population": "184"
+  },
+  "Dunbar, Pennsylvania": {
+    "state": "42",
+    "place": "20216",
+    "population": "1013"
+  },
+  "Duncannon, Pennsylvania": {
+    "state": "42",
+    "place": "20240",
+    "population": "1478"
+  },
+  "Duncansville, Pennsylvania": {
+    "state": "42",
+    "place": "20248",
+    "population": "1255"
+  },
+  "Dunlevy, Pennsylvania": {
+    "state": "42",
+    "place": "20328",
+    "population": "371"
+  },
+  "Dunmore, Pennsylvania": {
+    "state": "42",
+    "place": "20352",
+    "population": "14042"
+  },
+  "Dupont, Pennsylvania": {
+    "state": "42",
+    "place": "20424",
+    "population": "2539"
+  },
+  "Duryea, Pennsylvania": {
+    "state": "42",
+    "place": "20512",
+    "population": "5036"
+  },
+  "Dushore, Pennsylvania": {
+    "state": "42",
+    "place": "20528",
+    "population": "451"
+  },
+  "Eagles Mere, Pennsylvania": {
+    "state": "42",
+    "place": "20648",
+    "population": "148"
+  },
+  "Parkesburg, Pennsylvania": {
+    "state": "42",
+    "place": "58032",
+    "population": "3862"
+  },
+  "Parkside, Pennsylvania": {
+    "state": "42",
+    "place": "58176",
+    "population": "2321"
+  },
+  "Parryville, Pennsylvania": {
+    "state": "42",
+    "place": "58304",
+    "population": "416"
+  },
+  "Patterson Heights, Pennsylvania": {
+    "state": "42",
+    "place": "58384",
+    "population": "639"
+  },
+  "Patton, Pennsylvania": {
+    "state": "42",
+    "place": "58432",
+    "population": "1728"
+  },
+  "Paxtang, Pennsylvania": {
+    "state": "42",
+    "place": "58504",
+    "population": "1648"
+  },
+  "Pen Argyl, Pennsylvania": {
+    "state": "42",
+    "place": "58696",
+    "population": "3510"
+  },
+  "Penbrook, Pennsylvania": {
+    "state": "42",
+    "place": "58712",
+    "population": "3274"
+  },
+  "Penn, Pennsylvania": {
+    "state": "42",
+    "place": "58872",
+    "population": "435"
+  },
+  "Penndel, Pennsylvania": {
+    "state": "42",
+    "place": "58936",
+    "population": "2515"
+  },
+  "Penn Lake Park, Pennsylvania": {
+    "state": "42",
+    "place": "59054",
+    "population": "360"
+  },
+  "Pennsburg, Pennsylvania": {
+    "state": "42",
+    "place": "59120",
+    "population": "3889"
+  },
+  "Pennsbury Village, Pennsylvania": {
+    "state": "42",
+    "place": "59152",
+    "population": "677"
+  },
+  "Perkasie, Pennsylvania": {
+    "state": "42",
+    "place": "59384",
+    "population": "9120"
+  },
+  "Perryopolis, Pennsylvania": {
+    "state": "42",
+    "place": "59520",
+    "population": "1705"
+  },
+  "Petersburg, Pennsylvania": {
+    "state": "42",
+    "place": "59616",
+    "population": "419"
+  },
+  "Petrolia, Pennsylvania": {
+    "state": "42",
+    "place": "59672",
+    "population": "179"
+  },
+  "Philipsburg, Pennsylvania": {
+    "state": "42",
+    "place": "60008",
+    "population": "2789"
+  },
+  "Phoenixville, Pennsylvania": {
+    "state": "42",
+    "place": "60120",
+    "population": "18602"
+  },
+  "Picture Rocks, Pennsylvania": {
+    "state": "42",
+    "place": "60136",
+    "population": "643"
+  },
+  "Pillow, Pennsylvania": {
+    "state": "42",
+    "place": "60264",
+    "population": "292"
+  },
+  "Pine Grove, Pennsylvania": {
+    "state": "42",
+    "place": "60456",
+    "population": "2049"
+  },
+  "Pitcairn, Pennsylvania": {
+    "state": "42",
+    "place": "60712",
+    "population": "3101"
+  },
+  "Platea, Pennsylvania": {
+    "state": "42",
+    "place": "61168",
+    "population": "442"
+  },
+  "East Bangor, Pennsylvania": {
+    "state": "42",
+    "place": "20776",
+    "population": "1124"
+  },
+  "East Berlin, Pennsylvania": {
+    "state": "42",
+    "place": "20792",
+    "population": "1542"
+  },
+  "East Brady, Pennsylvania": {
+    "state": "42",
+    "place": "20840",
+    "population": "818"
+  },
+  "East Butler, Pennsylvania": {
+    "state": "42",
+    "place": "20904",
+    "population": "764"
+  },
+  "East Conemaugh, Pennsylvania": {
+    "state": "42",
+    "place": "20992",
+    "population": "1082"
+  },
+  "East Greenville, Pennsylvania": {
+    "state": "42",
+    "place": "21200",
+    "population": "3166"
+  },
+  "East Lansdowne, Pennsylvania": {
+    "state": "42",
+    "place": "21384",
+    "population": "2714"
+  },
+  "East McKeesport, Pennsylvania": {
+    "state": "42",
+    "place": "21444",
+    "population": "2076"
+  },
+  "East Petersburg, Pennsylvania": {
+    "state": "42",
+    "place": "21688",
+    "population": "4573"
+  },
+  "East Pittsburgh, Pennsylvania": {
+    "state": "42",
+    "place": "21712",
+    "population": "1927"
+  },
+  "East Prospect, Pennsylvania": {
+    "state": "42",
+    "place": "21728",
+    "population": "934"
+  },
+  "East Rochester, Pennsylvania": {
+    "state": "42",
+    "place": "21752",
+    "population": "565"
+  },
+  "East Side, Pennsylvania": {
+    "state": "42",
+    "place": "21816",
+    "population": "247"
+  },
+  "East Stroudsburg, Pennsylvania": {
+    "state": "42",
+    "place": "21872",
+    "population": "9669"
+  },
+  "Eastvale, Pennsylvania": {
+    "state": "42",
+    "place": "21968",
+    "population": "184"
+  },
+  "East Vandergrift, Pennsylvania": {
+    "state": "42",
+    "place": "21976",
+    "population": "602"
+  },
+  "East Washington, Pennsylvania": {
+    "state": "42",
+    "place": "22016",
+    "population": "1853"
+  },
+  "Eau Claire, Pennsylvania": {
+    "state": "42",
+    "place": "22128",
+    "population": "307"
+  },
+  "Ebensburg, Pennsylvania": {
+    "state": "42",
+    "place": "22144",
+    "population": "3404"
+  },
+  "Economy, Pennsylvania": {
+    "state": "42",
+    "place": "22264",
+    "population": "9098"
+  },
+  "Eddystone, Pennsylvania": {
+    "state": "42",
+    "place": "22296",
+    "population": "2459"
+  },
+  "Edgewood, Pennsylvania": {
+    "state": "42",
+    "place": "22520",
+    "population": "3145"
+  },
+  "Edgeworth, Pennsylvania": {
+    "state": "42",
+    "place": "22576",
+    "population": "1669"
+  },
+  "Edinboro, Pennsylvania": {
+    "state": "42",
+    "place": "22608",
+    "population": "4964"
+  },
+  "Edwardsville, Pennsylvania": {
+    "state": "42",
+    "place": "22672",
+    "population": "4929"
+  },
+  "Ehrenfeld, Pennsylvania": {
+    "state": "42",
+    "place": "22712",
+    "population": "203"
+  },
+  "Elco, Pennsylvania": {
+    "state": "42",
+    "place": "22800",
+    "population": "267"
+  },
+  "Elderton, Pennsylvania": {
+    "state": "42",
+    "place": "22832",
+    "population": "334"
+  },
+  "Eldred, Pennsylvania": {
+    "state": "42",
+    "place": "22888",
+    "population": "765"
+  },
+  "Elgin, Pennsylvania": {
+    "state": "42",
+    "place": "22960",
+    "population": "204"
+  },
+  "Elizabeth, Pennsylvania": {
+    "state": "42",
+    "place": "22992",
+    "population": "1398"
+  },
+  "Elizabethtown, Pennsylvania": {
+    "state": "42",
+    "place": "23016",
+    "population": "11639"
+  },
+  "Pleasant Hills, Pennsylvania": {
+    "state": "42",
+    "place": "61328",
+    "population": "8504"
+  },
+  "Plum, Pennsylvania": {
+    "state": "42",
+    "place": "61536",
+    "population": "27144"
+  },
+  "Plumville, Pennsylvania": {
+    "state": "42",
+    "place": "61632",
+    "population": "255"
+  },
+  "Plymouth, Pennsylvania": {
+    "state": "42",
+    "place": "61648",
+    "population": "5763"
+  },
+  "Point Marion, Pennsylvania": {
+    "state": "42",
+    "place": "61864",
+    "population": "1156"
+  },
+  "Polk, Pennsylvania": {
+    "state": "42",
+    "place": "61936",
+    "population": "634"
+  },
+  "Portage, Pennsylvania": {
+    "state": "42",
+    "place": "62048",
+    "population": "2459"
+  },
+  "Port Allegany, Pennsylvania": {
+    "state": "42",
+    "place": "62088",
+    "population": "2135"
+  },
+  "Port Carbon, Pennsylvania": {
+    "state": "42",
+    "place": "62128",
+    "population": "1806"
+  },
+  "Port Clinton, Pennsylvania": {
+    "state": "42",
+    "place": "62136",
+    "population": "278"
+  },
+  "Portersville, Pennsylvania": {
+    "state": "42",
+    "place": "62224",
+    "population": "231"
+  },
+  "Portland, Pennsylvania": {
+    "state": "42",
+    "place": "62264",
+    "population": "494"
+  },
+  "Port Matilda, Pennsylvania": {
+    "state": "42",
+    "place": "62280",
+    "population": "578"
+  },
+  "Port Royal, Pennsylvania": {
+    "state": "42",
+    "place": "62304",
+    "population": "807"
+  },
+  "Port Vue, Pennsylvania": {
+    "state": "42",
+    "place": "62320",
+    "population": "3680"
+  },
+  "Pottstown, Pennsylvania": {
+    "state": "42",
+    "place": "62416",
+    "population": "23433"
+  },
+  "Pringle, Pennsylvania": {
+    "state": "42",
+    "place": "62712",
+    "population": "893"
+  },
+  "Prompton, Pennsylvania": {
+    "state": "42",
+    "place": "62744",
+    "population": "237"
+  },
+  "Prospect, Pennsylvania": {
+    "state": "42",
+    "place": "62752",
+    "population": "1123"
+  },
+  "Prospect Park, Pennsylvania": {
+    "state": "42",
+    "place": "62792",
+    "population": "6427"
+  },
+  "Punxsutawney, Pennsylvania": {
+    "state": "42",
+    "place": "62920",
+    "population": "5769"
+  },
+  "Quakertown, Pennsylvania": {
+    "state": "42",
+    "place": "63048",
+    "population": "9359"
+  },
+  "Quarryville, Pennsylvania": {
+    "state": "42",
+    "place": "63064",
+    "population": "2843"
+  },
+  "Railroad, Pennsylvania": {
+    "state": "42",
+    "place": "63288",
+    "population": "256"
+  },
+  "Rainsburg, Pennsylvania": {
+    "state": "42",
+    "place": "63312",
+    "population": "141"
+  },
+  "Elizabethville, Pennsylvania": {
+    "state": "42",
+    "place": "23024",
+    "population": "1357"
+  },
+  "Elkland, Pennsylvania": {
+    "state": "42",
+    "place": "23152",
+    "population": "1827"
+  },
+  "Ellport, Pennsylvania": {
+    "state": "42",
+    "place": "23280",
+    "population": "1082"
+  },
+  "Ellsworth, Pennsylvania": {
+    "state": "42",
+    "place": "23296",
+    "population": "945"
+  },
+  "Ellwood City, Pennsylvania": {
+    "state": "42",
+    "place": "23304",
+    "population": "7642"
+  },
+  "Elverson, Pennsylvania": {
+    "state": "42",
+    "place": "23440",
+    "population": "1330"
+  },
+  "Emlenton, Pennsylvania": {
+    "state": "42",
+    "place": "23568",
+    "population": "614"
+  },
+  "Emmaus, Pennsylvania": {
+    "state": "42",
+    "place": "23584",
+    "population": "11652"
+  },
+  "Emporium, Pennsylvania": {
+    "state": "42",
+    "place": "23600",
+    "population": "1923"
+  },
+  "Emsworth, Pennsylvania": {
+    "state": "42",
+    "place": "23616",
+    "population": "2525"
+  },
+  "Enon Valley, Pennsylvania": {
+    "state": "42",
+    "place": "23768",
+    "population": "301"
+  },
+  "Ephrata, Pennsylvania": {
+    "state": "42",
+    "place": "23832",
+    "population": "13794"
+  },
+  "Ernest, Pennsylvania": {
+    "state": "42",
+    "place": "24040",
+    "population": "417"
+  },
+  "Etna, Pennsylvania": {
+    "state": "42",
+    "place": "24160",
+    "population": "3437"
+  },
+  "Evans City, Pennsylvania": {
+    "state": "42",
+    "place": "24248",
+    "population": "1737"
+  },
+  "Everett, Pennsylvania": {
+    "state": "42",
+    "place": "24304",
+    "population": "1765"
+  },
+  "Everson, Pennsylvania": {
+    "state": "42",
+    "place": "24336",
+    "population": "771"
+  },
+  "Exeter, Pennsylvania": {
+    "state": "42",
+    "place": "24392",
+    "population": "5514"
+  },
+  "Export, Pennsylvania": {
+    "state": "42",
+    "place": "24432",
+    "population": "894"
+  },
+  "Factoryville, Pennsylvania": {
+    "state": "42",
+    "place": "24488",
+    "population": "1165"
+  },
+  "Fairchance, Pennsylvania": {
+    "state": "42",
+    "place": "24536",
+    "population": "1890"
+  },
+  "Fairfield, Pennsylvania": {
+    "state": "42",
+    "place": "24560",
+    "population": "526"
+  },
+  "Fairview, Pennsylvania": {
+    "state": "42",
+    "place": "24832",
+    "population": "180"
+  },
+  "Falls Creek, Pennsylvania": {
+    "state": "42",
+    "place": "25136",
+    "population": "1036"
+  },
+  "Fallston, Pennsylvania": {
+    "state": "42",
+    "place": "25152",
+    "population": "259"
+  },
+  "Fawn Grove, Pennsylvania": {
+    "state": "42",
+    "place": "25416",
+    "population": "476"
+  },
+  "Fayette City, Pennsylvania": {
+    "state": "42",
+    "place": "25456",
+    "population": "502"
+  },
+  "Ramey, Pennsylvania": {
+    "state": "42",
+    "place": "63360",
+    "population": "436"
+  },
+  "Rankin, Pennsylvania": {
+    "state": "42",
+    "place": "63408",
+    "population": "1896"
+  },
+  "Red Hill, Pennsylvania": {
+    "state": "42",
+    "place": "63808",
+    "population": "2496"
+  },
+  "Red Lion, Pennsylvania": {
+    "state": "42",
+    "place": "63840",
+    "population": "6512"
+  },
+  "Renovo, Pennsylvania": {
+    "state": "42",
+    "place": "64200",
+    "population": "1061"
+  },
+  "Reynoldsville, Pennsylvania": {
+    "state": "42",
+    "place": "64376",
+    "population": "2549"
+  },
+  "Rices Landing, Pennsylvania": {
+    "state": "42",
+    "place": "64432",
+    "population": "425"
+  },
+  "Richland, Pennsylvania": {
+    "state": "42",
+    "place": "64560",
+    "population": "1496"
+  },
+  "Richlandtown, Pennsylvania": {
+    "state": "42",
+    "place": "64584",
+    "population": "1353"
+  },
+  "Ridgway, Pennsylvania": {
+    "state": "42",
+    "place": "64784",
+    "population": "4039"
+  },
+  "Ridley Park, Pennsylvania": {
+    "state": "42",
+    "place": "64832",
+    "population": "7186"
+  },
+  "Riegelsville, Pennsylvania": {
+    "state": "42",
+    "place": "64856",
+    "population": "847"
+  },
+  "Rimersburg, Pennsylvania": {
+    "state": "42",
+    "place": "64904",
+    "population": "942"
+  },
+  "Ringtown, Pennsylvania": {
+    "state": "42",
+    "place": "65000",
+    "population": "721"
+  },
+  "Riverside, Pennsylvania": {
+    "state": "42",
+    "place": "65112",
+    "population": "2040"
+  },
+  "Roaring Spring, Pennsylvania": {
+    "state": "42",
+    "place": "65256",
+    "population": "2384"
+  },
+  "Robesonia, Pennsylvania": {
+    "state": "42",
+    "place": "65336",
+    "population": "2035"
+  },
+  "Rochester, Pennsylvania": {
+    "state": "42",
+    "place": "65392",
+    "population": "3472"
+  },
+  "Rockhill, Pennsylvania": {
+    "state": "42",
+    "place": "65496",
+    "population": "379"
+  },
+  "Rockledge, Pennsylvania": {
+    "state": "42",
+    "place": "65568",
+    "population": "2638"
+  },
+  "Rockwood, Pennsylvania": {
+    "state": "42",
+    "place": "65736",
+    "population": "843"
+  },
+  "Felton, Pennsylvania": {
+    "state": "42",
+    "place": "25584",
+    "population": "501"
+  },
+  "Ferndale, Pennsylvania": {
+    "state": "42",
+    "place": "25680",
+    "population": "1547"
+  },
+  "Finleyville, Pennsylvania": {
+    "state": "42",
+    "place": "25944",
+    "population": "376"
+  },
+  "Fleetwood, Pennsylvania": {
+    "state": "42",
+    "place": "26280",
+    "population": "4049"
+  },
+  "Flemington, Pennsylvania": {
+    "state": "42",
+    "place": "26296",
+    "population": "1271"
+  },
+  "Folcroft, Pennsylvania": {
+    "state": "42",
+    "place": "26408",
+    "population": "6792"
+  },
+  "Ford City, Pennsylvania": {
+    "state": "42",
+    "place": "26512",
+    "population": "2859"
+  },
+  "Ford Cliff, Pennsylvania": {
+    "state": "42",
+    "place": "26520",
+    "population": "361"
+  },
+  "Forest City, Pennsylvania": {
+    "state": "42",
+    "place": "26560",
+    "population": "1780"
+  },
+  "Forest Hills, Pennsylvania": {
+    "state": "42",
+    "place": "26592",
+    "population": "6429"
+  },
+  "Forksville, Pennsylvania": {
+    "state": "42",
+    "place": "26760",
+    "population": "111"
+  },
+  "Forty Fort, Pennsylvania": {
+    "state": "42",
+    "place": "26880",
+    "population": "4239"
+  },
+  "Fountain Hill, Pennsylvania": {
+    "state": "42",
+    "place": "27008",
+    "population": "4832"
+  },
+  "Foxburg, Pennsylvania": {
+    "state": "42",
+    "place": "27112",
+    "population": "181"
+  },
+  "Fox Chapel, Pennsylvania": {
+    "state": "42",
+    "place": "27120",
+    "population": "5343"
+  },
+  "Frackville, Pennsylvania": {
+    "state": "42",
+    "place": "27232",
+    "population": "3860"
+  },
+  "Frankfort Springs, Pennsylvania": {
+    "state": "42",
+    "place": "27312",
+    "population": "116"
+  },
+  "Franklin, Pennsylvania": {
+    "state": "42",
+    "place": "27360",
+    "population": "278"
+  },
+  "Franklin Park, Pennsylvania": {
+    "state": "42",
+    "place": "27552",
+    "population": "15479"
+  },
+  "Franklintown, Pennsylvania": {
+    "state": "42",
+    "place": "27576",
+    "population": "518"
+  },
+  "Fredonia, Pennsylvania": {
+    "state": "42",
+    "place": "27688",
+    "population": "436"
+  },
+  "Freeburg, Pennsylvania": {
+    "state": "42",
+    "place": "27696",
+    "population": "557"
+  },
+  "Freedom, Pennsylvania": {
+    "state": "42",
+    "place": "27712",
+    "population": "1496"
+  },
+  "Freeland, Pennsylvania": {
+    "state": "42",
+    "place": "27744",
+    "population": "3833"
+  },
+  "Freemansburg, Pennsylvania": {
+    "state": "42",
+    "place": "27760",
+    "population": "2875"
+  },
+  "Freeport, Pennsylvania": {
+    "state": "42",
+    "place": "27784",
+    "population": "1736"
+  },
+  "Rome, Pennsylvania": {
+    "state": "42",
+    "place": "65944",
+    "population": "384"
+  },
+  "Roscoe, Pennsylvania": {
+    "state": "42",
+    "place": "66016",
+    "population": "720"
+  },
+  "Roseto, Pennsylvania": {
+    "state": "42",
+    "place": "66168",
+    "population": "1581"
+  },
+  "Rose Valley, Pennsylvania": {
+    "state": "42",
+    "place": "66192",
+    "population": "1017"
+  },
+  "Roseville, Pennsylvania": {
+    "state": "42",
+    "place": "66232",
+    "population": "178"
+  },
+  "Rosslyn Farms, Pennsylvania": {
+    "state": "42",
+    "place": "66320",
+    "population": "441"
+  },
+  "Rouseville, Pennsylvania": {
+    "state": "42",
+    "place": "66440",
+    "population": "457"
+  },
+  "Royalton, Pennsylvania": {
+    "state": "42",
+    "place": "66560",
+    "population": "1138"
+  },
+  "Royersford, Pennsylvania": {
+    "state": "42",
+    "place": "66576",
+    "population": "4940"
+  },
+  "Rural Valley, Pennsylvania": {
+    "state": "42",
+    "place": "66720",
+    "population": "826"
+  },
+  "Rutledge, Pennsylvania": {
+    "state": "42",
+    "place": "66928",
+    "population": "782"
+  },
+  "Saegertown, Pennsylvania": {
+    "state": "42",
+    "place": "67120",
+    "population": "871"
+  },
+  "St. Clair, Pennsylvania": {
+    "state": "42",
+    "place": "67224",
+    "population": "2745"
+  },
+  "St. Clairsville, Pennsylvania": {
+    "state": "42",
+    "place": "67256",
+    "population": "76"
+  },
+  "St. Lawrence, Pennsylvania": {
+    "state": "42",
+    "place": "67304",
+    "population": "1892"
+  },
+  "St. Petersburg, Pennsylvania": {
+    "state": "42",
+    "place": "67384",
+    "population": "336"
+  },
+  "Salisbury, Pennsylvania": {
+    "state": "42",
+    "place": "67584",
+    "population": "706"
+  },
+  "Salladasburg, Pennsylvania": {
+    "state": "42",
+    "place": "67616",
+    "population": "250"
+  },
+  "Saltillo, Pennsylvania": {
+    "state": "42",
+    "place": "67632",
+    "population": "309"
+  },
+  "Saltsburg, Pennsylvania": {
+    "state": "42",
+    "place": "67648",
+    "population": "780"
+  },
+  "Sandy Lake, Pennsylvania": {
+    "state": "42",
+    "place": "67848",
+    "population": "649"
+  },
+  "Sankertown, Pennsylvania": {
+    "state": "42",
+    "place": "67920",
+    "population": "630"
+  },
+  "Saxonburg, Pennsylvania": {
+    "state": "42",
+    "place": "68056",
+    "population": "1426"
+  },
+  "Saxton, Pennsylvania": {
+    "state": "42",
+    "place": "68072",
+    "population": "726"
+  },
+  "Friendsville, Pennsylvania": {
+    "state": "42",
+    "place": "27968",
+    "population": "101"
+  },
+  "Galeton, Pennsylvania": {
+    "state": "42",
+    "place": "28280",
+    "population": "990"
+  },
+  "Gallitzin, Pennsylvania": {
+    "state": "42",
+    "place": "28328",
+    "population": "1536"
+  },
+  "Garrett, Pennsylvania": {
+    "state": "42",
+    "place": "28520",
+    "population": "415"
+  },
+  "Geistown, Pennsylvania": {
+    "state": "42",
+    "place": "28720",
+    "population": "2363"
+  },
+  "Georgetown, Pennsylvania": {
+    "state": "42",
+    "place": "28824",
+    "population": "208"
+  },
+  "Gettysburg, Pennsylvania": {
+    "state": "42",
+    "place": "28960",
+    "population": "7106"
+  },
+  "Gilberton, Pennsylvania": {
+    "state": "42",
+    "place": "29088",
+    "population": "579"
+  },
+  "Girard, Pennsylvania": {
+    "state": "42",
+    "place": "29232",
+    "population": "2993"
+  },
+  "Girardville, Pennsylvania": {
+    "state": "42",
+    "place": "29264",
+    "population": "1308"
+  },
+  "Glasgow, Pennsylvania": {
+    "state": "42",
+    "place": "29392",
+    "population": "71"
+  },
+  "Glassport, Pennsylvania": {
+    "state": "42",
+    "place": "29432",
+    "population": "4475"
+  },
+  "Glen Campbell, Pennsylvania": {
+    "state": "42",
+    "place": "29512",
+    "population": "256"
+  },
+  "Glendon, Pennsylvania": {
+    "state": "42",
+    "place": "29568",
+    "population": "373"
+  },
+  "Glenfield, Pennsylvania": {
+    "state": "42",
+    "place": "29592",
+    "population": "212"
+  },
+  "Glen Hope, Pennsylvania": {
+    "state": "42",
+    "place": "29632",
+    "population": "127"
+  },
+  "Glenolden, Pennsylvania": {
+    "state": "42",
+    "place": "29720",
+    "population": "7223"
+  },
+  "Glen Osborne, Pennsylvania": {
+    "state": "42",
+    "place": "29732",
+    "population": "590"
+  },
+  "Glen Rock, Pennsylvania": {
+    "state": "42",
+    "place": "29760",
+    "population": "2121"
+  },
+  "Goldsboro, Pennsylvania": {
+    "state": "42",
+    "place": "30016",
+    "population": "932"
+  },
+  "Gordon, Pennsylvania": {
+    "state": "42",
+    "place": "30128",
+    "population": "761"
+  },
+  "Grampian, Pennsylvania": {
+    "state": "42",
+    "place": "30280",
+    "population": "361"
+  },
+  "Sayre, Pennsylvania": {
+    "state": "42",
+    "place": "68096",
+    "population": "5461"
+  },
+  "Scalp Level, Pennsylvania": {
+    "state": "42",
+    "place": "68104",
+    "population": "744"
+  },
+  "Schellsburg, Pennsylvania": {
+    "state": "42",
+    "place": "68152",
+    "population": "330"
+  },
+  "Schuylkill Haven, Pennsylvania": {
+    "state": "42",
+    "place": "68312",
+    "population": "5236"
+  },
+  "Schwenksville, Pennsylvania": {
+    "state": "42",
+    "place": "68328",
+    "population": "1296"
+  },
+  "Scottdale, Pennsylvania": {
+    "state": "42",
+    "place": "68432",
+    "population": "4430"
+  },
+  "Selinsgrove, Pennsylvania": {
+    "state": "42",
+    "place": "69216",
+    "population": "5713"
+  },
+  "Sellersville, Pennsylvania": {
+    "state": "42",
+    "place": "69248",
+    "population": "4567"
+  },
+  "Seven Fields, Pennsylvania": {
+    "state": "42",
+    "place": "69309",
+    "population": "2919"
+  },
+  "Seven Springs, Pennsylvania": {
+    "state": "42",
+    "place": "69336",
+    "population": "26"
+  },
+  "Seven Valleys, Pennsylvania": {
+    "state": "42",
+    "place": "69360",
+    "population": "480"
+  },
+  "Seward, Pennsylvania": {
+    "state": "42",
+    "place": "69368",
+    "population": "411"
+  },
+  "Sewickley, Pennsylvania": {
+    "state": "42",
+    "place": "69376",
+    "population": "3907"
+  },
+  "Sewickley Heights, Pennsylvania": {
+    "state": "42",
+    "place": "69400",
+    "population": "857"
+  },
+  "Sewickley Hills, Pennsylvania": {
+    "state": "42",
+    "place": "69416",
+    "population": "689"
+  },
+  "Shade Gap, Pennsylvania": {
+    "state": "42",
+    "place": "69456",
+    "population": "78"
+  },
+  "Shamokin Dam, Pennsylvania": {
+    "state": "42",
+    "place": "69616",
+    "population": "1652"
+  },
+  "Shanksville, Pennsylvania": {
+    "state": "42",
+    "place": "69680",
+    "population": "199"
+  },
+  "Sharon Hill, Pennsylvania": {
+    "state": "42",
+    "place": "69752",
+    "population": "6014"
+  },
+  "Sharpsburg, Pennsylvania": {
+    "state": "42",
+    "place": "69776",
+    "population": "3187"
+  },
+  "Sharpsville, Pennsylvania": {
+    "state": "42",
+    "place": "69800",
+    "population": "4255"
+  },
+  "Sheakleyville, Pennsylvania": {
+    "state": "42",
+    "place": "69936",
+    "population": "151"
+  },
+  "Shelocta, Pennsylvania": {
+    "state": "42",
+    "place": "70040",
+    "population": "102"
+  },
+  "Shenandoah, Pennsylvania": {
+    "state": "42",
+    "place": "70056",
+    "population": "4243"
+  },
+  "Shickshinny, Pennsylvania": {
+    "state": "42",
+    "place": "70224",
+    "population": "632"
+  },
+  "Shillington, Pennsylvania": {
+    "state": "42",
+    "place": "70248",
+    "population": "5475"
+  },
+  "Shinglehouse, Pennsylvania": {
+    "state": "42",
+    "place": "70304",
+    "population": "1103"
+  },
+  "Shippensburg, Pennsylvania": {
+    "state": "42",
+    "place": "70352",
+    "population": "5478"
+  },
+  "Shippenville, Pennsylvania": {
+    "state": "42",
+    "place": "70368",
+    "population": "442"
+  },
+  "Shippingport, Pennsylvania": {
+    "state": "42",
+    "place": "70376",
+    "population": "160"
+  },
+  "Shiremanstown, Pennsylvania": {
+    "state": "42",
+    "place": "70384",
+    "population": "1634"
+  },
+  "Gratz, Pennsylvania": {
+    "state": "42",
+    "place": "30600",
+    "population": "743"
+  },
+  "Great Bend, Pennsylvania": {
+    "state": "42",
+    "place": "30728",
+    "population": "627"
+  },
+  "Greencastle, Pennsylvania": {
+    "state": "42",
+    "place": "30896",
+    "population": "4251"
+  },
+  "Green Hills, Pennsylvania": {
+    "state": "42",
+    "place": "31082",
+    "population": "20"
+  },
+  "Green Lane, Pennsylvania": {
+    "state": "42",
+    "place": "31088",
+    "population": "490"
+  },
+  "Greensboro, Pennsylvania": {
+    "state": "42",
+    "place": "31192",
+    "population": "264"
+  },
+  "Green Tree, Pennsylvania": {
+    "state": "42",
+    "place": "31256",
+    "population": "4941"
+  },
+  "Greenville, Pennsylvania": {
+    "state": "42",
+    "place": "31328",
+    "population": "5540"
+  },
+  "Grove City, Pennsylvania": {
+    "state": "42",
+    "place": "31656",
+    "population": "7871"
+  },
+  "Halifax, Pennsylvania": {
+    "state": "42",
+    "place": "32032",
+    "population": "796"
+  },
+  "Hallam, Pennsylvania": {
+    "state": "42",
+    "place": "32056",
+    "population": "2775"
+  },
+  "Hallstead, Pennsylvania": {
+    "state": "42",
+    "place": "32080",
+    "population": "1174"
+  },
+  "Hamburg, Pennsylvania": {
+    "state": "42",
+    "place": "32120",
+    "population": "4270"
+  },
+  "Hanover, Pennsylvania": {
+    "state": "42",
+    "place": "32448",
+    "population": "16429"
+  },
+  "Harmony, Pennsylvania": {
+    "state": "42",
+    "place": "32688",
+    "population": "942"
+  },
+  "Harrisville, Pennsylvania": {
+    "state": "42",
+    "place": "32896",
+    "population": "819"
+  },
+  "Hartleton, Pennsylvania": {
+    "state": "42",
+    "place": "32936",
+    "population": "251"
+  },
+  "Harveys Lake, Pennsylvania": {
+    "state": "42",
+    "place": "33000",
+    "population": "2788"
+  },
+  "Hastings, Pennsylvania": {
+    "state": "42",
+    "place": "33080",
+    "population": "1213"
+  },
+  "Hatboro, Pennsylvania": {
+    "state": "42",
+    "place": "33088",
+    "population": "8238"
+  },
+  "Hatfield, Pennsylvania": {
+    "state": "42",
+    "place": "33112",
+    "population": "3496"
+  },
+  "Hawley, Pennsylvania": {
+    "state": "42",
+    "place": "33200",
+    "population": "1229"
+  },
+  "Hawthorn, Pennsylvania": {
+    "state": "42",
+    "place": "33216",
+    "population": "477"
+  },
+  "Haysville, Pennsylvania": {
+    "state": "42",
+    "place": "33312",
+    "population": "81"
+  },
+  "Shirleysburg, Pennsylvania": {
+    "state": "42",
+    "place": "70408",
+    "population": "141"
+  },
+  "Shoemakersville, Pennsylvania": {
+    "state": "42",
+    "place": "70464",
+    "population": "1360"
+  },
+  "Shrewsbury, Pennsylvania": {
+    "state": "42",
+    "place": "70568",
+    "population": "3848"
+  },
+  "Silverdale, Pennsylvania": {
+    "state": "42",
+    "place": "70744",
+    "population": "805"
+  },
+  "Sinking Spring, Pennsylvania": {
+    "state": "42",
+    "place": "70880",
+    "population": "4286"
+  },
+  "Slatington, Pennsylvania": {
+    "state": "42",
+    "place": "71144",
+    "population": "4283"
+  },
+  "Sligo, Pennsylvania": {
+    "state": "42",
+    "place": "71176",
+    "population": "681"
+  },
+  "Slippery Rock, Pennsylvania": {
+    "state": "42",
+    "place": "71184",
+    "population": "3081"
+  },
+  "Smethport, Pennsylvania": {
+    "state": "42",
+    "place": "71248",
+    "population": "1436"
+  },
+  "Smicksburg, Pennsylvania": {
+    "state": "42",
+    "place": "71256",
+    "population": "56"
+  },
+  "Smithfield, Pennsylvania": {
+    "state": "42",
+    "place": "71320",
+    "population": "831"
+  },
+  "Smithton, Pennsylvania": {
+    "state": "42",
+    "place": "71424",
+    "population": "351"
+  },
+  "Snow Shoe, Pennsylvania": {
+    "state": "42",
+    "place": "71600",
+    "population": "670"
+  },
+  "S.N.P.J., Pennsylvania": {
+    "state": "42",
+    "place": "71620",
+    "population": "18"
+  },
+  "Snydertown, Pennsylvania": {
+    "state": "42",
+    "place": "71688",
+    "population": "325"
+  },
+  "Somerset, Pennsylvania": {
+    "state": "42",
+    "place": "71776",
+    "population": "6048"
+  },
+  "Souderton, Pennsylvania": {
+    "state": "42",
+    "place": "71856",
+    "population": "7191"
+  },
+  "South Bethlehem, Pennsylvania": {
+    "state": "42",
+    "place": "71976",
+    "population": "489"
+  },
+  "South Coatesville, Pennsylvania": {
+    "state": "42",
+    "place": "72072",
+    "population": "1601"
+  },
+  "South Connellsville, Pennsylvania": {
+    "state": "42",
+    "place": "72080",
+    "population": "1917"
+  },
+  "South Fork, Pennsylvania": {
+    "state": "42",
+    "place": "72168",
+    "population": "954"
+  },
+  "South Greensburg, Pennsylvania": {
+    "state": "42",
+    "place": "72192",
+    "population": "2135"
+  },
+  "South Heights, Pennsylvania": {
+    "state": "42",
+    "place": "72216",
+    "population": "384"
+  },
+  "Southmont, Pennsylvania": {
+    "state": "42",
+    "place": "72344",
+    "population": "2045"
+  },
+  "South New Castle, Pennsylvania": {
+    "state": "42",
+    "place": "72376",
+    "population": "647"
+  },
+  "South Renovo, Pennsylvania": {
+    "state": "42",
+    "place": "72448",
+    "population": "411"
+  },
+  "South Waverly, Pennsylvania": {
+    "state": "42",
+    "place": "72592",
+    "population": "1070"
+  },
+  "Southwest Greensburg, Pennsylvania": {
+    "state": "42",
+    "place": "72616",
+    "population": "2219"
+  },
+  "South Williamsport, Pennsylvania": {
+    "state": "42",
+    "place": "72648",
+    "population": "6261"
+  },
+  "Heidelberg, Pennsylvania": {
+    "state": "42",
+    "place": "33592",
+    "population": "1288"
+  },
+  "Hellertown, Pennsylvania": {
+    "state": "42",
+    "place": "33744",
+    "population": "6132"
+  },
+  "Herndon, Pennsylvania": {
+    "state": "42",
+    "place": "34080",
+    "population": "347"
+  },
+  "Highspire, Pennsylvania": {
+    "state": "42",
+    "place": "34664",
+    "population": "2741"
+  },
+  "Hollidaysburg, Pennsylvania": {
+    "state": "42",
+    "place": "35224",
+    "population": "5641"
+  },
+  "Homer City, Pennsylvania": {
+    "state": "42",
+    "place": "35408",
+    "population": "1730"
+  },
+  "Homestead, Pennsylvania": {
+    "state": "42",
+    "place": "35424",
+    "population": "2884"
+  },
+  "Homewood, Pennsylvania": {
+    "state": "42",
+    "place": "35488",
+    "population": "104"
+  },
+  "Honesdale, Pennsylvania": {
+    "state": "42",
+    "place": "35520",
+    "population": "4458"
+  },
+  "Honey Brook, Pennsylvania": {
+    "state": "42",
+    "place": "35528",
+    "population": "1892"
+  },
+  "Hookstown, Pennsylvania": {
+    "state": "42",
+    "place": "35576",
+    "population": "129"
+  },
+  "Hooversville, Pennsylvania": {
+    "state": "42",
+    "place": "35608",
+    "population": "628"
+  },
+  "Hop Bottom, Pennsylvania": {
+    "state": "42",
+    "place": "35624",
+    "population": "311"
+  },
+  "Hopewell, Pennsylvania": {
+    "state": "42",
+    "place": "35648",
+    "population": "189"
+  },
+  "Houston, Pennsylvania": {
+    "state": "42",
+    "place": "35896",
+    "population": "1172"
+  },
+  "Houtzdale, Pennsylvania": {
+    "state": "42",
+    "place": "35928",
+    "population": "764"
+  },
+  "Howard, Pennsylvania": {
+    "state": "42",
+    "place": "35960",
+    "population": "687"
+  },
+  "Hughestown, Pennsylvania": {
+    "state": "42",
+    "place": "36152",
+    "population": "1329"
+  },
+  "Hughesville, Pennsylvania": {
+    "state": "42",
+    "place": "36160",
+    "population": "2154"
+  },
+  "Hulmeville, Pennsylvania": {
+    "state": "42",
+    "place": "36192",
+    "population": "982"
+  },
+  "Hummelstown, Pennsylvania": {
+    "state": "42",
+    "place": "36232",
+    "population": "4544"
+  },
+  "Hunker, Pennsylvania": {
+    "state": "42",
+    "place": "36288",
+    "population": "310"
+  },
+  "Huntingdon, Pennsylvania": {
+    "state": "42",
+    "place": "36368",
+    "population": "6827"
+  },
+  "Spartansburg, Pennsylvania": {
+    "state": "42",
+    "place": "72704",
+    "population": "281"
+  },
+  "Speers, Pennsylvania": {
+    "state": "42",
+    "place": "72736",
+    "population": "1088"
+  },
+  "Springboro, Pennsylvania": {
+    "state": "42",
+    "place": "72872",
+    "population": "377"
+  },
+  "Spring City, Pennsylvania": {
+    "state": "42",
+    "place": "72920",
+    "population": "3494"
+  },
+  "Springdale, Pennsylvania": {
+    "state": "42",
+    "place": "72960",
+    "population": "3400"
+  },
+  "Spring Grove, Pennsylvania": {
+    "state": "42",
+    "place": "73192",
+    "population": "2372"
+  },
+  "Starrucca, Pennsylvania": {
+    "state": "42",
+    "place": "73784",
+    "population": "169"
+  },
+  "State College, Pennsylvania": {
+    "state": "42",
+    "place": "73808",
+    "population": "40501"
+  },
+  "Steelton, Pennsylvania": {
+    "state": "42",
+    "place": "73888",
+    "population": "6263"
+  },
+  "Stewartstown, Pennsylvania": {
+    "state": "42",
+    "place": "74104",
+    "population": "2129"
+  },
+  "Stillwater, Pennsylvania": {
+    "state": "42",
+    "place": "74184",
+    "population": "199"
+  },
+  "Stockdale, Pennsylvania": {
+    "state": "42",
+    "place": "74224",
+    "population": "421"
+  },
+  "Stockertown, Pennsylvania": {
+    "state": "42",
+    "place": "74232",
+    "population": "919"
+  },
+  "Stoneboro, Pennsylvania": {
+    "state": "42",
+    "place": "74288",
+    "population": "945"
+  },
+  "Stoystown, Pennsylvania": {
+    "state": "42",
+    "place": "74672",
+    "population": "300"
+  },
+  "Strasburg, Pennsylvania": {
+    "state": "42",
+    "place": "74712",
+    "population": "3117"
+  },
+  "Strattanville, Pennsylvania": {
+    "state": "42",
+    "place": "74728",
+    "population": "537"
+  },
+  "Stroudsburg, Pennsylvania": {
+    "state": "42",
+    "place": "74888",
+    "population": "5927"
+  },
+  "Sugarcreek, Pennsylvania": {
+    "state": "42",
+    "place": "75000",
+    "population": "4775"
+  },
+  "Sugar Grove, Pennsylvania": {
+    "state": "42",
+    "place": "75024",
+    "population": "564"
+  },
+  "Sugar Notch, Pennsylvania": {
+    "state": "42",
+    "place": "75072",
+    "population": "1001"
+  },
+  "Summerhill, Pennsylvania": {
+    "state": "42",
+    "place": "75136",
+    "population": "479"
+  },
+  "Summerville, Pennsylvania": {
+    "state": "42",
+    "place": "75168",
+    "population": "504"
+  },
+  "Summit Hill, Pennsylvania": {
+    "state": "42",
+    "place": "75248",
+    "population": "3120"
+  }
+}

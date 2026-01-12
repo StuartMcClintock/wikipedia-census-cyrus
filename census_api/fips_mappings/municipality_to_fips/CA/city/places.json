@@ -1,0 +1,2307 @@
+{
+  "Hughson, California": {
+    "state": "06",
+    "place": "34904",
+    "population": "7481"
+  },
+  "Huntington Beach, California": {
+    "state": "06",
+    "place": "36000",
+    "population": "198711"
+  },
+  "Huntington Park, California": {
+    "state": "06",
+    "place": "36056",
+    "population": "54883"
+  },
+  "Huron, California": {
+    "state": "06",
+    "place": "36084",
+    "population": "6206"
+  },
+  "Imperial, California": {
+    "state": "06",
+    "place": "36280",
+    "population": "20263"
+  },
+  "Imperial Beach, California": {
+    "state": "06",
+    "place": "36294",
+    "population": "26137"
+  },
+  "Indian Wells, California": {
+    "state": "06",
+    "place": "36434",
+    "population": "4757"
+  },
+  "Indio, California": {
+    "state": "06",
+    "place": "36448",
+    "population": "89137"
+  },
+  "Industry, California": {
+    "state": "06",
+    "place": "36490",
+    "population": "264"
+  },
+  "Inglewood, California": {
+    "state": "06",
+    "place": "36546",
+    "population": "107762"
+  },
+  "Ione, California": {
+    "state": "06",
+    "place": "36672",
+    "population": "5141"
+  },
+  "Irvine, California": {
+    "state": "06",
+    "place": "36770",
+    "population": "307670"
+  },
+  "Irwindale, California": {
+    "state": "06",
+    "place": "36826",
+    "population": "1472"
+  },
+  "Isleton, California": {
+    "state": "06",
+    "place": "36882",
+    "population": "794"
+  },
+  "Holtville, California": {
+    "state": "06",
+    "place": "34246",
+    "population": "5605"
+  },
+  "Jackson, California": {
+    "state": "06",
+    "place": "36980",
+    "population": "5019"
+  },
+  "Waterford, California": {
+    "state": "06",
+    "place": "83612",
+    "population": "9120"
+  },
+  "Watsonville, California": {
+    "state": "06",
+    "place": "83668",
+    "population": "52590"
+  },
+  "Weed, California": {
+    "state": "06",
+    "place": "83850",
+    "population": "2862"
+  },
+  "West Covina, California": {
+    "state": "06",
+    "place": "84200",
+    "population": "109501"
+  },
+  "West Hollywood, California": {
+    "state": "06",
+    "place": "84410",
+    "population": "35757"
+  },
+  "Westlake Village, California": {
+    "state": "06",
+    "place": "84438",
+    "population": "8029"
+  },
+  "Westminster, California": {
+    "state": "06",
+    "place": "84550",
+    "population": "90911"
+  },
+  "Westmorland, California": {
+    "state": "06",
+    "place": "84606",
+    "population": "2014"
+  },
+  "West Sacramento, California": {
+    "state": "06",
+    "place": "84816",
+    "population": "53915"
+  },
+  "Wheatland, California": {
+    "state": "06",
+    "place": "85012",
+    "population": "3712"
+  },
+  "Whittier, California": {
+    "state": "06",
+    "place": "85292",
+    "population": "87306"
+  },
+  "Wildomar, California": {
+    "state": "06",
+    "place": "85446",
+    "population": "36875"
+  },
+  "Williams, California": {
+    "state": "06",
+    "place": "85586",
+    "population": "5538"
+  },
+  "Willits, California": {
+    "state": "06",
+    "place": "85600",
+    "population": "4988"
+  },
+  "Willows, California": {
+    "state": "06",
+    "place": "85684",
+    "population": "6293"
+  },
+  "Winters, California": {
+    "state": "06",
+    "place": "86034",
+    "population": "7115"
+  },
+  "Jurupa Valley, California": {
+    "state": "06",
+    "place": "37692",
+    "population": "105053"
+  },
+  "Kerman, California": {
+    "state": "06",
+    "place": "38226",
+    "population": "16016"
+  },
+  "King City, California": {
+    "state": "06",
+    "place": "38520",
+    "population": "13332"
+  },
+  "Kingsburg, California": {
+    "state": "06",
+    "place": "38562",
+    "population": "12380"
+  },
+  "La Cañada Flintridge, California": {
+    "state": "06",
+    "place": "39003",
+    "population": "20573"
+  },
+  "Lafayette, California": {
+    "state": "06",
+    "place": "39122",
+    "population": "25391"
+  },
+  "Laguna Beach, California": {
+    "state": "06",
+    "place": "39178",
+    "population": "23032"
+  },
+  "Laguna Hills, California": {
+    "state": "06",
+    "place": "39220",
+    "population": "31374"
+  },
+  "Laguna Niguel, California": {
+    "state": "06",
+    "place": "39248",
+    "population": "64355"
+  },
+  "Laguna Woods, California": {
+    "state": "06",
+    "place": "39259",
+    "population": "17644"
+  },
+  "La Habra, California": {
+    "state": "06",
+    "place": "39290",
+    "population": "63097"
+  },
+  "La Habra Heights, California": {
+    "state": "06",
+    "place": "39304",
+    "population": "5682"
+  },
+  "Lake Elsinore, California": {
+    "state": "06",
+    "place": "39486",
+    "population": "70265"
+  },
+  "Lake Forest, California": {
+    "state": "06",
+    "place": "39496",
+    "population": "85858"
+  },
+  "Woodlake, California": {
+    "state": "06",
+    "place": "86300",
+    "population": "7419"
+  },
+  "Woodland, California": {
+    "state": "06",
+    "place": "86328",
+    "population": "61032"
+  },
+  "Yorba Linda, California": {
+    "state": "06",
+    "place": "86832",
+    "population": "68336"
+  },
+  "Yountville, California": {
+    "state": "06",
+    "place": "86930",
+    "population": "3436"
+  },
+  "Yreka, California": {
+    "state": "06",
+    "place": "86944",
+    "population": "7807"
+  },
+  "Yuba City, California": {
+    "state": "06",
+    "place": "86972",
+    "population": "70117"
+  },
+  "Yucaipa, California": {
+    "state": "06",
+    "place": "87042",
+    "population": "54542"
+  },
+  "Lakeport, California": {
+    "state": "06",
+    "place": "39710",
+    "population": "5026"
+  },
+  "Lakewood, California": {
+    "state": "06",
+    "place": "39892",
+    "population": "82496"
+  },
+  "La Mesa, California": {
+    "state": "06",
+    "place": "40004",
+    "population": "61121"
+  },
+  "La Mirada, California": {
+    "state": "06",
+    "place": "40032",
+    "population": "48008"
+  },
+  "Lancaster, California": {
+    "state": "06",
+    "place": "40130",
+    "population": "173516"
+  },
+  "La Palma, California": {
+    "state": "06",
+    "place": "40256",
+    "population": "15581"
+  },
+  "La Puente, California": {
+    "state": "06",
+    "place": "40340",
+    "population": "38062"
+  },
+  "La Quinta, California": {
+    "state": "06",
+    "place": "40354",
+    "population": "37558"
+  },
+  "Larkspur, California": {
+    "state": "06",
+    "place": "40438",
+    "population": "13064"
+  },
+  "Lathrop, California": {
+    "state": "06",
+    "place": "40704",
+    "population": "28701"
+  },
+  "La Verne, California": {
+    "state": "06",
+    "place": "40830",
+    "population": "31334"
+  },
+  "Lawndale, California": {
+    "state": "06",
+    "place": "40886",
+    "population": "31807"
+  },
+  "Lemon Grove, California": {
+    "state": "06",
+    "place": "41124",
+    "population": "27627"
+  },
+  "Lemoore, California": {
+    "state": "06",
+    "place": "41152",
+    "population": "27038"
+  },
+  "Lincoln, California": {
+    "state": "06",
+    "place": "41474",
+    "population": "49757"
+  },
+  "Lindsay, California": {
+    "state": "06",
+    "place": "41712",
+    "population": "12659"
+  },
+  "Live Oak, California": {
+    "state": "06",
+    "place": "41936",
+    "population": "9106"
+  },
+  "Livermore, California": {
+    "state": "06",
+    "place": "41992",
+    "population": "87955"
+  },
+  "Livingston, California": {
+    "state": "06",
+    "place": "42006",
+    "population": "14172"
+  },
+  "Lodi, California": {
+    "state": "06",
+    "place": "42202",
+    "population": "66348"
+  },
+  "Loma Linda, California": {
+    "state": "06",
+    "place": "42370",
+    "population": "24791"
+  },
+  "Lomita, California": {
+    "state": "06",
+    "place": "42468",
+    "population": "20921"
+  },
+  "Lompoc, California": {
+    "state": "06",
+    "place": "42524",
+    "population": "44444"
+  },
+  "Long Beach, California": {
+    "state": "06",
+    "place": "43000",
+    "population": "466742"
+  },
+  "Los Alamitos, California": {
+    "state": "06",
+    "place": "43224",
+    "population": "11780"
+  },
+  "Los Altos, California": {
+    "state": "06",
+    "place": "43280",
+    "population": "31625"
+  },
+  "Los Angeles, California": {
+    "state": "06",
+    "place": "44000",
+    "population": "3898747"
+  },
+  "Los Banos, California": {
+    "state": "06",
+    "place": "44028",
+    "population": "45532"
+  },
+  "Loyalton, California": {
+    "state": "06",
+    "place": "44364",
+    "population": "740"
+  },
+  "Lynwood, California": {
+    "state": "06",
+    "place": "44574",
+    "population": "67265"
+  },
+  "Adelanto, California": {
+    "state": "06",
+    "place": "00296",
+    "population": "38046"
+  },
+  "Agoura Hills, California": {
+    "state": "06",
+    "place": "00394",
+    "population": "20299"
+  },
+  "Alameda, California": {
+    "state": "06",
+    "place": "00562",
+    "population": "78280"
+  },
+  "Albany, California": {
+    "state": "06",
+    "place": "00674",
+    "population": "20271"
+  },
+  "Alhambra, California": {
+    "state": "06",
+    "place": "00884",
+    "population": "82868"
+  },
+  "Aliso Viejo, California": {
+    "state": "06",
+    "place": "00947",
+    "population": "52176"
+  },
+  "McFarland, California": {
+    "state": "06",
+    "place": "44826",
+    "population": "14161"
+  },
+  "Madera, California": {
+    "state": "06",
+    "place": "45022",
+    "population": "66224"
+  },
+  "Malibu, California": {
+    "state": "06",
+    "place": "45246",
+    "population": "10654"
+  },
+  "Manhattan Beach, California": {
+    "state": "06",
+    "place": "45400",
+    "population": "35506"
+  },
+  "Manteca, California": {
+    "state": "06",
+    "place": "45484",
+    "population": "83498"
+  },
+  "Maricopa, California": {
+    "state": "06",
+    "place": "45736",
+    "population": "1026"
+  },
+  "Marina, California": {
+    "state": "06",
+    "place": "45778",
+    "population": "22359"
+  },
+  "Martinez, California": {
+    "state": "06",
+    "place": "46114",
+    "population": "37287"
+  },
+  "Marysville, California": {
+    "state": "06",
+    "place": "46170",
+    "population": "12844"
+  },
+  "Maywood, California": {
+    "state": "06",
+    "place": "46492",
+    "population": "25138"
+  },
+  "Mendota, California": {
+    "state": "06",
+    "place": "46828",
+    "population": "12595"
+  },
+  "Menifee, California": {
+    "state": "06",
+    "place": "46842",
+    "population": "102527"
+  },
+  "Menlo Park, California": {
+    "state": "06",
+    "place": "46870",
+    "population": "33780"
+  },
+  "Merced, California": {
+    "state": "06",
+    "place": "46898",
+    "population": "86333"
+  },
+  "Alturas, California": {
+    "state": "06",
+    "place": "01444",
+    "population": "2715"
+  },
+  "Amador City, California": {
+    "state": "06",
+    "place": "01514",
+    "population": "200"
+  },
+  "American Canyon, California": {
+    "state": "06",
+    "place": "01640",
+    "population": "21837"
+  },
+  "Anaheim, California": {
+    "state": "06",
+    "place": "02000",
+    "population": "346824"
+  },
+  "Anderson, California": {
+    "state": "06",
+    "place": "02042",
+    "population": "11323"
+  },
+  "Angels, California": {
+    "state": "06",
+    "place": "02112",
+    "population": "3667"
+  },
+  "Antioch, California": {
+    "state": "06",
+    "place": "02252",
+    "population": "115291"
+  },
+  "Arcadia, California": {
+    "state": "06",
+    "place": "02462",
+    "population": "56681"
+  },
+  "Arcata, California": {
+    "state": "06",
+    "place": "02476",
+    "population": "18857"
+  },
+  "Arroyo Grande, California": {
+    "state": "06",
+    "place": "02868",
+    "population": "18441"
+  },
+  "Artesia, California": {
+    "state": "06",
+    "place": "02896",
+    "population": "16395"
+  },
+  "Arvin, California": {
+    "state": "06",
+    "place": "02924",
+    "population": "19495"
+  },
+  "Atascadero, California": {
+    "state": "06",
+    "place": "03064",
+    "population": "29773"
+  },
+  "Atwater, California": {
+    "state": "06",
+    "place": "03162",
+    "population": "31970"
+  },
+  "Auburn, California": {
+    "state": "06",
+    "place": "03204",
+    "population": "13776"
+  },
+  "Avalon, California": {
+    "state": "06",
+    "place": "03274",
+    "population": "3460"
+  },
+  "Avenal, California": {
+    "state": "06",
+    "place": "03302",
+    "population": "13696"
+  },
+  "Azusa, California": {
+    "state": "06",
+    "place": "03386",
+    "population": "50000"
+  },
+  "Millbrae, California": {
+    "state": "06",
+    "place": "47486",
+    "population": "23216"
+  },
+  "Mill Valley, California": {
+    "state": "06",
+    "place": "47710",
+    "population": "14231"
+  },
+  "Milpitas, California": {
+    "state": "06",
+    "place": "47766",
+    "population": "80273"
+  },
+  "Mission Viejo, California": {
+    "state": "06",
+    "place": "48256",
+    "population": "93653"
+  },
+  "Modesto, California": {
+    "state": "06",
+    "place": "48354",
+    "population": "218464"
+  },
+  "Monrovia, California": {
+    "state": "06",
+    "place": "48648",
+    "population": "37931"
+  },
+  "Montague, California": {
+    "state": "06",
+    "place": "48690",
+    "population": "1226"
+  },
+  "Montclair, California": {
+    "state": "06",
+    "place": "48788",
+    "population": "37865"
+  },
+  "Montebello, California": {
+    "state": "06",
+    "place": "48816",
+    "population": "62640"
+  },
+  "Monterey, California": {
+    "state": "06",
+    "place": "48872",
+    "population": "30218"
+  },
+  "Monterey Park, California": {
+    "state": "06",
+    "place": "48914",
+    "population": "61096"
+  },
+  "Monte Sereno, California": {
+    "state": "06",
+    "place": "48956",
+    "population": "3479"
+  },
+  "Moorpark, California": {
+    "state": "06",
+    "place": "49138",
+    "population": "36284"
+  },
+  "Moreno Valley, California": {
+    "state": "06",
+    "place": "49270",
+    "population": "208634"
+  },
+  "Morgan Hill, California": {
+    "state": "06",
+    "place": "49278",
+    "population": "45483"
+  },
+  "Morro Bay, California": {
+    "state": "06",
+    "place": "49362",
+    "population": "10757"
+  },
+  "Bakersfield, California": {
+    "state": "06",
+    "place": "03526",
+    "population": "403455"
+  },
+  "Baldwin Park, California": {
+    "state": "06",
+    "place": "03666",
+    "population": "72176"
+  },
+  "Banning, California": {
+    "state": "06",
+    "place": "03820",
+    "population": "29505"
+  },
+  "Barstow, California": {
+    "state": "06",
+    "place": "04030",
+    "population": "25415"
+  },
+  "Beaumont, California": {
+    "state": "06",
+    "place": "04758",
+    "population": "53036"
+  },
+  "Bell, California": {
+    "state": "06",
+    "place": "04870",
+    "population": "33559"
+  },
+  "Bellflower, California": {
+    "state": "06",
+    "place": "04982",
+    "population": "79190"
+  },
+  "Bell Gardens, California": {
+    "state": "06",
+    "place": "04996",
+    "population": "39501"
+  },
+  "Belmont, California": {
+    "state": "06",
+    "place": "05108",
+    "population": "28335"
+  },
+  "Belvedere, California": {
+    "state": "06",
+    "place": "05164",
+    "population": "2126"
+  },
+  "Benicia, California": {
+    "state": "06",
+    "place": "05290",
+    "population": "27131"
+  },
+  "Berkeley, California": {
+    "state": "06",
+    "place": "06000",
+    "population": "124321"
+  },
+  "Beverly Hills, California": {
+    "state": "06",
+    "place": "06308",
+    "population": "32701"
+  },
+  "Big Bear Lake, California": {
+    "state": "06",
+    "place": "06434",
+    "population": "5046"
+  },
+  "Biggs, California": {
+    "state": "06",
+    "place": "06560",
+    "population": "1964"
+  },
+  "Bishop, California": {
+    "state": "06",
+    "place": "06798",
+    "population": "3819"
+  },
+  "Mountain View, California": {
+    "state": "06",
+    "place": "49670",
+    "population": "82376"
+  },
+  "Mount Shasta, California": {
+    "state": "06",
+    "place": "49852",
+    "population": "3223"
+  },
+  "Murrieta, California": {
+    "state": "06",
+    "place": "50076",
+    "population": "110949"
+  },
+  "Napa, California": {
+    "state": "06",
+    "place": "50258",
+    "population": "79246"
+  },
+  "National City, California": {
+    "state": "06",
+    "place": "50398",
+    "population": "56173"
+  },
+  "Needles, California": {
+    "state": "06",
+    "place": "50734",
+    "population": "4931"
+  },
+  "Nevada City, California": {
+    "state": "06",
+    "place": "50874",
+    "population": "3152"
+  },
+  "Newark, California": {
+    "state": "06",
+    "place": "50916",
+    "population": "47529"
+  },
+  "Newman, California": {
+    "state": "06",
+    "place": "51140",
+    "population": "12351"
+  },
+  "Newport Beach, California": {
+    "state": "06",
+    "place": "51182",
+    "population": "85239"
+  },
+  "Norco, California": {
+    "state": "06",
+    "place": "51560",
+    "population": "26316"
+  },
+  "Norwalk, California": {
+    "state": "06",
+    "place": "52526",
+    "population": "102773"
+  },
+  "Novato, California": {
+    "state": "06",
+    "place": "52582",
+    "population": "53225"
+  },
+  "Oakdale, California": {
+    "state": "06",
+    "place": "52694",
+    "population": "23181"
+  },
+  "Blue Lake, California": {
+    "state": "06",
+    "place": "07162",
+    "population": "1208"
+  },
+  "Blythe, California": {
+    "state": "06",
+    "place": "07218",
+    "population": "18317"
+  },
+  "Bradbury, California": {
+    "state": "06",
+    "place": "07946",
+    "population": "921"
+  },
+  "Brawley, California": {
+    "state": "06",
+    "place": "08058",
+    "population": "26416"
+  },
+  "Brea, California": {
+    "state": "06",
+    "place": "08100",
+    "population": "47325"
+  },
+  "Brentwood, California": {
+    "state": "06",
+    "place": "08142",
+    "population": "64292"
+  },
+  "Brisbane, California": {
+    "state": "06",
+    "place": "08310",
+    "population": "4851"
+  },
+  "Buellton, California": {
+    "state": "06",
+    "place": "08758",
+    "population": "5161"
+  },
+  "Buena Park, California": {
+    "state": "06",
+    "place": "08786",
+    "population": "84034"
+  },
+  "Burbank, California": {
+    "state": "06",
+    "place": "08954",
+    "population": "107337"
+  },
+  "Burlingame, California": {
+    "state": "06",
+    "place": "09066",
+    "population": "31386"
+  },
+  "Calabasas, California": {
+    "state": "06",
+    "place": "09598",
+    "population": "23241"
+  },
+  "Calexico, California": {
+    "state": "06",
+    "place": "09710",
+    "population": "38633"
+  },
+  "Oakland, California": {
+    "state": "06",
+    "place": "53000",
+    "population": "440646"
+  },
+  "Oakley, California": {
+    "state": "06",
+    "place": "53070",
+    "population": "43357"
+  },
+  "Oceanside, California": {
+    "state": "06",
+    "place": "53322",
+    "population": "174068"
+  },
+  "Ojai, California": {
+    "state": "06",
+    "place": "53476",
+    "population": "7637"
+  },
+  "Ontario, California": {
+    "state": "06",
+    "place": "53896",
+    "population": "175265"
+  },
+  "Orange, California": {
+    "state": "06",
+    "place": "53980",
+    "population": "139911"
+  },
+  "Orange Cove, California": {
+    "state": "06",
+    "place": "54008",
+    "population": "9649"
+  },
+  "Orinda, California": {
+    "state": "06",
+    "place": "54232",
+    "population": "19514"
+  },
+  "Orland, California": {
+    "state": "06",
+    "place": "54274",
+    "population": "8298"
+  },
+  "Oroville, California": {
+    "state": "06",
+    "place": "54386",
+    "population": "20042"
+  },
+  "Oxnard, California": {
+    "state": "06",
+    "place": "54652",
+    "population": "202063"
+  },
+  "Pacifica, California": {
+    "state": "06",
+    "place": "54806",
+    "population": "38640"
+  },
+  "Pacific Grove, California": {
+    "state": "06",
+    "place": "54848",
+    "population": "15090"
+  },
+  "Palmdale, California": {
+    "state": "06",
+    "place": "55156",
+    "population": "169450"
+  },
+  "Palm Desert, California": {
+    "state": "06",
+    "place": "55184",
+    "population": "51163"
+  },
+  "Palm Springs, California": {
+    "state": "06",
+    "place": "55254",
+    "population": "44575"
+  },
+  "Palo Alto, California": {
+    "state": "06",
+    "place": "55282",
+    "population": "68572"
+  },
+  "Palos Verdes Estates, California": {
+    "state": "06",
+    "place": "55380",
+    "population": "13347"
+  },
+  "Paramount, California": {
+    "state": "06",
+    "place": "55618",
+    "population": "53733"
+  },
+  "California City, California": {
+    "state": "06",
+    "place": "09780",
+    "population": "14973"
+  },
+  "Calimesa, California": {
+    "state": "06",
+    "place": "09864",
+    "population": "10026"
+  },
+  "Calipatria, California": {
+    "state": "06",
+    "place": "09878",
+    "population": "6515"
+  },
+  "Calistoga, California": {
+    "state": "06",
+    "place": "09892",
+    "population": "5228"
+  },
+  "Camarillo, California": {
+    "state": "06",
+    "place": "10046",
+    "population": "70741"
+  },
+  "Campbell, California": {
+    "state": "06",
+    "place": "10345",
+    "population": "43959"
+  },
+  "Canyon Lake, California": {
+    "state": "06",
+    "place": "10928",
+    "population": "11082"
+  },
+  "Capitola, California": {
+    "state": "06",
+    "place": "11040",
+    "population": "9938"
+  },
+  "Carlsbad, California": {
+    "state": "06",
+    "place": "11194",
+    "population": "114746"
+  },
+  "Carmel-by-the-Sea, California": {
+    "state": "06",
+    "place": "11250",
+    "population": "3220"
+  },
+  "Carpinteria, California": {
+    "state": "06",
+    "place": "11446",
+    "population": "13264"
+  },
+  "Carson, California": {
+    "state": "06",
+    "place": "11530",
+    "population": "95558"
+  },
+  "Cathedral City, California": {
+    "state": "06",
+    "place": "12048",
+    "population": "51493"
+  },
+  "Parlier, California": {
+    "state": "06",
+    "place": "55856",
+    "population": "14576"
+  },
+  "Pasadena, California": {
+    "state": "06",
+    "place": "56000",
+    "population": "138699"
+  },
+  "Patterson, California": {
+    "state": "06",
+    "place": "56112",
+    "population": "23781"
+  },
+  "Perris, California": {
+    "state": "06",
+    "place": "56700",
+    "population": "78700"
+  },
+  "Petaluma, California": {
+    "state": "06",
+    "place": "56784",
+    "population": "59776"
+  },
+  "Pico Rivera, California": {
+    "state": "06",
+    "place": "56924",
+    "population": "62088"
+  },
+  "Piedmont, California": {
+    "state": "06",
+    "place": "56938",
+    "population": "11270"
+  },
+  "Pinole, California": {
+    "state": "06",
+    "place": "57288",
+    "population": "19022"
+  },
+  "Pismo Beach, California": {
+    "state": "06",
+    "place": "57414",
+    "population": "8072"
+  },
+  "Pittsburg, California": {
+    "state": "06",
+    "place": "57456",
+    "population": "76416"
+  },
+  "Placentia, California": {
+    "state": "06",
+    "place": "57526",
+    "population": "51824"
+  },
+  "Placerville, California": {
+    "state": "06",
+    "place": "57540",
+    "population": "10747"
+  },
+  "Pleasant Hill, California": {
+    "state": "06",
+    "place": "57764",
+    "population": "34613"
+  },
+  "Pleasanton, California": {
+    "state": "06",
+    "place": "57792",
+    "population": "79871"
+  },
+  "Plymouth, California": {
+    "state": "06",
+    "place": "57834",
+    "population": "1078"
+  },
+  "Point Arena, California": {
+    "state": "06",
+    "place": "57876",
+    "population": "460"
+  },
+  "Ceres, California": {
+    "state": "06",
+    "place": "12524",
+    "population": "49302"
+  },
+  "Cerritos, California": {
+    "state": "06",
+    "place": "12552",
+    "population": "49578"
+  },
+  "Chico, California": {
+    "state": "06",
+    "place": "13014",
+    "population": "101475"
+  },
+  "Chino, California": {
+    "state": "06",
+    "place": "13210",
+    "population": "91403"
+  },
+  "Chino Hills, California": {
+    "state": "06",
+    "place": "13214",
+    "population": "78411"
+  },
+  "Chowchilla, California": {
+    "state": "06",
+    "place": "13294",
+    "population": "19039"
+  },
+  "Chula Vista, California": {
+    "state": "06",
+    "place": "13392",
+    "population": "275487"
+  },
+  "Citrus Heights, California": {
+    "state": "06",
+    "place": "13588",
+    "population": "87583"
+  },
+  "Claremont, California": {
+    "state": "06",
+    "place": "13756",
+    "population": "37266"
+  },
+  "Clayton, California": {
+    "state": "06",
+    "place": "13882",
+    "population": "11070"
+  },
+  "Clearlake, California": {
+    "state": "06",
+    "place": "13945",
+    "population": "16685"
+  },
+  "Cloverdale, California": {
+    "state": "06",
+    "place": "14190",
+    "population": "8996"
+  },
+  "Clovis, California": {
+    "state": "06",
+    "place": "14218",
+    "population": "120124"
+  },
+  "Coachella, California": {
+    "state": "06",
+    "place": "14260",
+    "population": "41941"
+  },
+  "Coalinga, California": {
+    "state": "06",
+    "place": "14274",
+    "population": "17590"
+  },
+  "Colfax, California": {
+    "state": "06",
+    "place": "14498",
+    "population": "1995"
+  },
+  "Pomona, California": {
+    "state": "06",
+    "place": "58072",
+    "population": "151713"
+  },
+  "Porterville, California": {
+    "state": "06",
+    "place": "58240",
+    "population": "62623"
+  },
+  "Port Hueneme, California": {
+    "state": "06",
+    "place": "58296",
+    "population": "21954"
+  },
+  "Portola, California": {
+    "state": "06",
+    "place": "58352",
+    "population": "2100"
+  },
+  "Poway, California": {
+    "state": "06",
+    "place": "58520",
+    "population": "48841"
+  },
+  "Rancho Cordova, California": {
+    "state": "06",
+    "place": "59444",
+    "population": "79332"
+  },
+  "Rancho Cucamonga, California": {
+    "state": "06",
+    "place": "59451",
+    "population": "174453"
+  },
+  "Rancho Mirage, California": {
+    "state": "06",
+    "place": "59500",
+    "population": "16999"
+  },
+  "Rancho Palos Verdes, California": {
+    "state": "06",
+    "place": "59514",
+    "population": "42287"
+  },
+  "Rancho Santa Margarita, California": {
+    "state": "06",
+    "place": "59587",
+    "population": "47949"
+  },
+  "Red Bluff, California": {
+    "state": "06",
+    "place": "59892",
+    "population": "14710"
+  },
+  "Redding, California": {
+    "state": "06",
+    "place": "59920",
+    "population": "93611"
+  },
+  "Redlands, California": {
+    "state": "06",
+    "place": "59962",
+    "population": "73168"
+  },
+  "Redondo Beach, California": {
+    "state": "06",
+    "place": "60018",
+    "population": "71576"
+  },
+  "Redwood City, California": {
+    "state": "06",
+    "place": "60102",
+    "population": "84292"
+  },
+  "Reedley, California": {
+    "state": "06",
+    "place": "60242",
+    "population": "25227"
+  },
+  "Rialto, California": {
+    "state": "06",
+    "place": "60466",
+    "population": "104026"
+  },
+  "Colton, California": {
+    "state": "06",
+    "place": "14890",
+    "population": "53909"
+  },
+  "Colusa, California": {
+    "state": "06",
+    "place": "14946",
+    "population": "6411"
+  },
+  "Commerce, California": {
+    "state": "06",
+    "place": "14974",
+    "population": "12378"
+  },
+  "Compton, California": {
+    "state": "06",
+    "place": "15044",
+    "population": "95740"
+  },
+  "Concord, California": {
+    "state": "06",
+    "place": "16000",
+    "population": "125410"
+  },
+  "Corcoran, California": {
+    "state": "06",
+    "place": "16224",
+    "population": "22339"
+  },
+  "Corning, California": {
+    "state": "06",
+    "place": "16322",
+    "population": "8244"
+  },
+  "Corona, California": {
+    "state": "06",
+    "place": "16350",
+    "population": "157136"
+  },
+  "Coronado, California": {
+    "state": "06",
+    "place": "16378",
+    "population": "20192"
+  },
+  "Costa Mesa, California": {
+    "state": "06",
+    "place": "16532",
+    "population": "111918"
+  },
+  "Cotati, California": {
+    "state": "06",
+    "place": "16560",
+    "population": "7584"
+  },
+  "Covina, California": {
+    "state": "06",
+    "place": "16742",
+    "population": "51268"
+  },
+  "Crescent City, California": {
+    "state": "06",
+    "place": "17022",
+    "population": "6673"
+  },
+  "Cudahy, California": {
+    "state": "06",
+    "place": "17498",
+    "population": "22811"
+  },
+  "Culver City, California": {
+    "state": "06",
+    "place": "17568",
+    "population": "40779"
+  },
+  "Cupertino, California": {
+    "state": "06",
+    "place": "17610",
+    "population": "60381"
+  },
+  "Cypress, California": {
+    "state": "06",
+    "place": "17750",
+    "population": "50151"
+  },
+  "Daly City, California": {
+    "state": "06",
+    "place": "17918",
+    "population": "104901"
+  },
+  "Dana Point, California": {
+    "state": "06",
+    "place": "17946",
+    "population": "33107"
+  },
+  "Richmond, California": {
+    "state": "06",
+    "place": "60620",
+    "population": "116448"
+  },
+  "Ridgecrest, California": {
+    "state": "06",
+    "place": "60704",
+    "population": "27959"
+  },
+  "Rio Dell, California": {
+    "state": "06",
+    "place": "60900",
+    "population": "3379"
+  },
+  "Rio Vista, California": {
+    "state": "06",
+    "place": "60984",
+    "population": "10005"
+  },
+  "Ripon, California": {
+    "state": "06",
+    "place": "61026",
+    "population": "16013"
+  },
+  "Riverbank, California": {
+    "state": "06",
+    "place": "61068",
+    "population": "24865"
+  },
+  "Riverside, California": {
+    "state": "06",
+    "place": "62000",
+    "population": "314998"
+  },
+  "Rocklin, California": {
+    "state": "06",
+    "place": "62364",
+    "population": "71601"
+  },
+  "Rohnert Park, California": {
+    "state": "06",
+    "place": "62546",
+    "population": "44390"
+  },
+  "Rolling Hills, California": {
+    "state": "06",
+    "place": "62602",
+    "population": "1739"
+  },
+  "Rolling Hills Estates, California": {
+    "state": "06",
+    "place": "62644",
+    "population": "8280"
+  },
+  "Rosemead, California": {
+    "state": "06",
+    "place": "62896",
+    "population": "51185"
+  },
+  "Roseville, California": {
+    "state": "06",
+    "place": "62938",
+    "population": "147773"
+  },
+  "Sacramento, California": {
+    "state": "06",
+    "place": "64000",
+    "population": "524943"
+  },
+  "St. Helena, California": {
+    "state": "06",
+    "place": "64140",
+    "population": "5430"
+  },
+  "Salinas, California": {
+    "state": "06",
+    "place": "64224",
+    "population": "163542"
+  },
+  "Davis, California": {
+    "state": "06",
+    "place": "18100",
+    "population": "66850"
+  },
+  "Delano, California": {
+    "state": "06",
+    "place": "18394",
+    "population": "51428"
+  },
+  "Del Mar, California": {
+    "state": "06",
+    "place": "18506",
+    "population": "3954"
+  },
+  "Del Rey Oaks, California": {
+    "state": "06",
+    "place": "18688",
+    "population": "1592"
+  },
+  "Desert Hot Springs, California": {
+    "state": "06",
+    "place": "18996",
+    "population": "32512"
+  },
+  "Diamond Bar, California": {
+    "state": "06",
+    "place": "19192",
+    "population": "55072"
+  },
+  "Dinuba, California": {
+    "state": "06",
+    "place": "19318",
+    "population": "24563"
+  },
+  "Dixon, California": {
+    "state": "06",
+    "place": "19402",
+    "population": "18988"
+  },
+  "Dorris, California": {
+    "state": "06",
+    "place": "19584",
+    "population": "860"
+  },
+  "Dos Palos, California": {
+    "state": "06",
+    "place": "19612",
+    "population": "5798"
+  },
+  "Downey, California": {
+    "state": "06",
+    "place": "19766",
+    "population": "114355"
+  },
+  "Duarte, California": {
+    "state": "06",
+    "place": "19990",
+    "population": "21727"
+  },
+  "Dublin, California": {
+    "state": "06",
+    "place": "20018",
+    "population": "72589"
+  },
+  "Dunsmuir, California": {
+    "state": "06",
+    "place": "20242",
+    "population": "1707"
+  },
+  "San Bernardino, California": {
+    "state": "06",
+    "place": "65000",
+    "population": "222101"
+  },
+  "San Bruno, California": {
+    "state": "06",
+    "place": "65028",
+    "population": "43908"
+  },
+  "San Buenaventura (Ventura), California": {
+    "state": "06",
+    "place": "65042",
+    "population": "110763"
+  },
+  "San Carlos, California": {
+    "state": "06",
+    "place": "65070",
+    "population": "30722"
+  },
+  "San Clemente, California": {
+    "state": "06",
+    "place": "65084",
+    "population": "64293"
+  },
+  "Sand City, California": {
+    "state": "06",
+    "place": "65112",
+    "population": "325"
+  },
+  "San Diego, California": {
+    "state": "06",
+    "place": "66000",
+    "population": "1386932"
+  },
+  "San Dimas, California": {
+    "state": "06",
+    "place": "66070",
+    "population": "34924"
+  },
+  "San Fernando, California": {
+    "state": "06",
+    "place": "66140",
+    "population": "23946"
+  },
+  "San Francisco, California": {
+    "state": "06",
+    "place": "67000",
+    "population": "873965"
+  },
+  "San Gabriel, California": {
+    "state": "06",
+    "place": "67042",
+    "population": "39568"
+  },
+  "Sanger, California": {
+    "state": "06",
+    "place": "67056",
+    "population": "26617"
+  },
+  "San Jacinto, California": {
+    "state": "06",
+    "place": "67112",
+    "population": "53898"
+  },
+  "San Joaquin, California": {
+    "state": "06",
+    "place": "67126",
+    "population": "3701"
+  },
+  "San Jose, California": {
+    "state": "06",
+    "place": "68000",
+    "population": "1013240"
+  },
+  "San Juan Bautista, California": {
+    "state": "06",
+    "place": "68014",
+    "population": "2089"
+  },
+  "San Juan Capistrano, California": {
+    "state": "06",
+    "place": "68028",
+    "population": "35196"
+  },
+  "San Leandro, California": {
+    "state": "06",
+    "place": "68084",
+    "population": "91008"
+  },
+  "San Luis Obispo, California": {
+    "state": "06",
+    "place": "68154",
+    "population": "47063"
+  },
+  "San Marcos, California": {
+    "state": "06",
+    "place": "68196",
+    "population": "94833"
+  },
+  "San Marino, California": {
+    "state": "06",
+    "place": "68224",
+    "population": "12513"
+  },
+  "San Mateo, California": {
+    "state": "06",
+    "place": "68252",
+    "population": "105661"
+  },
+  "San Pablo, California": {
+    "state": "06",
+    "place": "68294",
+    "population": "32127"
+  },
+  "San Rafael, California": {
+    "state": "06",
+    "place": "68364",
+    "population": "61271"
+  },
+  "San Ramon, California": {
+    "state": "06",
+    "place": "68378",
+    "population": "84605"
+  },
+  "Santa Ana, California": {
+    "state": "06",
+    "place": "69000",
+    "population": "310227"
+  },
+  "Santa Barbara, California": {
+    "state": "06",
+    "place": "69070",
+    "population": "88665"
+  },
+  "Santa Clara, California": {
+    "state": "06",
+    "place": "69084",
+    "population": "127647"
+  },
+  "Santa Clarita, California": {
+    "state": "06",
+    "place": "69088",
+    "population": "228673"
+  },
+  "Santa Cruz, California": {
+    "state": "06",
+    "place": "69112",
+    "population": "62956"
+  },
+  "Santa Fe Springs, California": {
+    "state": "06",
+    "place": "69154",
+    "population": "19219"
+  },
+  "Santa Maria, California": {
+    "state": "06",
+    "place": "69196",
+    "population": "109707"
+  },
+  "Santa Monica, California": {
+    "state": "06",
+    "place": "70000",
+    "population": "93076"
+  },
+  "Santa Paula, California": {
+    "state": "06",
+    "place": "70042",
+    "population": "30657"
+  },
+  "Santa Rosa, California": {
+    "state": "06",
+    "place": "70098",
+    "population": "178127"
+  },
+  "Santee, California": {
+    "state": "06",
+    "place": "70224",
+    "population": "60037"
+  },
+  "East Palo Alto, California": {
+    "state": "06",
+    "place": "20956",
+    "population": "30034"
+  },
+  "Eastvale, California": {
+    "state": "06",
+    "place": "21230",
+    "population": "69757"
+  },
+  "El Cajon, California": {
+    "state": "06",
+    "place": "21712",
+    "population": "106215"
+  },
+  "El Centro, California": {
+    "state": "06",
+    "place": "21782",
+    "population": "44322"
+  },
+  "El Cerrito, California": {
+    "state": "06",
+    "place": "21796",
+    "population": "25962"
+  },
+  "Elk Grove, California": {
+    "state": "06",
+    "place": "22020",
+    "population": "176124"
+  },
+  "El Monte, California": {
+    "state": "06",
+    "place": "22230",
+    "population": "109450"
+  },
+  "El Paso de Robles (Paso Robles), California": {
+    "state": "06",
+    "place": "22300",
+    "population": "31490"
+  },
+  "El Segundo, California": {
+    "state": "06",
+    "place": "22412",
+    "population": "17272"
+  },
+  "Saratoga, California": {
+    "state": "06",
+    "place": "70280",
+    "population": "31051"
+  },
+  "Sausalito, California": {
+    "state": "06",
+    "place": "70364",
+    "population": "7269"
+  },
+  "Scotts Valley, California": {
+    "state": "06",
+    "place": "70588",
+    "population": "12224"
+  },
+  "Seal Beach, California": {
+    "state": "06",
+    "place": "70686",
+    "population": "25242"
+  },
+  "Seaside, California": {
+    "state": "06",
+    "place": "70742",
+    "population": "32366"
+  },
+  "Sebastopol, California": {
+    "state": "06",
+    "place": "70770",
+    "population": "7521"
+  },
+  "Selma, California": {
+    "state": "06",
+    "place": "70882",
+    "population": "24674"
+  },
+  "Shafter, California": {
+    "state": "06",
+    "place": "71106",
+    "population": "19953"
+  },
+  "Shasta Lake, California": {
+    "state": "06",
+    "place": "71225",
+    "population": "10371"
+  },
+  "Sierra Madre, California": {
+    "state": "06",
+    "place": "71806",
+    "population": "11268"
+  },
+  "Signal Hill, California": {
+    "state": "06",
+    "place": "71876",
+    "population": "11848"
+  },
+  "Simi Valley, California": {
+    "state": "06",
+    "place": "72016",
+    "population": "126356"
+  },
+  "Solana Beach, California": {
+    "state": "06",
+    "place": "72506",
+    "population": "12941"
+  },
+  "Soledad, California": {
+    "state": "06",
+    "place": "72520",
+    "population": "24925"
+  },
+  "Solvang, California": {
+    "state": "06",
+    "place": "72576",
+    "population": "6126"
+  },
+  "Sonoma, California": {
+    "state": "06",
+    "place": "72646",
+    "population": "10739"
+  },
+  "Sonora, California": {
+    "state": "06",
+    "place": "72674",
+    "population": "5003"
+  },
+  "Emeryville, California": {
+    "state": "06",
+    "place": "22594",
+    "population": "12905"
+  },
+  "Encinitas, California": {
+    "state": "06",
+    "place": "22678",
+    "population": "62007"
+  },
+  "Escalon, California": {
+    "state": "06",
+    "place": "22790",
+    "population": "7472"
+  },
+  "Escondido, California": {
+    "state": "06",
+    "place": "22804",
+    "population": "151038"
+  },
+  "Etna, California": {
+    "state": "06",
+    "place": "22972",
+    "population": "678"
+  },
+  "Eureka, California": {
+    "state": "06",
+    "place": "23042",
+    "population": "26512"
+  },
+  "Exeter, California": {
+    "state": "06",
+    "place": "23126",
+    "population": "10321"
+  },
+  "Fairfield, California": {
+    "state": "06",
+    "place": "23182",
+    "population": "119881"
+  },
+  "Farmersville, California": {
+    "state": "06",
+    "place": "23616",
+    "population": "10397"
+  },
+  "Ferndale, California": {
+    "state": "06",
+    "place": "23910",
+    "population": "1398"
+  },
+  "Fillmore, California": {
+    "state": "06",
+    "place": "24092",
+    "population": "16419"
+  },
+  "Firebaugh, California": {
+    "state": "06",
+    "place": "24134",
+    "population": "8096"
+  },
+  "Folsom, California": {
+    "state": "06",
+    "place": "24638",
+    "population": "80454"
+  },
+  "Fontana, California": {
+    "state": "06",
+    "place": "24680",
+    "population": "208393"
+  },
+  "Fort Bragg, California": {
+    "state": "06",
+    "place": "25058",
+    "population": "6983"
+  },
+  "Fort Jones, California": {
+    "state": "06",
+    "place": "25128",
+    "population": "695"
+  },
+  "Fortuna, California": {
+    "state": "06",
+    "place": "25296",
+    "population": "12516"
+  },
+  "Foster City, California": {
+    "state": "06",
+    "place": "25338",
+    "population": "33805"
+  },
+  "Fountain Valley, California": {
+    "state": "06",
+    "place": "25380",
+    "population": "57047"
+  },
+  "South El Monte, California": {
+    "state": "06",
+    "place": "72996",
+    "population": "19567"
+  },
+  "South Gate, California": {
+    "state": "06",
+    "place": "73080",
+    "population": "92726"
+  },
+  "South Lake Tahoe, California": {
+    "state": "06",
+    "place": "73108",
+    "population": "21330"
+  },
+  "South Pasadena, California": {
+    "state": "06",
+    "place": "73220",
+    "population": "26943"
+  },
+  "South San Francisco, California": {
+    "state": "06",
+    "place": "73262",
+    "population": "66105"
+  },
+  "Stanton, California": {
+    "state": "06",
+    "place": "73962",
+    "population": "37962"
+  },
+  "Stockton, California": {
+    "state": "06",
+    "place": "75000",
+    "population": "320804"
+  },
+  "Suisun City, California": {
+    "state": "06",
+    "place": "75630",
+    "population": "29518"
+  },
+  "Sunnyvale, California": {
+    "state": "06",
+    "place": "77000",
+    "population": "155805"
+  },
+  "Susanville, California": {
+    "state": "06",
+    "place": "77364",
+    "population": "16728"
+  },
+  "Sutter Creek, California": {
+    "state": "06",
+    "place": "77392",
+    "population": "2646"
+  },
+  "Taft, California": {
+    "state": "06",
+    "place": "77574",
+    "population": "8546"
+  },
+  "Fowler, California": {
+    "state": "06",
+    "place": "25436",
+    "population": "6700"
+  },
+  "Fremont, California": {
+    "state": "06",
+    "place": "26000",
+    "population": "230504"
+  },
+  "Fresno, California": {
+    "state": "06",
+    "place": "27000",
+    "population": "542107"
+  },
+  "Fullerton, California": {
+    "state": "06",
+    "place": "28000",
+    "population": "143617"
+  },
+  "Galt, California": {
+    "state": "06",
+    "place": "28112",
+    "population": "25383"
+  },
+  "Gardena, California": {
+    "state": "06",
+    "place": "28168",
+    "population": "61027"
+  },
+  "Garden Grove, California": {
+    "state": "06",
+    "place": "29000",
+    "population": "171949"
+  },
+  "Gilroy, California": {
+    "state": "06",
+    "place": "29504",
+    "population": "59520"
+  },
+  "Glendale, California": {
+    "state": "06",
+    "place": "30000",
+    "population": "196543"
+  },
+  "Glendora, California": {
+    "state": "06",
+    "place": "30014",
+    "population": "52558"
+  },
+  "Goleta, California": {
+    "state": "06",
+    "place": "30378",
+    "population": "32690"
+  },
+  "Gonzales, California": {
+    "state": "06",
+    "place": "30392",
+    "population": "8647"
+  },
+  "Grand Terrace, California": {
+    "state": "06",
+    "place": "30658",
+    "population": "13150"
+  },
+  "Grass Valley, California": {
+    "state": "06",
+    "place": "30798",
+    "population": "14016"
+  },
+  "Tehachapi, California": {
+    "state": "06",
+    "place": "78092",
+    "population": "12939"
+  },
+  "Tehama, California": {
+    "state": "06",
+    "place": "78106",
+    "population": "435"
+  },
+  "Temecula, California": {
+    "state": "06",
+    "place": "78120",
+    "population": "110003"
+  },
+  "Temple City, California": {
+    "state": "06",
+    "place": "78148",
+    "population": "36494"
+  },
+  "Thousand Oaks, California": {
+    "state": "06",
+    "place": "78582",
+    "population": "126966"
+  },
+  "Torrance, California": {
+    "state": "06",
+    "place": "80000",
+    "population": "147067"
+  },
+  "Tracy, California": {
+    "state": "06",
+    "place": "80238",
+    "population": "93000"
+  },
+  "Trinidad, California": {
+    "state": "06",
+    "place": "80448",
+    "population": "307"
+  },
+  "Tulare, California": {
+    "state": "06",
+    "place": "80644",
+    "population": "68875"
+  },
+  "Tulelake, California": {
+    "state": "06",
+    "place": "80686",
+    "population": "902"
+  },
+  "Turlock, California": {
+    "state": "06",
+    "place": "80812",
+    "population": "72740"
+  },
+  "Greenfield, California": {
+    "state": "06",
+    "place": "30994",
+    "population": "18937"
+  },
+  "Gridley, California": {
+    "state": "06",
+    "place": "31260",
+    "population": "7421"
+  },
+  "Grover Beach, California": {
+    "state": "06",
+    "place": "31393",
+    "population": "12701"
+  },
+  "Guadalupe, California": {
+    "state": "06",
+    "place": "31414",
+    "population": "8057"
+  },
+  "Gustine, California": {
+    "state": "06",
+    "place": "31568",
+    "population": "6110"
+  },
+  "Half Moon Bay, California": {
+    "state": "06",
+    "place": "31708",
+    "population": "11795"
+  },
+  "Hanford, California": {
+    "state": "06",
+    "place": "31960",
+    "population": "57990"
+  },
+  "Hawaiian Gardens, California": {
+    "state": "06",
+    "place": "32506",
+    "population": "14149"
+  },
+  "Hawthorne, California": {
+    "state": "06",
+    "place": "32548",
+    "population": "88083"
+  },
+  "Hayward, California": {
+    "state": "06",
+    "place": "33000",
+    "population": "162954"
+  },
+  "Healdsburg, California": {
+    "state": "06",
+    "place": "33056",
+    "population": "11340"
+  },
+  "Hemet, California": {
+    "state": "06",
+    "place": "33182",
+    "population": "89833"
+  },
+  "Hercules, California": {
+    "state": "06",
+    "place": "33308",
+    "population": "26016"
+  },
+  "Hermosa Beach, California": {
+    "state": "06",
+    "place": "33364",
+    "population": "19728"
+  },
+  "Hesperia, California": {
+    "state": "06",
+    "place": "33434",
+    "population": "99818"
+  },
+  "Hidden Hills, California": {
+    "state": "06",
+    "place": "33518",
+    "population": "1725"
+  },
+  "Highland, California": {
+    "state": "06",
+    "place": "33588",
+    "population": "56999"
+  },
+  "Hollister, California": {
+    "state": "06",
+    "place": "34120",
+    "population": "41678"
+  },
+  "Tustin, California": {
+    "state": "06",
+    "place": "80854",
+    "population": "80276"
+  },
+  "Twentynine Palms, California": {
+    "state": "06",
+    "place": "80994",
+    "population": "28065"
+  },
+  "Ukiah, California": {
+    "state": "06",
+    "place": "81134",
+    "population": "16607"
+  },
+  "Union City, California": {
+    "state": "06",
+    "place": "81204",
+    "population": "70143"
+  },
+  "Upland, California": {
+    "state": "06",
+    "place": "81344",
+    "population": "79040"
+  },
+  "Vacaville, California": {
+    "state": "06",
+    "place": "81554",
+    "population": "102386"
+  },
+  "Vallejo, California": {
+    "state": "06",
+    "place": "81666",
+    "population": "126090"
+  },
+  "Vernon, California": {
+    "state": "06",
+    "place": "82422",
+    "population": "222"
+  },
+  "Victorville, California": {
+    "state": "06",
+    "place": "82590",
+    "population": "134810"
+  },
+  "Villa Park, California": {
+    "state": "06",
+    "place": "82744",
+    "population": "5843"
+  },
+  "Visalia, California": {
+    "state": "06",
+    "place": "82954",
+    "population": "141384"
+  },
+  "Vista, California": {
+    "state": "06",
+    "place": "82996",
+    "population": "98381"
+  },
+  "Walnut, California": {
+    "state": "06",
+    "place": "83332",
+    "population": "28430"
+  },
+  "Walnut Creek, California": {
+    "state": "06",
+    "place": "83346",
+    "population": "70127"
+  },
+  "Wasco, California": {
+    "state": "06",
+    "place": "83542",
+    "population": "27047"
+  }
+}

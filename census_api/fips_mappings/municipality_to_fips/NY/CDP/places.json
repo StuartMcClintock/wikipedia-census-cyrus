@@ -1,0 +1,3447 @@
+{
+  "Cementon, New York": {
+    "state": "36",
+    "place": "13299",
+    "population": "164"
+  },
+  "Centereach, New York": {
+    "state": "36",
+    "place": "13376",
+    "population": "30980"
+  },
+  "Center Moriches, New York": {
+    "state": "36",
+    "place": "13420",
+    "population": "8046"
+  },
+  "Centerport, New York": {
+    "state": "36",
+    "place": "13442",
+    "population": "5822"
+  },
+  "Central Bridge, New York": {
+    "state": "36",
+    "place": "13530",
+    "population": "740"
+  },
+  "Central Islip, New York": {
+    "state": "36",
+    "place": "13552",
+    "population": "36714"
+  },
+  "Chadwicks, New York": {
+    "state": "36",
+    "place": "13662",
+    "population": "1291"
+  },
+  "Chappaqua, New York": {
+    "state": "36",
+    "place": "13805",
+    "population": "2598"
+  },
+  "Chautauqua, New York": {
+    "state": "36",
+    "place": "14058",
+    "population": "218"
+  },
+  "Chazy, New York": {
+    "state": "36",
+    "place": "14102",
+    "population": "548"
+  },
+  "Cheektowaga, New York": {
+    "state": "36",
+    "place": "15000",
+    "population": "76829"
+  },
+  "Chelsea Cove, New York": {
+    "state": "36",
+    "place": "15060",
+    "population": "1150"
+  },
+  "Chenango Bridge, New York": {
+    "state": "36",
+    "place": "15121",
+    "population": "2884"
+  },
+  "Cherry Creek, New York": {
+    "state": "36",
+    "place": "15187",
+    "population": "409"
+  },
+  "Chestertown, New York": {
+    "state": "36",
+    "place": "15363",
+    "population": "586"
+  },
+  "Clarence, New York": {
+    "state": "36",
+    "place": "15814",
+    "population": "2733"
+  },
+  "Clarence Center, New York": {
+    "state": "36",
+    "place": "15836",
+    "population": "2605"
+  },
+  "Clark Mills, New York": {
+    "state": "36",
+    "place": "15902",
+    "population": "2049"
+  },
+  "Clarkson, New York": {
+    "state": "36",
+    "place": "15946",
+    "population": "4694"
+  },
+  "Claverack-Red Mills, New York": {
+    "state": "36",
+    "place": "16050",
+    "population": "953"
+  },
+  "Clifton Gardens, New York": {
+    "state": "36",
+    "place": "16298",
+    "population": "2729"
+  },
+  "Clifton Knolls-Mill Creek, New York": {
+    "state": "36",
+    "place": "16322",
+    "population": "3048"
+  },
+  "Clintondale, New York": {
+    "state": "36",
+    "place": "16452",
+    "population": "1938"
+  },
+  "Cold Spring Harbor, New York": {
+    "state": "36",
+    "place": "16958",
+    "population": "3064"
+  },
+  "Colton, New York": {
+    "state": "36",
+    "place": "17398",
+    "population": "348"
+  },
+  "Commack, New York": {
+    "state": "36",
+    "place": "17530",
+    "population": "36536"
+  },
+  "Conesus, New York": {
+    "state": "36",
+    "place": "17607",
+    "population": "283"
+  },
+  "Conesus Lake, New York": {
+    "state": "36",
+    "place": "17622",
+    "population": "2270"
+  },
+  "Congers, New York": {
+    "state": "36",
+    "place": "17739",
+    "population": "8532"
+  },
+  "Constantia, New York": {
+    "state": "36",
+    "place": "17893",
+    "population": "1109"
+  },
+  "Coopers Plains, New York": {
+    "state": "36",
+    "place": "18036",
+    "population": "609"
+  },
+  "Copake, New York": {
+    "state": "36",
+    "place": "18091",
+    "population": "318"
+  },
+  "Copake Falls, New York": {
+    "state": "36",
+    "place": "18113",
+    "population": "181"
+  },
+  "Copake Lake, New York": {
+    "state": "36",
+    "place": "18124",
+    "population": "767"
+  },
+  "Copiague, New York": {
+    "state": "36",
+    "place": "18146",
+    "population": "23429"
+  },
+  "Coram, New York": {
+    "state": "36",
+    "place": "18157",
+    "population": "40220"
+  },
+  "Cortland West, New York": {
+    "state": "36",
+    "place": "18443",
+    "population": "1286"
+  },
+  "Country Knolls, New York": {
+    "state": "36",
+    "place": "18542",
+    "population": "5349"
+  },
+  "Cragsmoor, New York": {
+    "state": "36",
+    "place": "18762",
+    "population": "433"
+  },
+  "Cranberry Lake, New York": {
+    "state": "36",
+    "place": "18817",
+    "population": "174"
+  },
+  "Crest View Heights, New York": {
+    "state": "36",
+    "place": "18993",
+    "population": "1770"
+  },
+  "Crompond, New York": {
+    "state": "36",
+    "place": "19092",
+    "population": "2330"
+  },
+  "Crown Heights, New York": {
+    "state": "36",
+    "place": "19229",
+    "population": "2872"
+  },
+  "Crugers, New York": {
+    "state": "36",
+    "place": "19290",
+    "population": "1627"
+  },
+  "Crystal Beach, New York": {
+    "state": "36",
+    "place": "19308",
+    "population": "627"
+  },
+  "Cumberland Head, New York": {
+    "state": "36",
+    "place": "19408",
+    "population": "1735"
+  },
+  "Cumminsville, New York": {
+    "state": "36",
+    "place": "19411",
+    "population": "161"
+  },
+  "Cutchogue, New York": {
+    "state": "36",
+    "place": "19466",
+    "population": "3437"
+  },
+  "Cuylerville, New York": {
+    "state": "36",
+    "place": "19510",
+    "population": "268"
+  },
+  "Dalton, New York": {
+    "state": "36",
+    "place": "19587",
+    "population": "351"
+  },
+  "Danby, New York": {
+    "state": "36",
+    "place": "19609",
+    "population": "506"
+  },
+  "Davenport Center, New York": {
+    "state": "36",
+    "place": "19774",
+    "population": "344"
+  },
+  "Deer Park, New York": {
+    "state": "36",
+    "place": "19972",
+    "population": "28837"
+  },
+  "DeKalb Junction, New York": {
+    "state": "36",
+    "place": "20049",
+    "population": "485"
+  },
+  "Depauville, New York": {
+    "state": "36",
+    "place": "20302",
+    "population": "488"
+  },
+  "De Witt, New York": {
+    "state": "36",
+    "place": "20467",
+    "population": "11247"
+  },
+  "Dix Hills, New York": {
+    "state": "36",
+    "place": "20687",
+    "population": "26180"
+  },
+  "Dover Plains, New York": {
+    "state": "36",
+    "place": "20841",
+    "population": "1322"
+  },
+  "Downsville, New York": {
+    "state": "36",
+    "place": "20852",
+    "population": "474"
+  },
+  "Duane Lake, New York": {
+    "state": "36",
+    "place": "20989",
+    "population": "329"
+  },
+  "Duanesburg, New York": {
+    "state": "36",
+    "place": "20995",
+    "population": "379"
+  },
+  "Durhamville, New York": {
+    "state": "36",
+    "place": "21226",
+    "population": "527"
+  },
+  "Eagle Bay, New York": {
+    "state": "36",
+    "place": "21380",
+    "population": "54"
+  },
+  "East Atlantic Beach, New York": {
+    "state": "36",
+    "place": "21578",
+    "population": "2101"
+  },
+  "East Avon, New York": {
+    "state": "36",
+    "place": "21600",
+    "population": "618"
+  },
+  "Eastchester, New York": {
+    "state": "36",
+    "place": "21809",
+    "population": "20901"
+  },
+  "East Durham, New York": {
+    "state": "36",
+    "place": "21919",
+    "population": "466"
+  },
+  "East Farmingdale, New York": {
+    "state": "36",
+    "place": "21985",
+    "population": "6617"
+  },
+  "East Frankfort, New York": {
+    "state": "36",
+    "place": "22029",
+    "population": "496"
+  },
+  "East Glenville, New York": {
+    "state": "36",
+    "place": "22084",
+    "population": "11896"
+  },
+  "East Greenbush, New York": {
+    "state": "36",
+    "place": "22106",
+    "population": "6266"
+  },
+  "East Hampton North, New York": {
+    "state": "36",
+    "place": "22200",
+    "population": "5377"
+  },
+  "East Herkimer, New York": {
+    "state": "36",
+    "place": "22238",
+    "population": "787"
+  },
+  "East Islip, New York": {
+    "state": "36",
+    "place": "22315",
+    "population": "13931"
+  },
+  "East Ithaca, New York": {
+    "state": "36",
+    "place": "22326",
+    "population": "3175"
+  },
+  "East Kingston, New York": {
+    "state": "36",
+    "place": "22370",
+    "population": "277"
+  },
+  "East Marion, New York": {
+    "state": "36",
+    "place": "22447",
+    "population": "1048"
+  },
+  "East Massapequa, New York": {
+    "state": "36",
+    "place": "22480",
+    "population": "19854"
+  },
+  "East Meadow, New York": {
+    "state": "36",
+    "place": "22502",
+    "population": "37796"
+  },
+  "East Moriches, New York": {
+    "state": "36",
+    "place": "22546",
+    "population": "5946"
+  },
+  "East Northport, New York": {
+    "state": "36",
+    "place": "22612",
+    "population": "20048"
+  },
+  "East Norwich, New York": {
+    "state": "36",
+    "place": "22623",
+    "population": "2792"
+  },
+  "East Patchogue, New York": {
+    "state": "36",
+    "place": "22733",
+    "population": "21580"
+  },
+  "Eastport, New York": {
+    "state": "36",
+    "place": "22810",
+    "population": "2219"
+  },
+  "East Quogue, New York": {
+    "state": "36",
+    "place": "22832",
+    "population": "5557"
+  },
+  "East Randolph, New York": {
+    "state": "36",
+    "place": "22843",
+    "population": "571"
+  },
+  "East Setauket, New York": {
+    "state": "36",
+    "place": "22964",
+    "population": "10998"
+  },
+  "East Shoreham, New York": {
+    "state": "36",
+    "place": "22980",
+    "population": "6841"
+  },
+  "East Worcester, New York": {
+    "state": "36",
+    "place": "23283",
+    "population": "327"
+  },
+  "Eatons Neck, New York": {
+    "state": "36",
+    "place": "23316",
+    "population": "1334"
+  },
+  "Eden, New York": {
+    "state": "36",
+    "place": "23404",
+    "population": "3346"
+  },
+  "Edmeston, New York": {
+    "state": "36",
+    "place": "23602",
+    "population": "592"
+  },
+  "Edwards, New York": {
+    "state": "36",
+    "place": "23635",
+    "population": "361"
+  },
+  "Franklin Square, New York": {
+    "state": "36",
+    "place": "27309",
+    "population": "30903"
+  },
+  "Freedom Plains, New York": {
+    "state": "36",
+    "place": "27452",
+    "population": "438"
+  },
+  "Frewsburg, New York": {
+    "state": "36",
+    "place": "27672",
+    "population": "1843"
+  },
+  "Friendship, New York": {
+    "state": "36",
+    "place": "27694",
+    "population": "1085"
+  },
+  "Galeville, New York": {
+    "state": "36",
+    "place": "28035",
+    "population": "4482"
+  },
+  "Gananda, New York": {
+    "state": "36",
+    "place": "28138",
+    "population": "5867"
+  },
+  "Gang Mills, New York": {
+    "state": "36",
+    "place": "28145",
+    "population": "4261"
+  },
+  "Garden City Park, New York": {
+    "state": "36",
+    "place": "28189",
+    "population": "7985"
+  },
+  "Garden City South, New York": {
+    "state": "36",
+    "place": "28200",
+    "population": "4119"
+  },
+  "Gardiner, New York": {
+    "state": "36",
+    "place": "28244",
+    "population": "952"
+  },
+  "Gardnertown, New York": {
+    "state": "36",
+    "place": "28310",
+    "population": "4542"
+  },
+  "Garrattsville, New York": {
+    "state": "36",
+    "place": "28376",
+    "population": "120"
+  },
+  "Gasport, New York": {
+    "state": "36",
+    "place": "28431",
+    "population": "1296"
+  },
+  "Gates, New York": {
+    "state": "36",
+    "place": "28453",
+    "population": "4956"
+  },
+  "Germantown, New York": {
+    "state": "36",
+    "place": "28761",
+    "population": "1121"
+  },
+  "Ghent, New York": {
+    "state": "36",
+    "place": "28860",
+    "population": "623"
+  },
+  "Gilgo, New York": {
+    "state": "36",
+    "place": "28990",
+    "population": "185"
+  },
+  "Glasco, New York": {
+    "state": "36",
+    "place": "29014",
+    "population": "2013"
+  },
+  "Glen Aubrey, New York": {
+    "state": "36",
+    "place": "29058",
+    "population": "446"
+  },
+  "Glen Head, New York": {
+    "state": "36",
+    "place": "29245",
+    "population": "4837"
+  },
+  "Glens Falls North, New York": {
+    "state": "36",
+    "place": "29338",
+    "population": "9530"
+  },
+  "Glenwood Landing, New York": {
+    "state": "36",
+    "place": "29421",
+    "population": "3948"
+  },
+  "Golden's Bridge, New York": {
+    "state": "36",
+    "place": "29476",
+    "population": "1628"
+  },
+  "Gordon Heights, New York": {
+    "state": "36",
+    "place": "29509",
+    "population": "3981"
+  },
+  "Gorham, New York": {
+    "state": "36",
+    "place": "29520",
+    "population": "604"
+  },
+  "Grahamsville, New York": {
+    "state": "36",
+    "place": "29707",
+    "population": "360"
+  },
+  "Grandyle Village, New York": {
+    "state": "36",
+    "place": "29894",
+    "population": "4805"
+  },
+  "Great Bend, New York": {
+    "state": "36",
+    "place": "30136",
+    "population": "807"
+  },
+  "Great Neck Gardens, New York": {
+    "state": "36",
+    "place": "30202",
+    "population": "1268"
+  },
+  "Great River, New York": {
+    "state": "36",
+    "place": "30235",
+    "population": "2005"
+  },
+  "Accord, New York": {
+    "state": "36",
+    "place": "00155",
+    "population": "573"
+  },
+  "Adams Center, New York": {
+    "state": "36",
+    "place": "00232",
+    "population": "1492"
+  },
+  "Akwesasne, New York": {
+    "state": "36",
+    "place": "00457",
+    "population": "4527"
+  },
+  "Albertson, New York": {
+    "state": "36",
+    "place": "01011",
+    "population": "5220"
+  },
+  "Altmar, New York": {
+    "state": "36",
+    "place": "01550",
+    "population": "357"
+  },
+  "Altona, New York": {
+    "state": "36",
+    "place": "01572",
+    "population": "662"
+  },
+  "Amagansett, New York": {
+    "state": "36",
+    "place": "01594",
+    "population": "1824"
+  },
+  "Amenia, New York": {
+    "state": "36",
+    "place": "01682",
+    "population": "725"
+  },
+  "Andes, New York": {
+    "state": "36",
+    "place": "02121",
+    "population": "189"
+  },
+  "Angola on the Lake, New York": {
+    "state": "36",
+    "place": "02220",
+    "population": "1481"
+  },
+  "Apalachin, New York": {
+    "state": "36",
+    "place": "02308",
+    "population": "2632"
+  },
+  "Aquebogue, New York": {
+    "state": "36",
+    "place": "02374",
+    "population": "2547"
+  },
+  "Arlington, New York": {
+    "state": "36",
+    "place": "02616",
+    "population": "3010"
+  },
+  "Armonk, New York": {
+    "state": "36",
+    "place": "02649",
+    "population": "4495"
+  },
+  "Eggertsville, New York": {
+    "state": "36",
+    "place": "23701",
+    "population": "15561"
+  },
+  "Eldred, New York": {
+    "state": "36",
+    "place": "23811",
+    "population": "212"
+  },
+  "Elizabethtown, New York": {
+    "state": "36",
+    "place": "23822",
+    "population": "746"
+  },
+  "Elma Center, New York": {
+    "state": "36",
+    "place": "24141",
+    "population": "2851"
+  },
+  "Elmont, New York": {
+    "state": "36",
+    "place": "24273",
+    "population": "35265"
+  },
+  "Elwood, New York": {
+    "state": "36",
+    "place": "24405",
+    "population": "11426"
+  },
+  "Endwell, New York": {
+    "state": "36",
+    "place": "24526",
+    "population": "11762"
+  },
+  "Erin, New York": {
+    "state": "36",
+    "place": "24625",
+    "population": "367"
+  },
+  "Fairmount, New York": {
+    "state": "36",
+    "place": "25043",
+    "population": "10248"
+  },
+  "Fallsburg, New York": {
+    "state": "36",
+    "place": "25230",
+    "population": "1862"
+  },
+  "Farmingville, New York": {
+    "state": "36",
+    "place": "25417",
+    "population": "14983"
+  },
+  "Felts Mills, New York": {
+    "state": "36",
+    "place": "25571",
+    "population": "473"
+  },
+  "Fillmore, New York": {
+    "state": "36",
+    "place": "25747",
+    "population": "596"
+  },
+  "Fire Island, New York": {
+    "state": "36",
+    "place": "25839",
+    "population": "777"
+  },
+  "Firthcliffe, New York": {
+    "state": "36",
+    "place": "25857",
+    "population": "5022"
+  },
+  "Fishers Island, New York": {
+    "state": "36",
+    "place": "25923",
+    "population": "424"
+  },
+  "Fishers Landing, New York": {
+    "state": "36",
+    "place": "25934",
+    "population": "119"
+  },
+  "Flanders, New York": {
+    "state": "36",
+    "place": "26121",
+    "population": "5098"
+  },
+  "Fly Creek, New York": {
+    "state": "36",
+    "place": "26418",
+    "population": "270"
+  },
+  "Forest Home, New York": {
+    "state": "36",
+    "place": "26561",
+    "population": "1168"
+  },
+  "Forestville, New York": {
+    "state": "36",
+    "place": "26649",
+    "population": "704"
+  },
+  "Fort Covington, New York": {
+    "state": "36",
+    "place": "26726",
+    "population": "1127"
+  },
+  "Fort Drum, New York": {
+    "state": "36",
+    "place": "26759",
+    "population": "15896"
+  },
+  "Fort Montgomery, New York": {
+    "state": "36",
+    "place": "26902",
+    "population": "1627"
+  },
+  "Fort Salonga, New York": {
+    "state": "36",
+    "place": "26946",
+    "population": "9652"
+  },
+  "Fowlerville, New York": {
+    "state": "36",
+    "place": "27133",
+    "population": "163"
+  },
+  "Greenlawn, New York": {
+    "state": "36",
+    "place": "30543",
+    "population": "13661"
+  },
+  "Greenport West, New York": {
+    "state": "36",
+    "place": "30581",
+    "population": "2282"
+  },
+  "Greenvale, New York": {
+    "state": "36",
+    "place": "30598",
+    "population": "1069"
+  },
+  "Greigsville, New York": {
+    "state": "36",
+    "place": "30807",
+    "population": "191"
+  },
+  "Groveland Station, New York": {
+    "state": "36",
+    "place": "31022",
+    "population": "246"
+  },
+  "Guilford, New York": {
+    "state": "36",
+    "place": "31137",
+    "population": "322"
+  },
+  "Hadley, New York": {
+    "state": "36",
+    "place": "31258",
+    "population": "1124"
+  },
+  "Hailesboro, New York": {
+    "state": "36",
+    "place": "31346",
+    "population": "544"
+  },
+  "Haines Falls, New York": {
+    "state": "36",
+    "place": "31357",
+    "population": "249"
+  },
+  "Halesite, New York": {
+    "state": "36",
+    "place": "31445",
+    "population": "2527"
+  },
+  "Hall, New York": {
+    "state": "36",
+    "place": "31533",
+    "population": "202"
+  },
+  "Hamilton College, New York": {
+    "state": "36",
+    "place": "31746",
+    "population": "1792"
+  },
+  "Hamlin, New York": {
+    "state": "36",
+    "place": "31786",
+    "population": "5177"
+  },
+  "Hampton Bays, New York": {
+    "state": "36",
+    "place": "31896",
+    "population": "15228"
+  },
+  "Hampton Manor, New York": {
+    "state": "36",
+    "place": "31918",
+    "population": "5423"
+  },
+  "Hankins, New York": {
+    "state": "36",
+    "place": "31973",
+    "population": "129"
+  },
+  "Hannawa Falls, New York": {
+    "state": "36",
+    "place": "32006",
+    "population": "975"
+  },
+  "Harbor Hills, New York": {
+    "state": "36",
+    "place": "32094",
+    "population": "562"
+  },
+  "Harbor Isle, New York": {
+    "state": "36",
+    "place": "32105",
+    "population": "1436"
+  },
+  "Harris Hill, New York": {
+    "state": "36",
+    "place": "32391",
+    "population": "5839"
+  },
+  "Hartsdale, New York": {
+    "state": "36",
+    "place": "32523",
+    "population": "3377"
+  },
+  "Hartwick, New York": {
+    "state": "36",
+    "place": "32578",
+    "population": "547"
+  },
+  "Hartwick Seminary, New York": {
+    "state": "36",
+    "place": "32597",
+    "population": "356"
+  },
+  "Greece, New York": {
+    "state": "36",
+    "place": "30279",
+    "population": "14429"
+  },
+  "Hauppauge, New York": {
+    "state": "36",
+    "place": "32732",
+    "population": "20083"
+  },
+  "Haviland, New York": {
+    "state": "36",
+    "place": "32776",
+    "population": "4174"
+  },
+  "Hawthorne, New York": {
+    "state": "36",
+    "place": "32842",
+    "population": "4646"
+  },
+  "Hemlock, New York": {
+    "state": "36",
+    "place": "33128",
+    "population": "455"
+  },
+  "Henderson, New York": {
+    "state": "36",
+    "place": "34044",
+    "population": "233"
+  },
+  "Heritage Hills, New York": {
+    "state": "36",
+    "place": "34118",
+    "population": "4511"
+  },
+  "Hermon, New York": {
+    "state": "36",
+    "place": "34165",
+    "population": "436"
+  },
+  "Herricks, New York": {
+    "state": "36",
+    "place": "34198",
+    "population": "4398"
+  },
+  "Herrings, New York": {
+    "state": "36",
+    "place": "34220",
+    "population": "116"
+  },
+  "Hewlett, New York": {
+    "state": "36",
+    "place": "34286",
+    "population": "7262"
+  },
+  "Hicksville, New York": {
+    "state": "36",
+    "place": "34374",
+    "population": "43869"
+  },
+  "High Falls, New York": {
+    "state": "36",
+    "place": "34451",
+    "population": "700"
+  },
+  "Highland, New York": {
+    "state": "36",
+    "place": "34484",
+    "population": "6385"
+  },
+  "Highland-on-the-Lake, New York": {
+    "state": "36",
+    "place": "34528",
+    "population": "3765"
+  },
+  "Hillcrest, New York": {
+    "state": "36",
+    "place": "34693",
+    "population": "8164"
+  },
+  "Hillside, New York": {
+    "state": "36",
+    "place": "34786",
+    "population": "860"
+  },
+  "Hillside Lake, New York": {
+    "state": "36",
+    "place": "34803",
+    "population": "1091"
+  },
+  "Holbrook, New York": {
+    "state": "36",
+    "place": "35056",
+    "population": "26487"
+  },
+  "Holland, New York": {
+    "state": "36",
+    "place": "35111",
+    "population": "1173"
+  },
+  "Holtsville, New York": {
+    "state": "36",
+    "place": "35254",
+    "population": "18937"
+  },
+  "Honeoye, New York": {
+    "state": "36",
+    "place": "35353",
+    "population": "723"
+  },
+  "Hopewell Junction, New York": {
+    "state": "36",
+    "place": "35573",
+    "population": "1330"
+  },
+  "Horseheads North, New York": {
+    "state": "36",
+    "place": "35710",
+    "population": "2761"
+  },
+  "Hortonville, New York": {
+    "state": "36",
+    "place": "35738",
+    "population": "180"
+  },
+  "Houghton, New York": {
+    "state": "36",
+    "place": "35771",
+    "population": "1488"
+  },
+  "Hunt, New York": {
+    "state": "36",
+    "place": "36156",
+    "population": "62"
+  },
+  "Huntington, New York": {
+    "state": "36",
+    "place": "36233",
+    "population": "19645"
+  },
+  "Huntington Station, New York": {
+    "state": "36",
+    "place": "37044",
+    "population": "34878"
+  },
+  "Hurley, New York": {
+    "state": "36",
+    "place": "37132",
+    "population": "3346"
+  },
+  "Hurleyville, New York": {
+    "state": "36",
+    "place": "37154",
+    "population": "519"
+  },
+  "Hyde Park, New York": {
+    "state": "36",
+    "place": "37198",
+    "population": "1925"
+  },
+  "Inwood, New York": {
+    "state": "36",
+    "place": "37583",
+    "population": "11340"
+  },
+  "Irondequoit, New York": {
+    "state": "36",
+    "place": "37737",
+    "population": "51043"
+  },
+  "Islip, New York": {
+    "state": "36",
+    "place": "37869",
+    "population": "18418"
+  },
+  "Islip Terrace, New York": {
+    "state": "36",
+    "place": "38022",
+    "population": "5323"
+  },
+  "Jacksonville, New York": {
+    "state": "36",
+    "place": "38209",
+    "population": "516"
+  },
+  "Jamesport, New York": {
+    "state": "36",
+    "place": "38253",
+    "population": "1609"
+  },
+  "Jamestown West, New York": {
+    "state": "36",
+    "place": "38275",
+    "population": "2652"
+  },
+  "Jefferson, New York": {
+    "state": "36",
+    "place": "38429",
+    "population": "121"
+  },
+  "Jefferson Heights, New York": {
+    "state": "36",
+    "place": "38451",
+    "population": "1122"
+  },
+  "Jericho, New York": {
+    "state": "36",
+    "place": "38539",
+    "population": "14808"
+  },
+  "Katonah, New York": {
+    "state": "36",
+    "place": "38946",
+    "population": "1603"
+  },
+  "Kauneonga Lake, New York": {
+    "state": "36",
+    "place": "38985",
+    "population": "305"
+  },
+  "Keeseville, New York": {
+    "state": "36",
+    "place": "39089",
+    "population": "2931"
+  },
+  "Kennedy, New York": {
+    "state": "36",
+    "place": "39243",
+    "population": "473"
+  },
+  "Kerhonkson, New York": {
+    "state": "36",
+    "place": "39397",
+    "population": "1722"
+  },
+  "Keuka Park, New York": {
+    "state": "36",
+    "place": "39463",
+    "population": "1130"
+  },
+  "Kiamesha Lake, New York": {
+    "state": "36",
+    "place": "39485",
+    "population": "320"
+  },
+  "Kings Park, New York": {
+    "state": "36",
+    "place": "39672",
+    "population": "17085"
+  },
+  "Kysorville, New York": {
+    "state": "36",
+    "place": "40175",
+    "population": "104"
+  },
+  "La Fargeville, New York": {
+    "state": "36",
+    "place": "40233",
+    "population": "537"
+  },
+  "Lake Carmel, New York": {
+    "state": "36",
+    "place": "40398",
+    "population": "8069"
+  },
+  "Lake Delta, New York": {
+    "state": "36",
+    "place": "40475",
+    "population": "2757"
+  },
+  "Lake Erie Beach, New York": {
+    "state": "36",
+    "place": "40486",
+    "population": "3467"
+  },
+  "Lake Huntington, New York": {
+    "state": "36",
+    "place": "40552",
+    "population": "283"
+  },
+  "Lake Katrine, New York": {
+    "state": "36",
+    "place": "40585",
+    "population": "2522"
+  },
+  "Lakeland, New York": {
+    "state": "36",
+    "place": "40607",
+    "population": "2556"
+  },
+  "Lake Luzerne, New York": {
+    "state": "36",
+    "place": "40651",
+    "population": "1336"
+  },
+  "Lake Mohegan, New York": {
+    "state": "36",
+    "place": "40689",
+    "population": "5896"
+  },
+  "Lake Ronkonkoma, New York": {
+    "state": "36",
+    "place": "40838",
+    "population": "18619"
+  },
+  "Lakeview, New York": {
+    "state": "36",
+    "place": "41003",
+    "population": "6077"
+  },
+  "Lakeville, New York": {
+    "state": "36",
+    "place": "41036",
+    "population": "694"
+  },
+  "Jefferson Valley-Yorktown, New York": {
+    "state": "36",
+    "place": "38500",
+    "population": "14444"
+  },
+  "Latham, New York": {
+    "state": "36",
+    "place": "41399",
+    "population": "13680"
+  },
+  "Laurel, New York": {
+    "state": "36",
+    "place": "41465",
+    "population": "1495"
+  },
+  "Leeds, New York": {
+    "state": "36",
+    "place": "41784",
+    "population": "429"
+  },
+  "Levittown, New York": {
+    "state": "36",
+    "place": "42081",
+    "population": "51758"
+  },
+  "Mariaville Lake, New York": {
+    "state": "36",
+    "place": "45573",
+    "population": "666"
+  },
+  "Marion, New York": {
+    "state": "36",
+    "place": "45634",
+    "population": "1432"
+  },
+  "Marist College, New York": {
+    "state": "36",
+    "place": "45659",
+    "population": "2894"
+  },
+  "Marlboro, New York": {
+    "state": "36",
+    "place": "45700",
+    "population": "3699"
+  },
+  "Massapequa, New York": {
+    "state": "36",
+    "place": "45986",
+    "population": "21355"
+  },
+  "Mastic, New York": {
+    "state": "36",
+    "place": "46074",
+    "population": "15404"
+  },
+  "Mastic Beach, New York": {
+    "state": "36",
+    "place": "46085",
+    "population": "14199"
+  },
+  "Mattituck, New York": {
+    "state": "36",
+    "place": "46140",
+    "population": "4322"
+  },
+  "Mattydale, New York": {
+    "state": "36",
+    "place": "46151",
+    "population": "6296"
+  },
+  "Mechanicstown, New York": {
+    "state": "36",
+    "place": "46349",
+    "population": "8065"
+  },
+  "Medford, New York": {
+    "state": "36",
+    "place": "46404",
+    "population": "24247"
+  },
+  "Melrose Park, New York": {
+    "state": "36",
+    "place": "46503",
+    "population": "2141"
+  },
+  "Melville, New York": {
+    "state": "36",
+    "place": "46514",
+    "population": "19284"
+  },
+  "Merrick, New York": {
+    "state": "36",
+    "place": "46668",
+    "population": "22040"
+  },
+  "Merritt Park, New York": {
+    "state": "36",
+    "place": "46750",
+    "population": "1647"
+  },
+  "Middle Island, New York": {
+    "state": "36",
+    "place": "46976",
+    "population": "10546"
+  },
+  "Miller Place, New York": {
+    "state": "36",
+    "place": "47306",
+    "population": "11723"
+  },
+  "Millwood, New York": {
+    "state": "36",
+    "place": "47482",
+    "population": "1081"
+  },
+  "Minetto, New York": {
+    "state": "36",
+    "place": "47680",
+    "population": "1262"
+  },
+  "Mineville, New York": {
+    "state": "36",
+    "place": "47702",
+    "population": "1327"
+  },
+  "Mongaup Valley, New York": {
+    "state": "36",
+    "place": "47977",
+    "population": "236"
+  },
+  "Monsey, New York": {
+    "state": "36",
+    "place": "48010",
+    "population": "26954"
+  },
+  "Montauk, New York": {
+    "state": "36",
+    "place": "48054",
+    "population": "4318"
+  },
+  "Montrose, New York": {
+    "state": "36",
+    "place": "48208",
+    "population": "2862"
+  },
+  "Mooers, New York": {
+    "state": "36",
+    "place": "48241",
+    "population": "451"
+  },
+  "Niverville, New York": {
+    "state": "36",
+    "place": "51297",
+    "population": "1508"
+  },
+  "Norfolk, New York": {
+    "state": "36",
+    "place": "51319",
+    "population": "1238"
+  },
+  "North Amityville, New York": {
+    "state": "36",
+    "place": "51396",
+    "population": "18643"
+  },
+  "Northampton, New York": {
+    "state": "36",
+    "place": "51418",
+    "population": "763"
+  },
+  "North Babylon, New York": {
+    "state": "36",
+    "place": "51440",
+    "population": "17927"
+  },
+  "North Ballston Spa, New York": {
+    "state": "36",
+    "place": "51467",
+    "population": "1376"
+  },
+  "North Bay, New York": {
+    "state": "36",
+    "place": "51484",
+    "population": "374"
+  },
+  "North Bay Shore, New York": {
+    "state": "36",
+    "place": "51495",
+    "population": "19619"
+  },
+  "North Bellmore, New York": {
+    "state": "36",
+    "place": "51517",
+    "population": "20583"
+  },
+  "North Bellport, New York": {
+    "state": "36",
+    "place": "51528",
+    "population": "11900"
+  },
+  "North Blenheim, New York": {
+    "state": "36",
+    "place": "51561",
+    "population": "54"
+  },
+  "North Boston, New York": {
+    "state": "36",
+    "place": "51583",
+    "population": "2529"
+  },
+  "North Creek, New York": {
+    "state": "36",
+    "place": "51847",
+    "population": "562"
+  },
+  "Northeast Ithaca, New York": {
+    "state": "36",
+    "place": "51915",
+    "population": "2701"
+  },
+  "North Gates, New York": {
+    "state": "36",
+    "place": "52040",
+    "population": "9458"
+  },
+  "North Granville, New York": {
+    "state": "36",
+    "place": "52067",
+    "population": "524"
+  },
+  "North Great River, New York": {
+    "state": "36",
+    "place": "52078",
+    "population": "4266"
+  },
+  "North Lindenhurst, New York": {
+    "state": "36",
+    "place": "53198",
+    "population": "12000"
+  },
+  "North Lynbrook, New York": {
+    "state": "36",
+    "place": "53231",
+    "population": "747"
+  },
+  "North Massapequa, New York": {
+    "state": "36",
+    "place": "53253",
+    "population": "17829"
+  },
+  "North Merrick, New York": {
+    "state": "36",
+    "place": "53264",
+    "population": "12238"
+  },
+  "North New Hyde Park, New York": {
+    "state": "36",
+    "place": "53275",
+    "population": "15657"
+  },
+  "North Patchogue, New York": {
+    "state": "36",
+    "place": "53319",
+    "population": "6751"
+  },
+  "North Rose, New York": {
+    "state": "36",
+    "place": "53462",
+    "population": "571"
+  },
+  "North Sea, New York": {
+    "state": "36",
+    "place": "53561",
+    "population": "5461"
+  },
+  "North Valley Stream, New York": {
+    "state": "36",
+    "place": "53748",
+    "population": "18197"
+  },
+  "Northville, New York": {
+    "state": "36",
+    "place": "53775",
+    "population": "1566"
+  },
+  "North Wantagh, New York": {
+    "state": "36",
+    "place": "53792",
+    "population": "11931"
+  },
+  "Northwest Harbor, New York": {
+    "state": "36",
+    "place": "53852",
+    "population": "4637"
+  },
+  "Northwest Ithaca, New York": {
+    "state": "36",
+    "place": "53853",
+    "population": "2231"
+  },
+  "Niskayuna, New York": {
+    "state": "36",
+    "place": "51262",
+    "population": "20787"
+  },
+  "Noyack, New York": {
+    "state": "36",
+    "place": "54056",
+    "population": "4325"
+  },
+  "Oak Beach, New York": {
+    "state": "36",
+    "place": "54111",
+    "population": "268"
+  },
+  "Oakdale, New York": {
+    "state": "36",
+    "place": "54144",
+    "population": "7430"
+  },
+  "Oceanside, New York": {
+    "state": "36",
+    "place": "54441",
+    "population": "32637"
+  },
+  "Olcott, New York": {
+    "state": "36",
+    "place": "54540",
+    "population": "1072"
+  },
+  "Old Bethpage, New York": {
+    "state": "36",
+    "place": "54551",
+    "population": "6403"
+  },
+  "Au Sable Forks, New York": {
+    "state": "36",
+    "place": "03254",
+    "population": "509"
+  },
+  "Averill Park, New York": {
+    "state": "36",
+    "place": "03320",
+    "population": "2098"
+  },
+  "Baiting Hollow, New York": {
+    "state": "36",
+    "place": "04055",
+    "population": "2763"
+  },
+  "Baldwin, New York": {
+    "state": "36",
+    "place": "04143",
+    "population": "33919"
+  },
+  "Balmville, New York": {
+    "state": "36",
+    "place": "04286",
+    "population": "3197"
+  },
+  "Bard College, New York": {
+    "state": "36",
+    "place": "04388",
+    "population": "358"
+  },
+  "Bardonia, New York": {
+    "state": "36",
+    "place": "04396",
+    "population": "4249"
+  },
+  "Barneveld, New York": {
+    "state": "36",
+    "place": "04528",
+    "population": "272"
+  },
+  "Barnum Island, New York": {
+    "state": "36",
+    "place": "04550",
+    "population": "2590"
+  },
+  "Barrytown, New York": {
+    "state": "36",
+    "place": "04605",
+    "population": "100"
+  },
+  "Barryville, New York": {
+    "state": "36",
+    "place": "04616",
+    "population": "222"
+  },
+  "Bay Park, New York": {
+    "state": "36",
+    "place": "04891",
+    "population": "2117"
+  },
+  "Bayport, New York": {
+    "state": "36",
+    "place": "04913",
+    "population": "8609"
+  },
+  "Bay Shore, New York": {
+    "state": "36",
+    "place": "04935",
+    "population": "29244"
+  },
+  "Baywood, New York": {
+    "state": "36",
+    "place": "05039",
+    "population": "7726"
+  },
+  "Beaver Dam Lake, New York": {
+    "state": "36",
+    "place": "05188",
+    "population": "2609"
+  },
+  "Bedford, New York": {
+    "state": "36",
+    "place": "05309",
+    "population": "1691"
+  },
+  "Bedford Hills, New York": {
+    "state": "36",
+    "place": "05342",
+    "population": "3239"
+  },
+  "Belfast, New York": {
+    "state": "36",
+    "place": "05562",
+    "population": "745"
+  },
+  "Bellerose Terrace, New York": {
+    "state": "36",
+    "place": "05661",
+    "population": "2329"
+  },
+  "Belleville, New York": {
+    "state": "36",
+    "place": "05683",
+    "population": "233"
+  },
+  "Bellmore, New York": {
+    "state": "36",
+    "place": "05738",
+    "population": "16297"
+  },
+  "Bethpage, New York": {
+    "state": "36",
+    "place": "06387",
+    "population": "16658"
+  },
+  "Big Flats, New York": {
+    "state": "36",
+    "place": "06464",
+    "population": "5555"
+  },
+  "Billington Heights, New York": {
+    "state": "36",
+    "place": "06574",
+    "population": "1748"
+  },
+  "Binghamton University, New York": {
+    "state": "36",
+    "place": "06644",
+    "population": "7261"
+  },
+  "Blauvelt, New York": {
+    "state": "36",
+    "place": "06860",
+    "population": "5548"
+  },
+  "Bliss, New York": {
+    "state": "36",
+    "place": "06904",
+    "population": "496"
+  },
+  "Blodgett Mills, New York": {
+    "state": "36",
+    "place": "06937",
+    "population": "274"
+  },
+  "Bloomville, New York": {
+    "state": "36",
+    "place": "07025",
+    "population": "173"
+  },
+  "Blue Point, New York": {
+    "state": "36",
+    "place": "07069",
+    "population": "5156"
+  },
+  "Lime Lake, New York": {
+    "state": "36",
+    "place": "42345",
+    "population": "836"
+  },
+  "Limestone, New York": {
+    "state": "36",
+    "place": "42378",
+    "population": "358"
+  },
+  "Lincolndale, New York": {
+    "state": "36",
+    "place": "42455",
+    "population": "1504"
+  },
+  "Lincoln Park, New York": {
+    "state": "36",
+    "place": "42488",
+    "population": "2545"
+  },
+  "Linwood, New York": {
+    "state": "36",
+    "place": "42609",
+    "population": "84"
+  },
+  "Livingston Manor, New York": {
+    "state": "36",
+    "place": "42928",
+    "population": "1053"
+  },
+  "Livonia Center, New York": {
+    "state": "36",
+    "place": "42972",
+    "population": "417"
+  },
+  "Loch Sheldrake, New York": {
+    "state": "36",
+    "place": "43038",
+    "population": "1025"
+  },
+  "Locust Valley, New York": {
+    "state": "36",
+    "place": "43192",
+    "population": "3571"
+  },
+  "Long Lake, New York": {
+    "state": "36",
+    "place": "43401",
+    "population": "596"
+  },
+  "Lorenz Park, New York": {
+    "state": "36",
+    "place": "43511",
+    "population": "2001"
+  },
+  "Lorraine, New York": {
+    "state": "36",
+    "place": "43533",
+    "population": "139"
+  },
+  "Loudonville, New York": {
+    "state": "36",
+    "place": "43566",
+    "population": "10296"
+  },
+  "Lyncourt, New York": {
+    "state": "36",
+    "place": "43885",
+    "population": "4376"
+  },
+  "Lyon Mountain, New York": {
+    "state": "36",
+    "place": "43951",
+    "population": "421"
+  },
+  "Lyons, New York": {
+    "state": "36",
+    "place": "43962",
+    "population": "3989"
+  },
+  "MacDonnell Heights, New York": {
+    "state": "36",
+    "place": "44105",
+    "population": "1291"
+  },
+  "Macedon, New York": {
+    "state": "36",
+    "place": "44149",
+    "population": "2092"
+  },
+  "Machias, New York": {
+    "state": "36",
+    "place": "44226",
+    "population": "505"
+  },
+  "McLean, New York": {
+    "state": "36",
+    "place": "44358",
+    "population": "378"
+  },
+  "Madrid, New York": {
+    "state": "36",
+    "place": "44479",
+    "population": "736"
+  },
+  "Mahopac, New York": {
+    "state": "36",
+    "place": "44534",
+    "population": "8932"
+  },
+  "Malden-on-Hudson, New York": {
+    "state": "36",
+    "place": "44677",
+    "population": "365"
+  },
+  "Lido Beach, New York": {
+    "state": "36",
+    "place": "42279",
+    "population": "2719"
+  },
+  "Malverne Park Oaks, New York": {
+    "state": "36",
+    "place": "44792",
+    "population": "538"
+  },
+  "Manhasset, New York": {
+    "state": "36",
+    "place": "44897",
+    "population": "8176"
+  },
+  "Manhasset Hills, New York": {
+    "state": "36",
+    "place": "44908",
+    "population": "3649"
+  },
+  "Manorville, New York": {
+    "state": "36",
+    "place": "45139",
+    "population": "14317"
+  },
+  "Marcy, New York": {
+    "state": "36",
+    "place": "45524",
+    "population": "650"
+  },
+  "Morrisonville, New York": {
+    "state": "36",
+    "place": "48538",
+    "population": "1893"
+  },
+  "Mountain Dale, New York": {
+    "state": "36",
+    "place": "48736",
+    "population": "633"
+  },
+  "Mountain Lodge Park, New York": {
+    "state": "36",
+    "place": "48750",
+    "population": "1910"
+  },
+  "Mount Ivy, New York": {
+    "state": "36",
+    "place": "48879",
+    "population": "7657"
+  },
+  "Mount Sinai, New York": {
+    "state": "36",
+    "place": "49066",
+    "population": "11623"
+  },
+  "Mount Vision, New York": {
+    "state": "36",
+    "place": "49143",
+    "population": "171"
+  },
+  "Munsons Corners, New York": {
+    "state": "36",
+    "place": "49242",
+    "population": "2814"
+  },
+  "Myers Corner, New York": {
+    "state": "36",
+    "place": "49363",
+    "population": "10598"
+  },
+  "Nanuet, New York": {
+    "state": "36",
+    "place": "49407",
+    "population": "18886"
+  },
+  "Napanoch, New York": {
+    "state": "36",
+    "place": "49418",
+    "population": "1131"
+  },
+  "Napeague, New York": {
+    "state": "36",
+    "place": "49424",
+    "population": "368"
+  },
+  "Narrowsburg, New York": {
+    "state": "36",
+    "place": "49473",
+    "population": "379"
+  },
+  "Nassau Lake, New York": {
+    "state": "36",
+    "place": "49555",
+    "population": "1004"
+  },
+  "Natural Bridge, New York": {
+    "state": "36",
+    "place": "49605",
+    "population": "296"
+  },
+  "Nazareth College, New York": {
+    "state": "36",
+    "place": "49715",
+    "population": "1182"
+  },
+  "Nedrow, New York": {
+    "state": "36",
+    "place": "49726",
+    "population": "2095"
+  },
+  "Nesconset, New York": {
+    "state": "36",
+    "place": "49825",
+    "population": "13207"
+  },
+  "New Baltimore, New York": {
+    "state": "36",
+    "place": "49924",
+    "population": "546"
+  },
+  "New Cassel, New York": {
+    "state": "36",
+    "place": "50067",
+    "population": "14199"
+  },
+  "New City, New York": {
+    "state": "36",
+    "place": "50100",
+    "population": "34135"
+  },
+  "Newfane, New York": {
+    "state": "36",
+    "place": "50221",
+    "population": "3662"
+  },
+  "Newfield, New York": {
+    "state": "36",
+    "place": "50243",
+    "population": "725"
+  },
+  "New Hackensack, New York": {
+    "state": "36",
+    "place": "50265",
+    "population": "1497"
+  },
+  "New Hamburg, New York": {
+    "state": "36",
+    "place": "50276",
+    "population": "842"
+  },
+  "Moriches, New York": {
+    "state": "36",
+    "place": "48450",
+    "population": "3026"
+  },
+  "New Suffolk, New York": {
+    "state": "36",
+    "place": "50727",
+    "population": "403"
+  },
+  "New Windsor, New York": {
+    "state": "36",
+    "place": "50837",
+    "population": "8882"
+  },
+  "Niagara University, New York": {
+    "state": "36",
+    "place": "51088",
+    "population": "940"
+  },
+  "Old Forge, New York": {
+    "state": "36",
+    "place": "54639",
+    "population": "727"
+  },
+  "Ontario, New York": {
+    "state": "36",
+    "place": "55002",
+    "population": "2215"
+  },
+  "Orangeburg, New York": {
+    "state": "36",
+    "place": "55167",
+    "population": "4565"
+  },
+  "Orange Lake, New York": {
+    "state": "36",
+    "place": "55189",
+    "population": "9770"
+  },
+  "Orient, New York": {
+    "state": "36",
+    "place": "55321",
+    "population": "999"
+  },
+  "Otter Lake, New York": {
+    "state": "36",
+    "place": "55750",
+    "population": "109"
+  },
+  "Oxbow, New York": {
+    "state": "36",
+    "place": "55937",
+    "population": "85"
+  },
+  "Oyster Bay, New York": {
+    "state": "36",
+    "place": "55992",
+    "population": "7049"
+  },
+  "Palenville, New York": {
+    "state": "36",
+    "place": "56132",
+    "population": "1002"
+  },
+  "Pamelia Center, New York": {
+    "state": "36",
+    "place": "56212",
+    "population": "471"
+  },
+  "Parc, New York": {
+    "state": "36",
+    "place": "56291",
+    "population": "197"
+  },
+  "Parishville, New York": {
+    "state": "36",
+    "place": "56363",
+    "population": "642"
+  },
+  "Paul Smiths, New York": {
+    "state": "36",
+    "place": "56770",
+    "population": "411"
+  },
+  "Pavilion, New York": {
+    "state": "36",
+    "place": "56781",
+    "population": "664"
+  },
+  "Peach Lake, New York": {
+    "state": "36",
+    "place": "56869",
+    "population": "1885"
+  },
+  "Pearl River, New York": {
+    "state": "36",
+    "place": "56902",
+    "population": "16567"
+  },
+  "Peconic, New York": {
+    "state": "36",
+    "place": "56968",
+    "population": "692"
+  },
+  "Perrysburg, New York": {
+    "state": "36",
+    "place": "57287",
+    "population": "346"
+  },
+  "Peru, New York": {
+    "state": "36",
+    "place": "57364",
+    "population": "1843"
+  },
+  "Phoenicia, New York": {
+    "state": "36",
+    "place": "57650",
+    "population": "268"
+  },
+  "Pierrepont Manor, New York": {
+    "state": "36",
+    "place": "57782",
+    "population": "212"
+  },
+  "Piffard, New York": {
+    "state": "36",
+    "place": "57804",
+    "population": "208"
+  },
+  "Pike, New York": {
+    "state": "36",
+    "place": "57815",
+    "population": "298"
+  },
+  "Pine Bush, New York": {
+    "state": "36",
+    "place": "57980",
+    "population": "1751"
+  },
+  "Pine Hill, New York": {
+    "state": "36",
+    "place": "58057",
+    "population": "275"
+  },
+  "Pine Plains, New York": {
+    "state": "36",
+    "place": "58145",
+    "population": "1142"
+  },
+  "Pine Valley, New York": {
+    "state": "36",
+    "place": "58189",
+    "population": "832"
+  },
+  "Plainedge, New York": {
+    "state": "36",
+    "place": "58409",
+    "population": "9517"
+  },
+  "Plainview, New York": {
+    "state": "36",
+    "place": "58442",
+    "population": "27100"
+  },
+  "Plattekill, New York": {
+    "state": "36",
+    "place": "58541",
+    "population": "1296"
+  },
+  "Plattsburgh West, New York": {
+    "state": "36",
+    "place": "58601",
+    "population": "1382"
+  },
+  "Pleasant Valley, New York": {
+    "state": "36",
+    "place": "58684",
+    "population": "1603"
+  },
+  "Plessis, New York": {
+    "state": "36",
+    "place": "58739",
+    "population": "126"
+  },
+  "Poestenkill, New York": {
+    "state": "36",
+    "place": "58794",
+    "population": "1020"
+  },
+  "Point Lookout, New York": {
+    "state": "36",
+    "place": "58849",
+    "population": "1527"
+  },
+  "Port Ewen, New York": {
+    "state": "36",
+    "place": "59311",
+    "population": "3678"
+  },
+  "Port Gibson, New York": {
+    "state": "36",
+    "place": "59322",
+    "population": "405"
+  },
+  "Port Henry, New York": {
+    "state": "36",
+    "place": "59333",
+    "population": "1150"
+  },
+  "Port Jefferson Station, New York": {
+    "state": "36",
+    "place": "59377",
+    "population": "7950"
+  },
+  "Portlandville, New York": {
+    "state": "36",
+    "place": "59443",
+    "population": "177"
+  },
+  "Port Washington, New York": {
+    "state": "36",
+    "place": "59520",
+    "population": "16753"
+  },
+  "Pottersville, New York": {
+    "state": "36",
+    "place": "59619",
+    "population": "359"
+  },
+  "Prattsburgh, New York": {
+    "state": "36",
+    "place": "59708",
+    "population": "589"
+  },
+  "Prattsville, New York": {
+    "state": "36",
+    "place": "59740",
+    "population": "384"
+  },
+  "Preston-Potter Hollow, New York": {
+    "state": "36",
+    "place": "59831",
+    "population": "367"
+  },
+  "Prospect, New York": {
+    "state": "36",
+    "place": "59883",
+    "population": "248"
+  },
+  "Pultneyville, New York": {
+    "state": "36",
+    "place": "59993",
+    "population": "817"
+  },
+  "Putnam Lake, New York": {
+    "state": "36",
+    "place": "60103",
+    "population": "3776"
+  },
+  "Quiogue, New York": {
+    "state": "36",
+    "place": "60408",
+    "population": "1013"
+  },
+  "Radisson, New York": {
+    "state": "36",
+    "place": "60455",
+    "population": "7038"
+  },
+  "Randolph, New York": {
+    "state": "36",
+    "place": "60576",
+    "population": "1297"
+  },
+  "Ransomville, New York": {
+    "state": "36",
+    "place": "60598",
+    "population": "1316"
+  },
+  "Rapids, New York": {
+    "state": "36",
+    "place": "60609",
+    "population": "1584"
+  },
+  "Redford, New York": {
+    "state": "36",
+    "place": "60884",
+    "population": "387"
+  },
+  "Red Oaks Mill, New York": {
+    "state": "36",
+    "place": "60983",
+    "population": "3810"
+  },
+  "Redwood, New York": {
+    "state": "36",
+    "place": "61016",
+    "population": "493"
+  },
+  "Remsenburg-Speonk, New York": {
+    "state": "36",
+    "place": "61142",
+    "population": "3110"
+  },
+  "Retsof, New York": {
+    "state": "36",
+    "place": "61236",
+    "population": "326"
+  },
+  "Rhinecliff, New York": {
+    "state": "36",
+    "place": "61368",
+    "population": "380"
+  },
+  "Ridge, New York": {
+    "state": "36",
+    "place": "61665",
+    "population": "13271"
+  },
+  "Rifton, New York": {
+    "state": "36",
+    "place": "61797",
+    "population": "481"
+  },
+  "Ripley, New York": {
+    "state": "36",
+    "place": "61874",
+    "population": "852"
+  },
+  "Riverhead, New York": {
+    "state": "36",
+    "place": "61973",
+    "population": "14993"
+  },
+  "Riverside, New York": {
+    "state": "36",
+    "place": "62066",
+    "population": "2882"
+  },
+  "Rochester Institute of Technology, New York": {
+    "state": "36",
+    "place": "63014",
+    "population": "7322"
+  },
+  "Rock Hill, New York": {
+    "state": "36",
+    "place": "63132",
+    "population": "2369"
+  },
+  "Rocky Point, New York": {
+    "state": "36",
+    "place": "63319",
+    "population": "13633"
+  },
+  "Rodman, New York": {
+    "state": "36",
+    "place": "63330",
+    "population": "152"
+  },
+  "Roessleville, New York": {
+    "state": "36",
+    "place": "63363",
+    "population": "11518"
+  },
+  "Romulus, New York": {
+    "state": "36",
+    "place": "63429",
+    "population": "356"
+  },
+  "Ronkonkoma, New York": {
+    "state": "36",
+    "place": "63473",
+    "population": "18955"
+  },
+  "Roosevelt, New York": {
+    "state": "36",
+    "place": "63506",
+    "population": "18066"
+  },
+  "Roscoe, New York": {
+    "state": "36",
+    "place": "63583",
+    "population": "497"
+  },
+  "Rosendale, New York": {
+    "state": "36",
+    "place": "63725",
+    "population": "1285"
+  },
+  "Roslyn Heights, New York": {
+    "state": "36",
+    "place": "63814",
+    "population": "6747"
+  },
+  "Rotterdam, New York": {
+    "state": "36",
+    "place": "63924",
+    "population": "22968"
+  },
+  "Round Top, New York": {
+    "state": "36",
+    "place": "63968",
+    "population": "920"
+  },
+  "Ruby, New York": {
+    "state": "36",
+    "place": "64056",
+    "population": "918"
+  },
+  "Rushford, New York": {
+    "state": "36",
+    "place": "64155",
+    "population": "351"
+  },
+  "Saddle Rock Estates, New York": {
+    "state": "36",
+    "place": "64441",
+    "population": "428"
+  },
+  "St. Bonaventure, New York": {
+    "state": "36",
+    "place": "64551",
+    "population": "1963"
+  },
+  "St. James, New York": {
+    "state": "36",
+    "place": "64584",
+    "population": "13487"
+  },
+  "St. John Fisher College, New York": {
+    "state": "36",
+    "place": "64606",
+    "population": "1307"
+  },
+  "St. Regis Falls, New York": {
+    "state": "36",
+    "place": "64716",
+    "population": "432"
+  },
+  "Salem, New York": {
+    "state": "36",
+    "place": "64771",
+    "population": "811"
+  },
+  "Slaterville Springs, New York": {
+    "state": "36",
+    "place": "67631",
+    "population": "208"
+  },
+  "Sleepy Hollow Lake, New York": {
+    "state": "36",
+    "place": "67640",
+    "population": "1153"
+  },
+  "Smallwood, New York": {
+    "state": "36",
+    "place": "67730",
+    "population": "839"
+  },
+  "Smithtown, New York": {
+    "state": "36",
+    "place": "67851",
+    "population": "25629"
+  },
+  "Smithville Flats, New York": {
+    "state": "36",
+    "place": "68088",
+    "population": "303"
+  },
+  "Sound Beach, New York": {
+    "state": "36",
+    "place": "68374",
+    "population": "7416"
+  },
+  "South Cairo, New York": {
+    "state": "36",
+    "place": "68737",
+    "population": "590"
+  },
+  "South Edmeston, New York": {
+    "state": "36",
+    "place": "68946",
+    "population": "137"
+  },
+  "South Fallsburg, New York": {
+    "state": "36",
+    "place": "68968",
+    "population": "2347"
+  },
+  "South Farmingdale, New York": {
+    "state": "36",
+    "place": "69001",
+    "population": "14345"
+  },
+  "South Hempstead, New York": {
+    "state": "36",
+    "place": "69188",
+    "population": "3406"
+  },
+  "South Hill, New York": {
+    "state": "36",
+    "place": "69199",
+    "population": "7245"
+  },
+  "South Huntington, New York": {
+    "state": "36",
+    "place": "69254",
+    "population": "9561"
+  },
+  "South Ilion, New York": {
+    "state": "36",
+    "place": "69265",
+    "population": "119"
+  },
+  "South Lansing, New York": {
+    "state": "36",
+    "place": "69342",
+    "population": "1078"
+  },
+  "South Lima, New York": {
+    "state": "36",
+    "place": "69364",
+    "population": "269"
+  },
+  "South Lockport, New York": {
+    "state": "36",
+    "place": "69386",
+    "population": "9355"
+  },
+  "Southold, New York": {
+    "state": "36",
+    "place": "69452",
+    "population": "6040"
+  },
+  "Southport, New York": {
+    "state": "36",
+    "place": "69606",
+    "population": "6782"
+  },
+  "South Valley Stream, New York": {
+    "state": "36",
+    "place": "69892",
+    "population": "6386"
+  },
+  "Spackenkill, New York": {
+    "state": "36",
+    "place": "70035",
+    "population": "4223"
+  },
+  "Sparkill, New York": {
+    "state": "36",
+    "place": "70068",
+    "population": "1581"
+  },
+  "Sparrow Bush, New York": {
+    "state": "36",
+    "place": "70090",
+    "population": "981"
+  },
+  "Springfield Center, New York": {
+    "state": "36",
+    "place": "70321",
+    "population": "336"
+  },
+  "Springs, New York": {
+    "state": "36",
+    "place": "70387",
+    "population": "8086"
+  },
+  "Springwater, New York": {
+    "state": "36",
+    "place": "70464",
+    "population": "518"
+  },
+  "Staatsburg, New York": {
+    "state": "36",
+    "place": "70552",
+    "population": "703"
+  },
+  "Stannards, New York": {
+    "state": "36",
+    "place": "70717",
+    "population": "585"
+  },
+  "Star Lake, New York": {
+    "state": "36",
+    "place": "70849",
+    "population": "631"
+  },
+  "Stittville, New York": {
+    "state": "36",
+    "place": "71377",
+    "population": "294"
+  },
+  "Stone Ridge, New York": {
+    "state": "36",
+    "place": "71597",
+    "population": "1234"
+  },
+  "Stony Brook, New York": {
+    "state": "36",
+    "place": "71608",
+    "population": "13467"
+  },
+  "Stony Brook University, New York": {
+    "state": "36",
+    "place": "71620",
+    "population": "10409"
+  },
+  "Van Etten, New York": {
+    "state": "36",
+    "place": "76881",
+    "population": "601"
+  },
+  "Varna, New York": {
+    "state": "36",
+    "place": "76969",
+    "population": "767"
+  },
+  "Vassar College, New York": {
+    "state": "36",
+    "place": "76985",
+    "population": "2472"
+  },
+  "Verona, New York": {
+    "state": "36",
+    "place": "77167",
+    "population": "828"
+  },
+  "Verplanck, New York": {
+    "state": "36",
+    "place": "77211",
+    "population": "1535"
+  },
+  "Village Green, New York": {
+    "state": "36",
+    "place": "77513",
+    "population": "3834"
+  },
+  "Viola, New York": {
+    "state": "36",
+    "place": "77574",
+    "population": "8208"
+  },
+  "Virgil, New York": {
+    "state": "36",
+    "place": "77585",
+    "population": "298"
+  },
+  "Wading River, New York": {
+    "state": "36",
+    "place": "77772",
+    "population": "7731"
+  },
+  "Wadsworth, New York": {
+    "state": "36",
+    "place": "77783",
+    "population": "173"
+  },
+  "Wainscott, New York": {
+    "state": "36",
+    "place": "77805",
+    "population": "904"
+  },
+  "Walker Valley, New York": {
+    "state": "36",
+    "place": "77948",
+    "population": "1269"
+  },
+  "Wallkill, New York": {
+    "state": "36",
+    "place": "78003",
+    "population": "2166"
+  },
+  "Walton Park, New York": {
+    "state": "36",
+    "place": "78063",
+    "population": "3907"
+  },
+  "Walworth, New York": {
+    "state": "36",
+    "place": "78091",
+    "population": "917"
+  },
+  "Wanakah, New York": {
+    "state": "36",
+    "place": "78124",
+    "population": "3137"
+  },
+  "Wantagh, New York": {
+    "state": "36",
+    "place": "78146",
+    "population": "18613"
+  },
+  "Warrensburg, New York": {
+    "state": "36",
+    "place": "78289",
+    "population": "3045"
+  },
+  "Washington Heights, New York": {
+    "state": "36",
+    "place": "78421",
+    "population": "2205"
+  },
+  "Washington Mills, New York": {
+    "state": "36",
+    "place": "78454",
+    "population": "1219"
+  },
+  "Wassaic, New York": {
+    "state": "36",
+    "place": "78476",
+    "population": "210"
+  },
+  "Watchtower, New York": {
+    "state": "36",
+    "place": "78487",
+    "population": "1709"
+  },
+  "Water Mill, New York": {
+    "state": "36",
+    "place": "78575",
+    "population": "2506"
+  },
+  "Websters Crossing, New York": {
+    "state": "36",
+    "place": "78982",
+    "population": "52"
+  },
+  "Wells, New York": {
+    "state": "36",
+    "place": "79048",
+    "population": "531"
+  },
+  "Wells Bridge, New York": {
+    "state": "36",
+    "place": "79070",
+    "population": "279"
+  },
+  "West Babylon, New York": {
+    "state": "36",
+    "place": "79246",
+    "population": "43213"
+  },
+  "West Bay Shore, New York": {
+    "state": "36",
+    "place": "79301",
+    "population": "4625"
+  },
+  "Bolton Landing, New York": {
+    "state": "36",
+    "place": "07245",
+    "population": "518"
+  },
+  "Brasher Falls, New York": {
+    "state": "36",
+    "place": "07960",
+    "population": "674"
+  },
+  "Breesport, New York": {
+    "state": "36",
+    "place": "08004",
+    "population": "629"
+  },
+  "Brentwood, New York": {
+    "state": "36",
+    "place": "08026",
+    "population": "62387"
+  },
+  "Brewerton, New York": {
+    "state": "36",
+    "place": "08059",
+    "population": "3907"
+  },
+  "Brewster Heights, New York": {
+    "state": "36",
+    "place": "08081",
+    "population": "1076"
+  },
+  "Brewster Hill, New York": {
+    "state": "36",
+    "place": "08092",
+    "population": "1924"
+  },
+  "Bridgehampton, New York": {
+    "state": "36",
+    "place": "08136",
+    "population": "2953"
+  },
+  "Bridgeport, New York": {
+    "state": "36",
+    "place": "08147",
+    "population": "1389"
+  },
+  "Bridgeville, New York": {
+    "state": "36",
+    "place": "08158",
+    "population": "149"
+  },
+  "Bridgewater, New York": {
+    "state": "36",
+    "place": "08169",
+    "population": "516"
+  },
+  "Brighton, New York": {
+    "state": "36",
+    "place": "08257",
+    "population": "37137"
+  },
+  "Brinckerhoff, New York": {
+    "state": "36",
+    "place": "08334",
+    "population": "3377"
+  },
+  "Brookhaven, New York": {
+    "state": "36",
+    "place": "09000",
+    "population": "3330"
+  },
+  "Brooktondale, New York": {
+    "state": "36",
+    "place": "10077",
+    "population": "261"
+  },
+  "Burlington Flats, New York": {
+    "state": "36",
+    "place": "11220",
+    "population": "143"
+  },
+  "Busti, New York": {
+    "state": "36",
+    "place": "11440",
+    "population": "349"
+  },
+  "Byersville, New York": {
+    "state": "36",
+    "place": "11550",
+    "population": "44"
+  },
+  "Cadyville, New York": {
+    "state": "36",
+    "place": "11616",
+    "population": "479"
+  },
+  "Cairo, New York": {
+    "state": "36",
+    "place": "11638",
+    "population": "1368"
+  },
+  "Calcium, New York": {
+    "state": "36",
+    "place": "11671",
+    "population": "3573"
+  },
+  "Callicoon, New York": {
+    "state": "36",
+    "place": "11748",
+    "population": "206"
+  },
+  "Bohemia, New York": {
+    "state": "36",
+    "place": "07157",
+    "population": "9852"
+  },
+  "Calverton, New York": {
+    "state": "36",
+    "place": "11781",
+    "population": "5934"
+  },
+  "Campbell, New York": {
+    "state": "36",
+    "place": "11935",
+    "population": "659"
+  },
+  "Captree, New York": {
+    "state": "36",
+    "place": "12402",
+    "population": "48"
+  },
+  "Carle Place, New York": {
+    "state": "36",
+    "place": "12419",
+    "population": "5005"
+  },
+  "Carmel, New York": {
+    "state": "36",
+    "place": "12518",
+    "population": "7538"
+  },
+  "Caroga Lake, New York": {
+    "state": "36",
+    "place": "12584",
+    "population": "548"
+  },
+  "Salisbury Center, New York": {
+    "state": "36",
+    "place": "64848",
+    "population": "323"
+  },
+  "Salisbury Mills, New York": {
+    "state": "36",
+    "place": "64859",
+    "population": "580"
+  },
+  "Salt Point, New York": {
+    "state": "36",
+    "place": "64892",
+    "population": "202"
+  },
+  "Sanborn, New York": {
+    "state": "36",
+    "place": "64958",
+    "population": "1553"
+  },
+  "Sand Ridge, New York": {
+    "state": "36",
+    "place": "65024",
+    "population": "992"
+  },
+  "Saugerties South, New York": {
+    "state": "36",
+    "place": "65310",
+    "population": "2442"
+  },
+  "Savannah, New York": {
+    "state": "36",
+    "place": "65332",
+    "population": "487"
+  },
+  "Sayville, New York": {
+    "state": "36",
+    "place": "65409",
+    "population": "16569"
+  },
+  "Schenevus, New York": {
+    "state": "36",
+    "place": "65519",
+    "population": "494"
+  },
+  "Schroon Lake, New York": {
+    "state": "36",
+    "place": "65640",
+    "population": "921"
+  },
+  "Schuyler Lake, New York": {
+    "state": "36",
+    "place": "65739",
+    "population": "189"
+  },
+  "Scio, New York": {
+    "state": "36",
+    "place": "65761",
+    "population": "525"
+  },
+  "Scotchtown, New York": {
+    "state": "36",
+    "place": "65882",
+    "population": "10578"
+  },
+  "Scottsburg, New York": {
+    "state": "36",
+    "place": "65926",
+    "population": "137"
+  },
+  "Scotts Corners, New York": {
+    "state": "36",
+    "place": "65948",
+    "population": "665"
+  },
+  "Seaford, New York": {
+    "state": "36",
+    "place": "66058",
+    "population": "15251"
+  },
+  "Searingtown, New York": {
+    "state": "36",
+    "place": "66102",
+    "population": "5044"
+  },
+  "Selden, New York": {
+    "state": "36",
+    "place": "66212",
+    "population": "21262"
+  },
+  "Seneca Falls, New York": {
+    "state": "36",
+    "place": "66322",
+    "population": "6809"
+  },
+  "Seneca Knolls, New York": {
+    "state": "36",
+    "place": "66366",
+    "population": "1992"
+  },
+  "Setauket, New York": {
+    "state": "36",
+    "place": "66465",
+    "population": "3986"
+  },
+  "Shelter Island, New York": {
+    "state": "36",
+    "place": "66828",
+    "population": "1602"
+  },
+  "Shelter Island Heights, New York": {
+    "state": "36",
+    "place": "66850",
+    "population": "1601"
+  },
+  "Shenorock, New York": {
+    "state": "36",
+    "place": "66872",
+    "population": "1903"
+  },
+  "Salisbury, New York": {
+    "state": "36",
+    "place": "64842",
+    "population": "12618"
+  },
+  "Shinnecock Hills, New York": {
+    "state": "36",
+    "place": "67048",
+    "population": "2282"
+  },
+  "Shirley, New York": {
+    "state": "36",
+    "place": "67070",
+    "population": "26360"
+  },
+  "Shokan, New York": {
+    "state": "36",
+    "place": "67081",
+    "population": "1075"
+  },
+  "Shorehaven, New York": {
+    "state": "36",
+    "place": "67207",
+    "population": "686"
+  },
+  "Shrub Oak, New York": {
+    "state": "36",
+    "place": "67279",
+    "population": "2143"
+  },
+  "Siena College, New York": {
+    "state": "36",
+    "place": "67367",
+    "population": "2281"
+  },
+  "Stony Point, New York": {
+    "state": "36",
+    "place": "71663",
+    "population": "12126"
+  },
+  "Stottville, New York": {
+    "state": "36",
+    "place": "71718",
+    "population": "1665"
+  },
+  "Strykersville, New York": {
+    "state": "36",
+    "place": "71817",
+    "population": "682"
+  },
+  "Sunset Bay, New York": {
+    "state": "36",
+    "place": "72246",
+    "population": "470"
+  },
+  "SUNY Oswego, New York": {
+    "state": "36",
+    "place": "72327",
+    "population": "3451"
+  },
+  "Swan Lake, New York": {
+    "state": "36",
+    "place": "72400",
+    "population": "372"
+  },
+  "Syosset, New York": {
+    "state": "36",
+    "place": "72554",
+    "population": "19259"
+  },
+  "Taconic Shores, New York": {
+    "state": "36",
+    "place": "73057",
+    "population": "547"
+  },
+  "Tappan, New York": {
+    "state": "36",
+    "place": "73154",
+    "population": "6673"
+  },
+  "Terryville, New York": {
+    "state": "36",
+    "place": "73352",
+    "population": "11472"
+  },
+  "Thendara, New York": {
+    "state": "36",
+    "place": "73495",
+    "population": "195"
+  },
+  "Thiells, New York": {
+    "state": "36",
+    "place": "73583",
+    "population": "5240"
+  },
+  "Thornwood, New York": {
+    "state": "36",
+    "place": "73715",
+    "population": "3960"
+  },
+  "Thousand Island Park, New York": {
+    "state": "36",
+    "place": "73726",
+    "population": "96"
+  },
+  "Three Mile Bay, New York": {
+    "state": "36",
+    "place": "73737",
+    "population": "187"
+  },
+  "Ticonderoga, New York": {
+    "state": "36",
+    "place": "73880",
+    "population": "3250"
+  },
+  "Tillson, New York": {
+    "state": "36",
+    "place": "73902",
+    "population": "1516"
+  },
+  "Tioga Terrace, New York": {
+    "state": "36",
+    "place": "73990",
+    "population": "2082"
+  },
+  "Titusville, New York": {
+    "state": "36",
+    "place": "74017",
+    "population": "729"
+  },
+  "Tonawanda Town, New York": {
+    "state": "36",
+    "place": "75021",
+    "population": "57431"
+  },
+  "Town Line, New York": {
+    "state": "36",
+    "place": "75121",
+    "population": "2334"
+  },
+  "Tribes Hill, New York": {
+    "state": "36",
+    "place": "75341",
+    "population": "937"
+  },
+  "Tuckahoe, New York": {
+    "state": "36",
+    "place": "75572",
+    "population": "1505"
+  },
+  "Tuscarora, New York": {
+    "state": "36",
+    "place": "75726",
+    "population": "71"
+  },
+  "Unadilla Forks, New York": {
+    "state": "36",
+    "place": "76023",
+    "population": "257"
+  },
+  "Uniondale, New York": {
+    "state": "36",
+    "place": "76089",
+    "population": "32473"
+  },
+  "University at Buffalo, New York": {
+    "state": "36",
+    "place": "76280",
+    "population": "6798"
+  },
+  "University Gardens, New York": {
+    "state": "36",
+    "place": "76287",
+    "population": "4358"
+  },
+  "Upper Red Hook, New York": {
+    "state": "36",
+    "place": "76397",
+    "population": "180"
+  },
+  "Vails Gate, New York": {
+    "state": "36",
+    "place": "76584",
+    "population": "3368"
+  },
+  "Valhalla, New York": {
+    "state": "36",
+    "place": "76639",
+    "population": "3213"
+  },
+  "Valley Cottage, New York": {
+    "state": "36",
+    "place": "76661",
+    "population": "9038"
+  },
+  "West Chazy, New York": {
+    "state": "36",
+    "place": "79543",
+    "population": "558"
+  },
+  "West Danby, New York": {
+    "state": "36",
+    "place": "79697",
+    "population": "211"
+  },
+  "West Elmira, New York": {
+    "state": "36",
+    "place": "79785",
+    "population": "4850"
+  },
+  "West End, New York": {
+    "state": "36",
+    "place": "79796",
+    "population": "1864"
+  },
+  "Westernville, New York": {
+    "state": "36",
+    "place": "79895",
+    "population": "144"
+  },
+  "Westford, New York": {
+    "state": "36",
+    "place": "79961",
+    "population": "145"
+  },
+  "West Glens Falls, New York": {
+    "state": "36",
+    "place": "80082",
+    "population": "9473"
+  },
+  "Westhampton, New York": {
+    "state": "36",
+    "place": "80170",
+    "population": "3621"
+  },
+  "West Hempstead, New York": {
+    "state": "36",
+    "place": "80225",
+    "population": "19835"
+  },
+  "West Hills, New York": {
+    "state": "36",
+    "place": "80258",
+    "population": "5385"
+  },
+  "West Hurley, New York": {
+    "state": "36",
+    "place": "80291",
+    "population": "1917"
+  },
+  "West Islip, New York": {
+    "state": "36",
+    "place": "80302",
+    "population": "27048"
+  },
+  "West Kill, New York": {
+    "state": "36",
+    "place": "80324",
+    "population": "121"
+  },
+  "Westmere, New York": {
+    "state": "36",
+    "place": "80423",
+    "population": "7560"
+  },
+  "Westmoreland, New York": {
+    "state": "36",
+    "place": "80522",
+    "population": "390"
+  },
+  "West Nyack, New York": {
+    "state": "36",
+    "place": "80599",
+    "population": "3649"
+  },
+  "Weston Mills, New York": {
+    "state": "36",
+    "place": "80632",
+    "population": "1525"
+  },
+  "West Point, New York": {
+    "state": "36",
+    "place": "80747",
+    "population": "7341"
+  },
+  "Westport, New York": {
+    "state": "36",
+    "place": "80764",
+    "population": "496"
+  },
+  "West Sand Lake, New York": {
+    "state": "36",
+    "place": "80863",
+    "population": "2616"
+  },
+  "West Sayville, New York": {
+    "state": "36",
+    "place": "80885",
+    "population": "4872"
+  },
+  "West Seneca, New York": {
+    "state": "36",
+    "place": "80907",
+    "population": "45500"
+  },
+  "Westvale, New York": {
+    "state": "36",
+    "place": "81127",
+    "population": "5090"
+  },
+  "West Valley, New York": {
+    "state": "36",
+    "place": "81138",
+    "population": "452"
+  },
+  "Wheatley Heights, New York": {
+    "state": "36",
+    "place": "81419",
+    "population": "5140"
+  },
+  "Williamson, New York": {
+    "state": "36",
+    "place": "82029",
+    "population": "2418"
+  },
+  "Willsboro, New York": {
+    "state": "36",
+    "place": "82260",
+    "population": "689"
+  },
+  "Willsboro Point, New York": {
+    "state": "36",
+    "place": "82282",
+    "population": "382"
+  },
+  "Wilmington, New York": {
+    "state": "36",
+    "place": "82304",
+    "population": "843"
+  },
+  "Windham, New York": {
+    "state": "36",
+    "place": "82469",
+    "population": "371"
+  },
+  "Wingdale, New York": {
+    "state": "36",
+    "place": "82579",
+    "population": "1051"
+  },
+  "Winthrop, New York": {
+    "state": "36",
+    "place": "82612",
+    "population": "489"
+  },
+  "Witherbee, New York": {
+    "state": "36",
+    "place": "82656",
+    "population": "385"
+  },
+  "Woodbourne, New York": {
+    "state": "36",
+    "place": "82733",
+    "population": "411"
+  },
+  "Woodbury, New York": {
+    "state": "36",
+    "place": "82744",
+    "population": "9335"
+  },
+  "Woodmere, New York": {
+    "state": "36",
+    "place": "82942",
+    "population": "18669"
+  },
+  "Woodstock, New York": {
+    "state": "36",
+    "place": "83041",
+    "population": "2521"
+  },
+  "Woodsville, New York": {
+    "state": "36",
+    "place": "83063",
+    "population": "70"
+  },
+  "Worcester, New York": {
+    "state": "36",
+    "place": "83118",
+    "population": "986"
+  },
+  "Wurtsboro Hills, New York": {
+    "state": "36",
+    "place": "83283",
+    "population": "867"
+  },
+  "Wyandanch, New York": {
+    "state": "36",
+    "place": "83294",
+    "population": "12990"
+  },
+  "Wynantskill, New York": {
+    "state": "36",
+    "place": "83349",
+    "population": "4050"
+  },
+  "Yaphank, New York": {
+    "state": "36",
+    "place": "83426",
+    "population": "5974"
+  },
+  "York, New York": {
+    "state": "36",
+    "place": "84011",
+    "population": "488"
+  },
+  "Yorkshire, New York": {
+    "state": "36",
+    "place": "84044",
+    "population": "1176"
+  },
+  "Yorktown Heights, New York": {
+    "state": "36",
+    "place": "84088",
+    "population": "1884"
+  },
+  "Zena, New York": {
+    "state": "36",
+    "place": "84187",
+    "population": "1038"
+  }
+}

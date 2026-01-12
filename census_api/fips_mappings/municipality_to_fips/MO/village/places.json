@@ -1,0 +1,997 @@
+{
+  "Birmingham, Missouri": {
+    "state": "29",
+    "place": "05824",
+    "population": "189"
+  },
+  "Blodgett, Missouri": {
+    "state": "29",
+    "place": "06346",
+    "population": "209"
+  },
+  "Blythedale, Missouri": {
+    "state": "29",
+    "place": "06742",
+    "population": "211"
+  },
+  "Brimson, Missouri": {
+    "state": "29",
+    "place": "08470",
+    "population": "50"
+  },
+  "Bull Creek, Missouri": {
+    "state": "29",
+    "place": "09642",
+    "population": "426"
+  },
+  "Farley, Missouri": {
+    "state": "29",
+    "place": "23698",
+    "population": "265"
+  },
+  "Ferrelview, Missouri": {
+    "state": "29",
+    "place": "24058",
+    "population": "642"
+  },
+  "Flemington, Missouri": {
+    "state": "29",
+    "place": "24580",
+    "population": "110"
+  },
+  "Florida, Missouri": {
+    "state": "29",
+    "place": "24760",
+    "population": "5"
+  },
+  "Foster, Missouri": {
+    "state": "29",
+    "place": "25372",
+    "population": "76"
+  },
+  "Fountain N' Lakes, Missouri": {
+    "state": "29",
+    "place": "25411",
+    "population": "169"
+  },
+  "Freeburg, Missouri": {
+    "state": "29",
+    "place": "25822",
+    "population": "409"
+  },
+  "Freistatt, Missouri": {
+    "state": "29",
+    "place": "25912",
+    "population": "179"
+  },
+  "Friedenswald, Missouri": {
+    "state": "29",
+    "place": "26000",
+    "population": "4"
+  },
+  "Gentry, Missouri": {
+    "state": "29",
+    "place": "26776",
+    "population": "56"
+  },
+  "Gibbs, Missouri": {
+    "state": "29",
+    "place": "26920",
+    "population": "70"
+  },
+  "Lucerne, Missouri": {
+    "state": "29",
+    "place": "44372",
+    "population": "57"
+  },
+  "Luray, Missouri": {
+    "state": "29",
+    "place": "44516",
+    "population": "73"
+  },
+  "McCord Bend, Missouri": {
+    "state": "29",
+    "place": "44829",
+    "population": "212"
+  },
+  "Marlborough, Missouri": {
+    "state": "29",
+    "place": "46208",
+    "population": "2221"
+  },
+  "Merwin, Missouri": {
+    "state": "29",
+    "place": "47540",
+    "population": "69"
+  },
+  "Milford, Missouri": {
+    "state": "29",
+    "place": "48098",
+    "population": "24"
+  },
+  "Millard, Missouri": {
+    "state": "29",
+    "place": "48134",
+    "population": "79"
+  },
+  "Mill Spring, Missouri": {
+    "state": "29",
+    "place": "48386",
+    "population": "159"
+  },
+  "Milo, Missouri": {
+    "state": "29",
+    "place": "48476",
+    "population": "57"
+  },
+  "Stoutsville, Missouri": {
+    "state": "29",
+    "place": "71026",
+    "population": "37"
+  },
+  "Sunrise Beach, Missouri": {
+    "state": "29",
+    "place": "71728",
+    "population": "431"
+  },
+  "Sycamore Hills, Missouri": {
+    "state": "29",
+    "place": "72034",
+    "population": "561"
+  },
+  "Taneyville, Missouri": {
+    "state": "29",
+    "place": "72232",
+    "population": "274"
+  },
+  "Tarrants, Missouri": {
+    "state": "29",
+    "place": "72376",
+    "population": "22"
+  },
+  "Theodosia, Missouri": {
+    "state": "29",
+    "place": "72898",
+    "population": "188"
+  },
+  "Three Creeks, Missouri": {
+    "state": "29",
+    "place": "73127",
+    "population": "8"
+  },
+  "Tightwad, Missouri": {
+    "state": "29",
+    "place": "73240",
+    "population": "58"
+  },
+  "Tina, Missouri": {
+    "state": "29",
+    "place": "73330",
+    "population": "139"
+  },
+  "Truxton, Missouri": {
+    "state": "29",
+    "place": "74014",
+    "population": "59"
+  },
+  "Turney, Missouri": {
+    "state": "29",
+    "place": "74176",
+    "population": "114"
+  },
+  "Twin Oaks, Missouri": {
+    "state": "29",
+    "place": "74284",
+    "population": "605"
+  },
+  "Umber View Heights, Missouri": {
+    "state": "29",
+    "place": "74473",
+    "population": "41"
+  },
+  "Unity Village, Missouri": {
+    "state": "29",
+    "place": "75202",
+    "population": "66"
+  },
+  "Uplands Park, Missouri": {
+    "state": "29",
+    "place": "75238",
+    "population": "312"
+  },
+  "Utica, Missouri": {
+    "state": "29",
+    "place": "75364",
+    "population": "222"
+  },
+  "Vandiver, Missouri": {
+    "state": "29",
+    "place": "75706",
+    "population": "63"
+  },
+  "Agency, Missouri": {
+    "state": "29",
+    "place": "00298",
+    "population": "671"
+  },
+  "Airport Drive, Missouri": {
+    "state": "29",
+    "place": "00424",
+    "population": "766"
+  },
+  "Aldrich, Missouri": {
+    "state": "29",
+    "place": "00568",
+    "population": "76"
+  },
+  "Allendale, Missouri": {
+    "state": "29",
+    "place": "00712",
+    "population": "48"
+  },
+  "Allenville, Missouri": {
+    "state": "29",
+    "place": "00748",
+    "population": "95"
+  },
+  "Altamont, Missouri": {
+    "state": "29",
+    "place": "00910",
+    "population": "171"
+  },
+  "Amazonia, Missouri": {
+    "state": "29",
+    "place": "01018",
+    "population": "238"
+  },
+  "Annada, Missouri": {
+    "state": "29",
+    "place": "01252",
+    "population": "14"
+  },
+  "Arcola, Missouri": {
+    "state": "29",
+    "place": "01720",
+    "population": "37"
+  },
+  "Cairo, Missouri": {
+    "state": "29",
+    "place": "10360",
+    "population": "205"
+  },
+  "Caledonia, Missouri": {
+    "state": "29",
+    "place": "10432",
+    "population": "131"
+  },
+  "Cedar Hill Lakes, Missouri": {
+    "state": "29",
+    "place": "12376",
+    "population": "203"
+  },
+  "Chain of Rocks, Missouri": {
+    "state": "29",
+    "place": "13006",
+    "population": "97"
+  },
+  "Chain-O-Lakes, Missouri": {
+    "state": "29",
+    "place": "13015",
+    "population": "106"
+  },
+  "Champ, Missouri": {
+    "state": "29",
+    "place": "13078",
+    "population": "10"
+  },
+  "Claycomo, Missouri": {
+    "state": "29",
+    "place": "14554",
+    "population": "1343"
+  },
+  "Ginger Blue, Missouri": {
+    "state": "29",
+    "place": "27100",
+    "population": "37"
+  },
+  "Glen Echo Park, Missouri": {
+    "state": "29",
+    "place": "27370",
+    "population": "122"
+  },
+  "Glenwood, Missouri": {
+    "state": "29",
+    "place": "27514",
+    "population": "181"
+  },
+  "Gordonville, Missouri": {
+    "state": "29",
+    "place": "27928",
+    "population": "625"
+  },
+  "Grand Pass, Missouri": {
+    "state": "29",
+    "place": "28198",
+    "population": "49"
+  },
+  "Granger, Missouri": {
+    "state": "29",
+    "place": "28360",
+    "population": "22"
+  },
+  "Gunn City, Missouri": {
+    "state": "29",
+    "place": "29764",
+    "population": "80"
+  },
+  "Halfway, Missouri": {
+    "state": "29",
+    "place": "29962",
+    "population": "151"
+  },
+  "Halltown, Missouri": {
+    "state": "29",
+    "place": "30016",
+    "population": "104"
+  },
+  "Hanley Hills, Missouri": {
+    "state": "29",
+    "place": "30196",
+    "population": "2009"
+  },
+  "Miramiguoa Park, Missouri": {
+    "state": "29",
+    "place": "48880",
+    "population": "126"
+  },
+  "Monticello, Missouri": {
+    "state": "29",
+    "place": "49592",
+    "population": "104"
+  },
+  "Mooresville, Missouri": {
+    "state": "29",
+    "place": "49790",
+    "population": "98"
+  },
+  "Newark, Missouri": {
+    "state": "29",
+    "place": "51662",
+    "population": "54"
+  },
+  "Vanduser, Missouri": {
+    "state": "29",
+    "place": "75724",
+    "population": "183"
+  },
+  "Village of Four Seasons, Missouri": {
+    "state": "29",
+    "place": "76157",
+    "population": "2383"
+  },
+  "Vista, Missouri": {
+    "state": "29",
+    "place": "76390",
+    "population": "36"
+  },
+  "Wardsville, Missouri": {
+    "state": "29",
+    "place": "77002",
+    "population": "1599"
+  },
+  "Watson, Missouri": {
+    "state": "29",
+    "place": "77848",
+    "population": "61"
+  },
+  "Wentworth, Missouri": {
+    "state": "29",
+    "place": "78424",
+    "population": "98"
+  },
+  "West Line, Missouri": {
+    "state": "29",
+    "place": "78838",
+    "population": "117"
+  },
+  "Westwood, Missouri": {
+    "state": "29",
+    "place": "79054",
+    "population": "316"
+  },
+  "Whiteside, Missouri": {
+    "state": "29",
+    "place": "79558",
+    "population": "52"
+  },
+  "Arrow Point, Missouri": {
+    "state": "29",
+    "place": "02034",
+    "population": "75"
+  },
+  "Aullville, Missouri": {
+    "state": "29",
+    "place": "02530",
+    "population": "77"
+  },
+  "Baker, Missouri": {
+    "state": "29",
+    "place": "03034",
+    "population": "3"
+  },
+  "Bakersfield, Missouri": {
+    "state": "29",
+    "place": "03052",
+    "population": "186"
+  },
+  "Baldwin Park, Missouri": {
+    "state": "29",
+    "place": "03124",
+    "population": "85"
+  },
+  "Bel-Nor, Missouri": {
+    "state": "29",
+    "place": "04348",
+    "population": "1399"
+  },
+  "Bel-Ridge, Missouri": {
+    "state": "29",
+    "place": "04366",
+    "population": "2132"
+  },
+  "Benton City, Missouri": {
+    "state": "29",
+    "place": "04834",
+    "population": "101"
+  },
+  "Bethel, Missouri": {
+    "state": "29",
+    "place": "05104",
+    "population": "135"
+  },
+  "Bigelow, Missouri": {
+    "state": "29",
+    "place": "05464",
+    "population": "5"
+  },
+  "Big Lake, Missouri": {
+    "state": "29",
+    "place": "05495",
+    "population": "65"
+  },
+  "Cliff Village, Missouri": {
+    "state": "29",
+    "place": "14806",
+    "population": "40"
+  },
+  "Clyde, Missouri": {
+    "state": "29",
+    "place": "15130",
+    "population": "55"
+  },
+  "Cobalt, Missouri": {
+    "state": "29",
+    "place": "15220",
+    "population": "264"
+  },
+  "Collins, Missouri": {
+    "state": "29",
+    "place": "15562",
+    "population": "125"
+  },
+  "Commerce, Missouri": {
+    "state": "29",
+    "place": "15760",
+    "population": "45"
+  },
+  "Coney Island, Missouri": {
+    "state": "29",
+    "place": "16115",
+    "population": "47"
+  },
+  "Cosby, Missouri": {
+    "state": "29",
+    "place": "16588",
+    "population": "114"
+  },
+  "Country Club, Missouri": {
+    "state": "29",
+    "place": "16802",
+    "population": "2487"
+  },
+  "Country Life Acres, Missouri": {
+    "state": "29",
+    "place": "16876",
+    "population": "72"
+  },
+  "Dadeville, Missouri": {
+    "state": "29",
+    "place": "17992",
+    "population": "226"
+  },
+  "Darlington, Missouri": {
+    "state": "29",
+    "place": "18316",
+    "population": "66"
+  },
+  "Deerfield, Missouri": {
+    "state": "29",
+    "place": "18802",
+    "population": "40"
+  },
+  "Harwood, Missouri": {
+    "state": "29",
+    "place": "30862",
+    "population": "29"
+  },
+  "Haywood City, Missouri": {
+    "state": "29",
+    "place": "31204",
+    "population": "133"
+  },
+  "Hillsdale, Missouri": {
+    "state": "29",
+    "place": "32266",
+    "population": "1216"
+  },
+  "Hoberg, Missouri": {
+    "state": "29",
+    "place": "32410",
+    "population": "48"
+  },
+  "Holliday, Missouri": {
+    "state": "29",
+    "place": "32626",
+    "population": "114"
+  },
+  "Homestead, Missouri": {
+    "state": "29",
+    "place": "32806",
+    "population": "192"
+  },
+  "Hughesville, Missouri": {
+    "state": "29",
+    "place": "33652",
+    "population": "150"
+  },
+  "Humphreys, Missouri": {
+    "state": "29",
+    "place": "33742",
+    "population": "89"
+  },
+  "Iatan, Missouri": {
+    "state": "29",
+    "place": "34210",
+    "population": "39"
+  },
+  "North Lilbourn, Missouri": {
+    "state": "29",
+    "place": "53138",
+    "population": "22"
+  },
+  "Novelty, Missouri": {
+    "state": "29",
+    "place": "53516",
+    "population": "102"
+  },
+  "Oak Grove Village, Missouri": {
+    "state": "29",
+    "place": "53650",
+    "population": "412"
+  },
+  "Oaks, Missouri": {
+    "state": "29",
+    "place": "53804",
+    "population": "128"
+  },
+  "Oakview, Missouri": {
+    "state": "29",
+    "place": "53858",
+    "population": "366"
+  },
+  "Oakwood, Missouri": {
+    "state": "29",
+    "place": "53894",
+    "population": "198"
+  },
+  "Oakwood Park, Missouri": {
+    "state": "29",
+    "place": "53948",
+    "population": "189"
+  },
+  "Osgood, Missouri": {
+    "state": "29",
+    "place": "55424",
+    "population": "24"
+  },
+  "Parkdale, Missouri": {
+    "state": "29",
+    "place": "56226",
+    "population": "159"
+  },
+  "Parkway, Missouri": {
+    "state": "29",
+    "place": "56306",
+    "population": "663"
+  },
+  "Pasadena Park, Missouri": {
+    "state": "29",
+    "place": "56414",
+    "population": "435"
+  },
+  "Pascola, Missouri": {
+    "state": "29",
+    "place": "56432",
+    "population": "87"
+  },
+  "Paynesville, Missouri": {
+    "state": "29",
+    "place": "56612",
+    "population": "60"
+  },
+  "Peaceful Village, Missouri": {
+    "state": "29",
+    "place": "56620",
+    "population": "95"
+  },
+  "Wilbur Park, Missouri": {
+    "state": "29",
+    "place": "79756",
+    "population": "439"
+  },
+  "Wilson City, Missouri": {
+    "state": "29",
+    "place": "80260",
+    "population": "77"
+  },
+  "Windsor Place, Missouri": {
+    "state": "29",
+    "place": "80380",
+    "population": "358"
+  },
+  "Winston, Missouri": {
+    "state": "29",
+    "place": "80548",
+    "population": "229"
+  },
+  "Wooldridge, Missouri": {
+    "state": "29",
+    "place": "81016",
+    "population": "28"
+  },
+  "Worth, Missouri": {
+    "state": "29",
+    "place": "81070",
+    "population": "65"
+  },
+  "Worthington, Missouri": {
+    "state": "29",
+    "place": "81106",
+    "population": "47"
+  },
+  "Denver, Missouri": {
+    "state": "29",
+    "place": "19162",
+    "population": "32"
+  },
+  "Des Arc, Missouri": {
+    "state": "29",
+    "place": "19198",
+    "population": "131"
+  },
+  "Diehlstadt, Missouri": {
+    "state": "29",
+    "place": "19486",
+    "population": "157"
+  },
+  "Diggins, Missouri": {
+    "state": "29",
+    "place": "19504",
+    "population": "305"
+  },
+  "Duquesne, Missouri": {
+    "state": "29",
+    "place": "20512",
+    "population": "2159"
+  },
+  "Elmira, Missouri": {
+    "state": "29",
+    "place": "22006",
+    "population": "39"
+  },
+  "Dennis Acres, Missouri": {
+    "state": "29",
+    "place": "19090",
+    "population": "47"
+  },
+  "Emerald Beach, Missouri": {
+    "state": "29",
+    "place": "22250",
+    "population": "212"
+  },
+  "Eolia, Missouri": {
+    "state": "29",
+    "place": "22474",
+    "population": "472"
+  },
+  "Evergreen, Missouri": {
+    "state": "29",
+    "place": "22951",
+    "population": "20"
+  },
+  "Excelsior Estates, Missouri": {
+    "state": "29",
+    "place": "23077",
+    "population": "209"
+  },
+  "Indian Point, Missouri": {
+    "state": "29",
+    "place": "35186",
+    "population": "550"
+  },
+  "Innsbrook, Missouri": {
+    "state": "29",
+    "place": "35240",
+    "population": "596"
+  },
+  "Irena, Missouri": {
+    "state": "29",
+    "place": "35324",
+    "population": "14"
+  },
+  "Jacksonville, Missouri": {
+    "state": "29",
+    "place": "36224",
+    "population": "122"
+  },
+  "Jerico Springs, Missouri": {
+    "state": "29",
+    "place": "37214",
+    "population": "160"
+  },
+  "Josephville, Missouri": {
+    "state": "29",
+    "place": "37700",
+    "population": "512"
+  },
+  "Junction City, Missouri": {
+    "state": "29",
+    "place": "37736",
+    "population": "283"
+  },
+  "Kelso, Missouri": {
+    "state": "29",
+    "place": "38216",
+    "population": "554"
+  },
+  "Kingdom City, Missouri": {
+    "state": "29",
+    "place": "38792",
+    "population": "134"
+  },
+  "Kirbyville, Missouri": {
+    "state": "29",
+    "place": "39008",
+    "population": "195"
+  },
+  "La Due, Missouri": {
+    "state": "29",
+    "place": "39638",
+    "population": "27"
+  },
+  "Penermon, Missouri": {
+    "state": "29",
+    "place": "56900",
+    "population": "51"
+  },
+  "Phillipsburg, Missouri": {
+    "state": "29",
+    "place": "57368",
+    "population": "164"
+  },
+  "Pierpont, Missouri": {
+    "state": "29",
+    "place": "57512",
+    "population": "64"
+  },
+  "Pinhook, Missouri": {
+    "state": "29",
+    "place": "57926",
+    "population": "6"
+  },
+  "Plato, Missouri": {
+    "state": "29",
+    "place": "58088",
+    "population": "82"
+  },
+  "Pollock, Missouri": {
+    "state": "29",
+    "place": "58898",
+    "population": "46"
+  },
+  "Powersville, Missouri": {
+    "state": "29",
+    "place": "59420",
+    "population": "42"
+  },
+  "Prathersville, Missouri": {
+    "state": "29",
+    "place": "59816",
+    "population": "121"
+  },
+  "Preston, Missouri": {
+    "state": "29",
+    "place": "59870",
+    "population": "157"
+  },
+  "Pendleton, Missouri": {
+    "state": "29",
+    "place": "56882",
+    "population": "34"
+  },
+  "Randolph, Missouri": {
+    "state": "29",
+    "place": "60590",
+    "population": "57"
+  },
+  "Lake Tekakwitha, Missouri": {
+    "state": "29",
+    "place": "40214",
+    "population": "230"
+  },
+  "Lambert, Missouri": {
+    "state": "29",
+    "place": "40448",
+    "population": "48"
+  },
+  "Leasburg, Missouri": {
+    "state": "29",
+    "place": "41114",
+    "population": "326"
+  },
+  "Leawood, Missouri": {
+    "state": "29",
+    "place": "41132",
+    "population": "620"
+  },
+  "Leonard, Missouri": {
+    "state": "29",
+    "place": "41546",
+    "population": "57"
+  },
+  "Leslie, Missouri": {
+    "state": "29",
+    "place": "41690",
+    "population": "136"
+  },
+  "Livonia, Missouri": {
+    "state": "29",
+    "place": "43454",
+    "population": "52"
+  },
+  "Loch Lloyd, Missouri": {
+    "state": "29",
+    "place": "43468",
+    "population": "863"
+  },
+  "Lock Springs, Missouri": {
+    "state": "29",
+    "place": "43472",
+    "population": "40"
+  },
+  "Louisburg, Missouri": {
+    "state": "29",
+    "place": "44156",
+    "population": "134"
+  },
+  "Redings Mill, Missouri": {
+    "state": "29",
+    "place": "60986",
+    "population": "164"
+  },
+  "Renick, Missouri": {
+    "state": "29",
+    "place": "61166",
+    "population": "154"
+  },
+  "Rensselaer, Missouri": {
+    "state": "29",
+    "place": "61184",
+    "population": "253"
+  },
+  "Ridgely, Missouri": {
+    "state": "29",
+    "place": "61886",
+    "population": "95"
+  },
+  "River Bend, Missouri": {
+    "state": "29",
+    "place": "62056",
+    "population": "3"
+  },
+  "Riverview, Missouri": {
+    "state": "29",
+    "place": "62192",
+    "population": "2397"
+  },
+  "Riverview Estates, Missouri": {
+    "state": "29",
+    "place": "62210",
+    "population": "78"
+  },
+  "Roscoe, Missouri": {
+    "state": "29",
+    "place": "63074",
+    "population": "89"
+  },
+  "Rothville, Missouri": {
+    "state": "29",
+    "place": "63236",
+    "population": "63"
+  },
+  "Rush Hill, Missouri": {
+    "state": "29",
+    "place": "63560",
+    "population": "103"
+  },
+  "Rushville, Missouri": {
+    "state": "29",
+    "place": "63596",
+    "population": "225"
+  },
+  "Saddlebrooke, Missouri": {
+    "state": "29",
+    "place": "63857",
+    "population": "309"
+  },
+  "Saginaw, Missouri": {
+    "state": "29",
+    "place": "63902",
+    "population": "300"
+  },
+  "St. Cloud, Missouri": {
+    "state": "29",
+    "place": "64172",
+    "population": "43"
+  },
+  "St. Elizabeth, Missouri": {
+    "state": "29",
+    "place": "64190",
+    "population": "418"
+  },
+  "Sedgewickville, Missouri": {
+    "state": "29",
+    "place": "66476",
+    "population": "191"
+  },
+  "Shoal Creek Drive, Missouri": {
+    "state": "29",
+    "place": "67628",
+    "population": "356"
+  },
+  "Shoal Creek Estates, Missouri": {
+    "state": "29",
+    "place": "67632",
+    "population": "107"
+  },
+  "Sibley, Missouri": {
+    "state": "29",
+    "place": "67718",
+    "population": "314"
+  },
+  "Silex, Missouri": {
+    "state": "29",
+    "place": "67808",
+    "population": "24"
+  },
+  "South Gifford, Missouri": {
+    "state": "29",
+    "place": "68852",
+    "population": "22"
+  },
+  "South Greenfield, Missouri": {
+    "state": "29",
+    "place": "68888",
+    "population": "122"
+  }
+}

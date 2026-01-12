@@ -1,0 +1,1032 @@
+{
+  "Akiachak, Alaska": {
+    "state": "02",
+    "place": "00760",
+    "population": "677"
+  },
+  "Alatna, Alaska": {
+    "state": "02",
+    "place": "01305",
+    "population": "15"
+  },
+  "Alcan Border, Alaska": {
+    "state": "02",
+    "place": "01390",
+    "population": "36"
+  },
+  "Aleneva, Alaska": {
+    "state": "02",
+    "place": "01560",
+    "population": "5"
+  },
+  "Anchor Point, Alaska": {
+    "state": "02",
+    "place": "03110",
+    "population": "2105"
+  },
+  "Arctic Village, Alaska": {
+    "state": "02",
+    "place": "03990",
+    "population": "151"
+  },
+  "Atmautluak, Alaska": {
+    "state": "02",
+    "place": "04430",
+    "population": "386"
+  },
+  "Attu Station, Alaska": {
+    "state": "02",
+    "place": "04670",
+    "population": "0"
+  },
+  "Badger, Alaska": {
+    "state": "02",
+    "place": "05000",
+    "population": "19031"
+  },
+  "Bear Creek, Alaska": {
+    "state": "02",
+    "place": "05585",
+    "population": "2129"
+  },
+  "Beaver, Alaska": {
+    "state": "02",
+    "place": "05750",
+    "population": "48"
+  },
+  "Beluga, Alaska": {
+    "state": "02",
+    "place": "06245",
+    "population": "34"
+  },
+  "Big Delta, Alaska": {
+    "state": "02",
+    "place": "06850",
+    "population": "444"
+  },
+  "Big Lake, Alaska": {
+    "state": "02",
+    "place": "07070",
+    "population": "3833"
+  },
+  "Birch Creek, Alaska": {
+    "state": "02",
+    "place": "07620",
+    "population": "35"
+  },
+  "Buffalo Soapstone, Alaska": {
+    "state": "02",
+    "place": "09657",
+    "population": "1021"
+  },
+  "Butte, Alaska": {
+    "state": "02",
+    "place": "09710",
+    "population": "3589"
+  },
+  "Cantwell, Alaska": {
+    "state": "02",
+    "place": "10150",
+    "population": "200"
+  },
+  "Central, Alaska": {
+    "state": "02",
+    "place": "11690",
+    "population": "66"
+  },
+  "Chalkyitsik, Alaska": {
+    "state": "02",
+    "place": "11800",
+    "population": "56"
+  },
+  "Chase, Alaska": {
+    "state": "02",
+    "place": "12350",
+    "population": "19"
+  },
+  "Chena Ridge, Alaska": {
+    "state": "02",
+    "place": "12920",
+    "population": "6015"
+  },
+  "Chenega, Alaska": {
+    "state": "02",
+    "place": "12970",
+    "population": "59"
+  },
+  "Chickaloon, Alaska": {
+    "state": "02",
+    "place": "13340",
+    "population": "254"
+  },
+  "Chicken, Alaska": {
+    "state": "02",
+    "place": "13450",
+    "population": "12"
+  },
+  "Chignik Lagoon, Alaska": {
+    "state": "02",
+    "place": "13670",
+    "population": "72"
+  },
+  "Chignik Lake, Alaska": {
+    "state": "02",
+    "place": "13780",
+    "population": "61"
+  },
+  "Chiniak, Alaska": {
+    "state": "02",
+    "place": "13860",
+    "population": "61"
+  },
+  "Chisana, Alaska": {
+    "state": "02",
+    "place": "13890",
+    "population": "0"
+  },
+  "Chistochina, Alaska": {
+    "state": "02",
+    "place": "14000",
+    "population": "60"
+  },
+  "Chitina, Alaska": {
+    "state": "02",
+    "place": "14110",
+    "population": "101"
+  },
+  "Circle, Alaska": {
+    "state": "02",
+    "place": "14880",
+    "population": "91"
+  },
+  "Clam Gulch, Alaska": {
+    "state": "02",
+    "place": "15320",
+    "population": "207"
+  },
+  "Cohoe, Alaska": {
+    "state": "02",
+    "place": "16420",
+    "population": "1471"
+  },
+  "Coldfoot, Alaska": {
+    "state": "02",
+    "place": "16630",
+    "population": "34"
+  },
+  "College, Alaska": {
+    "state": "02",
+    "place": "16750",
+    "population": "11332"
+  },
+  "Cooper Landing, Alaska": {
+    "state": "02",
+    "place": "17190",
+    "population": "344"
+  },
+  "Copper Center, Alaska": {
+    "state": "02",
+    "place": "17300",
+    "population": "338"
+  },
+  "Covenant Life, Alaska": {
+    "state": "02",
+    "place": "17670",
+    "population": "25"
+  },
+  "Crooked Creek, Alaska": {
+    "state": "02",
+    "place": "17850",
+    "population": "90"
+  },
+  "Crown Point, Alaska": {
+    "state": "02",
+    "place": "17960",
+    "population": "119"
+  },
+  "Deltana, Alaska": {
+    "state": "02",
+    "place": "18675",
+    "population": "2359"
+  },
+  "Denali Park, Alaska": {
+    "state": "02",
+    "place": "18805",
+    "population": "163"
+  },
+  "Diamond Ridge, Alaska": {
+    "state": "02",
+    "place": "18925",
+    "population": "1330"
+  },
+  "Dot Lake, Alaska": {
+    "state": "02",
+    "place": "19720",
+    "population": "21"
+  },
+  "Dot Lake Village, Alaska": {
+    "state": "02",
+    "place": "19750",
+    "population": "23"
+  },
+  "Dry Creek, Alaska": {
+    "state": "02",
+    "place": "20020",
+    "population": "61"
+  },
+  "Eagle Village, Alaska": {
+    "state": "02",
+    "place": "20600",
+    "population": "53"
+  },
+  "Eareckson Station, Alaska": {
+    "state": "02",
+    "place": "20716",
+    "population": "232"
+  },
+  "Eielson AFB, Alaska": {
+    "state": "02",
+    "place": "21370",
+    "population": "2610"
+  },
+  "Elfin Cove, Alaska": {
+    "state": "02",
+    "place": "22140",
+    "population": "24"
+  },
+  "Ester, Alaska": {
+    "state": "02",
+    "place": "23460",
+    "population": "2416"
+  },
+  "Eureka Roadhouse, Alaska": {
+    "state": "02",
+    "place": "23720",
+    "population": "24"
+  },
+  "Evansville, Alaska": {
+    "state": "02",
+    "place": "23790",
+    "population": "12"
+  },
+  "Excursion Inlet, Alaska": {
+    "state": "02",
+    "place": "23900",
+    "population": "40"
+  },
+  "Farmers Loop, Alaska": {
+    "state": "02",
+    "place": "24980",
+    "population": "4704"
+  },
+  "Farm Loop, Alaska": {
+    "state": "02",
+    "place": "25000",
+    "population": "2747"
+  },
+  "Ferry, Alaska": {
+    "state": "02",
+    "place": "25220",
+    "population": "17"
+  },
+  "Fishhook, Alaska": {
+    "state": "02",
+    "place": "25550",
+    "population": "5048"
+  },
+  "Flat, Alaska": {
+    "state": "02",
+    "place": "25880",
+    "population": "0"
+  },
+  "Fort Greely, Alaska": {
+    "state": "02",
+    "place": "26100",
+    "population": "309"
+  },
+  "Four Mile Road, Alaska": {
+    "state": "02",
+    "place": "26835",
+    "population": "18"
+  },
+  "Fox, Alaska": {
+    "state": "02",
+    "place": "26870",
+    "population": "406"
+  },
+  "Fox River, Alaska": {
+    "state": "02",
+    "place": "26910",
+    "population": "644"
+  },
+  "Fritz Creek, Alaska": {
+    "state": "02",
+    "place": "27090",
+    "population": "2248"
+  },
+  "Funny River, Alaska": {
+    "state": "02",
+    "place": "27145",
+    "population": "1103"
+  },
+  "Gakona, Alaska": {
+    "state": "02",
+    "place": "27420",
+    "population": "169"
+  },
+  "Game Creek, Alaska": {
+    "state": "02",
+    "place": "27700",
+    "population": "23"
+  },
+  "Gateway, Alaska": {
+    "state": "02",
+    "place": "28200",
+    "population": "5748"
+  },
+  "Glacier View, Alaska": {
+    "state": "02",
+    "place": "28590",
+    "population": "375"
+  },
+  "Glennallen, Alaska": {
+    "state": "02",
+    "place": "28740",
+    "population": "439"
+  },
+  "Goldstream, Alaska": {
+    "state": "02",
+    "place": "29130",
+    "population": "3299"
+  },
+  "Gulkana, Alaska": {
+    "state": "02",
+    "place": "30500",
+    "population": "110"
+  },
+  "Haines, Alaska": {
+    "state": "02",
+    "place": "31050",
+    "population": "1657"
+  },
+  "Halibut Cove, Alaska": {
+    "state": "02",
+    "place": "31270",
+    "population": "60"
+  },
+  "Happy Valley, Alaska": {
+    "state": "02",
+    "place": "31710",
+    "population": "713"
+  },
+  "Harding-Birch Lakes, Alaska": {
+    "state": "02",
+    "place": "31765",
+    "population": "253"
+  },
+  "Healy, Alaska": {
+    "state": "02",
+    "place": "32150",
+    "population": "966"
+  },
+  "Healy Lake, Alaska": {
+    "state": "02",
+    "place": "32310",
+    "population": "24"
+  },
+  "Hobart Bay, Alaska": {
+    "state": "02",
+    "place": "32550",
+    "population": "1"
+  },
+  "Hollis, Alaska": {
+    "state": "02",
+    "place": "32810",
+    "population": "65"
+  },
+  "Hope, Alaska": {
+    "state": "02",
+    "place": "33580",
+    "population": "161"
+  },
+  "Hyder, Alaska": {
+    "state": "02",
+    "place": "34570",
+    "population": "48"
+  },
+  "Igiugig, Alaska": {
+    "state": "02",
+    "place": "34790",
+    "population": "68"
+  },
+  "Iliamna, Alaska": {
+    "state": "02",
+    "place": "35120",
+    "population": "108"
+  },
+  "Ivanof Bay, Alaska": {
+    "state": "02",
+    "place": "35890",
+    "population": "1"
+  },
+  "Kalifornsky, Alaska": {
+    "state": "02",
+    "place": "37250",
+    "population": "8487"
+  },
+  "Karluk, Alaska": {
+    "state": "02",
+    "place": "37540",
+    "population": "27"
+  },
+  "Kasigluk, Alaska": {
+    "state": "02",
+    "place": "37975",
+    "population": "623"
+  },
+  "Kasilof, Alaska": {
+    "state": "02",
+    "place": "38090",
+    "population": "525"
+  },
+  "Kenny Lake, Alaska": {
+    "state": "02",
+    "place": "38910",
+    "population": "234"
+  },
+  "King Salmon, Alaska": {
+    "state": "02",
+    "place": "39630",
+    "population": "307"
+  },
+  "Kipnuk, Alaska": {
+    "state": "02",
+    "place": "39740",
+    "population": "704"
+  },
+  "Klukwan, Alaska": {
+    "state": "02",
+    "place": "40510",
+    "population": "87"
+  },
+  "Knik-Fairview, Alaska": {
+    "state": "02",
+    "place": "40645",
+    "population": "19297"
+  },
+  "Knik River, Alaska": {
+    "state": "02",
+    "place": "40670",
+    "population": "792"
+  },
+  "Kodiak Station, Alaska": {
+    "state": "02",
+    "place": "41210",
+    "population": "1673"
+  },
+  "Kokhanok, Alaska": {
+    "state": "02",
+    "place": "41280",
+    "population": "152"
+  },
+  "Koliganek, Alaska": {
+    "state": "02",
+    "place": "41500",
+    "population": "183"
+  },
+  "Kongiganak, Alaska": {
+    "state": "02",
+    "place": "41610",
+    "population": "486"
+  },
+  "Kwigillingok, Alaska": {
+    "state": "02",
+    "place": "42490",
+    "population": "380"
+  },
+  "Lake Louise, Alaska": {
+    "state": "02",
+    "place": "42805",
+    "population": "15"
+  },
+  "Lake Minchumina, Alaska": {
+    "state": "02",
+    "place": "42820",
+    "population": "30"
+  },
+  "Lazy Mountain, Alaska": {
+    "state": "02",
+    "place": "43260",
+    "population": "1506"
+  },
+  "Levelock, Alaska": {
+    "state": "02",
+    "place": "43810",
+    "population": "69"
+  },
+  "Lime Village, Alaska": {
+    "state": "02",
+    "place": "44030",
+    "population": "13"
+  },
+  "Livengood, Alaska": {
+    "state": "02",
+    "place": "44580",
+    "population": "16"
+  },
+  "Loring, Alaska": {
+    "state": "02",
+    "place": "45020",
+    "population": "0"
+  },
+  "Lowell Point, Alaska": {
+    "state": "02",
+    "place": "45295",
+    "population": "79"
+  },
+  "Lutak, Alaska": {
+    "state": "02",
+    "place": "45700",
+    "population": "29"
+  },
+  "McCarthy, Alaska": {
+    "state": "02",
+    "place": "45790",
+    "population": "107"
+  },
+  "Manley Hot Springs, Alaska": {
+    "state": "02",
+    "place": "46780",
+    "population": "169"
+  },
+  "Meadow Lakes, Alaska": {
+    "state": "02",
+    "place": "47735",
+    "population": "9197"
+  },
+  "Mendeltna, Alaska": {
+    "state": "02",
+    "place": "48200",
+    "population": "36"
+  },
+  "Mentasta Lake, Alaska": {
+    "state": "02",
+    "place": "48540",
+    "population": "127"
+  },
+  "Mertarvik, Alaska": {
+    "state": "02",
+    "place": "48590",
+    "population": "99"
+  },
+  "Metlakatla, Alaska": {
+    "state": "02",
+    "place": "48870",
+    "population": "1454"
+  },
+  "Mill Bay, Alaska": {
+    "state": "02",
+    "place": "49200",
+    "population": "4216"
+  },
+  "Minto, Alaska": {
+    "state": "02",
+    "place": "49530",
+    "population": "150"
+  },
+  "Moose Creek, Alaska": {
+    "state": "02",
+    "place": "50080",
+    "population": "534"
+  },
+  "Moose Pass, Alaska": {
+    "state": "02",
+    "place": "50190",
+    "population": "228"
+  },
+  "Mosquito Lake, Alaska": {
+    "state": "02",
+    "place": "50800",
+    "population": "120"
+  },
+  "Mud Bay, Alaska": {
+    "state": "02",
+    "place": "51455",
+    "population": "159"
+  },
+  "Nabesna, Alaska": {
+    "state": "02",
+    "place": "51960",
+    "population": "2"
+  },
+  "Naknek, Alaska": {
+    "state": "02",
+    "place": "52060",
+    "population": "470"
+  },
+  "Nanwalek, Alaska": {
+    "state": "02",
+    "place": "52210",
+    "population": "247"
+  },
+  "Naukati Bay, Alaska": {
+    "state": "02",
+    "place": "52845",
+    "population": "142"
+  },
+  "Nelchina, Alaska": {
+    "state": "02",
+    "place": "52915",
+    "population": "45"
+  },
+  "Nelson Lagoon, Alaska": {
+    "state": "02",
+    "place": "52940",
+    "population": "41"
+  },
+  "Newtok, Alaska": {
+    "state": "02",
+    "place": "53820",
+    "population": "209"
+  },
+  "Nikiski, Alaska": {
+    "state": "02",
+    "place": "54050",
+    "population": "4456"
+  },
+  "Nikolaevsk, Alaska": {
+    "state": "02",
+    "place": "54085",
+    "population": "328"
+  },
+  "Nikolski, Alaska": {
+    "state": "02",
+    "place": "54260",
+    "population": "39"
+  },
+  "Ninilchik, Alaska": {
+    "state": "02",
+    "place": "54480",
+    "population": "845"
+  },
+  "Noatak, Alaska": {
+    "state": "02",
+    "place": "54700",
+    "population": "570"
+  },
+  "North Lakes, Alaska": {
+    "state": "02",
+    "place": "55745",
+    "population": "9450"
+  },
+  "Northway, Alaska": {
+    "state": "02",
+    "place": "56220",
+    "population": "234"
+  },
+  "Oscarville, Alaska": {
+    "state": "02",
+    "place": "58330",
+    "population": "70"
+  },
+  "Paxson, Alaska": {
+    "state": "02",
+    "place": "59320",
+    "population": "26"
+  },
+  "Pedro Bay, Alaska": {
+    "state": "02",
+    "place": "59540",
+    "population": "43"
+  },
+  "Perryville, Alaska": {
+    "state": "02",
+    "place": "60200",
+    "population": "88"
+  },
+  "Petersburg, Alaska": {
+    "state": "02",
+    "place": "60310",
+    "population": "3043"
+  },
+  "Petersville, Alaska": {
+    "state": "02",
+    "place": "60460",
+    "population": "27"
+  },
+  "Pitkas Point, Alaska": {
+    "state": "02",
+    "place": "60860",
+    "population": "120"
+  },
+  "Pleasant Valley, Alaska": {
+    "state": "02",
+    "place": "61120",
+    "population": "606"
+  },
+  "Point Baker, Alaska": {
+    "state": "02",
+    "place": "61190",
+    "population": "12"
+  },
+  "Point Lay, Alaska": {
+    "state": "02",
+    "place": "61700",
+    "population": "330"
+  },
+  "Point MacKenzie, Alaska": {
+    "state": "02",
+    "place": "61788",
+    "population": "1852"
+  },
+  "Point Possession, Alaska": {
+    "state": "02",
+    "place": "61825",
+    "population": "9"
+  },
+  "Pope-Vannoy Landing, Alaska": {
+    "state": "02",
+    "place": "62125",
+    "population": "6"
+  },
+  "Portage Creek, Alaska": {
+    "state": "02",
+    "place": "62285",
+    "population": "4"
+  },
+  "Port Alsworth, Alaska": {
+    "state": "02",
+    "place": "62620",
+    "population": "186"
+  },
+  "Port Clarence, Alaska": {
+    "state": "02",
+    "place": "63170",
+    "population": "0"
+  },
+  "Port Graham, Alaska": {
+    "state": "02",
+    "place": "63280",
+    "population": "162"
+  },
+  "Port Protection, Alaska": {
+    "state": "02",
+    "place": "63870",
+    "population": "36"
+  },
+  "Primrose, Alaska": {
+    "state": "02",
+    "place": "64240",
+    "population": "96"
+  },
+  "Prudhoe Bay, Alaska": {
+    "state": "02",
+    "place": "64380",
+    "population": "1310"
+  },
+  "Rampart, Alaska": {
+    "state": "02",
+    "place": "64820",
+    "population": "57"
+  },
+  "Red Devil, Alaska": {
+    "state": "02",
+    "place": "64930",
+    "population": "22"
+  },
+  "Red Dog Mine, Alaska": {
+    "state": "02",
+    "place": "64980",
+    "population": "5"
+  },
+  "Ridgeway, Alaska": {
+    "state": "02",
+    "place": "65345",
+    "population": "2136"
+  },
+  "Salamatof, Alaska": {
+    "state": "02",
+    "place": "66510",
+    "population": "1078"
+  },
+  "Salcha, Alaska": {
+    "state": "02",
+    "place": "66550",
+    "population": "977"
+  },
+  "Seldovia Village, Alaska": {
+    "state": "02",
+    "place": "68370",
+    "population": "199"
+  },
+  "Silver Springs, Alaska": {
+    "state": "02",
+    "place": "70320",
+    "population": "111"
+  },
+  "Skagway, Alaska": {
+    "state": "02",
+    "place": "70760",
+    "population": "1164"
+  },
+  "Skwentna, Alaska": {
+    "state": "02",
+    "place": "70870",
+    "population": "62"
+  },
+  "Slana, Alaska": {
+    "state": "02",
+    "place": "70930",
+    "population": "116"
+  },
+  "Sleetmute, Alaska": {
+    "state": "02",
+    "place": "71090",
+    "population": "95"
+  },
+  "South Lakes, Alaska": {
+    "state": "02",
+    "place": "72135",
+    "population": "5229"
+  },
+  "South Naknek, Alaska": {
+    "state": "02",
+    "place": "72190",
+    "population": "67"
+  },
+  "South Van Horn, Alaska": {
+    "state": "02",
+    "place": "72230",
+    "population": "503"
+  },
+  "Steele Creek, Alaska": {
+    "state": "02",
+    "place": "72985",
+    "population": "6437"
+  },
+  "Sterling, Alaska": {
+    "state": "02",
+    "place": "73070",
+    "population": "5918"
+  },
+  "Stevens Village, Alaska": {
+    "state": "02",
+    "place": "73290",
+    "population": "37"
+  },
+  "Stony River, Alaska": {
+    "state": "02",
+    "place": "73400",
+    "population": "57"
+  },
+  "Sunrise, Alaska": {
+    "state": "02",
+    "place": "73950",
+    "population": "15"
+  },
+  "Susitna, Alaska": {
+    "state": "02",
+    "place": "74340",
+    "population": "11"
+  },
+  "Susitna North, Alaska": {
+    "state": "02",
+    "place": "74350",
+    "population": "1564"
+  },
+  "Sutton-Alpine, Alaska": {
+    "state": "02",
+    "place": "74525",
+    "population": "1038"
+  },
+  "Takotna, Alaska": {
+    "state": "02",
+    "place": "74610",
+    "population": "56"
+  },
+  "Talkeetna, Alaska": {
+    "state": "02",
+    "place": "74830",
+    "population": "1055"
+  },
+  "Tanacross, Alaska": {
+    "state": "02",
+    "place": "75050",
+    "population": "144"
+  },
+  "Tanaina, Alaska": {
+    "state": "02",
+    "place": "75077",
+    "population": "8817"
+  },
+  "Tatitlek, Alaska": {
+    "state": "02",
+    "place": "75380",
+    "population": "90"
+  },
+  "Tazlina, Alaska": {
+    "state": "02",
+    "place": "75480",
+    "population": "244"
+  },
+  "Tetlin, Alaska": {
+    "state": "02",
+    "place": "76590",
+    "population": "126"
+  },
+  "Tok, Alaska": {
+    "state": "02",
+    "place": "77800",
+    "population": "1243"
+  },
+  "Tolsona, Alaska": {
+    "state": "02",
+    "place": "78297",
+    "population": "12"
+  },
+  "Tonsina, Alaska": {
+    "state": "02",
+    "place": "78350",
+    "population": "55"
+  },
+  "Trapper Creek, Alaska": {
+    "state": "02",
+    "place": "78680",
+    "population": "499"
+  },
+  "Tuluksak, Alaska": {
+    "state": "02",
+    "place": "78790",
+    "population": "444"
+  },
+  "Tuntutuliak, Alaska": {
+    "state": "02",
+    "place": "79120",
+    "population": "469"
+  },
+  "Tununak, Alaska": {
+    "state": "02",
+    "place": "79230",
+    "population": "411"
+  },
+  "Twin Hills, Alaska": {
+    "state": "02",
+    "place": "79780",
+    "population": "103"
+  },
+  "Two Rivers, Alaska": {
+    "state": "02",
+    "place": "79830",
+    "population": "650"
+  },
+  "Tyonek, Alaska": {
+    "state": "02",
+    "place": "79890",
+    "population": "152"
+  },
+  "Ugashik, Alaska": {
+    "state": "02",
+    "place": "80100",
+    "population": "4"
+  },
+  "Venetie, Alaska": {
+    "state": "02",
+    "place": "82420",
+    "population": "205"
+  },
+  "Whitestone, Alaska": {
+    "state": "02",
+    "place": "84120",
+    "population": "71"
+  },
+  "Whitestone Logging Camp, Alaska": {
+    "state": "02",
+    "place": "84200",
+    "population": "2"
+  },
+  "Willow, Alaska": {
+    "state": "02",
+    "place": "85280",
+    "population": "2196"
+  },
+  "Willow Creek, Alaska": {
+    "state": "02",
+    "place": "85290",
+    "population": "190"
+  },
+  "Wiseman, Alaska": {
+    "state": "02",
+    "place": "85610",
+    "population": "5"
+  },
+  "Womens Bay, Alaska": {
+    "state": "02",
+    "place": "85680",
+    "population": "743"
+  },
+  "Yakutat, Alaska": {
+    "state": "02",
+    "place": "86490",
+    "population": "657"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "Claremont, New Hampshire": {
+    "state": "33",
+    "place": "12900",
+    "population": "12949"
+  },
+  "Concord, New Hampshire": {
+    "state": "33",
+    "place": "14200",
+    "population": "43976"
+  },
+  "Dover, New Hampshire": {
+    "state": "33",
+    "place": "18820",
+    "population": "32741"
+  },
+  "Franklin, New Hampshire": {
+    "state": "33",
+    "place": "27380",
+    "population": "8741"
+  },
+  "Keene, New Hampshire": {
+    "state": "33",
+    "place": "39300",
+    "population": "23047"
+  },
+  "Laconia, New Hampshire": {
+    "state": "33",
+    "place": "40180",
+    "population": "16871"
+  },
+  "Berlin, New Hampshire": {
+    "state": "33",
+    "place": "05140",
+    "population": "9425"
+  },
+  "Lebanon, New Hampshire": {
+    "state": "33",
+    "place": "41300",
+    "population": "14282"
+  },
+  "Manchester, New Hampshire": {
+    "state": "33",
+    "place": "45140",
+    "population": "115644"
+  },
+  "Nashua, New Hampshire": {
+    "state": "33",
+    "place": "50260",
+    "population": "91322"
+  },
+  "Portsmouth, New Hampshire": {
+    "state": "33",
+    "place": "62900",
+    "population": "21956"
+  },
+  "Rochester, New Hampshire": {
+    "state": "33",
+    "place": "65140",
+    "population": "32492"
+  },
+  "Somersworth, New Hampshire": {
+    "state": "33",
+    "place": "69940",
+    "population": "11855"
+  }
+}

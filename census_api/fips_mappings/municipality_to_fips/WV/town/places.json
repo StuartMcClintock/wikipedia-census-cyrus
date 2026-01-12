@@ -1,0 +1,737 @@
+{
+  "Bruceton Mills, West Virginia": {
+    "state": "54",
+    "place": "10852",
+    "population": "63"
+  },
+  "Buffalo, West Virginia": {
+    "state": "54",
+    "place": "11284",
+    "population": "1211"
+  },
+  "Burnsville, West Virginia": {
+    "state": "54",
+    "place": "11716",
+    "population": "394"
+  },
+  "Cairo, West Virginia": {
+    "state": "54",
+    "place": "12124",
+    "population": "176"
+  },
+  "Camden-on-Gauley, West Virginia": {
+    "state": "54",
+    "place": "12436",
+    "population": "126"
+  },
+  "Capon Bridge, West Virginia": {
+    "state": "54",
+    "place": "13108",
+    "population": "420"
+  },
+  "Carpendale, West Virginia": {
+    "state": "54",
+    "place": "13525",
+    "population": "860"
+  },
+  "Cedar Grove, West Virginia": {
+    "state": "54",
+    "place": "13924",
+    "population": "718"
+  },
+  "Chapmanville, West Virginia": {
+    "state": "54",
+    "place": "14524",
+    "population": "1020"
+  },
+  "Chesapeake, West Virginia": {
+    "state": "54",
+    "place": "15028",
+    "population": "1335"
+  },
+  "Clay, West Virginia": {
+    "state": "54",
+    "place": "15676",
+    "population": "396"
+  },
+  "Clendenin, West Virginia": {
+    "state": "54",
+    "place": "16012",
+    "population": "854"
+  },
+  "Cowen, West Virginia": {
+    "state": "54",
+    "place": "18412",
+    "population": "487"
+  },
+  "Danville, West Virginia": {
+    "state": "54",
+    "place": "20212",
+    "population": "672"
+  },
+  "Davis, West Virginia": {
+    "state": "54",
+    "place": "20428",
+    "population": "600"
+  },
+  "Davy, West Virginia": {
+    "state": "54",
+    "place": "20500",
+    "population": "209"
+  },
+  "Delbarton, West Virginia": {
+    "state": "54",
+    "place": "20980",
+    "population": "422"
+  },
+  "Durbin, West Virginia": {
+    "state": "54",
+    "place": "22852",
+    "population": "231"
+  },
+  "East Bank, West Virginia": {
+    "state": "54",
+    "place": "23092",
+    "population": "822"
+  },
+  "Eleanor, West Virginia": {
+    "state": "54",
+    "place": "24292",
+    "population": "1542"
+  },
+  "Elizabeth, West Virginia": {
+    "state": "54",
+    "place": "24364",
+    "population": "724"
+  },
+  "Elk Garden, West Virginia": {
+    "state": "54",
+    "place": "24484",
+    "population": "212"
+  },
+  "Ellenboro, West Virginia": {
+    "state": "54",
+    "place": "24844",
+    "population": "221"
+  },
+  "Fairview, West Virginia": {
+    "state": "54",
+    "place": "26524",
+    "population": "373"
+  },
+  "Falling Spring, West Virginia": {
+    "state": "54",
+    "place": "26692",
+    "population": "170"
+  },
+  "Farmington, West Virginia": {
+    "state": "54",
+    "place": "26932",
+    "population": "392"
+  },
+  "Fayetteville, West Virginia": {
+    "state": "54",
+    "place": "27028",
+    "population": "2887"
+  },
+  "Flatwoods, West Virginia": {
+    "state": "54",
+    "place": "27868",
+    "population": "264"
+  },
+  "Flemington, West Virginia": {
+    "state": "54",
+    "place": "27940",
+    "population": "309"
+  },
+  "Fort Gay, West Virginia": {
+    "state": "54",
+    "place": "28516",
+    "population": "675"
+  },
+  "Franklin, West Virginia": {
+    "state": "54",
+    "place": "29044",
+    "population": "495"
+  },
+  "Friendly, West Virginia": {
+    "state": "54",
+    "place": "29404",
+    "population": "101"
+  },
+  "Gassaway, West Virginia": {
+    "state": "54",
+    "place": "30220",
+    "population": "759"
+  },
+  "Gauley Bridge, West Virginia": {
+    "state": "54",
+    "place": "30364",
+    "population": "553"
+  },
+  "Gilbert, West Virginia": {
+    "state": "54",
+    "place": "30772",
+    "population": "333"
+  },
+  "Glasgow, West Virginia": {
+    "state": "54",
+    "place": "31324",
+    "population": "703"
+  },
+  "Glenville, West Virginia": {
+    "state": "54",
+    "place": "32044",
+    "population": "1129"
+  },
+  "Grantsville, West Virginia": {
+    "state": "54",
+    "place": "32884",
+    "population": "494"
+  },
+  "Grant Town, West Virginia": {
+    "state": "54",
+    "place": "32908",
+    "population": "685"
+  },
+  "Granville, West Virginia": {
+    "state": "54",
+    "place": "32932",
+    "population": "1355"
+  },
+  "Hambleton, West Virginia": {
+    "state": "54",
+    "place": "34492",
+    "population": "218"
+  },
+  "Hamlin, West Virginia": {
+    "state": "54",
+    "place": "34516",
+    "population": "1039"
+  },
+  "Handley, West Virginia": {
+    "state": "54",
+    "place": "34756",
+    "population": "223"
+  },
+  "Harman, West Virginia": {
+    "state": "54",
+    "place": "35092",
+    "population": "95"
+  },
+  "Harpers Ferry, West Virginia": {
+    "state": "54",
+    "place": "35284",
+    "population": "269"
+  },
+  "Harrisville, West Virginia": {
+    "state": "54",
+    "place": "35428",
+    "population": "1631"
+  },
+  "Hartford City, West Virginia": {
+    "state": "54",
+    "place": "35500",
+    "population": "503"
+  },
+  "Hedgesville, West Virginia": {
+    "state": "54",
+    "place": "36220",
+    "population": "300"
+  },
+  "Henderson, West Virginia": {
+    "state": "54",
+    "place": "36436",
+    "population": "228"
+  },
+  "Hendricks, West Virginia": {
+    "state": "54",
+    "place": "36460",
+    "population": "228"
+  },
+  "Hillsboro, West Virginia": {
+    "state": "54",
+    "place": "37372",
+    "population": "232"
+  },
+  "Hundred, West Virginia": {
+    "state": "54",
+    "place": "39340",
+    "population": "255"
+  },
+  "Huttonsville, West Virginia": {
+    "state": "54",
+    "place": "39628",
+    "population": "163"
+  },
+  "Iaeger, West Virginia": {
+    "state": "54",
+    "place": "39652",
+    "population": "257"
+  },
+  "Jane Lew, West Virginia": {
+    "state": "54",
+    "place": "40828",
+    "population": "408"
+  },
+  "Junior, West Virginia": {
+    "state": "54",
+    "place": "42244",
+    "population": "384"
+  },
+  "Kermit, West Virginia": {
+    "state": "54",
+    "place": "43300",
+    "population": "317"
+  },
+  "Kimball, West Virginia": {
+    "state": "54",
+    "place": "43780",
+    "population": "145"
+  },
+  "Leon, West Virginia": {
+    "state": "54",
+    "place": "46300",
+    "population": "137"
+  },
+  "Lester, West Virginia": {
+    "state": "54",
+    "place": "46468",
+    "population": "338"
+  },
+  "Lost Creek, West Virginia": {
+    "state": "54",
+    "place": "48748",
+    "population": "359"
+  },
+  "Lumberport, West Virginia": {
+    "state": "54",
+    "place": "49252",
+    "population": "717"
+  },
+  "Mabscott, West Virginia": {
+    "state": "54",
+    "place": "49492",
+    "population": "1341"
+  },
+  "Man, West Virginia": {
+    "state": "54",
+    "place": "50932",
+    "population": "772"
+  },
+  "Marlinton, West Virginia": {
+    "state": "54",
+    "place": "51676",
+    "population": "998"
+  },
+  "Mason, West Virginia": {
+    "state": "54",
+    "place": "52180",
+    "population": "866"
+  },
+  "Masontown, West Virginia": {
+    "state": "54",
+    "place": "52228",
+    "population": "510"
+  },
+  "Matewan, West Virginia": {
+    "state": "54",
+    "place": "52324",
+    "population": "412"
+  },
+  "Matoaka, West Virginia": {
+    "state": "54",
+    "place": "52420",
+    "population": "173"
+  },
+  "Meadow Bridge, West Virginia": {
+    "state": "54",
+    "place": "52780",
+    "population": "324"
+  },
+  "Middlebourne, West Virginia": {
+    "state": "54",
+    "place": "53572",
+    "population": "717"
+  },
+  "Mill Creek, West Virginia": {
+    "state": "54",
+    "place": "54100",
+    "population": "560"
+  },
+  "Milton, West Virginia": {
+    "state": "54",
+    "place": "54484",
+    "population": "2811"
+  },
+  "Mitchell Heights, West Virginia": {
+    "state": "54",
+    "place": "54892",
+    "population": "314"
+  },
+  "Monongah, West Virginia": {
+    "state": "54",
+    "place": "55276",
+    "population": "965"
+  },
+  "Montrose, West Virginia": {
+    "state": "54",
+    "place": "55540",
+    "population": "145"
+  },
+  "Moorefield, West Virginia": {
+    "state": "54",
+    "place": "55588",
+    "population": "2524"
+  },
+  "Newburg, West Virginia": {
+    "state": "54",
+    "place": "58300",
+    "population": "259"
+  },
+  "New Haven, West Virginia": {
+    "state": "54",
+    "place": "58564",
+    "population": "1476"
+  },
+  "Northfork, West Virginia": {
+    "state": "54",
+    "place": "59428",
+    "population": "231"
+  },
+  "North Hills, West Virginia": {
+    "state": "54",
+    "place": "59458",
+    "population": "834"
+  },
+  "Nutter Fort, West Virginia": {
+    "state": "54",
+    "place": "59836",
+    "population": "1493"
+  },
+  "Oakvale, West Virginia": {
+    "state": "54",
+    "place": "60196",
+    "population": "133"
+  },
+  "Oceana, West Virginia": {
+    "state": "54",
+    "place": "60364",
+    "population": "1449"
+  },
+  "Paw Paw, West Virginia": {
+    "state": "54",
+    "place": "62332",
+    "population": "410"
+  },
+  "Pax, West Virginia": {
+    "state": "54",
+    "place": "62356",
+    "population": "136"
+  },
+  "Peterstown, West Virginia": {
+    "state": "54",
+    "place": "63052",
+    "population": "448"
+  },
+  "Piedmont, West Virginia": {
+    "state": "54",
+    "place": "63604",
+    "population": "718"
+  },
+  "Pine Grove, West Virginia": {
+    "state": "54",
+    "place": "63892",
+    "population": "363"
+  },
+  "Pineville, West Virginia": {
+    "state": "54",
+    "place": "63940",
+    "population": "645"
+  },
+  "Poca, West Virginia": {
+    "state": "54",
+    "place": "64516",
+    "population": "874"
+  },
+  "Pratt, West Virginia": {
+    "state": "54",
+    "place": "65356",
+    "population": "483"
+  },
+  "Pullman, West Virginia": {
+    "state": "54",
+    "place": "65956",
+    "population": "135"
+  },
+  "Quinwood, West Virginia": {
+    "state": "54",
+    "place": "66412",
+    "population": "222"
+  },
+  "Rainelle, West Virginia": {
+    "state": "54",
+    "place": "66652",
+    "population": "1190"
+  },
+  "Reedsville, West Virginia": {
+    "state": "54",
+    "place": "67636",
+    "population": "530"
+  },
+  "Reedy, West Virginia": {
+    "state": "54",
+    "place": "67660",
+    "population": "150"
+  },
+  "Rhodell, West Virginia": {
+    "state": "54",
+    "place": "67996",
+    "population": "141"
+  },
+  "Ridgeley, West Virginia": {
+    "state": "54",
+    "place": "68260",
+    "population": "591"
+  },
+  "Rivesville, West Virginia": {
+    "state": "54",
+    "place": "68908",
+    "population": "828"
+  },
+  "Rowlesburg, West Virginia": {
+    "state": "54",
+    "place": "70588",
+    "population": "438"
+  },
+  "Rupert, West Virginia": {
+    "state": "54",
+    "place": "70828",
+    "population": "877"
+  },
+  "Sand Fork, West Virginia": {
+    "state": "54",
+    "place": "71620",
+    "population": "180"
+  },
+  "Shepherdstown, West Virginia": {
+    "state": "54",
+    "place": "73468",
+    "population": "1531"
+  },
+  "Smithfield, West Virginia": {
+    "state": "54",
+    "place": "74788",
+    "population": "103"
+  },
+  "Sophia, West Virginia": {
+    "state": "54",
+    "place": "75172",
+    "population": "1130"
+  },
+  "Star City, West Virginia": {
+    "state": "54",
+    "place": "76516",
+    "population": "1779"
+  },
+  "Sylvester, West Virginia": {
+    "state": "54",
+    "place": "78964",
+    "population": "171"
+  },
+  "Terra Alta, West Virginia": {
+    "state": "54",
+    "place": "79708",
+    "population": "1415"
+  },
+  "Thurmond, West Virginia": {
+    "state": "54",
+    "place": "80284",
+    "population": "5"
+  },
+  "Triadelphia, West Virginia": {
+    "state": "54",
+    "place": "80932",
+    "population": "669"
+  },
+  "Tunnelton, West Virginia": {
+    "state": "54",
+    "place": "81268",
+    "population": "296"
+  },
+  "Union, West Virginia": {
+    "state": "54",
+    "place": "81940",
+    "population": "419"
+  },
+  "Wardensville, West Virginia": {
+    "state": "54",
+    "place": "84580",
+    "population": "269"
+  },
+  "Wayne, West Virginia": {
+    "state": "54",
+    "place": "84940",
+    "population": "1443"
+  },
+  "West Hamlin, West Virginia": {
+    "state": "54",
+    "place": "85804",
+    "population": "524"
+  },
+  "West Liberty, West Virginia": {
+    "state": "54",
+    "place": "85876",
+    "population": "1454"
+  },
+  "West Logan, West Virginia": {
+    "state": "54",
+    "place": "85900",
+    "population": "399"
+  },
+  "West Milford, West Virginia": {
+    "state": "54",
+    "place": "85924",
+    "population": "449"
+  },
+  "West Union, West Virginia": {
+    "state": "54",
+    "place": "86116",
+    "population": "653"
+  },
+  "White Hall, West Virginia": {
+    "state": "54",
+    "place": "86620",
+    "population": "700"
+  },
+  "Whitesville, West Virginia": {
+    "state": "54",
+    "place": "86836",
+    "population": "361"
+  },
+  "Sutton, West Virginia": {
+    "state": "54",
+    "place": "78580",
+    "population": "863"
+  },
+  "Winfield, West Virginia": {
+    "state": "54",
+    "place": "87988",
+    "population": "2393"
+  },
+  "Womelsdorf (Coalton), West Virginia": {
+    "state": "54",
+    "place": "88324",
+    "population": "189"
+  },
+  "Worthington, West Virginia": {
+    "state": "54",
+    "place": "88708",
+    "population": "179"
+  },
+  "Addison (Webster Springs), West Virginia": {
+    "state": "54",
+    "place": "00364",
+    "population": "731"
+  },
+  "Albright, West Virginia": {
+    "state": "54",
+    "place": "00748",
+    "population": "249"
+  },
+  "Alderson, West Virginia": {
+    "state": "54",
+    "place": "00772",
+    "population": "975"
+  },
+  "Anawalt, West Virginia": {
+    "state": "54",
+    "place": "01780",
+    "population": "165"
+  },
+  "Anmoore, West Virginia": {
+    "state": "54",
+    "place": "01900",
+    "population": "513"
+  },
+  "Ansted, West Virginia": {
+    "state": "54",
+    "place": "01996",
+    "population": "1303"
+  },
+  "Athens, West Virginia": {
+    "state": "54",
+    "place": "03292",
+    "population": "962"
+  },
+  "Auburn, West Virginia": {
+    "state": "54",
+    "place": "03364",
+    "population": "79"
+  },
+  "Bancroft, West Virginia": {
+    "state": "54",
+    "place": "04204",
+    "population": "387"
+  },
+  "Barrackville, West Virginia": {
+    "state": "54",
+    "place": "04612",
+    "population": "1201"
+  },
+  "Bath (Berkeley Springs), West Virginia": {
+    "state": "54",
+    "place": "04876",
+    "population": "753"
+  },
+  "Bayard, West Virginia": {
+    "state": "54",
+    "place": "04924",
+    "population": "201"
+  },
+  "Belington, West Virginia": {
+    "state": "54",
+    "place": "05788",
+    "population": "1805"
+  },
+  "Belle, West Virginia": {
+    "state": "54",
+    "place": "05836",
+    "population": "1169"
+  },
+  "Bethany, West Virginia": {
+    "state": "54",
+    "place": "06844",
+    "population": "781"
+  },
+  "Beverly, West Virginia": {
+    "state": "54",
+    "place": "06988",
+    "population": "622"
+  },
+  "Blacksville, West Virginia": {
+    "state": "54",
+    "place": "08092",
+    "population": "118"
+  },
+  "Bolivar, West Virginia": {
+    "state": "54",
+    "place": "08932",
+    "population": "1036"
+  },
+  "Bradshaw, West Virginia": {
+    "state": "54",
+    "place": "09700",
+    "population": "207"
+  },
+  "Bramwell, West Virginia": {
+    "state": "54",
+    "place": "09796",
+    "population": "276"
+  },
+  "Brandonville, West Virginia": {
+    "state": "54",
+    "place": "09844",
+    "population": "129"
+  }
+}

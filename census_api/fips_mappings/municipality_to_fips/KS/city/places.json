@@ -1,0 +1,3127 @@
+{
+  "Atlanta, Kansas": {
+    "state": "20",
+    "place": "03050",
+    "population": "168"
+  },
+  "Attica, Kansas": {
+    "state": "20",
+    "place": "03100",
+    "population": "516"
+  },
+  "Atwood, Kansas": {
+    "state": "20",
+    "place": "03150",
+    "population": "1290"
+  },
+  "Auburn, Kansas": {
+    "state": "20",
+    "place": "03250",
+    "population": "1273"
+  },
+  "Augusta, Kansas": {
+    "state": "20",
+    "place": "03300",
+    "population": "9256"
+  },
+  "Aurora, Kansas": {
+    "state": "20",
+    "place": "03425",
+    "population": "56"
+  },
+  "Axtell, Kansas": {
+    "state": "20",
+    "place": "03600",
+    "population": "399"
+  },
+  "Baldwin City, Kansas": {
+    "state": "20",
+    "place": "03900",
+    "population": "4826"
+  },
+  "Barnard, Kansas": {
+    "state": "20",
+    "place": "04225",
+    "population": "64"
+  },
+  "Barnes, Kansas": {
+    "state": "20",
+    "place": "04250",
+    "population": "165"
+  },
+  "Bartlett, Kansas": {
+    "state": "20",
+    "place": "04350",
+    "population": "69"
+  },
+  "Basehor, Kansas": {
+    "state": "20",
+    "place": "04400",
+    "population": "6896"
+  },
+  "Bassett, Kansas": {
+    "state": "20",
+    "place": "04450",
+    "population": "20"
+  },
+  "Baxter Springs, Kansas": {
+    "state": "20",
+    "place": "04625",
+    "population": "3888"
+  },
+  "Bazine, Kansas": {
+    "state": "20",
+    "place": "04775",
+    "population": "282"
+  },
+  "Beattie, Kansas": {
+    "state": "20",
+    "place": "04900",
+    "population": "197"
+  },
+  "Bel Aire, Kansas": {
+    "state": "20",
+    "place": "05337",
+    "population": "8262"
+  },
+  "Belle Plaine, Kansas": {
+    "state": "20",
+    "place": "05500",
+    "population": "1467"
+  },
+  "Belleville, Kansas": {
+    "state": "20",
+    "place": "05600",
+    "population": "2007"
+  },
+  "Beloit, Kansas": {
+    "state": "20",
+    "place": "05775",
+    "population": "3404"
+  },
+  "Belpre, Kansas": {
+    "state": "20",
+    "place": "05825",
+    "population": "97"
+  },
+  "Belvue, Kansas": {
+    "state": "20",
+    "place": "05925",
+    "population": "177"
+  },
+  "Benedict, Kansas": {
+    "state": "20",
+    "place": "06000",
+    "population": "69"
+  },
+  "Bennington, Kansas": {
+    "state": "20",
+    "place": "06075",
+    "population": "622"
+  },
+  "Bentley, Kansas": {
+    "state": "20",
+    "place": "06125",
+    "population": "560"
+  },
+  "Benton, Kansas": {
+    "state": "20",
+    "place": "06175",
+    "population": "943"
+  },
+  "Bern, Kansas": {
+    "state": "20",
+    "place": "06275",
+    "population": "161"
+  },
+  "Beverly, Kansas": {
+    "state": "20",
+    "place": "06500",
+    "population": "135"
+  },
+  "Bird City, Kansas": {
+    "state": "20",
+    "place": "06825",
+    "population": "437"
+  },
+  "Bison, Kansas": {
+    "state": "20",
+    "place": "06950",
+    "population": "179"
+  },
+  "Blue Mound, Kansas": {
+    "state": "20",
+    "place": "07600",
+    "population": "219"
+  },
+  "Blue Rapids, Kansas": {
+    "state": "20",
+    "place": "07650",
+    "population": "928"
+  },
+  "Bluff City, Kansas": {
+    "state": "20",
+    "place": "07775",
+    "population": "45"
+  },
+  "Bogue, Kansas": {
+    "state": "20",
+    "place": "07825",
+    "population": "155"
+  },
+  "Bonner Springs, Kansas": {
+    "state": "20",
+    "place": "07975",
+    "population": "7837"
+  },
+  "Brewster, Kansas": {
+    "state": "20",
+    "place": "08425",
+    "population": "291"
+  },
+  "Bronson, Kansas": {
+    "state": "20",
+    "place": "08475",
+    "population": "304"
+  },
+  "Brookville, Kansas": {
+    "state": "20",
+    "place": "08575",
+    "population": "247"
+  },
+  "Brownell, Kansas": {
+    "state": "20",
+    "place": "08675",
+    "population": "23"
+  },
+  "Bucklin, Kansas": {
+    "state": "20",
+    "place": "09000",
+    "population": "727"
+  },
+  "Buffalo, Kansas": {
+    "state": "20",
+    "place": "09150",
+    "population": "217"
+  },
+  "Buhler, Kansas": {
+    "state": "20",
+    "place": "09200",
+    "population": "1325"
+  },
+  "Bunker Hill, Kansas": {
+    "state": "20",
+    "place": "09225",
+    "population": "103"
+  },
+  "Burden, Kansas": {
+    "state": "20",
+    "place": "09250",
+    "population": "512"
+  },
+  "Burdett, Kansas": {
+    "state": "20",
+    "place": "09275",
+    "population": "228"
+  },
+  "Burlingame, Kansas": {
+    "state": "20",
+    "place": "09350",
+    "population": "971"
+  },
+  "Burlington, Kansas": {
+    "state": "20",
+    "place": "09400",
+    "population": "2634"
+  },
+  "Burns, Kansas": {
+    "state": "20",
+    "place": "09450",
+    "population": "234"
+  },
+  "Burr Oak, Kansas": {
+    "state": "20",
+    "place": "09525",
+    "population": "140"
+  },
+  "Burrton, Kansas": {
+    "state": "20",
+    "place": "09575",
+    "population": "861"
+  },
+  "Bushong, Kansas": {
+    "state": "20",
+    "place": "09675",
+    "population": "27"
+  },
+  "Bushton, Kansas": {
+    "state": "20",
+    "place": "09700",
+    "population": "203"
+  },
+  "Byers, Kansas": {
+    "state": "20",
+    "place": "09800",
+    "population": "38"
+  },
+  "Caldwell, Kansas": {
+    "state": "20",
+    "place": "09900",
+    "population": "1025"
+  },
+  "Cambridge, Kansas": {
+    "state": "20",
+    "place": "10125",
+    "population": "92"
+  },
+  "Caney, Kansas": {
+    "state": "20",
+    "place": "10375",
+    "population": "1788"
+  },
+  "Canton, Kansas": {
+    "state": "20",
+    "place": "10475",
+    "population": "685"
+  },
+  "Carbondale, Kansas": {
+    "state": "20",
+    "place": "10600",
+    "population": "1352"
+  },
+  "Carlton, Kansas": {
+    "state": "20",
+    "place": "10675",
+    "population": "40"
+  },
+  "Cassoday, Kansas": {
+    "state": "20",
+    "place": "10925",
+    "population": "113"
+  },
+  "Cawker City, Kansas": {
+    "state": "20",
+    "place": "11175",
+    "population": "457"
+  },
+  "Cedar, Kansas": {
+    "state": "20",
+    "place": "11325",
+    "population": "11"
+  },
+  "Cedar Point, Kansas": {
+    "state": "20",
+    "place": "11425",
+    "population": "22"
+  },
+  "Cedar Vale, Kansas": {
+    "state": "20",
+    "place": "11450",
+    "population": "476"
+  },
+  "Centralia, Kansas": {
+    "state": "20",
+    "place": "12425",
+    "population": "485"
+  },
+  "Chanute, Kansas": {
+    "state": "20",
+    "place": "12500",
+    "population": "8722"
+  },
+  "Chapman, Kansas": {
+    "state": "20",
+    "place": "12550",
+    "population": "1377"
+  },
+  "Chase, Kansas": {
+    "state": "20",
+    "place": "12650",
+    "population": "396"
+  },
+  "Chautauqua, Kansas": {
+    "state": "20",
+    "place": "12675",
+    "population": "108"
+  },
+  "Cheney, Kansas": {
+    "state": "20",
+    "place": "12775",
+    "population": "2181"
+  },
+  "Cherokee, Kansas": {
+    "state": "20",
+    "place": "12825",
+    "population": "590"
+  },
+  "Cherryvale, Kansas": {
+    "state": "20",
+    "place": "12925",
+    "population": "2192"
+  },
+  "Chetopa, Kansas": {
+    "state": "20",
+    "place": "12950",
+    "population": "929"
+  },
+  "Cimarron, Kansas": {
+    "state": "20",
+    "place": "13275",
+    "population": "1981"
+  },
+  "Circleville, Kansas": {
+    "state": "20",
+    "place": "13375",
+    "population": "153"
+  },
+  "Claflin, Kansas": {
+    "state": "20",
+    "place": "13425",
+    "population": "562"
+  },
+  "Clay Center, Kansas": {
+    "state": "20",
+    "place": "13625",
+    "population": "4199"
+  },
+  "Clayton, Kansas": {
+    "state": "20",
+    "place": "13675",
+    "population": "44"
+  },
+  "Clearwater, Kansas": {
+    "state": "20",
+    "place": "13925",
+    "population": "2653"
+  },
+  "Clifton, Kansas": {
+    "state": "20",
+    "place": "14200",
+    "population": "454"
+  },
+  "Climax, Kansas": {
+    "state": "20",
+    "place": "14275",
+    "population": "45"
+  },
+  "Clyde, Kansas": {
+    "state": "20",
+    "place": "14475",
+    "population": "694"
+  },
+  "Coats, Kansas": {
+    "state": "20",
+    "place": "14525",
+    "population": "68"
+  },
+  "Coffeyville, Kansas": {
+    "state": "20",
+    "place": "14600",
+    "population": "8826"
+  },
+  "Colby, Kansas": {
+    "state": "20",
+    "place": "14650",
+    "population": "5570"
+  },
+  "Coldwater, Kansas": {
+    "state": "20",
+    "place": "14700",
+    "population": "687"
+  },
+  "Collyer, Kansas": {
+    "state": "20",
+    "place": "14900",
+    "population": "97"
+  },
+  "Colony, Kansas": {
+    "state": "20",
+    "place": "14950",
+    "population": "381"
+  },
+  "Columbus, Kansas": {
+    "state": "20",
+    "place": "15075",
+    "population": "2929"
+  },
+  "Colwich, Kansas": {
+    "state": "20",
+    "place": "15100",
+    "population": "1455"
+  },
+  "Concordia, Kansas": {
+    "state": "20",
+    "place": "15200",
+    "population": "5111"
+  },
+  "Conway Springs, Kansas": {
+    "state": "20",
+    "place": "15325",
+    "population": "1086"
+  },
+  "Coolidge, Kansas": {
+    "state": "20",
+    "place": "15400",
+    "population": "80"
+  },
+  "Copeland, Kansas": {
+    "state": "20",
+    "place": "15475",
+    "population": "251"
+  },
+  "Corning, Kansas": {
+    "state": "20",
+    "place": "15725",
+    "population": "212"
+  },
+  "Cottonwood Falls, Kansas": {
+    "state": "20",
+    "place": "15900",
+    "population": "851"
+  },
+  "Council Grove, Kansas": {
+    "state": "20",
+    "place": "15925",
+    "population": "2140"
+  },
+  "Courtland, Kansas": {
+    "state": "20",
+    "place": "16025",
+    "population": "294"
+  },
+  "Coyville, Kansas": {
+    "state": "20",
+    "place": "16150",
+    "population": "60"
+  },
+  "Cuba, Kansas": {
+    "state": "20",
+    "place": "16625",
+    "population": "140"
+  },
+  "Culver, Kansas": {
+    "state": "20",
+    "place": "16700",
+    "population": "114"
+  },
+  "Cunningham, Kansas": {
+    "state": "20",
+    "place": "16775",
+    "population": "444"
+  },
+  "Damar, Kansas": {
+    "state": "20",
+    "place": "16975",
+    "population": "112"
+  },
+  "Danville, Kansas": {
+    "state": "20",
+    "place": "17000",
+    "population": "29"
+  },
+  "Dearing, Kansas": {
+    "state": "20",
+    "place": "17150",
+    "population": "382"
+  },
+  "Deerfield, Kansas": {
+    "state": "20",
+    "place": "17225",
+    "population": "711"
+  },
+  "Delia, Kansas": {
+    "state": "20",
+    "place": "17525",
+    "population": "151"
+  },
+  "Delphos, Kansas": {
+    "state": "20",
+    "place": "17600",
+    "population": "302"
+  },
+  "Denison, Kansas": {
+    "state": "20",
+    "place": "17625",
+    "population": "146"
+  },
+  "Denton, Kansas": {
+    "state": "20",
+    "place": "17750",
+    "population": "130"
+  },
+  "Derby, Kansas": {
+    "state": "20",
+    "place": "17800",
+    "population": "25625"
+  },
+  "De Soto, Kansas": {
+    "state": "20",
+    "place": "17850",
+    "population": "6118"
+  },
+  "Dexter, Kansas": {
+    "state": "20",
+    "place": "17925",
+    "population": "224"
+  },
+  "Dighton, Kansas": {
+    "state": "20",
+    "place": "18050",
+    "population": "960"
+  },
+  "Dodge City, Kansas": {
+    "state": "20",
+    "place": "18250",
+    "population": "27788"
+  },
+  "Dorrance, Kansas": {
+    "state": "20",
+    "place": "18325",
+    "population": "146"
+  },
+  "Douglass, Kansas": {
+    "state": "20",
+    "place": "18400",
+    "population": "1555"
+  },
+  "Downs, Kansas": {
+    "state": "20",
+    "place": "18500",
+    "population": "800"
+  },
+  "Dresden, Kansas": {
+    "state": "20",
+    "place": "18600",
+    "population": "43"
+  },
+  "Dunlap, Kansas": {
+    "state": "20",
+    "place": "18950",
+    "population": "27"
+  },
+  "Durham, Kansas": {
+    "state": "20",
+    "place": "19050",
+    "population": "89"
+  },
+  "Dwight, Kansas": {
+    "state": "20",
+    "place": "19125",
+    "population": "217"
+  },
+  "Earlton, Kansas": {
+    "state": "20",
+    "place": "19275",
+    "population": "60"
+  },
+  "Eastborough, Kansas": {
+    "state": "20",
+    "place": "19300",
+    "population": "756"
+  },
+  "Easton, Kansas": {
+    "state": "20",
+    "place": "19600",
+    "population": "213"
+  },
+  "Edgerton, Kansas": {
+    "state": "20",
+    "place": "19825",
+    "population": "1748"
+  },
+  "Edmond, Kansas": {
+    "state": "20",
+    "place": "19875",
+    "population": "28"
+  },
+  "Edna, Kansas": {
+    "state": "20",
+    "place": "19900",
+    "population": "388"
+  },
+  "Edwardsville, Kansas": {
+    "state": "20",
+    "place": "20000",
+    "population": "4717"
+  },
+  "Effingham, Kansas": {
+    "state": "20",
+    "place": "20025",
+    "population": "495"
+  },
+  "Elbing, Kansas": {
+    "state": "20",
+    "place": "20050",
+    "population": "226"
+  },
+  "El Dorado, Kansas": {
+    "state": "20",
+    "place": "20075",
+    "population": "12870"
+  },
+  "Elgin, Kansas": {
+    "state": "20",
+    "place": "20125",
+    "population": "60"
+  },
+  "Elk City, Kansas": {
+    "state": "20",
+    "place": "20250",
+    "population": "260"
+  },
+  "Elk Falls, Kansas": {
+    "state": "20",
+    "place": "20300",
+    "population": "113"
+  },
+  "Cullison, Kansas": {
+    "state": "20",
+    "place": "16675",
+    "population": "83"
+  },
+  "Elkhart, Kansas": {
+    "state": "20",
+    "place": "20350",
+    "population": "1888"
+  },
+  "Ellinwood, Kansas": {
+    "state": "20",
+    "place": "20425",
+    "population": "2011"
+  },
+  "Ellis, Kansas": {
+    "state": "20",
+    "place": "20450",
+    "population": "1958"
+  },
+  "Ellsworth, Kansas": {
+    "state": "20",
+    "place": "20500",
+    "population": "3066"
+  },
+  "Elmdale, Kansas": {
+    "state": "20",
+    "place": "20675",
+    "population": "40"
+  },
+  "Elsmore, Kansas": {
+    "state": "20",
+    "place": "20875",
+    "population": "50"
+  },
+  "Elwood, Kansas": {
+    "state": "20",
+    "place": "20950",
+    "population": "1125"
+  },
+  "Emmett, Kansas": {
+    "state": "20",
+    "place": "21100",
+    "population": "170"
+  },
+  "Emporia, Kansas": {
+    "state": "20",
+    "place": "21275",
+    "population": "24139"
+  },
+  "Englewood, Kansas": {
+    "state": "20",
+    "place": "21350",
+    "population": "58"
+  },
+  "Ensign, Kansas": {
+    "state": "20",
+    "place": "21400",
+    "population": "166"
+  },
+  "Enterprise, Kansas": {
+    "state": "20",
+    "place": "21425",
+    "population": "708"
+  },
+  "Erie, Kansas": {
+    "state": "20",
+    "place": "21500",
+    "population": "1047"
+  },
+  "Esbon, Kansas": {
+    "state": "20",
+    "place": "21600",
+    "population": "69"
+  },
+  "Eskridge, Kansas": {
+    "state": "20",
+    "place": "21650",
+    "population": "439"
+  },
+  "Eudora, Kansas": {
+    "state": "20",
+    "place": "21675",
+    "population": "6408"
+  },
+  "Eureka, Kansas": {
+    "state": "20",
+    "place": "21800",
+    "population": "2332"
+  },
+  "Everest, Kansas": {
+    "state": "20",
+    "place": "22025",
+    "population": "265"
+  },
+  "Fairview, Kansas": {
+    "state": "20",
+    "place": "22425",
+    "population": "240"
+  },
+  "Fairway, Kansas": {
+    "state": "20",
+    "place": "22700",
+    "population": "4170"
+  },
+  "Fall River, Kansas": {
+    "state": "20",
+    "place": "22775",
+    "population": "131"
+  },
+  "Florence, Kansas": {
+    "state": "20",
+    "place": "23600",
+    "population": "394"
+  },
+  "Fontana, Kansas": {
+    "state": "20",
+    "place": "23650",
+    "population": "210"
+  },
+  "Ford, Kansas": {
+    "state": "20",
+    "place": "23725",
+    "population": "203"
+  },
+  "Formoso, Kansas": {
+    "state": "20",
+    "place": "23825",
+    "population": "94"
+  },
+  "Fort Scott, Kansas": {
+    "state": "20",
+    "place": "24000",
+    "population": "7552"
+  },
+  "Fowler, Kansas": {
+    "state": "20",
+    "place": "24175",
+    "population": "534"
+  },
+  "Frankfort, Kansas": {
+    "state": "20",
+    "place": "24275",
+    "population": "730"
+  },
+  "Frederick, Kansas": {
+    "state": "20",
+    "place": "24550",
+    "population": "8"
+  },
+  "Fredonia, Kansas": {
+    "state": "20",
+    "place": "24575",
+    "population": "2151"
+  },
+  "Frontenac, Kansas": {
+    "state": "20",
+    "place": "24850",
+    "population": "3382"
+  },
+  "Fulton, Kansas": {
+    "state": "20",
+    "place": "24925",
+    "population": "165"
+  },
+  "Galatia, Kansas": {
+    "state": "20",
+    "place": "25050",
+    "population": "45"
+  },
+  "Galena, Kansas": {
+    "state": "20",
+    "place": "25100",
+    "population": "2761"
+  },
+  "Galesburg, Kansas": {
+    "state": "20",
+    "place": "25150",
+    "population": "149"
+  },
+  "Galva, Kansas": {
+    "state": "20",
+    "place": "25200",
+    "population": "834"
+  },
+  "Garden City, Kansas": {
+    "state": "20",
+    "place": "25325",
+    "population": "28151"
+  },
+  "Garden Plain, Kansas": {
+    "state": "20",
+    "place": "25375",
+    "population": "948"
+  },
+  "Gardner, Kansas": {
+    "state": "20",
+    "place": "25425",
+    "population": "23287"
+  },
+  "Garfield, Kansas": {
+    "state": "20",
+    "place": "25750",
+    "population": "151"
+  },
+  "Garnett, Kansas": {
+    "state": "20",
+    "place": "25925",
+    "population": "3242"
+  },
+  "Gas, Kansas": {
+    "state": "20",
+    "place": "25975",
+    "population": "475"
+  },
+  "Gaylord, Kansas": {
+    "state": "20",
+    "place": "26000",
+    "population": "87"
+  },
+  "Gem, Kansas": {
+    "state": "20",
+    "place": "26050",
+    "population": "98"
+  },
+  "Geneseo, Kansas": {
+    "state": "20",
+    "place": "26075",
+    "population": "236"
+  },
+  "Geuda Springs, Kansas": {
+    "state": "20",
+    "place": "26200",
+    "population": "158"
+  },
+  "Girard, Kansas": {
+    "state": "20",
+    "place": "26300",
+    "population": "2496"
+  },
+  "Glade, Kansas": {
+    "state": "20",
+    "place": "26325",
+    "population": "52"
+  },
+  "Glasco, Kansas": {
+    "state": "20",
+    "place": "26375",
+    "population": "441"
+  },
+  "Glen Elder, Kansas": {
+    "state": "20",
+    "place": "26500",
+    "population": "362"
+  },
+  "Goddard, Kansas": {
+    "state": "20",
+    "place": "26725",
+    "population": "5084"
+  },
+  "Goessel, Kansas": {
+    "state": "20",
+    "place": "26750",
+    "population": "556"
+  },
+  "Goff, Kansas": {
+    "state": "20",
+    "place": "26775",
+    "population": "106"
+  },
+  "Goodland, Kansas": {
+    "state": "20",
+    "place": "26875",
+    "population": "4465"
+  },
+  "Gorham, Kansas": {
+    "state": "20",
+    "place": "27000",
+    "population": "376"
+  },
+  "Gove City, Kansas": {
+    "state": "20",
+    "place": "27125",
+    "population": "80"
+  },
+  "Grainfield, Kansas": {
+    "state": "20",
+    "place": "27200",
+    "population": "322"
+  },
+  "Grandview Plaza, Kansas": {
+    "state": "20",
+    "place": "27425",
+    "population": "1697"
+  },
+  "Great Bend, Kansas": {
+    "state": "20",
+    "place": "28300",
+    "population": "14733"
+  },
+  "Greeley, Kansas": {
+    "state": "20",
+    "place": "28350",
+    "population": "273"
+  },
+  "Green, Kansas": {
+    "state": "20",
+    "place": "28425",
+    "population": "95"
+  },
+  "Greenleaf, Kansas": {
+    "state": "20",
+    "place": "28625",
+    "population": "350"
+  },
+  "Greensburg, Kansas": {
+    "state": "20",
+    "place": "28675",
+    "population": "740"
+  },
+  "Grenola, Kansas": {
+    "state": "20",
+    "place": "28800",
+    "population": "151"
+  },
+  "Gridley, Kansas": {
+    "state": "20",
+    "place": "28850",
+    "population": "313"
+  },
+  "Severy, Kansas": {
+    "state": "20",
+    "place": "64050",
+    "population": "205"
+  },
+  "Seward, Kansas": {
+    "state": "20",
+    "place": "64100",
+    "population": "41"
+  },
+  "Sharon, Kansas": {
+    "state": "20",
+    "place": "64325",
+    "population": "147"
+  },
+  "Sharon Springs, Kansas": {
+    "state": "20",
+    "place": "64375",
+    "population": "751"
+  },
+  "Shawnee, Kansas": {
+    "state": "20",
+    "place": "64500",
+    "population": "67311"
+  },
+  "Silver Lake, Kansas": {
+    "state": "20",
+    "place": "65600",
+    "population": "1345"
+  },
+  "Simpson, Kansas": {
+    "state": "20",
+    "place": "65650",
+    "population": "82"
+  },
+  "Smith Center, Kansas": {
+    "state": "20",
+    "place": "65925",
+    "population": "1571"
+  },
+  "Smolan, Kansas": {
+    "state": "20",
+    "place": "66100",
+    "population": "162"
+  },
+  "Soldier, Kansas": {
+    "state": "20",
+    "place": "66175",
+    "population": "102"
+  },
+  "Solomon, Kansas": {
+    "state": "20",
+    "place": "66275",
+    "population": "993"
+  },
+  "South Haven, Kansas": {
+    "state": "20",
+    "place": "66650",
+    "population": "324"
+  },
+  "South Hutchinson, Kansas": {
+    "state": "20",
+    "place": "66750",
+    "population": "2521"
+  },
+  "Spearville, Kansas": {
+    "state": "20",
+    "place": "67125",
+    "population": "791"
+  },
+  "Speed, Kansas": {
+    "state": "20",
+    "place": "67175",
+    "population": "37"
+  },
+  "Spivey, Kansas": {
+    "state": "20",
+    "place": "67250",
+    "population": "61"
+  },
+  "Spring Hill, Kansas": {
+    "state": "20",
+    "place": "67625",
+    "population": "7952"
+  },
+  "Stafford, Kansas": {
+    "state": "20",
+    "place": "67775",
+    "population": "959"
+  },
+  "Stark, Kansas": {
+    "state": "20",
+    "place": "68025",
+    "population": "69"
+  },
+  "Sterling, Kansas": {
+    "state": "20",
+    "place": "68200",
+    "population": "2248"
+  },
+  "Stockton, Kansas": {
+    "state": "20",
+    "place": "68350",
+    "population": "1480"
+  },
+  "Strong City, Kansas": {
+    "state": "20",
+    "place": "68650",
+    "population": "386"
+  },
+  "Sublette, Kansas": {
+    "state": "20",
+    "place": "68775",
+    "population": "1413"
+  },
+  "Summerfield, Kansas": {
+    "state": "20",
+    "place": "68950",
+    "population": "125"
+  },
+  "Sun City, Kansas": {
+    "state": "20",
+    "place": "69275",
+    "population": "37"
+  },
+  "Susank, Kansas": {
+    "state": "20",
+    "place": "69525",
+    "population": "31"
+  },
+  "Sylvan Grove, Kansas": {
+    "state": "20",
+    "place": "69775",
+    "population": "291"
+  },
+  "Sylvia, Kansas": {
+    "state": "20",
+    "place": "69800",
+    "population": "215"
+  },
+  "Syracuse, Kansas": {
+    "state": "20",
+    "place": "69850",
+    "population": "1826"
+  },
+  "Tampa, Kansas": {
+    "state": "20",
+    "place": "70000",
+    "population": "105"
+  },
+  "Tescott, Kansas": {
+    "state": "20",
+    "place": "70250",
+    "population": "265"
+  },
+  "Thayer, Kansas": {
+    "state": "20",
+    "place": "70300",
+    "population": "432"
+  },
+  "The Highlands, Kansas": {
+    "state": "20",
+    "place": "70357",
+    "population": "349"
+  },
+  "Timken, Kansas": {
+    "state": "20",
+    "place": "70625",
+    "population": "38"
+  },
+  "Tipton, Kansas": {
+    "state": "20",
+    "place": "70675",
+    "population": "193"
+  },
+  "Tonganoxie, Kansas": {
+    "state": "20",
+    "place": "70800",
+    "population": "5573"
+  },
+  "Topeka, Kansas": {
+    "state": "20",
+    "place": "71000",
+    "population": "126587"
+  },
+  "Toronto, Kansas": {
+    "state": "20",
+    "place": "71050",
+    "population": "206"
+  },
+  "Towanda, Kansas": {
+    "state": "20",
+    "place": "71125",
+    "population": "1447"
+  },
+  "Tribune, Kansas": {
+    "state": "20",
+    "place": "71450",
+    "population": "772"
+  },
+  "Troy, Kansas": {
+    "state": "20",
+    "place": "71575",
+    "population": "964"
+  },
+  "Turon, Kansas": {
+    "state": "20",
+    "place": "71800",
+    "population": "309"
+  },
+  "Tyro, Kansas": {
+    "state": "20",
+    "place": "71925",
+    "population": "177"
+  },
+  "Udall, Kansas": {
+    "state": "20",
+    "place": "71950",
+    "population": "661"
+  },
+  "Ulysses, Kansas": {
+    "state": "20",
+    "place": "71975",
+    "population": "5788"
+  },
+  "Uniontown, Kansas": {
+    "state": "20",
+    "place": "72525",
+    "population": "293"
+  },
+  "Utica, Kansas": {
+    "state": "20",
+    "place": "72650",
+    "population": "99"
+  },
+  "Valley Center, Kansas": {
+    "state": "20",
+    "place": "73250",
+    "population": "7340"
+  },
+  "Valley Falls, Kansas": {
+    "state": "20",
+    "place": "73300",
+    "population": "1092"
+  },
+  "Grinnell, Kansas": {
+    "state": "20",
+    "place": "28900",
+    "population": "260"
+  },
+  "Gypsum, Kansas": {
+    "state": "20",
+    "place": "29250",
+    "population": "400"
+  },
+  "Haddam, Kansas": {
+    "state": "20",
+    "place": "29400",
+    "population": "110"
+  },
+  "Halstead, Kansas": {
+    "state": "20",
+    "place": "29600",
+    "population": "2179"
+  },
+  "Hamilton, Kansas": {
+    "state": "20",
+    "place": "29675",
+    "population": "182"
+  },
+  "Hamlin, Kansas": {
+    "state": "20",
+    "place": "29700",
+    "population": "25"
+  },
+  "Hanover, Kansas": {
+    "state": "20",
+    "place": "29875",
+    "population": "690"
+  },
+  "Hanston, Kansas": {
+    "state": "20",
+    "place": "29925",
+    "population": "259"
+  },
+  "Hardtner, Kansas": {
+    "state": "20",
+    "place": "30000",
+    "population": "167"
+  },
+  "Harper, Kansas": {
+    "state": "20",
+    "place": "30175",
+    "population": "1313"
+  },
+  "Hartford, Kansas": {
+    "state": "20",
+    "place": "30475",
+    "population": "355"
+  },
+  "Harveyville, Kansas": {
+    "state": "20",
+    "place": "30575",
+    "population": "178"
+  },
+  "Havana, Kansas": {
+    "state": "20",
+    "place": "30700",
+    "population": "84"
+  },
+  "Haven, Kansas": {
+    "state": "20",
+    "place": "30725",
+    "population": "1170"
+  },
+  "Havensville, Kansas": {
+    "state": "20",
+    "place": "30775",
+    "population": "119"
+  },
+  "Haviland, Kansas": {
+    "state": "20",
+    "place": "30825",
+    "population": "678"
+  },
+  "Hays, Kansas": {
+    "state": "20",
+    "place": "31100",
+    "population": "21116"
+  },
+  "Haysville, Kansas": {
+    "state": "20",
+    "place": "31125",
+    "population": "11262"
+  },
+  "Hazelton, Kansas": {
+    "state": "20",
+    "place": "31150",
+    "population": "82"
+  },
+  "Hepler, Kansas": {
+    "state": "20",
+    "place": "31375",
+    "population": "90"
+  },
+  "Herington, Kansas": {
+    "state": "20",
+    "place": "31400",
+    "population": "2109"
+  },
+  "Herndon, Kansas": {
+    "state": "20",
+    "place": "31475",
+    "population": "119"
+  },
+  "Hesston, Kansas": {
+    "state": "20",
+    "place": "31600",
+    "population": "3505"
+  },
+  "Hiawatha, Kansas": {
+    "state": "20",
+    "place": "31675",
+    "population": "3280"
+  },
+  "Highland, Kansas": {
+    "state": "20",
+    "place": "31850",
+    "population": "903"
+  },
+  "Hill City, Kansas": {
+    "state": "20",
+    "place": "32175",
+    "population": "1403"
+  },
+  "Hillsboro, Kansas": {
+    "state": "20",
+    "place": "32275",
+    "population": "2732"
+  },
+  "Hoisington, Kansas": {
+    "state": "20",
+    "place": "32550",
+    "population": "2699"
+  },
+  "Holcomb, Kansas": {
+    "state": "20",
+    "place": "32575",
+    "population": "2245"
+  },
+  "Hollenberg, Kansas": {
+    "state": "20",
+    "place": "32650",
+    "population": "10"
+  },
+  "Holton, Kansas": {
+    "state": "20",
+    "place": "32825",
+    "population": "3401"
+  },
+  "Holyrood, Kansas": {
+    "state": "20",
+    "place": "32850",
+    "population": "403"
+  },
+  "Hope, Kansas": {
+    "state": "20",
+    "place": "33075",
+    "population": "317"
+  },
+  "Horace, Kansas": {
+    "state": "20",
+    "place": "33150",
+    "population": "102"
+  },
+  "Horton, Kansas": {
+    "state": "20",
+    "place": "33200",
+    "population": "1523"
+  },
+  "Howard, Kansas": {
+    "state": "20",
+    "place": "33250",
+    "population": "570"
+  },
+  "Hoxie, Kansas": {
+    "state": "20",
+    "place": "33350",
+    "population": "1211"
+  },
+  "Hoyt, Kansas": {
+    "state": "20",
+    "place": "33375",
+    "population": "593"
+  },
+  "Hudson, Kansas": {
+    "state": "20",
+    "place": "33400",
+    "population": "95"
+  },
+  "Hugoton, Kansas": {
+    "state": "20",
+    "place": "33425",
+    "population": "3747"
+  },
+  "Humboldt, Kansas": {
+    "state": "20",
+    "place": "33450",
+    "population": "1847"
+  },
+  "Hunnewell, Kansas": {
+    "state": "20",
+    "place": "33500",
+    "population": "44"
+  },
+  "Hunter, Kansas": {
+    "state": "20",
+    "place": "33525",
+    "population": "51"
+  },
+  "Huron, Kansas": {
+    "state": "20",
+    "place": "33575",
+    "population": "74"
+  },
+  "Hutchinson, Kansas": {
+    "state": "20",
+    "place": "33625",
+    "population": "40006"
+  },
+  "Independence, Kansas": {
+    "state": "20",
+    "place": "33875",
+    "population": "8548"
+  },
+  "Ingalls, Kansas": {
+    "state": "20",
+    "place": "34225",
+    "population": "252"
+  },
+  "Inman, Kansas": {
+    "state": "20",
+    "place": "34275",
+    "population": "1341"
+  },
+  "Iola, Kansas": {
+    "state": "20",
+    "place": "34300",
+    "population": "5396"
+  },
+  "Isabel, Kansas": {
+    "state": "20",
+    "place": "34550",
+    "population": "68"
+  },
+  "Iuka, Kansas": {
+    "state": "20",
+    "place": "34625",
+    "population": "151"
+  },
+  "Vermillion, Kansas": {
+    "state": "20",
+    "place": "73525",
+    "population": "76"
+  },
+  "Victoria, Kansas": {
+    "state": "20",
+    "place": "73775",
+    "population": "1129"
+  },
+  "Vining, Kansas": {
+    "state": "20",
+    "place": "73950",
+    "population": "43"
+  },
+  "Viola, Kansas": {
+    "state": "20",
+    "place": "74025",
+    "population": "115"
+  },
+  "Virgil, Kansas": {
+    "state": "20",
+    "place": "74075",
+    "population": "48"
+  },
+  "WaKeeney, Kansas": {
+    "state": "20",
+    "place": "74450",
+    "population": "1799"
+  },
+  "Wakefield, Kansas": {
+    "state": "20",
+    "place": "74525",
+    "population": "858"
+  },
+  "Waldo, Kansas": {
+    "state": "20",
+    "place": "74575",
+    "population": "30"
+  },
+  "Waldron, Kansas": {
+    "state": "20",
+    "place": "74625",
+    "population": "9"
+  },
+  "Wallace, Kansas": {
+    "state": "20",
+    "place": "74750",
+    "population": "41"
+  },
+  "Walnut, Kansas": {
+    "state": "20",
+    "place": "74950",
+    "population": "187"
+  },
+  "Walton, Kansas": {
+    "state": "20",
+    "place": "75200",
+    "population": "219"
+  },
+  "Wamego, Kansas": {
+    "state": "20",
+    "place": "75325",
+    "population": "4841"
+  },
+  "Washington, Kansas": {
+    "state": "20",
+    "place": "75825",
+    "population": "1071"
+  },
+  "Waterville, Kansas": {
+    "state": "20",
+    "place": "75950",
+    "population": "658"
+  },
+  "Wathena, Kansas": {
+    "state": "20",
+    "place": "76000",
+    "population": "1246"
+  },
+  "Waverly, Kansas": {
+    "state": "20",
+    "place": "76050",
+    "population": "574"
+  },
+  "Webber, Kansas": {
+    "state": "20",
+    "place": "76250",
+    "population": "30"
+  },
+  "Weir, Kansas": {
+    "state": "20",
+    "place": "76350",
+    "population": "569"
+  },
+  "Wellington, Kansas": {
+    "state": "20",
+    "place": "76475",
+    "population": "7715"
+  },
+  "Wellsville, Kansas": {
+    "state": "20",
+    "place": "76625",
+    "population": "1953"
+  },
+  "West Mineral, Kansas": {
+    "state": "20",
+    "place": "77150",
+    "population": "154"
+  },
+  "Westmoreland, Kansas": {
+    "state": "20",
+    "place": "77200",
+    "population": "740"
+  },
+  "Westphalia, Kansas": {
+    "state": "20",
+    "place": "77250",
+    "population": "128"
+  },
+  "Westwood, Kansas": {
+    "state": "20",
+    "place": "77500",
+    "population": "1750"
+  },
+  "Westwood Hills, Kansas": {
+    "state": "20",
+    "place": "77525",
+    "population": "400"
+  },
+  "Wetmore, Kansas": {
+    "state": "20",
+    "place": "77550",
+    "population": "348"
+  },
+  "Wheaton, Kansas": {
+    "state": "20",
+    "place": "77700",
+    "population": "98"
+  },
+  "White City, Kansas": {
+    "state": "20",
+    "place": "77825",
+    "population": "447"
+  },
+  "White Cloud, Kansas": {
+    "state": "20",
+    "place": "77850",
+    "population": "115"
+  },
+  "Whitewater, Kansas": {
+    "state": "20",
+    "place": "78050",
+    "population": "661"
+  },
+  "Whiting, Kansas": {
+    "state": "20",
+    "place": "78100",
+    "population": "191"
+  },
+  "Wichita, Kansas": {
+    "state": "20",
+    "place": "79000",
+    "population": "397532"
+  },
+  "Willard, Kansas": {
+    "state": "20",
+    "place": "79250",
+    "population": "74"
+  },
+  "Williamsburg, Kansas": {
+    "state": "20",
+    "place": "79300",
+    "population": "390"
+  },
+  "Willis, Kansas": {
+    "state": "20",
+    "place": "79400",
+    "population": "24"
+  },
+  "Willowbrook, Kansas": {
+    "state": "20",
+    "place": "79425",
+    "population": "71"
+  },
+  "Wilmore, Kansas": {
+    "state": "20",
+    "place": "79550",
+    "population": "37"
+  },
+  "Wilsey, Kansas": {
+    "state": "20",
+    "place": "79650",
+    "population": "139"
+  },
+  "Wilson, Kansas": {
+    "state": "20",
+    "place": "79675",
+    "population": "859"
+  },
+  "Winchester, Kansas": {
+    "state": "20",
+    "place": "79800",
+    "population": "461"
+  },
+  "Windom, Kansas": {
+    "state": "20",
+    "place": "79850",
+    "population": "85"
+  },
+  "Winfield, Kansas": {
+    "state": "20",
+    "place": "79950",
+    "population": "11777"
+  },
+  "Winona, Kansas": {
+    "state": "20",
+    "place": "80075",
+    "population": "193"
+  },
+  "Woodbine, Kansas": {
+    "state": "20",
+    "place": "80350",
+    "population": "157"
+  },
+  "Woodston, Kansas": {
+    "state": "20",
+    "place": "80450",
+    "population": "94"
+  },
+  "Yates Center, Kansas": {
+    "state": "20",
+    "place": "80700",
+    "population": "1352"
+  },
+  "Jamestown, Kansas": {
+    "state": "20",
+    "place": "34975",
+    "population": "237"
+  },
+  "Jennings, Kansas": {
+    "state": "20",
+    "place": "35375",
+    "population": "81"
+  },
+  "Jetmore, Kansas": {
+    "state": "20",
+    "place": "35450",
+    "population": "770"
+  },
+  "Jewell, Kansas": {
+    "state": "20",
+    "place": "35475",
+    "population": "370"
+  },
+  "Johnson City, Kansas": {
+    "state": "20",
+    "place": "35600",
+    "population": "1464"
+  },
+  "Junction City, Kansas": {
+    "state": "20",
+    "place": "35750",
+    "population": "22932"
+  },
+  "Kanopolis, Kansas": {
+    "state": "20",
+    "place": "35950",
+    "population": "443"
+  },
+  "Kanorado, Kansas": {
+    "state": "20",
+    "place": "35975",
+    "population": "153"
+  },
+  "Kansas City, Kansas": {
+    "state": "20",
+    "place": "36000",
+    "population": "156607"
+  },
+  "Kechi, Kansas": {
+    "state": "20",
+    "place": "36225",
+    "population": "2217"
+  },
+  "Kensington, Kansas": {
+    "state": "20",
+    "place": "36550",
+    "population": "399"
+  },
+  "Kincaid, Kansas": {
+    "state": "20",
+    "place": "36875",
+    "population": "103"
+  },
+  "Kingman, Kansas": {
+    "state": "20",
+    "place": "36950",
+    "population": "3105"
+  },
+  "Kinsley, Kansas": {
+    "state": "20",
+    "place": "37075",
+    "population": "1456"
+  },
+  "Kiowa, Kansas": {
+    "state": "20",
+    "place": "37125",
+    "population": "902"
+  },
+  "Kirwin, Kansas": {
+    "state": "20",
+    "place": "37275",
+    "population": "139"
+  },
+  "Kismet, Kansas": {
+    "state": "20",
+    "place": "37325",
+    "population": "340"
+  },
+  "Labette, Kansas": {
+    "state": "20",
+    "place": "37375",
+    "population": "50"
+  },
+  "La Crosse, Kansas": {
+    "state": "20",
+    "place": "37500",
+    "population": "1266"
+  },
+  "La Cygne, Kansas": {
+    "state": "20",
+    "place": "37575",
+    "population": "1050"
+  },
+  "La Harpe, Kansas": {
+    "state": "20",
+    "place": "37725",
+    "population": "480"
+  },
+  "Lake Quivira, Kansas": {
+    "state": "20",
+    "place": "37975",
+    "population": "1014"
+  },
+  "Lakin, Kansas": {
+    "state": "20",
+    "place": "38175",
+    "population": "2205"
+  },
+  "Lancaster, Kansas": {
+    "state": "20",
+    "place": "38325",
+    "population": "246"
+  },
+  "Lane, Kansas": {
+    "state": "20",
+    "place": "38400",
+    "population": "241"
+  },
+  "Langdon, Kansas": {
+    "state": "20",
+    "place": "38500",
+    "population": "39"
+  },
+  "Lansing, Kansas": {
+    "state": "20",
+    "place": "38650",
+    "population": "11239"
+  },
+  "Larned, Kansas": {
+    "state": "20",
+    "place": "38700",
+    "population": "3769"
+  },
+  "Latham, Kansas": {
+    "state": "20",
+    "place": "38775",
+    "population": "96"
+  },
+  "Latimer, Kansas": {
+    "state": "20",
+    "place": "38800",
+    "population": "31"
+  },
+  "Lawrence, Kansas": {
+    "state": "20",
+    "place": "38900",
+    "population": "94934"
+  },
+  "Leavenworth, Kansas": {
+    "state": "20",
+    "place": "39000",
+    "population": "37351"
+  },
+  "Leawood, Kansas": {
+    "state": "20",
+    "place": "39075",
+    "population": "33902"
+  },
+  "Lebanon, Kansas": {
+    "state": "20",
+    "place": "39100",
+    "population": "178"
+  },
+  "Lebo, Kansas": {
+    "state": "20",
+    "place": "39125",
+    "population": "885"
+  },
+  "Lecompton, Kansas": {
+    "state": "20",
+    "place": "39150",
+    "population": "588"
+  },
+  "Lehigh, Kansas": {
+    "state": "20",
+    "place": "39225",
+    "population": "161"
+  },
+  "Lenexa, Kansas": {
+    "state": "20",
+    "place": "39350",
+    "population": "57434"
+  },
+  "Lenora, Kansas": {
+    "state": "20",
+    "place": "39400",
+    "population": "207"
+  },
+  "Leon, Kansas": {
+    "state": "20",
+    "place": "39450",
+    "population": "669"
+  },
+  "Leona, Kansas": {
+    "state": "20",
+    "place": "39475",
+    "population": "41"
+  },
+  "Leonardville, Kansas": {
+    "state": "20",
+    "place": "39500",
+    "population": "432"
+  },
+  "Leoti, Kansas": {
+    "state": "20",
+    "place": "39550",
+    "population": "1475"
+  },
+  "LeRoy, Kansas": {
+    "state": "20",
+    "place": "39650",
+    "population": "451"
+  },
+  "Lewis, Kansas": {
+    "state": "20",
+    "place": "39725",
+    "population": "400"
+  },
+  "Liberal, Kansas": {
+    "state": "20",
+    "place": "39825",
+    "population": "19825"
+  },
+  "Liberty, Kansas": {
+    "state": "20",
+    "place": "40250",
+    "population": "99"
+  },
+  "Zenda, Kansas": {
+    "state": "20",
+    "place": "80925",
+    "population": "72"
+  },
+  "Zurich, Kansas": {
+    "state": "20",
+    "place": "81025",
+    "population": "89"
+  },
+  "Lincoln Center, Kansas": {
+    "state": "20",
+    "place": "41300",
+    "population": "1171"
+  },
+  "Lincolnville, Kansas": {
+    "state": "20",
+    "place": "41325",
+    "population": "168"
+  },
+  "Lindsborg, Kansas": {
+    "state": "20",
+    "place": "41375",
+    "population": "3776"
+  },
+  "Linn, Kansas": {
+    "state": "20",
+    "place": "41425",
+    "population": "387"
+  },
+  "Linn Valley, Kansas": {
+    "state": "20",
+    "place": "41465",
+    "population": "956"
+  },
+  "Linwood, Kansas": {
+    "state": "20",
+    "place": "41475",
+    "population": "415"
+  },
+  "Little River, Kansas": {
+    "state": "20",
+    "place": "41575",
+    "population": "472"
+  },
+  "Logan, Kansas": {
+    "state": "20",
+    "place": "42100",
+    "population": "460"
+  },
+  "Lone Elm, Kansas": {
+    "state": "20",
+    "place": "42425",
+    "population": "27"
+  },
+  "Longford, Kansas": {
+    "state": "20",
+    "place": "42575",
+    "population": "73"
+  },
+  "Long Island, Kansas": {
+    "state": "20",
+    "place": "42600",
+    "population": "137"
+  },
+  "Longton, Kansas": {
+    "state": "20",
+    "place": "42650",
+    "population": "288"
+  },
+  "Lorraine, Kansas": {
+    "state": "20",
+    "place": "42800",
+    "population": "137"
+  },
+  "Lost Springs, Kansas": {
+    "state": "20",
+    "place": "42825",
+    "population": "55"
+  },
+  "Louisburg, Kansas": {
+    "state": "20",
+    "place": "42875",
+    "population": "4969"
+  },
+  "Louisville, Kansas": {
+    "state": "20",
+    "place": "42925",
+    "population": "131"
+  },
+  "Lucas, Kansas": {
+    "state": "20",
+    "place": "43150",
+    "population": "332"
+  },
+  "Luray, Kansas": {
+    "state": "20",
+    "place": "43250",
+    "population": "166"
+  },
+  "Lyndon, Kansas": {
+    "state": "20",
+    "place": "43350",
+    "population": "1037"
+  },
+  "Lyons, Kansas": {
+    "state": "20",
+    "place": "43525",
+    "population": "3611"
+  },
+  "McCracken, Kansas": {
+    "state": "20",
+    "place": "43700",
+    "population": "152"
+  },
+  "McCune, Kansas": {
+    "state": "20",
+    "place": "43725",
+    "population": "370"
+  },
+  "McDonald, Kansas": {
+    "state": "20",
+    "place": "43750",
+    "population": "113"
+  },
+  "McFarland, Kansas": {
+    "state": "20",
+    "place": "43775",
+    "population": "272"
+  },
+  "Macksville, Kansas": {
+    "state": "20",
+    "place": "43850",
+    "population": "471"
+  },
+  "McLouth, Kansas": {
+    "state": "20",
+    "place": "43900",
+    "population": "859"
+  },
+  "McPherson, Kansas": {
+    "state": "20",
+    "place": "43950",
+    "population": "14082"
+  },
+  "Madison, Kansas": {
+    "state": "20",
+    "place": "44050",
+    "population": "689"
+  },
+  "Mahaska, Kansas": {
+    "state": "20",
+    "place": "44150",
+    "population": "46"
+  },
+  "Maize, Kansas": {
+    "state": "20",
+    "place": "44200",
+    "population": "5735"
+  },
+  "Manchester, Kansas": {
+    "state": "20",
+    "place": "44225",
+    "population": "47"
+  },
+  "Manhattan, Kansas": {
+    "state": "20",
+    "place": "44250",
+    "population": "54100"
+  },
+  "Mankato, Kansas": {
+    "state": "20",
+    "place": "44300",
+    "population": "836"
+  },
+  "Manter, Kansas": {
+    "state": "20",
+    "place": "44375",
+    "population": "132"
+  },
+  "Maple Hill, Kansas": {
+    "state": "20",
+    "place": "44500",
+    "population": "631"
+  },
+  "Mapleton, Kansas": {
+    "state": "20",
+    "place": "44550",
+    "population": "96"
+  },
+  "Marion, Kansas": {
+    "state": "20",
+    "place": "44750",
+    "population": "1922"
+  },
+  "Liebenthal, Kansas": {
+    "state": "20",
+    "place": "40400",
+    "population": "92"
+  },
+  "Marquette, Kansas": {
+    "state": "20",
+    "place": "44925",
+    "population": "599"
+  },
+  "Marysville, Kansas": {
+    "state": "20",
+    "place": "45050",
+    "population": "3447"
+  },
+  "Matfield Green, Kansas": {
+    "state": "20",
+    "place": "45150",
+    "population": "49"
+  },
+  "Mayetta, Kansas": {
+    "state": "20",
+    "place": "45250",
+    "population": "348"
+  },
+  "Mayfield, Kansas": {
+    "state": "20",
+    "place": "45275",
+    "population": "75"
+  },
+  "Meade, Kansas": {
+    "state": "20",
+    "place": "45325",
+    "population": "1505"
+  },
+  "Medicine Lodge, Kansas": {
+    "state": "20",
+    "place": "45500",
+    "population": "1781"
+  },
+  "Melvern, Kansas": {
+    "state": "20",
+    "place": "45700",
+    "population": "356"
+  },
+  "Menlo, Kansas": {
+    "state": "20",
+    "place": "45750",
+    "population": "33"
+  },
+  "Meriden, Kansas": {
+    "state": "20",
+    "place": "45950",
+    "population": "744"
+  },
+  "Merriam, Kansas": {
+    "state": "20",
+    "place": "46000",
+    "population": "11098"
+  },
+  "Milan, Kansas": {
+    "state": "20",
+    "place": "46450",
+    "population": "56"
+  },
+  "Milford, Kansas": {
+    "state": "20",
+    "place": "46525",
+    "population": "408"
+  },
+  "Miltonvale, Kansas": {
+    "state": "20",
+    "place": "46950",
+    "population": "440"
+  },
+  "Minneapolis, Kansas": {
+    "state": "20",
+    "place": "47075",
+    "population": "1946"
+  },
+  "Minneola, Kansas": {
+    "state": "20",
+    "place": "47150",
+    "population": "738"
+  },
+  "Mission, Kansas": {
+    "state": "20",
+    "place": "47225",
+    "population": "9954"
+  },
+  "Mission Hills, Kansas": {
+    "state": "20",
+    "place": "47350",
+    "population": "3594"
+  },
+  "Mission Woods, Kansas": {
+    "state": "20",
+    "place": "47425",
+    "population": "203"
+  },
+  "Moline, Kansas": {
+    "state": "20",
+    "place": "47600",
+    "population": "345"
+  },
+  "Montezuma, Kansas": {
+    "state": "20",
+    "place": "47875",
+    "population": "975"
+  },
+  "Moran, Kansas": {
+    "state": "20",
+    "place": "48125",
+    "population": "466"
+  },
+  "Morganville, Kansas": {
+    "state": "20",
+    "place": "48225",
+    "population": "180"
+  },
+  "Morland, Kansas": {
+    "state": "20",
+    "place": "48275",
+    "population": "115"
+  },
+  "Morrill, Kansas": {
+    "state": "20",
+    "place": "48300",
+    "population": "218"
+  },
+  "Morrowville, Kansas": {
+    "state": "20",
+    "place": "48450",
+    "population": "114"
+  },
+  "Moscow, Kansas": {
+    "state": "20",
+    "place": "48600",
+    "population": "272"
+  },
+  "Mound City, Kansas": {
+    "state": "20",
+    "place": "48750",
+    "population": "647"
+  },
+  "Moundridge, Kansas": {
+    "state": "20",
+    "place": "48800",
+    "population": "1974"
+  },
+  "Mound Valley, Kansas": {
+    "state": "20",
+    "place": "48825",
+    "population": "348"
+  },
+  "Mount Hope, Kansas": {
+    "state": "20",
+    "place": "48900",
+    "population": "806"
+  },
+  "Mulberry, Kansas": {
+    "state": "20",
+    "place": "49025",
+    "population": "409"
+  },
+  "Mullinville, Kansas": {
+    "state": "20",
+    "place": "49075",
+    "population": "197"
+  },
+  "Mulvane, Kansas": {
+    "state": "20",
+    "place": "49100",
+    "population": "6286"
+  },
+  "Munden, Kansas": {
+    "state": "20",
+    "place": "49150",
+    "population": "96"
+  },
+  "Muscotah, Kansas": {
+    "state": "20",
+    "place": "49325",
+    "population": "155"
+  },
+  "Narka, Kansas": {
+    "state": "20",
+    "place": "49350",
+    "population": "81"
+  },
+  "Nashville, Kansas": {
+    "state": "20",
+    "place": "49400",
+    "population": "54"
+  },
+  "Natoma, Kansas": {
+    "state": "20",
+    "place": "49425",
+    "population": "302"
+  },
+  "Neodesha, Kansas": {
+    "state": "20",
+    "place": "49650",
+    "population": "2275"
+  },
+  "Neosho Falls, Kansas": {
+    "state": "20",
+    "place": "49825",
+    "population": "134"
+  },
+  "Neosho Rapids, Kansas": {
+    "state": "20",
+    "place": "49875",
+    "population": "229"
+  },
+  "Ness City, Kansas": {
+    "state": "20",
+    "place": "49925",
+    "population": "1329"
+  },
+  "Netawaka, Kansas": {
+    "state": "20",
+    "place": "49950",
+    "population": "139"
+  },
+  "New Albany, Kansas": {
+    "state": "20",
+    "place": "50150",
+    "population": "57"
+  },
+  "New Cambria, Kansas": {
+    "state": "20",
+    "place": "50300",
+    "population": "106"
+  },
+  "New Strawn, Kansas": {
+    "state": "20",
+    "place": "50450",
+    "population": "414"
+  },
+  "Newton, Kansas": {
+    "state": "20",
+    "place": "50475",
+    "population": "18602"
+  },
+  "Nickerson, Kansas": {
+    "state": "20",
+    "place": "50525",
+    "population": "1058"
+  },
+  "Niotaze, Kansas": {
+    "state": "20",
+    "place": "50750",
+    "population": "90"
+  },
+  "Norcatur, Kansas": {
+    "state": "20",
+    "place": "50925",
+    "population": "159"
+  },
+  "North Newton, Kansas": {
+    "state": "20",
+    "place": "51225",
+    "population": "1814"
+  },
+  "Norton, Kansas": {
+    "state": "20",
+    "place": "51500",
+    "population": "2747"
+  },
+  "Nortonville, Kansas": {
+    "state": "20",
+    "place": "51525",
+    "population": "601"
+  },
+  "Norwich, Kansas": {
+    "state": "20",
+    "place": "51600",
+    "population": "444"
+  },
+  "Oak Hill, Kansas": {
+    "state": "20",
+    "place": "51700",
+    "population": "24"
+  },
+  "Oakley, Kansas": {
+    "state": "20",
+    "place": "51825",
+    "population": "2046"
+  },
+  "Oberlin, Kansas": {
+    "state": "20",
+    "place": "52000",
+    "population": "1644"
+  },
+  "Offerle, Kansas": {
+    "state": "20",
+    "place": "52200",
+    "population": "179"
+  },
+  "Ogden, Kansas": {
+    "state": "20",
+    "place": "52275",
+    "population": "1661"
+  },
+  "Oketo, Kansas": {
+    "state": "20",
+    "place": "52525",
+    "population": "64"
+  },
+  "Olathe, Kansas": {
+    "state": "20",
+    "place": "52575",
+    "population": "141290"
+  },
+  "Olivet, Kansas": {
+    "state": "20",
+    "place": "52700",
+    "population": "73"
+  },
+  "Olmitz, Kansas": {
+    "state": "20",
+    "place": "52750",
+    "population": "90"
+  },
+  "Olpe, Kansas": {
+    "state": "20",
+    "place": "52800",
+    "population": "519"
+  },
+  "Olsburg, Kansas": {
+    "state": "20",
+    "place": "52825",
+    "population": "218"
+  },
+  "Onaga, Kansas": {
+    "state": "20",
+    "place": "52875",
+    "population": "679"
+  },
+  "Oneida, Kansas": {
+    "state": "20",
+    "place": "52900",
+    "population": "61"
+  },
+  "Osage City, Kansas": {
+    "state": "20",
+    "place": "53200",
+    "population": "2861"
+  },
+  "Osawatomie, Kansas": {
+    "state": "20",
+    "place": "53225",
+    "population": "4255"
+  },
+  "Osborne, Kansas": {
+    "state": "20",
+    "place": "53325",
+    "population": "1335"
+  },
+  "Oskaloosa, Kansas": {
+    "state": "20",
+    "place": "53375",
+    "population": "1110"
+  },
+  "Oswego, Kansas": {
+    "state": "20",
+    "place": "53450",
+    "population": "1668"
+  },
+  "Otis, Kansas": {
+    "state": "20",
+    "place": "53525",
+    "population": "296"
+  },
+  "Ottawa, Kansas": {
+    "state": "20",
+    "place": "53550",
+    "population": "12625"
+  },
+  "Overbrook, Kansas": {
+    "state": "20",
+    "place": "53725",
+    "population": "1005"
+  },
+  "Overland Park, Kansas": {
+    "state": "20",
+    "place": "53775",
+    "population": "197238"
+  },
+  "Oxford, Kansas": {
+    "state": "20",
+    "place": "53850",
+    "population": "1048"
+  },
+  "Ozawkie, Kansas": {
+    "state": "20",
+    "place": "53925",
+    "population": "638"
+  },
+  "Palco, Kansas": {
+    "state": "20",
+    "place": "54125",
+    "population": "208"
+  },
+  "Palmer, Kansas": {
+    "state": "20",
+    "place": "54200",
+    "population": "125"
+  },
+  "Paola, Kansas": {
+    "state": "20",
+    "place": "54250",
+    "population": "5768"
+  },
+  "Paradise, Kansas": {
+    "state": "20",
+    "place": "54325",
+    "population": "35"
+  },
+  "Park, Kansas": {
+    "state": "20",
+    "place": "54400",
+    "population": "112"
+  },
+  "Park City, Kansas": {
+    "state": "20",
+    "place": "54450",
+    "population": "8333"
+  },
+  "Parker, Kansas": {
+    "state": "20",
+    "place": "54500",
+    "population": "241"
+  },
+  "Parkerfield, Kansas": {
+    "state": "20",
+    "place": "54560",
+    "population": "406"
+  },
+  "Parkerville, Kansas": {
+    "state": "20",
+    "place": "54575",
+    "population": "46"
+  },
+  "Parsons, Kansas": {
+    "state": "20",
+    "place": "54675",
+    "population": "9600"
+  },
+  "Partridge, Kansas": {
+    "state": "20",
+    "place": "54700",
+    "population": "209"
+  },
+  "Pawnee Rock, Kansas": {
+    "state": "20",
+    "place": "54875",
+    "population": "193"
+  },
+  "Paxico, Kansas": {
+    "state": "20",
+    "place": "54950",
+    "population": "210"
+  },
+  "Peabody, Kansas": {
+    "state": "20",
+    "place": "55100",
+    "population": "937"
+  },
+  "Penalosa, Kansas": {
+    "state": "20",
+    "place": "55225",
+    "population": "18"
+  },
+  "Perry, Kansas": {
+    "state": "20",
+    "place": "55450",
+    "population": "852"
+  },
+  "Peru, Kansas": {
+    "state": "20",
+    "place": "55525",
+    "population": "101"
+  },
+  "Phillipsburg, Kansas": {
+    "state": "20",
+    "place": "55675",
+    "population": "2337"
+  },
+  "Pittsburg, Kansas": {
+    "state": "20",
+    "place": "56025",
+    "population": "20646"
+  },
+  "Plains, Kansas": {
+    "state": "20",
+    "place": "56100",
+    "population": "1037"
+  },
+  "Plainville, Kansas": {
+    "state": "20",
+    "place": "56150",
+    "population": "1746"
+  },
+  "Pleasanton, Kansas": {
+    "state": "20",
+    "place": "56450",
+    "population": "1208"
+  },
+  "Plevna, Kansas": {
+    "state": "20",
+    "place": "56725",
+    "population": "85"
+  },
+  "Pomona, Kansas": {
+    "state": "20",
+    "place": "57000",
+    "population": "884"
+  },
+  "Portis, Kansas": {
+    "state": "20",
+    "place": "57100",
+    "population": "86"
+  },
+  "Potwin, Kansas": {
+    "state": "20",
+    "place": "57300",
+    "population": "421"
+  },
+  "Powhattan, Kansas": {
+    "state": "20",
+    "place": "57350",
+    "population": "69"
+  },
+  "Prairie View, Kansas": {
+    "state": "20",
+    "place": "57525",
+    "population": "106"
+  },
+  "Prairie Village, Kansas": {
+    "state": "20",
+    "place": "57575",
+    "population": "22957"
+  },
+  "Pratt, Kansas": {
+    "state": "20",
+    "place": "57625",
+    "population": "6603"
+  },
+  "Prescott, Kansas": {
+    "state": "20",
+    "place": "57650",
+    "population": "207"
+  },
+  "Preston, Kansas": {
+    "state": "20",
+    "place": "57675",
+    "population": "115"
+  },
+  "Abbyville, Kansas": {
+    "state": "20",
+    "place": "00100",
+    "population": "83"
+  },
+  "Abilene, Kansas": {
+    "state": "20",
+    "place": "00125",
+    "population": "6460"
+  },
+  "Admire, Kansas": {
+    "state": "20",
+    "place": "00325",
+    "population": "130"
+  },
+  "Agenda, Kansas": {
+    "state": "20",
+    "place": "00475",
+    "population": "47"
+  },
+  "Agra, Kansas": {
+    "state": "20",
+    "place": "00550",
+    "population": "208"
+  },
+  "Albert, Kansas": {
+    "state": "20",
+    "place": "00825",
+    "population": "132"
+  },
+  "Alden, Kansas": {
+    "state": "20",
+    "place": "00950",
+    "population": "122"
+  },
+  "Alexander, Kansas": {
+    "state": "20",
+    "place": "01050",
+    "population": "54"
+  },
+  "Allen, Kansas": {
+    "state": "20",
+    "place": "01275",
+    "population": "160"
+  },
+  "Alma, Kansas": {
+    "state": "20",
+    "place": "01350",
+    "population": "802"
+  },
+  "Almena, Kansas": {
+    "state": "20",
+    "place": "01425",
+    "population": "363"
+  },
+  "Altamont, Kansas": {
+    "state": "20",
+    "place": "01550",
+    "population": "1061"
+  },
+  "Alta Vista, Kansas": {
+    "state": "20",
+    "place": "01575",
+    "population": "409"
+  },
+  "Alton, Kansas": {
+    "state": "20",
+    "place": "01600",
+    "population": "100"
+  },
+  "Altoona, Kansas": {
+    "state": "20",
+    "place": "01625",
+    "population": "354"
+  },
+  "Americus, Kansas": {
+    "state": "20",
+    "place": "01675",
+    "population": "776"
+  },
+  "Andale, Kansas": {
+    "state": "20",
+    "place": "01775",
+    "population": "941"
+  },
+  "Andover, Kansas": {
+    "state": "20",
+    "place": "01800",
+    "population": "14892"
+  },
+  "Anthony, Kansas": {
+    "state": "20",
+    "place": "01975",
+    "population": "2108"
+  },
+  "Arcadia, Kansas": {
+    "state": "20",
+    "place": "02175",
+    "population": "254"
+  },
+  "Argonia, Kansas": {
+    "state": "20",
+    "place": "02250",
+    "population": "456"
+  },
+  "Arkansas City, Kansas": {
+    "state": "20",
+    "place": "02300",
+    "population": "11974"
+  },
+  "Arlington, Kansas": {
+    "state": "20",
+    "place": "02325",
+    "population": "435"
+  },
+  "Arma, Kansas": {
+    "state": "20",
+    "place": "02375",
+    "population": "1407"
+  },
+  "Ashland, Kansas": {
+    "state": "20",
+    "place": "02675",
+    "population": "783"
+  },
+  "Assaria, Kansas": {
+    "state": "20",
+    "place": "02850",
+    "population": "428"
+  },
+  "Atchison, Kansas": {
+    "state": "20",
+    "place": "02900",
+    "population": "10885"
+  },
+  "Athol, Kansas": {
+    "state": "20",
+    "place": "03025",
+    "population": "41"
+  },
+  "Pretty Prairie, Kansas": {
+    "state": "20",
+    "place": "57700",
+    "population": "660"
+  },
+  "Princeton, Kansas": {
+    "state": "20",
+    "place": "57725",
+    "population": "248"
+  },
+  "Protection, Kansas": {
+    "state": "20",
+    "place": "57850",
+    "population": "498"
+  },
+  "Quenemo, Kansas": {
+    "state": "20",
+    "place": "58100",
+    "population": "288"
+  },
+  "Quinter, Kansas": {
+    "state": "20",
+    "place": "58250",
+    "population": "929"
+  },
+  "Radium, Kansas": {
+    "state": "20",
+    "place": "58300",
+    "population": "26"
+  },
+  "Ramona, Kansas": {
+    "state": "20",
+    "place": "58375",
+    "population": "78"
+  },
+  "Randall, Kansas": {
+    "state": "20",
+    "place": "58450",
+    "population": "79"
+  },
+  "Randolph, Kansas": {
+    "state": "20",
+    "place": "58475",
+    "population": "159"
+  },
+  "Ransom, Kansas": {
+    "state": "20",
+    "place": "58500",
+    "population": "260"
+  },
+  "Rantoul, Kansas": {
+    "state": "20",
+    "place": "58525",
+    "population": "165"
+  },
+  "Raymond, Kansas": {
+    "state": "20",
+    "place": "58550",
+    "population": "85"
+  },
+  "Reading, Kansas": {
+    "state": "20",
+    "place": "58600",
+    "population": "181"
+  },
+  "Redfield, Kansas": {
+    "state": "20",
+    "place": "58725",
+    "population": "90"
+  },
+  "Republic, Kansas": {
+    "state": "20",
+    "place": "59000",
+    "population": "82"
+  },
+  "Reserve, Kansas": {
+    "state": "20",
+    "place": "59050",
+    "population": "67"
+  },
+  "Rexford, Kansas": {
+    "state": "20",
+    "place": "59125",
+    "population": "197"
+  },
+  "Richfield, Kansas": {
+    "state": "20",
+    "place": "59200",
+    "population": "30"
+  },
+  "Richmond, Kansas": {
+    "state": "20",
+    "place": "59675",
+    "population": "459"
+  },
+  "Riley, Kansas": {
+    "state": "20",
+    "place": "59875",
+    "population": "938"
+  },
+  "Robinson, Kansas": {
+    "state": "20",
+    "place": "60325",
+    "population": "183"
+  },
+  "Roeland Park, Kansas": {
+    "state": "20",
+    "place": "60825",
+    "population": "6871"
+  },
+  "Rolla, Kansas": {
+    "state": "20",
+    "place": "60900",
+    "population": "384"
+  },
+  "Rose Hill, Kansas": {
+    "state": "20",
+    "place": "61250",
+    "population": "4185"
+  },
+  "Roseland, Kansas": {
+    "state": "20",
+    "place": "61275",
+    "population": "76"
+  },
+  "Rossville, Kansas": {
+    "state": "20",
+    "place": "61400",
+    "population": "1105"
+  },
+  "Rozel, Kansas": {
+    "state": "20",
+    "place": "61600",
+    "population": "102"
+  },
+  "Rush Center, Kansas": {
+    "state": "20",
+    "place": "61775",
+    "population": "141"
+  },
+  "Russell, Kansas": {
+    "state": "20",
+    "place": "61825",
+    "population": "4401"
+  },
+  "Russell Springs, Kansas": {
+    "state": "20",
+    "place": "61875",
+    "population": "26"
+  },
+  "Sabetha, Kansas": {
+    "state": "20",
+    "place": "62025",
+    "population": "2545"
+  },
+  "St. Francis, Kansas": {
+    "state": "20",
+    "place": "62175",
+    "population": "1263"
+  },
+  "St. George, Kansas": {
+    "state": "20",
+    "place": "62200",
+    "population": "1054"
+  },
+  "St. John, Kansas": {
+    "state": "20",
+    "place": "62275",
+    "population": "1228"
+  },
+  "St. Marys, Kansas": {
+    "state": "20",
+    "place": "62400",
+    "population": "2759"
+  },
+  "St. Paul, Kansas": {
+    "state": "20",
+    "place": "62500",
+    "population": "614"
+  },
+  "Salina, Kansas": {
+    "state": "20",
+    "place": "62700",
+    "population": "46889"
+  },
+  "Satanta, Kansas": {
+    "state": "20",
+    "place": "63150",
+    "population": "1092"
+  },
+  "Savonburg, Kansas": {
+    "state": "20",
+    "place": "63200",
+    "population": "74"
+  },
+  "Sawyer, Kansas": {
+    "state": "20",
+    "place": "63275",
+    "population": "89"
+  },
+  "Scammon, Kansas": {
+    "state": "20",
+    "place": "63325",
+    "population": "376"
+  },
+  "Scandia, Kansas": {
+    "state": "20",
+    "place": "63350",
+    "population": "344"
+  },
+  "Schoenchen, Kansas": {
+    "state": "20",
+    "place": "63425",
+    "population": "170"
+  },
+  "Scott City, Kansas": {
+    "state": "20",
+    "place": "63600",
+    "population": "4113"
+  },
+  "Scottsville, Kansas": {
+    "state": "20",
+    "place": "63650",
+    "population": "26"
+  },
+  "Scranton, Kansas": {
+    "state": "20",
+    "place": "63675",
+    "population": "653"
+  },
+  "Sedan, Kansas": {
+    "state": "20",
+    "place": "63750",
+    "population": "1000"
+  },
+  "Sedgwick, Kansas": {
+    "state": "20",
+    "place": "63800",
+    "population": "1603"
+  },
+  "Selden, Kansas": {
+    "state": "20",
+    "place": "63875",
+    "population": "184"
+  },
+  "Seneca, Kansas": {
+    "state": "20",
+    "place": "63950",
+    "population": "2139"
+  },
+  "Severance, Kansas": {
+    "state": "20",
+    "place": "64025",
+    "population": "76"
+  }
+}

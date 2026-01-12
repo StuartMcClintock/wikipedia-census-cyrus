@@ -1,0 +1,627 @@
+{
+  "Acorn, Arkansas": {
+    "state": "05",
+    "place": "00190",
+    "population": "376"
+  },
+  "Alix, Arkansas": {
+    "state": "05",
+    "place": "00730",
+    "population": "100"
+  },
+  "Alleene, Arkansas": {
+    "state": "05",
+    "place": "00820",
+    "population": "97"
+  },
+  "Alpine, Arkansas": {
+    "state": "05",
+    "place": "01090",
+    "population": "134"
+  },
+  "Aplin, Arkansas": {
+    "state": "05",
+    "place": "01630",
+    "population": "100"
+  },
+  "Appleton, Arkansas": {
+    "state": "05",
+    "place": "01660",
+    "population": "399"
+  },
+  "Armorel, Arkansas": {
+    "state": "05",
+    "place": "02230",
+    "population": "312"
+  },
+  "Avilla, Arkansas": {
+    "state": "05",
+    "place": "03010",
+    "population": "1325"
+  },
+  "Batavia, Arkansas": {
+    "state": "05",
+    "place": "03970",
+    "population": "328"
+  },
+  "Bee Branch, Arkansas": {
+    "state": "05",
+    "place": "04630",
+    "population": "293"
+  },
+  "Beirne, Arkansas": {
+    "state": "05",
+    "place": "04750",
+    "population": "36"
+  },
+  "Bethesda, Arkansas": {
+    "state": "05",
+    "place": "05770",
+    "population": "199"
+  },
+  "Bismarck, Arkansas": {
+    "state": "05",
+    "place": "06460",
+    "population": "229"
+  },
+  "Board Camp, Arkansas": {
+    "state": "05",
+    "place": "07420",
+    "population": "87"
+  },
+  "Boles, Arkansas": {
+    "state": "05",
+    "place": "07510",
+    "population": "166"
+  },
+  "Bowman, Arkansas": {
+    "state": "05",
+    "place": "08020",
+    "population": "75"
+  },
+  "Buffalo City, Arkansas": {
+    "state": "05",
+    "place": "09700",
+    "population": "26"
+  },
+  "Caddo Gap, Arkansas": {
+    "state": "05",
+    "place": "10330",
+    "population": "39"
+  },
+  "Canehill, Arkansas": {
+    "state": "05",
+    "place": "11080",
+    "population": "74"
+  },
+  "Center Point, Arkansas": {
+    "state": "05",
+    "place": "12700",
+    "population": "179"
+  },
+  "Center Ridge, Arkansas": {
+    "state": "05",
+    "place": "12790",
+    "population": "290"
+  },
+  "Centerville, Arkansas": {
+    "state": "05",
+    "place": "12940",
+    "population": "283"
+  },
+  "Cherokee City, Arkansas": {
+    "state": "05",
+    "place": "13420",
+    "population": "73"
+  },
+  "Cincinnati, Arkansas": {
+    "state": "05",
+    "place": "13960",
+    "population": "306"
+  },
+  "College Station, Arkansas": {
+    "state": "05",
+    "place": "14860",
+    "population": "469"
+  },
+  "Collins, Arkansas": {
+    "state": "05",
+    "place": "14920",
+    "population": "149"
+  },
+  "Crystal Springs, Arkansas": {
+    "state": "05",
+    "place": "16690",
+    "population": "129"
+  },
+  "Deer, Arkansas": {
+    "state": "05",
+    "place": "17860",
+    "population": "135"
+  },
+  "Dennard, Arkansas": {
+    "state": "05",
+    "place": "18340",
+    "population": "496"
+  },
+  "Desha, Arkansas": {
+    "state": "05",
+    "place": "18580",
+    "population": "715"
+  },
+  "Dora, Arkansas": {
+    "state": "05",
+    "place": "19540",
+    "population": "121"
+  },
+  "Drasco, Arkansas": {
+    "state": "05",
+    "place": "19720",
+    "population": "144"
+  },
+  "East End, Arkansas": {
+    "state": "05",
+    "place": "20470",
+    "population": "7137"
+  },
+  "Edgemont, Arkansas": {
+    "state": "05",
+    "place": "20800",
+    "population": "56"
+  },
+  "El Paso, Arkansas": {
+    "state": "05",
+    "place": "21520",
+    "population": "267"
+  },
+  "Evansville, Arkansas": {
+    "state": "05",
+    "place": "22300",
+    "population": "102"
+  },
+  "Fair Oaks, Arkansas": {
+    "state": "05",
+    "place": "22720",
+    "population": "55"
+  },
+  "Floral, Arkansas": {
+    "state": "05",
+    "place": "24070",
+    "population": "109"
+  },
+  "Floyd, Arkansas": {
+    "state": "05",
+    "place": "24130",
+    "population": "377"
+  },
+  "Fox, Arkansas": {
+    "state": "05",
+    "place": "24910",
+    "population": "237"
+  },
+  "Gamaliel, Arkansas": {
+    "state": "05",
+    "place": "25630",
+    "population": "33"
+  },
+  "Genoa, Arkansas": {
+    "state": "05",
+    "place": "26260",
+    "population": "972"
+  },
+  "Gibson, Arkansas": {
+    "state": "05",
+    "place": "26710",
+    "population": "4111"
+  },
+  "Goodwin, Arkansas": {
+    "state": "05",
+    "place": "27610",
+    "population": "113"
+  },
+  "Gregory, Arkansas": {
+    "state": "05",
+    "place": "28840",
+    "population": "43"
+  },
+  "Hagarville, Arkansas": {
+    "state": "05",
+    "place": "29320",
+    "population": "142"
+  },
+  "Halley, Arkansas": {
+    "state": "05",
+    "place": "29380",
+    "population": "44"
+  },
+  "Hattieville, Arkansas": {
+    "state": "05",
+    "place": "30730",
+    "population": "132"
+  },
+  "Henderson, Arkansas": {
+    "state": "05",
+    "place": "31270",
+    "population": "309"
+  },
+  "Hensley, Arkansas": {
+    "state": "05",
+    "place": "31390",
+    "population": "137"
+  },
+  "Holiday Island, Arkansas": {
+    "state": "05",
+    "place": "32650",
+    "population": "2533"
+  },
+  "Hot Springs Village, Arkansas": {
+    "state": "05",
+    "place": "33482",
+    "population": "15861"
+  },
+  "Indian Bay, Arkansas": {
+    "state": "05",
+    "place": "34220",
+    "population": "15"
+  },
+  "Ivan, Arkansas": {
+    "state": "05",
+    "place": "34540",
+    "population": "135"
+  },
+  "Jerusalem, Arkansas": {
+    "state": "05",
+    "place": "35260",
+    "population": "137"
+  },
+  "Jones Mills, Arkansas": {
+    "state": "05",
+    "place": "35770",
+    "population": "411"
+  },
+  "Kingston, Arkansas": {
+    "state": "05",
+    "place": "36910",
+    "population": "97"
+  },
+  "Kirby, Arkansas": {
+    "state": "05",
+    "place": "37060",
+    "population": "721"
+  },
+  "Lacey, Arkansas": {
+    "state": "05",
+    "place": "37450",
+    "population": "139"
+  },
+  "Lake Hamilton, Arkansas": {
+    "state": "05",
+    "place": "37930",
+    "population": "2084"
+  },
+  "Landmark, Arkansas": {
+    "state": "05",
+    "place": "38540",
+    "population": "3585"
+  },
+  "Lawson, Arkansas": {
+    "state": "05",
+    "place": "38950",
+    "population": "260"
+  },
+  "Lost Bridge Village, Arkansas": {
+    "state": "05",
+    "place": "41555",
+    "population": "397"
+  },
+  "McAlmont, Arkansas": {
+    "state": "05",
+    "place": "42350",
+    "population": "1447"
+  },
+  "Magnet Cove, Arkansas": {
+    "state": "05",
+    "place": "43430",
+    "population": "692"
+  },
+  "Mellwood, Arkansas": {
+    "state": "05",
+    "place": "45110",
+    "population": "21"
+  },
+  "Midway, Arkansas": {
+    "state": "05",
+    "place": "45530",
+    "population": "1036"
+  },
+  "Monroe, Arkansas": {
+    "state": "05",
+    "place": "46460",
+    "population": "51"
+  },
+  "Morrow, Arkansas": {
+    "state": "05",
+    "place": "47090",
+    "population": "263"
+  },
+  "Mount Holly, Arkansas": {
+    "state": "05",
+    "place": "47660",
+    "population": "123"
+  },
+  "Mount Judea, Arkansas": {
+    "state": "05",
+    "place": "47720",
+    "population": "110"
+  },
+  "Mount Olive, Arkansas": {
+    "state": "05",
+    "place": "47810",
+    "population": "17"
+  },
+  "Natural Steps, Arkansas": {
+    "state": "05",
+    "place": "48680",
+    "population": "413"
+  },
+  "New Blaine, Arkansas": {
+    "state": "05",
+    "place": "49070",
+    "population": "173"
+  },
+  "New Edinburg, Arkansas": {
+    "state": "05",
+    "place": "49220",
+    "population": "134"
+  },
+  "Newhope, Arkansas": {
+    "state": "05",
+    "place": "49370",
+    "population": "169"
+  },
+  "Maysville, Arkansas": {
+    "state": "05",
+    "place": "44810",
+    "population": "117"
+  },
+  "North Crossett, Arkansas": {
+    "state": "05",
+    "place": "50240",
+    "population": "2756"
+  },
+  "Oak Grove, Arkansas": {
+    "state": "05",
+    "place": "50990",
+    "population": "177"
+  },
+  "Oakland, Arkansas": {
+    "state": "05",
+    "place": "51110",
+    "population": "72"
+  },
+  "Oark, Arkansas": {
+    "state": "05",
+    "place": "51230",
+    "population": "43"
+  },
+  "Oneida, Arkansas": {
+    "state": "05",
+    "place": "52280",
+    "population": "13"
+  },
+  "Ozark Acres, Arkansas": {
+    "state": "05",
+    "place": "53000",
+    "population": "692"
+  },
+  "Ozone, Arkansas": {
+    "state": "05",
+    "place": "53060",
+    "population": "92"
+  },
+  "Payneway, Arkansas": {
+    "state": "05",
+    "place": "54110",
+    "population": "241"
+  },
+  "Pearcy, Arkansas": {
+    "state": "05",
+    "place": "54170",
+    "population": "306"
+  },
+  "Pencil Bluff, Arkansas": {
+    "state": "05",
+    "place": "54410",
+    "population": "72"
+  },
+  "Piney, Arkansas": {
+    "state": "05",
+    "place": "55610",
+    "population": "5238"
+  },
+  "Pleasant Grove, Arkansas": {
+    "state": "05",
+    "place": "56060",
+    "population": "235"
+  },
+  "Ponca, Arkansas": {
+    "state": "05",
+    "place": "56630",
+    "population": "30"
+  },
+  "Poplar Grove, Arkansas": {
+    "state": "05",
+    "place": "56690",
+    "population": "215"
+  },
+  "Prairie Creek, Arkansas": {
+    "state": "05",
+    "place": "57125",
+    "population": "2217"
+  },
+  "Princeton, Arkansas": {
+    "state": "05",
+    "place": "57530",
+    "population": "13"
+  },
+  "Reader, Arkansas": {
+    "state": "05",
+    "place": "58400",
+    "population": "40"
+  },
+  "Rivervale, Arkansas": {
+    "state": "05",
+    "place": "59630",
+    "population": "46"
+  },
+  "Rockwell, Arkansas": {
+    "state": "05",
+    "place": "60110",
+    "population": "4548"
+  },
+  "Roland, Arkansas": {
+    "state": "05",
+    "place": "60470",
+    "population": "820"
+  },
+  "Rover, Arkansas": {
+    "state": "05",
+    "place": "61190",
+    "population": "159"
+  },
+  "Rye, Arkansas": {
+    "state": "05",
+    "place": "61730",
+    "population": "123"
+  },
+  "Salado, Arkansas": {
+    "state": "05",
+    "place": "62120",
+    "population": "472"
+  },
+  "Salem, Arkansas": {
+    "state": "05",
+    "place": "62210",
+    "population": "2544"
+  },
+  "Saratoga, Arkansas": {
+    "state": "05",
+    "place": "62630",
+    "population": "124"
+  },
+  "Sardis, Arkansas": {
+    "state": "05",
+    "place": "62660",
+    "population": "833"
+  },
+  "Scott, Arkansas": {
+    "state": "05",
+    "place": "62900",
+    "population": "97"
+  },
+  "Springfield, Arkansas": {
+    "state": "05",
+    "place": "66110",
+    "population": "223"
+  },
+  "Staves, Arkansas": {
+    "state": "05",
+    "place": "66800",
+    "population": "133"
+  },
+  "Sulphur Springs, Arkansas": {
+    "state": "05",
+    "place": "67790",
+    "population": "1032"
+  },
+  "Summers, Arkansas": {
+    "state": "05",
+    "place": "67880",
+    "population": "166"
+  },
+  "Sweet Home, Arkansas": {
+    "state": "05",
+    "place": "68330",
+    "population": "712"
+  },
+  "Tucker, Arkansas": {
+    "state": "05",
+    "place": "70070",
+    "population": "95"
+  },
+  "Tumbling Shoals, Arkansas": {
+    "state": "05",
+    "place": "70310",
+    "population": "902"
+  },
+  "Uniontown, Arkansas": {
+    "state": "05",
+    "place": "71060",
+    "population": "112"
+  },
+  "Urbana, Arkansas": {
+    "state": "05",
+    "place": "71180",
+    "population": "177"
+  },
+  "Vanndale, Arkansas": {
+    "state": "05",
+    "place": "71570",
+    "population": "339"
+  },
+  "Violet Hill, Arkansas": {
+    "state": "05",
+    "place": "72170",
+    "population": "36"
+  },
+  "Walcott, Arkansas": {
+    "state": "05",
+    "place": "72290",
+    "population": "152"
+  },
+  "Warm Springs, Arkansas": {
+    "state": "05",
+    "place": "73250",
+    "population": "47"
+  },
+  "Wayton, Arkansas": {
+    "state": "05",
+    "place": "73730",
+    "population": "148"
+  },
+  "Wesley, Arkansas": {
+    "state": "05",
+    "place": "74090",
+    "population": "161"
+  },
+  "West Crossett, Arkansas": {
+    "state": "05",
+    "place": "74270",
+    "population": "1144"
+  },
+  "Wilburn, Arkansas": {
+    "state": "05",
+    "place": "75590",
+    "population": "132"
+  },
+  "Witts Springs, Arkansas": {
+    "state": "05",
+    "place": "76460",
+    "population": "33"
+  },
+  "Woodlawn, Arkansas": {
+    "state": "05",
+    "place": "76690",
+    "population": "174"
+  },
+  "Woodson, Arkansas": {
+    "state": "05",
+    "place": "76730",
+    "population": "346"
+  },
+  "Yarborough Landing, Arkansas": {
+    "state": "05",
+    "place": "77203",
+    "population": "457"
+  }
+}

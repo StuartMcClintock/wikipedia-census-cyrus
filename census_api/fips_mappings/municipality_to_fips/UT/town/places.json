@@ -1,0 +1,522 @@
+{
+  "Deweyville, Utah": {
+    "state": "49",
+    "place": "19680",
+    "population": "417"
+  },
+  "Dutch John, Utah": {
+    "state": "49",
+    "place": "20780",
+    "population": "141"
+  },
+  "Elmo, Utah": {
+    "state": "49",
+    "place": "22540",
+    "population": "405"
+  },
+  "Elsinore, Utah": {
+    "state": "49",
+    "place": "22650",
+    "population": "802"
+  },
+  "Elwood, Utah": {
+    "state": "49",
+    "place": "22760",
+    "population": "1173"
+  },
+  "Emery, Utah": {
+    "state": "49",
+    "place": "22870",
+    "population": "307"
+  },
+  "Fairfield, Utah": {
+    "state": "49",
+    "place": "24410",
+    "population": "160"
+  },
+  "Fayette, Utah": {
+    "state": "49",
+    "place": "25070",
+    "population": "245"
+  },
+  "Fielding, Utah": {
+    "state": "49",
+    "place": "25290",
+    "population": "546"
+  },
+  "Francis, Utah": {
+    "state": "49",
+    "place": "26940",
+    "population": "1564"
+  },
+  "Daniel, Utah": {
+    "state": "49",
+    "place": "18140",
+    "population": "916"
+  },
+  "Garden City, Utah": {
+    "state": "49",
+    "place": "27930",
+    "population": "602"
+  },
+  "Genola, Utah": {
+    "state": "49",
+    "place": "28810",
+    "population": "1548"
+  },
+  "Glendale, Utah": {
+    "state": "49",
+    "place": "29360",
+    "population": "312"
+  },
+  "Glenwood, Utah": {
+    "state": "49",
+    "place": "29580",
+    "population": "474"
+  },
+  "Goshen, Utah": {
+    "state": "49",
+    "place": "30130",
+    "population": "978"
+  },
+  "Hanksville, Utah": {
+    "state": "49",
+    "place": "33100",
+    "population": "158"
+  },
+  "Hatch, Utah": {
+    "state": "49",
+    "place": "33760",
+    "population": "132"
+  },
+  "Henefer, Utah": {
+    "state": "49",
+    "place": "34640",
+    "population": "838"
+  },
+  "Henrieville, Utah": {
+    "state": "49",
+    "place": "34750",
+    "population": "221"
+  },
+  "Hideout, Utah": {
+    "state": "49",
+    "place": "35120",
+    "population": "922"
+  },
+  "Hinckley, Utah": {
+    "state": "49",
+    "place": "35740",
+    "population": "614"
+  },
+  "Holden, Utah": {
+    "state": "49",
+    "place": "35960",
+    "population": "438"
+  },
+  "Howell, Utah": {
+    "state": "49",
+    "place": "36620",
+    "population": "240"
+  },
+  "Huntsville, Utah": {
+    "state": "49",
+    "place": "37060",
+    "population": "573"
+  },
+  "Independence, Utah": {
+    "state": "49",
+    "place": "37690",
+    "population": "121"
+  },
+  "Interlaken, Utah": {
+    "state": "49",
+    "place": "37924",
+    "population": "179"
+  },
+  "Joseph, Utah": {
+    "state": "49",
+    "place": "39370",
+    "population": "288"
+  },
+  "Junction, Utah": {
+    "state": "49",
+    "place": "39590",
+    "population": "212"
+  },
+  "Kanarraville, Utah": {
+    "state": "49",
+    "place": "40030",
+    "population": "442"
+  },
+  "Kanosh, Utah": {
+    "state": "49",
+    "place": "40250",
+    "population": "508"
+  },
+  "Kingston, Utah": {
+    "state": "49",
+    "place": "41350",
+    "population": "135"
+  },
+  "Koosharem, Utah": {
+    "state": "49",
+    "place": "41680",
+    "population": "244"
+  },
+  "Laketown, Utah": {
+    "state": "49",
+    "place": "42560",
+    "population": "299"
+  },
+  "Leamington, Utah": {
+    "state": "49",
+    "place": "43880",
+    "population": "256"
+  },
+  "Leeds, Utah": {
+    "state": "49",
+    "place": "44100",
+    "population": "864"
+  },
+  "Levan, Utah": {
+    "state": "49",
+    "place": "44650",
+    "population": "862"
+  },
+  "Loa, Utah": {
+    "state": "49",
+    "place": "45530",
+    "population": "516"
+  },
+  "Lyman, Utah": {
+    "state": "49",
+    "place": "46410",
+    "population": "196"
+  },
+  "Lynndyl, Utah": {
+    "state": "49",
+    "place": "46740",
+    "population": "111"
+  },
+  "Manila, Utah": {
+    "state": "49",
+    "place": "47620",
+    "population": "308"
+  },
+  "Mantua, Utah": {
+    "state": "49",
+    "place": "47840",
+    "population": "1090"
+  },
+  "Marysvale, Utah": {
+    "state": "49",
+    "place": "48610",
+    "population": "356"
+  },
+  "Meadow, Utah": {
+    "state": "49",
+    "place": "48830",
+    "population": "320"
+  },
+  "Minersville, Utah": {
+    "state": "49",
+    "place": "50590",
+    "population": "807"
+  },
+  "New Harmony, Utah": {
+    "state": "49",
+    "place": "54440",
+    "population": "236"
+  },
+  "Newton, Utah": {
+    "state": "49",
+    "place": "54550",
+    "population": "789"
+  },
+  "Oak City, Utah": {
+    "state": "49",
+    "place": "55430",
+    "population": "595"
+  },
+  "Orderville, Utah": {
+    "state": "49",
+    "place": "57080",
+    "population": "598"
+  },
+  "Mayfield, Utah": {
+    "state": "49",
+    "place": "48720",
+    "population": "556"
+  },
+  "Paradise, Utah": {
+    "state": "49",
+    "place": "57850",
+    "population": "971"
+  },
+  "Paragonah, Utah": {
+    "state": "49",
+    "place": "57960",
+    "population": "536"
+  },
+  "Plymouth, Utah": {
+    "state": "49",
+    "place": "61260",
+    "population": "427"
+  },
+  "Portage, Utah": {
+    "state": "49",
+    "place": "61590",
+    "population": "273"
+  },
+  "Randolph, Utah": {
+    "state": "49",
+    "place": "63020",
+    "population": "467"
+  },
+  "Redmond, Utah": {
+    "state": "49",
+    "place": "63240",
+    "population": "762"
+  },
+  "Rockville, Utah": {
+    "state": "49",
+    "place": "64560",
+    "population": "226"
+  },
+  "Rocky Ridge, Utah": {
+    "state": "49",
+    "place": "64590",
+    "population": "848"
+  },
+  "Rush Valley, Utah": {
+    "state": "49",
+    "place": "65240",
+    "population": "431"
+  },
+  "Scipio, Utah": {
+    "state": "49",
+    "place": "67880",
+    "population": "353"
+  },
+  "Scofield, Utah": {
+    "state": "49",
+    "place": "67990",
+    "population": "26"
+  },
+  "Sigurd, Utah": {
+    "state": "49",
+    "place": "68650",
+    "population": "405"
+  },
+  "Snowville, Utah": {
+    "state": "49",
+    "place": "69970",
+    "population": "163"
+  },
+  "Springdale, Utah": {
+    "state": "49",
+    "place": "71840",
+    "population": "514"
+  },
+  "Sterling, Utah": {
+    "state": "49",
+    "place": "72940",
+    "population": "274"
+  },
+  "Stockton, Utah": {
+    "state": "49",
+    "place": "73050",
+    "population": "621"
+  },
+  "Tabiona, Utah": {
+    "state": "49",
+    "place": "74920",
+    "population": "143"
+  },
+  "Torrey, Utah": {
+    "state": "49",
+    "place": "77010",
+    "population": "231"
+  },
+  "Trenton, Utah": {
+    "state": "49",
+    "place": "77230",
+    "population": "512"
+  },
+  "Tropic, Utah": {
+    "state": "49",
+    "place": "77560",
+    "population": "486"
+  },
+  "Uintah, Utah": {
+    "state": "49",
+    "place": "77890",
+    "population": "1454"
+  },
+  "Vernon, Utah": {
+    "state": "49",
+    "place": "80200",
+    "population": "256"
+  },
+  "Vineyard, Utah": {
+    "state": "49",
+    "place": "80420",
+    "population": "12543"
+  },
+  "Virgin, Utah": {
+    "state": "49",
+    "place": "80530",
+    "population": "670"
+  },
+  "Wales, Utah": {
+    "state": "49",
+    "place": "80860",
+    "population": "338"
+  },
+  "Wallsburg, Utah": {
+    "state": "49",
+    "place": "80970",
+    "population": "290"
+  },
+  "Woodruff, Utah": {
+    "state": "49",
+    "place": "85260",
+    "population": "169"
+  },
+  "Alta, Utah": {
+    "state": "49",
+    "place": "00650",
+    "population": "228"
+  },
+  "Altamont, Utah": {
+    "state": "49",
+    "place": "00760",
+    "population": "239"
+  },
+  "Alton, Utah": {
+    "state": "49",
+    "place": "00870",
+    "population": "118"
+  },
+  "Amalga, Utah": {
+    "state": "49",
+    "place": "01090",
+    "population": "482"
+  },
+  "Annabella, Utah": {
+    "state": "49",
+    "place": "01750",
+    "population": "836"
+  },
+  "Antimony, Utah": {
+    "state": "49",
+    "place": "01860",
+    "population": "118"
+  },
+  "Apple Valley, Utah": {
+    "state": "49",
+    "place": "01905",
+    "population": "855"
+  },
+  "Ballard, Utah": {
+    "state": "49",
+    "place": "03345",
+    "population": "1131"
+  },
+  "Bicknell, Utah": {
+    "state": "49",
+    "place": "05490",
+    "population": "323"
+  },
+  "Big Water, Utah": {
+    "state": "49",
+    "place": "05534",
+    "population": "449"
+  },
+  "Bluff, Utah": {
+    "state": "49",
+    "place": "06700",
+    "population": "240"
+  },
+  "Boulder, Utah": {
+    "state": "49",
+    "place": "07470",
+    "population": "227"
+  },
+  "Brian Head, Utah": {
+    "state": "49",
+    "place": "08020",
+    "population": "151"
+  },
+  "Brighton, Utah": {
+    "state": "49",
+    "place": "08570",
+    "population": "432"
+  },
+  "Bryce Canyon City, Utah": {
+    "state": "49",
+    "place": "08787",
+    "population": "336"
+  },
+  "Cannonville, Utah": {
+    "state": "49",
+    "place": "10330",
+    "population": "186"
+  },
+  "Castle Valley, Utah": {
+    "state": "49",
+    "place": "11000",
+    "population": "347"
+  },
+  "Cedar Fort, Utah": {
+    "state": "49",
+    "place": "11430",
+    "population": "427"
+  },
+  "Cedar Highlands, Utah": {
+    "state": "49",
+    "place": "11435",
+    "population": "99"
+  },
+  "Centerfield, Utah": {
+    "state": "49",
+    "place": "11870",
+    "population": "1341"
+  },
+  "Central Valley, Utah": {
+    "state": "49",
+    "place": "12260",
+    "population": "647"
+  },
+  "Charleston, Utah": {
+    "state": "49",
+    "place": "12420",
+    "population": "436"
+  },
+  "Circleville, Utah": {
+    "state": "49",
+    "place": "12970",
+    "population": "550"
+  },
+  "Clarkston, Utah": {
+    "state": "49",
+    "place": "13190",
+    "population": "749"
+  },
+  "Clawson, Utah": {
+    "state": "49",
+    "place": "13300",
+    "population": "162"
+  },
+  "Cleveland, Utah": {
+    "state": "49",
+    "place": "14070",
+    "population": "497"
+  },
+  "Cornish, Utah": {
+    "state": "49",
+    "place": "15940",
+    "population": "274"
+  }
+}

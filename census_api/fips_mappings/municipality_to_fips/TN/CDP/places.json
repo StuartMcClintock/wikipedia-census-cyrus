@@ -1,0 +1,777 @@
+{
+  "Andersonville, Tennessee": {
+    "state": "47",
+    "place": "01220",
+    "population": "508"
+  },
+  "Apison, Tennessee": {
+    "state": "47",
+    "place": "01480",
+    "population": "4428"
+  },
+  "Banner Hill, Tennessee": {
+    "state": "47",
+    "place": "03120",
+    "population": "1426"
+  },
+  "Beech Bluff, Tennessee": {
+    "state": "47",
+    "place": "04000",
+    "population": "379"
+  },
+  "Belvidere, Tennessee": {
+    "state": "47",
+    "place": "04920",
+    "population": "96"
+  },
+  "Bethpage, Tennessee": {
+    "state": "47",
+    "place": "05500",
+    "population": "313"
+  },
+  "Big Rock, Tennessee": {
+    "state": "47",
+    "place": "05840",
+    "population": "291"
+  },
+  "Biltmore, Tennessee": {
+    "state": "47",
+    "place": "06020",
+    "population": "1837"
+  },
+  "Blanche, Tennessee": {
+    "state": "47",
+    "place": "06440",
+    "population": "310"
+  },
+  "Bloomingdale, Tennessee": {
+    "state": "47",
+    "place": "06640",
+    "population": "8918"
+  },
+  "Blountville, Tennessee": {
+    "state": "47",
+    "place": "06740",
+    "population": "3120"
+  },
+  "Bogota, Tennessee": {
+    "state": "47",
+    "place": "07120",
+    "population": "112"
+  },
+  "Bon Air, Tennessee": {
+    "state": "47",
+    "place": "07240",
+    "population": "430"
+  },
+  "Bon Aqua Junction, Tennessee": {
+    "state": "47",
+    "place": "07280",
+    "population": "1279"
+  },
+  "Bowman, Tennessee": {
+    "state": "47",
+    "place": "07620",
+    "population": "297"
+  },
+  "Bransford, Tennessee": {
+    "state": "47",
+    "place": "08080",
+    "population": "166"
+  },
+  "Buchanan, Tennessee": {
+    "state": "47",
+    "place": "09200",
+    "population": "71"
+  },
+  "Butler, Tennessee": {
+    "state": "47",
+    "place": "10080",
+    "population": "297"
+  },
+  "Castalian Springs, Tennessee": {
+    "state": "47",
+    "place": "11440",
+    "population": "608"
+  },
+  "Central, Tennessee": {
+    "state": "47",
+    "place": "12460",
+    "population": "2114"
+  },
+  "Chesterfield, Tennessee": {
+    "state": "47",
+    "place": "14220",
+    "population": "543"
+  },
+  "Chewalla, Tennessee": {
+    "state": "47",
+    "place": "14520",
+    "population": "94"
+  },
+  "Childers Hill, Tennessee": {
+    "state": "47",
+    "place": "14620",
+    "population": "100"
+  },
+  "Christiana, Tennessee": {
+    "state": "47",
+    "place": "14860",
+    "population": "4305"
+  },
+  "Clarkrange, Tennessee": {
+    "state": "47",
+    "place": "15120",
+    "population": "596"
+  },
+  "Coalfield, Tennessee": {
+    "state": "47",
+    "place": "15880",
+    "population": "2361"
+  },
+  "Coker Creek, Tennessee": {
+    "state": "47",
+    "place": "16060",
+    "population": "150"
+  },
+  "Briceville, Tennessee": {
+    "state": "47",
+    "place": "08400",
+    "population": "334"
+  },
+  "Colonial Heights, Tennessee": {
+    "state": "47",
+    "place": "16500",
+    "population": "3055"
+  },
+  "Conasauga, Tennessee": {
+    "state": "47",
+    "place": "16740",
+    "population": "95"
+  },
+  "Cosby, Tennessee": {
+    "state": "47",
+    "place": "17300",
+    "population": "807"
+  },
+  "Cottontown, Tennessee": {
+    "state": "47",
+    "place": "17420",
+    "population": "397"
+  },
+  "Counce, Tennessee": {
+    "state": "47",
+    "place": "17520",
+    "population": "316"
+  },
+  "Dancyville, Tennessee": {
+    "state": "47",
+    "place": "19360",
+    "population": "85"
+  },
+  "Darden, Tennessee": {
+    "state": "47",
+    "place": "19500",
+    "population": "364"
+  },
+  "Delano, Tennessee": {
+    "state": "47",
+    "place": "20080",
+    "population": "777"
+  },
+  "Dellrose, Tennessee": {
+    "state": "47",
+    "place": "20120",
+    "population": "73"
+  },
+  "Dodson Branch, Tennessee": {
+    "state": "47",
+    "place": "20930",
+    "population": "1160"
+  },
+  "Dukedom, Tennessee": {
+    "state": "47",
+    "place": "21860",
+    "population": "103"
+  },
+  "Eagleton Village, Tennessee": {
+    "state": "47",
+    "place": "22340",
+    "population": "5393"
+  },
+  "East Cleveland, Tennessee": {
+    "state": "47",
+    "place": "22500",
+    "population": "1725"
+  },
+  "Elgin, Tennessee": {
+    "state": "47",
+    "place": "23440",
+    "population": "297"
+  },
+  "Embreeville, Tennessee": {
+    "state": "47",
+    "place": "23880",
+    "population": "429"
+  },
+  "Essary Springs, Tennessee": {
+    "state": "47",
+    "place": "24400",
+    "population": "147"
+  },
+  "Eva, Tennessee": {
+    "state": "47",
+    "place": "24640",
+    "population": "239"
+  },
+  "Fairfield, Tennessee": {
+    "state": "47",
+    "place": "24960",
+    "population": "141"
+  },
+  "Fairfield Glade, Tennessee": {
+    "state": "47",
+    "place": "24980",
+    "population": "9152"
+  },
+  "Fairgarden, Tennessee": {
+    "state": "47",
+    "place": "24990",
+    "population": "481"
+  },
+  "Fairmount, Tennessee": {
+    "state": "47",
+    "place": "25080",
+    "population": "2193"
+  },
+  "Fall Branch, Tennessee": {
+    "state": "47",
+    "place": "25540",
+    "population": "1248"
+  },
+  "Falling Water, Tennessee": {
+    "state": "47",
+    "place": "25560",
+    "population": "1873"
+  },
+  "Farner, Tennessee": {
+    "state": "47",
+    "place": "25740",
+    "population": "267"
+  },
+  "Fincastle, Tennessee": {
+    "state": "47",
+    "place": "26120",
+    "population": "1611"
+  },
+  "Finley, Tennessee": {
+    "state": "47",
+    "place": "26180",
+    "population": "774"
+  },
+  "Flat Top Mountain, Tennessee": {
+    "state": "47",
+    "place": "26490",
+    "population": "561"
+  },
+  "Flintville, Tennessee": {
+    "state": "47",
+    "place": "26580",
+    "population": "722"
+  },
+  "Fowlkes, Tennessee": {
+    "state": "47",
+    "place": "27640",
+    "population": "882"
+  },
+  "Frankewing, Tennessee": {
+    "state": "47",
+    "place": "27700",
+    "population": "124"
+  },
+  "Gladeville, Tennessee": {
+    "state": "47",
+    "place": "29260",
+    "population": "1189"
+  },
+  "Graball, Tennessee": {
+    "state": "47",
+    "place": "30220",
+    "population": "228"
+  },
+  "Gray, Tennessee": {
+    "state": "47",
+    "place": "30700",
+    "population": "1293"
+  },
+  "Green Hill, Tennessee": {
+    "state": "47",
+    "place": "31100",
+    "population": "6518"
+  },
+  "Greenvale, Tennessee": {
+    "state": "47",
+    "place": "31220",
+    "population": "79"
+  },
+  "Griffith Creek, Tennessee": {
+    "state": "47",
+    "place": "31400",
+    "population": "465"
+  },
+  "Grimsley, Tennessee": {
+    "state": "47",
+    "place": "31420",
+    "population": "1219"
+  },
+  "Halls, Tennessee": {
+    "state": "47",
+    "place": "31810",
+    "population": "10341"
+  },
+  "Hampton, Tennessee": {
+    "state": "47",
+    "place": "32040",
+    "population": "2030"
+  },
+  "Harrison, Tennessee": {
+    "state": "47",
+    "place": "32600",
+    "population": "7902"
+  },
+  "Helenwood, Tennessee": {
+    "state": "47",
+    "place": "33120",
+    "population": "635"
+  },
+  "Hickman, Tennessee": {
+    "state": "47",
+    "place": "33680",
+    "population": "224"
+  },
+  "Hilham, Tennessee": {
+    "state": "47",
+    "place": "34580",
+    "population": "338"
+  },
+  "Hillsboro, Tennessee": {
+    "state": "47",
+    "place": "34700",
+    "population": "433"
+  },
+  "Holladay, Tennessee": {
+    "state": "47",
+    "place": "35220",
+    "population": "95"
+  },
+  "Hopewell, Tennessee": {
+    "state": "47",
+    "place": "35880",
+    "population": "2087"
+  },
+  "Huron, Tennessee": {
+    "state": "47",
+    "place": "36700",
+    "population": "58"
+  },
+  "Iron City, Tennessee": {
+    "state": "47",
+    "place": "37360",
+    "population": "274"
+  },
+  "Jacks Creek, Tennessee": {
+    "state": "47",
+    "place": "37620",
+    "population": "81"
+  },
+  "John Sevier, Tennessee": {
+    "state": "47",
+    "place": "38300",
+    "population": "1026"
+  },
+  "Kahite, Tennessee": {
+    "state": "47",
+    "place": "38765",
+    "population": "834"
+  },
+  "Karns, Tennessee": {
+    "state": "47",
+    "place": "38800",
+    "population": "3536"
+  },
+  "Lake Tansi, Tennessee": {
+    "state": "47",
+    "place": "40560",
+    "population": "4629"
+  },
+  "Lakewood Park, Tennessee": {
+    "state": "47",
+    "place": "40732",
+    "population": "1161"
+  },
+  "Lavinia, Tennessee": {
+    "state": "47",
+    "place": "41240",
+    "population": "81"
+  },
+  "Lenox, Tennessee": {
+    "state": "47",
+    "place": "41780",
+    "population": "308"
+  },
+  "Leoma, Tennessee": {
+    "state": "47",
+    "place": "41800",
+    "population": "464"
+  },
+  "Hunter, Tennessee": {
+    "state": "47",
+    "place": "36500",
+    "population": "1803"
+  },
+  "Lone Oak, Tennessee": {
+    "state": "47",
+    "place": "43420",
+    "population": "1198"
+  },
+  "Luray, Tennessee": {
+    "state": "47",
+    "place": "44200",
+    "population": "197"
+  },
+  "Lyles, Tennessee": {
+    "state": "47",
+    "place": "44360",
+    "population": "763"
+  },
+  "McDonald, Tennessee": {
+    "state": "47",
+    "place": "44700",
+    "population": "586"
+  },
+  "Mascot, Tennessee": {
+    "state": "47",
+    "place": "46400",
+    "population": "2760"
+  },
+  "Mayland, Tennessee": {
+    "state": "47",
+    "place": "46680",
+    "population": "472"
+  },
+  "Mercer, Tennessee": {
+    "state": "47",
+    "place": "48120",
+    "population": "150"
+  },
+  "Middle Valley, Tennessee": {
+    "state": "47",
+    "place": "48360",
+    "population": "11695"
+  },
+  "Midtown, Tennessee": {
+    "state": "47",
+    "place": "48460",
+    "population": "1220"
+  },
+  "Miston, Tennessee": {
+    "state": "47",
+    "place": "49420",
+    "population": "77"
+  },
+  "Mooresburg, Tennessee": {
+    "state": "47",
+    "place": "49940",
+    "population": "877"
+  },
+  "Morris Chapel, Tennessee": {
+    "state": "47",
+    "place": "50200",
+    "population": "238"
+  },
+  "Mowbray Mountain, Tennessee": {
+    "state": "47",
+    "place": "51402",
+    "population": "1705"
+  },
+  "New Deal, Tennessee": {
+    "state": "47",
+    "place": "52520",
+    "population": "398"
+  },
+  "New Union, Tennessee": {
+    "state": "47",
+    "place": "53240",
+    "population": "1646"
+  },
+  "Nixon, Tennessee": {
+    "state": "47",
+    "place": "53400",
+    "population": "514"
+  },
+  "Norene, Tennessee": {
+    "state": "47",
+    "place": "53520",
+    "population": "148"
+  },
+  "Ocoee, Tennessee": {
+    "state": "47",
+    "place": "55280",
+    "population": "201"
+  },
+  "Olivet, Tennessee": {
+    "state": "47",
+    "place": "55820",
+    "population": "1441"
+  },
+  "Ooltewah, Tennessee": {
+    "state": "47",
+    "place": "55900",
+    "population": "684"
+  },
+  "Orebank, Tennessee": {
+    "state": "47",
+    "place": "55980",
+    "population": "929"
+  },
+  "Palmersville, Tennessee": {
+    "state": "47",
+    "place": "56580",
+    "population": "162"
+  },
+  "Park City, Tennessee": {
+    "state": "47",
+    "place": "56800",
+    "population": "2422"
+  },
+  "Pelham, Tennessee": {
+    "state": "47",
+    "place": "57500",
+    "population": "371"
+  },
+  "Petros, Tennessee": {
+    "state": "47",
+    "place": "57780",
+    "population": "459"
+  },
+  "Pine Crest, Tennessee": {
+    "state": "47",
+    "place": "58240",
+    "population": "2439"
+  },
+  "Pinson, Tennessee": {
+    "state": "47",
+    "place": "58780",
+    "population": "464"
+  },
+  "Pocahontas, Tennessee": {
+    "state": "47",
+    "place": "59640",
+    "population": "176"
+  },
+  "Powell, Tennessee": {
+    "state": "47",
+    "place": "60480",
+    "population": "13802"
+  },
+  "Prospect, Tennessee": {
+    "state": "47",
+    "place": "60800",
+    "population": "121"
+  },
+  "Randolph, Tennessee": {
+    "state": "47",
+    "place": "61560",
+    "population": "258"
+  },
+  "Rarity Bay, Tennessee": {
+    "state": "47",
+    "place": "61635",
+    "population": "885"
+  },
+  "Riceville, Tennessee": {
+    "state": "47",
+    "place": "62580",
+    "population": "688"
+  },
+  "Roan Mountain, Tennessee": {
+    "state": "47",
+    "place": "63840",
+    "population": "1078"
+  },
+  "Robbins, Tennessee": {
+    "state": "47",
+    "place": "63920",
+    "population": "254"
+  },
+  "Rockvale, Tennessee": {
+    "state": "47",
+    "place": "64400",
+    "population": "1279"
+  },
+  "Rural Hill, Tennessee": {
+    "state": "47",
+    "place": "65642",
+    "population": "2047"
+  },
+  "Russellville, Tennessee": {
+    "state": "47",
+    "place": "65740",
+    "population": "822"
+  },
+  "Sale Creek, Tennessee": {
+    "state": "47",
+    "place": "66220",
+    "population": "3021"
+  },
+  "Sequatchie, Tennessee": {
+    "state": "47",
+    "place": "66960",
+    "population": "622"
+  },
+  "Sewanee, Tennessee": {
+    "state": "47",
+    "place": "67140",
+    "population": "2535"
+  },
+  "Seymour, Tennessee": {
+    "state": "47",
+    "place": "67200",
+    "population": "14705"
+  },
+  "Shackle Island, Tennessee": {
+    "state": "47",
+    "place": "67230",
+    "population": "3331"
+  },
+  "Sherwood, Tennessee": {
+    "state": "47",
+    "place": "67920",
+    "population": "122"
+  },
+  "Shiloh, Tennessee": {
+    "state": "47",
+    "place": "68040",
+    "population": "163"
+  },
+  "South Cleveland, Tennessee": {
+    "state": "47",
+    "place": "69740",
+    "population": "7673"
+  },
+  "Spurgeon, Tennessee": {
+    "state": "47",
+    "place": "70680",
+    "population": "3978"
+  },
+  "Statesville, Tennessee": {
+    "state": "47",
+    "place": "70900",
+    "population": "82"
+  },
+  "Strawberry Plains, Tennessee": {
+    "state": "47",
+    "place": "71500",
+    "population": "2405"
+  },
+  "Sullivan Gardens, Tennessee": {
+    "state": "47",
+    "place": "71800",
+    "population": "1271"
+  },
+  "Summertown, Tennessee": {
+    "state": "47",
+    "place": "72040",
+    "population": "856"
+  },
+  "Taft, Tennessee": {
+    "state": "47",
+    "place": "72780",
+    "population": "256"
+  },
+  "Telford, Tennessee": {
+    "state": "47",
+    "place": "73220",
+    "population": "909"
+  },
+  "Tellico Village, Tennessee": {
+    "state": "47",
+    "place": "73270",
+    "population": "7311"
+  },
+  "Tuckers Crossroads, Tennessee": {
+    "state": "47",
+    "place": "75300",
+    "population": "263"
+  },
+  "Unionville, Tennessee": {
+    "state": "47",
+    "place": "76180",
+    "population": "1394"
+  },
+  "Valley Forge, Tennessee": {
+    "state": "47",
+    "place": "76660",
+    "population": "1926"
+  },
+  "Walland, Tennessee": {
+    "state": "47",
+    "place": "77700",
+    "population": "281"
+  },
+  "Walnut Hill, Tennessee": {
+    "state": "47",
+    "place": "77900",
+    "population": "2331"
+  },
+  "Walterhill, Tennessee": {
+    "state": "47",
+    "place": "77980",
+    "population": "407"
+  },
+  "Westpoint, Tennessee": {
+    "state": "47",
+    "place": "79500",
+    "population": "164"
+  },
+  "Whiteside, Tennessee": {
+    "state": "47",
+    "place": "80500",
+    "population": "274"
+  },
+  "Whitlock, Tennessee": {
+    "state": "47",
+    "place": "80580",
+    "population": "95"
+  },
+  "Wildersville, Tennessee": {
+    "state": "47",
+    "place": "80720",
+    "population": "161"
+  },
+  "Wildwood, Tennessee": {
+    "state": "47",
+    "place": "80740",
+    "population": "1157"
+  },
+  "Wildwood Lake, Tennessee": {
+    "state": "47",
+    "place": "80760",
+    "population": "3286"
+  },
+  "Wrigley, Tennessee": {
+    "state": "47",
+    "place": "82120",
+    "population": "257"
+  },
+  "Wynnburg, Tennessee": {
+    "state": "47",
+    "place": "82200",
+    "population": "91"
+  },
+  "Yuma, Tennessee": {
+    "state": "47",
+    "place": "82440",
+    "population": "103"
+  }
+}

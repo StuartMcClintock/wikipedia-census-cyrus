@@ -1,0 +1,242 @@
+{
+  "Angel Fire, New Mexico": {
+    "state": "35",
+    "place": "03400",
+    "population": "1192"
+  },
+  "Bosque Farms, New Mexico": {
+    "state": "35",
+    "place": "08580",
+    "population": "4020"
+  },
+  "Capitan, New Mexico": {
+    "state": "35",
+    "place": "11800",
+    "population": "1391"
+  },
+  "Causey, New Mexico": {
+    "state": "35",
+    "place": "12850",
+    "population": "68"
+  },
+  "Chama, New Mexico": {
+    "state": "35",
+    "place": "13970",
+    "population": "917"
+  },
+  "Cimarron, New Mexico": {
+    "state": "35",
+    "place": "15440",
+    "population": "792"
+  },
+  "Cloudcroft, New Mexico": {
+    "state": "35",
+    "place": "16280",
+    "population": "750"
+  },
+  "Columbus, New Mexico": {
+    "state": "35",
+    "place": "17050",
+    "population": "1442"
+  },
+  "Corona, New Mexico": {
+    "state": "35",
+    "place": "17680",
+    "population": "129"
+  },
+  "Corrales, New Mexico": {
+    "state": "35",
+    "place": "17960",
+    "population": "8493"
+  },
+  "Cuba, New Mexico": {
+    "state": "35",
+    "place": "19150",
+    "population": "628"
+  },
+  "Des Moines, New Mexico": {
+    "state": "35",
+    "place": "20480",
+    "population": "117"
+  },
+  "Dora, New Mexico": {
+    "state": "35",
+    "place": "21180",
+    "population": "117"
+  },
+  "Eagle Nest, New Mexico": {
+    "state": "35",
+    "place": "22020",
+    "population": "315"
+  },
+  "Encino, New Mexico": {
+    "state": "35",
+    "place": "24610",
+    "population": "51"
+  },
+  "Floyd, New Mexico": {
+    "state": "35",
+    "place": "26570",
+    "population": "86"
+  },
+  "Folsom, New Mexico": {
+    "state": "35",
+    "place": "26780",
+    "population": "51"
+  },
+  "Fort Sumner, New Mexico": {
+    "state": "35",
+    "place": "27340",
+    "population": "889"
+  },
+  "Grady, New Mexico": {
+    "state": "35",
+    "place": "30210",
+    "population": "86"
+  },
+  "Grenville, New Mexico": {
+    "state": "35",
+    "place": "30770",
+    "population": "22"
+  },
+  "Hatch, New Mexico": {
+    "state": "35",
+    "place": "31820",
+    "population": "1539"
+  },
+  "Hope, New Mexico": {
+    "state": "35",
+    "place": "33290",
+    "population": "113"
+  },
+  "House, New Mexico": {
+    "state": "35",
+    "place": "33710",
+    "population": "56"
+  },
+  "Jemez Springs, New Mexico": {
+    "state": "35",
+    "place": "35320",
+    "population": "198"
+  },
+  "Logan, New Mexico": {
+    "state": "35",
+    "place": "42040",
+    "population": "970"
+  },
+  "Los Lunas, New Mexico": {
+    "state": "35",
+    "place": "43370",
+    "population": "17242"
+  },
+  "Los Ranchos de Albuquerque, New Mexico": {
+    "state": "35",
+    "place": "43930",
+    "population": "5874"
+  },
+  "Loving, New Mexico": {
+    "state": "35",
+    "place": "44420",
+    "population": "1390"
+  },
+  "Magdalena, New Mexico": {
+    "state": "35",
+    "place": "46310",
+    "population": "806"
+  },
+  "Maxwell, New Mexico": {
+    "state": "35",
+    "place": "47080",
+    "population": "224"
+  },
+  "Melrose, New Mexico": {
+    "state": "35",
+    "place": "47570",
+    "population": "622"
+  },
+  "Milan, New Mexico": {
+    "state": "35",
+    "place": "48620",
+    "population": "2456"
+  },
+  "Mosquero, New Mexico": {
+    "state": "35",
+    "place": "50300",
+    "population": "98"
+  },
+  "Pecos, New Mexico": {
+    "state": "35",
+    "place": "55620",
+    "population": "1392"
+  },
+  "Questa, New Mexico": {
+    "state": "35",
+    "place": "60870",
+    "population": "1742"
+  },
+  "Reserve, New Mexico": {
+    "state": "35",
+    "place": "62620",
+    "population": "293"
+  },
+  "Roy, New Mexico": {
+    "state": "35",
+    "place": "65070",
+    "population": "193"
+  },
+  "Ruidoso, New Mexico": {
+    "state": "35",
+    "place": "65210",
+    "population": "7679"
+  },
+  "San Jon, New Mexico": {
+    "state": "35",
+    "place": "68150",
+    "population": "195"
+  },
+  "Santa Clara, New Mexico": {
+    "state": "35",
+    "place": "70270",
+    "population": "1637"
+  },
+  "San Ysidro, New Mexico": {
+    "state": "35",
+    "place": "71020",
+    "population": "166"
+  },
+  "Taos Ski Valley, New Mexico": {
+    "state": "35",
+    "place": "76480",
+    "population": "77"
+  },
+  "Tijeras, New Mexico": {
+    "state": "35",
+    "place": "77880",
+    "population": "465"
+  },
+  "Tularosa, New Mexico": {
+    "state": "35",
+    "place": "79980",
+    "population": "2553"
+  },
+  "Virden, New Mexico": {
+    "state": "35",
+    "place": "83200",
+    "population": "126"
+  },
+  "Wagon Mound, New Mexico": {
+    "state": "35",
+    "place": "83340",
+    "population": "266"
+  },
+  "Willard, New Mexico": {
+    "state": "35",
+    "place": "85160",
+    "population": "201"
+  },
+  "Williamsburg, New Mexico": {
+    "state": "35",
+    "place": "85300",
+    "population": "462"
+  }
+}

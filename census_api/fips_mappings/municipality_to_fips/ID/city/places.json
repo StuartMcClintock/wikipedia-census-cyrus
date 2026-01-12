@@ -1,0 +1,1007 @@
+{
+  "Aberdeen, Idaho": {
+    "state": "16",
+    "place": "00100",
+    "population": "1756"
+  },
+  "Acequia, Idaho": {
+    "state": "16",
+    "place": "00280",
+    "population": "131"
+  },
+  "Albion, Idaho": {
+    "state": "16",
+    "place": "01000",
+    "population": "234"
+  },
+  "American Falls, Idaho": {
+    "state": "16",
+    "place": "01900",
+    "population": "4568"
+  },
+  "Ammon, Idaho": {
+    "state": "16",
+    "place": "01990",
+    "population": "17694"
+  },
+  "Arco, Idaho": {
+    "state": "16",
+    "place": "03160",
+    "population": "879"
+  },
+  "Arimo, Idaho": {
+    "state": "16",
+    "place": "03340",
+    "population": "354"
+  },
+  "Ashton, Idaho": {
+    "state": "16",
+    "place": "03610",
+    "population": "949"
+  },
+  "Athol, Idaho": {
+    "state": "16",
+    "place": "03700",
+    "population": "709"
+  },
+  "Atomic City, Idaho": {
+    "state": "16",
+    "place": "03970",
+    "population": "41"
+  },
+  "Bancroft, Idaho": {
+    "state": "16",
+    "place": "04420",
+    "population": "299"
+  },
+  "Basalt, Idaho": {
+    "state": "16",
+    "place": "05230",
+    "population": "357"
+  },
+  "Bellevue, Idaho": {
+    "state": "16",
+    "place": "06220",
+    "population": "2560"
+  },
+  "Blackfoot, Idaho": {
+    "state": "16",
+    "place": "07840",
+    "population": "12346"
+  },
+  "Bliss, Idaho": {
+    "state": "16",
+    "place": "08470",
+    "population": "258"
+  },
+  "Bloomington, Idaho": {
+    "state": "16",
+    "place": "08560",
+    "population": "199"
+  },
+  "Boise City, Idaho": {
+    "state": "16",
+    "place": "08830",
+    "population": "235684"
+  },
+  "Bonners Ferry, Idaho": {
+    "state": "16",
+    "place": "09370",
+    "population": "2520"
+  },
+  "Bovill, Idaho": {
+    "state": "16",
+    "place": "09730",
+    "population": "191"
+  },
+  "Buhl, Idaho": {
+    "state": "16",
+    "place": "10810",
+    "population": "4558"
+  },
+  "Burley, Idaho": {
+    "state": "16",
+    "place": "11260",
+    "population": "11704"
+  },
+  "Butte City, Idaho": {
+    "state": "16",
+    "place": "11710",
+    "population": "78"
+  },
+  "Caldwell, Idaho": {
+    "state": "16",
+    "place": "12250",
+    "population": "59996"
+  },
+  "Cambridge, Idaho": {
+    "state": "16",
+    "place": "12520",
+    "population": "335"
+  },
+  "Carey, Idaho": {
+    "state": "16",
+    "place": "12790",
+    "population": "685"
+  },
+  "Cascade, Idaho": {
+    "state": "16",
+    "place": "13150",
+    "population": "1005"
+  },
+  "Castleford, Idaho": {
+    "state": "16",
+    "place": "13240",
+    "population": "215"
+  },
+  "Challis, Idaho": {
+    "state": "16",
+    "place": "13780",
+    "population": "902"
+  },
+  "Chubbuck, Idaho": {
+    "state": "16",
+    "place": "14680",
+    "population": "15570"
+  },
+  "Clark Fork, Idaho": {
+    "state": "16",
+    "place": "14950",
+    "population": "513"
+  },
+  "Clayton, Idaho": {
+    "state": "16",
+    "place": "15490",
+    "population": "10"
+  },
+  "Clifton, Idaho": {
+    "state": "16",
+    "place": "16120",
+    "population": "413"
+  },
+  "Coeur d'Alene, Idaho": {
+    "state": "16",
+    "place": "16750",
+    "population": "54628"
+  },
+  "Cottonwood, Idaho": {
+    "state": "16",
+    "place": "18640",
+    "population": "822"
+  },
+  "Council, Idaho": {
+    "state": "16",
+    "place": "18820",
+    "population": "867"
+  },
+  "Craigmont, Idaho": {
+    "state": "16",
+    "place": "19270",
+    "population": "458"
+  },
+  "Crouch, Idaho": {
+    "state": "16",
+    "place": "19720",
+    "population": "154"
+  },
+  "Culdesac, Idaho": {
+    "state": "16",
+    "place": "19900",
+    "population": "413"
+  },
+  "Dalton Gardens, Idaho": {
+    "state": "16",
+    "place": "20350",
+    "population": "2537"
+  },
+  "Deary, Idaho": {
+    "state": "16",
+    "place": "20890",
+    "population": "508"
+  },
+  "Declo, Idaho": {
+    "state": "16",
+    "place": "20980",
+    "population": "338"
+  },
+  "Dietrich, Idaho": {
+    "state": "16",
+    "place": "21790",
+    "population": "284"
+  },
+  "Donnelly, Idaho": {
+    "state": "16",
+    "place": "22330",
+    "population": "249"
+  },
+  "Dover, Idaho": {
+    "state": "16",
+    "place": "22510",
+    "population": "752"
+  },
+  "Downey, Idaho": {
+    "state": "16",
+    "place": "22600",
+    "population": "571"
+  },
+  "Driggs, Idaho": {
+    "state": "16",
+    "place": "22690",
+    "population": "1984"
+  },
+  "Drummond, Idaho": {
+    "state": "16",
+    "place": "22780",
+    "population": "13"
+  },
+  "Dubois, Idaho": {
+    "state": "16",
+    "place": "22960",
+    "population": "511"
+  },
+  "Eagle, Idaho": {
+    "state": "16",
+    "place": "23410",
+    "population": "30346"
+  },
+  "East Hope, Idaho": {
+    "state": "16",
+    "place": "23680",
+    "population": "229"
+  },
+  "Eden, Idaho": {
+    "state": "16",
+    "place": "24310",
+    "population": "393"
+  },
+  "Elk River, Idaho": {
+    "state": "16",
+    "place": "25120",
+    "population": "139"
+  },
+  "Emmett, Idaho": {
+    "state": "16",
+    "place": "25570",
+    "population": "7647"
+  },
+  "Fairfield, Idaho": {
+    "state": "16",
+    "place": "26290",
+    "population": "441"
+  },
+  "Ferdinand, Idaho": {
+    "state": "16",
+    "place": "27460",
+    "population": "133"
+  },
+  "Fernan Lake Village, Idaho": {
+    "state": "16",
+    "place": "27550",
+    "population": "164"
+  },
+  "Filer, Idaho": {
+    "state": "16",
+    "place": "27730",
+    "population": "2738"
+  },
+  "Firth, Idaho": {
+    "state": "16",
+    "place": "27910",
+    "population": "517"
+  },
+  "Franklin, Idaho": {
+    "state": "16",
+    "place": "28810",
+    "population": "1025"
+  },
+  "Fruitland, Idaho": {
+    "state": "16",
+    "place": "28990",
+    "population": "6072"
+  },
+  "Garden City, Idaho": {
+    "state": "16",
+    "place": "29620",
+    "population": "12316"
+  },
+  "Genesee, Idaho": {
+    "state": "16",
+    "place": "30160",
+    "population": "1030"
+  },
+  "Georgetown, Idaho": {
+    "state": "16",
+    "place": "30340",
+    "population": "503"
+  },
+  "Glenns Ferry, Idaho": {
+    "state": "16",
+    "place": "31690",
+    "population": "1282"
+  },
+  "Gooding, Idaho": {
+    "state": "16",
+    "place": "32140",
+    "population": "3707"
+  },
+  "Grace, Idaho": {
+    "state": "16",
+    "place": "32500",
+    "population": "920"
+  },
+  "Grand View, Idaho": {
+    "state": "16",
+    "place": "32770",
+    "population": "440"
+  },
+  "Grangeville, Idaho": {
+    "state": "16",
+    "place": "32950",
+    "population": "3308"
+  },
+  "Greenleaf, Idaho": {
+    "state": "16",
+    "place": "33490",
+    "population": "812"
+  },
+  "Hagerman, Idaho": {
+    "state": "16",
+    "place": "34300",
+    "population": "968"
+  },
+  "Hailey, Idaho": {
+    "state": "16",
+    "place": "34390",
+    "population": "9161"
+  },
+  "Hamer, Idaho": {
+    "state": "16",
+    "place": "34570",
+    "population": "83"
+  },
+  "Dayton, Idaho": {
+    "state": "16",
+    "place": "20710",
+    "population": "510"
+  },
+  "Hansen, Idaho": {
+    "state": "16",
+    "place": "34930",
+    "population": "1086"
+  },
+  "Harrison, Idaho": {
+    "state": "16",
+    "place": "35200",
+    "population": "233"
+  },
+  "Hauser, Idaho": {
+    "state": "16",
+    "place": "35830",
+    "population": "761"
+  },
+  "Hayden, Idaho": {
+    "state": "16",
+    "place": "36370",
+    "population": "15570"
+  },
+  "Hayden Lake, Idaho": {
+    "state": "16",
+    "place": "36460",
+    "population": "649"
+  },
+  "Hazelton, Idaho": {
+    "state": "16",
+    "place": "36730",
+    "population": "803"
+  },
+  "Heyburn, Idaho": {
+    "state": "16",
+    "place": "37360",
+    "population": "3700"
+  },
+  "Hollister, Idaho": {
+    "state": "16",
+    "place": "38080",
+    "population": "243"
+  },
+  "Homedale, Idaho": {
+    "state": "16",
+    "place": "38170",
+    "population": "2881"
+  },
+  "Hope, Idaho": {
+    "state": "16",
+    "place": "38440",
+    "population": "98"
+  },
+  "Horseshoe Bend, Idaho": {
+    "state": "16",
+    "place": "38620",
+    "population": "715"
+  },
+  "Huetter, Idaho": {
+    "state": "16",
+    "place": "39070",
+    "population": "104"
+  },
+  "Idaho City, Idaho": {
+    "state": "16",
+    "place": "39610",
+    "population": "466"
+  },
+  "Idaho Falls, Idaho": {
+    "state": "16",
+    "place": "39700",
+    "population": "64818"
+  },
+  "Inkom, Idaho": {
+    "state": "16",
+    "place": "40330",
+    "population": "792"
+  },
+  "Iona, Idaho": {
+    "state": "16",
+    "place": "40420",
+    "population": "2717"
+  },
+  "Irwin, Idaho": {
+    "state": "16",
+    "place": "40510",
+    "population": "259"
+  },
+  "Island Park, Idaho": {
+    "state": "16",
+    "place": "40600",
+    "population": "193"
+  },
+  "Jerome, Idaho": {
+    "state": "16",
+    "place": "41320",
+    "population": "12349"
+  },
+  "Juliaetta, Idaho": {
+    "state": "16",
+    "place": "42130",
+    "population": "624"
+  },
+  "Kamiah, Idaho": {
+    "state": "16",
+    "place": "42400",
+    "population": "1117"
+  },
+  "Kellogg, Idaho": {
+    "state": "16",
+    "place": "42580",
+    "population": "2314"
+  },
+  "Kendrick, Idaho": {
+    "state": "16",
+    "place": "42760",
+    "population": "288"
+  },
+  "Ketchum, Idaho": {
+    "state": "16",
+    "place": "43030",
+    "population": "3555"
+  },
+  "Kimberly, Idaho": {
+    "state": "16",
+    "place": "43570",
+    "population": "4626"
+  },
+  "Kooskia, Idaho": {
+    "state": "16",
+    "place": "44110",
+    "population": "514"
+  },
+  "Kootenai, Idaho": {
+    "state": "16",
+    "place": "44200",
+    "population": "941"
+  },
+  "Kuna, Idaho": {
+    "state": "16",
+    "place": "44290",
+    "population": "24011"
+  },
+  "Lapwai, Idaho": {
+    "state": "16",
+    "place": "45370",
+    "population": "1169"
+  },
+  "Lava Hot Springs, Idaho": {
+    "state": "16",
+    "place": "45820",
+    "population": "358"
+  },
+  "Leadore, Idaho": {
+    "state": "16",
+    "place": "45910",
+    "population": "98"
+  },
+  "Lewiston, Idaho": {
+    "state": "16",
+    "place": "46540",
+    "population": "34203"
+  },
+  "Lewisville, Idaho": {
+    "state": "16",
+    "place": "46720",
+    "population": "421"
+  },
+  "Lost River, Idaho": {
+    "state": "16",
+    "place": "47890",
+    "population": "42"
+  },
+  "McCall, Idaho": {
+    "state": "16",
+    "place": "48790",
+    "population": "3686"
+  },
+  "McCammon, Idaho": {
+    "state": "16",
+    "place": "48880",
+    "population": "825"
+  },
+  "Mackay, Idaho": {
+    "state": "16",
+    "place": "49240",
+    "population": "439"
+  },
+  "Malad City, Idaho": {
+    "state": "16",
+    "place": "50140",
+    "population": "2299"
+  },
+  "Malta, Idaho": {
+    "state": "16",
+    "place": "50230",
+    "population": "167"
+  },
+  "Marsing, Idaho": {
+    "state": "16",
+    "place": "50950",
+    "population": "1229"
+  },
+  "Melba, Idaho": {
+    "state": "16",
+    "place": "51850",
+    "population": "572"
+  },
+  "Menan, Idaho": {
+    "state": "16",
+    "place": "52030",
+    "population": "715"
+  },
+  "Meridian, Idaho": {
+    "state": "16",
+    "place": "52120",
+    "population": "117635"
+  },
+  "Middleton, Idaho": {
+    "state": "16",
+    "place": "52660",
+    "population": "9425"
+  },
+  "Midvale, Idaho": {
+    "state": "16",
+    "place": "52750",
+    "population": "193"
+  },
+  "Minidoka, Idaho": {
+    "state": "16",
+    "place": "53110",
+    "population": "86"
+  },
+  "Montpelier, Idaho": {
+    "state": "16",
+    "place": "53920",
+    "population": "2643"
+  },
+  "Moore, Idaho": {
+    "state": "16",
+    "place": "54100",
+    "population": "162"
+  },
+  "Moscow, Idaho": {
+    "state": "16",
+    "place": "54550",
+    "population": "25435"
+  },
+  "Mountain Home, Idaho": {
+    "state": "16",
+    "place": "54730",
+    "population": "15979"
+  },
+  "Moyie Springs, Idaho": {
+    "state": "16",
+    "place": "55270",
+    "population": "822"
+  },
+  "Mud Lake, Idaho": {
+    "state": "16",
+    "place": "55450",
+    "population": "321"
+  },
+  "Mullan, Idaho": {
+    "state": "16",
+    "place": "55630",
+    "population": "646"
+  },
+  "Murtaugh, Idaho": {
+    "state": "16",
+    "place": "55900",
+    "population": "114"
+  },
+  "Nampa, Idaho": {
+    "state": "16",
+    "place": "56260",
+    "population": "100200"
+  },
+  "Newdale, Idaho": {
+    "state": "16",
+    "place": "56800",
+    "population": "337"
+  },
+  "New Meadows, Idaho": {
+    "state": "16",
+    "place": "56890",
+    "population": "517"
+  },
+  "New Plymouth, Idaho": {
+    "state": "16",
+    "place": "56980",
+    "population": "1494"
+  },
+  "Nezperce, Idaho": {
+    "state": "16",
+    "place": "57250",
+    "population": "458"
+  },
+  "Notus, Idaho": {
+    "state": "16",
+    "place": "58060",
+    "population": "609"
+  },
+  "Oakley, Idaho": {
+    "state": "16",
+    "place": "58330",
+    "population": "786"
+  },
+  "Oldtown, Idaho": {
+    "state": "16",
+    "place": "58600",
+    "population": "221"
+  },
+  "Onaway, Idaho": {
+    "state": "16",
+    "place": "58870",
+    "population": "196"
+  },
+  "Orofino, Idaho": {
+    "state": "16",
+    "place": "59320",
+    "population": "2656"
+  },
+  "Osburn, Idaho": {
+    "state": "16",
+    "place": "59590",
+    "population": "1567"
+  },
+  "Oxford, Idaho": {
+    "state": "16",
+    "place": "60040",
+    "population": "42"
+  },
+  "Paris, Idaho": {
+    "state": "16",
+    "place": "60580",
+    "population": "541"
+  },
+  "Parker, Idaho": {
+    "state": "16",
+    "place": "60760",
+    "population": "302"
+  },
+  "Parma, Idaho": {
+    "state": "16",
+    "place": "60940",
+    "population": "2096"
+  },
+  "Paul, Idaho": {
+    "state": "16",
+    "place": "61210",
+    "population": "1195"
+  },
+  "Payette, Idaho": {
+    "state": "16",
+    "place": "61300",
+    "population": "8127"
+  },
+  "Peck, Idaho": {
+    "state": "16",
+    "place": "61840",
+    "population": "166"
+  },
+  "Pierce, Idaho": {
+    "state": "16",
+    "place": "62740",
+    "population": "467"
+  },
+  "Pinehurst, Idaho": {
+    "state": "16",
+    "place": "63100",
+    "population": "1679"
+  },
+  "Placerville, Idaho": {
+    "state": "16",
+    "place": "63550",
+    "population": "48"
+  },
+  "Plummer, Idaho": {
+    "state": "16",
+    "place": "63910",
+    "population": "1015"
+  },
+  "Pocatello, Idaho": {
+    "state": "16",
+    "place": "64090",
+    "population": "56320"
+  },
+  "Ponderay, Idaho": {
+    "state": "16",
+    "place": "64450",
+    "population": "1289"
+  },
+  "Post Falls, Idaho": {
+    "state": "16",
+    "place": "64810",
+    "population": "38485"
+  },
+  "Potlatch, Idaho": {
+    "state": "16",
+    "place": "64900",
+    "population": "763"
+  },
+  "Preston, Idaho": {
+    "state": "16",
+    "place": "65260",
+    "population": "5591"
+  },
+  "Priest River, Idaho": {
+    "state": "16",
+    "place": "65530",
+    "population": "1696"
+  },
+  "Rathdrum, Idaho": {
+    "state": "16",
+    "place": "66340",
+    "population": "9211"
+  },
+  "Reubens, Idaho": {
+    "state": "16",
+    "place": "67150",
+    "population": "46"
+  },
+  "Rexburg, Idaho": {
+    "state": "16",
+    "place": "67420",
+    "population": "39409"
+  },
+  "Richfield, Idaho": {
+    "state": "16",
+    "place": "67600",
+    "population": "431"
+  },
+  "Rigby, Idaho": {
+    "state": "16",
+    "place": "67780",
+    "population": "5038"
+  },
+  "Riggins, Idaho": {
+    "state": "16",
+    "place": "67870",
+    "population": "372"
+  },
+  "Ririe, Idaho": {
+    "state": "16",
+    "place": "67960",
+    "population": "667"
+  },
+  "Roberts, Idaho": {
+    "state": "16",
+    "place": "68500",
+    "population": "500"
+  },
+  "Rockland, Idaho": {
+    "state": "16",
+    "place": "69130",
+    "population": "242"
+  },
+  "Rupert, Idaho": {
+    "state": "16",
+    "place": "70660",
+    "population": "6082"
+  },
+  "St. Anthony, Idaho": {
+    "state": "16",
+    "place": "71020",
+    "population": "3606"
+  },
+  "St. Charles, Idaho": {
+    "state": "16",
+    "place": "71110",
+    "population": "161"
+  },
+  "St. Maries, Idaho": {
+    "state": "16",
+    "place": "71470",
+    "population": "2357"
+  },
+  "Salmon, Idaho": {
+    "state": "16",
+    "place": "71650",
+    "population": "3119"
+  },
+  "Sandpoint, Idaho": {
+    "state": "16",
+    "place": "72100",
+    "population": "8639"
+  },
+  "Shelley, Idaho": {
+    "state": "16",
+    "place": "73450",
+    "population": "4785"
+  },
+  "Shoshone, Idaho": {
+    "state": "16",
+    "place": "73900",
+    "population": "1653"
+  },
+  "Smelterville, Idaho": {
+    "state": "16",
+    "place": "75070",
+    "population": "670"
+  },
+  "Soda Springs, Idaho": {
+    "state": "16",
+    "place": "75195",
+    "population": "3133"
+  },
+  "Spencer, Idaho": {
+    "state": "16",
+    "place": "75970",
+    "population": "31"
+  },
+  "Spirit Lake, Idaho": {
+    "state": "16",
+    "place": "76060",
+    "population": "2337"
+  },
+  "Stanley, Idaho": {
+    "state": "16",
+    "place": "76780",
+    "population": "116"
+  },
+  "Star, Idaho": {
+    "state": "16",
+    "place": "76870",
+    "population": "11117"
+  },
+  "State Line, Idaho": {
+    "state": "16",
+    "place": "77050",
+    "population": "39"
+  },
+  "Stites, Idaho": {
+    "state": "16",
+    "place": "77500",
+    "population": "171"
+  },
+  "Sugar City, Idaho": {
+    "state": "16",
+    "place": "78040",
+    "population": "1715"
+  },
+  "Sun Valley, Idaho": {
+    "state": "16",
+    "place": "78850",
+    "population": "1783"
+  },
+  "Swan Valley, Idaho": {
+    "state": "16",
+    "place": "79120",
+    "population": "225"
+  },
+  "Tensed, Idaho": {
+    "state": "16",
+    "place": "80200",
+    "population": "84"
+  },
+  "Teton, Idaho": {
+    "state": "16",
+    "place": "80380",
+    "population": "787"
+  },
+  "Tetonia, Idaho": {
+    "state": "16",
+    "place": "80470",
+    "population": "308"
+  },
+  "Troy, Idaho": {
+    "state": "16",
+    "place": "82360",
+    "population": "890"
+  },
+  "Twin Falls, Idaho": {
+    "state": "16",
+    "place": "82810",
+    "population": "51807"
+  },
+  "Ucon, Idaho": {
+    "state": "16",
+    "place": "83350",
+    "population": "1160"
+  },
+  "Victor, Idaho": {
+    "state": "16",
+    "place": "84250",
+    "population": "2157"
+  },
+  "Wallace, Idaho": {
+    "state": "16",
+    "place": "84790",
+    "population": "791"
+  },
+  "Wardner, Idaho": {
+    "state": "16",
+    "place": "85240",
+    "population": "192"
+  },
+  "Warm River, Idaho": {
+    "state": "16",
+    "place": "85420",
+    "population": "4"
+  },
+  "Weippe, Idaho": {
+    "state": "16",
+    "place": "86050",
+    "population": "400"
+  },
+  "Weiser, Idaho": {
+    "state": "16",
+    "place": "86140",
+    "population": "5630"
+  },
+  "Wendell, Idaho": {
+    "state": "16",
+    "place": "86320",
+    "population": "2917"
+  },
+  "Weston, Idaho": {
+    "state": "16",
+    "place": "87040",
+    "population": "511"
+  },
+  "White Bird, Idaho": {
+    "state": "16",
+    "place": "87310",
+    "population": "83"
+  },
+  "Wilder, Idaho": {
+    "state": "16",
+    "place": "87670",
+    "population": "1597"
+  },
+  "Winchester, Idaho": {
+    "state": "16",
+    "place": "87850",
+    "population": "356"
+  },
+  "Worley, Idaho": {
+    "state": "16",
+    "place": "88480",
+    "population": "253"
+  }
+}

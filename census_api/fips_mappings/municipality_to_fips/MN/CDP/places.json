@@ -1,0 +1,302 @@
+{
+  "Soudan, Minnesota": {
+    "state": "27",
+    "place": "61204",
+    "population": "385"
+  },
+  "South End, Minnesota": {
+    "state": "27",
+    "place": "61340",
+    "population": "34"
+  },
+  "Stanchfield, Minnesota": {
+    "state": "27",
+    "place": "62356",
+    "population": "103"
+  },
+  "The Lakes, Minnesota": {
+    "state": "27",
+    "place": "64543",
+    "population": "590"
+  },
+  "The Ranch, Minnesota": {
+    "state": "27",
+    "place": "64547",
+    "population": "14"
+  },
+  "Twin Lakes, Minnesota": {
+    "state": "27",
+    "place": "65927",
+    "population": "192"
+  },
+  "Vineland, Minnesota": {
+    "state": "27",
+    "place": "67180",
+    "population": "869"
+  },
+  "Warsaw, Minnesota": {
+    "state": "27",
+    "place": "68260",
+    "population": "644"
+  },
+  "West Roy Lake, Minnesota": {
+    "state": "27",
+    "place": "69690",
+    "population": "56"
+  },
+  "Whipholt, Minnesota": {
+    "state": "27",
+    "place": "69880",
+    "population": "70"
+  },
+  "White Earth, Minnesota": {
+    "state": "27",
+    "place": "70006",
+    "population": "522"
+  },
+  "Angle Inlet, Minnesota": {
+    "state": "27",
+    "place": "01558",
+    "population": "54"
+  },
+  "Dresbach, Minnesota": {
+    "state": "27",
+    "place": "16390",
+    "population": "272"
+  },
+  "Ebro, Minnesota": {
+    "state": "27",
+    "place": "17882",
+    "population": "50"
+  },
+  "Elbow Lake, Minnesota": {
+    "state": "27",
+    "place": "18440",
+    "population": "118"
+  },
+  "Esko, Minnesota": {
+    "state": "27",
+    "place": "19718",
+    "population": "2082"
+  },
+  "Essig, Minnesota": {
+    "state": "27",
+    "place": "19754",
+    "population": "49"
+  },
+  "Baker, Minnesota": {
+    "state": "27",
+    "place": "03214",
+    "population": "45"
+  },
+  "Ball Club, Minnesota": {
+    "state": "27",
+    "place": "03376",
+    "population": "354"
+  },
+  "Beaulieu, Minnesota": {
+    "state": "27",
+    "place": "04348",
+    "population": "103"
+  },
+  "Big Lake, Minnesota": {
+    "state": "27",
+    "place": "05744",
+    "population": "464"
+  },
+  "Fairhaven, Minnesota": {
+    "state": "27",
+    "place": "20276",
+    "population": "392"
+  },
+  "Finland, Minnesota": {
+    "state": "27",
+    "place": "21104",
+    "population": "215"
+  },
+  "Fish Lake, Minnesota": {
+    "state": "27",
+    "place": "21196",
+    "population": "75"
+  },
+  "Frontenac, Minnesota": {
+    "state": "27",
+    "place": "22904",
+    "population": "249"
+  },
+  "Garden City, Minnesota": {
+    "state": "27",
+    "place": "23084",
+    "population": "339"
+  },
+  "Knife River, Minnesota": {
+    "state": "27",
+    "place": "33578",
+    "population": "212"
+  },
+  "Lake George, Minnesota": {
+    "state": "27",
+    "place": "34370",
+    "population": "233"
+  },
+  "Lansing, Minnesota": {
+    "state": "27",
+    "place": "35558",
+    "population": "132"
+  },
+  "Leota, Minnesota": {
+    "state": "27",
+    "place": "36548",
+    "population": "202"
+  },
+  "Little Rock, Minnesota": {
+    "state": "27",
+    "place": "37656",
+    "population": "1021"
+  },
+  "Goodland, Minnesota": {
+    "state": "27",
+    "place": "24434",
+    "population": "51"
+  },
+  "Lutsen, Minnesota": {
+    "state": "27",
+    "place": "38546",
+    "population": "220"
+  },
+  "Mahnomen, Minnesota": {
+    "state": "27",
+    "place": "39394",
+    "population": "231"
+  },
+  "Mahtowa, Minnesota": {
+    "state": "27",
+    "place": "39446",
+    "population": "332"
+  },
+  "Marion, Minnesota": {
+    "state": "27",
+    "place": "40598",
+    "population": "271"
+  },
+  "Martin Lake, Minnesota": {
+    "state": "27",
+    "place": "40814",
+    "population": "907"
+  },
+  "Merrifield, Minnesota": {
+    "state": "27",
+    "place": "41804",
+    "population": "140"
+  },
+  "Osage, Minnesota": {
+    "state": "27",
+    "place": "48760",
+    "population": "282"
+  },
+  "Pickwick, Minnesota": {
+    "state": "27",
+    "place": "50740",
+    "population": "157"
+  },
+  "Pine Bend, Minnesota": {
+    "state": "27",
+    "place": "51028",
+    "population": "31"
+  },
+  "Pine Point, Minnesota": {
+    "state": "27",
+    "place": "51234",
+    "population": "281"
+  },
+  "Crown College, Minnesota": {
+    "state": "27",
+    "place": "14054",
+    "population": "367"
+  },
+  "High Forest, Minnesota": {
+    "state": "27",
+    "place": "28862",
+    "population": "126"
+  },
+  "Homer, Minnesota": {
+    "state": "27",
+    "place": "30014",
+    "population": "189"
+  },
+  "Hubbard, Minnesota": {
+    "state": "27",
+    "place": "30320",
+    "population": "56"
+  },
+  "Inger, Minnesota": {
+    "state": "27",
+    "place": "30950",
+    "population": "200"
+  },
+  "Midway, Minnesota": {
+    "state": "27",
+    "place": "42010",
+    "population": "20"
+  },
+  "Naytahwaush, Minnesota": {
+    "state": "27",
+    "place": "45052",
+    "population": "504"
+  },
+  "Nett Lake, Minnesota": {
+    "state": "27",
+    "place": "45279",
+    "population": "230"
+  },
+  "Ponemah, Minnesota": {
+    "state": "27",
+    "place": "51892",
+    "population": "599"
+  },
+  "Redby, Minnesota": {
+    "state": "27",
+    "place": "53386",
+    "population": "1302"
+  },
+  "Red Lake, Minnesota": {
+    "state": "27",
+    "place": "53458",
+    "population": "1786"
+  },
+  "Rice Lake, Minnesota": {
+    "state": "27",
+    "place": "54056",
+    "population": "274"
+  },
+  "Riverland, Minnesota": {
+    "state": "27",
+    "place": "54596",
+    "population": "293"
+  },
+  "Ronneby, Minnesota": {
+    "state": "27",
+    "place": "55366",
+    "population": "71"
+  },
+  "Roy Lake, Minnesota": {
+    "state": "27",
+    "place": "56212",
+    "population": "30"
+  },
+  "St. John's University, Minnesota": {
+    "state": "27",
+    "place": "57094",
+    "population": "1585"
+  },
+  "Searles, Minnesota": {
+    "state": "27",
+    "place": "59116",
+    "population": "192"
+  },
+  "Silver Creek, Minnesota": {
+    "state": "27",
+    "place": "60322",
+    "population": "254"
+  }
+}

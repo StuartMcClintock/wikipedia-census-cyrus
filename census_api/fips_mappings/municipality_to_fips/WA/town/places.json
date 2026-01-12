@@ -1,0 +1,352 @@
+{
+  "Albion, Washington": {
+    "state": "53",
+    "place": "01010",
+    "population": "550"
+  },
+  "Almira, Washington": {
+    "state": "53",
+    "place": "01500",
+    "population": "318"
+  },
+  "Beaux Arts Village, Washington": {
+    "state": "53",
+    "place": "04895",
+    "population": "317"
+  },
+  "Bucoda, Washington": {
+    "state": "53",
+    "place": "08605",
+    "population": "600"
+  },
+  "Carbonado, Washington": {
+    "state": "53",
+    "place": "09970",
+    "population": "734"
+  },
+  "Cathlamet, Washington": {
+    "state": "53",
+    "place": "10635",
+    "population": "560"
+  },
+  "Colton, Washington": {
+    "state": "53",
+    "place": "13890",
+    "population": "401"
+  },
+  "Conconully, Washington": {
+    "state": "53",
+    "place": "14310",
+    "population": "193"
+  },
+  "Concrete, Washington": {
+    "state": "53",
+    "place": "14380",
+    "population": "801"
+  },
+  "Coulee City, Washington": {
+    "state": "53",
+    "place": "15080",
+    "population": "549"
+  },
+  "Coulee Dam, Washington": {
+    "state": "53",
+    "place": "15115",
+    "population": "1211"
+  },
+  "Coupeville, Washington": {
+    "state": "53",
+    "place": "15185",
+    "population": "1942"
+  },
+  "Cusick, Washington": {
+    "state": "53",
+    "place": "16340",
+    "population": "153"
+  },
+  "Darrington, Washington": {
+    "state": "53",
+    "place": "16690",
+    "population": "1462"
+  },
+  "Eatonville, Washington": {
+    "state": "53",
+    "place": "20260",
+    "population": "2845"
+  },
+  "Elmer City, Washington": {
+    "state": "53",
+    "place": "21485",
+    "population": "239"
+  },
+  "Endicott, Washington": {
+    "state": "53",
+    "place": "21730",
+    "population": "312"
+  },
+  "Creston, Washington": {
+    "state": "53",
+    "place": "15710",
+    "population": "213"
+  },
+  "Fairfield, Washington": {
+    "state": "53",
+    "place": "22990",
+    "population": "589"
+  },
+  "Farmington, Washington": {
+    "state": "53",
+    "place": "23340",
+    "population": "131"
+  },
+  "Friday Harbor, Washington": {
+    "state": "53",
+    "place": "25615",
+    "population": "2613"
+  },
+  "Garfield, Washington": {
+    "state": "53",
+    "place": "26140",
+    "population": "562"
+  },
+  "Hamilton, Washington": {
+    "state": "53",
+    "place": "29255",
+    "population": "299"
+  },
+  "Harrah, Washington": {
+    "state": "53",
+    "place": "29710",
+    "population": "585"
+  },
+  "Hartline, Washington": {
+    "state": "53",
+    "place": "29920",
+    "population": "180"
+  },
+  "Hatton, Washington": {
+    "state": "53",
+    "place": "30060",
+    "population": "79"
+  },
+  "Hunts Point, Washington": {
+    "state": "53",
+    "place": "32755",
+    "population": "457"
+  },
+  "Index, Washington": {
+    "state": "53",
+    "place": "33175",
+    "population": "155"
+  },
+  "Ione, Washington": {
+    "state": "53",
+    "place": "33560",
+    "population": "428"
+  },
+  "Krupp (Marlin), Washington": {
+    "state": "53",
+    "place": "36395",
+    "population": "49"
+  },
+  "La Conner, Washington": {
+    "state": "53",
+    "place": "36780",
+    "population": "965"
+  },
+  "LaCrosse, Washington": {
+    "state": "53",
+    "place": "36850",
+    "population": "297"
+  },
+  "Lamont, Washington": {
+    "state": "53",
+    "place": "38215",
+    "population": "79"
+  },
+  "Latah, Washington": {
+    "state": "53",
+    "place": "38495",
+    "population": "185"
+  },
+  "Lind, Washington": {
+    "state": "53",
+    "place": "39510",
+    "population": "535"
+  },
+  "Lyman, Washington": {
+    "state": "53",
+    "place": "40770",
+    "population": "423"
+  },
+  "Malden, Washington": {
+    "state": "53",
+    "place": "42275",
+    "population": "216"
+  },
+  "Mansfield, Washington": {
+    "state": "53",
+    "place": "42800",
+    "population": "326"
+  },
+  "Marcus, Washington": {
+    "state": "53",
+    "place": "43395",
+    "population": "216"
+  },
+  "Metaline, Washington": {
+    "state": "53",
+    "place": "45285",
+    "population": "162"
+  },
+  "Metaline Falls, Washington": {
+    "state": "53",
+    "place": "45320",
+    "population": "272"
+  },
+  "Naches, Washington": {
+    "state": "53",
+    "place": "47805",
+    "population": "1084"
+  },
+  "Nespelem, Washington": {
+    "state": "53",
+    "place": "48540",
+    "population": "180"
+  },
+  "Northport, Washington": {
+    "state": "53",
+    "place": "50045",
+    "population": "297"
+  },
+  "Oakesdale, Washington": {
+    "state": "53",
+    "place": "50325",
+    "population": "395"
+  },
+  "Odessa, Washington": {
+    "state": "53",
+    "place": "50745",
+    "population": "896"
+  },
+  "Pe Ell, Washington": {
+    "state": "53",
+    "place": "53930",
+    "population": "642"
+  },
+  "Reardan, Washington": {
+    "state": "53",
+    "place": "57465",
+    "population": "637"
+  },
+  "Riverside, Washington": {
+    "state": "53",
+    "place": "58795",
+    "population": "329"
+  },
+  "Rockford, Washington": {
+    "state": "53",
+    "place": "59145",
+    "population": "522"
+  },
+  "Rosalia, Washington": {
+    "state": "53",
+    "place": "59775",
+    "population": "598"
+  },
+  "Ruston, Washington": {
+    "state": "53",
+    "place": "60510",
+    "population": "1055"
+  },
+  "St. John, Washington": {
+    "state": "53",
+    "place": "60860",
+    "population": "599"
+  },
+  "Skykomish, Washington": {
+    "state": "53",
+    "place": "64855",
+    "population": "161"
+  },
+  "South Cle Elum, Washington": {
+    "state": "53",
+    "place": "65765",
+    "population": "559"
+  },
+  "South Prairie, Washington": {
+    "state": "53",
+    "place": "66045",
+    "population": "373"
+  },
+  "Springdale, Washington": {
+    "state": "53",
+    "place": "67210",
+    "population": "234"
+  },
+  "Starbuck, Washington": {
+    "state": "53",
+    "place": "67490",
+    "population": "119"
+  },
+  "Steilacoom, Washington": {
+    "state": "53",
+    "place": "67770",
+    "population": "6727"
+  },
+  "Twisp, Washington": {
+    "state": "53",
+    "place": "73080",
+    "population": "992"
+  },
+  "Uniontown, Washington": {
+    "state": "53",
+    "place": "73360",
+    "population": "389"
+  },
+  "Washtucna, Washington": {
+    "state": "53",
+    "place": "76440",
+    "population": "211"
+  },
+  "Waterville, Washington": {
+    "state": "53",
+    "place": "76510",
+    "population": "1134"
+  },
+  "Waverly, Washington": {
+    "state": "53",
+    "place": "76720",
+    "population": "121"
+  },
+  "Wilbur, Washington": {
+    "state": "53",
+    "place": "78680",
+    "population": "895"
+  },
+  "Wilkeson, Washington": {
+    "state": "53",
+    "place": "78925",
+    "population": "499"
+  },
+  "Wilson Creek, Washington": {
+    "state": "53",
+    "place": "79135",
+    "population": "204"
+  },
+  "Winthrop, Washington": {
+    "state": "53",
+    "place": "79380",
+    "population": "504"
+  },
+  "Yacolt, Washington": {
+    "state": "53",
+    "place": "79975",
+    "population": "1668"
+  },
+  "Yarrow Point, Washington": {
+    "state": "53",
+    "place": "80150",
+    "population": "1134"
+  }
+}

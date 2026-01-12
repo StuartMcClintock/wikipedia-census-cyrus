@@ -1,0 +1,387 @@
+{
+  "Albemarle, North Carolina": {
+    "state": "37",
+    "place": "00680",
+    "population": "16432"
+  },
+  "Archdale, North Carolina": {
+    "state": "37",
+    "place": "01720",
+    "population": "11907"
+  },
+  "Asheboro, North Carolina": {
+    "state": "37",
+    "place": "02080",
+    "population": "27156"
+  },
+  "Asheville, North Carolina": {
+    "state": "37",
+    "place": "02140",
+    "population": "94589"
+  },
+  "Belmont, North Carolina": {
+    "state": "37",
+    "place": "04840",
+    "population": "15010"
+  },
+  "Bessemer City, North Carolina": {
+    "state": "37",
+    "place": "05220",
+    "population": "5428"
+  },
+  "Boiling Spring Lakes, North Carolina": {
+    "state": "37",
+    "place": "06760",
+    "population": "5943"
+  },
+  "Brevard, North Carolina": {
+    "state": "37",
+    "place": "07720",
+    "population": "7744"
+  },
+  "Concord, North Carolina": {
+    "state": "37",
+    "place": "14100",
+    "population": "105240"
+  },
+  "Conover, North Carolina": {
+    "state": "37",
+    "place": "14340",
+    "population": "8421"
+  },
+  "Creedmoor, North Carolina": {
+    "state": "37",
+    "place": "15320",
+    "population": "4866"
+  },
+  "Dunn, North Carolina": {
+    "state": "37",
+    "place": "18320",
+    "population": "8446"
+  },
+  "Durham, North Carolina": {
+    "state": "37",
+    "place": "19000",
+    "population": "283506"
+  },
+  "Gastonia, North Carolina": {
+    "state": "37",
+    "place": "25580",
+    "population": "80411"
+  },
+  "Goldsboro, North Carolina": {
+    "state": "37",
+    "place": "26880",
+    "population": "33657"
+  },
+  "Graham, North Carolina": {
+    "state": "37",
+    "place": "27280",
+    "population": "17157"
+  },
+  "Greensboro, North Carolina": {
+    "state": "37",
+    "place": "28000",
+    "population": "299035"
+  },
+  "Greenville, North Carolina": {
+    "state": "37",
+    "place": "28080",
+    "population": "87521"
+  },
+  "Hamlet, North Carolina": {
+    "state": "37",
+    "place": "29160",
+    "population": "6025"
+  },
+  "Burlington, North Carolina": {
+    "state": "37",
+    "place": "09060",
+    "population": "57303"
+  },
+  "Charlotte, North Carolina": {
+    "state": "37",
+    "place": "12000",
+    "population": "874579"
+  },
+  "Cherryville, North Carolina": {
+    "state": "37",
+    "place": "12340",
+    "population": "6078"
+  },
+  "Claremont, North Carolina": {
+    "state": "37",
+    "place": "12720",
+    "population": "1692"
+  },
+  "Clinton, North Carolina": {
+    "state": "37",
+    "place": "13240",
+    "population": "8383"
+  },
+  "Elizabeth City, North Carolina": {
+    "state": "37",
+    "place": "20580",
+    "population": "18631"
+  },
+  "Fayetteville, North Carolina": {
+    "state": "37",
+    "place": "22920",
+    "population": "208501"
+  },
+  "Eden, North Carolina": {
+    "state": "37",
+    "place": "20080",
+    "population": "15421"
+  },
+  "Havelock, North Carolina": {
+    "state": "37",
+    "place": "30120",
+    "population": "16621"
+  },
+  "Henderson, North Carolina": {
+    "state": "37",
+    "place": "30660",
+    "population": "15060"
+  },
+  "Hendersonville, North Carolina": {
+    "state": "37",
+    "place": "30720",
+    "population": "15137"
+  },
+  "Hickory, North Carolina": {
+    "state": "37",
+    "place": "31060",
+    "population": "43490"
+  },
+  "High Point, North Carolina": {
+    "state": "37",
+    "place": "31400",
+    "population": "114059"
+  },
+  "High Shoals, North Carolina": {
+    "state": "37",
+    "place": "31440",
+    "population": "595"
+  },
+  "Jacksonville, North Carolina": {
+    "state": "37",
+    "place": "34200",
+    "population": "72723"
+  },
+  "Kannapolis, North Carolina": {
+    "state": "37",
+    "place": "35200",
+    "population": "53114"
+  },
+  "King, North Carolina": {
+    "state": "37",
+    "place": "35760",
+    "population": "7197"
+  },
+  "Kings Mountain, North Carolina": {
+    "state": "37",
+    "place": "35880",
+    "population": "11142"
+  },
+  "Kinston, North Carolina": {
+    "state": "37",
+    "place": "35920",
+    "population": "19900"
+  },
+  "Laurinburg, North Carolina": {
+    "state": "37",
+    "place": "37220",
+    "population": "14978"
+  },
+  "Lenoir, North Carolina": {
+    "state": "37",
+    "place": "37760",
+    "population": "18352"
+  },
+  "Lexington, North Carolina": {
+    "state": "37",
+    "place": "38060",
+    "population": "19632"
+  },
+  "Lincolnton, North Carolina": {
+    "state": "37",
+    "place": "38320",
+    "population": "11091"
+  },
+  "Locust, North Carolina": {
+    "state": "37",
+    "place": "38860",
+    "population": "4537"
+  },
+  "Lowell, North Carolina": {
+    "state": "37",
+    "place": "39480",
+    "population": "3654"
+  },
+  "Lumberton, North Carolina": {
+    "state": "37",
+    "place": "39700",
+    "population": "19025"
+  },
+  "Marion, North Carolina": {
+    "state": "37",
+    "place": "41420",
+    "population": "7717"
+  },
+  "Mebane, North Carolina": {
+    "state": "37",
+    "place": "42240",
+    "population": "17797"
+  },
+  "Monroe, North Carolina": {
+    "state": "37",
+    "place": "43920",
+    "population": "34562"
+  },
+  "Morganton, North Carolina": {
+    "state": "37",
+    "place": "44400",
+    "population": "17474"
+  },
+  "Mount Holly, North Carolina": {
+    "state": "37",
+    "place": "44960",
+    "population": "17703"
+  },
+  "New Bern, North Carolina": {
+    "state": "37",
+    "place": "46340",
+    "population": "31291"
+  },
+  "Newton, North Carolina": {
+    "state": "37",
+    "place": "47000",
+    "population": "13148"
+  },
+  "Northwest, North Carolina": {
+    "state": "37",
+    "place": "47860",
+    "population": "703"
+  },
+  "Mount Airy, North Carolina": {
+    "state": "37",
+    "place": "44800",
+    "population": "10676"
+  },
+  "Oxford, North Carolina": {
+    "state": "37",
+    "place": "49800",
+    "population": "8628"
+  },
+  "Roxboro, North Carolina": {
+    "state": "37",
+    "place": "58160",
+    "population": "8134"
+  },
+  "Salisbury, North Carolina": {
+    "state": "37",
+    "place": "58860",
+    "population": "35540"
+  },
+  "Saluda, North Carolina": {
+    "state": "37",
+    "place": "58920",
+    "population": "631"
+  },
+  "Sanford, North Carolina": {
+    "state": "37",
+    "place": "59280",
+    "population": "30261"
+  },
+  "Shelby, North Carolina": {
+    "state": "37",
+    "place": "61200",
+    "population": "21918"
+  },
+  "Polkville, North Carolina": {
+    "state": "37",
+    "place": "53160",
+    "population": "516"
+  },
+  "Raeford, North Carolina": {
+    "state": "37",
+    "place": "54580",
+    "population": "4559"
+  },
+  "Raleigh, North Carolina": {
+    "state": "37",
+    "place": "55000",
+    "population": "467665"
+  },
+  "Randleman, North Carolina": {
+    "state": "37",
+    "place": "55080",
+    "population": "4595"
+  },
+  "Reidsville, North Carolina": {
+    "state": "37",
+    "place": "55900",
+    "population": "14583"
+  },
+  "Roanoke Rapids, North Carolina": {
+    "state": "37",
+    "place": "56900",
+    "population": "15229"
+  },
+  "Rockingham, North Carolina": {
+    "state": "37",
+    "place": "57260",
+    "population": "9243"
+  },
+  "Rocky Mount, North Carolina": {
+    "state": "37",
+    "place": "57500",
+    "population": "54341"
+  },
+  "Southport, North Carolina": {
+    "state": "37",
+    "place": "63400",
+    "population": "3971"
+  },
+  "Statesville, North Carolina": {
+    "state": "37",
+    "place": "64740",
+    "population": "28419"
+  },
+  "Thomasville, North Carolina": {
+    "state": "37",
+    "place": "67420",
+    "population": "27183"
+  },
+  "Trinity, North Carolina": {
+    "state": "37",
+    "place": "68400",
+    "population": "7006"
+  },
+  "Washington, North Carolina": {
+    "state": "37",
+    "place": "71220",
+    "population": "9875"
+  },
+  "Whiteville, North Carolina": {
+    "state": "37",
+    "place": "73660",
+    "population": "4766"
+  },
+  "Wilmington, North Carolina": {
+    "state": "37",
+    "place": "74440",
+    "population": "115451"
+  },
+  "Wilson, North Carolina": {
+    "state": "37",
+    "place": "74540",
+    "population": "47851"
+  },
+  "Winston-Salem, North Carolina": {
+    "state": "37",
+    "place": "75000",
+    "population": "249545"
+  }
+}

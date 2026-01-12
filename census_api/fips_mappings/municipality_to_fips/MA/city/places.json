@@ -1,0 +1,292 @@
+{
+  "Agawam Town, Massachusetts": {
+    "state": "25",
+    "place": "00840",
+    "population": "28692"
+  },
+  "Amesbury Town, Massachusetts": {
+    "state": "25",
+    "place": "01260",
+    "population": "17366"
+  },
+  "Amherst Town, Massachusetts": {
+    "state": "25",
+    "place": "01370",
+    "population": "39263"
+  },
+  "Attleboro, Massachusetts": {
+    "state": "25",
+    "place": "02690",
+    "population": "46461"
+  },
+  "Barnstable Town, Massachusetts": {
+    "state": "25",
+    "place": "03690",
+    "population": "48916"
+  },
+  "Beverly, Massachusetts": {
+    "state": "25",
+    "place": "05595",
+    "population": "42670"
+  },
+  "Boston, Massachusetts": {
+    "state": "25",
+    "place": "07000",
+    "population": "675647"
+  },
+  "Braintree Town, Massachusetts": {
+    "state": "25",
+    "place": "07740",
+    "population": "39143"
+  },
+  "Bridgewater Town, Massachusetts": {
+    "state": "25",
+    "place": "08130",
+    "population": "28633"
+  },
+  "Brockton, Massachusetts": {
+    "state": "25",
+    "place": "09000",
+    "population": "105643"
+  },
+  "Cambridge, Massachusetts": {
+    "state": "25",
+    "place": "11000",
+    "population": "118403"
+  },
+  "Chelsea, Massachusetts": {
+    "state": "25",
+    "place": "13205",
+    "population": "40787"
+  },
+  "Chicopee, Massachusetts": {
+    "state": "25",
+    "place": "13660",
+    "population": "55560"
+  },
+  "Easthampton Town, Massachusetts": {
+    "state": "25",
+    "place": "19370",
+    "population": "16211"
+  },
+  "Everett, Massachusetts": {
+    "state": "25",
+    "place": "21990",
+    "population": "49075"
+  },
+  "Fall River, Massachusetts": {
+    "state": "25",
+    "place": "23000",
+    "population": "94000"
+  },
+  "Fitchburg, Massachusetts": {
+    "state": "25",
+    "place": "23875",
+    "population": "41946"
+  },
+  "Framingham, Massachusetts": {
+    "state": "25",
+    "place": "24960",
+    "population": "72362"
+  },
+  "Franklin Town, Massachusetts": {
+    "state": "25",
+    "place": "25172",
+    "population": "33261"
+  },
+  "Gardner, Massachusetts": {
+    "state": "25",
+    "place": "25485",
+    "population": "21287"
+  },
+  "Gloucester, Massachusetts": {
+    "state": "25",
+    "place": "26150",
+    "population": "29729"
+  },
+  "Greenfield, Massachusetts": {
+    "state": "25",
+    "place": "27060",
+    "population": "17768"
+  },
+  "Haverhill, Massachusetts": {
+    "state": "25",
+    "place": "29405",
+    "population": "67787"
+  },
+  "Holyoke, Massachusetts": {
+    "state": "25",
+    "place": "30840",
+    "population": "38238"
+  },
+  "Lawrence, Massachusetts": {
+    "state": "25",
+    "place": "34550",
+    "population": "89143"
+  },
+  "Leominster, Massachusetts": {
+    "state": "25",
+    "place": "35075",
+    "population": "43782"
+  },
+  "Lowell, Massachusetts": {
+    "state": "25",
+    "place": "37000",
+    "population": "115554"
+  },
+  "Lynn, Massachusetts": {
+    "state": "25",
+    "place": "37490",
+    "population": "101253"
+  },
+  "Malden, Massachusetts": {
+    "state": "25",
+    "place": "37875",
+    "population": "66263"
+  },
+  "Marlborough, Massachusetts": {
+    "state": "25",
+    "place": "38715",
+    "population": "41793"
+  },
+  "Medford, Massachusetts": {
+    "state": "25",
+    "place": "39835",
+    "population": "59659"
+  },
+  "Melrose, Massachusetts": {
+    "state": "25",
+    "place": "40115",
+    "population": "29817"
+  },
+  "Methuen Town, Massachusetts": {
+    "state": "25",
+    "place": "40710",
+    "population": "53059"
+  },
+  "New Bedford, Massachusetts": {
+    "state": "25",
+    "place": "45000",
+    "population": "101079"
+  },
+  "Newburyport, Massachusetts": {
+    "state": "25",
+    "place": "45245",
+    "population": "18289"
+  },
+  "Newton, Massachusetts": {
+    "state": "25",
+    "place": "45560",
+    "population": "88923"
+  },
+  "North Adams, Massachusetts": {
+    "state": "25",
+    "place": "46225",
+    "population": "12961"
+  },
+  "Northampton, Massachusetts": {
+    "state": "25",
+    "place": "46330",
+    "population": "29571"
+  },
+  "North Attleborough Town, Massachusetts": {
+    "state": "25",
+    "place": "46598",
+    "population": "30834"
+  },
+  "Palmer Town, Massachusetts": {
+    "state": "25",
+    "place": "52144",
+    "population": "12448"
+  },
+  "Peabody, Massachusetts": {
+    "state": "25",
+    "place": "52490",
+    "population": "54481"
+  },
+  "Pittsfield, Massachusetts": {
+    "state": "25",
+    "place": "53960",
+    "population": "43927"
+  },
+  "Quincy, Massachusetts": {
+    "state": "25",
+    "place": "55745",
+    "population": "101636"
+  },
+  "Randolph Town, Massachusetts": {
+    "state": "25",
+    "place": "56000",
+    "population": "34984"
+  },
+  "Revere, Massachusetts": {
+    "state": "25",
+    "place": "56585",
+    "population": "62186"
+  },
+  "Salem, Massachusetts": {
+    "state": "25",
+    "place": "59105",
+    "population": "44480"
+  },
+  "Somerville, Massachusetts": {
+    "state": "25",
+    "place": "62535",
+    "population": "81045"
+  },
+  "Southbridge Town, Massachusetts": {
+    "state": "25",
+    "place": "63345",
+    "population": "17740"
+  },
+  "Springfield, Massachusetts": {
+    "state": "25",
+    "place": "67000",
+    "population": "155929"
+  },
+  "Taunton, Massachusetts": {
+    "state": "25",
+    "place": "69170",
+    "population": "59408"
+  },
+  "Waltham, Massachusetts": {
+    "state": "25",
+    "place": "72600",
+    "population": "65218"
+  },
+  "Watertown Town, Massachusetts": {
+    "state": "25",
+    "place": "73440",
+    "population": "35329"
+  },
+  "Westfield, Massachusetts": {
+    "state": "25",
+    "place": "76030",
+    "population": "40834"
+  },
+  "West Springfield Town, Massachusetts": {
+    "state": "25",
+    "place": "77890",
+    "population": "28835"
+  },
+  "Weymouth Town, Massachusetts": {
+    "state": "25",
+    "place": "78972",
+    "population": "57437"
+  },
+  "Winthrop Town, Massachusetts": {
+    "state": "25",
+    "place": "81005",
+    "population": "19316"
+  },
+  "Woburn, Massachusetts": {
+    "state": "25",
+    "place": "81035",
+    "population": "40876"
+  },
+  "Worcester, Massachusetts": {
+    "state": "25",
+    "place": "82000",
+    "population": "206518"
+  }
+}

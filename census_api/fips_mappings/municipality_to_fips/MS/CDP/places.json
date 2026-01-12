@@ -1,0 +1,637 @@
+{
+  "Chalybeate, Mississippi": {
+    "state": "28",
+    "place": "12780",
+    "population": "170"
+  },
+  "Clara, Mississippi": {
+    "state": "28",
+    "place": "13700",
+    "population": "386"
+  },
+  "Cleary, Mississippi": {
+    "state": "28",
+    "place": "14140",
+    "population": "1688"
+  },
+  "Cloverdale, Mississippi": {
+    "state": "28",
+    "place": "14540",
+    "population": "557"
+  },
+  "Collinsville, Mississippi": {
+    "state": "28",
+    "place": "15180",
+    "population": "1984"
+  },
+  "Columbus AFB, Mississippi": {
+    "state": "28",
+    "place": "15420",
+    "population": "1604"
+  },
+  "Conehatta, Mississippi": {
+    "state": "28",
+    "place": "15540",
+    "population": "1376"
+  },
+  "Darling, Mississippi": {
+    "state": "28",
+    "place": "17700",
+    "population": "154"
+  },
+  "DeLisle, Mississippi": {
+    "state": "28",
+    "place": "18420",
+    "population": "1275"
+  },
+  "Delta City, Mississippi": {
+    "state": "28",
+    "place": "18500",
+    "population": "70"
+  },
+  "Dennis, Mississippi": {
+    "state": "28",
+    "place": "18700",
+    "population": "172"
+  },
+  "De Soto, Mississippi": {
+    "state": "28",
+    "place": "18980",
+    "population": "274"
+  },
+  "Dublin, Mississippi": {
+    "state": "28",
+    "place": "20220",
+    "population": "24"
+  },
+  "Dundee, Mississippi": {
+    "state": "28",
+    "place": "20420",
+    "population": "73"
+  },
+  "Eagle Bend, Mississippi": {
+    "state": "28",
+    "place": "20610",
+    "population": "296"
+  },
+  "Eastabuchie, Mississippi": {
+    "state": "28",
+    "place": "20740",
+    "population": "187"
+  },
+  "Elizabeth, Mississippi": {
+    "state": "28",
+    "place": "21860",
+    "population": "127"
+  },
+  "Elliott, Mississippi": {
+    "state": "28",
+    "place": "21940",
+    "population": "880"
+  },
+  "Escatawpa, Mississippi": {
+    "state": "28",
+    "place": "22900",
+    "population": "3254"
+  },
+  "Eudora, Mississippi": {
+    "state": "28",
+    "place": "23340",
+    "population": "386"
+  },
+  "Farrell, Mississippi": {
+    "state": "28",
+    "place": "24460",
+    "population": "200"
+  },
+  "Fernwood, Mississippi": {
+    "state": "28",
+    "place": "24740",
+    "population": "286"
+  },
+  "Foxworth, Mississippi": {
+    "state": "28",
+    "place": "25740",
+    "population": "523"
+  },
+  "Glen Allan, Mississippi": {
+    "state": "28",
+    "place": "27580",
+    "population": "298"
+  },
+  "Glendale, Mississippi": {
+    "state": "28",
+    "place": "27620",
+    "population": "1681"
+  },
+  "Gluckstadt, Mississippi": {
+    "state": "28",
+    "place": "27900",
+    "population": "3208"
+  },
+  "Grace, Mississippi": {
+    "state": "28",
+    "place": "28500",
+    "population": "77"
+  },
+  "Gulf Hills, Mississippi": {
+    "state": "28",
+    "place": "29620",
+    "population": "8526"
+  },
+  "Gulf Park Estates, Mississippi": {
+    "state": "28",
+    "place": "29660",
+    "population": "5972"
+  },
+  "Hamilton, Mississippi": {
+    "state": "28",
+    "place": "30220",
+    "population": "404"
+  },
+  "Harperville, Mississippi": {
+    "state": "28",
+    "place": "30780",
+    "population": "250"
+  },
+  "Helena, Mississippi": {
+    "state": "28",
+    "place": "31460",
+    "population": "983"
+  },
+  "Henderson Point, Mississippi": {
+    "state": "28",
+    "place": "31540",
+    "population": "232"
+  },
+  "Hermanville, Mississippi": {
+    "state": "28",
+    "place": "31740",
+    "population": "692"
+  },
+  "Hide-A-Way Lake, Mississippi": {
+    "state": "28",
+    "place": "32110",
+    "population": "2065"
+  },
+  "Hillsboro, Mississippi": {
+    "state": "28",
+    "place": "32460",
+    "population": "1072"
+  },
+  "Holcomb, Mississippi": {
+    "state": "28",
+    "place": "32820",
+    "population": "568"
+  },
+  "Hurley, Mississippi": {
+    "state": "28",
+    "place": "34340",
+    "population": "1557"
+  },
+  "Independence, Mississippi": {
+    "state": "28",
+    "place": "34700",
+    "population": "200"
+  },
+  "Jacinto, Mississippi": {
+    "state": "28",
+    "place": "35340",
+    "population": "52"
+  },
+  "Kearney Park, Mississippi": {
+    "state": "28",
+    "place": "37190",
+    "population": "1048"
+  },
+  "Kiln, Mississippi": {
+    "state": "28",
+    "place": "37600",
+    "population": "2224"
+  },
+  "Kirkville, Mississippi": {
+    "state": "28",
+    "place": "37840",
+    "population": "308"
+  },
+  "Kokomo, Mississippi": {
+    "state": "28",
+    "place": "38160",
+    "population": "150"
+  },
+  "Lakeview, Mississippi": {
+    "state": "28",
+    "place": "38910",
+    "population": "299"
+  },
+  "Lamar, Mississippi": {
+    "state": "28",
+    "place": "39000",
+    "population": "39"
+  },
+  "Latimer, Mississippi": {
+    "state": "28",
+    "place": "39520",
+    "population": "6720"
+  },
+  "Lauderdale, Mississippi": {
+    "state": "28",
+    "place": "39600",
+    "population": "395"
+  },
+  "Leaf, Mississippi": {
+    "state": "28",
+    "place": "39800",
+    "population": "62"
+  },
+  "Longview, Mississippi": {
+    "state": "28",
+    "place": "41960",
+    "population": "295"
+  },
+  "Lyman, Mississippi": {
+    "state": "28",
+    "place": "42800",
+    "population": "2372"
+  },
+  "Lynchburg, Mississippi": {
+    "state": "28",
+    "place": "42840",
+    "population": "2466"
+  },
+  "Meridian Station, Mississippi": {
+    "state": "28",
+    "place": "46680",
+    "population": "581"
+  },
+  "Mississippi State, Mississippi": {
+    "state": "28",
+    "place": "48030",
+    "population": "4968"
+  },
+  "Mississippi Valley State University, Mississippi": {
+    "state": "28",
+    "place": "48120",
+    "population": "805"
+  },
+  "Mooreville, Mississippi": {
+    "state": "28",
+    "place": "48720",
+    "population": "859"
+  },
+  "Morgantown, Mississippi": {
+    "state": "28",
+    "place": "48880",
+    "population": "1334"
+  },
+  "Moselle, Mississippi": {
+    "state": "28",
+    "place": "49160",
+    "population": "304"
+  },
+  "Mount Pleasant, Mississippi": {
+    "state": "28",
+    "place": "49640",
+    "population": "293"
+  },
+  "Nellieburg, Mississippi": {
+    "state": "28",
+    "place": "50720",
+    "population": "1316"
+  },
+  "New Hamilton, Mississippi": {
+    "state": "28",
+    "place": "51240",
+    "population": "533"
+  },
+  "New Hope, Mississippi": {
+    "state": "28",
+    "place": "51400",
+    "population": "3161"
+  },
+  "New Site, Mississippi": {
+    "state": "28",
+    "place": "51680",
+    "population": "122"
+  },
+  "Nicholson, Mississippi": {
+    "state": "28",
+    "place": "51840",
+    "population": "2833"
+  },
+  "Nitta Yuma, Mississippi": {
+    "state": "28",
+    "place": "51960",
+    "population": "8"
+  },
+  "North Tunica, Mississippi": {
+    "state": "28",
+    "place": "52680",
+    "population": "760"
+  },
+  "Oak Grove, Mississippi": {
+    "state": "28",
+    "place": "53080",
+    "population": "1758"
+  },
+  "Ovett, Mississippi": {
+    "state": "28",
+    "place": "54680",
+    "population": "183"
+  },
+  "Panther Burn, Mississippi": {
+    "state": "28",
+    "place": "55160",
+    "population": "115"
+  },
+  "Paris, Mississippi": {
+    "state": "28",
+    "place": "55280",
+    "population": "163"
+  },
+  "Pattison, Mississippi": {
+    "state": "28",
+    "place": "55560",
+    "population": "176"
+  },
+  "Pearlington, Mississippi": {
+    "state": "28",
+    "place": "55920",
+    "population": "1153"
+  },
+  "Pearl River, Mississippi": {
+    "state": "28",
+    "place": "55930",
+    "population": "3822"
+  },
+  "Pheba, Mississippi": {
+    "state": "28",
+    "place": "56920",
+    "population": "160"
+  },
+  "Pleasant Hill, Mississippi": {
+    "state": "28",
+    "place": "58600",
+    "population": "1863"
+  },
+  "Porterville, Mississippi": {
+    "state": "28",
+    "place": "59520",
+    "population": "34"
+  },
+  "Randolph, Mississippi": {
+    "state": "28",
+    "place": "60880",
+    "population": "197"
+  },
+  "Rawls Springs, Mississippi": {
+    "state": "28",
+    "place": "61080",
+    "population": "1202"
+  },
+  "Red Banks, Mississippi": {
+    "state": "28",
+    "place": "61240",
+    "population": "215"
+  },
+  "Redwater, Mississippi": {
+    "state": "28",
+    "place": "61400",
+    "population": "683"
+  },
+  "Redwood, Mississippi": {
+    "state": "28",
+    "place": "61440",
+    "population": "84"
+  },
+  "Rena Lara, Mississippi": {
+    "state": "28",
+    "place": "61840",
+    "population": "123"
+  },
+  "Robinhood, Mississippi": {
+    "state": "28",
+    "place": "62900",
+    "population": "1491"
+  },
+  "Runnelstown, Mississippi": {
+    "state": "28",
+    "place": "64240",
+    "population": "320"
+  },
+  "St. Martin, Mississippi": {
+    "state": "28",
+    "place": "64680",
+    "population": "7811"
+  },
+  "Saucier, Mississippi": {
+    "state": "28",
+    "place": "65720",
+    "population": "1077"
+  },
+  "Scott, Mississippi": {
+    "state": "28",
+    "place": "66240",
+    "population": "90"
+  },
+  "Sharon, Mississippi": {
+    "state": "28",
+    "place": "66840",
+    "population": "1344"
+  },
+  "Skene, Mississippi": {
+    "state": "28",
+    "place": "68200",
+    "population": "210"
+  },
+  "Standing Pine, Mississippi": {
+    "state": "28",
+    "place": "70120",
+    "population": "517"
+  },
+  "Stewart, Mississippi": {
+    "state": "28",
+    "place": "70640",
+    "population": "99"
+  },
+  "Stoneville, Mississippi": {
+    "state": "28",
+    "place": "70720",
+    "population": "39"
+  },
+  "Strayhorn, Mississippi": {
+    "state": "28",
+    "place": "71040",
+    "population": "284"
+  },
+  "Symonds, Mississippi": {
+    "state": "28",
+    "place": "72080",
+    "population": "72"
+  },
+  "Toomsuba, Mississippi": {
+    "state": "28",
+    "place": "73880",
+    "population": "778"
+  },
+  "Tucker, Mississippi": {
+    "state": "28",
+    "place": "74675",
+    "population": "642"
+  },
+  "Tula, Mississippi": {
+    "state": "28",
+    "place": "74720",
+    "population": "197"
+  },
+  "Tunica Resorts, Mississippi": {
+    "state": "28",
+    "place": "74820",
+    "population": "2132"
+  },
+  "University, Mississippi": {
+    "state": "28",
+    "place": "75520",
+    "population": "4696"
+  },
+  "Valley Park, Mississippi": {
+    "state": "28",
+    "place": "76040",
+    "population": "71"
+  },
+  "Vancleave, Mississippi": {
+    "state": "28",
+    "place": "76200",
+    "population": "5592"
+  },
+  "Van Vleet, Mississippi": {
+    "state": "28",
+    "place": "76240",
+    "population": "95"
+  },
+  "Victoria, Mississippi": {
+    "state": "28",
+    "place": "76760",
+    "population": "1066"
+  },
+  "Wade, Mississippi": {
+    "state": "28",
+    "place": "77080",
+    "population": "996"
+  },
+  "Waterford, Mississippi": {
+    "state": "28",
+    "place": "77880",
+    "population": "112"
+  },
+  "West Hattiesburg, Mississippi": {
+    "state": "28",
+    "place": "78890",
+    "population": "6006"
+  },
+  "Wheeler, Mississippi": {
+    "state": "28",
+    "place": "79280",
+    "population": "274"
+  },
+  "White Oak, Mississippi": {
+    "state": "28",
+    "place": "79620",
+    "population": "595"
+  },
+  "Winterville, Mississippi": {
+    "state": "28",
+    "place": "80840",
+    "population": "96"
+  },
+  "Agricola, Mississippi": {
+    "state": "28",
+    "place": "00460",
+    "population": "346"
+  },
+  "Alcorn State University, Mississippi": {
+    "state": "28",
+    "place": "00680",
+    "population": "1120"
+  },
+  "Arkabutla, Mississippi": {
+    "state": "28",
+    "place": "01940",
+    "population": "285"
+  },
+  "Arnold Line, Mississippi": {
+    "state": "28",
+    "place": "02060",
+    "population": "2333"
+  },
+  "Austin, Mississippi": {
+    "state": "28",
+    "place": "02380",
+    "population": "51"
+  },
+  "Baxterville, Mississippi": {
+    "state": "28",
+    "place": "03940",
+    "population": "267"
+  },
+  "Beechwood, Mississippi": {
+    "state": "28",
+    "place": "04705",
+    "population": "3469"
+  },
+  "Benndale, Mississippi": {
+    "state": "28",
+    "place": "05180",
+    "population": "65"
+  },
+  "Benton, Mississippi": {
+    "state": "28",
+    "place": "05340",
+    "population": "415"
+  },
+  "Bethlehem, Mississippi": {
+    "state": "28",
+    "place": "05780",
+    "population": "319"
+  },
+  "Biggersville, Mississippi": {
+    "state": "28",
+    "place": "06100",
+    "population": "205"
+  },
+  "Big Point, Mississippi": {
+    "state": "28",
+    "place": "06180",
+    "population": "618"
+  },
+  "Bobo, Mississippi": {
+    "state": "28",
+    "place": "07220",
+    "population": "118"
+  },
+  "Bolivar, Mississippi": {
+    "state": "28",
+    "place": "07460",
+    "population": "39"
+  },
+  "Bond, Mississippi": {
+    "state": "28",
+    "place": "07620",
+    "population": "506"
+  },
+  "Bovina, Mississippi": {
+    "state": "28",
+    "place": "07900",
+    "population": "516"
+  },
+  "Bridgetown, Mississippi": {
+    "state": "28",
+    "place": "08655",
+    "population": "2281"
+  },
+  "Buckatunna, Mississippi": {
+    "state": "28",
+    "place": "09380",
+    "population": "383"
+  }
+}

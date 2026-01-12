@@ -1,0 +1,807 @@
+{
+  "Adamsville, Tennessee": {
+    "state": "47",
+    "place": "00240",
+    "population": "2265"
+  },
+  "Alamo, Tennessee": {
+    "state": "47",
+    "place": "00440",
+    "population": "2336"
+  },
+  "Alexandria, Tennessee": {
+    "state": "47",
+    "place": "00620",
+    "population": "981"
+  },
+  "Altamont, Tennessee": {
+    "state": "47",
+    "place": "00940",
+    "population": "1117"
+  },
+  "Arlington, Tennessee": {
+    "state": "47",
+    "place": "01740",
+    "population": "14549"
+  },
+  "Ashland City, Tennessee": {
+    "state": "47",
+    "place": "02180",
+    "population": "5193"
+  },
+  "Atoka, Tennessee": {
+    "state": "47",
+    "place": "02340",
+    "population": "10008"
+  },
+  "Atwood, Tennessee": {
+    "state": "47",
+    "place": "02380",
+    "population": "940"
+  },
+  "Auburntown, Tennessee": {
+    "state": "47",
+    "place": "02400",
+    "population": "272"
+  },
+  "Baileyton, Tennessee": {
+    "state": "47",
+    "place": "02780",
+    "population": "436"
+  },
+  "Baxter, Tennessee": {
+    "state": "47",
+    "place": "03680",
+    "population": "1578"
+  },
+  "Beersheba Springs, Tennessee": {
+    "state": "47",
+    "place": "04240",
+    "population": "434"
+  },
+  "Bell Buckle, Tennessee": {
+    "state": "47",
+    "place": "04460",
+    "population": "410"
+  },
+  "Benton, Tennessee": {
+    "state": "47",
+    "place": "05040",
+    "population": "1523"
+  },
+  "Bethel Springs, Tennessee": {
+    "state": "47",
+    "place": "05380",
+    "population": "742"
+  },
+  "Big Sandy, Tennessee": {
+    "state": "47",
+    "place": "05860",
+    "population": "486"
+  },
+  "Braden, Tennessee": {
+    "state": "47",
+    "place": "07840",
+    "population": "255"
+  },
+  "Bradford, Tennessee": {
+    "state": "47",
+    "place": "07860",
+    "population": "1001"
+  },
+  "Brighton, Tennessee": {
+    "state": "47",
+    "place": "08500",
+    "population": "2888"
+  },
+  "Bruceton, Tennessee": {
+    "state": "47",
+    "place": "08960",
+    "population": "1507"
+  },
+  "Bulls Gap, Tennessee": {
+    "state": "47",
+    "place": "09560",
+    "population": "756"
+  },
+  "Burlison, Tennessee": {
+    "state": "47",
+    "place": "09860",
+    "population": "367"
+  },
+  "Burns, Tennessee": {
+    "state": "47",
+    "place": "09880",
+    "population": "1573"
+  },
+  "Byrdstown, Tennessee": {
+    "state": "47",
+    "place": "10180",
+    "population": "798"
+  },
+  "Calhoun, Tennessee": {
+    "state": "47",
+    "place": "10440",
+    "population": "536"
+  },
+  "Carthage, Tennessee": {
+    "state": "47",
+    "place": "11280",
+    "population": "2291"
+  },
+  "Caryville, Tennessee": {
+    "state": "47",
+    "place": "11360",
+    "population": "2212"
+  },
+  "Centertown, Tennessee": {
+    "state": "47",
+    "place": "12380",
+    "population": "297"
+  },
+  "Centerville, Tennessee": {
+    "state": "47",
+    "place": "12420",
+    "population": "3532"
+  },
+  "Chapel Hill, Tennessee": {
+    "state": "47",
+    "place": "12880",
+    "population": "1717"
+  },
+  "Charlotte, Tennessee": {
+    "state": "47",
+    "place": "13080",
+    "population": "1656"
+  },
+  "Clarksburg, Tennessee": {
+    "state": "47",
+    "place": "15140",
+    "population": "379"
+  },
+  "Collierville, Tennessee": {
+    "state": "47",
+    "place": "16420",
+    "population": "51324"
+  },
+  "Coopertown, Tennessee": {
+    "state": "47",
+    "place": "16980",
+    "population": "4480"
+  },
+  "Cornersville, Tennessee": {
+    "state": "47",
+    "place": "17180",
+    "population": "1228"
+  },
+  "Cottage Grove, Tennessee": {
+    "state": "47",
+    "place": "17340",
+    "population": "66"
+  },
+  "Cumberland City, Tennessee": {
+    "state": "47",
+    "place": "18820",
+    "population": "305"
+  },
+  "Cumberland Gap, Tennessee": {
+    "state": "47",
+    "place": "18880",
+    "population": "313"
+  },
+  "Dandridge, Tennessee": {
+    "state": "47",
+    "place": "19380",
+    "population": "3344"
+  },
+  "Decatur, Tennessee": {
+    "state": "47",
+    "place": "19880",
+    "population": "1563"
+  },
+  "Decaturville, Tennessee": {
+    "state": "47",
+    "place": "19900",
+    "population": "807"
+  },
+  "Dowelltown, Tennessee": {
+    "state": "47",
+    "place": "21420",
+    "population": "342"
+  },
+  "Doyle, Tennessee": {
+    "state": "47",
+    "place": "21500",
+    "population": "493"
+  },
+  "Dresden, Tennessee": {
+    "state": "47",
+    "place": "21540",
+    "population": "3019"
+  },
+  "Eastview, Tennessee": {
+    "state": "47",
+    "place": "22920",
+    "population": "763"
+  },
+  "Englewood, Tennessee": {
+    "state": "47",
+    "place": "24040",
+    "population": "1483"
+  },
+  "Enville, Tennessee": {
+    "state": "47",
+    "place": "24240",
+    "population": "188"
+  },
+  "Erwin, Tennessee": {
+    "state": "47",
+    "place": "24360",
+    "population": "6083"
+  },
+  "Estill Springs, Tennessee": {
+    "state": "47",
+    "place": "24440",
+    "population": "2267"
+  },
+  "Ethridge, Tennessee": {
+    "state": "47",
+    "place": "24460",
+    "population": "537"
+  },
+  "Farragut, Tennessee": {
+    "state": "47",
+    "place": "25760",
+    "population": "23506"
+  },
+  "Gadsden, Tennessee": {
+    "state": "47",
+    "place": "28380",
+    "population": "469"
+  },
+  "Gainesboro, Tennessee": {
+    "state": "47",
+    "place": "28420",
+    "population": "920"
+  },
+  "Garland, Tennessee": {
+    "state": "47",
+    "place": "28680",
+    "population": "289"
+  },
+  "Gates, Tennessee": {
+    "state": "47",
+    "place": "28740",
+    "population": "664"
+  },
+  "Gibson, Tennessee": {
+    "state": "47",
+    "place": "29020",
+    "population": "366"
+  },
+  "Gleason, Tennessee": {
+    "state": "47",
+    "place": "29300",
+    "population": "1369"
+  },
+  "Gordonsville, Tennessee": {
+    "state": "47",
+    "place": "30120",
+    "population": "1363"
+  },
+  "Graysville, Tennessee": {
+    "state": "47",
+    "place": "30760",
+    "population": "1471"
+  },
+  "Greenbrier, Tennessee": {
+    "state": "47",
+    "place": "30960",
+    "population": "6898"
+  },
+  "Greeneville, Tennessee": {
+    "state": "47",
+    "place": "30980",
+    "population": "15479"
+  },
+  "Guys, Tennessee": {
+    "state": "47",
+    "place": "31680",
+    "population": "414"
+  },
+  "Halls, Tennessee": {
+    "state": "47",
+    "place": "31820",
+    "population": "2091"
+  },
+  "Henning, Tennessee": {
+    "state": "47",
+    "place": "33360",
+    "population": "871"
+  },
+  "Henry, Tennessee": {
+    "state": "47",
+    "place": "33400",
+    "population": "446"
+  },
+  "Hickory Valley, Tennessee": {
+    "state": "47",
+    "place": "33920",
+    "population": "78"
+  },
+  "Hollow Rock, Tennessee": {
+    "state": "47",
+    "place": "35280",
+    "population": "683"
+  },
+  "Hornbeak, Tennessee": {
+    "state": "47",
+    "place": "36000",
+    "population": "511"
+  },
+  "Hornsby, Tennessee": {
+    "state": "47",
+    "place": "36080",
+    "population": "264"
+  },
+  "Huntingdon, Tennessee": {
+    "state": "47",
+    "place": "36580",
+    "population": "4439"
+  },
+  "Huntland, Tennessee": {
+    "state": "47",
+    "place": "36600",
+    "population": "886"
+  },
+  "Huntsville, Tennessee": {
+    "state": "47",
+    "place": "36640",
+    "population": "1270"
+  },
+  "Jacksboro, Tennessee": {
+    "state": "47",
+    "place": "37600",
+    "population": "2306"
+  },
+  "Jasper, Tennessee": {
+    "state": "47",
+    "place": "37820",
+    "population": "3612"
+  },
+  "Jonesborough, Tennessee": {
+    "state": "47",
+    "place": "38540",
+    "population": "5860"
+  },
+  "Kenton, Tennessee": {
+    "state": "47",
+    "place": "39140",
+    "population": "1205"
+  },
+  "Kimball, Tennessee": {
+    "state": "47",
+    "place": "39400",
+    "population": "1545"
+  },
+  "Kingston Springs, Tennessee": {
+    "state": "47",
+    "place": "39660",
+    "population": "2824"
+  },
+  "La Grange, Tennessee": {
+    "state": "47",
+    "place": "40200",
+    "population": "123"
+  },
+  "Liberty, Tennessee": {
+    "state": "47",
+    "place": "42040",
+    "population": "334"
+  },
+  "Linden, Tennessee": {
+    "state": "47",
+    "place": "42720",
+    "population": "997"
+  },
+  "Livingston, Tennessee": {
+    "state": "47",
+    "place": "43140",
+    "population": "3905"
+  },
+  "Lookout Mountain, Tennessee": {
+    "state": "47",
+    "place": "43640",
+    "population": "2058"
+  },
+  "Luttrell, Tennessee": {
+    "state": "47",
+    "place": "44300",
+    "population": "1017"
+  },
+  "Lynnville, Tennessee": {
+    "state": "47",
+    "place": "44420",
+    "population": "292"
+  },
+  "McLemoresville, Tennessee": {
+    "state": "47",
+    "place": "45000",
+    "population": "288"
+  },
+  "Mason, Tennessee": {
+    "state": "47",
+    "place": "46420",
+    "population": "1337"
+  },
+  "Maury City, Tennessee": {
+    "state": "47",
+    "place": "46540",
+    "population": "583"
+  },
+  "Michie, Tennessee": {
+    "state": "47",
+    "place": "48180",
+    "population": "679"
+  },
+  "Milledgeville, Tennessee": {
+    "state": "47",
+    "place": "48920",
+    "population": "271"
+  },
+  "Monteagle, Tennessee": {
+    "state": "47",
+    "place": "49740",
+    "population": "1393"
+  },
+  "Monterey, Tennessee": {
+    "state": "47",
+    "place": "49760",
+    "population": "2746"
+  },
+  "Morrison, Tennessee": {
+    "state": "47",
+    "place": "50220",
+    "population": "733"
+  },
+  "Mosheim, Tennessee": {
+    "state": "47",
+    "place": "50320",
+    "population": "2479"
+  },
+  "Mountain City, Tennessee": {
+    "state": "47",
+    "place": "50400",
+    "population": "2415"
+  },
+  "Mount Carmel, Tennessee": {
+    "state": "47",
+    "place": "50580",
+    "population": "5473"
+  },
+  "Newbern, Tennessee": {
+    "state": "47",
+    "place": "52400",
+    "population": "3349"
+  },
+  "New Market, Tennessee": {
+    "state": "47",
+    "place": "52940",
+    "population": "1349"
+  },
+  "New Tazewell, Tennessee": {
+    "state": "47",
+    "place": "53140",
+    "population": "2769"
+  },
+  "Nolensville, Tennessee": {
+    "state": "47",
+    "place": "53460",
+    "population": "13829"
+  },
+  "Normandy, Tennessee": {
+    "state": "47",
+    "place": "53580",
+    "population": "108"
+  },
+  "Oakdale, Tennessee": {
+    "state": "47",
+    "place": "54280",
+    "population": "191"
+  },
+  "Oakland, Tennessee": {
+    "state": "47",
+    "place": "54920",
+    "population": "8936"
+  },
+  "Obion, Tennessee": {
+    "state": "47",
+    "place": "55240",
+    "population": "991"
+  },
+  "Oliver Springs, Tennessee": {
+    "state": "47",
+    "place": "55800",
+    "population": "3297"
+  },
+  "Oneida, Tennessee": {
+    "state": "47",
+    "place": "55860",
+    "population": "3787"
+  },
+  "Orme, Tennessee": {
+    "state": "47",
+    "place": "56040",
+    "population": "87"
+  },
+  "Palmer, Tennessee": {
+    "state": "47",
+    "place": "56560",
+    "population": "551"
+  },
+  "Parrottsville, Tennessee": {
+    "state": "47",
+    "place": "57040",
+    "population": "217"
+  },
+  "Pegram, Tennessee": {
+    "state": "47",
+    "place": "57480",
+    "population": "2072"
+  },
+  "Petersburg, Tennessee": {
+    "state": "47",
+    "place": "57740",
+    "population": "528"
+  },
+  "Pittman Center, Tennessee": {
+    "state": "47",
+    "place": "58940",
+    "population": "454"
+  },
+  "Pleasant Hill, Tennessee": {
+    "state": "47",
+    "place": "59240",
+    "population": "540"
+  },
+  "Powells Crossroads, Tennessee": {
+    "state": "47",
+    "place": "60500",
+    "population": "1296"
+  },
+  "Ridgely, Tennessee": {
+    "state": "47",
+    "place": "63060",
+    "population": "1690"
+  },
+  "Rives, Tennessee": {
+    "state": "47",
+    "place": "63800",
+    "population": "246"
+  },
+  "Rogersville, Tennessee": {
+    "state": "47",
+    "place": "64820",
+    "population": "4671"
+  },
+  "Rossville, Tennessee": {
+    "state": "47",
+    "place": "65240",
+    "population": "1041"
+  },
+  "Rutherford, Tennessee": {
+    "state": "47",
+    "place": "65760",
+    "population": "1163"
+  },
+  "Rutledge, Tennessee": {
+    "state": "47",
+    "place": "65820",
+    "population": "1321"
+  },
+  "Saltillo, Tennessee": {
+    "state": "47",
+    "place": "66340",
+    "population": "420"
+  },
+  "Samburg, Tennessee": {
+    "state": "47",
+    "place": "66360",
+    "population": "210"
+  },
+  "Sardis, Tennessee": {
+    "state": "47",
+    "place": "66660",
+    "population": "414"
+  },
+  "Saulsbury, Tennessee": {
+    "state": "47",
+    "place": "66680",
+    "population": "112"
+  },
+  "Scotts Hill, Tennessee": {
+    "state": "47",
+    "place": "66880",
+    "population": "877"
+  },
+  "Selmer, Tennessee": {
+    "state": "47",
+    "place": "66940",
+    "population": "4446"
+  },
+  "Sharon, Tennessee": {
+    "state": "47",
+    "place": "67540",
+    "population": "935"
+  },
+  "Signal Mountain, Tennessee": {
+    "state": "47",
+    "place": "68540",
+    "population": "8852"
+  },
+  "Silerton, Tennessee": {
+    "state": "47",
+    "place": "68560",
+    "population": "97"
+  },
+  "Slayden, Tennessee": {
+    "state": "47",
+    "place": "69080",
+    "population": "170"
+  },
+  "Smyrna, Tennessee": {
+    "state": "47",
+    "place": "69420",
+    "population": "53070"
+  },
+  "Sneedville, Tennessee": {
+    "state": "47",
+    "place": "69460",
+    "population": "1282"
+  },
+  "Somerville, Tennessee": {
+    "state": "47",
+    "place": "69620",
+    "population": "3415"
+  },
+  "South Carthage, Tennessee": {
+    "state": "47",
+    "place": "69680",
+    "population": "1490"
+  },
+  "Spencer, Tennessee": {
+    "state": "47",
+    "place": "70240",
+    "population": "1462"
+  },
+  "Spring City, Tennessee": {
+    "state": "47",
+    "place": "70400",
+    "population": "1949"
+  },
+  "Stanton, Tennessee": {
+    "state": "47",
+    "place": "70820",
+    "population": "417"
+  },
+  "Stantonville, Tennessee": {
+    "state": "47",
+    "place": "70840",
+    "population": "335"
+  },
+  "Surgoinsville, Tennessee": {
+    "state": "47",
+    "place": "72380",
+    "population": "1882"
+  },
+  "Tazewell, Tennessee": {
+    "state": "47",
+    "place": "73120",
+    "population": "2348"
+  },
+  "Tennessee Ridge, Tennessee": {
+    "state": "47",
+    "place": "73460",
+    "population": "1332"
+  },
+  "Thompson's Station, Tennessee": {
+    "state": "47",
+    "place": "73900",
+    "population": "7485"
+  },
+  "Tiptonville, Tennessee": {
+    "state": "47",
+    "place": "74540",
+    "population": "3976"
+  },
+  "Toone, Tennessee": {
+    "state": "47",
+    "place": "74640",
+    "population": "270"
+  },
+  "Tracy City, Tennessee": {
+    "state": "47",
+    "place": "74880",
+    "population": "1406"
+  },
+  "Trezevant, Tennessee": {
+    "state": "47",
+    "place": "75100",
+    "population": "799"
+  },
+  "Trimble, Tennessee": {
+    "state": "47",
+    "place": "75160",
+    "population": "547"
+  },
+  "Troy, Tennessee": {
+    "state": "47",
+    "place": "75240",
+    "population": "1423"
+  },
+  "Unicoi, Tennessee": {
+    "state": "47",
+    "place": "75820",
+    "population": "3833"
+  },
+  "Vanleer, Tennessee": {
+    "state": "47",
+    "place": "76860",
+    "population": "374"
+  },
+  "Viola, Tennessee": {
+    "state": "47",
+    "place": "77400",
+    "population": "93"
+  },
+  "Vonore, Tennessee": {
+    "state": "47",
+    "place": "77480",
+    "population": "1574"
+  },
+  "Walden, Tennessee": {
+    "state": "47",
+    "place": "77540",
+    "population": "1981"
+  },
+  "Wartrace, Tennessee": {
+    "state": "47",
+    "place": "78120",
+    "population": "653"
+  },
+  "Westmoreland, Tennessee": {
+    "state": "47",
+    "place": "79420",
+    "population": "2718"
+  },
+  "White Bluff, Tennessee": {
+    "state": "47",
+    "place": "79980",
+    "population": "3862"
+  },
+  "White Pine, Tennessee": {
+    "state": "47",
+    "place": "80360",
+    "population": "2471"
+  },
+  "Whiteville, Tennessee": {
+    "state": "47",
+    "place": "80540",
+    "population": "2606"
+  },
+  "Tellico Plains, Tennessee": {
+    "state": "47",
+    "place": "73260",
+    "population": "762"
+  },
+  "Winfield, Tennessee": {
+    "state": "47",
+    "place": "81280",
+    "population": "947"
+  },
+  "Woodbury, Tennessee": {
+    "state": "47",
+    "place": "81560",
+    "population": "2703"
+  }
+}

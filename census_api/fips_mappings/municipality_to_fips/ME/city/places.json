@@ -1,0 +1,117 @@
+{
+  "Lewiston, Maine": {
+    "state": "23",
+    "place": "38740",
+    "population": "37121"
+  },
+  "Old Town, Maine": {
+    "state": "23",
+    "place": "55225",
+    "population": "7431"
+  },
+  "Portland, Maine": {
+    "state": "23",
+    "place": "60545",
+    "population": "68408"
+  },
+  "Presque Isle, Maine": {
+    "state": "23",
+    "place": "60825",
+    "population": "8797"
+  },
+  "Rockland, Maine": {
+    "state": "23",
+    "place": "63590",
+    "population": "6936"
+  },
+  "Saco, Maine": {
+    "state": "23",
+    "place": "64675",
+    "population": "20381"
+  },
+  "Sanford, Maine": {
+    "state": "23",
+    "place": "65725",
+    "population": "21982"
+  },
+  "South Portland, Maine": {
+    "state": "23",
+    "place": "71990",
+    "population": "26498"
+  },
+  "Waterville, Maine": {
+    "state": "23",
+    "place": "80740",
+    "population": "15828"
+  },
+  "Westbrook, Maine": {
+    "state": "23",
+    "place": "82105",
+    "population": "20400"
+  },
+  "Auburn, Maine": {
+    "state": "23",
+    "place": "02060",
+    "population": "24061"
+  },
+  "Augusta, Maine": {
+    "state": "23",
+    "place": "02100",
+    "population": "18899"
+  },
+  "Bangor, Maine": {
+    "state": "23",
+    "place": "02795",
+    "population": "31753"
+  },
+  "Bath, Maine": {
+    "state": "23",
+    "place": "03355",
+    "population": "8766"
+  },
+  "Belfast, Maine": {
+    "state": "23",
+    "place": "03950",
+    "population": "6938"
+  },
+  "Biddeford, Maine": {
+    "state": "23",
+    "place": "04860",
+    "population": "22552"
+  },
+  "Brewer, Maine": {
+    "state": "23",
+    "place": "06925",
+    "population": "9672"
+  },
+  "Calais, Maine": {
+    "state": "23",
+    "place": "09585",
+    "population": "3079"
+  },
+  "Caribou, Maine": {
+    "state": "23",
+    "place": "10565",
+    "population": "7396"
+  },
+  "Eastport, Maine": {
+    "state": "23",
+    "place": "21730",
+    "population": "1288"
+  },
+  "Ellsworth, Maine": {
+    "state": "23",
+    "place": "23200",
+    "population": "8399"
+  },
+  "Gardiner, Maine": {
+    "state": "23",
+    "place": "27085",
+    "population": "5961"
+  },
+  "Hallowell, Maine": {
+    "state": "23",
+    "place": "30550",
+    "population": "2570"
+  }
+}

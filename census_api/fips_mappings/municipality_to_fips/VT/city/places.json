@@ -1,0 +1,47 @@
+{
+  "Barre, Vermont": {
+    "state": "50",
+    "place": "03175",
+    "population": "8491"
+  },
+  "Burlington, Vermont": {
+    "state": "50",
+    "place": "10675",
+    "population": "44743"
+  },
+  "Montpelier, Vermont": {
+    "state": "50",
+    "place": "46000",
+    "population": "8074"
+  },
+  "Newport, Vermont": {
+    "state": "50",
+    "place": "48850",
+    "population": "4455"
+  },
+  "Rutland, Vermont": {
+    "state": "50",
+    "place": "61225",
+    "population": "15807"
+  },
+  "St. Albans, Vermont": {
+    "state": "50",
+    "place": "61675",
+    "population": "6877"
+  },
+  "South Burlington, Vermont": {
+    "state": "50",
+    "place": "66175",
+    "population": "20292"
+  },
+  "Vergennes, Vermont": {
+    "state": "50",
+    "place": "74650",
+    "population": "2553"
+  },
+  "Winooski, Vermont": {
+    "state": "50",
+    "place": "85150",
+    "population": "7997"
+  }
+}

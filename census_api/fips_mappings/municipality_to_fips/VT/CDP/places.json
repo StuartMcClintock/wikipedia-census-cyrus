@@ -1,0 +1,692 @@
+{
+  "Algiers, Vermont": {
+    "state": "50",
+    "place": "01035",
+    "population": "186"
+  },
+  "Arlington, Vermont": {
+    "state": "50",
+    "place": "01375",
+    "population": "1249"
+  },
+  "Ascutney, Vermont": {
+    "state": "50",
+    "place": "01750",
+    "population": "529"
+  },
+  "Bakersfield, Vermont": {
+    "state": "50",
+    "place": "02425",
+    "population": "347"
+  },
+  "Barnet, Vermont": {
+    "state": "50",
+    "place": "02800",
+    "population": "127"
+  },
+  "Beecher Falls, Vermont": {
+    "state": "50",
+    "place": "04150",
+    "population": "139"
+  },
+  "Bennington, Vermont": {
+    "state": "50",
+    "place": "04750",
+    "population": "8795"
+  },
+  "Benson, Vermont": {
+    "state": "50",
+    "place": "05125",
+    "population": "269"
+  },
+  "Bethel, Vermont": {
+    "state": "50",
+    "place": "05725",
+    "population": "670"
+  },
+  "Bolton, Vermont": {
+    "state": "50",
+    "place": "06475",
+    "population": "23"
+  },
+  "Bolton Valley, Vermont": {
+    "state": "50",
+    "place": "06700",
+    "population": "295"
+  },
+  "Bradford, Vermont": {
+    "state": "50",
+    "place": "07225",
+    "population": "907"
+  },
+  "Brandon, Vermont": {
+    "state": "50",
+    "place": "07675",
+    "population": "1727"
+  },
+  "Brattleboro, Vermont": {
+    "state": "50",
+    "place": "07975",
+    "population": "7352"
+  },
+  "Bristol, Vermont": {
+    "state": "50",
+    "place": "08950",
+    "population": "1936"
+  },
+  "Cabot, Vermont": {
+    "state": "50",
+    "place": "11050",
+    "population": "235"
+  },
+  "Canaan, Vermont": {
+    "state": "50",
+    "place": "11725",
+    "population": "393"
+  },
+  "Castleton, Vermont": {
+    "state": "50",
+    "place": "11875",
+    "population": "1337"
+  },
+  "Castleton Four Corners, Vermont": {
+    "state": "50",
+    "place": "12062",
+    "population": "699"
+  },
+  "Cavendish, Vermont": {
+    "state": "50",
+    "place": "12175",
+    "population": "246"
+  },
+  "Chelsea, Vermont": {
+    "state": "50",
+    "place": "13450",
+    "population": "342"
+  },
+  "Chester, Vermont": {
+    "state": "50",
+    "place": "13600",
+    "population": "1132"
+  },
+  "Chimney Hill, Vermont": {
+    "state": "50",
+    "place": "13860",
+    "population": "263"
+  },
+  "Chittenden, Vermont": {
+    "state": "50",
+    "place": "14275",
+    "population": "136"
+  },
+  "Concord, Vermont": {
+    "state": "50",
+    "place": "15175",
+    "population": "213"
+  },
+  "Coventry, Vermont": {
+    "state": "50",
+    "place": "16075",
+    "population": "111"
+  },
+  "Danby, Vermont": {
+    "state": "50",
+    "place": "16750",
+    "population": "200"
+  },
+  "Danville, Vermont": {
+    "state": "50",
+    "place": "17050",
+    "population": "385"
+  },
+  "Dorset, Vermont": {
+    "state": "50",
+    "place": "17650",
+    "population": "360"
+  },
+  "East Barre, Vermont": {
+    "state": "50",
+    "place": "19075",
+    "population": "811"
+  },
+  "East Burke, Vermont": {
+    "state": "50",
+    "place": "19600",
+    "population": "94"
+  },
+  "East Charlotte, Vermont": {
+    "state": "50",
+    "place": "19975",
+    "population": "169"
+  },
+  "East Dorset, Vermont": {
+    "state": "50",
+    "place": "20350",
+    "population": "296"
+  },
+  "East Middlebury, Vermont": {
+    "state": "50",
+    "place": "21700",
+    "population": "426"
+  },
+  "East Montpelier, Vermont": {
+    "state": "50",
+    "place": "21850",
+    "population": "107"
+  },
+  "East Poultney, Vermont": {
+    "state": "50",
+    "place": "22300",
+    "population": "288"
+  },
+  "Fairfax, Vermont": {
+    "state": "50",
+    "place": "24850",
+    "population": "865"
+  },
+  "Fair Haven, Vermont": {
+    "state": "50",
+    "place": "25450",
+    "population": "2225"
+  },
+  "Fairlee, Vermont": {
+    "state": "50",
+    "place": "25600",
+    "population": "198"
+  },
+  "Gilman, Vermont": {
+    "state": "50",
+    "place": "27925",
+    "population": "238"
+  },
+  "Glover, Vermont": {
+    "state": "50",
+    "place": "28000",
+    "population": "256"
+  },
+  "Grafton, Vermont": {
+    "state": "50",
+    "place": "28825",
+    "population": "49"
+  },
+  "Graniteville, Vermont": {
+    "state": "50",
+    "place": "29425",
+    "population": "717"
+  },
+  "Greensboro, Vermont": {
+    "state": "50",
+    "place": "30100",
+    "population": "156"
+  },
+  "Greensboro Bend, Vermont": {
+    "state": "50",
+    "place": "30325",
+    "population": "237"
+  },
+  "Groton, Vermont": {
+    "state": "50",
+    "place": "30475",
+    "population": "419"
+  },
+  "Hanksville, Vermont": {
+    "state": "50",
+    "place": "31600",
+    "population": "62"
+  },
+  "Hardwick, Vermont": {
+    "state": "50",
+    "place": "31750",
+    "population": "1269"
+  },
+  "Harmonyville, Vermont": {
+    "state": "50",
+    "place": "32050",
+    "population": "92"
+  },
+  "Hartford Village, Vermont": {
+    "state": "50",
+    "place": "32205",
+    "population": "754"
+  },
+  "Hartland, Vermont": {
+    "state": "50",
+    "place": "32350",
+    "population": "379"
+  },
+  "Highgate Center, Vermont": {
+    "state": "50",
+    "place": "33175",
+    "population": "361"
+  },
+  "Highgate Springs, Vermont": {
+    "state": "50",
+    "place": "33325",
+    "population": "77"
+  },
+  "Hinesburg, Vermont": {
+    "state": "50",
+    "place": "33400",
+    "population": "872"
+  },
+  "Huntington, Vermont": {
+    "state": "50",
+    "place": "34525",
+    "population": "535"
+  },
+  "Huntington Center, Vermont": {
+    "state": "50",
+    "place": "34675",
+    "population": "156"
+  },
+  "Irasburg, Vermont": {
+    "state": "50",
+    "place": "35500",
+    "population": "159"
+  },
+  "Island Pond, Vermont": {
+    "state": "50",
+    "place": "35725",
+    "population": "750"
+  },
+  "Jamaica, Vermont": {
+    "state": "50",
+    "place": "36100",
+    "population": "174"
+  },
+  "Killington Village, Vermont": {
+    "state": "50",
+    "place": "37750",
+    "population": "861"
+  },
+  "Lincoln, Vermont": {
+    "state": "50",
+    "place": "40000",
+    "population": "266"
+  },
+  "Londonderry, Vermont": {
+    "state": "50",
+    "place": "40150",
+    "population": "180"
+  },
+  "Lowell, Vermont": {
+    "state": "50",
+    "place": "40450",
+    "population": "254"
+  },
+  "Lunenburg, Vermont": {
+    "state": "50",
+    "place": "41350",
+    "population": "234"
+  },
+  "Lyndon, Vermont": {
+    "state": "50",
+    "place": "41650",
+    "population": "203"
+  },
+  "Lyndon Center, Vermont": {
+    "state": "50",
+    "place": "41800",
+    "population": "187"
+  },
+  "Manchester Center, Vermont": {
+    "state": "50",
+    "place": "42925",
+    "population": "2145"
+  },
+  "Middlebury, Vermont": {
+    "state": "50",
+    "place": "44275",
+    "population": "7304"
+  },
+  "Middletown Springs, Vermont": {
+    "state": "50",
+    "place": "44725",
+    "population": "194"
+  },
+  "Milton, Vermont": {
+    "state": "50",
+    "place": "45175",
+    "population": "3804"
+  },
+  "New Haven, Vermont": {
+    "state": "50",
+    "place": "48550",
+    "population": "245"
+  },
+  "Newport Center, Vermont": {
+    "state": "50",
+    "place": "49000",
+    "population": "231"
+  },
+  "North Clarendon, Vermont": {
+    "state": "50",
+    "place": "49450",
+    "population": "395"
+  },
+  "Northfield, Vermont": {
+    "state": "50",
+    "place": "50200",
+    "population": "3757"
+  },
+  "North Hartland, Vermont": {
+    "state": "50",
+    "place": "50500",
+    "population": "321"
+  },
+  "North Hyde Park, Vermont": {
+    "state": "50",
+    "place": "50725",
+    "population": "403"
+  },
+  "North Pownal, Vermont": {
+    "state": "50",
+    "place": "51325",
+    "population": "303"
+  },
+  "North Springfield, Vermont": {
+    "state": "50",
+    "place": "51925",
+    "population": "694"
+  },
+  "North Westminster, Vermont": {
+    "state": "50",
+    "place": "52375",
+    "population": "262"
+  },
+  "Norwich, Vermont": {
+    "state": "50",
+    "place": "52825",
+    "population": "905"
+  },
+  "Pawlet, Vermont": {
+    "state": "50",
+    "place": "54175",
+    "population": "194"
+  },
+  "Peacham, Vermont": {
+    "state": "50",
+    "place": "54325",
+    "population": "147"
+  },
+  "Pittsford, Vermont": {
+    "state": "50",
+    "place": "55525",
+    "population": "805"
+  },
+  "Plainfield, Vermont": {
+    "state": "50",
+    "place": "55750",
+    "population": "424"
+  },
+  "Pownal, Vermont": {
+    "state": "50",
+    "place": "56950",
+    "population": "548"
+  },
+  "Pownal Center, Vermont": {
+    "state": "50",
+    "place": "57100",
+    "population": "437"
+  },
+  "Proctor, Vermont": {
+    "state": "50",
+    "place": "57246",
+    "population": "1565"
+  },
+  "Proctorsville, Vermont": {
+    "state": "50",
+    "place": "57400",
+    "population": "451"
+  },
+  "Putney, Vermont": {
+    "state": "50",
+    "place": "57625",
+    "population": "571"
+  },
+  "Quechee, Vermont": {
+    "state": "50",
+    "place": "57775",
+    "population": "831"
+  },
+  "Randolph, Vermont": {
+    "state": "50",
+    "place": "58000",
+    "population": "2083"
+  },
+  "Readsboro, Vermont": {
+    "state": "50",
+    "place": "58525",
+    "population": "297"
+  },
+  "Richford, Vermont": {
+    "state": "50",
+    "place": "59050",
+    "population": "1304"
+  },
+  "Richmond, Vermont": {
+    "state": "50",
+    "place": "59200",
+    "population": "853"
+  },
+  "Rochester, Vermont": {
+    "state": "50",
+    "place": "60025",
+    "population": "321"
+  },
+  "St. George, Vermont": {
+    "state": "50",
+    "place": "62046",
+    "population": "498"
+  },
+  "St. Johnsbury, Vermont": {
+    "state": "50",
+    "place": "62125",
+    "population": "5994"
+  },
+  "Sheffield, Vermont": {
+    "state": "50",
+    "place": "64000",
+    "population": "186"
+  },
+  "Shelburne, Vermont": {
+    "state": "50",
+    "place": "64225",
+    "population": "6178"
+  },
+  "South Barre, Vermont": {
+    "state": "50",
+    "place": "66025",
+    "population": "1193"
+  },
+  "South Hero, Vermont": {
+    "state": "50",
+    "place": "66925",
+    "population": "225"
+  },
+  "South Lincoln, Vermont": {
+    "state": "50",
+    "place": "67150",
+    "population": "251"
+  },
+  "South Londonderry, Vermont": {
+    "state": "50",
+    "place": "67225",
+    "population": "147"
+  },
+  "South Royalton, Vermont": {
+    "state": "50",
+    "place": "68050",
+    "population": "654"
+  },
+  "South Shaftsbury, Vermont": {
+    "state": "50",
+    "place": "68200",
+    "population": "681"
+  },
+  "South Woodstock, Vermont": {
+    "state": "50",
+    "place": "69250",
+    "population": "109"
+  },
+  "Springfield, Vermont": {
+    "state": "50",
+    "place": "69475",
+    "population": "4189"
+  },
+  "Stamford, Vermont": {
+    "state": "50",
+    "place": "69700",
+    "population": "467"
+  },
+  "Stowe, Vermont": {
+    "state": "50",
+    "place": "70450",
+    "population": "616"
+  },
+  "Stratton Mountain, Vermont": {
+    "state": "50",
+    "place": "70825",
+    "population": "335"
+  },
+  "Sutton, Vermont": {
+    "state": "50",
+    "place": "71500",
+    "population": "153"
+  },
+  "Townshend, Vermont": {
+    "state": "50",
+    "place": "73225",
+    "population": "199"
+  },
+  "Troy, Vermont": {
+    "state": "50",
+    "place": "73450",
+    "population": "261"
+  },
+  "Underhill Center, Vermont": {
+    "state": "50",
+    "place": "74050",
+    "population": "142"
+  },
+  "Underhill Flats, Vermont": {
+    "state": "50",
+    "place": "74125",
+    "population": "643"
+  },
+  "Waitsfield, Vermont": {
+    "state": "50",
+    "place": "75250",
+    "population": "330"
+  },
+  "Wallingford, Vermont": {
+    "state": "50",
+    "place": "75850",
+    "population": "818"
+  },
+  "Wardsboro, Vermont": {
+    "state": "50",
+    "place": "76150",
+    "population": "70"
+  },
+  "Waterbury, Vermont": {
+    "state": "50",
+    "place": "76900",
+    "population": "1897"
+  },
+  "Waterbury Center, Vermont": {
+    "state": "50",
+    "place": "77050",
+    "population": "390"
+  },
+  "Websterville, Vermont": {
+    "state": "50",
+    "place": "77800",
+    "population": "570"
+  },
+  "Wells, Vermont": {
+    "state": "50",
+    "place": "77875",
+    "population": "386"
+  },
+  "West Brattleboro, Vermont": {
+    "state": "50",
+    "place": "78850",
+    "population": "2803"
+  },
+  "West Charlotte, Vermont": {
+    "state": "50",
+    "place": "79335",
+    "population": "169"
+  },
+  "West Dummerston, Vermont": {
+    "state": "50",
+    "place": "79750",
+    "population": "77"
+  },
+  "Westford, Vermont": {
+    "state": "50",
+    "place": "80275",
+    "population": "99"
+  },
+  "Weston, Vermont": {
+    "state": "50",
+    "place": "81925",
+    "population": "77"
+  },
+  "West Pawlet, Vermont": {
+    "state": "50",
+    "place": "82150",
+    "population": "220"
+  },
+  "West Rutland, Vermont": {
+    "state": "50",
+    "place": "82375",
+    "population": "1898"
+  },
+  "West Woodstock, Vermont": {
+    "state": "50",
+    "place": "83125",
+    "population": "401"
+  },
+  "White River Junction, Vermont": {
+    "state": "50",
+    "place": "83575",
+    "population": "2532"
+  },
+  "Whitingham, Vermont": {
+    "state": "50",
+    "place": "83875",
+    "population": "91"
+  },
+  "Wilder, Vermont": {
+    "state": "50",
+    "place": "84025",
+    "population": "3071"
+  },
+  "Williamstown, Vermont": {
+    "state": "50",
+    "place": "84100",
+    "population": "1264"
+  },
+  "Wilmington, Vermont": {
+    "state": "50",
+    "place": "84625",
+    "population": "439"
+  },
+  "Windsor, Vermont": {
+    "state": "50",
+    "place": "85000",
+    "population": "2139"
+  },
+  "Wolcott, Vermont": {
+    "state": "50",
+    "place": "85300",
+    "population": "176"
+  },
+  "Worcester, Vermont": {
+    "state": "50",
+    "place": "86050",
+    "population": "120"
+  }
+}

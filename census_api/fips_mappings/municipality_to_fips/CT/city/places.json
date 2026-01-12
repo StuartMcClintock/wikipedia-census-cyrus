@@ -1,0 +1,97 @@
+{
+  "West Haven, Connecticut": {
+    "state": "09",
+    "place": "82800",
+    "population": "55584"
+  },
+  "Ansonia, Connecticut": {
+    "state": "09",
+    "place": "01150",
+    "population": "18918"
+  },
+  "Bridgeport, Connecticut": {
+    "state": "09",
+    "place": "08000",
+    "population": "148654"
+  },
+  "Bristol, Connecticut": {
+    "state": "09",
+    "place": "08420",
+    "population": "60833"
+  },
+  "Danbury, Connecticut": {
+    "state": "09",
+    "place": "18430",
+    "population": "86518"
+  },
+  "Derby, Connecticut": {
+    "state": "09",
+    "place": "19480",
+    "population": "12325"
+  },
+  "Groton, Connecticut": {
+    "state": "09",
+    "place": "34180",
+    "population": "9387"
+  },
+  "Hartford, Connecticut": {
+    "state": "09",
+    "place": "37000",
+    "population": "121054"
+  },
+  "Meriden, Connecticut": {
+    "state": "09",
+    "place": "46450",
+    "population": "60850"
+  },
+  "Middletown, Connecticut": {
+    "state": "09",
+    "place": "47290",
+    "population": "47717"
+  },
+  "New Britain, Connecticut": {
+    "state": "09",
+    "place": "50370",
+    "population": "74135"
+  },
+  "New Haven, Connecticut": {
+    "state": "09",
+    "place": "52000",
+    "population": "134023"
+  },
+  "New London, Connecticut": {
+    "state": "09",
+    "place": "52280",
+    "population": "27367"
+  },
+  "Norwalk, Connecticut": {
+    "state": "09",
+    "place": "55990",
+    "population": "91184"
+  },
+  "Norwich, Connecticut": {
+    "state": "09",
+    "place": "56200",
+    "population": "40125"
+  },
+  "Shelton, Connecticut": {
+    "state": "09",
+    "place": "68100",
+    "population": "40869"
+  },
+  "Stamford, Connecticut": {
+    "state": "09",
+    "place": "73000",
+    "population": "135470"
+  },
+  "Torrington, Connecticut": {
+    "state": "09",
+    "place": "76500",
+    "population": "35515"
+  },
+  "Waterbury, Connecticut": {
+    "state": "09",
+    "place": "80000",
+    "population": "114403"
+  }
+}

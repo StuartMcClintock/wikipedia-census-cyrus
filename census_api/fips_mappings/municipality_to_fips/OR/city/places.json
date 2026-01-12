@@ -1,0 +1,1162 @@
+{
+  "Seneca, Oregon": {
+    "state": "41",
+    "place": "66200",
+    "population": "165"
+  },
+  "Shady Cove, Oregon": {
+    "state": "41",
+    "place": "66550",
+    "population": "3081"
+  },
+  "Shaniko, Oregon": {
+    "state": "41",
+    "place": "66700",
+    "population": "30"
+  },
+  "Sheridan, Oregon": {
+    "state": "41",
+    "place": "67050",
+    "population": "4639"
+  },
+  "Sherwood, Oregon": {
+    "state": "41",
+    "place": "67100",
+    "population": "20450"
+  },
+  "Siletz, Oregon": {
+    "state": "41",
+    "place": "67500",
+    "population": "1230"
+  },
+  "Silverton, Oregon": {
+    "state": "41",
+    "place": "67650",
+    "population": "10484"
+  },
+  "Sisters, Oregon": {
+    "state": "41",
+    "place": "67950",
+    "population": "3064"
+  },
+  "Sodaville, Oregon": {
+    "state": "41",
+    "place": "68550",
+    "population": "360"
+  },
+  "Springfield, Oregon": {
+    "state": "41",
+    "place": "69600",
+    "population": "61851"
+  },
+  "Stanfield, Oregon": {
+    "state": "41",
+    "place": "69900",
+    "population": "2144"
+  },
+  "Stayton, Oregon": {
+    "state": "41",
+    "place": "70200",
+    "population": "8244"
+  },
+  "Sublimity, Oregon": {
+    "state": "41",
+    "place": "70700",
+    "population": "2967"
+  },
+  "Sumpter, Oregon": {
+    "state": "41",
+    "place": "71000",
+    "population": "204"
+  },
+  "Sutherlin, Oregon": {
+    "state": "41",
+    "place": "71650",
+    "population": "8524"
+  },
+  "Sweet Home, Oregon": {
+    "state": "41",
+    "place": "71950",
+    "population": "9828"
+  },
+  "Talent, Oregon": {
+    "state": "41",
+    "place": "72500",
+    "population": "6282"
+  },
+  "Tangent, Oregon": {
+    "state": "41",
+    "place": "72600",
+    "population": "1231"
+  },
+  "The Dalles, Oregon": {
+    "state": "41",
+    "place": "72950",
+    "population": "16010"
+  },
+  "Tigard, Oregon": {
+    "state": "41",
+    "place": "73650",
+    "population": "54539"
+  },
+  "Tillamook, Oregon": {
+    "state": "41",
+    "place": "73700",
+    "population": "5204"
+  },
+  "Toledo, Oregon": {
+    "state": "41",
+    "place": "74000",
+    "population": "3546"
+  },
+  "Troutdale, Oregon": {
+    "state": "41",
+    "place": "74850",
+    "population": "16300"
+  },
+  "Tualatin, Oregon": {
+    "state": "41",
+    "place": "74950",
+    "population": "27942"
+  },
+  "Turner, Oregon": {
+    "state": "41",
+    "place": "75150",
+    "population": "2454"
+  },
+  "Ukiah, Oregon": {
+    "state": "41",
+    "place": "75550",
+    "population": "159"
+  },
+  "Umatilla, Oregon": {
+    "state": "41",
+    "place": "75650",
+    "population": "7363"
+  },
+  "Union, Oregon": {
+    "state": "41",
+    "place": "75850",
+    "population": "2152"
+  },
+  "Unity, Oregon": {
+    "state": "41",
+    "place": "76250",
+    "population": "40"
+  },
+  "Vale, Oregon": {
+    "state": "41",
+    "place": "76600",
+    "population": "1894"
+  },
+  "Veneta, Oregon": {
+    "state": "41",
+    "place": "77050",
+    "population": "5214"
+  },
+  "Vernonia, Oregon": {
+    "state": "41",
+    "place": "77250",
+    "population": "2374"
+  },
+  "Waldport, Oregon": {
+    "state": "41",
+    "place": "78000",
+    "population": "2249"
+  },
+  "Wallowa, Oregon": {
+    "state": "41",
+    "place": "78150",
+    "population": "796"
+  },
+  "Warrenton, Oregon": {
+    "state": "41",
+    "place": "78900",
+    "population": "6277"
+  },
+  "Wasco, Oregon": {
+    "state": "41",
+    "place": "78950",
+    "population": "417"
+  },
+  "Westfir, Oregon": {
+    "state": "41",
+    "place": "79950",
+    "population": "259"
+  },
+  "West Linn, Oregon": {
+    "state": "41",
+    "place": "80150",
+    "population": "27373"
+  },
+  "Weston, Oregon": {
+    "state": "41",
+    "place": "80350",
+    "population": "706"
+  },
+  "Wheeler, Oregon": {
+    "state": "41",
+    "place": "81300",
+    "population": "422"
+  },
+  "Willamina, Oregon": {
+    "state": "41",
+    "place": "82350",
+    "population": "2239"
+  },
+  "Wilsonville, Oregon": {
+    "state": "41",
+    "place": "82800",
+    "population": "26664"
+  },
+  "Winston, Oregon": {
+    "state": "41",
+    "place": "83400",
+    "population": "5625"
+  },
+  "Woodburn, Oregon": {
+    "state": "41",
+    "place": "83750",
+    "population": "26013"
+  },
+  "Wood Village, Oregon": {
+    "state": "41",
+    "place": "83950",
+    "population": "4387"
+  },
+  "Yachats, Oregon": {
+    "state": "41",
+    "place": "84200",
+    "population": "994"
+  },
+  "Yamhill, Oregon": {
+    "state": "41",
+    "place": "84250",
+    "population": "1147"
+  },
+  "Yoncalla, Oregon": {
+    "state": "41",
+    "place": "84600",
+    "population": "1021"
+  },
+  "Adair Village, Oregon": {
+    "state": "41",
+    "place": "00275",
+    "population": "994"
+  },
+  "Adams, Oregon": {
+    "state": "41",
+    "place": "00350",
+    "population": "389"
+  },
+  "Adrian, Oregon": {
+    "state": "41",
+    "place": "00500",
+    "population": "157"
+  },
+  "Albany, Oregon": {
+    "state": "41",
+    "place": "01000",
+    "population": "56472"
+  },
+  "Amity, Oregon": {
+    "state": "41",
+    "place": "02000",
+    "population": "1757"
+  },
+  "Antelope, Oregon": {
+    "state": "41",
+    "place": "02250",
+    "population": "37"
+  },
+  "Arlington, Oregon": {
+    "state": "41",
+    "place": "02800",
+    "population": "628"
+  },
+  "Ashland, Oregon": {
+    "state": "41",
+    "place": "03050",
+    "population": "21360"
+  },
+  "Astoria, Oregon": {
+    "state": "41",
+    "place": "03150",
+    "population": "10181"
+  },
+  "Athena, Oregon": {
+    "state": "41",
+    "place": "03200",
+    "population": "1209"
+  },
+  "Aumsville, Oregon": {
+    "state": "41",
+    "place": "03250",
+    "population": "4234"
+  },
+  "Aurora, Oregon": {
+    "state": "41",
+    "place": "03300",
+    "population": "1133"
+  },
+  "Baker City, Oregon": {
+    "state": "41",
+    "place": "03650",
+    "population": "10099"
+  },
+  "Bandon, Oregon": {
+    "state": "41",
+    "place": "03800",
+    "population": "3321"
+  },
+  "Banks, Oregon": {
+    "state": "41",
+    "place": "03850",
+    "population": "1837"
+  },
+  "Barlow, Oregon": {
+    "state": "41",
+    "place": "04000",
+    "population": "133"
+  },
+  "Bay City, Oregon": {
+    "state": "41",
+    "place": "04800",
+    "population": "1389"
+  },
+  "Beaverton, Oregon": {
+    "state": "41",
+    "place": "05350",
+    "population": "97494"
+  },
+  "Bend, Oregon": {
+    "state": "41",
+    "place": "05800",
+    "population": "99178"
+  },
+  "Boardman, Oregon": {
+    "state": "41",
+    "place": "07200",
+    "population": "3828"
+  },
+  "Brookings, Oregon": {
+    "state": "41",
+    "place": "08650",
+    "population": "6744"
+  },
+  "Brownsville, Oregon": {
+    "state": "41",
+    "place": "09050",
+    "population": "1694"
+  },
+  "Burns, Oregon": {
+    "state": "41",
+    "place": "09800",
+    "population": "2730"
+  },
+  "Canby, Oregon": {
+    "state": "41",
+    "place": "10750",
+    "population": "18171"
+  },
+  "Cannon Beach, Oregon": {
+    "state": "41",
+    "place": "10850",
+    "population": "1489"
+  },
+  "Canyonville, Oregon": {
+    "state": "41",
+    "place": "11000",
+    "population": "1640"
+  },
+  "Carlton, Oregon": {
+    "state": "41",
+    "place": "11150",
+    "population": "2220"
+  },
+  "Cascade Locks, Oregon": {
+    "state": "41",
+    "place": "11600",
+    "population": "1379"
+  },
+  "Cave Junction, Oregon": {
+    "state": "41",
+    "place": "11850",
+    "population": "2071"
+  },
+  "Central Point, Oregon": {
+    "state": "41",
+    "place": "12400",
+    "population": "18997"
+  },
+  "Chiloquin, Oregon": {
+    "state": "41",
+    "place": "13050",
+    "population": "767"
+  },
+  "Clatskanie, Oregon": {
+    "state": "41",
+    "place": "13750",
+    "population": "1716"
+  },
+  "Coburg, Oregon": {
+    "state": "41",
+    "place": "14400",
+    "population": "1306"
+  },
+  "Columbia City, Oregon": {
+    "state": "41",
+    "place": "14750",
+    "population": "1949"
+  },
+  "Condon, Oregon": {
+    "state": "41",
+    "place": "15000",
+    "population": "711"
+  },
+  "Coos Bay, Oregon": {
+    "state": "41",
+    "place": "15250",
+    "population": "15985"
+  },
+  "Coquille, Oregon": {
+    "state": "41",
+    "place": "15350",
+    "population": "4015"
+  },
+  "Cornelius, Oregon": {
+    "state": "41",
+    "place": "15550",
+    "population": "12694"
+  },
+  "Corvallis, Oregon": {
+    "state": "41",
+    "place": "15800",
+    "population": "59922"
+  },
+  "Cottage Grove, Oregon": {
+    "state": "41",
+    "place": "15950",
+    "population": "10574"
+  },
+  "Cove, Oregon": {
+    "state": "41",
+    "place": "16250",
+    "population": "620"
+  },
+  "Creswell, Oregon": {
+    "state": "41",
+    "place": "16950",
+    "population": "5641"
+  },
+  "Culver, Oregon": {
+    "state": "41",
+    "place": "17300",
+    "population": "1602"
+  },
+  "Dallas, Oregon": {
+    "state": "41",
+    "place": "17700",
+    "population": "16854"
+  },
+  "Dayton, Oregon": {
+    "state": "41",
+    "place": "18250",
+    "population": "2678"
+  },
+  "Depoe Bay, Oregon": {
+    "state": "41",
+    "place": "18850",
+    "population": "1515"
+  },
+  "Detroit, Oregon": {
+    "state": "41",
+    "place": "19100",
+    "population": "203"
+  },
+  "Donald, Oregon": {
+    "state": "41",
+    "place": "20100",
+    "population": "1009"
+  },
+  "Drain, Oregon": {
+    "state": "41",
+    "place": "20500",
+    "population": "1172"
+  },
+  "Dufur, Oregon": {
+    "state": "41",
+    "place": "20900",
+    "population": "632"
+  },
+  "Dundee, Oregon": {
+    "state": "41",
+    "place": "21050",
+    "population": "3238"
+  },
+  "Dunes City, Oregon": {
+    "state": "41",
+    "place": "21150",
+    "population": "1428"
+  },
+  "Durham, Oregon": {
+    "state": "41",
+    "place": "21250",
+    "population": "1944"
+  },
+  "Echo, Oregon": {
+    "state": "41",
+    "place": "22200",
+    "population": "632"
+  },
+  "Elgin, Oregon": {
+    "state": "41",
+    "place": "22550",
+    "population": "1717"
+  },
+  "Elkton, Oregon": {
+    "state": "41",
+    "place": "22800",
+    "population": "183"
+  },
+  "Enterprise, Oregon": {
+    "state": "41",
+    "place": "23500",
+    "population": "2052"
+  },
+  "Estacada, Oregon": {
+    "state": "41",
+    "place": "23800",
+    "population": "4356"
+  },
+  "Eugene, Oregon": {
+    "state": "41",
+    "place": "23850",
+    "population": "176654"
+  },
+  "Fairview, Oregon": {
+    "state": "41",
+    "place": "24250",
+    "population": "10424"
+  },
+  "Falls City, Oregon": {
+    "state": "41",
+    "place": "24550",
+    "population": "1051"
+  },
+  "Florence, Oregon": {
+    "state": "41",
+    "place": "26050",
+    "population": "9396"
+  },
+  "Forest Grove, Oregon": {
+    "state": "41",
+    "place": "26200",
+    "population": "26225"
+  },
+  "Fossil, Oregon": {
+    "state": "41",
+    "place": "26650",
+    "population": "447"
+  },
+  "Garibaldi, Oregon": {
+    "state": "41",
+    "place": "28000",
+    "population": "830"
+  },
+  "Gaston, Oregon": {
+    "state": "41",
+    "place": "28100",
+    "population": "676"
+  },
+  "Gates, Oregon": {
+    "state": "41",
+    "place": "28200",
+    "population": "548"
+  },
+  "Gearhart, Oregon": {
+    "state": "41",
+    "place": "28450",
+    "population": "1793"
+  },
+  "Gervais, Oregon": {
+    "state": "41",
+    "place": "28650",
+    "population": "2595"
+  },
+  "Gladstone, Oregon": {
+    "state": "41",
+    "place": "29000",
+    "population": "12017"
+  },
+  "Glendale, Oregon": {
+    "state": "41",
+    "place": "29350",
+    "population": "858"
+  },
+  "Gold Beach, Oregon": {
+    "state": "41",
+    "place": "29900",
+    "population": "2341"
+  },
+  "Gold Hill, Oregon": {
+    "state": "41",
+    "place": "29950",
+    "population": "1335"
+  },
+  "Granite, Oregon": {
+    "state": "41",
+    "place": "30500",
+    "population": "32"
+  },
+  "Grants Pass, Oregon": {
+    "state": "41",
+    "place": "30550",
+    "population": "39189"
+  },
+  "Grass Valley, Oregon": {
+    "state": "41",
+    "place": "30650",
+    "population": "149"
+  },
+  "Eagle Point, Oregon": {
+    "state": "41",
+    "place": "21550",
+    "population": "9686"
+  },
+  "Greenhorn, Oregon": {
+    "state": "41",
+    "place": "31050",
+    "population": "3"
+  },
+  "Gresham, Oregon": {
+    "state": "41",
+    "place": "31250",
+    "population": "114247"
+  },
+  "Haines, Oregon": {
+    "state": "41",
+    "place": "31600",
+    "population": "373"
+  },
+  "Halfway, Oregon": {
+    "state": "41",
+    "place": "31650",
+    "population": "351"
+  },
+  "Halsey, Oregon": {
+    "state": "41",
+    "place": "31750",
+    "population": "962"
+  },
+  "Happy Valley, Oregon": {
+    "state": "41",
+    "place": "32050",
+    "population": "23733"
+  },
+  "Harrisburg, Oregon": {
+    "state": "41",
+    "place": "32550",
+    "population": "3652"
+  },
+  "Helix, Oregon": {
+    "state": "41",
+    "place": "33250",
+    "population": "194"
+  },
+  "Heppner, Oregon": {
+    "state": "41",
+    "place": "33550",
+    "population": "1187"
+  },
+  "Hermiston, Oregon": {
+    "state": "41",
+    "place": "33700",
+    "population": "19354"
+  },
+  "Hillsboro, Oregon": {
+    "state": "41",
+    "place": "34100",
+    "population": "106447"
+  },
+  "Hines, Oregon": {
+    "state": "41",
+    "place": "34250",
+    "population": "1645"
+  },
+  "Hood River, Oregon": {
+    "state": "41",
+    "place": "34900",
+    "population": "8313"
+  },
+  "Hubbard, Oregon": {
+    "state": "41",
+    "place": "35450",
+    "population": "3426"
+  },
+  "Huntington, Oregon": {
+    "state": "41",
+    "place": "35700",
+    "population": "502"
+  },
+  "Idanha, Oregon": {
+    "state": "41",
+    "place": "35800",
+    "population": "156"
+  },
+  "Imbler, Oregon": {
+    "state": "41",
+    "place": "36050",
+    "population": "245"
+  },
+  "Independence, Oregon": {
+    "state": "41",
+    "place": "36150",
+    "population": "9828"
+  },
+  "Ione, Oregon": {
+    "state": "41",
+    "place": "36400",
+    "population": "337"
+  },
+  "Irrigon, Oregon": {
+    "state": "41",
+    "place": "36500",
+    "population": "2011"
+  },
+  "Island City, Oregon": {
+    "state": "41",
+    "place": "36750",
+    "population": "1144"
+  },
+  "Jacksonville, Oregon": {
+    "state": "41",
+    "place": "37000",
+    "population": "3020"
+  },
+  "Jefferson, Oregon": {
+    "state": "41",
+    "place": "37250",
+    "population": "3327"
+  },
+  "John Day, Oregon": {
+    "state": "41",
+    "place": "37550",
+    "population": "1664"
+  },
+  "Johnson City, Oregon": {
+    "state": "41",
+    "place": "37650",
+    "population": "539"
+  },
+  "Jordan Valley, Oregon": {
+    "state": "41",
+    "place": "37850",
+    "population": "130"
+  },
+  "Joseph, Oregon": {
+    "state": "41",
+    "place": "37900",
+    "population": "1154"
+  },
+  "Junction City, Oregon": {
+    "state": "41",
+    "place": "38000",
+    "population": "6787"
+  },
+  "Keizer, Oregon": {
+    "state": "41",
+    "place": "38500",
+    "population": "39376"
+  },
+  "King City, Oregon": {
+    "state": "41",
+    "place": "39150",
+    "population": "5184"
+  },
+  "Klamath Falls, Oregon": {
+    "state": "41",
+    "place": "39700",
+    "population": "21813"
+  },
+  "Lafayette, Oregon": {
+    "state": "41",
+    "place": "40300",
+    "population": "4423"
+  },
+  "La Grande, Oregon": {
+    "state": "41",
+    "place": "40350",
+    "population": "13026"
+  },
+  "Lake Oswego, Oregon": {
+    "state": "41",
+    "place": "40550",
+    "population": "40731"
+  },
+  "Lakeside, Oregon": {
+    "state": "41",
+    "place": "40650",
+    "population": "1904"
+  },
+  "La Pine, Oregon": {
+    "state": "41",
+    "place": "41050",
+    "population": "2512"
+  },
+  "Lebanon, Oregon": {
+    "state": "41",
+    "place": "41650",
+    "population": "18447"
+  },
+  "Lincoln City, Oregon": {
+    "state": "41",
+    "place": "42600",
+    "population": "9815"
+  },
+  "Lonerock, Oregon": {
+    "state": "41",
+    "place": "43400",
+    "population": "25"
+  },
+  "Long Creek, Oregon": {
+    "state": "41",
+    "place": "43550",
+    "population": "173"
+  },
+  "Lostine, Oregon": {
+    "state": "41",
+    "place": "43900",
+    "population": "241"
+  },
+  "Lowell, Oregon": {
+    "state": "41",
+    "place": "44050",
+    "population": "1196"
+  },
+  "Lyons, Oregon": {
+    "state": "41",
+    "place": "44300",
+    "population": "1202"
+  },
+  "McMinnville, Oregon": {
+    "state": "41",
+    "place": "45000",
+    "population": "34319"
+  },
+  "Madras, Oregon": {
+    "state": "41",
+    "place": "45250",
+    "population": "7456"
+  },
+  "Malin, Oregon": {
+    "state": "41",
+    "place": "45400",
+    "population": "731"
+  },
+  "Manzanita, Oregon": {
+    "state": "41",
+    "place": "45700",
+    "population": "603"
+  },
+  "Maupin, Oregon": {
+    "state": "41",
+    "place": "46500",
+    "population": "427"
+  },
+  "Maywood Park, Oregon": {
+    "state": "41",
+    "place": "46730",
+    "population": "829"
+  },
+  "Medford, Oregon": {
+    "state": "41",
+    "place": "47000",
+    "population": "85824"
+  },
+  "Merrill, Oregon": {
+    "state": "41",
+    "place": "47700",
+    "population": "821"
+  },
+  "Metolius, Oregon": {
+    "state": "41",
+    "place": "47750",
+    "population": "978"
+  },
+  "Mill City, Oregon": {
+    "state": "41",
+    "place": "48150",
+    "population": "1971"
+  },
+  "Millersburg, Oregon": {
+    "state": "41",
+    "place": "48300",
+    "population": "2919"
+  },
+  "Milton-Freewater, Oregon": {
+    "state": "41",
+    "place": "48600",
+    "population": "7151"
+  },
+  "Milwaukie, Oregon": {
+    "state": "41",
+    "place": "48650",
+    "population": "21119"
+  },
+  "Mitchell, Oregon": {
+    "state": "41",
+    "place": "49150",
+    "population": "138"
+  },
+  "Molalla, Oregon": {
+    "state": "41",
+    "place": "49450",
+    "population": "10228"
+  },
+  "Monmouth, Oregon": {
+    "state": "41",
+    "place": "49550",
+    "population": "11110"
+  },
+  "Monroe, Oregon": {
+    "state": "41",
+    "place": "49600",
+    "population": "647"
+  },
+  "Monument, Oregon": {
+    "state": "41",
+    "place": "49750",
+    "population": "115"
+  },
+  "Moro, Oregon": {
+    "state": "41",
+    "place": "50000",
+    "population": "367"
+  },
+  "Mosier, Oregon": {
+    "state": "41",
+    "place": "50050",
+    "population": "468"
+  },
+  "Mount Angel, Oregon": {
+    "state": "41",
+    "place": "50150",
+    "population": "3392"
+  },
+  "Mount Vernon, Oregon": {
+    "state": "41",
+    "place": "50250",
+    "population": "548"
+  },
+  "Myrtle Creek, Oregon": {
+    "state": "41",
+    "place": "50950",
+    "population": "3481"
+  },
+  "Myrtle Point, Oregon": {
+    "state": "41",
+    "place": "51050",
+    "population": "2475"
+  },
+  "Nehalem, Oregon": {
+    "state": "41",
+    "place": "51700",
+    "population": "270"
+  },
+  "Newberg, Oregon": {
+    "state": "41",
+    "place": "52100",
+    "population": "25138"
+  },
+  "Newport, Oregon": {
+    "state": "41",
+    "place": "52450",
+    "population": "10256"
+  },
+  "North Bend, Oregon": {
+    "state": "41",
+    "place": "53000",
+    "population": "10317"
+  },
+  "North Plains, Oregon": {
+    "state": "41",
+    "place": "53150",
+    "population": "3441"
+  },
+  "North Powder, Oregon": {
+    "state": "41",
+    "place": "53300",
+    "population": "504"
+  },
+  "Nyssa, Oregon": {
+    "state": "41",
+    "place": "53750",
+    "population": "3198"
+  },
+  "Oakland, Oregon": {
+    "state": "41",
+    "place": "54000",
+    "population": "934"
+  },
+  "Oakridge, Oregon": {
+    "state": "41",
+    "place": "54100",
+    "population": "3206"
+  },
+  "Ontario, Oregon": {
+    "state": "41",
+    "place": "54900",
+    "population": "11645"
+  },
+  "Oregon City, Oregon": {
+    "state": "41",
+    "place": "55200",
+    "population": "37572"
+  },
+  "Paisley, Oregon": {
+    "state": "41",
+    "place": "56250",
+    "population": "250"
+  },
+  "Pendleton, Oregon": {
+    "state": "41",
+    "place": "57150",
+    "population": "17107"
+  },
+  "Philomath, Oregon": {
+    "state": "41",
+    "place": "57450",
+    "population": "5350"
+  },
+  "Phoenix, Oregon": {
+    "state": "41",
+    "place": "57500",
+    "population": "4475"
+  },
+  "Pilot Rock, Oregon": {
+    "state": "41",
+    "place": "57650",
+    "population": "1328"
+  },
+  "Portland, Oregon": {
+    "state": "41",
+    "place": "59000",
+    "population": "652503"
+  },
+  "Port Orford, Oregon": {
+    "state": "41",
+    "place": "59250",
+    "population": "1146"
+  },
+  "Powers, Oregon": {
+    "state": "41",
+    "place": "59600",
+    "population": "710"
+  },
+  "Prairie City, Oregon": {
+    "state": "41",
+    "place": "59650",
+    "population": "841"
+  },
+  "Prescott, Oregon": {
+    "state": "41",
+    "place": "59750",
+    "population": "82"
+  },
+  "Prineville, Oregon": {
+    "state": "41",
+    "place": "59850",
+    "population": "10736"
+  },
+  "Rainier, Oregon": {
+    "state": "41",
+    "place": "60850",
+    "population": "1911"
+  },
+  "Redmond, Oregon": {
+    "state": "41",
+    "place": "61200",
+    "population": "33274"
+  },
+  "Reedsport, Oregon": {
+    "state": "41",
+    "place": "61300",
+    "population": "4310"
+  },
+  "Richland, Oregon": {
+    "state": "41",
+    "place": "61700",
+    "population": "165"
+  },
+  "Riddle, Oregon": {
+    "state": "41",
+    "place": "61850",
+    "population": "1214"
+  },
+  "Rivergrove, Oregon": {
+    "state": "41",
+    "place": "62250",
+    "population": "545"
+  },
+  "Rockaway Beach, Oregon": {
+    "state": "41",
+    "place": "62900",
+    "population": "1441"
+  },
+  "Rogue River, Oregon": {
+    "state": "41",
+    "place": "63450",
+    "population": "2407"
+  },
+  "Roseburg, Oregon": {
+    "state": "41",
+    "place": "63650",
+    "population": "23683"
+  },
+  "Rufus, Oregon": {
+    "state": "41",
+    "place": "64200",
+    "population": "268"
+  },
+  "St. Helens, Oregon": {
+    "state": "41",
+    "place": "64600",
+    "population": "13817"
+  },
+  "St. Paul, Oregon": {
+    "state": "41",
+    "place": "64850",
+    "population": "434"
+  },
+  "Salem, Oregon": {
+    "state": "41",
+    "place": "64900",
+    "population": "175535"
+  },
+  "Sandy, Oregon": {
+    "state": "41",
+    "place": "65250",
+    "population": "12612"
+  },
+  "Scappoose, Oregon": {
+    "state": "41",
+    "place": "65500",
+    "population": "8010"
+  },
+  "Scio, Oregon": {
+    "state": "41",
+    "place": "65650",
+    "population": "956"
+  },
+  "Scotts Mills, Oregon": {
+    "state": "41",
+    "place": "65800",
+    "population": "419"
+  },
+  "Seaside, Oregon": {
+    "state": "41",
+    "place": "65950",
+    "population": "7115"
+  }
+}

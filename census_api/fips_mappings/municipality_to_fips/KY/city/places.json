@@ -1,0 +1,2092 @@
+{
+  "Lebanon, Kentucky": {
+    "state": "21",
+    "place": "44344",
+    "population": "6274"
+  },
+  "Lebanon Junction, Kentucky": {
+    "state": "21",
+    "place": "44362",
+    "population": "1746"
+  },
+  "Leitchfield, Kentucky": {
+    "state": "21",
+    "place": "44686",
+    "population": "6404"
+  },
+  "Lewisburg, Kentucky": {
+    "state": "21",
+    "place": "45064",
+    "population": "748"
+  },
+  "Lewisport, Kentucky": {
+    "state": "21",
+    "place": "45136",
+    "population": "1767"
+  },
+  "Liberty, Kentucky": {
+    "state": "21",
+    "place": "46072",
+    "population": "2028"
+  },
+  "Lincolnshire, Kentucky": {
+    "state": "21",
+    "place": "46540",
+    "population": "137"
+  },
+  "Livermore, Kentucky": {
+    "state": "21",
+    "place": "47062",
+    "population": "1230"
+  },
+  "Livingston, Kentucky": {
+    "state": "21",
+    "place": "47098",
+    "population": "166"
+  },
+  "London, Kentucky": {
+    "state": "21",
+    "place": "47476",
+    "population": "7572"
+  },
+  "Loretto, Kentucky": {
+    "state": "21",
+    "place": "47710",
+    "population": "723"
+  },
+  "Louisa, Kentucky": {
+    "state": "21",
+    "place": "47854",
+    "population": "2679"
+  },
+  "Louisville, Kentucky": {
+    "state": "21",
+    "place": "48000",
+    "population": "246161"
+  },
+  "Loyall, Kentucky": {
+    "state": "21",
+    "place": "48288",
+    "population": "638"
+  },
+  "Ludlow, Kentucky": {
+    "state": "21",
+    "place": "48378",
+    "population": "4385"
+  },
+  "Lynch, Kentucky": {
+    "state": "21",
+    "place": "48540",
+    "population": "658"
+  },
+  "Lyndon, Kentucky": {
+    "state": "21",
+    "place": "48558",
+    "population": "11008"
+  },
+  "Lynnview, Kentucky": {
+    "state": "21",
+    "place": "48648",
+    "population": "945"
+  },
+  "McHenry, Kentucky": {
+    "state": "21",
+    "place": "49098",
+    "population": "369"
+  },
+  "McKee, Kentucky": {
+    "state": "21",
+    "place": "49116",
+    "population": "803"
+  },
+  "Mackville, Kentucky": {
+    "state": "21",
+    "place": "49206",
+    "population": "207"
+  },
+  "Madisonville, Kentucky": {
+    "state": "21",
+    "place": "49368",
+    "population": "19542"
+  },
+  "Manchester, Kentucky": {
+    "state": "21",
+    "place": "49656",
+    "population": "1512"
+  },
+  "Manor Creek, Kentucky": {
+    "state": "21",
+    "place": "49800",
+    "population": "240"
+  },
+  "Marion, Kentucky": {
+    "state": "21",
+    "place": "50034",
+    "population": "2916"
+  },
+  "Martin, Kentucky": {
+    "state": "21",
+    "place": "50286",
+    "population": "513"
+  },
+  "Maryhill Estates, Kentucky": {
+    "state": "21",
+    "place": "50412",
+    "population": "185"
+  },
+  "Mayfield, Kentucky": {
+    "state": "21",
+    "place": "50898",
+    "population": "10017"
+  },
+  "Maysville, Kentucky": {
+    "state": "21",
+    "place": "51024",
+    "population": "8873"
+  },
+  "Meadowbrook Farm, Kentucky": {
+    "state": "21",
+    "place": "51193",
+    "population": "117"
+  },
+  "Meadow Vale, Kentucky": {
+    "state": "21",
+    "place": "51258",
+    "population": "730"
+  },
+  "Meadowview Estates, Kentucky": {
+    "state": "21",
+    "place": "51294",
+    "population": "178"
+  },
+  "Melbourne, Kentucky": {
+    "state": "21",
+    "place": "51438",
+    "population": "458"
+  },
+  "Mentor, Kentucky": {
+    "state": "21",
+    "place": "51564",
+    "population": "218"
+  },
+  "Middlesborough, Kentucky": {
+    "state": "21",
+    "place": "51924",
+    "population": "9405"
+  },
+  "Middletown, Kentucky": {
+    "state": "21",
+    "place": "51978",
+    "population": "9706"
+  },
+  "Midway, Kentucky": {
+    "state": "21",
+    "place": "52140",
+    "population": "1718"
+  },
+  "Millersburg, Kentucky": {
+    "state": "21",
+    "place": "52302",
+    "population": "747"
+  },
+  "Adairville, Kentucky": {
+    "state": "21",
+    "place": "00298",
+    "population": "837"
+  },
+  "Albany, Kentucky": {
+    "state": "21",
+    "place": "00694",
+    "population": "1760"
+  },
+  "Alexandria, Kentucky": {
+    "state": "21",
+    "place": "00802",
+    "population": "10341"
+  },
+  "Allen, Kentucky": {
+    "state": "21",
+    "place": "00946",
+    "population": "182"
+  },
+  "Anchorage, Kentucky": {
+    "state": "21",
+    "place": "01504",
+    "population": "2500"
+  },
+  "Arlington, Kentucky": {
+    "state": "21",
+    "place": "02044",
+    "population": "264"
+  },
+  "Ashland, Kentucky": {
+    "state": "21",
+    "place": "02368",
+    "population": "21625"
+  },
+  "Auburn, Kentucky": {
+    "state": "21",
+    "place": "02638",
+    "population": "1589"
+  },
+  "Audubon Park, Kentucky": {
+    "state": "21",
+    "place": "02656",
+    "population": "1433"
+  },
+  "Augusta, Kentucky": {
+    "state": "21",
+    "place": "02674",
+    "population": "1096"
+  },
+  "Bancroft, Kentucky": {
+    "state": "21",
+    "place": "03376",
+    "population": "503"
+  },
+  "Barbourmeade, Kentucky": {
+    "state": "21",
+    "place": "03556",
+    "population": "1216"
+  },
+  "Barbourville, Kentucky": {
+    "state": "21",
+    "place": "03574",
+    "population": "3222"
+  },
+  "Bardstown, Kentucky": {
+    "state": "21",
+    "place": "03628",
+    "population": "13567"
+  },
+  "Bardwell, Kentucky": {
+    "state": "21",
+    "place": "03664",
+    "population": "714"
+  },
+  "Barlow, Kentucky": {
+    "state": "21",
+    "place": "03718",
+    "population": "653"
+  },
+  "Beattyville, Kentucky": {
+    "state": "21",
+    "place": "04546",
+    "population": "2176"
+  },
+  "Beaver Dam, Kentucky": {
+    "state": "21",
+    "place": "04654",
+    "population": "3531"
+  },
+  "Bedford, Kentucky": {
+    "state": "21",
+    "place": "04816",
+    "population": "526"
+  },
+  "Beechwood Village, Kentucky": {
+    "state": "21",
+    "place": "05068",
+    "population": "1280"
+  },
+  "Bellefonte, Kentucky": {
+    "state": "21",
+    "place": "05374",
+    "population": "920"
+  },
+  "Bellemeade, Kentucky": {
+    "state": "21",
+    "place": "05392",
+    "population": "909"
+  },
+  "Bellevue, Kentucky": {
+    "state": "21",
+    "place": "05446",
+    "population": "5548"
+  },
+  "Bellewood, Kentucky": {
+    "state": "21",
+    "place": "05464",
+    "population": "340"
+  },
+  "Benham, Kentucky": {
+    "state": "21",
+    "place": "05662",
+    "population": "512"
+  },
+  "Benton, Kentucky": {
+    "state": "21",
+    "place": "05824",
+    "population": "4756"
+  },
+  "Berea, Kentucky": {
+    "state": "21",
+    "place": "05842",
+    "population": "15539"
+  },
+  "Berry, Kentucky": {
+    "state": "21",
+    "place": "05968",
+    "population": "250"
+  },
+  "Blackey, Kentucky": {
+    "state": "21",
+    "place": "07012",
+    "population": "109"
+  },
+  "Blaine, Kentucky": {
+    "state": "21",
+    "place": "07264",
+    "population": "66"
+  },
+  "Blandville, Kentucky": {
+    "state": "21",
+    "place": "07390",
+    "population": "73"
+  },
+  "Bloomfield, Kentucky": {
+    "state": "21",
+    "place": "07516",
+    "population": "961"
+  },
+  "Blue Ridge Manor, Kentucky": {
+    "state": "21",
+    "place": "07858",
+    "population": "791"
+  },
+  "Bonnieville, Kentucky": {
+    "state": "21",
+    "place": "08488",
+    "population": "269"
+  },
+  "Booneville, Kentucky": {
+    "state": "21",
+    "place": "08614",
+    "population": "168"
+  },
+  "Bowling Green, Kentucky": {
+    "state": "21",
+    "place": "08902",
+    "population": "72294"
+  },
+  "Bradfordsville, Kentucky": {
+    "state": "21",
+    "place": "09100",
+    "population": "270"
+  },
+  "Brandenburg, Kentucky": {
+    "state": "21",
+    "place": "09226",
+    "population": "2894"
+  },
+  "Mockingbird Valley, Kentucky": {
+    "state": "21",
+    "place": "52842",
+    "population": "175"
+  },
+  "Monterey, Kentucky": {
+    "state": "21",
+    "place": "53076",
+    "population": "112"
+  },
+  "Monticello, Kentucky": {
+    "state": "21",
+    "place": "53130",
+    "population": "5753"
+  },
+  "Moorland, Kentucky": {
+    "state": "21",
+    "place": "53328",
+    "population": "433"
+  },
+  "Morehead, Kentucky": {
+    "state": "21",
+    "place": "53418",
+    "population": "7151"
+  },
+  "Morganfield, Kentucky": {
+    "state": "21",
+    "place": "53472",
+    "population": "3256"
+  },
+  "Morgantown, Kentucky": {
+    "state": "21",
+    "place": "53490",
+    "population": "2505"
+  },
+  "Mortons Gap, Kentucky": {
+    "state": "21",
+    "place": "53616",
+    "population": "728"
+  },
+  "Mount Olivet, Kentucky": {
+    "state": "21",
+    "place": "53976",
+    "population": "347"
+  },
+  "Mount Sterling, Kentucky": {
+    "state": "21",
+    "place": "54084",
+    "population": "7558"
+  },
+  "Mount Vernon, Kentucky": {
+    "state": "21",
+    "place": "54174",
+    "population": "2453"
+  },
+  "Mount Washington, Kentucky": {
+    "state": "21",
+    "place": "54228",
+    "population": "18090"
+  },
+  "Muldraugh, Kentucky": {
+    "state": "21",
+    "place": "54480",
+    "population": "1040"
+  },
+  "Munfordville, Kentucky": {
+    "state": "21",
+    "place": "54570",
+    "population": "1686"
+  },
+  "Murray, Kentucky": {
+    "state": "21",
+    "place": "54642",
+    "population": "17307"
+  },
+  "Murray Hill, Kentucky": {
+    "state": "21",
+    "place": "54660",
+    "population": "565"
+  },
+  "Nebo, Kentucky": {
+    "state": "21",
+    "place": "55092",
+    "population": "211"
+  },
+  "New Castle, Kentucky": {
+    "state": "21",
+    "place": "55596",
+    "population": "884"
+  },
+  "New Haven, Kentucky": {
+    "state": "21",
+    "place": "55758",
+    "population": "798"
+  },
+  "Newport, Kentucky": {
+    "state": "21",
+    "place": "55884",
+    "population": "14150"
+  },
+  "Nicholasville, Kentucky": {
+    "state": "21",
+    "place": "56136",
+    "population": "31093"
+  },
+  "Norbourne Estates, Kentucky": {
+    "state": "21",
+    "place": "56550",
+    "population": "437"
+  },
+  "Northfield, Kentucky": {
+    "state": "21",
+    "place": "56730",
+    "population": "991"
+  },
+  "North Middletown, Kentucky": {
+    "state": "21",
+    "place": "56820",
+    "population": "610"
+  },
+  "Nortonville, Kentucky": {
+    "state": "21",
+    "place": "56910",
+    "population": "977"
+  },
+  "Norwood, Kentucky": {
+    "state": "21",
+    "place": "56928",
+    "population": "379"
+  },
+  "Oak Grove, Kentucky": {
+    "state": "21",
+    "place": "57090",
+    "population": "7931"
+  },
+  "Oakland, Kentucky": {
+    "state": "21",
+    "place": "57144",
+    "population": "198"
+  },
+  "Old Brownsboro Place, Kentucky": {
+    "state": "21",
+    "place": "57658",
+    "population": "376"
+  },
+  "Olive Hill, Kentucky": {
+    "state": "21",
+    "place": "57918",
+    "population": "1580"
+  },
+  "Orchard Grass Hills, Kentucky": {
+    "state": "21",
+    "place": "58200",
+    "population": "1536"
+  },
+  "Owensboro, Kentucky": {
+    "state": "21",
+    "place": "58620",
+    "population": "60183"
+  },
+  "Owenton, Kentucky": {
+    "state": "21",
+    "place": "58692",
+    "population": "1682"
+  },
+  "Owingsville, Kentucky": {
+    "state": "21",
+    "place": "58710",
+    "population": "1593"
+  },
+  "Milton, Kentucky": {
+    "state": "21",
+    "place": "52590",
+    "population": "590"
+  },
+  "Paducah, Kentucky": {
+    "state": "21",
+    "place": "58836",
+    "population": "27137"
+  },
+  "Paintsville, Kentucky": {
+    "state": "21",
+    "place": "58962",
+    "population": "4312"
+  },
+  "Paris, Kentucky": {
+    "state": "21",
+    "place": "59196",
+    "population": "10171"
+  },
+  "Park City, Kentucky": {
+    "state": "21",
+    "place": "59232",
+    "population": "614"
+  },
+  "Park Hills, Kentucky": {
+    "state": "21",
+    "place": "59255",
+    "population": "3162"
+  },
+  "Parkway Village, Kentucky": {
+    "state": "21",
+    "place": "59322",
+    "population": "623"
+  },
+  "Pembroke, Kentucky": {
+    "state": "21",
+    "place": "59934",
+    "population": "865"
+  },
+  "Perryville, Kentucky": {
+    "state": "21",
+    "place": "60258",
+    "population": "782"
+  },
+  "Pewee Valley, Kentucky": {
+    "state": "21",
+    "place": "60492",
+    "population": "1588"
+  },
+  "Pikeville, Kentucky": {
+    "state": "21",
+    "place": "60852",
+    "population": "7754"
+  },
+  "Bremen, Kentucky": {
+    "state": "21",
+    "place": "09406",
+    "population": "172"
+  },
+  "Briarwood, Kentucky": {
+    "state": "21",
+    "place": "09532",
+    "population": "445"
+  },
+  "Brodhead, Kentucky": {
+    "state": "21",
+    "place": "09838",
+    "population": "1117"
+  },
+  "Broeck Pointe, Kentucky": {
+    "state": "21",
+    "place": "09847",
+    "population": "245"
+  },
+  "Bromley, Kentucky": {
+    "state": "21",
+    "place": "09856",
+    "population": "724"
+  },
+  "Brooksville, Kentucky": {
+    "state": "21",
+    "place": "10000",
+    "population": "654"
+  },
+  "Brownsboro Farm, Kentucky": {
+    "state": "21",
+    "place": "10162",
+    "population": "640"
+  },
+  "Brownsboro Village, Kentucky": {
+    "state": "21",
+    "place": "10198",
+    "population": "308"
+  },
+  "Brownsville, Kentucky": {
+    "state": "21",
+    "place": "10324",
+    "population": "875"
+  },
+  "Buckhorn, Kentucky": {
+    "state": "21",
+    "place": "10612",
+    "population": "89"
+  },
+  "Burgin, Kentucky": {
+    "state": "21",
+    "place": "11044",
+    "population": "979"
+  },
+  "Burkesville, Kentucky": {
+    "state": "21",
+    "place": "11098",
+    "population": "1388"
+  },
+  "Burnside, Kentucky": {
+    "state": "21",
+    "place": "11278",
+    "population": "694"
+  },
+  "Butler, Kentucky": {
+    "state": "21",
+    "place": "11530",
+    "population": "646"
+  },
+  "Cadiz, Kentucky": {
+    "state": "21",
+    "place": "11692",
+    "population": "2540"
+  },
+  "Calhoun, Kentucky": {
+    "state": "21",
+    "place": "11854",
+    "population": "725"
+  },
+  "California, Kentucky": {
+    "state": "21",
+    "place": "11872",
+    "population": "83"
+  },
+  "Calvert City, Kentucky": {
+    "state": "21",
+    "place": "12016",
+    "population": "2514"
+  },
+  "Camargo, Kentucky": {
+    "state": "21",
+    "place": "12052",
+    "population": "1020"
+  },
+  "Cambridge, Kentucky": {
+    "state": "21",
+    "place": "12066",
+    "population": "162"
+  },
+  "Campbellsburg, Kentucky": {
+    "state": "21",
+    "place": "12142",
+    "population": "836"
+  },
+  "Campbellsville, Kentucky": {
+    "state": "21",
+    "place": "12160",
+    "population": "11426"
+  },
+  "Campton, Kentucky": {
+    "state": "21",
+    "place": "12358",
+    "population": "316"
+  },
+  "Caneyville, Kentucky": {
+    "state": "21",
+    "place": "12538",
+    "population": "529"
+  },
+  "Carlisle, Kentucky": {
+    "state": "21",
+    "place": "12898",
+    "population": "2093"
+  },
+  "Carrollton, Kentucky": {
+    "state": "21",
+    "place": "13024",
+    "population": "3890"
+  },
+  "Carrsville, Kentucky": {
+    "state": "21",
+    "place": "13060",
+    "population": "48"
+  },
+  "Catlettsburg, Kentucky": {
+    "state": "21",
+    "place": "13420",
+    "population": "1780"
+  },
+  "Cave City, Kentucky": {
+    "state": "21",
+    "place": "13492",
+    "population": "2356"
+  },
+  "Centertown, Kentucky": {
+    "state": "21",
+    "place": "13870",
+    "population": "416"
+  },
+  "Central City, Kentucky": {
+    "state": "21",
+    "place": "13978",
+    "population": "5819"
+  },
+  "Clarkson, Kentucky": {
+    "state": "21",
+    "place": "15148",
+    "population": "933"
+  },
+  "Clay, Kentucky": {
+    "state": "21",
+    "place": "15202",
+    "population": "1031"
+  },
+  "Clay City, Kentucky": {
+    "state": "21",
+    "place": "15238",
+    "population": "1193"
+  },
+  "Clinton, Kentucky": {
+    "state": "21",
+    "place": "15742",
+    "population": "1222"
+  },
+  "Cloverport, Kentucky": {
+    "state": "21",
+    "place": "15904",
+    "population": "1119"
+  },
+  "Coal Run Village, Kentucky": {
+    "state": "21",
+    "place": "16110",
+    "population": "1669"
+  },
+  "Cold Spring, Kentucky": {
+    "state": "21",
+    "place": "16372",
+    "population": "6216"
+  },
+  "Coldstream, Kentucky": {
+    "state": "21",
+    "place": "16395",
+    "population": "1295"
+  },
+  "Columbia, Kentucky": {
+    "state": "21",
+    "place": "16750",
+    "population": "4845"
+  },
+  "Columbus, Kentucky": {
+    "state": "21",
+    "place": "16768",
+    "population": "140"
+  },
+  "Concord, Kentucky": {
+    "state": "21",
+    "place": "16894",
+    "population": "19"
+  },
+  "Pineville, Kentucky": {
+    "state": "21",
+    "place": "61248",
+    "population": "1678"
+  },
+  "Pioneer Village, Kentucky": {
+    "state": "21",
+    "place": "61356",
+    "population": "2671"
+  },
+  "Pippa Passes, Kentucky": {
+    "state": "21",
+    "place": "61374",
+    "population": "468"
+  },
+  "Plantation, Kentucky": {
+    "state": "21",
+    "place": "61554",
+    "population": "826"
+  },
+  "Pleasureville, Kentucky": {
+    "state": "21",
+    "place": "61788",
+    "population": "779"
+  },
+  "Plum Springs, Kentucky": {
+    "state": "21",
+    "place": "61860",
+    "population": "497"
+  },
+  "Poplar Hills, Kentucky": {
+    "state": "21",
+    "place": "62370",
+    "population": "380"
+  },
+  "Powderly, Kentucky": {
+    "state": "21",
+    "place": "62652",
+    "population": "788"
+  },
+  "Prestonsburg, Kentucky": {
+    "state": "21",
+    "place": "62940",
+    "population": "3681"
+  },
+  "Prestonville, Kentucky": {
+    "state": "21",
+    "place": "62958",
+    "population": "171"
+  },
+  "Princeton, Kentucky": {
+    "state": "21",
+    "place": "63138",
+    "population": "6270"
+  },
+  "Prospect, Kentucky": {
+    "state": "21",
+    "place": "63264",
+    "population": "4592"
+  },
+  "Providence, Kentucky": {
+    "state": "21",
+    "place": "63372",
+    "population": "2892"
+  },
+  "Raceland, Kentucky": {
+    "state": "21",
+    "place": "63858",
+    "population": "2343"
+  },
+  "Radcliff, Kentucky": {
+    "state": "21",
+    "place": "63912",
+    "population": "23042"
+  },
+  "Ravenna, Kentucky": {
+    "state": "21",
+    "place": "64092",
+    "population": "568"
+  },
+  "Raywick, Kentucky": {
+    "state": "21",
+    "place": "64146",
+    "population": "155"
+  },
+  "Richlawn, Kentucky": {
+    "state": "21",
+    "place": "65208",
+    "population": "415"
+  },
+  "Richmond, Kentucky": {
+    "state": "21",
+    "place": "65226",
+    "population": "34585"
+  },
+  "River Bluff, Kentucky": {
+    "state": "21",
+    "place": "65559",
+    "population": "436"
+  },
+  "Riverwood, Kentucky": {
+    "state": "21",
+    "place": "65766",
+    "population": "492"
+  },
+  "Robards, Kentucky": {
+    "state": "21",
+    "place": "65874",
+    "population": "449"
+  },
+  "Rochester, Kentucky": {
+    "state": "21",
+    "place": "65982",
+    "population": "114"
+  },
+  "Rockport, Kentucky": {
+    "state": "21",
+    "place": "66216",
+    "population": "262"
+  },
+  "Rolling Fields, Kentucky": {
+    "state": "21",
+    "place": "66486",
+    "population": "720"
+  },
+  "Rolling Hills, Kentucky": {
+    "state": "21",
+    "place": "66504",
+    "population": "934"
+  },
+  "Russell, Kentucky": {
+    "state": "21",
+    "place": "67458",
+    "population": "3744"
+  },
+  "Russell Springs, Kentucky": {
+    "state": "21",
+    "place": "67494",
+    "population": "2715"
+  },
+  "Russellville, Kentucky": {
+    "state": "21",
+    "place": "67512",
+    "population": "7164"
+  },
+  "Ryland Heights, Kentucky": {
+    "state": "21",
+    "place": "67602",
+    "population": "922"
+  },
+  "Sacramento, Kentucky": {
+    "state": "21",
+    "place": "67638",
+    "population": "429"
+  },
+  "Sadieville, Kentucky": {
+    "state": "21",
+    "place": "67656",
+    "population": "320"
+  },
+  "St. Charles, Kentucky": {
+    "state": "21",
+    "place": "67710",
+    "population": "273"
+  },
+  "St. Mary, Kentucky": {
+    "state": "21",
+    "place": "67890",
+    "population": "138"
+  },
+  "St. Matthews, Kentucky": {
+    "state": "21",
+    "place": "67944",
+    "population": "17534"
+  },
+  "St. Regis Park, Kentucky": {
+    "state": "21",
+    "place": "67998",
+    "population": "1438"
+  },
+  "Salem, Kentucky": {
+    "state": "21",
+    "place": "68052",
+    "population": "722"
+  },
+  "Salt Lick, Kentucky": {
+    "state": "21",
+    "place": "68160",
+    "population": "247"
+  },
+  "Salyersville, Kentucky": {
+    "state": "21",
+    "place": "68232",
+    "population": "1591"
+  },
+  "Sanders, Kentucky": {
+    "state": "21",
+    "place": "68358",
+    "population": "197"
+  },
+  "Sandy Hook, Kentucky": {
+    "state": "21",
+    "place": "68556",
+    "population": "641"
+  },
+  "Sardis, Kentucky": {
+    "state": "21",
+    "place": "68646",
+    "population": "60"
+  },
+  "Science Hill, Kentucky": {
+    "state": "21",
+    "place": "68952",
+    "population": "657"
+  },
+  "Scottsville, Kentucky": {
+    "state": "21",
+    "place": "69114",
+    "population": "4299"
+  },
+  "Corinth, Kentucky": {
+    "state": "21",
+    "place": "17434",
+    "population": "226"
+  },
+  "Corydon, Kentucky": {
+    "state": "21",
+    "place": "17686",
+    "population": "737"
+  },
+  "Covington, Kentucky": {
+    "state": "21",
+    "place": "17848",
+    "population": "40961"
+  },
+  "Crab Orchard, Kentucky": {
+    "state": "21",
+    "place": "17956",
+    "population": "744"
+  },
+  "Creekside, Kentucky": {
+    "state": "21",
+    "place": "18270",
+    "population": "305"
+  },
+  "Crescent Springs, Kentucky": {
+    "state": "21",
+    "place": "18352",
+    "population": "4319"
+  },
+  "Crestview, Kentucky": {
+    "state": "21",
+    "place": "18424",
+    "population": "452"
+  },
+  "Crestview Hills, Kentucky": {
+    "state": "21",
+    "place": "18442",
+    "population": "3246"
+  },
+  "Crestwood, Kentucky": {
+    "state": "21",
+    "place": "18496",
+    "population": "6183"
+  },
+  "Crittenden, Kentucky": {
+    "state": "21",
+    "place": "18568",
+    "population": "4023"
+  },
+  "Crofton, Kentucky": {
+    "state": "21",
+    "place": "18658",
+    "population": "653"
+  },
+  "Crossgate, Kentucky": {
+    "state": "21",
+    "place": "18766",
+    "population": "221"
+  },
+  "Cumberland, Kentucky": {
+    "state": "21",
+    "place": "19108",
+    "population": "1947"
+  },
+  "Cynthiana, Kentucky": {
+    "state": "21",
+    "place": "19432",
+    "population": "6333"
+  },
+  "Danville, Kentucky": {
+    "state": "21",
+    "place": "19882",
+    "population": "17234"
+  },
+  "Dawson Springs, Kentucky": {
+    "state": "21",
+    "place": "20224",
+    "population": "2452"
+  },
+  "Dayton, Kentucky": {
+    "state": "21",
+    "place": "20350",
+    "population": "5666"
+  },
+  "Dixon, Kentucky": {
+    "state": "21",
+    "place": "21682",
+    "population": "933"
+  },
+  "Douglass Hills, Kentucky": {
+    "state": "21",
+    "place": "22204",
+    "population": "5456"
+  },
+  "Dover, Kentucky": {
+    "state": "21",
+    "place": "22222",
+    "population": "221"
+  },
+  "Drakesboro, Kentucky": {
+    "state": "21",
+    "place": "22348",
+    "population": "481"
+  },
+  "Druid Hills, Kentucky": {
+    "state": "21",
+    "place": "22474",
+    "population": "299"
+  },
+  "Dry Ridge, Kentucky": {
+    "state": "21",
+    "place": "22582",
+    "population": "2102"
+  },
+  "Earlington, Kentucky": {
+    "state": "21",
+    "place": "23230",
+    "population": "1257"
+  },
+  "Eddyville, Kentucky": {
+    "state": "21",
+    "place": "23824",
+    "population": "2375"
+  },
+  "Edgewood, Kentucky": {
+    "state": "21",
+    "place": "23932",
+    "population": "8435"
+  },
+  "Edmonton, Kentucky": {
+    "state": "21",
+    "place": "23968",
+    "population": "1671"
+  },
+  "Ekron, Kentucky": {
+    "state": "21",
+    "place": "24094",
+    "population": "175"
+  },
+  "Elizabethtown, Kentucky": {
+    "state": "21",
+    "place": "24274",
+    "population": "31394"
+  },
+  "Corbin, Kentucky": {
+    "state": "21",
+    "place": "17362",
+    "population": "7856"
+  },
+  "Elkhorn City, Kentucky": {
+    "state": "21",
+    "place": "24382",
+    "population": "1035"
+  },
+  "Elkton, Kentucky": {
+    "state": "21",
+    "place": "24400",
+    "population": "2056"
+  },
+  "Elsmere, Kentucky": {
+    "state": "21",
+    "place": "24778",
+    "population": "9159"
+  },
+  "Eminence, Kentucky": {
+    "state": "21",
+    "place": "24904",
+    "population": "2705"
+  },
+  "Erlanger, Kentucky": {
+    "state": "21",
+    "place": "25300",
+    "population": "19611"
+  },
+  "Eubank, Kentucky": {
+    "state": "21",
+    "place": "25552",
+    "population": "313"
+  },
+  "Evarts, Kentucky": {
+    "state": "21",
+    "place": "25606",
+    "population": "859"
+  },
+  "Ewing, Kentucky": {
+    "state": "21",
+    "place": "25786",
+    "population": "228"
+  },
+  "Fairfield, Kentucky": {
+    "state": "21",
+    "place": "26020",
+    "population": "118"
+  },
+  "Fairview, Kentucky": {
+    "state": "21",
+    "place": "26236",
+    "population": "144"
+  },
+  "Falmouth, Kentucky": {
+    "state": "21",
+    "place": "26434",
+    "population": "2216"
+  },
+  "Seneca Gardens, Kentucky": {
+    "state": "21",
+    "place": "69384",
+    "population": "674"
+  },
+  "Sharpsburg, Kentucky": {
+    "state": "21",
+    "place": "69852",
+    "population": "365"
+  },
+  "Shelbyville, Kentucky": {
+    "state": "21",
+    "place": "70050",
+    "population": "17282"
+  },
+  "Shepherdsville, Kentucky": {
+    "state": "21",
+    "place": "70086",
+    "population": "14201"
+  },
+  "Shively, Kentucky": {
+    "state": "21",
+    "place": "70284",
+    "population": "15636"
+  },
+  "Silver Grove, Kentucky": {
+    "state": "21",
+    "place": "70644",
+    "population": "1154"
+  },
+  "Simpsonville, Kentucky": {
+    "state": "21",
+    "place": "70752",
+    "population": "2990"
+  },
+  "Slaughters, Kentucky": {
+    "state": "21",
+    "place": "71130",
+    "population": "190"
+  },
+  "Smithfield, Kentucky": {
+    "state": "21",
+    "place": "71364",
+    "population": "124"
+  },
+  "Smithland, Kentucky": {
+    "state": "21",
+    "place": "71382",
+    "population": "240"
+  },
+  "Smiths Grove, Kentucky": {
+    "state": "21",
+    "place": "71454",
+    "population": "752"
+  },
+  "Somerset, Kentucky": {
+    "state": "21",
+    "place": "71688",
+    "population": "11924"
+  },
+  "Sonora, Kentucky": {
+    "state": "21",
+    "place": "71724",
+    "population": "565"
+  },
+  "South Carrollton, Kentucky": {
+    "state": "21",
+    "place": "71814",
+    "population": "141"
+  },
+  "Southgate, Kentucky": {
+    "state": "21",
+    "place": "71976",
+    "population": "3648"
+  },
+  "South Park View, Kentucky": {
+    "state": "21",
+    "place": "72138",
+    "population": "0"
+  },
+  "South Shore, Kentucky": {
+    "state": "21",
+    "place": "72210",
+    "population": "1066"
+  },
+  "Sparta, Kentucky": {
+    "state": "21",
+    "place": "72372",
+    "population": "236"
+  },
+  "Springfield, Kentucky": {
+    "state": "21",
+    "place": "72660",
+    "population": "2846"
+  },
+  "Spring Mill, Kentucky": {
+    "state": "21",
+    "place": "72770",
+    "population": "294"
+  },
+  "Spring Valley, Kentucky": {
+    "state": "21",
+    "place": "72790",
+    "population": "675"
+  },
+  "Stamping Ground, Kentucky": {
+    "state": "21",
+    "place": "73038",
+    "population": "780"
+  },
+  "Stanford, Kentucky": {
+    "state": "21",
+    "place": "73110",
+    "population": "3640"
+  },
+  "Stanton, Kentucky": {
+    "state": "21",
+    "place": "73164",
+    "population": "3251"
+  },
+  "Strathmoor Manor, Kentucky": {
+    "state": "21",
+    "place": "74064",
+    "population": "351"
+  },
+  "Strathmoor Village, Kentucky": {
+    "state": "21",
+    "place": "74082",
+    "population": "684"
+  },
+  "Sturgis, Kentucky": {
+    "state": "21",
+    "place": "74316",
+    "population": "1735"
+  },
+  "Sycamore, Kentucky": {
+    "state": "21",
+    "place": "75190",
+    "population": "166"
+  },
+  "Taylor Mill, Kentucky": {
+    "state": "21",
+    "place": "75738",
+    "population": "6873"
+  },
+  "Taylorsville, Kentucky": {
+    "state": "21",
+    "place": "75810",
+    "population": "1256"
+  },
+  "Ten Broeck, Kentucky": {
+    "state": "21",
+    "place": "75963",
+    "population": "99"
+  },
+  "Sebree, Kentucky": {
+    "state": "21",
+    "place": "69222",
+    "population": "1574"
+  },
+  "Thornhill, Kentucky": {
+    "state": "21",
+    "place": "76380",
+    "population": "185"
+  },
+  "Tompkinsville, Kentucky": {
+    "state": "21",
+    "place": "77160",
+    "population": "2309"
+  },
+  "Trenton, Kentucky": {
+    "state": "21",
+    "place": "77592",
+    "population": "326"
+  },
+  "Union, Kentucky": {
+    "state": "21",
+    "place": "78384",
+    "population": "7416"
+  },
+  "Uniontown, Kentucky": {
+    "state": "21",
+    "place": "78492",
+    "population": "929"
+  },
+  "Upton, Kentucky": {
+    "state": "21",
+    "place": "78672",
+    "population": "704"
+  },
+  "Vanceburg, Kentucky": {
+    "state": "21",
+    "place": "79068",
+    "population": "1428"
+  },
+  "Versailles, Kentucky": {
+    "state": "21",
+    "place": "79482",
+    "population": "10347"
+  },
+  "Vicco, Kentucky": {
+    "state": "21",
+    "place": "79590",
+    "population": "327"
+  },
+  "Villa Hills, Kentucky": {
+    "state": "21",
+    "place": "79698",
+    "population": "7310"
+  },
+  "Ferguson, Kentucky": {
+    "state": "21",
+    "place": "27010",
+    "population": "886"
+  },
+  "Fincastle, Kentucky": {
+    "state": "21",
+    "place": "27262",
+    "population": "848"
+  },
+  "Flatwoods, Kentucky": {
+    "state": "21",
+    "place": "27802",
+    "population": "7325"
+  },
+  "Fleming-Neon, Kentucky": {
+    "state": "21",
+    "place": "27846",
+    "population": "548"
+  },
+  "Flemingsburg, Kentucky": {
+    "state": "21",
+    "place": "27856",
+    "population": "2953"
+  },
+  "Florence, Kentucky": {
+    "state": "21",
+    "place": "27982",
+    "population": "31946"
+  },
+  "Fordsville, Kentucky": {
+    "state": "21",
+    "place": "28270",
+    "population": "446"
+  },
+  "Forest Hills, Kentucky": {
+    "state": "21",
+    "place": "28342",
+    "population": "438"
+  },
+  "Fort Mitchell, Kentucky": {
+    "state": "21",
+    "place": "28558",
+    "population": "8702"
+  },
+  "Fort Thomas, Kentucky": {
+    "state": "21",
+    "place": "28594",
+    "population": "17438"
+  },
+  "Fort Wright, Kentucky": {
+    "state": "21",
+    "place": "28612",
+    "population": "5851"
+  },
+  "Fountain Run, Kentucky": {
+    "state": "21",
+    "place": "28666",
+    "population": "216"
+  },
+  "Fox Chase, Kentucky": {
+    "state": "21",
+    "place": "28785",
+    "population": "436"
+  },
+  "Frankfort, Kentucky": {
+    "state": "21",
+    "place": "28900",
+    "population": "28602"
+  },
+  "Franklin, Kentucky": {
+    "state": "21",
+    "place": "28918",
+    "population": "10176"
+  },
+  "Fredonia, Kentucky": {
+    "state": "21",
+    "place": "29080",
+    "population": "372"
+  },
+  "Frenchburg, Kentucky": {
+    "state": "21",
+    "place": "29260",
+    "population": "601"
+  },
+  "Fulton, Kentucky": {
+    "state": "21",
+    "place": "29566",
+    "population": "2357"
+  },
+  "Gamaliel, Kentucky": {
+    "state": "21",
+    "place": "29872",
+    "population": "391"
+  },
+  "Georgetown, Kentucky": {
+    "state": "21",
+    "place": "30700",
+    "population": "37086"
+  },
+  "Germantown, Kentucky": {
+    "state": "21",
+    "place": "30718",
+    "population": "146"
+  },
+  "Ghent, Kentucky": {
+    "state": "21",
+    "place": "30808",
+    "population": "363"
+  },
+  "Glasgow, Kentucky": {
+    "state": "21",
+    "place": "31114",
+    "population": "15014"
+  },
+  "Glencoe, Kentucky": {
+    "state": "21",
+    "place": "31204",
+    "population": "350"
+  },
+  "Glenview, Kentucky": {
+    "state": "21",
+    "place": "31348",
+    "population": "596"
+  },
+  "Glenview Hills, Kentucky": {
+    "state": "21",
+    "place": "31402",
+    "population": "377"
+  },
+  "Glenview Manor, Kentucky": {
+    "state": "21",
+    "place": "31420",
+    "population": "206"
+  },
+  "Goose Creek, Kentucky": {
+    "state": "21",
+    "place": "31870",
+    "population": "303"
+  },
+  "Goshen, Kentucky": {
+    "state": "21",
+    "place": "31960",
+    "population": "892"
+  },
+  "Grand Rivers, Kentucky": {
+    "state": "21",
+    "place": "32212",
+    "population": "345"
+  },
+  "Gratz, Kentucky": {
+    "state": "21",
+    "place": "32428",
+    "population": "67"
+  },
+  "Graymoor-Devondale, Kentucky": {
+    "state": "21",
+    "place": "32523",
+    "population": "2853"
+  },
+  "Grayson, Kentucky": {
+    "state": "21",
+    "place": "32572",
+    "population": "3834"
+  },
+  "Greensburg, Kentucky": {
+    "state": "21",
+    "place": "32968",
+    "population": "2179"
+  },
+  "Green Spring, Kentucky": {
+    "state": "21",
+    "place": "32986",
+    "population": "711"
+  },
+  "Greenup, Kentucky": {
+    "state": "21",
+    "place": "33004",
+    "population": "1095"
+  },
+  "Greenville, Kentucky": {
+    "state": "21",
+    "place": "33022",
+    "population": "4492"
+  },
+  "Guthrie, Kentucky": {
+    "state": "21",
+    "place": "33562",
+    "population": "1330"
+  },
+  "Hanson, Kentucky": {
+    "state": "21",
+    "place": "34390",
+    "population": "758"
+  },
+  "Hardin, Kentucky": {
+    "state": "21",
+    "place": "34534",
+    "population": "580"
+  },
+  "Hardinsburg, Kentucky": {
+    "state": "21",
+    "place": "34552",
+    "population": "2385"
+  },
+  "Harlan, Kentucky": {
+    "state": "21",
+    "place": "34732",
+    "population": "1776"
+  },
+  "Harrodsburg, Kentucky": {
+    "state": "21",
+    "place": "34966",
+    "population": "9064"
+  },
+  "Hartford, Kentucky": {
+    "state": "21",
+    "place": "35020",
+    "population": "2668"
+  },
+  "Hawesville, Kentucky": {
+    "state": "21",
+    "place": "35200",
+    "population": "1023"
+  },
+  "Vine Grove, Kentucky": {
+    "state": "21",
+    "place": "79734",
+    "population": "6559"
+  },
+  "Walton, Kentucky": {
+    "state": "21",
+    "place": "80490",
+    "population": "5460"
+  },
+  "Warfield, Kentucky": {
+    "state": "21",
+    "place": "80616",
+    "population": "264"
+  },
+  "Warsaw, Kentucky": {
+    "state": "21",
+    "place": "80706",
+    "population": "1761"
+  },
+  "Watterson Park, Kentucky": {
+    "state": "21",
+    "place": "80913",
+    "population": "1004"
+  },
+  "Waverly, Kentucky": {
+    "state": "21",
+    "place": "80958",
+    "population": "311"
+  },
+  "Wayland, Kentucky": {
+    "state": "21",
+    "place": "81012",
+    "population": "389"
+  },
+  "Wellington, Kentucky": {
+    "state": "21",
+    "place": "81372",
+    "population": "564"
+  },
+  "West Buechel, Kentucky": {
+    "state": "21",
+    "place": "81624",
+    "population": "1370"
+  },
+  "West Liberty, Kentucky": {
+    "state": "21",
+    "place": "81858",
+    "population": "3215"
+  },
+  "West Point, Kentucky": {
+    "state": "21",
+    "place": "81930",
+    "population": "952"
+  },
+  "Westwood, Kentucky": {
+    "state": "21",
+    "place": "82164",
+    "population": "571"
+  },
+  "Wheatcroft, Kentucky": {
+    "state": "21",
+    "place": "82200",
+    "population": "105"
+  },
+  "Wheelwright, Kentucky": {
+    "state": "21",
+    "place": "82272",
+    "population": "509"
+  },
+  "White Plains, Kentucky": {
+    "state": "21",
+    "place": "82722",
+    "population": "829"
+  },
+  "Whitesburg, Kentucky": {
+    "state": "21",
+    "place": "82776",
+    "population": "1773"
+  },
+  "Whitesville, Kentucky": {
+    "state": "21",
+    "place": "82830",
+    "population": "580"
+  },
+  "Wickliffe, Kentucky": {
+    "state": "21",
+    "place": "83064",
+    "population": "670"
+  },
+  "Wilder, Kentucky": {
+    "state": "21",
+    "place": "83172",
+    "population": "3176"
+  },
+  "Wildwood, Kentucky": {
+    "state": "21",
+    "place": "83208",
+    "population": "281"
+  },
+  "Williamsburg, Kentucky": {
+    "state": "21",
+    "place": "83334",
+    "population": "5326"
+  },
+  "Williamstown, Kentucky": {
+    "state": "21",
+    "place": "83406",
+    "population": "3894"
+  },
+  "Willisburg, Kentucky": {
+    "state": "21",
+    "place": "83424",
+    "population": "300"
+  },
+  "Wilmore, Kentucky": {
+    "state": "21",
+    "place": "83550",
+    "population": "5999"
+  },
+  "Winchester, Kentucky": {
+    "state": "21",
+    "place": "83676",
+    "population": "19134"
+  },
+  "Windy Hills, Kentucky": {
+    "state": "21",
+    "place": "83784",
+    "population": "2427"
+  },
+  "Wingo, Kentucky": {
+    "state": "21",
+    "place": "83856",
+    "population": "573"
+  },
+  "Woodburn, Kentucky": {
+    "state": "21",
+    "place": "84414",
+    "population": "303"
+  },
+  "Woodbury, Kentucky": {
+    "state": "21",
+    "place": "84432",
+    "population": "80"
+  },
+  "Woodland Hills, Kentucky": {
+    "state": "21",
+    "place": "84486",
+    "population": "736"
+  },
+  "Woodlawn, Kentucky": {
+    "state": "21",
+    "place": "84522",
+    "population": "212"
+  },
+  "Woodlawn Park, Kentucky": {
+    "state": "21",
+    "place": "84576",
+    "population": "947"
+  },
+  "Worthington, Kentucky": {
+    "state": "21",
+    "place": "84864",
+    "population": "1501"
+  },
+  "Worthington Hills, Kentucky": {
+    "state": "21",
+    "place": "84891",
+    "population": "1563"
+  },
+  "Worthville, Kentucky": {
+    "state": "21",
+    "place": "84900",
+    "population": "181"
+  },
+  "Wurtland, Kentucky": {
+    "state": "21",
+    "place": "85008",
+    "population": "983"
+  },
+  "Hazard, Kentucky": {
+    "state": "21",
+    "place": "35362",
+    "population": "5263"
+  },
+  "Hazel, Kentucky": {
+    "state": "21",
+    "place": "35380",
+    "population": "390"
+  },
+  "Hebron Estates, Kentucky": {
+    "state": "21",
+    "place": "35545",
+    "population": "1014"
+  },
+  "Henderson, Kentucky": {
+    "state": "21",
+    "place": "35866",
+    "population": "27981"
+  },
+  "Heritage Creek, Kentucky": {
+    "state": "21",
+    "place": "36102",
+    "population": "1209"
+  },
+  "Hickman, Kentucky": {
+    "state": "21",
+    "place": "36298",
+    "population": "2365"
+  },
+  "Hickory Hill, Kentucky": {
+    "state": "21",
+    "place": "36374",
+    "population": "119"
+  },
+  "Highland Heights, Kentucky": {
+    "state": "21",
+    "place": "36604",
+    "population": "6662"
+  },
+  "Hills and Dales, Kentucky": {
+    "state": "21",
+    "place": "36865",
+    "population": "146"
+  },
+  "Hillview, Kentucky": {
+    "state": "21",
+    "place": "36982",
+    "population": "8622"
+  },
+  "Hindman, Kentucky": {
+    "state": "21",
+    "place": "37108",
+    "population": "701"
+  },
+  "Hodgenville, Kentucky": {
+    "state": "21",
+    "place": "37396",
+    "population": "3235"
+  },
+  "Hollow Creek, Kentucky": {
+    "state": "21",
+    "place": "37576",
+    "population": "799"
+  },
+  "Hollyvilla, Kentucky": {
+    "state": "21",
+    "place": "37630",
+    "population": "518"
+  },
+  "Hopkinsville, Kentucky": {
+    "state": "21",
+    "place": "37918",
+    "population": "31180"
+  },
+  "Horse Cave, Kentucky": {
+    "state": "21",
+    "place": "38008",
+    "population": "2212"
+  },
+  "Houston Acres, Kentucky": {
+    "state": "21",
+    "place": "38170",
+    "population": "492"
+  },
+  "Hunters Hollow, Kentucky": {
+    "state": "21",
+    "place": "38670",
+    "population": "324"
+  },
+  "Hurstbourne, Kentucky": {
+    "state": "21",
+    "place": "38814",
+    "population": "4683"
+  },
+  "Hurstbourne Acres, Kentucky": {
+    "state": "21",
+    "place": "38818",
+    "population": "1957"
+  },
+  "Hustonville, Kentucky": {
+    "state": "21",
+    "place": "38836",
+    "population": "387"
+  },
+  "Hyden, Kentucky": {
+    "state": "21",
+    "place": "38908",
+    "population": "303"
+  },
+  "Independence, Kentucky": {
+    "state": "21",
+    "place": "39142",
+    "population": "28676"
+  },
+  "Indian Hills, Kentucky": {
+    "state": "21",
+    "place": "39304",
+    "population": "2860"
+  },
+  "Inez, Kentucky": {
+    "state": "21",
+    "place": "39430",
+    "population": "546"
+  },
+  "Irvine, Kentucky": {
+    "state": "21",
+    "place": "39646",
+    "population": "2360"
+  },
+  "Irvington, Kentucky": {
+    "state": "21",
+    "place": "39664",
+    "population": "1231"
+  },
+  "Island, Kentucky": {
+    "state": "21",
+    "place": "39700",
+    "population": "429"
+  },
+  "Jackson, Kentucky": {
+    "state": "21",
+    "place": "39952",
+    "population": "2237"
+  },
+  "Jamestown, Kentucky": {
+    "state": "21",
+    "place": "40114",
+    "population": "1867"
+  },
+  "Jeffersontown, Kentucky": {
+    "state": "21",
+    "place": "40222",
+    "population": "28474"
+  },
+  "Jeffersonville, Kentucky": {
+    "state": "21",
+    "place": "40240",
+    "population": "1708"
+  },
+  "Jenkins, Kentucky": {
+    "state": "21",
+    "place": "40312",
+    "population": "1902"
+  },
+  "Junction City, Kentucky": {
+    "state": "21",
+    "place": "41338",
+    "population": "2268"
+  },
+  "Keene, Kentucky": {
+    "state": "21",
+    "place": "41716",
+    "population": "99"
+  },
+  "Kenton Vale, Kentucky": {
+    "state": "21",
+    "place": "42094",
+    "population": "105"
+  },
+  "Kevil, Kentucky": {
+    "state": "21",
+    "place": "42292",
+    "population": "595"
+  },
+  "Kingsley, Kentucky": {
+    "state": "21",
+    "place": "42598",
+    "population": "397"
+  },
+  "Kuttawa, Kentucky": {
+    "state": "21",
+    "place": "43264",
+    "population": "629"
+  },
+  "La Center, Kentucky": {
+    "state": "21",
+    "place": "43336",
+    "population": "872"
+  },
+  "LaFayette, Kentucky": {
+    "state": "21",
+    "place": "43444",
+    "population": "177"
+  },
+  "La Grange, Kentucky": {
+    "state": "21",
+    "place": "43480",
+    "population": "10067"
+  },
+  "Lakeside Park, Kentucky": {
+    "state": "21",
+    "place": "43606",
+    "population": "2841"
+  },
+  "Lakeview Heights, Kentucky": {
+    "state": "21",
+    "place": "43668",
+    "population": "277"
+  },
+  "Lancaster, Kentucky": {
+    "state": "21",
+    "place": "43840",
+    "population": "3899"
+  },
+  "Langdon Place, Kentucky": {
+    "state": "21",
+    "place": "43900",
+    "population": "870"
+  },
+  "Lawrenceburg, Kentucky": {
+    "state": "21",
+    "place": "44146",
+    "population": "11728"
+  }
+}

@@ -1,0 +1,517 @@
+{
+  "Mountain City, Georgia": {
+    "state": "13",
+    "place": "53116",
+    "population": "904"
+  },
+  "Mount Airy, Georgia": {
+    "state": "13",
+    "place": "53284",
+    "population": "1391"
+  },
+  "Newborn, Georgia": {
+    "state": "13",
+    "place": "54656",
+    "population": "676"
+  },
+  "Newington, Georgia": {
+    "state": "13",
+    "place": "54992",
+    "population": "290"
+  },
+  "North High Shoals, Georgia": {
+    "state": "13",
+    "place": "56308",
+    "population": "552"
+  },
+  "Oak Park, Georgia": {
+    "state": "13",
+    "place": "57232",
+    "population": "512"
+  },
+  "Ochlocknee, Georgia": {
+    "state": "13",
+    "place": "57372",
+    "population": "672"
+  },
+  "Orchard Hill, Georgia": {
+    "state": "13",
+    "place": "58296",
+    "population": "219"
+  },
+  "Parrott, Georgia": {
+    "state": "13",
+    "place": "59416",
+    "population": "120"
+  },
+  "Pendergrass, Georgia": {
+    "state": "13",
+    "place": "60032",
+    "population": "1692"
+  },
+  "Pine Mountain, Georgia": {
+    "state": "13",
+    "place": "61124",
+    "population": "1216"
+  },
+  "Pineview, Georgia": {
+    "state": "13",
+    "place": "61320",
+    "population": "454"
+  },
+  "Portal, Georgia": {
+    "state": "13",
+    "place": "62216",
+    "population": "638"
+  },
+  "Pulaski, Georgia": {
+    "state": "13",
+    "place": "63000",
+    "population": "211"
+  },
+  "Ranger, Georgia": {
+    "state": "13",
+    "place": "63560",
+    "population": "107"
+  },
+  "Rayle, Georgia": {
+    "state": "13",
+    "place": "63756",
+    "population": "158"
+  },
+  "Rebecca, Georgia": {
+    "state": "13",
+    "place": "63840",
+    "population": "208"
+  },
+  "Register, Georgia": {
+    "state": "13",
+    "place": "64372",
+    "population": "157"
+  },
+  "Resaca, Georgia": {
+    "state": "13",
+    "place": "64736",
+    "population": "1142"
+  },
+  "Rest Haven, Georgia": {
+    "state": "13",
+    "place": "64792",
+    "population": "45"
+  },
+  "Rhine, Georgia": {
+    "state": "13",
+    "place": "64932",
+    "population": "295"
+  },
+  "Riddleville, Georgia": {
+    "state": "13",
+    "place": "65156",
+    "population": "80"
+  },
+  "Rocky Ford, Georgia": {
+    "state": "13",
+    "place": "66444",
+    "population": "167"
+  },
+  "Roopville, Georgia": {
+    "state": "13",
+    "place": "66696",
+    "population": "231"
+  },
+  "Sasser, Georgia": {
+    "state": "13",
+    "place": "68796",
+    "population": "287"
+  },
+  "Shady Dale, Georgia": {
+    "state": "13",
+    "place": "69784",
+    "population": "252"
+  },
+  "Sharpsburg, Georgia": {
+    "state": "13",
+    "place": "69980",
+    "population": "327"
+  },
+  "Siloam, Georgia": {
+    "state": "13",
+    "place": "70932",
+    "population": "194"
+  },
+  "Sparks, Georgia": {
+    "state": "13",
+    "place": "72556",
+    "population": "2043"
+  },
+  "Sumner, Georgia": {
+    "state": "13",
+    "place": "74432",
+    "population": "445"
+  },
+  "Surrency, Georgia": {
+    "state": "13",
+    "place": "74852",
+    "population": "194"
+  },
+  "Talking Rock, Georgia": {
+    "state": "13",
+    "place": "75272",
+    "population": "91"
+  },
+  "Tallulah Falls, Georgia": {
+    "state": "13",
+    "place": "75328",
+    "population": "199"
+  },
+  "Talmo, Georgia": {
+    "state": "13",
+    "place": "75412",
+    "population": "257"
+  },
+  "Tarrytown, Georgia": {
+    "state": "13",
+    "place": "75496",
+    "population": "66"
+  },
+  "Taylorsville, Georgia": {
+    "state": "13",
+    "place": "75664",
+    "population": "252"
+  },
+  "Thunderbolt, Georgia": {
+    "state": "13",
+    "place": "76364",
+    "population": "2556"
+  },
+  "Tiger, Georgia": {
+    "state": "13",
+    "place": "76504",
+    "population": "422"
+  },
+  "Tignall, Georgia": {
+    "state": "13",
+    "place": "76532",
+    "population": "485"
+  },
+  "Trion, Georgia": {
+    "state": "13",
+    "place": "77540",
+    "population": "1960"
+  },
+  "Turin, Georgia": {
+    "state": "13",
+    "place": "77764",
+    "population": "347"
+  },
+  "Tyrone, Georgia": {
+    "state": "13",
+    "place": "78044",
+    "population": "7658"
+  },
+  "Vernonburg, Georgia": {
+    "state": "13",
+    "place": "79164",
+    "population": "139"
+  },
+  "Waverly Hall, Georgia": {
+    "state": "13",
+    "place": "80844",
+    "population": "638"
+  },
+  "Woolsey, Georgia": {
+    "state": "13",
+    "place": "84288",
+    "population": "206"
+  },
+  "Yatesville, Georgia": {
+    "state": "13",
+    "place": "84708",
+    "population": "394"
+  },
+  "Alamo, Georgia": {
+    "state": "13",
+    "place": "00996",
+    "population": "771"
+  },
+  "Alapaha, Georgia": {
+    "state": "13",
+    "place": "01024",
+    "population": "481"
+  },
+  "Aldora, Georgia": {
+    "state": "13",
+    "place": "01248",
+    "population": "0"
+  },
+  "Alston, Georgia": {
+    "state": "13",
+    "place": "01808",
+    "population": "178"
+  },
+  "Alto, Georgia": {
+    "state": "13",
+    "place": "01948",
+    "population": "970"
+  },
+  "Arabi, Georgia": {
+    "state": "13",
+    "place": "02564",
+    "population": "447"
+  },
+  "Argyle, Georgia": {
+    "state": "13",
+    "place": "02844",
+    "population": "190"
+  },
+  "Avalon, Georgia": {
+    "state": "13",
+    "place": "04392",
+    "population": "233"
+  },
+  "Bartow, Georgia": {
+    "state": "13",
+    "place": "05680",
+    "population": "186"
+  },
+  "Bethlehem, Georgia": {
+    "state": "13",
+    "place": "07612",
+    "population": "715"
+  },
+  "Between, Georgia": {
+    "state": "13",
+    "place": "07640",
+    "population": "402"
+  },
+  "Bishop, Georgia": {
+    "state": "13",
+    "place": "08200",
+    "population": "332"
+  },
+  "Bluffton, Georgia": {
+    "state": "13",
+    "place": "08956",
+    "population": "113"
+  },
+  "Bogart, Georgia": {
+    "state": "13",
+    "place": "09068",
+    "population": "1326"
+  },
+  "Bowersville, Georgia": {
+    "state": "13",
+    "place": "09656",
+    "population": "444"
+  },
+  "Braselton, Georgia": {
+    "state": "13",
+    "place": "10076",
+    "population": "13403"
+  },
+  "Braswell, Georgia": {
+    "state": "13",
+    "place": "10104",
+    "population": "355"
+  },
+  "Brinson, Georgia": {
+    "state": "13",
+    "place": "10608",
+    "population": "217"
+  },
+  "Bronwood, Georgia": {
+    "state": "13",
+    "place": "10860",
+    "population": "334"
+  },
+  "Brooks, Georgia": {
+    "state": "13",
+    "place": "11056",
+    "population": "568"
+  },
+  "Buckhead, Georgia": {
+    "state": "13",
+    "place": "11672",
+    "population": "194"
+  },
+  "Byromville, Georgia": {
+    "state": "13",
+    "place": "12232",
+    "population": "422"
+  },
+  "Cadwell, Georgia": {
+    "state": "13",
+    "place": "12344",
+    "population": "381"
+  },
+  "Camak, Georgia": {
+    "state": "13",
+    "place": "12512",
+    "population": "141"
+  },
+  "Carl, Georgia": {
+    "state": "13",
+    "place": "13184",
+    "population": "209"
+  },
+  "Centralhatchee, Georgia": {
+    "state": "13",
+    "place": "15026",
+    "population": "348"
+  },
+  "Chester, Georgia": {
+    "state": "13",
+    "place": "15900",
+    "population": "525"
+  },
+  "Clermont, Georgia": {
+    "state": "13",
+    "place": "16796",
+    "population": "1021"
+  },
+  "Danville, Georgia": {
+    "state": "13",
+    "place": "21688",
+    "population": "165"
+  },
+  "Dasher, Georgia": {
+    "state": "13",
+    "place": "21744",
+    "population": "890"
+  },
+  "Dearing, Georgia": {
+    "state": "13",
+    "place": "22024",
+    "population": "529"
+  },
+  "Deepstep, Georgia": {
+    "state": "13",
+    "place": "22108",
+    "population": "117"
+  },
+  "Dexter, Georgia": {
+    "state": "13",
+    "place": "22752",
+    "population": "655"
+  },
+  "Dooling, Georgia": {
+    "state": "13",
+    "place": "23480",
+    "population": "68"
+  },
+  "Du Pont, Georgia": {
+    "state": "13",
+    "place": "24796",
+    "population": "134"
+  },
+  "Ellenton, Georgia": {
+    "state": "13",
+    "place": "27008",
+    "population": "210"
+  },
+  "Enigma, Georgia": {
+    "state": "13",
+    "place": "27596",
+    "population": "1058"
+  },
+  "Gay, Georgia": {
+    "state": "13",
+    "place": "32384",
+    "population": "110"
+  },
+  "Geneva, Georgia": {
+    "state": "13",
+    "place": "32412",
+    "population": "75"
+  },
+  "Girard, Georgia": {
+    "state": "13",
+    "place": "32916",
+    "population": "184"
+  },
+  "Haralson, Georgia": {
+    "state": "13",
+    "place": "36528",
+    "population": "172"
+  },
+  "Harrison, Georgia": {
+    "state": "13",
+    "place": "36920",
+    "population": "339"
+  },
+  "Higgston, Georgia": {
+    "state": "13",
+    "place": "38348",
+    "population": "314"
+  },
+  "Hiltonia, Georgia": {
+    "state": "13",
+    "place": "38920",
+    "population": "310"
+  },
+  "Homer, Georgia": {
+    "state": "13",
+    "place": "39720",
+    "population": "1264"
+  },
+  "Iron City, Georgia": {
+    "state": "13",
+    "place": "41344",
+    "population": "312"
+  },
+  "Junction City, Georgia": {
+    "state": "13",
+    "place": "42800",
+    "population": "138"
+  },
+  "Lenox, Georgia": {
+    "state": "13",
+    "place": "45936",
+    "population": "752"
+  },
+  "Lone Oak, Georgia": {
+    "state": "13",
+    "place": "47252",
+    "population": "114"
+  },
+  "Lyerly, Georgia": {
+    "state": "13",
+    "place": "48092",
+    "population": "454"
+  },
+  "McIntyre, Georgia": {
+    "state": "13",
+    "place": "48848",
+    "population": "575"
+  },
+  "Martin, Georgia": {
+    "state": "13",
+    "place": "50008",
+    "population": "336"
+  },
+  "Maxeys, Georgia": {
+    "state": "13",
+    "place": "50260",
+    "population": "198"
+  },
+  "Maysville, Georgia": {
+    "state": "13",
+    "place": "50484",
+    "population": "1867"
+  },
+  "Mitchell, Georgia": {
+    "state": "13",
+    "place": "51968",
+    "population": "153"
+  },
+  "Montrose, Georgia": {
+    "state": "13",
+    "place": "52500",
+    "population": "203"
+  },
+  "Moreland, Georgia": {
+    "state": "13",
+    "place": "52668",
+    "population": "382"
+  }
+}

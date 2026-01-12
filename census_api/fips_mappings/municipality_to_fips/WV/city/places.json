@@ -1,0 +1,392 @@
+{
+  "Buckhannon, West Virginia": {
+    "state": "54",
+    "place": "11188",
+    "population": "5186"
+  },
+  "Cameron, West Virginia": {
+    "state": "54",
+    "place": "12484",
+    "population": "861"
+  },
+  "Ceredo, West Virginia": {
+    "state": "54",
+    "place": "14308",
+    "population": "1408"
+  },
+  "Charleston, West Virginia": {
+    "state": "54",
+    "place": "14600",
+    "population": "48864"
+  },
+  "Charles Town, West Virginia": {
+    "state": "54",
+    "place": "14610",
+    "population": "6534"
+  },
+  "Chester, West Virginia": {
+    "state": "54",
+    "place": "15076",
+    "population": "2208"
+  },
+  "Clarksburg, West Virginia": {
+    "state": "54",
+    "place": "15628",
+    "population": "16061"
+  },
+  "Dunbar, West Virginia": {
+    "state": "54",
+    "place": "22564",
+    "population": "7480"
+  },
+  "Elkins, West Virginia": {
+    "state": "54",
+    "place": "24580",
+    "population": "6934"
+  },
+  "Fairmont, West Virginia": {
+    "state": "54",
+    "place": "26452",
+    "population": "18416"
+  },
+  "Follansbee, West Virginia": {
+    "state": "54",
+    "place": "28204",
+    "population": "2848"
+  },
+  "Gary, West Virginia": {
+    "state": "54",
+    "place": "30196",
+    "population": "773"
+  },
+  "Glen Dale, West Virginia": {
+    "state": "54",
+    "place": "31492",
+    "population": "1496"
+  },
+  "Grafton, West Virginia": {
+    "state": "54",
+    "place": "32716",
+    "population": "4722"
+  },
+  "Hinton, West Virginia": {
+    "state": "54",
+    "place": "37636",
+    "population": "2245"
+  },
+  "Huntington, West Virginia": {
+    "state": "54",
+    "place": "39460",
+    "population": "46842"
+  },
+  "Hurricane, West Virginia": {
+    "state": "54",
+    "place": "39532",
+    "population": "6961"
+  },
+  "Kenova, West Virginia": {
+    "state": "54",
+    "place": "43180",
+    "population": "3033"
+  },
+  "Keyser, West Virginia": {
+    "state": "54",
+    "place": "43492",
+    "population": "4864"
+  },
+  "Keystone, West Virginia": {
+    "state": "54",
+    "place": "43516",
+    "population": "176"
+  },
+  "Kingwood, West Virginia": {
+    "state": "54",
+    "place": "44044",
+    "population": "2980"
+  },
+  "Lewisburg, West Virginia": {
+    "state": "54",
+    "place": "46636",
+    "population": "3922"
+  },
+  "Logan, West Virginia": {
+    "state": "54",
+    "place": "48148",
+    "population": "1439"
+  },
+  "McMechen, West Virginia": {
+    "state": "54",
+    "place": "50260",
+    "population": "1697"
+  },
+  "Madison, West Virginia": {
+    "state": "54",
+    "place": "50524",
+    "population": "2913"
+  },
+  "Mannington, West Virginia": {
+    "state": "54",
+    "place": "51100",
+    "population": "1952"
+  },
+  "Marmet, West Virginia": {
+    "state": "54",
+    "place": "51724",
+    "population": "1504"
+  },
+  "Martinsburg, West Virginia": {
+    "state": "54",
+    "place": "52060",
+    "population": "18777"
+  },
+  "Montgomery, West Virginia": {
+    "state": "54",
+    "place": "55468",
+    "population": "1275"
+  },
+  "Morgantown, West Virginia": {
+    "state": "54",
+    "place": "55756",
+    "population": "30347"
+  },
+  "Moundsville, West Virginia": {
+    "state": "54",
+    "place": "56020",
+    "population": "8093"
+  },
+  "Mount Hope, West Virginia": {
+    "state": "54",
+    "place": "56404",
+    "population": "1125"
+  },
+  "Mullens, West Virginia": {
+    "state": "54",
+    "place": "57148",
+    "population": "1480"
+  },
+  "New Cumberland, West Virginia": {
+    "state": "54",
+    "place": "58372",
+    "population": "1020"
+  },
+  "New Martinsville, West Virginia": {
+    "state": "54",
+    "place": "58684",
+    "population": "5204"
+  },
+  "Nitro, West Virginia": {
+    "state": "54",
+    "place": "59068",
+    "population": "6624"
+  },
+  "Oak Hill, West Virginia": {
+    "state": "54",
+    "place": "60028",
+    "population": "8179"
+  },
+  "Paden City, West Virginia": {
+    "state": "54",
+    "place": "61636",
+    "population": "2541"
+  },
+  "Parkersburg, West Virginia": {
+    "state": "54",
+    "place": "62140",
+    "population": "29738"
+  },
+  "Parsons, West Virginia": {
+    "state": "54",
+    "place": "62284",
+    "population": "1327"
+  },
+  "Pennsboro, West Virginia": {
+    "state": "54",
+    "place": "62764",
+    "population": "1054"
+  },
+  "Petersburg, West Virginia": {
+    "state": "54",
+    "place": "62956",
+    "population": "2284"
+  },
+  "Philippi, West Virginia": {
+    "state": "54",
+    "place": "63292",
+    "population": "2929"
+  },
+  "Pleasant Valley, West Virginia": {
+    "state": "54",
+    "place": "64228",
+    "population": "3498"
+  },
+  "Point Pleasant, West Virginia": {
+    "state": "54",
+    "place": "64708",
+    "population": "4070"
+  },
+  "Princeton, West Virginia": {
+    "state": "54",
+    "place": "65692",
+    "population": "5872"
+  },
+  "Ravenswood, West Virginia": {
+    "state": "54",
+    "place": "67108",
+    "population": "3865"
+  },
+  "Richwood, West Virginia": {
+    "state": "54",
+    "place": "68116",
+    "population": "1660"
+  },
+  "Ripley, West Virginia": {
+    "state": "54",
+    "place": "68596",
+    "population": "3079"
+  },
+  "Romney, West Virginia": {
+    "state": "54",
+    "place": "70084",
+    "population": "1724"
+  },
+  "Ronceverte, West Virginia": {
+    "state": "54",
+    "place": "70156",
+    "population": "1572"
+  },
+  "St. Albans, West Virginia": {
+    "state": "54",
+    "place": "71212",
+    "population": "10861"
+  },
+  "St. Marys, West Virginia": {
+    "state": "54",
+    "place": "71356",
+    "population": "1831"
+  },
+  "Salem, West Virginia": {
+    "state": "54",
+    "place": "71380",
+    "population": "1529"
+  },
+  "Shinnston, West Virginia": {
+    "state": "54",
+    "place": "73636",
+    "population": "2328"
+  },
+  "Sistersville, West Virginia": {
+    "state": "54",
+    "place": "74380",
+    "population": "1412"
+  },
+  "Smithers, West Virginia": {
+    "state": "54",
+    "place": "74740",
+    "population": "754"
+  },
+  "South Charleston, West Virginia": {
+    "state": "54",
+    "place": "75292",
+    "population": "13647"
+  },
+  "Spencer, West Virginia": {
+    "state": "54",
+    "place": "75820",
+    "population": "2063"
+  },
+  "Stonewood, West Virginia": {
+    "state": "54",
+    "place": "77188",
+    "population": "1798"
+  },
+  "Summersville, West Virginia": {
+    "state": "54",
+    "place": "77980",
+    "population": "3431"
+  },
+  "Thomas, West Virginia": {
+    "state": "54",
+    "place": "80020",
+    "population": "611"
+  },
+  "Vienna, West Virginia": {
+    "state": "54",
+    "place": "83500",
+    "population": "10652"
+  },
+  "War, West Virginia": {
+    "state": "54",
+    "place": "84484",
+    "population": "623"
+  },
+  "Weirton, West Virginia": {
+    "state": "54",
+    "place": "85156",
+    "population": "19163"
+  },
+  "Welch, West Virginia": {
+    "state": "54",
+    "place": "85228",
+    "population": "3590"
+  },
+  "Wellsburg, West Virginia": {
+    "state": "54",
+    "place": "85324",
+    "population": "2450"
+  },
+  "Weston, West Virginia": {
+    "state": "54",
+    "place": "85972",
+    "population": "3952"
+  },
+  "Westover, West Virginia": {
+    "state": "54",
+    "place": "85996",
+    "population": "3955"
+  },
+  "Wheeling, West Virginia": {
+    "state": "54",
+    "place": "86452",
+    "population": "27052"
+  },
+  "White Sulphur Springs, West Virginia": {
+    "state": "54",
+    "place": "86812",
+    "population": "2221"
+  },
+  "Williamson, West Virginia": {
+    "state": "54",
+    "place": "87508",
+    "population": "3083"
+  },
+  "Williamstown, West Virginia": {
+    "state": "54",
+    "place": "87556",
+    "population": "2997"
+  },
+  "Beckley, West Virginia": {
+    "state": "54",
+    "place": "05332",
+    "population": "17286"
+  },
+  "Belmont, West Virginia": {
+    "state": "54",
+    "place": "06004",
+    "population": "875"
+  },
+  "Benwood, West Virginia": {
+    "state": "54",
+    "place": "06340",
+    "population": "1252"
+  },
+  "Bluefield, West Virginia": {
+    "state": "54",
+    "place": "08524",
+    "population": "9658"
+  },
+  "Bridgeport, West Virginia": {
+    "state": "54",
+    "place": "10180",
+    "population": "9336"
+  }
+}

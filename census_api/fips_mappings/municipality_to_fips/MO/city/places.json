@@ -1,0 +1,3212 @@
+{
+  "Bismarck, Missouri": {
+    "state": "29",
+    "place": "05878",
+    "population": "1239"
+  },
+  "Blackburn, Missouri": {
+    "state": "29",
+    "place": "05950",
+    "population": "224"
+  },
+  "Black Jack, Missouri": {
+    "state": "29",
+    "place": "06004",
+    "population": "6634"
+  },
+  "Blackwater, Missouri": {
+    "state": "29",
+    "place": "06148",
+    "population": "170"
+  },
+  "Blairstown, Missouri": {
+    "state": "29",
+    "place": "06238",
+    "population": "95"
+  },
+  "Bland, Missouri": {
+    "state": "29",
+    "place": "06256",
+    "population": "506"
+  },
+  "Bloomfield, Missouri": {
+    "state": "29",
+    "place": "06382",
+    "population": "1755"
+  },
+  "Bloomsdale, Missouri": {
+    "state": "29",
+    "place": "06454",
+    "population": "639"
+  },
+  "Blue Springs, Missouri": {
+    "state": "29",
+    "place": "06652",
+    "population": "58603"
+  },
+  "Bogard, Missouri": {
+    "state": "29",
+    "place": "06832",
+    "population": "167"
+  },
+  "Bolckow, Missouri": {
+    "state": "29",
+    "place": "06922",
+    "population": "163"
+  },
+  "Bolivar, Missouri": {
+    "state": "29",
+    "place": "06976",
+    "population": "10679"
+  },
+  "Bonne Terre, Missouri": {
+    "state": "29",
+    "place": "07102",
+    "population": "6903"
+  },
+  "Boonville, Missouri": {
+    "state": "29",
+    "place": "07318",
+    "population": "7964"
+  },
+  "Bosworth, Missouri": {
+    "state": "29",
+    "place": "07426",
+    "population": "213"
+  },
+  "Bourbon, Missouri": {
+    "state": "29",
+    "place": "07534",
+    "population": "1567"
+  },
+  "Bowling Green, Missouri": {
+    "state": "29",
+    "place": "07660",
+    "population": "4195"
+  },
+  "Brandsville, Missouri": {
+    "state": "29",
+    "place": "07948",
+    "population": "127"
+  },
+  "Branson, Missouri": {
+    "state": "29",
+    "place": "07966",
+    "population": "12638"
+  },
+  "Branson West, Missouri": {
+    "state": "29",
+    "place": "07989",
+    "population": "484"
+  },
+  "Brashear, Missouri": {
+    "state": "29",
+    "place": "08002",
+    "population": "235"
+  },
+  "Braymer, Missouri": {
+    "state": "29",
+    "place": "08038",
+    "population": "737"
+  },
+  "Breckenridge, Missouri": {
+    "state": "29",
+    "place": "08128",
+    "population": "258"
+  },
+  "Breckenridge Hills, Missouri": {
+    "state": "29",
+    "place": "08164",
+    "population": "4458"
+  },
+  "Brentwood, Missouri": {
+    "state": "29",
+    "place": "08236",
+    "population": "8233"
+  },
+  "Bridgeton, Missouri": {
+    "state": "29",
+    "place": "08398",
+    "population": "11445"
+  },
+  "Bronaugh, Missouri": {
+    "state": "29",
+    "place": "08614",
+    "population": "163"
+  },
+  "Brookfield, Missouri": {
+    "state": "29",
+    "place": "08650",
+    "population": "4111"
+  },
+  "Browning, Missouri": {
+    "state": "29",
+    "place": "08884",
+    "population": "219"
+  },
+  "Brunswick, Missouri": {
+    "state": "29",
+    "place": "09046",
+    "population": "801"
+  },
+  "Bucklin, Missouri": {
+    "state": "29",
+    "place": "09388",
+    "population": "413"
+  },
+  "Buckner, Missouri": {
+    "state": "29",
+    "place": "09424",
+    "population": "2945"
+  },
+  "Buffalo, Missouri": {
+    "state": "29",
+    "place": "09514",
+    "population": "3290"
+  },
+  "Bunceton, Missouri": {
+    "state": "29",
+    "place": "09658",
+    "population": "334"
+  },
+  "Bunker, Missouri": {
+    "state": "29",
+    "place": "09694",
+    "population": "295"
+  },
+  "Burlington Junction, Missouri": {
+    "state": "29",
+    "place": "09838",
+    "population": "521"
+  },
+  "Butler, Missouri": {
+    "state": "29",
+    "place": "10054",
+    "population": "4220"
+  },
+  "Butterfield, Missouri": {
+    "state": "29",
+    "place": "10144",
+    "population": "378"
+  },
+  "Byrnes Mill, Missouri": {
+    "state": "29",
+    "place": "10240",
+    "population": "3173"
+  },
+  "Fairfax, Missouri": {
+    "state": "29",
+    "place": "23266",
+    "population": "648"
+  },
+  "Fair Grove, Missouri": {
+    "state": "29",
+    "place": "23338",
+    "population": "1582"
+  },
+  "Fair Play, Missouri": {
+    "state": "29",
+    "place": "23428",
+    "population": "422"
+  },
+  "Farber, Missouri": {
+    "state": "29",
+    "place": "23662",
+    "population": "255"
+  },
+  "Farmington, Missouri": {
+    "state": "29",
+    "place": "23752",
+    "population": "18217"
+  },
+  "Fayette, Missouri": {
+    "state": "29",
+    "place": "23842",
+    "population": "2803"
+  },
+  "Fenton, Missouri": {
+    "state": "29",
+    "place": "23950",
+    "population": "3989"
+  },
+  "Ferguson, Missouri": {
+    "state": "29",
+    "place": "23986",
+    "population": "18527"
+  },
+  "Festus, Missouri": {
+    "state": "29",
+    "place": "24094",
+    "population": "12706"
+  },
+  "Fillmore, Missouri": {
+    "state": "29",
+    "place": "24184",
+    "population": "173"
+  },
+  "Fisk, Missouri": {
+    "state": "29",
+    "place": "24328",
+    "population": "312"
+  },
+  "Fleming, Missouri": {
+    "state": "29",
+    "place": "24562",
+    "population": "114"
+  },
+  "Flint Hill, Missouri": {
+    "state": "29",
+    "place": "24688",
+    "population": "981"
+  },
+  "Flordell Hills, Missouri": {
+    "state": "29",
+    "place": "24706",
+    "population": "724"
+  },
+  "Florissant, Missouri": {
+    "state": "29",
+    "place": "24778",
+    "population": "52533"
+  },
+  "Foley, Missouri": {
+    "state": "29",
+    "place": "24886",
+    "population": "89"
+  },
+  "Fordland, Missouri": {
+    "state": "29",
+    "place": "25012",
+    "population": "778"
+  },
+  "Forest City, Missouri": {
+    "state": "29",
+    "place": "25066",
+    "population": "243"
+  },
+  "Foristell, Missouri": {
+    "state": "29",
+    "place": "25120",
+    "population": "550"
+  },
+  "Forsyth, Missouri": {
+    "state": "29",
+    "place": "25192",
+    "population": "2730"
+  },
+  "Frankford, Missouri": {
+    "state": "29",
+    "place": "25552",
+    "population": "343"
+  },
+  "Franklin, Missouri": {
+    "state": "29",
+    "place": "25624",
+    "population": "70"
+  },
+  "Fredericktown, Missouri": {
+    "state": "29",
+    "place": "25768",
+    "population": "4429"
+  },
+  "Freeman, Missouri": {
+    "state": "29",
+    "place": "25894",
+    "population": "475"
+  },
+  "Fremont Hills, Missouri": {
+    "state": "29",
+    "place": "25957",
+    "population": "1049"
+  },
+  "Frohna, Missouri": {
+    "state": "29",
+    "place": "26092",
+    "population": "245"
+  },
+  "Frontenac, Missouri": {
+    "state": "29",
+    "place": "26110",
+    "population": "3612"
+  },
+  "Fulton, Missouri": {
+    "state": "29",
+    "place": "26182",
+    "population": "12600"
+  },
+  "Gainesville, Missouri": {
+    "state": "29",
+    "place": "26218",
+    "population": "745"
+  },
+  "Galena, Missouri": {
+    "state": "29",
+    "place": "26254",
+    "population": "455"
+  },
+  "Gallatin, Missouri": {
+    "state": "29",
+    "place": "26308",
+    "population": "1821"
+  },
+  "Galt, Missouri": {
+    "state": "29",
+    "place": "26362",
+    "population": "168"
+  },
+  "Garden City, Missouri": {
+    "state": "29",
+    "place": "26434",
+    "population": "1629"
+  },
+  "Gasconade, Missouri": {
+    "state": "29",
+    "place": "26578",
+    "population": "172"
+  },
+  "Gerald, Missouri": {
+    "state": "29",
+    "place": "26866",
+    "population": "1361"
+  },
+  "Lowry City, Missouri": {
+    "state": "29",
+    "place": "44282",
+    "population": "613"
+  },
+  "McFall, Missouri": {
+    "state": "29",
+    "place": "45020",
+    "population": "119"
+  },
+  "Macon, Missouri": {
+    "state": "29",
+    "place": "45326",
+    "population": "5457"
+  },
+  "Madison, Missouri": {
+    "state": "29",
+    "place": "45470",
+    "population": "515"
+  },
+  "Maitland, Missouri": {
+    "state": "29",
+    "place": "45596",
+    "population": "276"
+  },
+  "Malden, Missouri": {
+    "state": "29",
+    "place": "45614",
+    "population": "3706"
+  },
+  "Manchester, Missouri": {
+    "state": "29",
+    "place": "45668",
+    "population": "18333"
+  },
+  "Mansfield, Missouri": {
+    "state": "29",
+    "place": "45740",
+    "population": "1193"
+  },
+  "Maplewood, Missouri": {
+    "state": "29",
+    "place": "45830",
+    "population": "8269"
+  },
+  "Marble Hill, Missouri": {
+    "state": "29",
+    "place": "45848",
+    "population": "1388"
+  },
+  "Marceline, Missouri": {
+    "state": "29",
+    "place": "45866",
+    "population": "2123"
+  },
+  "Marionville, Missouri": {
+    "state": "29",
+    "place": "46172",
+    "population": "2054"
+  },
+  "Marquand, Missouri": {
+    "state": "29",
+    "place": "46244",
+    "population": "186"
+  },
+  "Marshall, Missouri": {
+    "state": "29",
+    "place": "46316",
+    "population": "13806"
+  },
+  "Marshfield, Missouri": {
+    "state": "29",
+    "place": "46388",
+    "population": "7458"
+  },
+  "Marston, Missouri": {
+    "state": "29",
+    "place": "46406",
+    "population": "397"
+  },
+  "Marthasville, Missouri": {
+    "state": "29",
+    "place": "46424",
+    "population": "1245"
+  },
+  "Maryland Heights, Missouri": {
+    "state": "29",
+    "place": "46586",
+    "population": "28284"
+  },
+  "Maryville, Missouri": {
+    "state": "29",
+    "place": "46640",
+    "population": "10633"
+  },
+  "Matthews, Missouri": {
+    "state": "29",
+    "place": "46730",
+    "population": "534"
+  },
+  "Maysville, Missouri": {
+    "state": "29",
+    "place": "46946",
+    "population": "1095"
+  },
+  "Mayview, Missouri": {
+    "state": "29",
+    "place": "46964",
+    "population": "208"
+  },
+  "Meadville, Missouri": {
+    "state": "29",
+    "place": "47036",
+    "population": "415"
+  },
+  "Memphis, Missouri": {
+    "state": "29",
+    "place": "47270",
+    "population": "1731"
+  },
+  "Mendon, Missouri": {
+    "state": "29",
+    "place": "47288",
+    "population": "163"
+  },
+  "Merriam Woods, Missouri": {
+    "state": "29",
+    "place": "47520",
+    "population": "2006"
+  },
+  "Meta, Missouri": {
+    "state": "29",
+    "place": "47594",
+    "population": "180"
+  },
+  "Mexico, Missouri": {
+    "state": "29",
+    "place": "47648",
+    "population": "11469"
+  },
+  "Miami, Missouri": {
+    "state": "29",
+    "place": "47684",
+    "population": "152"
+  },
+  "Milan, Missouri": {
+    "state": "29",
+    "place": "48062",
+    "population": "1819"
+  },
+  "Miller, Missouri": {
+    "state": "29",
+    "place": "48242",
+    "population": "704"
+  },
+  "Mindenmines, Missouri": {
+    "state": "29",
+    "place": "48566",
+    "population": "271"
+  },
+  "Miner, Missouri": {
+    "state": "29",
+    "place": "48656",
+    "population": "916"
+  },
+  "Stover, Missouri": {
+    "state": "29",
+    "place": "71044",
+    "population": "1006"
+  },
+  "Strafford, Missouri": {
+    "state": "29",
+    "place": "71062",
+    "population": "2561"
+  },
+  "Strasburg, Missouri": {
+    "state": "29",
+    "place": "71098",
+    "population": "107"
+  },
+  "Sturgeon, Missouri": {
+    "state": "29",
+    "place": "71224",
+    "population": "907"
+  },
+  "Sugar Creek, Missouri": {
+    "state": "29",
+    "place": "71368",
+    "population": "3271"
+  },
+  "Sullivan, Missouri": {
+    "state": "29",
+    "place": "71440",
+    "population": "6906"
+  },
+  "Summersville, Missouri": {
+    "state": "29",
+    "place": "71512",
+    "population": "453"
+  },
+  "Sunset Hills, Missouri": {
+    "state": "29",
+    "place": "71746",
+    "population": "9198"
+  },
+  "Sweet Springs, Missouri": {
+    "state": "29",
+    "place": "71890",
+    "population": "1316"
+  },
+  "Syracuse, Missouri": {
+    "state": "29",
+    "place": "72106",
+    "population": "151"
+  },
+  "Tallapoosa, Missouri": {
+    "state": "29",
+    "place": "72196",
+    "population": "78"
+  },
+  "Taos, Missouri": {
+    "state": "29",
+    "place": "72304",
+    "population": "1150"
+  },
+  "Tarkio, Missouri": {
+    "state": "29",
+    "place": "72340",
+    "population": "1506"
+  },
+  "Thayer, Missouri": {
+    "state": "29",
+    "place": "72826",
+    "population": "1883"
+  },
+  "Tipton, Missouri": {
+    "state": "29",
+    "place": "73420",
+    "population": "2920"
+  },
+  "Town and Country, Missouri": {
+    "state": "29",
+    "place": "73618",
+    "population": "11640"
+  },
+  "Tracy, Missouri": {
+    "state": "29",
+    "place": "73690",
+    "population": "269"
+  },
+  "Trenton, Missouri": {
+    "state": "29",
+    "place": "73816",
+    "population": "5609"
+  },
+  "Trimble, Missouri": {
+    "state": "29",
+    "place": "73852",
+    "population": "573"
+  },
+  "Triplett, Missouri": {
+    "state": "29",
+    "place": "73870",
+    "population": "33"
+  },
+  "Troy, Missouri": {
+    "state": "29",
+    "place": "73942",
+    "population": "12686"
+  },
+  "Truesdale, Missouri": {
+    "state": "29",
+    "place": "73978",
+    "population": "853"
+  },
+  "Union, Missouri": {
+    "state": "29",
+    "place": "74626",
+    "population": "12348"
+  },
+  "Unionville, Missouri": {
+    "state": "29",
+    "place": "75166",
+    "population": "1735"
+  },
+  "University City, Missouri": {
+    "state": "29",
+    "place": "75220",
+    "population": "35065"
+  },
+  "Urbana, Missouri": {
+    "state": "29",
+    "place": "75310",
+    "population": "387"
+  },
+  "Urich, Missouri": {
+    "state": "29",
+    "place": "75346",
+    "population": "463"
+  },
+  "Valley Park, Missouri": {
+    "state": "29",
+    "place": "75472",
+    "population": "6885"
+  },
+  "Vandalia, Missouri": {
+    "state": "29",
+    "place": "75688",
+    "population": "3553"
+  },
+  "Adrian, Missouri": {
+    "state": "29",
+    "place": "00244",
+    "population": "1730"
+  },
+  "Advance, Missouri": {
+    "state": "29",
+    "place": "00262",
+    "population": "1349"
+  },
+  "Alba, Missouri": {
+    "state": "29",
+    "place": "00496",
+    "population": "544"
+  },
+  "Albany, Missouri": {
+    "state": "29",
+    "place": "00514",
+    "population": "1679"
+  },
+  "Alexandria, Missouri": {
+    "state": "29",
+    "place": "00604",
+    "population": "105"
+  },
+  "Alma, Missouri": {
+    "state": "29",
+    "place": "00802",
+    "population": "400"
+  },
+  "Altenburg, Missouri": {
+    "state": "29",
+    "place": "00928",
+    "population": "341"
+  },
+  "Alton, Missouri": {
+    "state": "29",
+    "place": "00964",
+    "population": "707"
+  },
+  "Amoret, Missouri": {
+    "state": "29",
+    "place": "01072",
+    "population": "133"
+  },
+  "Amsterdam, Missouri": {
+    "state": "29",
+    "place": "01090",
+    "population": "218"
+  },
+  "Anderson, Missouri": {
+    "state": "29",
+    "place": "01198",
+    "population": "1981"
+  },
+  "Annapolis, Missouri": {
+    "state": "29",
+    "place": "01270",
+    "population": "250"
+  },
+  "Appleton City, Missouri": {
+    "state": "29",
+    "place": "01522",
+    "population": "1032"
+  },
+  "Arbyrd, Missouri": {
+    "state": "29",
+    "place": "01630",
+    "population": "404"
+  },
+  "Arcadia, Missouri": {
+    "state": "29",
+    "place": "01648",
+    "population": "618"
+  },
+  "Archie, Missouri": {
+    "state": "29",
+    "place": "01702",
+    "population": "1268"
+  },
+  "Cabool, Missouri": {
+    "state": "29",
+    "place": "10288",
+    "population": "1946"
+  },
+  "Cainsville, Missouri": {
+    "state": "29",
+    "place": "10342",
+    "population": "283"
+  },
+  "Calhoun, Missouri": {
+    "state": "29",
+    "place": "10450",
+    "population": "392"
+  },
+  "California, Missouri": {
+    "state": "29",
+    "place": "10468",
+    "population": "4498"
+  },
+  "Callao, Missouri": {
+    "state": "29",
+    "place": "10486",
+    "population": "251"
+  },
+  "Calverton Park, Missouri": {
+    "state": "29",
+    "place": "10612",
+    "population": "1143"
+  },
+  "Camden, Missouri": {
+    "state": "29",
+    "place": "10738",
+    "population": "175"
+  },
+  "Camden Point, Missouri": {
+    "state": "29",
+    "place": "10792",
+    "population": "457"
+  },
+  "Camdenton, Missouri": {
+    "state": "29",
+    "place": "10810",
+    "population": "3960"
+  },
+  "Cameron, Missouri": {
+    "state": "29",
+    "place": "10828",
+    "population": "8513"
+  },
+  "Campbell, Missouri": {
+    "state": "29",
+    "place": "10864",
+    "population": "1605"
+  },
+  "Canalou, Missouri": {
+    "state": "29",
+    "place": "11026",
+    "population": "158"
+  },
+  "Canton, Missouri": {
+    "state": "29",
+    "place": "11134",
+    "population": "2774"
+  },
+  "Cape Girardeau, Missouri": {
+    "state": "29",
+    "place": "11242",
+    "population": "39540"
+  },
+  "Cardwell, Missouri": {
+    "state": "29",
+    "place": "11350",
+    "population": "561"
+  },
+  "Carl Junction, Missouri": {
+    "state": "29",
+    "place": "11368",
+    "population": "8143"
+  },
+  "Carrollton, Missouri": {
+    "state": "29",
+    "place": "11566",
+    "population": "3514"
+  },
+  "Carterville, Missouri": {
+    "state": "29",
+    "place": "11638",
+    "population": "1855"
+  },
+  "Carthage, Missouri": {
+    "state": "29",
+    "place": "11656",
+    "population": "15522"
+  },
+  "Caruthersville, Missouri": {
+    "state": "29",
+    "place": "11692",
+    "population": "5562"
+  },
+  "Carytown, Missouri": {
+    "state": "29",
+    "place": "11728",
+    "population": "287"
+  },
+  "Cassville, Missouri": {
+    "state": "29",
+    "place": "11890",
+    "population": "3190"
+  },
+  "Center, Missouri": {
+    "state": "29",
+    "place": "12592",
+    "population": "528"
+  },
+  "Centerview, Missouri": {
+    "state": "29",
+    "place": "12682",
+    "population": "189"
+  },
+  "Centerville, Missouri": {
+    "state": "29",
+    "place": "12718",
+    "population": "167"
+  },
+  "Centralia, Missouri": {
+    "state": "29",
+    "place": "12898",
+    "population": "4541"
+  },
+  "Chaffee, Missouri": {
+    "state": "29",
+    "place": "12988",
+    "population": "3057"
+  },
+  "Chamois, Missouri": {
+    "state": "29",
+    "place": "13060",
+    "population": "377"
+  },
+  "Charlack, Missouri": {
+    "state": "29",
+    "place": "13330",
+    "population": "1304"
+  },
+  "Charleston, Missouri": {
+    "state": "29",
+    "place": "13366",
+    "population": "5056"
+  },
+  "Chesterfield, Missouri": {
+    "state": "29",
+    "place": "13600",
+    "population": "49999"
+  },
+  "Chillicothe, Missouri": {
+    "state": "29",
+    "place": "13690",
+    "population": "9107"
+  },
+  "Chula, Missouri": {
+    "state": "29",
+    "place": "13852",
+    "population": "195"
+  },
+  "Clarence, Missouri": {
+    "state": "29",
+    "place": "13978",
+    "population": "738"
+  },
+  "Clark, Missouri": {
+    "state": "29",
+    "place": "14068",
+    "population": "254"
+  },
+  "Clarksburg, Missouri": {
+    "state": "29",
+    "place": "14140",
+    "population": "254"
+  },
+  "Clarksdale, Missouri": {
+    "state": "29",
+    "place": "14158",
+    "population": "245"
+  },
+  "Clarkson Valley, Missouri": {
+    "state": "29",
+    "place": "14176",
+    "population": "2609"
+  },
+  "Clarksville, Missouri": {
+    "state": "29",
+    "place": "14194",
+    "population": "372"
+  },
+  "Clarkton, Missouri": {
+    "state": "29",
+    "place": "14212",
+    "population": "1009"
+  },
+  "Clayton, Missouri": {
+    "state": "29",
+    "place": "14572",
+    "population": "17355"
+  },
+  "Gilliam, Missouri": {
+    "state": "29",
+    "place": "27028",
+    "population": "175"
+  },
+  "Gilman City, Missouri": {
+    "state": "29",
+    "place": "27064",
+    "population": "329"
+  },
+  "Gladstone, Missouri": {
+    "state": "29",
+    "place": "27190",
+    "population": "27063"
+  },
+  "Glasgow, Missouri": {
+    "state": "29",
+    "place": "27208",
+    "population": "1087"
+  },
+  "Glenaire, Missouri": {
+    "state": "29",
+    "place": "27262",
+    "population": "539"
+  },
+  "Glendale, Missouri": {
+    "state": "29",
+    "place": "27334",
+    "population": "6176"
+  },
+  "Golden City, Missouri": {
+    "state": "29",
+    "place": "27676",
+    "population": "656"
+  },
+  "Goodman, Missouri": {
+    "state": "29",
+    "place": "27874",
+    "population": "1202"
+  },
+  "Gower, Missouri": {
+    "state": "29",
+    "place": "28036",
+    "population": "1533"
+  },
+  "Grain Valley, Missouri": {
+    "state": "29",
+    "place": "28090",
+    "population": "15627"
+  },
+  "Granby, Missouri": {
+    "state": "29",
+    "place": "28108",
+    "population": "2050"
+  },
+  "Grandin, Missouri": {
+    "state": "29",
+    "place": "28180",
+    "population": "226"
+  },
+  "Grandview, Missouri": {
+    "state": "29",
+    "place": "28324",
+    "population": "26209"
+  },
+  "Greencastle, Missouri": {
+    "state": "29",
+    "place": "29116",
+    "population": "224"
+  },
+  "Green City, Missouri": {
+    "state": "29",
+    "place": "29134",
+    "population": "602"
+  },
+  "Greendale, Missouri": {
+    "state": "29",
+    "place": "29152",
+    "population": "642"
+  },
+  "Greenfield, Missouri": {
+    "state": "29",
+    "place": "29206",
+    "population": "1220"
+  },
+  "Green Park, Missouri": {
+    "state": "29",
+    "place": "29324",
+    "population": "2705"
+  },
+  "Green Ridge, Missouri": {
+    "state": "29",
+    "place": "29332",
+    "population": "468"
+  },
+  "Greentop, Missouri": {
+    "state": "29",
+    "place": "29422",
+    "population": "388"
+  },
+  "Greenville, Missouri": {
+    "state": "29",
+    "place": "29476",
+    "population": "443"
+  },
+  "Gideon, Missouri": {
+    "state": "29",
+    "place": "26974",
+    "population": "780"
+  },
+  "Greenwood, Missouri": {
+    "state": "29",
+    "place": "29494",
+    "population": "6021"
+  },
+  "Hale, Missouri": {
+    "state": "29",
+    "place": "29908",
+    "population": "375"
+  },
+  "Hallsville, Missouri": {
+    "state": "29",
+    "place": "29998",
+    "population": "1614"
+  },
+  "Hamilton, Missouri": {
+    "state": "29",
+    "place": "30034",
+    "population": "1690"
+  },
+  "Hannibal, Missouri": {
+    "state": "29",
+    "place": "30214",
+    "population": "17108"
+  },
+  "Hardin, Missouri": {
+    "state": "29",
+    "place": "30322",
+    "population": "571"
+  },
+  "Harrisonville, Missouri": {
+    "state": "29",
+    "place": "30610",
+    "population": "10121"
+  },
+  "Missouri City, Missouri": {
+    "state": "29",
+    "place": "48980",
+    "population": "217"
+  },
+  "Moberly, Missouri": {
+    "state": "29",
+    "place": "49034",
+    "population": "13783"
+  },
+  "Mokane, Missouri": {
+    "state": "29",
+    "place": "49070",
+    "population": "188"
+  },
+  "Moline Acres, Missouri": {
+    "state": "29",
+    "place": "49088",
+    "population": "2156"
+  },
+  "Monett, Missouri": {
+    "state": "29",
+    "place": "49196",
+    "population": "9576"
+  },
+  "Monroe City, Missouri": {
+    "state": "29",
+    "place": "49394",
+    "population": "2652"
+  },
+  "Montgomery City, Missouri": {
+    "state": "29",
+    "place": "49574",
+    "population": "2811"
+  },
+  "Montrose, Missouri": {
+    "state": "29",
+    "place": "49664",
+    "population": "383"
+  },
+  "Morehouse, Missouri": {
+    "state": "29",
+    "place": "49898",
+    "population": "741"
+  },
+  "Morley, Missouri": {
+    "state": "29",
+    "place": "49988",
+    "population": "630"
+  },
+  "Morrison, Missouri": {
+    "state": "29",
+    "place": "50060",
+    "population": "93"
+  },
+  "Mosby, Missouri": {
+    "state": "29",
+    "place": "50168",
+    "population": "101"
+  },
+  "Moscow Mills, Missouri": {
+    "state": "29",
+    "place": "50204",
+    "population": "3317"
+  },
+  "Mound City, Missouri": {
+    "state": "29",
+    "place": "50312",
+    "population": "1004"
+  },
+  "Mountain Grove, Missouri": {
+    "state": "29",
+    "place": "50402",
+    "population": "4313"
+  },
+  "Mountain View, Missouri": {
+    "state": "29",
+    "place": "50438",
+    "population": "2533"
+  },
+  "Mount Vernon, Missouri": {
+    "state": "29",
+    "place": "50672",
+    "population": "4526"
+  },
+  "Napoleon, Missouri": {
+    "state": "29",
+    "place": "51140",
+    "population": "211"
+  },
+  "Naylor, Missouri": {
+    "state": "29",
+    "place": "51302",
+    "population": "440"
+  },
+  "Neck City, Missouri": {
+    "state": "29",
+    "place": "51356",
+    "population": "228"
+  },
+  "Neelyville, Missouri": {
+    "state": "29",
+    "place": "51446",
+    "population": "318"
+  },
+  "Nelson, Missouri": {
+    "state": "29",
+    "place": "51500",
+    "population": "152"
+  },
+  "Neosho, Missouri": {
+    "state": "29",
+    "place": "51572",
+    "population": "12590"
+  },
+  "Nevada, Missouri": {
+    "state": "29",
+    "place": "51644",
+    "population": "8212"
+  },
+  "New Bloomfield, Missouri": {
+    "state": "29",
+    "place": "51680",
+    "population": "687"
+  },
+  "Newburg, Missouri": {
+    "state": "29",
+    "place": "51716",
+    "population": "333"
+  },
+  "New Cambria, Missouri": {
+    "state": "29",
+    "place": "51734",
+    "population": "153"
+  },
+  "New Florence, Missouri": {
+    "state": "29",
+    "place": "51770",
+    "population": "641"
+  },
+  "New Franklin, Missouri": {
+    "state": "29",
+    "place": "51824",
+    "population": "1027"
+  },
+  "New Hampton, Missouri": {
+    "state": "29",
+    "place": "51860",
+    "population": "228"
+  },
+  "New Haven, Missouri": {
+    "state": "29",
+    "place": "51914",
+    "population": "2414"
+  },
+  "New London, Missouri": {
+    "state": "29",
+    "place": "52058",
+    "population": "943"
+  },
+  "New Madrid, Missouri": {
+    "state": "29",
+    "place": "52076",
+    "population": "2787"
+  },
+  "New Melle, Missouri": {
+    "state": "29",
+    "place": "52148",
+    "population": "541"
+  },
+  "Niangua, Missouri": {
+    "state": "29",
+    "place": "52418",
+    "population": "390"
+  },
+  "Nixa, Missouri": {
+    "state": "29",
+    "place": "52616",
+    "population": "23257"
+  },
+  "Noel, Missouri": {
+    "state": "29",
+    "place": "52742",
+    "population": "2124"
+  },
+  "Norborne, Missouri": {
+    "state": "29",
+    "place": "52760",
+    "population": "634"
+  },
+  "Normandy, Missouri": {
+    "state": "29",
+    "place": "52796",
+    "population": "4287"
+  },
+  "North Kansas City, Missouri": {
+    "state": "29",
+    "place": "53102",
+    "population": "4467"
+  },
+  "Velda City, Missouri": {
+    "state": "29",
+    "place": "75796",
+    "population": "1188"
+  },
+  "Velda Village Hills, Missouri": {
+    "state": "29",
+    "place": "75814",
+    "population": "881"
+  },
+  "Versailles, Missouri": {
+    "state": "29",
+    "place": "75922",
+    "population": "2539"
+  },
+  "Viburnum, Missouri": {
+    "state": "29",
+    "place": "76012",
+    "population": "667"
+  },
+  "Vienna, Missouri": {
+    "state": "29",
+    "place": "76102",
+    "population": "581"
+  },
+  "Vinita Park, Missouri": {
+    "state": "29",
+    "place": "76246",
+    "population": "1970"
+  },
+  "Waco, Missouri": {
+    "state": "29",
+    "place": "76444",
+    "population": "72"
+  },
+  "Walker, Missouri": {
+    "state": "29",
+    "place": "76660",
+    "population": "199"
+  },
+  "Walnut Grove, Missouri": {
+    "state": "29",
+    "place": "76840",
+    "population": "652"
+  },
+  "Warrensburg, Missouri": {
+    "state": "29",
+    "place": "77092",
+    "population": "19337"
+  },
+  "Warrenton, Missouri": {
+    "state": "29",
+    "place": "77128",
+    "population": "8429"
+  },
+  "Warsaw, Missouri": {
+    "state": "29",
+    "place": "77146",
+    "population": "2209"
+  },
+  "Warson Woods, Missouri": {
+    "state": "29",
+    "place": "77182",
+    "population": "2018"
+  },
+  "Washburn, Missouri": {
+    "state": "29",
+    "place": "77200",
+    "population": "407"
+  },
+  "Washington, Missouri": {
+    "state": "29",
+    "place": "77416",
+    "population": "14500"
+  },
+  "Waverly, Missouri": {
+    "state": "29",
+    "place": "77866",
+    "population": "784"
+  },
+  "Wayland, Missouri": {
+    "state": "29",
+    "place": "77920",
+    "population": "408"
+  },
+  "Waynesville, Missouri": {
+    "state": "29",
+    "place": "77992",
+    "population": "5406"
+  },
+  "Weatherby Lake, Missouri": {
+    "state": "29",
+    "place": "78046",
+    "population": "2077"
+  },
+  "Weaubleau, Missouri": {
+    "state": "29",
+    "place": "78064",
+    "population": "378"
+  },
+  "Webb City, Missouri": {
+    "state": "29",
+    "place": "78118",
+    "population": "13031"
+  },
+  "Webster Groves, Missouri": {
+    "state": "29",
+    "place": "78154",
+    "population": "24010"
+  },
+  "Weldon Spring, Missouri": {
+    "state": "29",
+    "place": "78314",
+    "population": "5326"
+  },
+  "Wellington, Missouri": {
+    "state": "29",
+    "place": "78352",
+    "population": "738"
+  },
+  "Wellston, Missouri": {
+    "state": "29",
+    "place": "78370",
+    "population": "1537"
+  },
+  "Wellsville, Missouri": {
+    "state": "29",
+    "place": "78406",
+    "population": "998"
+  },
+  "Wentzville, Missouri": {
+    "state": "29",
+    "place": "78442",
+    "population": "44372"
+  },
+  "West Alton, Missouri": {
+    "state": "29",
+    "place": "78514",
+    "population": "359"
+  },
+  "Westboro, Missouri": {
+    "state": "29",
+    "place": "78622",
+    "population": "116"
+  },
+  "Weston, Missouri": {
+    "state": "29",
+    "place": "78856",
+    "population": "1756"
+  },
+  "Westphalia, Missouri": {
+    "state": "29",
+    "place": "78910",
+    "population": "378"
+  },
+  "West Plains, Missouri": {
+    "state": "29",
+    "place": "78928",
+    "population": "12184"
+  },
+  "Wheatland, Missouri": {
+    "state": "29",
+    "place": "79090",
+    "population": "277"
+  },
+  "Wheaton, Missouri": {
+    "state": "29",
+    "place": "79126",
+    "population": "672"
+  },
+  "Wheeling, Missouri": {
+    "state": "29",
+    "place": "79180",
+    "population": "220"
+  },
+  "Armstrong, Missouri": {
+    "state": "29",
+    "place": "01954",
+    "population": "243"
+  },
+  "Arnold, Missouri": {
+    "state": "29",
+    "place": "01972",
+    "population": "20858"
+  },
+  "Asbury, Missouri": {
+    "state": "29",
+    "place": "02098",
+    "population": "193"
+  },
+  "Ash Grove, Missouri": {
+    "state": "29",
+    "place": "02188",
+    "population": "1512"
+  },
+  "Ashland, Missouri": {
+    "state": "29",
+    "place": "02242",
+    "population": "4747"
+  },
+  "Atlanta, Missouri": {
+    "state": "29",
+    "place": "02422",
+    "population": "379"
+  },
+  "Aurora, Missouri": {
+    "state": "29",
+    "place": "02548",
+    "population": "7219"
+  },
+  "Auxvasse, Missouri": {
+    "state": "29",
+    "place": "02638",
+    "population": "1001"
+  },
+  "Ava, Missouri": {
+    "state": "29",
+    "place": "02674",
+    "population": "2894"
+  },
+  "Avondale, Missouri": {
+    "state": "29",
+    "place": "02800",
+    "population": "436"
+  },
+  "Ballwin, Missouri": {
+    "state": "29",
+    "place": "03160",
+    "population": "31103"
+  },
+  "Baring, Missouri": {
+    "state": "29",
+    "place": "03322",
+    "population": "125"
+  },
+  "Barnard, Missouri": {
+    "state": "29",
+    "place": "03340",
+    "population": "201"
+  },
+  "Barnett, Missouri": {
+    "state": "29",
+    "place": "03376",
+    "population": "158"
+  },
+  "Bates City, Missouri": {
+    "state": "29",
+    "place": "03556",
+    "population": "219"
+  },
+  "Battlefield, Missouri": {
+    "state": "29",
+    "place": "03592",
+    "population": "5990"
+  },
+  "Bella Villa, Missouri": {
+    "state": "29",
+    "place": "04114",
+    "population": "757"
+  },
+  "Bell City, Missouri": {
+    "state": "29",
+    "place": "04132",
+    "population": "464"
+  },
+  "Belle, Missouri": {
+    "state": "29",
+    "place": "04150",
+    "population": "1381"
+  },
+  "Bellefontaine Neighbors, Missouri": {
+    "state": "29",
+    "place": "04222",
+    "population": "10740"
+  },
+  "Bellerive Acres, Missouri": {
+    "state": "29",
+    "place": "04248",
+    "population": "191"
+  },
+  "Bellflower, Missouri": {
+    "state": "29",
+    "place": "04330",
+    "population": "325"
+  },
+  "Belton, Missouri": {
+    "state": "29",
+    "place": "04384",
+    "population": "23953"
+  },
+  "Benton, Missouri": {
+    "state": "29",
+    "place": "04798",
+    "population": "866"
+  },
+  "Berger, Missouri": {
+    "state": "29",
+    "place": "04888",
+    "population": "256"
+  },
+  "Berkeley, Missouri": {
+    "state": "29",
+    "place": "04906",
+    "population": "8228"
+  },
+  "Bernie, Missouri": {
+    "state": "29",
+    "place": "04960",
+    "population": "1859"
+  },
+  "Bertrand, Missouri": {
+    "state": "29",
+    "place": "04996",
+    "population": "718"
+  },
+  "Bethany, Missouri": {
+    "state": "29",
+    "place": "05068",
+    "population": "2915"
+  },
+  "Beverly Hills, Missouri": {
+    "state": "29",
+    "place": "05248",
+    "population": "475"
+  },
+  "Bevier, Missouri": {
+    "state": "29",
+    "place": "05266",
+    "population": "636"
+  },
+  "Billings, Missouri": {
+    "state": "29",
+    "place": "05626",
+    "population": "1084"
+  },
+  "Birch Tree, Missouri": {
+    "state": "29",
+    "place": "05734",
+    "population": "541"
+  },
+  "Clearmont, Missouri": {
+    "state": "29",
+    "place": "14662",
+    "population": "158"
+  },
+  "Cleveland, Missouri": {
+    "state": "29",
+    "place": "14770",
+    "population": "650"
+  },
+  "Clever, Missouri": {
+    "state": "29",
+    "place": "14788",
+    "population": "2918"
+  },
+  "Clifton Hill, Missouri": {
+    "state": "29",
+    "place": "14896",
+    "population": "88"
+  },
+  "Clinton, Missouri": {
+    "state": "29",
+    "place": "14986",
+    "population": "9174"
+  },
+  "Coffey, Missouri": {
+    "state": "29",
+    "place": "15274",
+    "population": "151"
+  },
+  "Cole Camp, Missouri": {
+    "state": "29",
+    "place": "15436",
+    "population": "1104"
+  },
+  "Columbia, Missouri": {
+    "state": "29",
+    "place": "15670",
+    "population": "126254"
+  },
+  "Concordia, Missouri": {
+    "state": "29",
+    "place": "16102",
+    "population": "2371"
+  },
+  "Conway, Missouri": {
+    "state": "29",
+    "place": "16192",
+    "population": "729"
+  },
+  "Cool Valley, Missouri": {
+    "state": "29",
+    "place": "16228",
+    "population": "1039"
+  },
+  "Cooter, Missouri": {
+    "state": "29",
+    "place": "16336",
+    "population": "343"
+  },
+  "Corder, Missouri": {
+    "state": "29",
+    "place": "16408",
+    "population": "418"
+  },
+  "Cottleville, Missouri": {
+    "state": "29",
+    "place": "16678",
+    "population": "5611"
+  },
+  "Country Club Hills, Missouri": {
+    "state": "29",
+    "place": "16822",
+    "population": "1014"
+  },
+  "Cowgill, Missouri": {
+    "state": "29",
+    "place": "16984",
+    "population": "168"
+  },
+  "Craig, Missouri": {
+    "state": "29",
+    "place": "17056",
+    "population": "105"
+  },
+  "Crane, Missouri": {
+    "state": "29",
+    "place": "17074",
+    "population": "1495"
+  },
+  "Creighton, Missouri": {
+    "state": "29",
+    "place": "17164",
+    "population": "327"
+  },
+  "Crestwood, Missouri": {
+    "state": "29",
+    "place": "17218",
+    "population": "12404"
+  },
+  "Creve Coeur, Missouri": {
+    "state": "29",
+    "place": "17272",
+    "population": "18834"
+  },
+  "Crocker, Missouri": {
+    "state": "29",
+    "place": "17344",
+    "population": "929"
+  },
+  "Cross Timbers, Missouri": {
+    "state": "29",
+    "place": "17524",
+    "population": "119"
+  },
+  "Crystal City, Missouri": {
+    "state": "29",
+    "place": "17632",
+    "population": "4740"
+  },
+  "Crystal Lake Park, Missouri": {
+    "state": "29",
+    "place": "17650",
+    "population": "508"
+  },
+  "Crystal Lakes, Missouri": {
+    "state": "29",
+    "place": "17660",
+    "population": "390"
+  },
+  "Cuba, Missouri": {
+    "state": "29",
+    "place": "17668",
+    "population": "3181"
+  },
+  "Curryville, Missouri": {
+    "state": "29",
+    "place": "17902",
+    "population": "197"
+  },
+  "Dardenne Prairie, Missouri": {
+    "state": "29",
+    "place": "18253",
+    "population": "12743"
+  },
+  "Dearborn, Missouri": {
+    "state": "29",
+    "place": "18658",
+    "population": "482"
+  },
+  "Deepwater, Missouri": {
+    "state": "29",
+    "place": "18730",
+    "population": "355"
+  },
+  "Dellwood, Missouri": {
+    "state": "29",
+    "place": "19018",
+    "population": "4914"
+  },
+  "Delta, Missouri": {
+    "state": "29",
+    "place": "19072",
+    "population": "376"
+  },
+  "Hartville, Missouri": {
+    "state": "29",
+    "place": "30754",
+    "population": "594"
+  },
+  "Hawk Point, Missouri": {
+    "state": "29",
+    "place": "31024",
+    "population": "676"
+  },
+  "Hayti, Missouri": {
+    "state": "29",
+    "place": "31132",
+    "population": "2493"
+  },
+  "Hayti Heights, Missouri": {
+    "state": "29",
+    "place": "31168",
+    "population": "515"
+  },
+  "Hazelwood, Missouri": {
+    "state": "29",
+    "place": "31276",
+    "population": "25458"
+  },
+  "Henrietta, Missouri": {
+    "state": "29",
+    "place": "31654",
+    "population": "278"
+  },
+  "Herculaneum, Missouri": {
+    "state": "29",
+    "place": "31708",
+    "population": "4672"
+  },
+  "Hermann, Missouri": {
+    "state": "29",
+    "place": "31762",
+    "population": "2185"
+  },
+  "Hermitage, Missouri": {
+    "state": "29",
+    "place": "31780",
+    "population": "621"
+  },
+  "Higbee, Missouri": {
+    "state": "29",
+    "place": "31924",
+    "population": "459"
+  },
+  "Higginsville, Missouri": {
+    "state": "29",
+    "place": "31960",
+    "population": "4817"
+  },
+  "High Hill, Missouri": {
+    "state": "29",
+    "place": "31996",
+    "population": "186"
+  },
+  "Highlandville, Missouri": {
+    "state": "29",
+    "place": "32068",
+    "population": "963"
+  },
+  "Hillsboro, Missouri": {
+    "state": "29",
+    "place": "32248",
+    "population": "3473"
+  },
+  "Holcomb, Missouri": {
+    "state": "29",
+    "place": "32536",
+    "population": "642"
+  },
+  "Holden, Missouri": {
+    "state": "29",
+    "place": "32572",
+    "population": "2210"
+  },
+  "Hollister, Missouri": {
+    "state": "29",
+    "place": "32662",
+    "population": "4583"
+  },
+  "Holt, Missouri": {
+    "state": "29",
+    "place": "32752",
+    "population": "471"
+  },
+  "Holts Summit, Missouri": {
+    "state": "29",
+    "place": "32770",
+    "population": "4458"
+  },
+  "Homestown, Missouri": {
+    "state": "29",
+    "place": "32824",
+    "population": "73"
+  },
+  "Hopkins, Missouri": {
+    "state": "29",
+    "place": "33004",
+    "population": "472"
+  },
+  "Hornersville, Missouri": {
+    "state": "29",
+    "place": "33076",
+    "population": "537"
+  },
+  "Houston, Missouri": {
+    "state": "29",
+    "place": "33238",
+    "population": "2079"
+  },
+  "Houstonia, Missouri": {
+    "state": "29",
+    "place": "33256",
+    "population": "198"
+  },
+  "Houston Lake, Missouri": {
+    "state": "29",
+    "place": "33292",
+    "population": "229"
+  },
+  "Howardville, Missouri": {
+    "state": "29",
+    "place": "33364",
+    "population": "277"
+  },
+  "Humansville, Missouri": {
+    "state": "29",
+    "place": "33706",
+    "population": "907"
+  },
+  "Hunnewell, Missouri": {
+    "state": "29",
+    "place": "33760",
+    "population": "139"
+  },
+  "Huntleigh, Missouri": {
+    "state": "29",
+    "place": "33850",
+    "population": "361"
+  },
+  "Huntsville, Missouri": {
+    "state": "29",
+    "place": "33886",
+    "population": "1376"
+  },
+  "Hurdland, Missouri": {
+    "state": "29",
+    "place": "33904",
+    "population": "155"
+  },
+  "Hurley, Missouri": {
+    "state": "29",
+    "place": "33922",
+    "population": "176"
+  },
+  "Iberia, Missouri": {
+    "state": "29",
+    "place": "34228",
+    "population": "703"
+  },
+  "Independence, Missouri": {
+    "state": "29",
+    "place": "35000",
+    "population": "123011"
+  },
+  "Northmoor, Missouri": {
+    "state": "29",
+    "place": "53174",
+    "population": "291"
+  },
+  "Northwoods, Missouri": {
+    "state": "29",
+    "place": "53408",
+    "population": "3687"
+  },
+  "Norwood, Missouri": {
+    "state": "29",
+    "place": "53454",
+    "population": "578"
+  },
+  "Novinger, Missouri": {
+    "state": "29",
+    "place": "53534",
+    "population": "383"
+  },
+  "Oak Grove, Missouri": {
+    "state": "29",
+    "place": "53624",
+    "population": "8157"
+  },
+  "Oakland, Missouri": {
+    "state": "29",
+    "place": "53750",
+    "population": "1390"
+  },
+  "Odessa, Missouri": {
+    "state": "29",
+    "place": "54038",
+    "population": "5593"
+  },
+  "O'Fallon, Missouri": {
+    "state": "29",
+    "place": "54074",
+    "population": "91316"
+  },
+  "Old Monroe, Missouri": {
+    "state": "29",
+    "place": "54416",
+    "population": "249"
+  },
+  "Olivette, Missouri": {
+    "state": "29",
+    "place": "54650",
+    "population": "8504"
+  },
+  "Olympian Village, Missouri": {
+    "state": "29",
+    "place": "54686",
+    "population": "719"
+  },
+  "Oran, Missouri": {
+    "state": "29",
+    "place": "54758",
+    "population": "1195"
+  },
+  "Oregon, Missouri": {
+    "state": "29",
+    "place": "54848",
+    "population": "837"
+  },
+  "Oronogo, Missouri": {
+    "state": "29",
+    "place": "54920",
+    "population": "2558"
+  },
+  "Orrick, Missouri": {
+    "state": "29",
+    "place": "54938",
+    "population": "753"
+  },
+  "Osage Beach, Missouri": {
+    "state": "29",
+    "place": "55244",
+    "population": "4637"
+  },
+  "Osborn, Missouri": {
+    "state": "29",
+    "place": "55352",
+    "population": "374"
+  },
+  "Osceola, Missouri": {
+    "state": "29",
+    "place": "55388",
+    "population": "909"
+  },
+  "Otterville, Missouri": {
+    "state": "29",
+    "place": "55478",
+    "population": "440"
+  },
+  "Overland, Missouri": {
+    "state": "29",
+    "place": "55550",
+    "population": "15955"
+  },
+  "Owensville, Missouri": {
+    "state": "29",
+    "place": "55640",
+    "population": "2757"
+  },
+  "Ozark, Missouri": {
+    "state": "29",
+    "place": "55766",
+    "population": "21284"
+  },
+  "Pacific, Missouri": {
+    "state": "29",
+    "place": "55910",
+    "population": "7414"
+  },
+  "Pagedale, Missouri": {
+    "state": "29",
+    "place": "55964",
+    "population": "2554"
+  },
+  "Palmyra, Missouri": {
+    "state": "29",
+    "place": "56036",
+    "population": "3613"
+  },
+  "Paris, Missouri": {
+    "state": "29",
+    "place": "56144",
+    "population": "1161"
+  },
+  "Park Hills, Missouri": {
+    "state": "29",
+    "place": "56272",
+    "population": "8587"
+  },
+  "Parkville, Missouri": {
+    "state": "29",
+    "place": "56288",
+    "population": "7117"
+  },
+  "Parma, Missouri": {
+    "state": "29",
+    "place": "56342",
+    "population": "555"
+  },
+  "Parnell, Missouri": {
+    "state": "29",
+    "place": "56360",
+    "population": "135"
+  },
+  "Pasadena Hills, Missouri": {
+    "state": "29",
+    "place": "56396",
+    "population": "912"
+  },
+  "Pattonsburg, Missouri": {
+    "state": "29",
+    "place": "56558",
+    "population": "314"
+  },
+  "Peculiar, Missouri": {
+    "state": "29",
+    "place": "56756",
+    "population": "5621"
+  },
+  "Wildwood, Missouri": {
+    "state": "29",
+    "place": "79820",
+    "population": "35417"
+  },
+  "Willard, Missouri": {
+    "state": "29",
+    "place": "79882",
+    "population": "6344"
+  },
+  "Williamsville, Missouri": {
+    "state": "29",
+    "place": "80026",
+    "population": "279"
+  },
+  "Willow Springs, Missouri": {
+    "state": "29",
+    "place": "80098",
+    "population": "2164"
+  },
+  "Winchester, Missouri": {
+    "state": "29",
+    "place": "80314",
+    "population": "1447"
+  },
+  "Windsor, Missouri": {
+    "state": "29",
+    "place": "80350",
+    "population": "2775"
+  },
+  "Winfield, Missouri": {
+    "state": "29",
+    "place": "80422",
+    "population": "1518"
+  },
+  "Winona, Missouri": {
+    "state": "29",
+    "place": "80512",
+    "population": "950"
+  },
+  "Wood Heights, Missouri": {
+    "state": "29",
+    "place": "80767",
+    "population": "757"
+  },
+  "Woodson Terrace, Missouri": {
+    "state": "29",
+    "place": "80962",
+    "population": "3950"
+  },
+  "Wright City, Missouri": {
+    "state": "29",
+    "place": "81124",
+    "population": "4881"
+  },
+  "Wyaconda, Missouri": {
+    "state": "29",
+    "place": "81142",
+    "population": "214"
+  },
+  "Wyatt, Missouri": {
+    "state": "29",
+    "place": "81178",
+    "population": "219"
+  },
+  "Desloge, Missouri": {
+    "state": "29",
+    "place": "19216",
+    "population": "4823"
+  },
+  "De Soto, Missouri": {
+    "state": "29",
+    "place": "19252",
+    "population": "6449"
+  },
+  "Des Peres, Missouri": {
+    "state": "29",
+    "place": "19270",
+    "population": "9193"
+  },
+  "De Witt, Missouri": {
+    "state": "29",
+    "place": "19378",
+    "population": "83"
+  },
+  "Dexter, Missouri": {
+    "state": "29",
+    "place": "19396",
+    "population": "7927"
+  },
+  "Dixon, Missouri": {
+    "state": "29",
+    "place": "19630",
+    "population": "1232"
+  },
+  "Doniphan, Missouri": {
+    "state": "29",
+    "place": "19792",
+    "population": "1781"
+  },
+  "Doolittle, Missouri": {
+    "state": "29",
+    "place": "19828",
+    "population": "564"
+  },
+  "Downing, Missouri": {
+    "state": "29",
+    "place": "19990",
+    "population": "300"
+  },
+  "Drexel, Missouri": {
+    "state": "29",
+    "place": "20134",
+    "population": "968"
+  },
+  "Dudley, Missouri": {
+    "state": "29",
+    "place": "20296",
+    "population": "101"
+  },
+  "Duenweg, Missouri": {
+    "state": "29",
+    "place": "20314",
+    "population": "1495"
+  },
+  "East Lynne, Missouri": {
+    "state": "29",
+    "place": "20980",
+    "population": "294"
+  },
+  "Easton, Missouri": {
+    "state": "29",
+    "place": "21034",
+    "population": "227"
+  },
+  "East Prairie, Missouri": {
+    "state": "29",
+    "place": "21052",
+    "population": "2943"
+  },
+  "Edgar Springs, Missouri": {
+    "state": "29",
+    "place": "21214",
+    "population": "199"
+  },
+  "Edgerton, Missouri": {
+    "state": "29",
+    "place": "21250",
+    "population": "601"
+  },
+  "Edina, Missouri": {
+    "state": "29",
+    "place": "21322",
+    "population": "1012"
+  },
+  "Edmundson, Missouri": {
+    "state": "29",
+    "place": "21376",
+    "population": "860"
+  },
+  "Eldon, Missouri": {
+    "state": "29",
+    "place": "21484",
+    "population": "4416"
+  },
+  "El Dorado Springs, Missouri": {
+    "state": "29",
+    "place": "21502",
+    "population": "3493"
+  },
+  "Ellington, Missouri": {
+    "state": "29",
+    "place": "21844",
+    "population": "790"
+  },
+  "Ellisville, Missouri": {
+    "state": "29",
+    "place": "21898",
+    "population": "9985"
+  },
+  "Ellsinore, Missouri": {
+    "state": "29",
+    "place": "21916",
+    "population": "416"
+  },
+  "Elmer, Missouri": {
+    "state": "29",
+    "place": "21988",
+    "population": "51"
+  },
+  "Elmo, Missouri": {
+    "state": "29",
+    "place": "22024",
+    "population": "114"
+  },
+  "Elsberry, Missouri": {
+    "state": "29",
+    "place": "22114",
+    "population": "1937"
+  },
+  "Eminence, Missouri": {
+    "state": "29",
+    "place": "22276",
+    "population": "515"
+  },
+  "Emma, Missouri": {
+    "state": "29",
+    "place": "22312",
+    "population": "201"
+  },
+  "Essex, Missouri": {
+    "state": "29",
+    "place": "22600",
+    "population": "403"
+  },
+  "Eureka, Missouri": {
+    "state": "29",
+    "place": "22834",
+    "population": "11646"
+  },
+  "Everton, Missouri": {
+    "state": "29",
+    "place": "22996",
+    "population": "273"
+  },
+  "Ewing, Missouri": {
+    "state": "29",
+    "place": "23032",
+    "population": "406"
+  },
+  "Excelsior Springs, Missouri": {
+    "state": "29",
+    "place": "23086",
+    "population": "10553"
+  },
+  "Exeter, Missouri": {
+    "state": "29",
+    "place": "23122",
+    "population": "733"
+  },
+  "Irondale, Missouri": {
+    "state": "29",
+    "place": "35396",
+    "population": "368"
+  },
+  "Iron Mountain Lake, Missouri": {
+    "state": "29",
+    "place": "35450",
+    "population": "640"
+  },
+  "Ironton, Missouri": {
+    "state": "29",
+    "place": "35468",
+    "population": "1475"
+  },
+  "Jackson, Missouri": {
+    "state": "29",
+    "place": "35648",
+    "population": "15481"
+  },
+  "Jamesport, Missouri": {
+    "state": "29",
+    "place": "36332",
+    "population": "559"
+  },
+  "Jasper, Missouri": {
+    "state": "29",
+    "place": "36512",
+    "population": "906"
+  },
+  "Jefferson City, Missouri": {
+    "state": "29",
+    "place": "37000",
+    "population": "43228"
+  },
+  "Jennings, Missouri": {
+    "state": "29",
+    "place": "37178",
+    "population": "12895"
+  },
+  "Jonesburg, Missouri": {
+    "state": "29",
+    "place": "37574",
+    "population": "726"
+  },
+  "Joplin, Missouri": {
+    "state": "29",
+    "place": "37592",
+    "population": "51762"
+  },
+  "Kahoka, Missouri": {
+    "state": "29",
+    "place": "37790",
+    "population": "1961"
+  },
+  "Kansas City, Missouri": {
+    "state": "29",
+    "place": "38000",
+    "population": "508090"
+  },
+  "Kearney, Missouri": {
+    "state": "29",
+    "place": "38072",
+    "population": "10404"
+  },
+  "Kennett, Missouri": {
+    "state": "29",
+    "place": "38306",
+    "population": "10515"
+  },
+  "Keytesville, Missouri": {
+    "state": "29",
+    "place": "38468",
+    "population": "440"
+  },
+  "Kidder, Missouri": {
+    "state": "29",
+    "place": "38522",
+    "population": "267"
+  },
+  "Kimberling City, Missouri": {
+    "state": "29",
+    "place": "38612",
+    "population": "2344"
+  },
+  "Kimmswick, Missouri": {
+    "state": "29",
+    "place": "38684",
+    "population": "133"
+  },
+  "King City, Missouri": {
+    "state": "29",
+    "place": "38774",
+    "population": "799"
+  },
+  "Kingston, Missouri": {
+    "state": "29",
+    "place": "38846",
+    "population": "290"
+  },
+  "Kingsville, Missouri": {
+    "state": "29",
+    "place": "38918",
+    "population": "245"
+  },
+  "Kinloch, Missouri": {
+    "state": "29",
+    "place": "38972",
+    "population": "263"
+  },
+  "Kirksville, Missouri": {
+    "state": "29",
+    "place": "39026",
+    "population": "17530"
+  },
+  "Kirkwood, Missouri": {
+    "state": "29",
+    "place": "39044",
+    "population": "29461"
+  },
+  "Knob Noster, Missouri": {
+    "state": "29",
+    "place": "39188",
+    "population": "2782"
+  },
+  "Knox City, Missouri": {
+    "state": "29",
+    "place": "39278",
+    "population": "191"
+  },
+  "La Belle, Missouri": {
+    "state": "29",
+    "place": "39512",
+    "population": "664"
+  },
+  "Laclede, Missouri": {
+    "state": "29",
+    "place": "39566",
+    "population": "305"
+  },
+  "Laddonia, Missouri": {
+    "state": "29",
+    "place": "39602",
+    "population": "502"
+  },
+  "Ladue, Missouri": {
+    "state": "29",
+    "place": "39656",
+    "population": "8989"
+  },
+  "La Grange, Missouri": {
+    "state": "29",
+    "place": "39764",
+    "population": "825"
+  },
+  "Lake Annette, Missouri": {
+    "state": "29",
+    "place": "39845",
+    "population": "107"
+  },
+  "Lake Lafayette, Missouri": {
+    "state": "29",
+    "place": "39952",
+    "population": "277"
+  },
+  "Lake Lotawana, Missouri": {
+    "state": "29",
+    "place": "39980",
+    "population": "2310"
+  },
+  "Lake Ozark, Missouri": {
+    "state": "29",
+    "place": "40034",
+    "population": "2077"
+  },
+  "Perry, Missouri": {
+    "state": "29",
+    "place": "57080",
+    "population": "665"
+  },
+  "Perryville, Missouri": {
+    "state": "29",
+    "place": "57116",
+    "population": "8555"
+  },
+  "Pevely, Missouri": {
+    "state": "29",
+    "place": "57278",
+    "population": "6026"
+  },
+  "Pickering, Missouri": {
+    "state": "29",
+    "place": "57404",
+    "population": "149"
+  },
+  "Piedmont, Missouri": {
+    "state": "29",
+    "place": "57422",
+    "population": "1897"
+  },
+  "Pierce City, Missouri": {
+    "state": "29",
+    "place": "57494",
+    "population": "1251"
+  },
+  "Pilot Grove, Missouri": {
+    "state": "29",
+    "place": "57602",
+    "population": "665"
+  },
+  "Pilot Knob, Missouri": {
+    "state": "29",
+    "place": "57656",
+    "population": "671"
+  },
+  "Pine Lawn, Missouri": {
+    "state": "29",
+    "place": "57800",
+    "population": "2754"
+  },
+  "Pineville, Missouri": {
+    "state": "29",
+    "place": "57818",
+    "population": "802"
+  },
+  "Platte City, Missouri": {
+    "state": "29",
+    "place": "58178",
+    "population": "4784"
+  },
+  "Platte Woods, Missouri": {
+    "state": "29",
+    "place": "58196",
+    "population": "394"
+  },
+  "Plattsburg, Missouri": {
+    "state": "29",
+    "place": "58250",
+    "population": "2222"
+  },
+  "Pleasant Hill, Missouri": {
+    "state": "29",
+    "place": "58394",
+    "population": "8777"
+  },
+  "Pleasant Hope, Missouri": {
+    "state": "29",
+    "place": "58448",
+    "population": "657"
+  },
+  "Pleasant Valley, Missouri": {
+    "state": "29",
+    "place": "58520",
+    "population": "2743"
+  },
+  "Polo, Missouri": {
+    "state": "29",
+    "place": "58916",
+    "population": "509"
+  },
+  "Poplar Bluff, Missouri": {
+    "state": "29",
+    "place": "59096",
+    "population": "16225"
+  },
+  "Portage Des Sioux, Missouri": {
+    "state": "29",
+    "place": "59150",
+    "population": "335"
+  },
+  "Portageville, Missouri": {
+    "state": "29",
+    "place": "59186",
+    "population": "2942"
+  },
+  "Potosi, Missouri": {
+    "state": "29",
+    "place": "59330",
+    "population": "2538"
+  },
+  "Prairie Home, Missouri": {
+    "state": "29",
+    "place": "59726",
+    "population": "262"
+  },
+  "Princeton, Missouri": {
+    "state": "29",
+    "place": "59942",
+    "population": "1007"
+  },
+  "Purcell, Missouri": {
+    "state": "29",
+    "place": "60140",
+    "population": "318"
+  },
+  "Purdin, Missouri": {
+    "state": "29",
+    "place": "60158",
+    "population": "141"
+  },
+  "Purdy, Missouri": {
+    "state": "29",
+    "place": "60176",
+    "population": "1031"
+  },
+  "Puxico, Missouri": {
+    "state": "29",
+    "place": "60284",
+    "population": "873"
+  },
+  "Queen City, Missouri": {
+    "state": "29",
+    "place": "60356",
+    "population": "562"
+  },
+  "Qulin, Missouri": {
+    "state": "29",
+    "place": "60428",
+    "population": "460"
+  },
+  "Raymore, Missouri": {
+    "state": "29",
+    "place": "60752",
+    "population": "22941"
+  },
+  "Raytown, Missouri": {
+    "state": "29",
+    "place": "60788",
+    "population": "30012"
+  },
+  "Rea, Missouri": {
+    "state": "29",
+    "place": "60842",
+    "population": "46"
+  },
+  "Lakeshire, Missouri": {
+    "state": "29",
+    "place": "40088",
+    "population": "1554"
+  },
+  "Lakeside, Missouri": {
+    "state": "29",
+    "place": "40142",
+    "population": "0"
+  },
+  "Lake Tapawingo, Missouri": {
+    "state": "29",
+    "place": "40196",
+    "population": "794"
+  },
+  "Lake Waukomis, Missouri": {
+    "state": "29",
+    "place": "40322",
+    "population": "888"
+  },
+  "Lake Winnebago, Missouri": {
+    "state": "29",
+    "place": "40340",
+    "population": "1433"
+  },
+  "Lamar, Missouri": {
+    "state": "29",
+    "place": "40376",
+    "population": "4266"
+  },
+  "Lamar Heights, Missouri": {
+    "state": "29",
+    "place": "40430",
+    "population": "170"
+  },
+  "La Monte, Missouri": {
+    "state": "29",
+    "place": "40520",
+    "population": "1014"
+  },
+  "Lancaster, Missouri": {
+    "state": "29",
+    "place": "40610",
+    "population": "675"
+  },
+  "La Plata, Missouri": {
+    "state": "29",
+    "place": "40682",
+    "population": "1257"
+  },
+  "Laredo, Missouri": {
+    "state": "29",
+    "place": "40736",
+    "population": "156"
+  },
+  "La Russell, Missouri": {
+    "state": "29",
+    "place": "40790",
+    "population": "134"
+  },
+  "Lathrop, Missouri": {
+    "state": "29",
+    "place": "40826",
+    "population": "2271"
+  },
+  "Laurie, Missouri": {
+    "state": "29",
+    "place": "40916",
+    "population": "939"
+  },
+  "Lawson, Missouri": {
+    "state": "29",
+    "place": "40988",
+    "population": "2541"
+  },
+  "Leadington, Missouri": {
+    "state": "29",
+    "place": "41024",
+    "population": "764"
+  },
+  "Leadwood, Missouri": {
+    "state": "29",
+    "place": "41078",
+    "population": "1178"
+  },
+  "Lebanon, Missouri": {
+    "state": "29",
+    "place": "41168",
+    "population": "15013"
+  },
+  "Lee's Summit, Missouri": {
+    "state": "29",
+    "place": "41348",
+    "population": "101108"
+  },
+  "Leeton, Missouri": {
+    "state": "29",
+    "place": "41402",
+    "population": "532"
+  },
+  "Levasy, Missouri": {
+    "state": "29",
+    "place": "41762",
+    "population": "77"
+  },
+  "Lexington, Missouri": {
+    "state": "29",
+    "place": "41870",
+    "population": "4652"
+  },
+  "Liberal, Missouri": {
+    "state": "29",
+    "place": "41906",
+    "population": "629"
+  },
+  "Liberty, Missouri": {
+    "state": "29",
+    "place": "42032",
+    "population": "30167"
+  },
+  "Licking, Missouri": {
+    "state": "29",
+    "place": "42464",
+    "population": "2851"
+  },
+  "Lake St. Louis, Missouri": {
+    "state": "29",
+    "place": "40043",
+    "population": "16707"
+  },
+  "Lilbourn, Missouri": {
+    "state": "29",
+    "place": "42536",
+    "population": "994"
+  },
+  "Lincoln, Missouri": {
+    "state": "29",
+    "place": "42608",
+    "population": "1144"
+  },
+  "Linn, Missouri": {
+    "state": "29",
+    "place": "43238",
+    "population": "1350"
+  },
+  "Linn Creek, Missouri": {
+    "state": "29",
+    "place": "43274",
+    "population": "216"
+  },
+  "Linneus, Missouri": {
+    "state": "29",
+    "place": "43292",
+    "population": "281"
+  },
+  "Lockwood, Missouri": {
+    "state": "29",
+    "place": "43490",
+    "population": "846"
+  },
+  "Lohman, Missouri": {
+    "state": "29",
+    "place": "43652",
+    "population": "175"
+  },
+  "Lone Jack, Missouri": {
+    "state": "29",
+    "place": "43760",
+    "population": "1492"
+  },
+  "Louisiana, Missouri": {
+    "state": "29",
+    "place": "44174",
+    "population": "3199"
+  },
+  "Reeds Spring, Missouri": {
+    "state": "29",
+    "place": "61112",
+    "population": "1136"
+  },
+  "Republic, Missouri": {
+    "state": "29",
+    "place": "61238",
+    "population": "18750"
+  },
+  "Rich Hill, Missouri": {
+    "state": "29",
+    "place": "61418",
+    "population": "1232"
+  },
+  "Richland, Missouri": {
+    "state": "29",
+    "place": "61562",
+    "population": "1734"
+  },
+  "Richmond, Missouri": {
+    "state": "29",
+    "place": "61670",
+    "population": "6013"
+  },
+  "Richmond Heights, Missouri": {
+    "state": "29",
+    "place": "61706",
+    "population": "9286"
+  },
+  "Ridgeway, Missouri": {
+    "state": "29",
+    "place": "61904",
+    "population": "372"
+  },
+  "Risco, Missouri": {
+    "state": "29",
+    "place": "61994",
+    "population": "286"
+  },
+  "Riverside, Missouri": {
+    "state": "29",
+    "place": "62156",
+    "population": "4013"
+  },
+  "Rocheport, Missouri": {
+    "state": "29",
+    "place": "62498",
+    "population": "201"
+  },
+  "Rockaway Beach, Missouri": {
+    "state": "29",
+    "place": "62570",
+    "population": "829"
+  },
+  "Rock Hill, Missouri": {
+    "state": "29",
+    "place": "62660",
+    "population": "4750"
+  },
+  "Rock Port, Missouri": {
+    "state": "29",
+    "place": "62696",
+    "population": "1278"
+  },
+  "Rockville, Missouri": {
+    "state": "29",
+    "place": "62786",
+    "population": "135"
+  },
+  "Rogersville, Missouri": {
+    "state": "29",
+    "place": "62894",
+    "population": "3897"
+  },
+  "Rolla, Missouri": {
+    "state": "29",
+    "place": "62912",
+    "population": "19943"
+  },
+  "Rosebud, Missouri": {
+    "state": "29",
+    "place": "63110",
+    "population": "390"
+  },
+  "Rosendale, Missouri": {
+    "state": "29",
+    "place": "63200",
+    "population": "119"
+  },
+  "Russellville, Missouri": {
+    "state": "29",
+    "place": "63704",
+    "population": "778"
+  },
+  "St. Ann, Missouri": {
+    "state": "29",
+    "place": "63956",
+    "population": "13019"
+  },
+  "St. Charles, Missouri": {
+    "state": "29",
+    "place": "64082",
+    "population": "70493"
+  },
+  "St. Clair, Missouri": {
+    "state": "29",
+    "place": "64136",
+    "population": "4791"
+  },
+  "Ste. Genevieve, Missouri": {
+    "state": "29",
+    "place": "64180",
+    "population": "4999"
+  },
+  "St. James, Missouri": {
+    "state": "29",
+    "place": "64424",
+    "population": "3935"
+  },
+  "St. John, Missouri": {
+    "state": "29",
+    "place": "64478",
+    "population": "6643"
+  },
+  "St. Joseph, Missouri": {
+    "state": "29",
+    "place": "64550",
+    "population": "72473"
+  },
+  "St. Louis, Missouri": {
+    "state": "29",
+    "place": "65000",
+    "population": "301578"
+  },
+  "St. Martins, Missouri": {
+    "state": "29",
+    "place": "65018",
+    "population": "1191"
+  },
+  "St. Mary, Missouri": {
+    "state": "29",
+    "place": "65034",
+    "population": "309"
+  },
+  "St. Paul, Missouri": {
+    "state": "29",
+    "place": "65108",
+    "population": "3005"
+  },
+  "St. Peters, Missouri": {
+    "state": "29",
+    "place": "65126",
+    "population": "57732"
+  },
+  "St. Robert, Missouri": {
+    "state": "29",
+    "place": "65144",
+    "population": "5192"
+  },
+  "Salem, Missouri": {
+    "state": "29",
+    "place": "65234",
+    "population": "4608"
+  },
+  "Salisbury, Missouri": {
+    "state": "29",
+    "place": "65450",
+    "population": "1563"
+  },
+  "Sarcoxie, Missouri": {
+    "state": "29",
+    "place": "65990",
+    "population": "1406"
+  },
+  "Savannah, Missouri": {
+    "state": "29",
+    "place": "66044",
+    "population": "5069"
+  },
+  "Schell City, Missouri": {
+    "state": "29",
+    "place": "66134",
+    "population": "228"
+  },
+  "Scott City, Missouri": {
+    "state": "29",
+    "place": "66368",
+    "population": "4346"
+  },
+  "Sedalia, Missouri": {
+    "state": "29",
+    "place": "66440",
+    "population": "21725"
+  },
+  "Seligman, Missouri": {
+    "state": "29",
+    "place": "66530",
+    "population": "813"
+  },
+  "Senath, Missouri": {
+    "state": "29",
+    "place": "66638",
+    "population": "1593"
+  },
+  "Seneca, Missouri": {
+    "state": "29",
+    "place": "66674",
+    "population": "2230"
+  },
+  "Seymour, Missouri": {
+    "state": "29",
+    "place": "66800",
+    "population": "1841"
+  },
+  "Shelbina, Missouri": {
+    "state": "29",
+    "place": "67178",
+    "population": "1613"
+  },
+  "Shelbyville, Missouri": {
+    "state": "29",
+    "place": "67196",
+    "population": "518"
+  },
+  "Sheldon, Missouri": {
+    "state": "29",
+    "place": "67214",
+    "population": "435"
+  },
+  "Shrewsbury, Missouri": {
+    "state": "29",
+    "place": "67700",
+    "population": "6406"
+  },
+  "Sikeston, Missouri": {
+    "state": "29",
+    "place": "67790",
+    "population": "16291"
+  },
+  "Skidmore, Missouri": {
+    "state": "29",
+    "place": "68132",
+    "population": "245"
+  },
+  "Slater, Missouri": {
+    "state": "29",
+    "place": "68204",
+    "population": "1834"
+  },
+  "Smithton, Missouri": {
+    "state": "29",
+    "place": "68384",
+    "population": "506"
+  },
+  "Smithville, Missouri": {
+    "state": "29",
+    "place": "68420",
+    "population": "10406"
+  },
+  "Sparta, Missouri": {
+    "state": "29",
+    "place": "69302",
+    "population": "1876"
+  },
+  "Spickard, Missouri": {
+    "state": "29",
+    "place": "69464",
+    "population": "222"
+  },
+  "Springfield, Missouri": {
+    "state": "29",
+    "place": "70000",
+    "population": "169176"
+  },
+  "Stanberry, Missouri": {
+    "state": "29",
+    "place": "70270",
+    "population": "1129"
+  },
+  "Steele, Missouri": {
+    "state": "29",
+    "place": "70558",
+    "population": "1853"
+  },
+  "Steelville, Missouri": {
+    "state": "29",
+    "place": "70576",
+    "population": "1472"
+  },
+  "Stewartsville, Missouri": {
+    "state": "29",
+    "place": "70738",
+    "population": "733"
+  },
+  "Stockton, Missouri": {
+    "state": "29",
+    "place": "70828",
+    "population": "1683"
+  },
+  "Stotts City, Missouri": {
+    "state": "29",
+    "place": "70990",
+    "population": "167"
+  },
+  "Stoutland, Missouri": {
+    "state": "29",
+    "place": "71008",
+    "population": "209"
+  }
+}

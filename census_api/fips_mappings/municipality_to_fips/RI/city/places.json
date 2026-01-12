@@ -1,0 +1,42 @@
+{
+  "Central Falls, Rhode Island": {
+    "state": "44",
+    "place": "14140",
+    "population": "22583"
+  },
+  "Cranston, Rhode Island": {
+    "state": "44",
+    "place": "19180",
+    "population": "82934"
+  },
+  "East Providence, Rhode Island": {
+    "state": "44",
+    "place": "22960",
+    "population": "47139"
+  },
+  "Newport, Rhode Island": {
+    "state": "44",
+    "place": "49960",
+    "population": "25163"
+  },
+  "Pawtucket, Rhode Island": {
+    "state": "44",
+    "place": "54640",
+    "population": "75604"
+  },
+  "Providence, Rhode Island": {
+    "state": "44",
+    "place": "59000",
+    "population": "190934"
+  },
+  "Warwick, Rhode Island": {
+    "state": "44",
+    "place": "74300",
+    "population": "82823"
+  },
+  "Woonsocket, Rhode Island": {
+    "state": "44",
+    "place": "80780",
+    "population": "43240"
+  }
+}

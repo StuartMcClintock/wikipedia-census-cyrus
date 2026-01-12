@@ -1,0 +1,377 @@
+{
+  "Alamosa, Colorado": {
+    "state": "08",
+    "place": "01090",
+    "population": "9806"
+  },
+  "Arvada, Colorado": {
+    "state": "08",
+    "place": "03455",
+    "population": "124402"
+  },
+  "Aspen, Colorado": {
+    "state": "08",
+    "place": "03620",
+    "population": "7004"
+  },
+  "Aurora, Colorado": {
+    "state": "08",
+    "place": "04000",
+    "population": "386261"
+  },
+  "Black Hawk, Colorado": {
+    "state": "08",
+    "place": "07025",
+    "population": "127"
+  },
+  "Boulder, Colorado": {
+    "state": "08",
+    "place": "07850",
+    "population": "108250"
+  },
+  "Brighton, Colorado": {
+    "state": "08",
+    "place": "08675",
+    "population": "40083"
+  },
+  "Broomfield, Colorado": {
+    "state": "08",
+    "place": "09280",
+    "population": "74112"
+  },
+  "Brush, Colorado": {
+    "state": "08",
+    "place": "09555",
+    "population": "5339"
+  },
+  "Burlington, Colorado": {
+    "state": "08",
+    "place": "10600",
+    "population": "3172"
+  },
+  "Cañon City, Colorado": {
+    "state": "08",
+    "place": "11810",
+    "population": "17141"
+  },
+  "Castle Pines, Colorado": {
+    "state": "08",
+    "place": "12387",
+    "population": "11036"
+  },
+  "Centennial, Colorado": {
+    "state": "08",
+    "place": "12815",
+    "population": "108418"
+  },
+  "Central City, Colorado": {
+    "state": "08",
+    "place": "12910",
+    "population": "779"
+  },
+  "Cherry Hills Village, Colorado": {
+    "state": "08",
+    "place": "13845",
+    "population": "6442"
+  },
+  "Colorado Springs, Colorado": {
+    "state": "08",
+    "place": "16000",
+    "population": "478961"
+  },
+  "Commerce City, Colorado": {
+    "state": "08",
+    "place": "16495",
+    "population": "62418"
+  },
+  "Cortez, Colorado": {
+    "state": "08",
+    "place": "17375",
+    "population": "8766"
+  },
+  "Craig, Colorado": {
+    "state": "08",
+    "place": "17760",
+    "population": "9060"
+  },
+  "Cripple Creek, Colorado": {
+    "state": "08",
+    "place": "18530",
+    "population": "1155"
+  },
+  "Dacono, Colorado": {
+    "state": "08",
+    "place": "19080",
+    "population": "6297"
+  },
+  "Delta, Colorado": {
+    "state": "08",
+    "place": "19850",
+    "population": "9035"
+  },
+  "Denver, Colorado": {
+    "state": "08",
+    "place": "20000",
+    "population": "715522"
+  },
+  "Durango, Colorado": {
+    "state": "08",
+    "place": "22035",
+    "population": "19071"
+  },
+  "Edgewater, Colorado": {
+    "state": "08",
+    "place": "23135",
+    "population": "5005"
+  },
+  "Englewood, Colorado": {
+    "state": "08",
+    "place": "24785",
+    "population": "33659"
+  },
+  "Evans, Colorado": {
+    "state": "08",
+    "place": "25280",
+    "population": "22165"
+  },
+  "Federal Heights, Colorado": {
+    "state": "08",
+    "place": "26270",
+    "population": "14382"
+  },
+  "Florence, Colorado": {
+    "state": "08",
+    "place": "27040",
+    "population": "3822"
+  },
+  "Fort Collins, Colorado": {
+    "state": "08",
+    "place": "27425",
+    "population": "169810"
+  },
+  "Fort Lupton, Colorado": {
+    "state": "08",
+    "place": "27700",
+    "population": "7955"
+  },
+  "Fort Morgan, Colorado": {
+    "state": "08",
+    "place": "27810",
+    "population": "11597"
+  },
+  "Fountain, Colorado": {
+    "state": "08",
+    "place": "27865",
+    "population": "29802"
+  },
+  "Fruita, Colorado": {
+    "state": "08",
+    "place": "28745",
+    "population": "13395"
+  },
+  "Glendale, Colorado": {
+    "state": "08",
+    "place": "30340",
+    "population": "4613"
+  },
+  "Glenwood Springs, Colorado": {
+    "state": "08",
+    "place": "30780",
+    "population": "9963"
+  },
+  "Golden, Colorado": {
+    "state": "08",
+    "place": "30835",
+    "population": "20399"
+  },
+  "Grand Junction, Colorado": {
+    "state": "08",
+    "place": "31660",
+    "population": "65560"
+  },
+  "Greeley, Colorado": {
+    "state": "08",
+    "place": "32155",
+    "population": "108795"
+  },
+  "Greenwood Village, Colorado": {
+    "state": "08",
+    "place": "33035",
+    "population": "15691"
+  },
+  "Gunnison, Colorado": {
+    "state": "08",
+    "place": "33640",
+    "population": "6560"
+  },
+  "Holyoke, Colorado": {
+    "state": "08",
+    "place": "37270",
+    "population": "2346"
+  },
+  "Idaho Springs, Colorado": {
+    "state": "08",
+    "place": "38370",
+    "population": "1782"
+  },
+  "Lafayette, Colorado": {
+    "state": "08",
+    "place": "41835",
+    "population": "30411"
+  },
+  "La Junta, Colorado": {
+    "state": "08",
+    "place": "42110",
+    "population": "7322"
+  },
+  "Lakewood, Colorado": {
+    "state": "08",
+    "place": "43000",
+    "population": "155984"
+  },
+  "Lamar, Colorado": {
+    "state": "08",
+    "place": "43110",
+    "population": "7687"
+  },
+  "Las Animas, Colorado": {
+    "state": "08",
+    "place": "43660",
+    "population": "2300"
+  },
+  "Leadville, Colorado": {
+    "state": "08",
+    "place": "44320",
+    "population": "2633"
+  },
+  "Littleton, Colorado": {
+    "state": "08",
+    "place": "45255",
+    "population": "45652"
+  },
+  "Lone Tree, Colorado": {
+    "state": "08",
+    "place": "45955",
+    "population": "14253"
+  },
+  "Longmont, Colorado": {
+    "state": "08",
+    "place": "45970",
+    "population": "98885"
+  },
+  "Louisville, Colorado": {
+    "state": "08",
+    "place": "46355",
+    "population": "21226"
+  },
+  "Loveland, Colorado": {
+    "state": "08",
+    "place": "46465",
+    "population": "76378"
+  },
+  "Manitou Springs, Colorado": {
+    "state": "08",
+    "place": "48445",
+    "population": "4858"
+  },
+  "Monte Vista, Colorado": {
+    "state": "08",
+    "place": "51635",
+    "population": "4247"
+  },
+  "Montrose, Colorado": {
+    "state": "08",
+    "place": "51745",
+    "population": "20291"
+  },
+  "Northglenn, Colorado": {
+    "state": "08",
+    "place": "54330",
+    "population": "38131"
+  },
+  "Ouray, Colorado": {
+    "state": "08",
+    "place": "56420",
+    "population": "898"
+  },
+  "Pueblo, Colorado": {
+    "state": "08",
+    "place": "62000",
+    "population": "111876"
+  },
+  "Rifle, Colorado": {
+    "state": "08",
+    "place": "64255",
+    "population": "10437"
+  },
+  "Rocky Ford, Colorado": {
+    "state": "08",
+    "place": "65190",
+    "population": "3876"
+  },
+  "Salida, Colorado": {
+    "state": "08",
+    "place": "67280",
+    "population": "5666"
+  },
+  "Sheridan, Colorado": {
+    "state": "08",
+    "place": "69645",
+    "population": "6105"
+  },
+  "Steamboat Springs, Colorado": {
+    "state": "08",
+    "place": "73825",
+    "population": "13224"
+  },
+  "Sterling, Colorado": {
+    "state": "08",
+    "place": "73935",
+    "population": "13735"
+  },
+  "Thornton, Colorado": {
+    "state": "08",
+    "place": "77290",
+    "population": "141867"
+  },
+  "Trinidad, Colorado": {
+    "state": "08",
+    "place": "78610",
+    "population": "8329"
+  },
+  "Victor, Colorado": {
+    "state": "08",
+    "place": "80865",
+    "population": "379"
+  },
+  "Walsenburg, Colorado": {
+    "state": "08",
+    "place": "82350",
+    "population": "3049"
+  },
+  "Westminster, Colorado": {
+    "state": "08",
+    "place": "83835",
+    "population": "116317"
+  },
+  "Wheat Ridge, Colorado": {
+    "state": "08",
+    "place": "84440",
+    "population": "32398"
+  },
+  "Woodland Park, Colorado": {
+    "state": "08",
+    "place": "86090",
+    "population": "7920"
+  },
+  "Wray, Colorado": {
+    "state": "08",
+    "place": "86310",
+    "population": "2358"
+  },
+  "Yuma, Colorado": {
+    "state": "08",
+    "place": "86750",
+    "population": "3456"
+  }
+}

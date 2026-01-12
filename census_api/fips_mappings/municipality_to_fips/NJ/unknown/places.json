@@ -1,0 +1,32 @@
+{
+  "Greenwich CDP (Cumberland County), New Jersey": {
+    "state": "34",
+    "place": "28140",
+    "population": "251"
+  },
+  "Greenwich CDP (Warren County), New Jersey": {
+    "state": "34",
+    "place": "28250",
+    "population": "2558"
+  },
+  "Princeton, New Jersey": {
+    "state": "34",
+    "place": "60900",
+    "population": "30681"
+  },
+  "Silver Lake CDP (Cumberland County), New Jersey": {
+    "state": "34",
+    "place": "67583",
+    "population": "1435"
+  },
+  "Silver Lake CDP (Essex County), New Jersey": {
+    "state": "34",
+    "place": "67590",
+    "population": "4730"
+  },
+  "Silver Lake CDP (Warren County), New Jersey": {
+    "state": "34",
+    "place": "67650",
+    "population": "333"
+  }
+}

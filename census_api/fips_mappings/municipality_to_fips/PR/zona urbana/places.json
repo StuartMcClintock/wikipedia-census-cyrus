@@ -1,0 +1,392 @@
+{
+  "Adjuntas, Puerto Rico": {
+    "state": "72",
+    "place": "00358",
+    "population": "4169"
+  },
+  "Aguada, Puerto Rico": {
+    "state": "72",
+    "place": "00616",
+    "population": "2839"
+  },
+  "Aguadilla, Puerto Rico": {
+    "state": "72",
+    "place": "00745",
+    "population": "10919"
+  },
+  "Aguas Buenas, Puerto Rico": {
+    "state": "72",
+    "place": "00874",
+    "population": "3083"
+  },
+  "Aibonito, Puerto Rico": {
+    "state": "72",
+    "place": "01218",
+    "population": "7696"
+  },
+  "Añasco, Puerto Rico": {
+    "state": "72",
+    "place": "02680",
+    "population": "4157"
+  },
+  "Arecibo, Puerto Rico": {
+    "state": "72",
+    "place": "03368",
+    "population": "39634"
+  },
+  "Arroyo, Puerto Rico": {
+    "state": "72",
+    "place": "03927",
+    "population": "6441"
+  },
+  "Barceloneta, Puerto Rico": {
+    "state": "72",
+    "place": "05346",
+    "population": "3697"
+  },
+  "Barranquitas, Puerto Rico": {
+    "state": "72",
+    "place": "05690",
+    "population": "2038"
+  },
+  "Bayamón, Puerto Rico": {
+    "state": "72",
+    "place": "06593",
+    "population": "165368"
+  },
+  "Cabo Rojo, Puerto Rico": {
+    "state": "72",
+    "place": "09861",
+    "population": "8231"
+  },
+  "Caguas, Puerto Rico": {
+    "state": "72",
+    "place": "10334",
+    "population": "70318"
+  },
+  "Camuy, Puerto Rico": {
+    "state": "72",
+    "place": "11925",
+    "population": "3179"
+  },
+  "Canóvanas, Puerto Rico": {
+    "state": "72",
+    "place": "12828",
+    "population": "11976"
+  },
+  "Carolina, Puerto Rico": {
+    "state": "72",
+    "place": "14290",
+    "population": "138304"
+  },
+  "Cataño, Puerto Rico": {
+    "state": "72",
+    "place": "15193",
+    "population": "23155"
+  },
+  "Cayey, Puerto Rico": {
+    "state": "72",
+    "place": "15494",
+    "population": "13999"
+  },
+  "Ceiba, Puerto Rico": {
+    "state": "72",
+    "place": "15924",
+    "population": "4697"
+  },
+  "Ciales, Puerto Rico": {
+    "state": "72",
+    "place": "17773",
+    "population": "2828"
+  },
+  "Cidra, Puerto Rico": {
+    "state": "72",
+    "place": "18074",
+    "population": "4518"
+  },
+  "Coamo, Puerto Rico": {
+    "state": "72",
+    "place": "18719",
+    "population": "9309"
+  },
+  "Comerío, Puerto Rico": {
+    "state": "72",
+    "place": "19665",
+    "population": "3054"
+  },
+  "Corozal, Puerto Rico": {
+    "state": "72",
+    "place": "20783",
+    "population": "9159"
+  },
+  "Culebra, Puerto Rico": {
+    "state": "72",
+    "place": "22589",
+    "population": "1441"
+  },
+  "Dorado, Puerto Rico": {
+    "state": "72",
+    "place": "24008",
+    "population": "12172"
+  },
+  "Fajardo, Puerto Rico": {
+    "state": "72",
+    "place": "27964",
+    "population": "25133"
+  },
+  "Florida, Puerto Rico": {
+    "state": "72",
+    "place": "28824",
+    "population": "4190"
+  },
+  "Guánica, Puerto Rico": {
+    "state": "72",
+    "place": "31189",
+    "population": "4642"
+  },
+  "Guayama, Puerto Rico": {
+    "state": "72",
+    "place": "32221",
+    "population": "18797"
+  },
+  "Guayanilla, Puerto Rico": {
+    "state": "72",
+    "place": "32307",
+    "population": "3178"
+  },
+  "Guaynabo, Puerto Rico": {
+    "state": "72",
+    "place": "32522",
+    "population": "68491"
+  },
+  "Gurabo, Puerto Rico": {
+    "state": "72",
+    "place": "32823",
+    "population": "6457"
+  },
+  "Hatillo, Puerto Rico": {
+    "state": "72",
+    "place": "33296",
+    "population": "3785"
+  },
+  "Hormigueros, Puerto Rico": {
+    "state": "72",
+    "place": "35059",
+    "population": "11072"
+  },
+  "Humacao, Puerto Rico": {
+    "state": "72",
+    "place": "35532",
+    "population": "14972"
+  },
+  "Isabela, Puerto Rico": {
+    "state": "72",
+    "place": "36478",
+    "population": "9607"
+  },
+  "Jayuya, Puerto Rico": {
+    "state": "72",
+    "place": "38370",
+    "population": "3064"
+  },
+  "Juana Díaz, Puerto Rico": {
+    "state": "72",
+    "place": "38972",
+    "population": "7352"
+  },
+  "Juncos, Puerto Rico": {
+    "state": "72",
+    "place": "39574",
+    "population": "8204"
+  },
+  "Lajas, Puerto Rico": {
+    "state": "72",
+    "place": "40950",
+    "population": "4471"
+  },
+  "Lares, Puerto Rico": {
+    "state": "72",
+    "place": "42498",
+    "population": "5081"
+  },
+  "Las Marías, Puerto Rico": {
+    "state": "72",
+    "place": "43788",
+    "population": "896"
+  },
+  "Las Piedras, Puerto Rico": {
+    "state": "72",
+    "place": "44390",
+    "population": "5173"
+  },
+  "Loíza, Puerto Rico": {
+    "state": "72",
+    "place": "46368",
+    "population": "3127"
+  },
+  "Luquillo, Puerto Rico": {
+    "state": "72",
+    "place": "47787",
+    "population": "6438"
+  },
+  "Manatí, Puerto Rico": {
+    "state": "72",
+    "place": "50152",
+    "population": "10974"
+  },
+  "Maricao, Puerto Rico": {
+    "state": "72",
+    "place": "51270",
+    "population": "740"
+  },
+  "Maunabo, Puerto Rico": {
+    "state": "72",
+    "place": "52345",
+    "population": "1555"
+  },
+  "Mayagüez, Puerto Rico": {
+    "state": "72",
+    "place": "52431",
+    "population": "57566"
+  },
+  "Moca, Puerto Rico": {
+    "state": "72",
+    "place": "53807",
+    "population": "743"
+  },
+  "Morovis, Puerto Rico": {
+    "state": "72",
+    "place": "55097",
+    "population": "1686"
+  },
+  "Naguabo, Puerto Rico": {
+    "state": "72",
+    "place": "55828",
+    "population": "3822"
+  },
+  "Naranjito, Puerto Rico": {
+    "state": "72",
+    "place": "56129",
+    "population": "2589"
+  },
+  "Orocovis, Puerto Rico": {
+    "state": "72",
+    "place": "57290",
+    "population": "1114"
+  },
+  "Patillas, Puerto Rico": {
+    "state": "72",
+    "place": "60472",
+    "population": "3647"
+  },
+  "Peñuelas, Puerto Rico": {
+    "state": "72",
+    "place": "61074",
+    "population": "4891"
+  },
+  "Ponce, Puerto Rico": {
+    "state": "72",
+    "place": "63820",
+    "population": "107951"
+  },
+  "Quebradillas, Puerto Rico": {
+    "state": "72",
+    "place": "68040",
+    "population": "5658"
+  },
+  "Rincón, Puerto Rico": {
+    "state": "72",
+    "place": "69588",
+    "population": "1482"
+  },
+  "Río Grande, Puerto Rico": {
+    "state": "72",
+    "place": "71136",
+    "population": "10466"
+  },
+  "Sabana Grande, Puerto Rico": {
+    "state": "72",
+    "place": "73544",
+    "population": "8536"
+  },
+  "Salinas, Puerto Rico": {
+    "state": "72",
+    "place": "74877",
+    "population": "3991"
+  },
+  "San Germán, Puerto Rico": {
+    "state": "72",
+    "place": "76167",
+    "population": "9183"
+  },
+  "San Juan, Puerto Rico": {
+    "state": "72",
+    "place": "76770",
+    "population": "322854"
+  },
+  "San Lorenzo, Puerto Rico": {
+    "state": "72",
+    "place": "77027",
+    "population": "8664"
+  },
+  "San Sebastián, Puerto Rico": {
+    "state": "72",
+    "place": "77500",
+    "population": "8470"
+  },
+  "Santa Isabel, Puerto Rico": {
+    "state": "72",
+    "place": "78145",
+    "population": "5436"
+  },
+  "Toa Alta, Puerto Rico": {
+    "state": "72",
+    "place": "82488",
+    "population": "3769"
+  },
+  "Toa Baja, Puerto Rico": {
+    "state": "72",
+    "place": "82617",
+    "population": "1202"
+  },
+  "Trujillo Alto, Puerto Rico": {
+    "state": "72",
+    "place": "83606",
+    "population": "43712"
+  },
+  "Utuado, Puerto Rico": {
+    "state": "72",
+    "place": "84509",
+    "population": "7207"
+  },
+  "Vega Alta, Puerto Rico": {
+    "state": "72",
+    "place": "85197",
+    "population": "8811"
+  },
+  "Vega Baja, Puerto Rico": {
+    "state": "72",
+    "place": "85326",
+    "population": "23415"
+  },
+  "Vieques, Puerto Rico": {
+    "state": "72",
+    "place": "86014",
+    "population": "1668"
+  },
+  "Villalba, Puerto Rico": {
+    "state": "72",
+    "place": "86831",
+    "population": "3215"
+  },
+  "Yabucoa, Puerto Rico": {
+    "state": "72",
+    "place": "87863",
+    "population": "5196"
+  },
+  "Yauco, Puerto Rico": {
+    "state": "72",
+    "place": "88035",
+    "population": "13569"
+  }
+}

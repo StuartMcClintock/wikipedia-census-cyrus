@@ -1,0 +1,922 @@
+{
+  "Banks Springs, Louisiana": {
+    "state": "22",
+    "place": "04230",
+    "population": "1136"
+  },
+  "Barataria, Louisiana": {
+    "state": "22",
+    "place": "04300",
+    "population": "1057"
+  },
+  "Bawcomville, Louisiana": {
+    "state": "22",
+    "place": "05105",
+    "population": "3472"
+  },
+  "Bayou Blue, Louisiana": {
+    "state": "22",
+    "place": "05175",
+    "population": "13352"
+  },
+  "Bayou Cane, Louisiana": {
+    "state": "22",
+    "place": "05210",
+    "population": "19770"
+  },
+  "Bayou Corne, Louisiana": {
+    "state": "22",
+    "place": "05255",
+    "population": "32"
+  },
+  "Bayou Country Club, Louisiana": {
+    "state": "22",
+    "place": "05260",
+    "population": "1304"
+  },
+  "Bayou Gauche, Louisiana": {
+    "state": "22",
+    "place": "05315",
+    "population": "2161"
+  },
+  "Bayou Goula, Louisiana": {
+    "state": "22",
+    "place": "05350",
+    "population": "514"
+  },
+  "Bayou L'Ourse, Louisiana": {
+    "state": "22",
+    "place": "05378",
+    "population": "1806"
+  },
+  "Bayou Vista, Louisiana": {
+    "state": "22",
+    "place": "05525",
+    "population": "4213"
+  },
+  "Belle Chasse, Louisiana": {
+    "state": "22",
+    "place": "06120",
+    "population": "10579"
+  },
+  "Belle Rose, Louisiana": {
+    "state": "22",
+    "place": "06260",
+    "population": "1698"
+  },
+  "Belmont, Louisiana": {
+    "state": "22",
+    "place": "06750",
+    "population": "305"
+  },
+  "Boothville, Louisiana": {
+    "state": "22",
+    "place": "08710",
+    "population": "718"
+  },
+  "Bordelonville, Louisiana": {
+    "state": "22",
+    "place": "08745",
+    "population": "458"
+  },
+  "Bourg, Louisiana": {
+    "state": "22",
+    "place": "09095",
+    "population": "2375"
+  },
+  "Boutte, Louisiana": {
+    "state": "22",
+    "place": "09130",
+    "population": "3054"
+  },
+  "Branch, Louisiana": {
+    "state": "22",
+    "place": "09235",
+    "population": "431"
+  },
+  "Bridge City, Louisiana": {
+    "state": "22",
+    "place": "09480",
+    "population": "7219"
+  },
+  "Brownfields, Louisiana": {
+    "state": "22",
+    "place": "10145",
+    "population": "5145"
+  },
+  "Brownsville, Louisiana": {
+    "state": "22",
+    "place": "10225",
+    "population": "4353"
+  },
+  "Buras, Louisiana": {
+    "state": "22",
+    "place": "10985",
+    "population": "1109"
+  },
+  "Cade, Louisiana": {
+    "state": "22",
+    "place": "11580",
+    "population": "1874"
+  },
+  "Calhoun, Louisiana": {
+    "state": "22",
+    "place": "11825",
+    "population": "670"
+  },
+  "Cameron, Louisiana": {
+    "state": "22",
+    "place": "12000",
+    "population": "315"
+  },
+  "Carlyss, Louisiana": {
+    "state": "22",
+    "place": "12840",
+    "population": "5101"
+  },
+  "Catahoula, Louisiana": {
+    "state": "22",
+    "place": "13330",
+    "population": "988"
+  },
+  "Cecilia, Louisiana": {
+    "state": "22",
+    "place": "13575",
+    "population": "1807"
+  },
+  "Center Point, Louisiana": {
+    "state": "22",
+    "place": "13855",
+    "population": "520"
+  },
+  "Centerville, Louisiana": {
+    "state": "22",
+    "place": "13925",
+    "population": "499"
+  },
+  "Chackbay, Louisiana": {
+    "state": "22",
+    "place": "14100",
+    "population": "5370"
+  },
+  "Chalmette, Louisiana": {
+    "state": "22",
+    "place": "14135",
+    "population": "21562"
+  },
+  "Charenton, Louisiana": {
+    "state": "22",
+    "place": "14310",
+    "population": "1699"
+  },
+  "Chauvin, Louisiana": {
+    "state": "22",
+    "place": "14520",
+    "population": "2575"
+  },
+  "Choctaw, Louisiana": {
+    "state": "22",
+    "place": "15150",
+    "population": "775"
+  },
+  "Claiborne, Louisiana": {
+    "state": "22",
+    "place": "15605",
+    "population": "12631"
+  },
+  "Convent, Louisiana": {
+    "state": "22",
+    "place": "17180",
+    "population": "483"
+  },
+  "Crescent, Louisiana": {
+    "state": "22",
+    "place": "18335",
+    "population": "811"
+  },
+  "Cut Off, Louisiana": {
+    "state": "22",
+    "place": "18930",
+    "population": "5533"
+  },
+  "Darrow, Louisiana": {
+    "state": "22",
+    "place": "19490",
+    "population": "200"
+  },
+  "Delacroix, Louisiana": {
+    "state": "22",
+    "place": "20050",
+    "population": "48"
+  },
+  "Des Allemands, Louisiana": {
+    "state": "22",
+    "place": "20680",
+    "population": "2179"
+  },
+  "Destrehan, Louisiana": {
+    "state": "22",
+    "place": "20820",
+    "population": "11340"
+  },
+  "Deville, Louisiana": {
+    "state": "22",
+    "place": "20890",
+    "population": "1761"
+  },
+  "Dorseyville, Louisiana": {
+    "state": "22",
+    "place": "21388",
+    "population": "159"
+  },
+  "Dulac, Louisiana": {
+    "state": "22",
+    "place": "21940",
+    "population": "1241"
+  },
+  "Eastwood, Louisiana": {
+    "state": "22",
+    "place": "22610",
+    "population": "4390"
+  },
+  "Echo, Louisiana": {
+    "state": "22",
+    "place": "22640",
+    "population": "352"
+  },
+  "Eden Isle, Louisiana": {
+    "state": "22",
+    "place": "22722",
+    "population": "7782"
+  },
+  "Edgard, Louisiana": {
+    "state": "22",
+    "place": "22815",
+    "population": "1948"
+  },
+  "Egan, Louisiana": {
+    "state": "22",
+    "place": "23025",
+    "population": "618"
+  },
+  "Elmwood, Louisiana": {
+    "state": "22",
+    "place": "23567",
+    "population": "5649"
+  },
+  "Empire, Louisiana": {
+    "state": "22",
+    "place": "23725",
+    "population": "905"
+  },
+  "Erwinville, Louisiana": {
+    "state": "22",
+    "place": "24250",
+    "population": "2275"
+  },
+  "Estelle, Louisiana": {
+    "state": "22",
+    "place": "24390",
+    "population": "17952"
+  },
+  "Fifth Ward, Louisiana": {
+    "state": "22",
+    "place": "25545",
+    "population": "921"
+  },
+  "Fort Jesup, Louisiana": {
+    "state": "22",
+    "place": "26665",
+    "population": "494"
+  },
+  "Fort Polk North, Louisiana": {
+    "state": "22",
+    "place": "26746",
+    "population": "2179"
+  },
+  "Fort Polk South, Louisiana": {
+    "state": "22",
+    "place": "26757",
+    "population": "7950"
+  },
+  "Frierson, Louisiana": {
+    "state": "22",
+    "place": "27540",
+    "population": "132"
+  },
+  "Galliano, Louisiana": {
+    "state": "22",
+    "place": "28065",
+    "population": "7100"
+  },
+  "Gardere, Louisiana": {
+    "state": "22",
+    "place": "28275",
+    "population": "13203"
+  },
+  "Garyville, Louisiana": {
+    "state": "22",
+    "place": "28345",
+    "population": "2123"
+  },
+  "Gillis, Louisiana": {
+    "state": "22",
+    "place": "29045",
+    "population": "800"
+  },
+  "Glencoe, Louisiana": {
+    "state": "22",
+    "place": "29150",
+    "population": "132"
+  },
+  "Gloster, Louisiana": {
+    "state": "22",
+    "place": "29395",
+    "population": "53"
+  },
+  "Good Pine, Louisiana": {
+    "state": "22",
+    "place": "29990",
+    "population": "259"
+  },
+  "Grand Point, Louisiana": {
+    "state": "22",
+    "place": "30900",
+    "population": "2241"
+  },
+  "Gray, Louisiana": {
+    "state": "22",
+    "place": "31180",
+    "population": "5518"
+  },
+  "Hackberry, Louisiana": {
+    "state": "22",
+    "place": "32405",
+    "population": "926"
+  },
+  "Hahnville, Louisiana": {
+    "state": "22",
+    "place": "32510",
+    "population": "2959"
+  },
+  "Harvey, Louisiana": {
+    "state": "22",
+    "place": "33245",
+    "population": "22236"
+  },
+  "Hayes, Louisiana": {
+    "state": "22",
+    "place": "33490",
+    "population": "676"
+  },
+  "Hester, Louisiana": {
+    "state": "22",
+    "place": "34085",
+    "population": "483"
+  },
+  "Inniswold, Louisiana": {
+    "state": "22",
+    "place": "37270",
+    "population": "5987"
+  },
+  "Jefferson, Louisiana": {
+    "state": "22",
+    "place": "38145",
+    "population": "10633"
+  },
+  "Jordan Hill, Louisiana": {
+    "state": "22",
+    "place": "38845",
+    "population": "196"
+  },
+  "Joyce, Louisiana": {
+    "state": "22",
+    "place": "38880",
+    "population": "328"
+  },
+  "Killona, Louisiana": {
+    "state": "22",
+    "place": "39720",
+    "population": "724"
+  },
+  "Kraemer, Louisiana": {
+    "state": "22",
+    "place": "40210",
+    "population": "877"
+  },
+  "Labadieville, Louisiana": {
+    "state": "22",
+    "place": "40420",
+    "population": "1715"
+  },
+  "Lacassine, Louisiana": {
+    "state": "22",
+    "place": "40595",
+    "population": "490"
+  },
+  "Lacombe, Louisiana": {
+    "state": "22",
+    "place": "40665",
+    "population": "8657"
+  },
+  "Lafitte, Louisiana": {
+    "state": "22",
+    "place": "40840",
+    "population": "1014"
+  },
+  "Lafourche Crossing, Louisiana": {
+    "state": "22",
+    "place": "40878",
+    "population": "2427"
+  },
+  "Lakeshore, Louisiana": {
+    "state": "22",
+    "place": "41470",
+    "population": "1988"
+  },
+  "Lakeview, Louisiana": {
+    "state": "22",
+    "place": "41645",
+    "population": "818"
+  },
+  "Laplace, Louisiana": {
+    "state": "22",
+    "place": "42030",
+    "population": "28841"
+  },
+  "Larose, Louisiana": {
+    "state": "22",
+    "place": "42135",
+    "population": "6763"
+  },
+  "Lawtell, Louisiana": {
+    "state": "22",
+    "place": "42520",
+    "population": "1066"
+  },
+  "Lemannville, Louisiana": {
+    "state": "22",
+    "place": "43255",
+    "population": "695"
+  },
+  "Lewisburg, Louisiana": {
+    "state": "22",
+    "place": "43640",
+    "population": "420"
+  },
+  "Lockport Heights, Louisiana": {
+    "state": "22",
+    "place": "44970",
+    "population": "1171"
+  },
+  "Longville, Louisiana": {
+    "state": "22",
+    "place": "45530",
+    "population": "545"
+  },
+  "Luling, Louisiana": {
+    "state": "22",
+    "place": "46615",
+    "population": "13716"
+  },
+  "Lydia, Louisiana": {
+    "state": "22",
+    "place": "46755",
+    "population": "892"
+  },
+  "Marrero, Louisiana": {
+    "state": "22",
+    "place": "48785",
+    "population": "32382"
+  },
+  "Marthaville, Louisiana": {
+    "state": "22",
+    "place": "48890",
+    "population": "90"
+  },
+  "Mathews, Louisiana": {
+    "state": "22",
+    "place": "49170",
+    "population": "2273"
+  },
+  "Meraux, Louisiana": {
+    "state": "22",
+    "place": "49800",
+    "population": "6804"
+  },
+  "Merrydale, Louisiana": {
+    "state": "22",
+    "place": "49940",
+    "population": "9227"
+  },
+  "Metairie, Louisiana": {
+    "state": "22",
+    "place": "50115",
+    "population": "143507"
+  },
+  "Midland, Louisiana": {
+    "state": "22",
+    "place": "50325",
+    "population": "249"
+  },
+  "Midway, Louisiana": {
+    "state": "22",
+    "place": "50395",
+    "population": "1157"
+  },
+  "Milton, Louisiana": {
+    "state": "22",
+    "place": "50815",
+    "population": "2590"
+  },
+  "Minorca, Louisiana": {
+    "state": "22",
+    "place": "50990",
+    "population": "2156"
+  },
+  "Montegut, Louisiana": {
+    "state": "22",
+    "place": "51550",
+    "population": "1465"
+  },
+  "Monterey, Louisiana": {
+    "state": "22",
+    "place": "51585",
+    "population": "474"
+  },
+  "Monticello, Louisiana": {
+    "state": "22",
+    "place": "51645",
+    "population": "5431"
+  },
+  "Montz, Louisiana": {
+    "state": "22",
+    "place": "51795",
+    "population": "2106"
+  },
+  "Moonshine, Louisiana": {
+    "state": "22",
+    "place": "51800",
+    "population": "168"
+  },
+  "Morrow, Louisiana": {
+    "state": "22",
+    "place": "52250",
+    "population": "149"
+  },
+  "Moss Bluff, Louisiana": {
+    "state": "22",
+    "place": "52425",
+    "population": "12522"
+  },
+  "Natalbany, Louisiana": {
+    "state": "22",
+    "place": "53475",
+    "population": "2510"
+  },
+  "New Orleans Station, Louisiana": {
+    "state": "22",
+    "place": "55074",
+    "population": "2508"
+  },
+  "New Sarpy, Louisiana": {
+    "state": "22",
+    "place": "55140",
+    "population": "1169"
+  },
+  "Norco, Louisiana": {
+    "state": "22",
+    "place": "55525",
+    "population": "2984"
+  },
+  "North Vacherie, Louisiana": {
+    "state": "22",
+    "place": "56170",
+    "population": "2093"
+  },
+  "Oak Hills Place, Louisiana": {
+    "state": "22",
+    "place": "56855",
+    "population": "9239"
+  },
+  "Old Jefferson, Louisiana": {
+    "state": "22",
+    "place": "57705",
+    "population": "7339"
+  },
+  "Oretta, Louisiana": {
+    "state": "22",
+    "place": "58150",
+    "population": "371"
+  },
+  "Ossun, Louisiana": {
+    "state": "22",
+    "place": "58360",
+    "population": "2145"
+  },
+  "Paincourtville, Louisiana": {
+    "state": "22",
+    "place": "58745",
+    "population": "857"
+  },
+  "Paradis, Louisiana": {
+    "state": "22",
+    "place": "58920",
+    "population": "1242"
+  },
+  "Paulina, Louisiana": {
+    "state": "22",
+    "place": "59375",
+    "population": "1778"
+  },
+  "Perry, Louisiana": {
+    "state": "22",
+    "place": "59795",
+    "population": "1171"
+  },
+  "Pierre Part, Louisiana": {
+    "state": "22",
+    "place": "60075",
+    "population": "3024"
+  },
+  "Pitkin, Louisiana": {
+    "state": "22",
+    "place": "60600",
+    "population": "455"
+  },
+  "Pleasure Bend, Louisiana": {
+    "state": "22",
+    "place": "61160",
+    "population": "212"
+  },
+  "Pointe a la Hache, Louisiana": {
+    "state": "22",
+    "place": "61440",
+    "population": "183"
+  },
+  "Point Place, Louisiana": {
+    "state": "22",
+    "place": "61473",
+    "population": "382"
+  },
+  "Port Sulphur, Louisiana": {
+    "state": "22",
+    "place": "62070",
+    "population": "1677"
+  },
+  "Poydras, Louisiana": {
+    "state": "22",
+    "place": "62280",
+    "population": "2536"
+  },
+  "Prairieville, Louisiana": {
+    "state": "22",
+    "place": "62385",
+    "population": "33197"
+  },
+  "Presquille, Louisiana": {
+    "state": "22",
+    "place": "62510",
+    "population": "1703"
+  },
+  "Prien, Louisiana": {
+    "state": "22",
+    "place": "62647",
+    "population": "7745"
+  },
+  "Prospect, Louisiana": {
+    "state": "22",
+    "place": "62733",
+    "population": "380"
+  },
+  "Raceland, Louisiana": {
+    "state": "22",
+    "place": "63155",
+    "population": "9768"
+  },
+  "Red Chute, Louisiana": {
+    "state": "22",
+    "place": "63855",
+    "population": "7065"
+  },
+  "Reddell, Louisiana": {
+    "state": "22",
+    "place": "63890",
+    "population": "904"
+  },
+  "Reserve, Louisiana": {
+    "state": "22",
+    "place": "64310",
+    "population": "8541"
+  },
+  "Rio, Louisiana": {
+    "state": "22",
+    "place": "64975",
+    "population": "137"
+  },
+  "River Ridge, Louisiana": {
+    "state": "22",
+    "place": "65150",
+    "population": "13591"
+  },
+  "Roanoke, Louisiana": {
+    "state": "22",
+    "place": "65290",
+    "population": "491"
+  },
+  "Rock Hill, Louisiana": {
+    "state": "22",
+    "place": "65535",
+    "population": "260"
+  },
+  "Romeville, Louisiana": {
+    "state": "22",
+    "place": "65850",
+    "population": "99"
+  },
+  "St. James, Louisiana": {
+    "state": "22",
+    "place": "67355",
+    "population": "592"
+  },
+  "St. Maurice, Louisiana": {
+    "state": "22",
+    "place": "67635",
+    "population": "266"
+  },
+  "St. Rose, Louisiana": {
+    "state": "22",
+    "place": "67740",
+    "population": "7504"
+  },
+  "Schriever, Louisiana": {
+    "state": "22",
+    "place": "68300",
+    "population": "6711"
+  },
+  "Shenandoah, Louisiana": {
+    "state": "22",
+    "place": "69225",
+    "population": "19292"
+  },
+  "Singer, Louisiana": {
+    "state": "22",
+    "place": "70665",
+    "population": "303"
+  },
+  "Siracusaville, Louisiana": {
+    "state": "22",
+    "place": "70675",
+    "population": "297"
+  },
+  "Sorrel, Louisiana": {
+    "state": "22",
+    "place": "71190",
+    "population": "711"
+  },
+  "South Vacherie, Louisiana": {
+    "state": "22",
+    "place": "72092",
+    "population": "3388"
+  },
+  "Spokane, Louisiana": {
+    "state": "22",
+    "place": "72310",
+    "population": "378"
+  },
+  "Starks, Louisiana": {
+    "state": "22",
+    "place": "72975",
+    "population": "659"
+  },
+  "Start, Louisiana": {
+    "state": "22",
+    "place": "73010",
+    "population": "982"
+  },
+  "Sugartown, Louisiana": {
+    "state": "22",
+    "place": "73570",
+    "population": "33"
+  },
+  "Supreme, Louisiana": {
+    "state": "22",
+    "place": "74235",
+    "population": "839"
+  },
+  "Swartz, Louisiana": {
+    "state": "22",
+    "place": "74340",
+    "population": "4354"
+  },
+  "Taft, Louisiana": {
+    "state": "22",
+    "place": "74550",
+    "population": "61"
+  },
+  "Terrytown, Louisiana": {
+    "state": "22",
+    "place": "75180",
+    "population": "25278"
+  },
+  "Timberlane, Louisiana": {
+    "state": "22",
+    "place": "75740",
+    "population": "10364"
+  },
+  "Triumph, Louisiana": {
+    "state": "22",
+    "place": "76440",
+    "population": "268"
+  },
+  "Trout, Louisiana": {
+    "state": "22",
+    "place": "76475",
+    "population": "104"
+  },
+  "Union, Louisiana": {
+    "state": "22",
+    "place": "77035",
+    "population": "735"
+  },
+  "Venice, Louisiana": {
+    "state": "22",
+    "place": "78015",
+    "population": "162"
+  },
+  "Ventress, Louisiana": {
+    "state": "22",
+    "place": "78050",
+    "population": "800"
+  },
+  "Vienna Bend, Louisiana": {
+    "state": "22",
+    "place": "78545",
+    "population": "1314"
+  },
+  "Village St. George, Louisiana": {
+    "state": "22",
+    "place": "78680",
+    "population": "7677"
+  },
+  "Violet, Louisiana": {
+    "state": "22",
+    "place": "78855",
+    "population": "5758"
+  },
+  "Waggaman, Louisiana": {
+    "state": "22",
+    "place": "79100",
+    "population": "9835"
+  },
+  "Wallace, Louisiana": {
+    "state": "22",
+    "place": "79275",
+    "population": "755"
+  },
+  "Wallace Ridge, Louisiana": {
+    "state": "22",
+    "place": "79310",
+    "population": "572"
+  },
+  "Watson, Louisiana": {
+    "state": "22",
+    "place": "80010",
+    "population": "956"
+  },
+  "Welcome, Louisiana": {
+    "state": "22",
+    "place": "80360",
+    "population": "672"
+  },
+  "Westminster, Louisiana": {
+    "state": "22",
+    "place": "80920",
+    "population": "2791"
+  },
+  "Woodmere, Louisiana": {
+    "state": "22",
+    "place": "83002",
+    "population": "11238"
+  },
+  "Ama, Louisiana": {
+    "state": "22",
+    "place": "01780",
+    "population": "1290"
+  },
+  "Amelia, Louisiana": {
+    "state": "22",
+    "place": "01815",
+    "population": "2132"
+  },
+  "Arabi, Louisiana": {
+    "state": "22",
+    "place": "02550",
+    "population": "4533"
+  },
+  "Avondale, Louisiana": {
+    "state": "22",
+    "place": "03810",
+    "population": "4582"
+  }
+}

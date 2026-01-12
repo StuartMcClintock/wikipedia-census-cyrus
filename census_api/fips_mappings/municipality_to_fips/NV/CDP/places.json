@@ -1,0 +1,572 @@
+{
+  "Alamo, Nevada": {
+    "state": "32",
+    "place": "00500",
+    "population": "785"
+  },
+  "Amargosa Valley, Nevada": {
+    "state": "32",
+    "place": "01000",
+    "population": "1064"
+  },
+  "Austin, Nevada": {
+    "state": "32",
+    "place": "03700",
+    "population": "167"
+  },
+  "Baker, Nevada": {
+    "state": "32",
+    "place": "04100",
+    "population": "41"
+  },
+  "Battle Mountain, Nevada": {
+    "state": "32",
+    "place": "04900",
+    "population": "3705"
+  },
+  "Beatty, Nevada": {
+    "state": "32",
+    "place": "05100",
+    "population": "880"
+  },
+  "Beaverdam, Nevada": {
+    "state": "32",
+    "place": "05125",
+    "population": "40"
+  },
+  "Bennett Springs, Nevada": {
+    "state": "32",
+    "place": "05275",
+    "population": "158"
+  },
+  "Blue Diamond, Nevada": {
+    "state": "32",
+    "place": "05700",
+    "population": "268"
+  },
+  "Bunkerville, Nevada": {
+    "state": "32",
+    "place": "08100",
+    "population": "1069"
+  },
+  "Cal-Nev-Ari, Nevada": {
+    "state": "32",
+    "place": "08600",
+    "population": "144"
+  },
+  "Carter Springs, Nevada": {
+    "state": "32",
+    "place": "10200",
+    "population": "585"
+  },
+  "Cold Springs, Nevada": {
+    "state": "32",
+    "place": "14090",
+    "population": "10153"
+  },
+  "Crescent Valley, Nevada": {
+    "state": "32",
+    "place": "16300",
+    "population": "512"
+  },
+  "Crystal Bay, Nevada": {
+    "state": "32",
+    "place": "16700",
+    "population": "337"
+  },
+  "Dayton, Nevada": {
+    "state": "32",
+    "place": "17500",
+    "population": "15153"
+  },
+  "Denio, Nevada": {
+    "state": "32",
+    "place": "18500",
+    "population": "34"
+  },
+  "Double Spring, Nevada": {
+    "state": "32",
+    "place": "19150",
+    "population": "180"
+  },
+  "Dry Valley, Nevada": {
+    "state": "32",
+    "place": "19800",
+    "population": "49"
+  },
+  "Dyer, Nevada": {
+    "state": "32",
+    "place": "20700",
+    "population": "232"
+  },
+  "East Valley, Nevada": {
+    "state": "32",
+    "place": "21520",
+    "population": "1558"
+  },
+  "Empire, Nevada": {
+    "state": "32",
+    "place": "23700",
+    "population": "47"
+  },
+  "Enterprise, Nevada": {
+    "state": "32",
+    "place": "23770",
+    "population": "221831"
+  },
+  "Eureka, Nevada": {
+    "state": "32",
+    "place": "23900",
+    "population": "414"
+  },
+  "Fallon Station, Nevada": {
+    "state": "32",
+    "place": "24500",
+    "population": "281"
+  },
+  "Fish Springs, Nevada": {
+    "state": "32",
+    "place": "25000",
+    "population": "684"
+  },
+  "Fort McDermitt, Nevada": {
+    "state": "32",
+    "place": "25490",
+    "population": "267"
+  },
+  "Gabbs, Nevada": {
+    "state": "32",
+    "place": "25900",
+    "population": "186"
+  },
+  "Gardnerville, Nevada": {
+    "state": "32",
+    "place": "26300",
+    "population": "6211"
+  },
+  "Gardnerville Ranchos, Nevada": {
+    "state": "32",
+    "place": "26500",
+    "population": "11318"
+  },
+  "Genoa, Nevada": {
+    "state": "32",
+    "place": "27100",
+    "population": "1343"
+  },
+  "Gerlach, Nevada": {
+    "state": "32",
+    "place": "27300",
+    "population": "130"
+  },
+  "Glenbrook, Nevada": {
+    "state": "32",
+    "place": "27900",
+    "population": "315"
+  },
+  "Golconda, Nevada": {
+    "state": "32",
+    "place": "28500",
+    "population": "182"
+  },
+  "Golden Valley, Nevada": {
+    "state": "32",
+    "place": "28860",
+    "population": "1580"
+  },
+  "Goldfield, Nevada": {
+    "state": "32",
+    "place": "28900",
+    "population": "225"
+  },
+  "Goodsprings, Nevada": {
+    "state": "32",
+    "place": "29500",
+    "population": "162"
+  },
+  "Grass Valley, Nevada": {
+    "state": "32",
+    "place": "30220",
+    "population": "991"
+  },
+  "Hawthorne, Nevada": {
+    "state": "32",
+    "place": "31300",
+    "population": "3118"
+  },
+  "Hiko, Nevada": {
+    "state": "32",
+    "place": "32900",
+    "population": "124"
+  },
+  "Humboldt River Ranch, Nevada": {
+    "state": "32",
+    "place": "34100",
+    "population": "249"
+  },
+  "Imlay, Nevada": {
+    "state": "32",
+    "place": "34700",
+    "population": "210"
+  },
+  "Incline Village, Nevada": {
+    "state": "32",
+    "place": "35100",
+    "population": "9462"
+  },
+  "Indian Hills, Nevada": {
+    "state": "32",
+    "place": "35275",
+    "population": "5962"
+  },
+  "Indian Springs, Nevada": {
+    "state": "32",
+    "place": "35300",
+    "population": "912"
+  },
+  "Jackpot, Nevada": {
+    "state": "32",
+    "place": "36500",
+    "population": "855"
+  },
+  "Johnson Lane, Nevada": {
+    "state": "32",
+    "place": "37190",
+    "population": "6409"
+  },
+  "Kingsbury, Nevada": {
+    "state": "32",
+    "place": "38000",
+    "population": "2313"
+  },
+  "Kingston, Nevada": {
+    "state": "32",
+    "place": "38100",
+    "population": "194"
+  },
+  "Lakeridge, Nevada": {
+    "state": "32",
+    "place": "39100",
+    "population": "409"
+  },
+  "Lamoille, Nevada": {
+    "state": "32",
+    "place": "39300",
+    "population": "130"
+  },
+  "Laughlin, Nevada": {
+    "state": "32",
+    "place": "41000",
+    "population": "8658"
+  },
+  "Lemmon Valley, Nevada": {
+    "state": "32",
+    "place": "41800",
+    "population": "4987"
+  },
+  "Logan Creek, Nevada": {
+    "state": "32",
+    "place": "42350",
+    "population": "40"
+  },
+  "Lund, Nevada": {
+    "state": "32",
+    "place": "43400",
+    "population": "211"
+  },
+  "McDermitt, Nevada": {
+    "state": "32",
+    "place": "44000",
+    "population": "124"
+  },
+  "McGill, Nevada": {
+    "state": "32",
+    "place": "44200",
+    "population": "1010"
+  },
+  "Mina, Nevada": {
+    "state": "32",
+    "place": "46800",
+    "population": "127"
+  },
+  "Minden, Nevada": {
+    "state": "32",
+    "place": "47000",
+    "population": "3442"
+  },
+  "Moapa Town, Nevada": {
+    "state": "32",
+    "place": "47840",
+    "population": "1006"
+  },
+  "Moapa Valley, Nevada": {
+    "state": "32",
+    "place": "47880",
+    "population": "6289"
+  },
+  "Mogul, Nevada": {
+    "state": "32",
+    "place": "48000",
+    "population": "1258"
+  },
+  "Montello, Nevada": {
+    "state": "32",
+    "place": "48400",
+    "population": "66"
+  },
+  "Mountain City, Nevada": {
+    "state": "32",
+    "place": "49200",
+    "population": "14"
+  },
+  "Mount Charleston, Nevada": {
+    "state": "32",
+    "place": "49310",
+    "population": "314"
+  },
+  "Mount Wilson, Nevada": {
+    "state": "32",
+    "place": "49425",
+    "population": "26"
+  },
+  "Nellis AFB, Nevada": {
+    "state": "32",
+    "place": "50400",
+    "population": "4379"
+  },
+  "Nelson, Nevada": {
+    "state": "32",
+    "place": "50600",
+    "population": "22"
+  },
+  "Nixon, Nevada": {
+    "state": "32",
+    "place": "51200",
+    "population": "464"
+  },
+  "Orovada, Nevada": {
+    "state": "32",
+    "place": "53000",
+    "population": "117"
+  },
+  "Osino, Nevada": {
+    "state": "32",
+    "place": "53200",
+    "population": "668"
+  },
+  "Owyhee, Nevada": {
+    "state": "32",
+    "place": "53600",
+    "population": "1027"
+  },
+  "Pahrump, Nevada": {
+    "state": "32",
+    "place": "53800",
+    "population": "44738"
+  },
+  "Panaca, Nevada": {
+    "state": "32",
+    "place": "54200",
+    "population": "870"
+  },
+  "Paradise, Nevada": {
+    "state": "32",
+    "place": "54600",
+    "population": "191238"
+  },
+  "Paradise Valley, Nevada": {
+    "state": "32",
+    "place": "55400",
+    "population": "71"
+  },
+  "Pioche, Nevada": {
+    "state": "32",
+    "place": "57400",
+    "population": "933"
+  },
+  "Preston, Nevada": {
+    "state": "32",
+    "place": "58000",
+    "population": "76"
+  },
+  "Rachel, Nevada": {
+    "state": "32",
+    "place": "58820",
+    "population": "48"
+  },
+  "Round Hill Village, Nevada": {
+    "state": "32",
+    "place": "62170",
+    "population": "898"
+  },
+  "Ruhenstroth, Nevada": {
+    "state": "32",
+    "place": "63450",
+    "population": "1239"
+  },
+  "Ruth, Nevada": {
+    "state": "32",
+    "place": "63800",
+    "population": "371"
+  },
+  "Sandy Valley, Nevada": {
+    "state": "32",
+    "place": "64600",
+    "population": "1663"
+  },
+  "Schurz, Nevada": {
+    "state": "32",
+    "place": "65400",
+    "population": "656"
+  },
+  "Searchlight, Nevada": {
+    "state": "32",
+    "place": "65600",
+    "population": "445"
+  },
+  "Silver City, Nevada": {
+    "state": "32",
+    "place": "66800",
+    "population": "155"
+  },
+  "Silver Peak, Nevada": {
+    "state": "32",
+    "place": "67000",
+    "population": "121"
+  },
+  "Silver Springs, Nevada": {
+    "state": "32",
+    "place": "67200",
+    "population": "5629"
+  },
+  "Skyland, Nevada": {
+    "state": "32",
+    "place": "67600",
+    "population": "328"
+  },
+  "Smith Valley, Nevada": {
+    "state": "32",
+    "place": "68050",
+    "population": "1710"
+  },
+  "Spanish Springs, Nevada": {
+    "state": "32",
+    "place": "68350",
+    "population": "17314"
+  },
+  "Spring Creek, Nevada": {
+    "state": "32",
+    "place": "68550",
+    "population": "14967"
+  },
+  "Spring Valley, Nevada": {
+    "state": "32",
+    "place": "68585",
+    "population": "215597"
+  },
+  "Stagecoach, Nevada": {
+    "state": "32",
+    "place": "68800",
+    "population": "2022"
+  },
+  "Stateline, Nevada": {
+    "state": "32",
+    "place": "69200",
+    "population": "595"
+  },
+  "Summerlin South, Nevada": {
+    "state": "32",
+    "place": "70900",
+    "population": "30744"
+  },
+  "Sunrise Manor, Nevada": {
+    "state": "32",
+    "place": "71400",
+    "population": "205618"
+  },
+  "Sun Valley, Nevada": {
+    "state": "32",
+    "place": "71600",
+    "population": "21178"
+  },
+  "Sutcliffe, Nevada": {
+    "state": "32",
+    "place": "71800",
+    "population": "282"
+  },
+  "Tonopah, Nevada": {
+    "state": "32",
+    "place": "73600",
+    "population": "2179"
+  },
+  "Topaz Lake, Nevada": {
+    "state": "32",
+    "place": "74200",
+    "population": "202"
+  },
+  "Topaz Ranch Estates, Nevada": {
+    "state": "32",
+    "place": "74400",
+    "population": "1630"
+  },
+  "Unionville, Nevada": {
+    "state": "32",
+    "place": "76400",
+    "population": "27"
+  },
+  "Ursine, Nevada": {
+    "state": "32",
+    "place": "77200",
+    "population": "62"
+  },
+  "Valmy, Nevada": {
+    "state": "32",
+    "place": "78200",
+    "population": "26"
+  },
+  "Verdi, Nevada": {
+    "state": "32",
+    "place": "79400",
+    "population": "1396"
+  },
+  "Virginia City, Nevada": {
+    "state": "32",
+    "place": "80000",
+    "population": "787"
+  },
+  "Wadsworth, Nevada": {
+    "state": "32",
+    "place": "81000",
+    "population": "991"
+  },
+  "Oasis, Nevada": {
+    "state": "32",
+    "place": "52200",
+    "population": "4"
+  },
+  "Walker Lake, Nevada": {
+    "state": "32",
+    "place": "81100",
+    "population": "247"
+  },
+  "Washoe Valley, Nevada": {
+    "state": "32",
+    "place": "82250",
+    "population": "3074"
+  },
+  "Whitney, Nevada": {
+    "state": "32",
+    "place": "83800",
+    "population": "49061"
+  },
+  "Winchester, Nevada": {
+    "state": "32",
+    "place": "84600",
+    "population": "36403"
+  },
+  "Zephyr Cove, Nevada": {
+    "state": "32",
+    "place": "86200",
+    "population": "679"
+  }
+}

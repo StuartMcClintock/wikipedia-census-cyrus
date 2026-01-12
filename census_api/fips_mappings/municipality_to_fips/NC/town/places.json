@@ -1,0 +1,2277 @@
+{
+  "Aberdeen, North Carolina": {
+    "state": "37",
+    "place": "00160",
+    "population": "8516"
+  },
+  "Ahoskie, North Carolina": {
+    "state": "37",
+    "place": "00500",
+    "population": "4891"
+  },
+  "Alliance, North Carolina": {
+    "state": "37",
+    "place": "01000",
+    "population": "733"
+  },
+  "Andrews, North Carolina": {
+    "state": "37",
+    "place": "01380",
+    "population": "1667"
+  },
+  "Angier, North Carolina": {
+    "state": "37",
+    "place": "01400",
+    "population": "5265"
+  },
+  "Ansonville, North Carolina": {
+    "state": "37",
+    "place": "01420",
+    "population": "440"
+  },
+  "Apex, North Carolina": {
+    "state": "37",
+    "place": "01520",
+    "population": "58780"
+  },
+  "Arapahoe, North Carolina": {
+    "state": "37",
+    "place": "01640",
+    "population": "416"
+  },
+  "Archer Lodge, North Carolina": {
+    "state": "37",
+    "place": "01760",
+    "population": "4797"
+  },
+  "Askewville, North Carolina": {
+    "state": "37",
+    "place": "02320",
+    "population": "184"
+  },
+  "Atkinson, North Carolina": {
+    "state": "37",
+    "place": "02460",
+    "population": "296"
+  },
+  "Atlantic Beach, North Carolina": {
+    "state": "37",
+    "place": "02500",
+    "population": "1364"
+  },
+  "Aulander, North Carolina": {
+    "state": "37",
+    "place": "02580",
+    "population": "763"
+  },
+  "Aurora, North Carolina": {
+    "state": "37",
+    "place": "02620",
+    "population": "455"
+  },
+  "Autryville, North Carolina": {
+    "state": "37",
+    "place": "02700",
+    "population": "167"
+  },
+  "Ayden, North Carolina": {
+    "state": "37",
+    "place": "02840",
+    "population": "4977"
+  },
+  "Badin, North Carolina": {
+    "state": "37",
+    "place": "02960",
+    "population": "2024"
+  },
+  "Bailey, North Carolina": {
+    "state": "37",
+    "place": "03020",
+    "population": "568"
+  },
+  "Bakersville, North Carolina": {
+    "state": "37",
+    "place": "03100",
+    "population": "450"
+  },
+  "Banner Elk, North Carolina": {
+    "state": "37",
+    "place": "03500",
+    "population": "1049"
+  },
+  "Bath, North Carolina": {
+    "state": "37",
+    "place": "03840",
+    "population": "245"
+  },
+  "Bayboro, North Carolina": {
+    "state": "37",
+    "place": "03960",
+    "population": "1161"
+  },
+  "Bear Grass, North Carolina": {
+    "state": "37",
+    "place": "04180",
+    "population": "89"
+  },
+  "Beaufort, North Carolina": {
+    "state": "37",
+    "place": "04260",
+    "population": "4464"
+  },
+  "Beech Mountain, North Carolina": {
+    "state": "37",
+    "place": "04510",
+    "population": "675"
+  },
+  "Belhaven, North Carolina": {
+    "state": "37",
+    "place": "04640",
+    "population": "1410"
+  },
+  "Belville, North Carolina": {
+    "state": "37",
+    "place": "04950",
+    "population": "2406"
+  },
+  "Belwood, North Carolina": {
+    "state": "37",
+    "place": "04960",
+    "population": "857"
+  },
+  "Benson, North Carolina": {
+    "state": "37",
+    "place": "05040",
+    "population": "3967"
+  },
+  "Bermuda Run, North Carolina": {
+    "state": "37",
+    "place": "05135",
+    "population": "3120"
+  },
+  "Bethania, North Carolina": {
+    "state": "37",
+    "place": "05340",
+    "population": "344"
+  },
+  "Bethel, North Carolina": {
+    "state": "37",
+    "place": "05460",
+    "population": "1373"
+  },
+  "Beulaville, North Carolina": {
+    "state": "37",
+    "place": "05660",
+    "population": "1116"
+  },
+  "Biltmore Forest, North Carolina": {
+    "state": "37",
+    "place": "05880",
+    "population": "1409"
+  },
+  "Biscoe, North Carolina": {
+    "state": "37",
+    "place": "06000",
+    "population": "1848"
+  },
+  "Black Creek, North Carolina": {
+    "state": "37",
+    "place": "06080",
+    "population": "692"
+  },
+  "Black Mountain, North Carolina": {
+    "state": "37",
+    "place": "06140",
+    "population": "8426"
+  },
+  "Bladenboro, North Carolina": {
+    "state": "37",
+    "place": "06240",
+    "population": "1648"
+  },
+  "Blowing Rock, North Carolina": {
+    "state": "37",
+    "place": "06500",
+    "population": "1376"
+  },
+  "Boardman, North Carolina": {
+    "state": "37",
+    "place": "06660",
+    "population": "166"
+  },
+  "Bogue, North Carolina": {
+    "state": "37",
+    "place": "06740",
+    "population": "695"
+  },
+  "Boiling Springs, North Carolina": {
+    "state": "37",
+    "place": "06800",
+    "population": "4615"
+  },
+  "Bolivia, North Carolina": {
+    "state": "37",
+    "place": "06820",
+    "population": "149"
+  },
+  "Bolton, North Carolina": {
+    "state": "37",
+    "place": "06860",
+    "population": "519"
+  },
+  "Boone, North Carolina": {
+    "state": "37",
+    "place": "07080",
+    "population": "19092"
+  },
+  "Boonville, North Carolina": {
+    "state": "37",
+    "place": "07140",
+    "population": "1185"
+  },
+  "Bostic, North Carolina": {
+    "state": "37",
+    "place": "07220",
+    "population": "355"
+  },
+  "Bridgeton, North Carolina": {
+    "state": "37",
+    "place": "07860",
+    "population": "349"
+  },
+  "Broadway, North Carolina": {
+    "state": "37",
+    "place": "08080",
+    "population": "1267"
+  },
+  "Brookford, North Carolina": {
+    "state": "37",
+    "place": "08140",
+    "population": "442"
+  },
+  "Brunswick, North Carolina": {
+    "state": "37",
+    "place": "08420",
+    "population": "973"
+  },
+  "Bryson City, North Carolina": {
+    "state": "37",
+    "place": "08480",
+    "population": "1558"
+  },
+  "Bunn, North Carolina": {
+    "state": "37",
+    "place": "08860",
+    "population": "327"
+  },
+  "Colerain, North Carolina": {
+    "state": "37",
+    "place": "13560",
+    "population": "217"
+  },
+  "Columbia, North Carolina": {
+    "state": "37",
+    "place": "13940",
+    "population": "610"
+  },
+  "Columbus, North Carolina": {
+    "state": "37",
+    "place": "13980",
+    "population": "1060"
+  },
+  "Como, North Carolina": {
+    "state": "37",
+    "place": "14060",
+    "population": "67"
+  },
+  "Conetoe, North Carolina": {
+    "state": "37",
+    "place": "14200",
+    "population": "198"
+  },
+  "Connelly Springs, North Carolina": {
+    "state": "37",
+    "place": "14280",
+    "population": "1529"
+  },
+  "Conway, North Carolina": {
+    "state": "37",
+    "place": "14400",
+    "population": "752"
+  },
+  "Cooleemee, North Carolina": {
+    "state": "37",
+    "place": "14460",
+    "population": "940"
+  },
+  "Cornelius, North Carolina": {
+    "state": "37",
+    "place": "14700",
+    "population": "31412"
+  },
+  "Cove City, North Carolina": {
+    "state": "37",
+    "place": "15020",
+    "population": "378"
+  },
+  "Cramerton, North Carolina": {
+    "state": "37",
+    "place": "15260",
+    "population": "5296"
+  },
+  "Creswell, North Carolina": {
+    "state": "37",
+    "place": "15420",
+    "population": "207"
+  },
+  "Crossnore, North Carolina": {
+    "state": "37",
+    "place": "15580",
+    "population": "143"
+  },
+  "Dallas, North Carolina": {
+    "state": "37",
+    "place": "16180",
+    "population": "5927"
+  },
+  "Danbury, North Carolina": {
+    "state": "37",
+    "place": "16240",
+    "population": "189"
+  },
+  "Davidson, North Carolina": {
+    "state": "37",
+    "place": "16400",
+    "population": "15106"
+  },
+  "Dellview, North Carolina": {
+    "state": "37",
+    "place": "16820",
+    "population": "6"
+  },
+  "Denton, North Carolina": {
+    "state": "37",
+    "place": "16980",
+    "population": "1494"
+  },
+  "Dillsboro, North Carolina": {
+    "state": "37",
+    "place": "17180",
+    "population": "213"
+  },
+  "Dobbins Heights, North Carolina": {
+    "state": "37",
+    "place": "17325",
+    "population": "687"
+  },
+  "Dobson, North Carolina": {
+    "state": "37",
+    "place": "17340",
+    "population": "1462"
+  },
+  "Dortches, North Carolina": {
+    "state": "37",
+    "place": "17520",
+    "population": "1082"
+  },
+  "Dover, North Carolina": {
+    "state": "37",
+    "place": "17660",
+    "population": "349"
+  },
+  "Drexel, North Carolina": {
+    "state": "37",
+    "place": "17860",
+    "population": "1760"
+  },
+  "Dublin, North Carolina": {
+    "state": "37",
+    "place": "18040",
+    "population": "267"
+  },
+  "Duck, North Carolina": {
+    "state": "37",
+    "place": "18060",
+    "population": "742"
+  },
+  "Earl, North Carolina": {
+    "state": "37",
+    "place": "19140",
+    "population": "198"
+  },
+  "East Arcadia, North Carolina": {
+    "state": "37",
+    "place": "19300",
+    "population": "418"
+  },
+  "East Bend, North Carolina": {
+    "state": "37",
+    "place": "19320",
+    "population": "634"
+  },
+  "East Laurinburg, North Carolina": {
+    "state": "37",
+    "place": "19620",
+    "population": "234"
+  },
+  "Eastover, North Carolina": {
+    "state": "37",
+    "place": "19740",
+    "population": "3656"
+  },
+  "East Spencer, North Carolina": {
+    "state": "37",
+    "place": "19860",
+    "population": "1567"
+  },
+  "Fremont, North Carolina": {
+    "state": "37",
+    "place": "24900",
+    "population": "1196"
+  },
+  "Fuquay-Varina, North Carolina": {
+    "state": "37",
+    "place": "25300",
+    "population": "34152"
+  },
+  "Gamewell, North Carolina": {
+    "state": "37",
+    "place": "25380",
+    "population": "3702"
+  },
+  "Garland, North Carolina": {
+    "state": "37",
+    "place": "25460",
+    "population": "595"
+  },
+  "Garner, North Carolina": {
+    "state": "37",
+    "place": "25480",
+    "population": "31159"
+  },
+  "Garysburg, North Carolina": {
+    "state": "37",
+    "place": "25540",
+    "population": "904"
+  },
+  "Gaston, North Carolina": {
+    "state": "37",
+    "place": "25560",
+    "population": "1008"
+  },
+  "Gatesville, North Carolina": {
+    "state": "37",
+    "place": "25680",
+    "population": "267"
+  },
+  "Gibson, North Carolina": {
+    "state": "37",
+    "place": "25940",
+    "population": "449"
+  },
+  "Gibsonville, North Carolina": {
+    "state": "37",
+    "place": "25980",
+    "population": "8920"
+  },
+  "Glen Alpine, North Carolina": {
+    "state": "37",
+    "place": "26200",
+    "population": "1529"
+  },
+  "Godwin, North Carolina": {
+    "state": "37",
+    "place": "26740",
+    "population": "128"
+  },
+  "Goldston, North Carolina": {
+    "state": "37",
+    "place": "26920",
+    "population": "234"
+  },
+  "Granite Falls, North Carolina": {
+    "state": "37",
+    "place": "27420",
+    "population": "4965"
+  },
+  "Granite Quarry, North Carolina": {
+    "state": "37",
+    "place": "27440",
+    "population": "2984"
+  },
+  "Grantsboro, North Carolina": {
+    "state": "37",
+    "place": "27520",
+    "population": "692"
+  },
+  "Greenevers, North Carolina": {
+    "state": "37",
+    "place": "27780",
+    "population": "567"
+  },
+  "Green Level, North Carolina": {
+    "state": "37",
+    "place": "27870",
+    "population": "3152"
+  },
+  "Grifton, North Carolina": {
+    "state": "37",
+    "place": "28200",
+    "population": "2448"
+  },
+  "Grimesland, North Carolina": {
+    "state": "37",
+    "place": "28240",
+    "population": "386"
+  },
+  "Grover, North Carolina": {
+    "state": "37",
+    "place": "28400",
+    "population": "802"
+  },
+  "Halifax, North Carolina": {
+    "state": "37",
+    "place": "28920",
+    "population": "170"
+  },
+  "Hamilton, North Carolina": {
+    "state": "37",
+    "place": "29120",
+    "population": "306"
+  },
+  "Harmony, North Carolina": {
+    "state": "37",
+    "place": "29640",
+    "population": "543"
+  },
+  "Harrells, North Carolina": {
+    "state": "37",
+    "place": "29680",
+    "population": "160"
+  },
+  "Harrellsville, North Carolina": {
+    "state": "37",
+    "place": "29720",
+    "population": "85"
+  },
+  "Harrisburg, North Carolina": {
+    "state": "37",
+    "place": "29800",
+    "population": "18967"
+  },
+  "Hassell, North Carolina": {
+    "state": "37",
+    "place": "30040",
+    "population": "49"
+  },
+  "Burgaw, North Carolina": {
+    "state": "37",
+    "place": "08960",
+    "population": "3088"
+  },
+  "Burnsville, North Carolina": {
+    "state": "37",
+    "place": "09140",
+    "population": "1614"
+  },
+  "Butner, North Carolina": {
+    "state": "37",
+    "place": "09360",
+    "population": "8397"
+  },
+  "Cajah's Mountain, North Carolina": {
+    "state": "37",
+    "place": "09530",
+    "population": "2722"
+  },
+  "Calabash, North Carolina": {
+    "state": "37",
+    "place": "09540",
+    "population": "2011"
+  },
+  "Calypso, North Carolina": {
+    "state": "37",
+    "place": "09760",
+    "population": "327"
+  },
+  "Cameron, North Carolina": {
+    "state": "37",
+    "place": "09800",
+    "population": "244"
+  },
+  "Candor, North Carolina": {
+    "state": "37",
+    "place": "10120",
+    "population": "813"
+  },
+  "Canton, North Carolina": {
+    "state": "37",
+    "place": "10240",
+    "population": "4422"
+  },
+  "Cape Carteret, North Carolina": {
+    "state": "37",
+    "place": "10260",
+    "population": "2224"
+  },
+  "Carolina Beach, North Carolina": {
+    "state": "37",
+    "place": "10500",
+    "population": "6564"
+  },
+  "Carolina Shores, North Carolina": {
+    "state": "37",
+    "place": "10550",
+    "population": "4588"
+  },
+  "Carrboro, North Carolina": {
+    "state": "37",
+    "place": "10620",
+    "population": "21295"
+  },
+  "Carthage, North Carolina": {
+    "state": "37",
+    "place": "10680",
+    "population": "2775"
+  },
+  "Cary, North Carolina": {
+    "state": "37",
+    "place": "10740",
+    "population": "174721"
+  },
+  "Casar, North Carolina": {
+    "state": "37",
+    "place": "10760",
+    "population": "305"
+  },
+  "Castalia, North Carolina": {
+    "state": "37",
+    "place": "10860",
+    "population": "264"
+  },
+  "Caswell Beach, North Carolina": {
+    "state": "37",
+    "place": "10960",
+    "population": "395"
+  },
+  "Catawba, North Carolina": {
+    "state": "37",
+    "place": "10980",
+    "population": "702"
+  },
+  "Cedar Point, North Carolina": {
+    "state": "37",
+    "place": "11340",
+    "population": "1764"
+  },
+  "Cerro Gordo, North Carolina": {
+    "state": "37",
+    "place": "11620",
+    "population": "131"
+  },
+  "Chadbourn, North Carolina": {
+    "state": "37",
+    "place": "11640",
+    "population": "1574"
+  },
+  "Chapel Hill, North Carolina": {
+    "state": "37",
+    "place": "11800",
+    "population": "61960"
+  },
+  "China Grove, North Carolina": {
+    "state": "37",
+    "place": "12480",
+    "population": "4434"
+  },
+  "Chocowinity, North Carolina": {
+    "state": "37",
+    "place": "12580",
+    "population": "722"
+  },
+  "Clarkton, North Carolina": {
+    "state": "37",
+    "place": "12780",
+    "population": "614"
+  },
+  "Clayton, North Carolina": {
+    "state": "37",
+    "place": "12860",
+    "population": "26307"
+  },
+  "Cleveland, North Carolina": {
+    "state": "37",
+    "place": "13000",
+    "population": "846"
+  },
+  "Clyde, North Carolina": {
+    "state": "37",
+    "place": "13280",
+    "population": "1368"
+  },
+  "Coats, North Carolina": {
+    "state": "37",
+    "place": "13360",
+    "population": "2155"
+  },
+  "Edenton, North Carolina": {
+    "state": "37",
+    "place": "20120",
+    "population": "4460"
+  },
+  "Elizabethtown, North Carolina": {
+    "state": "37",
+    "place": "20600",
+    "population": "3296"
+  },
+  "Elkin, North Carolina": {
+    "state": "37",
+    "place": "20620",
+    "population": "4122"
+  },
+  "Elk Park, North Carolina": {
+    "state": "37",
+    "place": "20700",
+    "population": "542"
+  },
+  "Ellenboro, North Carolina": {
+    "state": "37",
+    "place": "20780",
+    "population": "723"
+  },
+  "Ellerbe, North Carolina": {
+    "state": "37",
+    "place": "20840",
+    "population": "864"
+  },
+  "Elm City, North Carolina": {
+    "state": "37",
+    "place": "20980",
+    "population": "1218"
+  },
+  "Elon, North Carolina": {
+    "state": "37",
+    "place": "21095",
+    "population": "11336"
+  },
+  "Emerald Isle, North Carolina": {
+    "state": "37",
+    "place": "21160",
+    "population": "3847"
+  },
+  "Enfield, North Carolina": {
+    "state": "37",
+    "place": "21360",
+    "population": "1865"
+  },
+  "Erwin, North Carolina": {
+    "state": "37",
+    "place": "21740",
+    "population": "4542"
+  },
+  "Eureka, North Carolina": {
+    "state": "37",
+    "place": "21960",
+    "population": "214"
+  },
+  "Everetts, North Carolina": {
+    "state": "37",
+    "place": "22040",
+    "population": "150"
+  },
+  "Fair Bluff, North Carolina": {
+    "state": "37",
+    "place": "22240",
+    "population": "709"
+  },
+  "Fairmont, North Carolina": {
+    "state": "37",
+    "place": "22360",
+    "population": "2191"
+  },
+  "Fairview, North Carolina": {
+    "state": "37",
+    "place": "22500",
+    "population": "3456"
+  },
+  "Faison, North Carolina": {
+    "state": "37",
+    "place": "22560",
+    "population": "784"
+  },
+  "Faith, North Carolina": {
+    "state": "37",
+    "place": "22600",
+    "population": "819"
+  },
+  "Falcon, North Carolina": {
+    "state": "37",
+    "place": "22620",
+    "population": "324"
+  },
+  "Falkland, North Carolina": {
+    "state": "37",
+    "place": "22640",
+    "population": "47"
+  },
+  "Fallston, North Carolina": {
+    "state": "37",
+    "place": "22720",
+    "population": "627"
+  },
+  "Farmville, North Carolina": {
+    "state": "37",
+    "place": "22820",
+    "population": "4461"
+  },
+  "Fletcher, North Carolina": {
+    "state": "37",
+    "place": "23760",
+    "population": "7987"
+  },
+  "Fontana Dam, North Carolina": {
+    "state": "37",
+    "place": "23980",
+    "population": "13"
+  },
+  "Forest City, North Carolina": {
+    "state": "37",
+    "place": "24080",
+    "population": "7377"
+  },
+  "Fountain, North Carolina": {
+    "state": "37",
+    "place": "24440",
+    "population": "385"
+  },
+  "Four Oaks, North Carolina": {
+    "state": "37",
+    "place": "24520",
+    "population": "2158"
+  },
+  "Franklin, North Carolina": {
+    "state": "37",
+    "place": "24640",
+    "population": "4175"
+  },
+  "Franklinton, North Carolina": {
+    "state": "37",
+    "place": "24720",
+    "population": "2456"
+  },
+  "Franklinville, North Carolina": {
+    "state": "37",
+    "place": "24740",
+    "population": "1197"
+  },
+  "Haw River, North Carolina": {
+    "state": "37",
+    "place": "30260",
+    "population": "2252"
+  },
+  "Hayesville, North Carolina": {
+    "state": "37",
+    "place": "30280",
+    "population": "461"
+  },
+  "Hemby Bridge, North Carolina": {
+    "state": "37",
+    "place": "30620",
+    "population": "1614"
+  },
+  "Hertford, North Carolina": {
+    "state": "37",
+    "place": "30900",
+    "population": "1934"
+  },
+  "Highlands, North Carolina": {
+    "state": "37",
+    "place": "31360",
+    "population": "1072"
+  },
+  "Hildebran, North Carolina": {
+    "state": "37",
+    "place": "31500",
+    "population": "1679"
+  },
+  "Hillsborough, North Carolina": {
+    "state": "37",
+    "place": "31620",
+    "population": "9660"
+  },
+  "Hobgood, North Carolina": {
+    "state": "37",
+    "place": "31860",
+    "population": "268"
+  },
+  "Hoffman, North Carolina": {
+    "state": "37",
+    "place": "31920",
+    "population": "418"
+  },
+  "Holden Beach, North Carolina": {
+    "state": "37",
+    "place": "31960",
+    "population": "921"
+  },
+  "Holly Ridge, North Carolina": {
+    "state": "37",
+    "place": "32180",
+    "population": "4171"
+  },
+  "Holly Springs, North Carolina": {
+    "state": "37",
+    "place": "32260",
+    "population": "41239"
+  },
+  "Hookerton, North Carolina": {
+    "state": "37",
+    "place": "32540",
+    "population": "413"
+  },
+  "Hope Mills, North Carolina": {
+    "state": "37",
+    "place": "32640",
+    "population": "17808"
+  },
+  "Hot Springs, North Carolina": {
+    "state": "37",
+    "place": "32840",
+    "population": "520"
+  },
+  "Hudson, North Carolina": {
+    "state": "37",
+    "place": "32980",
+    "population": "3780"
+  },
+  "Huntersville, North Carolina": {
+    "state": "37",
+    "place": "33120",
+    "population": "61376"
+  },
+  "Indian Beach, North Carolina": {
+    "state": "37",
+    "place": "33460",
+    "population": "223"
+  },
+  "Indian Trail, North Carolina": {
+    "state": "37",
+    "place": "33560",
+    "population": "39997"
+  },
+  "Jackson, North Carolina": {
+    "state": "37",
+    "place": "34000",
+    "population": "430"
+  },
+  "Jamestown, North Carolina": {
+    "state": "37",
+    "place": "34300",
+    "population": "3668"
+  },
+  "Jamesville, North Carolina": {
+    "state": "37",
+    "place": "34320",
+    "population": "424"
+  },
+  "Jefferson, North Carolina": {
+    "state": "37",
+    "place": "34440",
+    "population": "1622"
+  },
+  "Jonesville, North Carolina": {
+    "state": "37",
+    "place": "34840",
+    "population": "2308"
+  },
+  "Kelford, North Carolina": {
+    "state": "37",
+    "place": "35360",
+    "population": "203"
+  },
+  "Kenansville, North Carolina": {
+    "state": "37",
+    "place": "35460",
+    "population": "770"
+  },
+  "Kenly, North Carolina": {
+    "state": "37",
+    "place": "35540",
+    "population": "1491"
+  },
+  "Kernersville, North Carolina": {
+    "state": "37",
+    "place": "35600",
+    "population": "26449"
+  },
+  "Kingstown, North Carolina": {
+    "state": "37",
+    "place": "35890",
+    "population": "656"
+  },
+  "Kittrell, North Carolina": {
+    "state": "37",
+    "place": "36020",
+    "population": "132"
+  },
+  "Kitty Hawk, North Carolina": {
+    "state": "37",
+    "place": "36060",
+    "population": "3689"
+  },
+  "Knightdale, North Carolina": {
+    "state": "37",
+    "place": "36080",
+    "population": "19435"
+  },
+  "Kure Beach, North Carolina": {
+    "state": "37",
+    "place": "36220",
+    "population": "2191"
+  },
+  "La Grange, North Carolina": {
+    "state": "37",
+    "place": "36400",
+    "population": "2595"
+  },
+  "Lake Lure, North Carolina": {
+    "state": "37",
+    "place": "36500",
+    "population": "1365"
+  },
+  "Lake Santeetlah, North Carolina": {
+    "state": "37",
+    "place": "36514",
+    "population": "38"
+  },
+  "Lake Waccamaw, North Carolina": {
+    "state": "37",
+    "place": "36640",
+    "population": "1296"
+  },
+  "Landis, North Carolina": {
+    "state": "37",
+    "place": "36860",
+    "population": "3690"
+  },
+  "Lansing, North Carolina": {
+    "state": "37",
+    "place": "36960",
+    "population": "126"
+  },
+  "Lasker, North Carolina": {
+    "state": "37",
+    "place": "37000",
+    "population": "64"
+  },
+  "Lattimore, North Carolina": {
+    "state": "37",
+    "place": "37040",
+    "population": "406"
+  },
+  "Laurel Park, North Carolina": {
+    "state": "37",
+    "place": "37160",
+    "population": "2250"
+  },
+  "Lawndale, North Carolina": {
+    "state": "37",
+    "place": "37260",
+    "population": "570"
+  },
+  "Leggett, North Carolina": {
+    "state": "37",
+    "place": "37640",
+    "population": "37"
+  },
+  "Leland, North Carolina": {
+    "state": "37",
+    "place": "37680",
+    "population": "22908"
+  },
+  "Lewiston Woodville, North Carolina": {
+    "state": "37",
+    "place": "38030",
+    "population": "426"
+  },
+  "Lewisville, North Carolina": {
+    "state": "37",
+    "place": "38040",
+    "population": "13381"
+  },
+  "Liberty, North Carolina": {
+    "state": "37",
+    "place": "38100",
+    "population": "2655"
+  },
+  "Lilesville, North Carolina": {
+    "state": "37",
+    "place": "38200",
+    "population": "395"
+  },
+  "Lillington, North Carolina": {
+    "state": "37",
+    "place": "38220",
+    "population": "4735"
+  },
+  "Linden, North Carolina": {
+    "state": "37",
+    "place": "38360",
+    "population": "136"
+  },
+  "Littleton, North Carolina": {
+    "state": "37",
+    "place": "38680",
+    "population": "559"
+  },
+  "Kill Devil Hills, North Carolina": {
+    "state": "37",
+    "place": "35720",
+    "population": "7656"
+  },
+  "Long View, North Carolina": {
+    "state": "37",
+    "place": "39280",
+    "population": "5088"
+  },
+  "Louisburg, North Carolina": {
+    "state": "37",
+    "place": "39360",
+    "population": "3064"
+  },
+  "Love Valley, North Carolina": {
+    "state": "37",
+    "place": "39420",
+    "population": "154"
+  },
+  "Lucama, North Carolina": {
+    "state": "37",
+    "place": "39600",
+    "population": "1036"
+  },
+  "Lumber Bridge, North Carolina": {
+    "state": "37",
+    "place": "39680",
+    "population": "82"
+  },
+  "McAdenville, North Carolina": {
+    "state": "37",
+    "place": "39880",
+    "population": "890"
+  },
+  "Macclesfield, North Carolina": {
+    "state": "37",
+    "place": "39960",
+    "population": "413"
+  },
+  "McFarlan, North Carolina": {
+    "state": "37",
+    "place": "40240",
+    "population": "94"
+  },
+  "Macon, North Carolina": {
+    "state": "37",
+    "place": "40540",
+    "population": "110"
+  },
+  "Madison, North Carolina": {
+    "state": "37",
+    "place": "40560",
+    "population": "2129"
+  },
+  "Maggie Valley, North Carolina": {
+    "state": "37",
+    "place": "40600",
+    "population": "1687"
+  },
+  "Magnolia, North Carolina": {
+    "state": "37",
+    "place": "40640",
+    "population": "831"
+  },
+  "Maiden, North Carolina": {
+    "state": "37",
+    "place": "40660",
+    "population": "3736"
+  },
+  "Manteo, North Carolina": {
+    "state": "37",
+    "place": "41060",
+    "population": "1600"
+  },
+  "Marietta, North Carolina": {
+    "state": "37",
+    "place": "41380",
+    "population": "111"
+  },
+  "Marshall, North Carolina": {
+    "state": "37",
+    "place": "41580",
+    "population": "777"
+  },
+  "Mars Hill, North Carolina": {
+    "state": "37",
+    "place": "41620",
+    "population": "2007"
+  },
+  "Marshville, North Carolina": {
+    "state": "37",
+    "place": "41640",
+    "population": "2522"
+  },
+  "Matthews, North Carolina": {
+    "state": "37",
+    "place": "41960",
+    "population": "29435"
+  },
+  "Maxton, North Carolina": {
+    "state": "37",
+    "place": "42020",
+    "population": "2110"
+  },
+  "Mayodan, North Carolina": {
+    "state": "37",
+    "place": "42060",
+    "population": "2418"
+  },
+  "Maysville, North Carolina": {
+    "state": "37",
+    "place": "42100",
+    "population": "818"
+  },
+  "Mesic, North Carolina": {
+    "state": "37",
+    "place": "42480",
+    "population": "144"
+  },
+  "Micro, North Carolina": {
+    "state": "37",
+    "place": "42620",
+    "population": "458"
+  },
+  "Middleburg, North Carolina": {
+    "state": "37",
+    "place": "42640",
+    "population": "101"
+  },
+  "Middlesex, North Carolina": {
+    "state": "37",
+    "place": "42700",
+    "population": "912"
+  },
+  "Midland, North Carolina": {
+    "state": "37",
+    "place": "42760",
+    "population": "4684"
+  },
+  "Midway, North Carolina": {
+    "state": "37",
+    "place": "42860",
+    "population": "4742"
+  },
+  "Mills River, North Carolina": {
+    "state": "37",
+    "place": "43260",
+    "population": "7078"
+  },
+  "Milton, North Carolina": {
+    "state": "37",
+    "place": "43300",
+    "population": "155"
+  },
+  "Mineral Springs, North Carolina": {
+    "state": "37",
+    "place": "43360",
+    "population": "3159"
+  },
+  "Minnesott Beach, North Carolina": {
+    "state": "37",
+    "place": "43440",
+    "population": "530"
+  },
+  "Mint Hill, North Carolina": {
+    "state": "37",
+    "place": "43480",
+    "population": "26450"
+  },
+  "McDonald, North Carolina": {
+    "state": "37",
+    "place": "40140",
+    "population": "94"
+  },
+  "Mocksville, North Carolina": {
+    "state": "37",
+    "place": "43720",
+    "population": "5900"
+  },
+  "Momeyer, North Carolina": {
+    "state": "37",
+    "place": "43860",
+    "population": "277"
+  },
+  "Montreat, North Carolina": {
+    "state": "37",
+    "place": "44100",
+    "population": "901"
+  },
+  "Mooresboro, North Carolina": {
+    "state": "37",
+    "place": "44160",
+    "population": "293"
+  },
+  "Mooresville, North Carolina": {
+    "state": "37",
+    "place": "44220",
+    "population": "50193"
+  },
+  "Morehead City, North Carolina": {
+    "state": "37",
+    "place": "44320",
+    "population": "9556"
+  },
+  "Morrisville, North Carolina": {
+    "state": "37",
+    "place": "44520",
+    "population": "29630"
+  },
+  "Morven, North Carolina": {
+    "state": "37",
+    "place": "44560",
+    "population": "329"
+  },
+  "Mount Gilead, North Carolina": {
+    "state": "37",
+    "place": "44900",
+    "population": "1171"
+  },
+  "Mount Olive, North Carolina": {
+    "state": "37",
+    "place": "45100",
+    "population": "4198"
+  },
+  "Mount Pleasant, North Carolina": {
+    "state": "37",
+    "place": "45140",
+    "population": "1671"
+  },
+  "Murfreesboro, North Carolina": {
+    "state": "37",
+    "place": "45640",
+    "population": "2619"
+  },
+  "Murphy, North Carolina": {
+    "state": "37",
+    "place": "45660",
+    "population": "1608"
+  },
+  "Nags Head, North Carolina": {
+    "state": "37",
+    "place": "45880",
+    "population": "3168"
+  },
+  "Nashville, North Carolina": {
+    "state": "37",
+    "place": "46000",
+    "population": "5632"
+  },
+  "Navassa, North Carolina": {
+    "state": "37",
+    "place": "46060",
+    "population": "1367"
+  },
+  "Newland, North Carolina": {
+    "state": "37",
+    "place": "46740",
+    "population": "715"
+  },
+  "New London, North Carolina": {
+    "state": "37",
+    "place": "46820",
+    "population": "607"
+  },
+  "Newport, North Carolina": {
+    "state": "37",
+    "place": "46860",
+    "population": "4364"
+  },
+  "Newton Grove, North Carolina": {
+    "state": "37",
+    "place": "47020",
+    "population": "585"
+  },
+  "Norlina, North Carolina": {
+    "state": "37",
+    "place": "47240",
+    "population": "920"
+  },
+  "Norman, North Carolina": {
+    "state": "37",
+    "place": "47260",
+    "population": "100"
+  },
+  "North Topsail Beach, North Carolina": {
+    "state": "37",
+    "place": "47845",
+    "population": "1005"
+  },
+  "North Wilkesboro, North Carolina": {
+    "state": "37",
+    "place": "47880",
+    "population": "4382"
+  },
+  "Norwood, North Carolina": {
+    "state": "37",
+    "place": "47980",
+    "population": "2367"
+  },
+  "Oakboro, North Carolina": {
+    "state": "37",
+    "place": "48040",
+    "population": "2128"
+  },
+  "Oak City, North Carolina": {
+    "state": "37",
+    "place": "48060",
+    "population": "266"
+  },
+  "Oak Island, North Carolina": {
+    "state": "37",
+    "place": "48345",
+    "population": "8396"
+  },
+  "Oak Ridge, North Carolina": {
+    "state": "37",
+    "place": "48480",
+    "population": "7474"
+  },
+  "Ocean Isle Beach, North Carolina": {
+    "state": "37",
+    "place": "48700",
+    "population": "867"
+  },
+  "Old Fort, North Carolina": {
+    "state": "37",
+    "place": "48920",
+    "population": "811"
+  },
+  "Oriental, North Carolina": {
+    "state": "37",
+    "place": "49380",
+    "population": "880"
+  },
+  "Orrum, North Carolina": {
+    "state": "37",
+    "place": "49460",
+    "population": "59"
+  },
+  "Ossipee, North Carolina": {
+    "state": "37",
+    "place": "49600",
+    "population": "536"
+  },
+  "Pantego, North Carolina": {
+    "state": "37",
+    "place": "50080",
+    "population": "164"
+  },
+  "Parkton, North Carolina": {
+    "state": "37",
+    "place": "50340",
+    "population": "504"
+  },
+  "Parmele, North Carolina": {
+    "state": "37",
+    "place": "50540",
+    "population": "243"
+  },
+  "Patterson Springs, North Carolina": {
+    "state": "37",
+    "place": "50700",
+    "population": "571"
+  },
+  "Peachland, North Carolina": {
+    "state": "37",
+    "place": "50820",
+    "population": "390"
+  },
+  "Peletier, North Carolina": {
+    "state": "37",
+    "place": "51040",
+    "population": "769"
+  },
+  "Pembroke, North Carolina": {
+    "state": "37",
+    "place": "51080",
+    "population": "2823"
+  },
+  "Pikeville, North Carolina": {
+    "state": "37",
+    "place": "51780",
+    "population": "712"
+  },
+  "Pilot Mountain, North Carolina": {
+    "state": "37",
+    "place": "51820",
+    "population": "1440"
+  },
+  "Pinebluff, North Carolina": {
+    "state": "37",
+    "place": "51840",
+    "population": "1473"
+  },
+  "Rolesville, North Carolina": {
+    "state": "37",
+    "place": "57640",
+    "population": "9475"
+  },
+  "Ronda, North Carolina": {
+    "state": "37",
+    "place": "57700",
+    "population": "438"
+  },
+  "Roper, North Carolina": {
+    "state": "37",
+    "place": "57740",
+    "population": "485"
+  },
+  "Roseboro, North Carolina": {
+    "state": "37",
+    "place": "57800",
+    "population": "1163"
+  },
+  "Rose Hill, North Carolina": {
+    "state": "37",
+    "place": "57860",
+    "population": "1371"
+  },
+  "Rosman, North Carolina": {
+    "state": "37",
+    "place": "58020",
+    "population": "701"
+  },
+  "Rowland, North Carolina": {
+    "state": "37",
+    "place": "58140",
+    "population": "885"
+  },
+  "Roxobel, North Carolina": {
+    "state": "37",
+    "place": "58180",
+    "population": "187"
+  },
+  "Rural Hall, North Carolina": {
+    "state": "37",
+    "place": "58360",
+    "population": "3351"
+  },
+  "Ruth, North Carolina": {
+    "state": "37",
+    "place": "58420",
+    "population": "347"
+  },
+  "Rutherford College, North Carolina": {
+    "state": "37",
+    "place": "58440",
+    "population": "1226"
+  },
+  "Rutherfordton, North Carolina": {
+    "state": "37",
+    "place": "58460",
+    "population": "3640"
+  },
+  "St. James, North Carolina": {
+    "state": "37",
+    "place": "58630",
+    "population": "6529"
+  },
+  "St. Pauls, North Carolina": {
+    "state": "37",
+    "place": "58720",
+    "population": "2045"
+  },
+  "Salemburg, North Carolina": {
+    "state": "37",
+    "place": "58840",
+    "population": "457"
+  },
+  "Sandy Creek, North Carolina": {
+    "state": "37",
+    "place": "59090",
+    "population": "248"
+  },
+  "Sandyfield, North Carolina": {
+    "state": "37",
+    "place": "59135",
+    "population": "430"
+  },
+  "Saratoga, North Carolina": {
+    "state": "37",
+    "place": "59340",
+    "population": "353"
+  },
+  "Sawmills, North Carolina": {
+    "state": "37",
+    "place": "59540",
+    "population": "5020"
+  },
+  "Scotland Neck, North Carolina": {
+    "state": "37",
+    "place": "59780",
+    "population": "1640"
+  },
+  "Seaboard, North Carolina": {
+    "state": "37",
+    "place": "59980",
+    "population": "542"
+  },
+  "Seagrove, North Carolina": {
+    "state": "37",
+    "place": "60080",
+    "population": "235"
+  },
+  "Sedalia, North Carolina": {
+    "state": "37",
+    "place": "60180",
+    "population": "676"
+  },
+  "Selma, North Carolina": {
+    "state": "37",
+    "place": "60320",
+    "population": "6317"
+  },
+  "Seven Devils, North Carolina": {
+    "state": "37",
+    "place": "60505",
+    "population": "313"
+  },
+  "Seven Springs, North Carolina": {
+    "state": "37",
+    "place": "60540",
+    "population": "55"
+  },
+  "Severn, North Carolina": {
+    "state": "37",
+    "place": "60560",
+    "population": "191"
+  },
+  "Shallotte, North Carolina": {
+    "state": "37",
+    "place": "60800",
+    "population": "4185"
+  },
+  "Sharpsburg, North Carolina": {
+    "state": "37",
+    "place": "61060",
+    "population": "1697"
+  },
+  "Siler City, North Carolina": {
+    "state": "37",
+    "place": "61860",
+    "population": "7702"
+  },
+  "Sims, North Carolina": {
+    "state": "37",
+    "place": "62060",
+    "population": "275"
+  },
+  "Smithfield, North Carolina": {
+    "state": "37",
+    "place": "62520",
+    "population": "11292"
+  },
+  "Pine Knoll Shores, North Carolina": {
+    "state": "37",
+    "place": "52000",
+    "population": "1388"
+  },
+  "Pine Level, North Carolina": {
+    "state": "37",
+    "place": "52020",
+    "population": "2046"
+  },
+  "Pinetops, North Carolina": {
+    "state": "37",
+    "place": "52140",
+    "population": "1200"
+  },
+  "Pineville, North Carolina": {
+    "state": "37",
+    "place": "52220",
+    "population": "10602"
+  },
+  "Pink Hill, North Carolina": {
+    "state": "37",
+    "place": "52400",
+    "population": "451"
+  },
+  "Pittsboro, North Carolina": {
+    "state": "37",
+    "place": "52660",
+    "population": "4537"
+  },
+  "Pleasant Garden, North Carolina": {
+    "state": "37",
+    "place": "52760",
+    "population": "5000"
+  },
+  "Plymouth, North Carolina": {
+    "state": "37",
+    "place": "53040",
+    "population": "3320"
+  },
+  "Polkton, North Carolina": {
+    "state": "37",
+    "place": "53140",
+    "population": "2250"
+  },
+  "Pollocksville, North Carolina": {
+    "state": "37",
+    "place": "53200",
+    "population": "268"
+  },
+  "Powellsville, North Carolina": {
+    "state": "37",
+    "place": "53680",
+    "population": "189"
+  },
+  "Princeton, North Carolina": {
+    "state": "37",
+    "place": "53820",
+    "population": "1315"
+  },
+  "Princeville, North Carolina": {
+    "state": "37",
+    "place": "53840",
+    "population": "1254"
+  },
+  "Proctorville, North Carolina": {
+    "state": "37",
+    "place": "53900",
+    "population": "121"
+  },
+  "Ramseur, North Carolina": {
+    "state": "37",
+    "place": "55040",
+    "population": "1774"
+  },
+  "Ranlo, North Carolina": {
+    "state": "37",
+    "place": "55260",
+    "population": "4511"
+  },
+  "Raynham, North Carolina": {
+    "state": "37",
+    "place": "55340",
+    "population": "60"
+  },
+  "Red Cross, North Carolina": {
+    "state": "37",
+    "place": "55460",
+    "population": "762"
+  },
+  "Red Oak, North Carolina": {
+    "state": "37",
+    "place": "55640",
+    "population": "3342"
+  },
+  "Red Springs, North Carolina": {
+    "state": "37",
+    "place": "55660",
+    "population": "3087"
+  },
+  "Rennert, North Carolina": {
+    "state": "37",
+    "place": "55940",
+    "population": "275"
+  },
+  "Rhodhiss, North Carolina": {
+    "state": "37",
+    "place": "56240",
+    "population": "997"
+  },
+  "Richfield, North Carolina": {
+    "state": "37",
+    "place": "56340",
+    "population": "582"
+  },
+  "Richlands, North Carolina": {
+    "state": "37",
+    "place": "56360",
+    "population": "2287"
+  },
+  "Rich Square, North Carolina": {
+    "state": "37",
+    "place": "56440",
+    "population": "894"
+  },
+  "River Bend, North Carolina": {
+    "state": "37",
+    "place": "56710",
+    "population": "2902"
+  },
+  "Robbins, North Carolina": {
+    "state": "37",
+    "place": "57000",
+    "population": "1168"
+  },
+  "Robbinsville, North Carolina": {
+    "state": "37",
+    "place": "57020",
+    "population": "597"
+  },
+  "Robersonville, North Carolina": {
+    "state": "37",
+    "place": "57100",
+    "population": "1269"
+  },
+  "Rockwell, North Carolina": {
+    "state": "37",
+    "place": "57340",
+    "population": "2302"
+  },
+  "Snow Hill, North Carolina": {
+    "state": "37",
+    "place": "62760",
+    "population": "1481"
+  },
+  "Southern Pines, North Carolina": {
+    "state": "37",
+    "place": "63120",
+    "population": "15545"
+  },
+  "Southern Shores, North Carolina": {
+    "state": "37",
+    "place": "63130",
+    "population": "3090"
+  },
+  "Sparta, North Carolina": {
+    "state": "37",
+    "place": "63680",
+    "population": "1834"
+  },
+  "Speed, North Carolina": {
+    "state": "37",
+    "place": "63720",
+    "population": "63"
+  },
+  "Spencer, North Carolina": {
+    "state": "37",
+    "place": "63760",
+    "population": "3308"
+  },
+  "Spencer Mountain, North Carolina": {
+    "state": "37",
+    "place": "63780",
+    "population": "0"
+  },
+  "Spindale, North Carolina": {
+    "state": "37",
+    "place": "63880",
+    "population": "4225"
+  },
+  "Spring Hope, North Carolina": {
+    "state": "37",
+    "place": "64160",
+    "population": "1309"
+  },
+  "Spring Lake, North Carolina": {
+    "state": "37",
+    "place": "64180",
+    "population": "11660"
+  },
+  "Spruce Pine, North Carolina": {
+    "state": "37",
+    "place": "64260",
+    "population": "2194"
+  },
+  "Staley, North Carolina": {
+    "state": "37",
+    "place": "64380",
+    "population": "397"
+  },
+  "Stallings, North Carolina": {
+    "state": "37",
+    "place": "64420",
+    "population": "16112"
+  },
+  "Stanfield, North Carolina": {
+    "state": "37",
+    "place": "64460",
+    "population": "1585"
+  },
+  "Stanley, North Carolina": {
+    "state": "37",
+    "place": "64500",
+    "population": "3963"
+  },
+  "Stantonsburg, North Carolina": {
+    "state": "37",
+    "place": "64560",
+    "population": "762"
+  },
+  "Star, North Carolina": {
+    "state": "37",
+    "place": "64580",
+    "population": "806"
+  },
+  "Stedman, North Carolina": {
+    "state": "37",
+    "place": "64840",
+    "population": "1277"
+  },
+  "Stem, North Carolina": {
+    "state": "37",
+    "place": "64940",
+    "population": "960"
+  },
+  "Stokesdale, North Carolina": {
+    "state": "37",
+    "place": "65040",
+    "population": "5924"
+  },
+  "Stoneville, North Carolina": {
+    "state": "37",
+    "place": "65100",
+    "population": "1308"
+  },
+  "Stonewall, North Carolina": {
+    "state": "37",
+    "place": "65120",
+    "population": "214"
+  },
+  "Stovall, North Carolina": {
+    "state": "37",
+    "place": "65320",
+    "population": "324"
+  },
+  "Summerfield, North Carolina": {
+    "state": "37",
+    "place": "65580",
+    "population": "10951"
+  },
+  "Sunset Beach, North Carolina": {
+    "state": "37",
+    "place": "65900",
+    "population": "4175"
+  },
+  "Surf City, North Carolina": {
+    "state": "37",
+    "place": "66040",
+    "population": "3867"
+  },
+  "Swansboro, North Carolina": {
+    "state": "37",
+    "place": "66360",
+    "population": "3744"
+  },
+  "Swepsonville, North Carolina": {
+    "state": "37",
+    "place": "66460",
+    "population": "2445"
+  },
+  "Sylva, North Carolina": {
+    "state": "37",
+    "place": "66500",
+    "population": "2578"
+  },
+  "Tabor City, North Carolina": {
+    "state": "37",
+    "place": "66520",
+    "population": "3781"
+  },
+  "Tarboro, North Carolina": {
+    "state": "37",
+    "place": "66700",
+    "population": "10721"
+  },
+  "Tar Heel, North Carolina": {
+    "state": "37",
+    "place": "66740",
+    "population": "90"
+  },
+  "Taylorsville, North Carolina": {
+    "state": "37",
+    "place": "66960",
+    "population": "2320"
+  },
+  "Taylortown, North Carolina": {
+    "state": "37",
+    "place": "66980",
+    "population": "634"
+  },
+  "Teachey, North Carolina": {
+    "state": "37",
+    "place": "67000",
+    "population": "448"
+  },
+  "Topsail Beach, North Carolina": {
+    "state": "37",
+    "place": "68040",
+    "population": "461"
+  },
+  "Trenton, North Carolina": {
+    "state": "37",
+    "place": "68320",
+    "population": "238"
+  },
+  "Trent Woods, North Carolina": {
+    "state": "37",
+    "place": "68340",
+    "population": "4074"
+  },
+  "Troutman, North Carolina": {
+    "state": "37",
+    "place": "68500",
+    "population": "3698"
+  },
+  "Troy, North Carolina": {
+    "state": "37",
+    "place": "68520",
+    "population": "2850"
+  },
+  "Tryon, North Carolina": {
+    "state": "37",
+    "place": "68580",
+    "population": "1562"
+  },
+  "Turkey, North Carolina": {
+    "state": "37",
+    "place": "68740",
+    "population": "213"
+  },
+  "Unionville, North Carolina": {
+    "state": "37",
+    "place": "69260",
+    "population": "6643"
+  },
+  "Valdese, North Carolina": {
+    "state": "37",
+    "place": "69520",
+    "population": "4689"
+  },
+  "Vanceboro, North Carolina": {
+    "state": "37",
+    "place": "69680",
+    "population": "869"
+  },
+  "Vandemere, North Carolina": {
+    "state": "37",
+    "place": "69720",
+    "population": "246"
+  },
+  "Varnamtown, North Carolina": {
+    "state": "37",
+    "place": "69795",
+    "population": "525"
+  },
+  "Vass, North Carolina": {
+    "state": "37",
+    "place": "69840",
+    "population": "952"
+  },
+  "Waco, North Carolina": {
+    "state": "37",
+    "place": "70320",
+    "population": "310"
+  },
+  "Wade, North Carolina": {
+    "state": "37",
+    "place": "70340",
+    "population": "638"
+  },
+  "Wadesboro, North Carolina": {
+    "state": "37",
+    "place": "70380",
+    "population": "5008"
+  },
+  "Wagram, North Carolina": {
+    "state": "37",
+    "place": "70480",
+    "population": "615"
+  },
+  "Wake Forest, North Carolina": {
+    "state": "37",
+    "place": "70540",
+    "population": "47601"
+  },
+  "Walkertown, North Carolina": {
+    "state": "37",
+    "place": "70660",
+    "population": "5692"
+  },
+  "Wallace, North Carolina": {
+    "state": "37",
+    "place": "70720",
+    "population": "3413"
+  },
+  "Wallburg, North Carolina": {
+    "state": "37",
+    "place": "70740",
+    "population": "3051"
+  },
+  "Walnut Cove, North Carolina": {
+    "state": "37",
+    "place": "70780",
+    "population": "1586"
+  },
+  "Walstonburg, North Carolina": {
+    "state": "37",
+    "place": "70860",
+    "population": "193"
+  },
+  "Warrenton, North Carolina": {
+    "state": "37",
+    "place": "71100",
+    "population": "851"
+  },
+  "Warsaw, North Carolina": {
+    "state": "37",
+    "place": "71160",
+    "population": "2733"
+  },
+  "Washington Park, North Carolina": {
+    "state": "37",
+    "place": "71240",
+    "population": "392"
+  },
+  "Watha, North Carolina": {
+    "state": "37",
+    "place": "71320",
+    "population": "181"
+  },
+  "Waxhaw, North Carolina": {
+    "state": "37",
+    "place": "71460",
+    "population": "20534"
+  },
+  "Waynesville, North Carolina": {
+    "state": "37",
+    "place": "71500",
+    "population": "10140"
+  },
+  "Weaverville, North Carolina": {
+    "state": "37",
+    "place": "71560",
+    "population": "4567"
+  },
+  "Webster, North Carolina": {
+    "state": "37",
+    "place": "71600",
+    "population": "372"
+  },
+  "Weddington, North Carolina": {
+    "state": "37",
+    "place": "71680",
+    "population": "13181"
+  },
+  "Weldon, North Carolina": {
+    "state": "37",
+    "place": "71780",
+    "population": "1444"
+  },
+  "Wendell, North Carolina": {
+    "state": "37",
+    "place": "71860",
+    "population": "9793"
+  },
+  "Wentworth, North Carolina": {
+    "state": "37",
+    "place": "71900",
+    "population": "2662"
+  },
+  "West Jefferson, North Carolina": {
+    "state": "37",
+    "place": "72540",
+    "population": "1279"
+  },
+  "White Lake, North Carolina": {
+    "state": "37",
+    "place": "73300",
+    "population": "843"
+  },
+  "Whitsett, North Carolina": {
+    "state": "37",
+    "place": "73760",
+    "population": "584"
+  },
+  "Wilkesboro, North Carolina": {
+    "state": "37",
+    "place": "74020",
+    "population": "3687"
+  },
+  "Williamston, North Carolina": {
+    "state": "37",
+    "place": "74220",
+    "population": "5248"
+  },
+  "Wilson's Mills, North Carolina": {
+    "state": "37",
+    "place": "74580",
+    "population": "2534"
+  },
+  "Windsor, North Carolina": {
+    "state": "37",
+    "place": "74680",
+    "population": "3582"
+  },
+  "Winfall, North Carolina": {
+    "state": "37",
+    "place": "74720",
+    "population": "555"
+  },
+  "Wingate, North Carolina": {
+    "state": "37",
+    "place": "74760",
+    "population": "4055"
+  },
+  "Winterville, North Carolina": {
+    "state": "37",
+    "place": "75060",
+    "population": "10462"
+  },
+  "Winton, North Carolina": {
+    "state": "37",
+    "place": "75080",
+    "population": "629"
+  },
+  "Woodfin, North Carolina": {
+    "state": "37",
+    "place": "75280",
+    "population": "7936"
+  },
+  "Woodland, North Carolina": {
+    "state": "37",
+    "place": "75340",
+    "population": "557"
+  },
+  "Wrightsville Beach, North Carolina": {
+    "state": "37",
+    "place": "75820",
+    "population": "2473"
+  },
+  "Yadkinville, North Carolina": {
+    "state": "37",
+    "place": "75960",
+    "population": "2995"
+  },
+  "Yanceyville, North Carolina": {
+    "state": "37",
+    "place": "76000",
+    "population": "1937"
+  },
+  "Youngsville, North Carolina": {
+    "state": "37",
+    "place": "76200",
+    "population": "2016"
+  },
+  "Zebulon, North Carolina": {
+    "state": "37",
+    "place": "76220",
+    "population": "6903"
+  },
+  "Whitakers, North Carolina": {
+    "state": "37",
+    "place": "73160",
+    "population": "627"
+  }
+}

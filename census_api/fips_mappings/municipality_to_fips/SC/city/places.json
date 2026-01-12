@@ -1,0 +1,347 @@
+{
+  "Abbeville, South Carolina": {
+    "state": "45",
+    "place": "00100",
+    "population": "4874"
+  },
+  "Aiken, South Carolina": {
+    "state": "45",
+    "place": "00550",
+    "population": "32025"
+  },
+  "Anderson, South Carolina": {
+    "state": "45",
+    "place": "01360",
+    "population": "28106"
+  },
+  "Barnwell, South Carolina": {
+    "state": "45",
+    "place": "04060",
+    "population": "4652"
+  },
+  "Beaufort, South Carolina": {
+    "state": "45",
+    "place": "04690",
+    "population": "13607"
+  },
+  "Belton, South Carolina": {
+    "state": "45",
+    "place": "05365",
+    "population": "4335"
+  },
+  "Bennettsville, South Carolina": {
+    "state": "45",
+    "place": "05680",
+    "population": "7020"
+  },
+  "Bishopville, South Carolina": {
+    "state": "45",
+    "place": "06310",
+    "population": "3024"
+  },
+  "Camden, South Carolina": {
+    "state": "45",
+    "place": "10855",
+    "population": "7788"
+  },
+  "Cayce, South Carolina": {
+    "state": "45",
+    "place": "12655",
+    "population": "13781"
+  },
+  "Charleston, South Carolina": {
+    "state": "45",
+    "place": "13330",
+    "population": "150227"
+  },
+  "Chesnee, South Carolina": {
+    "state": "45",
+    "place": "14050",
+    "population": "829"
+  },
+  "Chester, South Carolina": {
+    "state": "45",
+    "place": "14095",
+    "population": "5269"
+  },
+  "Clemson, South Carolina": {
+    "state": "45",
+    "place": "14950",
+    "population": "17681"
+  },
+  "Clinton, South Carolina": {
+    "state": "45",
+    "place": "15295",
+    "population": "7633"
+  },
+  "Columbia, South Carolina": {
+    "state": "45",
+    "place": "16000",
+    "population": "136632"
+  },
+  "Conway, South Carolina": {
+    "state": "45",
+    "place": "16405",
+    "population": "24849"
+  },
+  "Darlington, South Carolina": {
+    "state": "45",
+    "place": "18565",
+    "population": "6149"
+  },
+  "Denmark, South Carolina": {
+    "state": "45",
+    "place": "19105",
+    "population": "3186"
+  },
+  "Dillon, South Carolina": {
+    "state": "45",
+    "place": "19420",
+    "population": "6384"
+  },
+  "Easley, South Carolina": {
+    "state": "45",
+    "place": "21985",
+    "population": "22921"
+  },
+  "Florence, South Carolina": {
+    "state": "45",
+    "place": "25810",
+    "population": "39899"
+  },
+  "Folly Beach, South Carolina": {
+    "state": "45",
+    "place": "26035",
+    "population": "2078"
+  },
+  "Forest Acres, South Carolina": {
+    "state": "45",
+    "place": "26305",
+    "population": "10617"
+  },
+  "Fountain Inn, South Carolina": {
+    "state": "45",
+    "place": "27070",
+    "population": "10416"
+  },
+  "Gaffney, South Carolina": {
+    "state": "45",
+    "place": "28060",
+    "population": "12764"
+  },
+  "Georgetown, South Carolina": {
+    "state": "45",
+    "place": "28870",
+    "population": "8403"
+  },
+  "Goose Creek, South Carolina": {
+    "state": "45",
+    "place": "29815",
+    "population": "45946"
+  },
+  "Greenville, South Carolina": {
+    "state": "45",
+    "place": "30850",
+    "population": "70720"
+  },
+  "Greenwood, South Carolina": {
+    "state": "45",
+    "place": "30895",
+    "population": "22545"
+  },
+  "Greer, South Carolina": {
+    "state": "45",
+    "place": "30985",
+    "population": "35308"
+  },
+  "Hanahan, South Carolina": {
+    "state": "45",
+    "place": "32065",
+    "population": "20325"
+  },
+  "Hardeeville, South Carolina": {
+    "state": "45",
+    "place": "32245",
+    "population": "7473"
+  },
+  "Hartsville, South Carolina": {
+    "state": "45",
+    "place": "32560",
+    "population": "7446"
+  },
+  "Inman, South Carolina": {
+    "state": "45",
+    "place": "35755",
+    "population": "2990"
+  },
+  "Isle of Palms, South Carolina": {
+    "state": "45",
+    "place": "36115",
+    "population": "4347"
+  },
+  "Johnsonville, South Carolina": {
+    "state": "45",
+    "place": "37105",
+    "population": "1378"
+  },
+  "Lake City, South Carolina": {
+    "state": "45",
+    "place": "39310",
+    "population": "5903"
+  },
+  "Lancaster, South Carolina": {
+    "state": "45",
+    "place": "39895",
+    "population": "8460"
+  },
+  "Landrum, South Carolina": {
+    "state": "45",
+    "place": "40075",
+    "population": "2481"
+  },
+  "Laurens, South Carolina": {
+    "state": "45",
+    "place": "40615",
+    "population": "9335"
+  },
+  "Liberty, South Carolina": {
+    "state": "45",
+    "place": "41380",
+    "population": "3366"
+  },
+  "Loris, South Carolina": {
+    "state": "45",
+    "place": "42730",
+    "population": "2449"
+  },
+  "Manning, South Carolina": {
+    "state": "45",
+    "place": "44350",
+    "population": "3878"
+  },
+  "Marion, South Carolina": {
+    "state": "45",
+    "place": "44575",
+    "population": "6448"
+  },
+  "Mauldin, South Carolina": {
+    "state": "45",
+    "place": "45115",
+    "population": "24724"
+  },
+  "Mullins, South Carolina": {
+    "state": "45",
+    "place": "48805",
+    "population": "4026"
+  },
+  "Myrtle Beach, South Carolina": {
+    "state": "45",
+    "place": "49075",
+    "population": "35682"
+  },
+  "Newberry, South Carolina": {
+    "state": "45",
+    "place": "49570",
+    "population": "10691"
+  },
+  "North Augusta, South Carolina": {
+    "state": "45",
+    "place": "50695",
+    "population": "24379"
+  },
+  "North Charleston, South Carolina": {
+    "state": "45",
+    "place": "50875",
+    "population": "114852"
+  },
+  "North Myrtle Beach, South Carolina": {
+    "state": "45",
+    "place": "51280",
+    "population": "18790"
+  },
+  "Orangeburg, South Carolina": {
+    "state": "45",
+    "place": "53080",
+    "population": "13240"
+  },
+  "Pickens, South Carolina": {
+    "state": "45",
+    "place": "56140",
+    "population": "3388"
+  },
+  "Rock Hill, South Carolina": {
+    "state": "45",
+    "place": "61405",
+    "population": "74372"
+  },
+  "Seneca, South Carolina": {
+    "state": "45",
+    "place": "65095",
+    "population": "8850"
+  },
+  "Simpsonville, South Carolina": {
+    "state": "45",
+    "place": "66580",
+    "population": "23354"
+  },
+  "Spartanburg, South Carolina": {
+    "state": "45",
+    "place": "68290",
+    "population": "38732"
+  },
+  "Sumter, South Carolina": {
+    "state": "45",
+    "place": "70405",
+    "population": "43463"
+  },
+  "Tega Cay, South Carolina": {
+    "state": "45",
+    "place": "71417",
+    "population": "12832"
+  },
+  "Travelers Rest, South Carolina": {
+    "state": "45",
+    "place": "72430",
+    "population": "7788"
+  },
+  "Union, South Carolina": {
+    "state": "45",
+    "place": "73105",
+    "population": "8174"
+  },
+  "Walhalla, South Carolina": {
+    "state": "45",
+    "place": "74095",
+    "population": "4072"
+  },
+  "Walterboro, South Carolina": {
+    "state": "45",
+    "place": "74275",
+    "population": "5544"
+  },
+  "Wellford, South Carolina": {
+    "state": "45",
+    "place": "75580",
+    "population": "3293"
+  },
+  "West Columbia, South Carolina": {
+    "state": "45",
+    "place": "75850",
+    "population": "17416"
+  },
+  "Westminster, South Carolina": {
+    "state": "45",
+    "place": "76165",
+    "population": "2353"
+  },
+  "Woodruff, South Carolina": {
+    "state": "45",
+    "place": "79090",
+    "population": "4212"
+  },
+  "York, South Carolina": {
+    "state": "45",
+    "place": "79630",
+    "population": "8503"
+  }
+}

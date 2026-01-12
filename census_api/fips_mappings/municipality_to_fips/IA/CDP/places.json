@@ -1,0 +1,432 @@
+{
+  "Mount Sterling, Iowa": {
+    "state": "19",
+    "place": "54750",
+    "population": "33"
+  },
+  "Mount Union, Iowa": {
+    "state": "19",
+    "place": "54795",
+    "population": "120"
+  },
+  "New Haven, Iowa": {
+    "state": "19",
+    "place": "56190",
+    "population": "77"
+  },
+  "Oak Hills, Iowa": {
+    "state": "19",
+    "place": "58048",
+    "population": "186"
+  },
+  "Otranto, Iowa": {
+    "state": "19",
+    "place": "60285",
+    "population": "27"
+  },
+  "Park View, Iowa": {
+    "state": "19",
+    "place": "61725",
+    "population": "2709"
+  },
+  "Percival, Iowa": {
+    "state": "19",
+    "place": "62175",
+    "population": "53"
+  },
+  "Plainview, Iowa": {
+    "state": "19",
+    "place": "63300",
+    "population": "19"
+  },
+  "Portland, Iowa": {
+    "state": "19",
+    "place": "64155",
+    "population": "28"
+  },
+  "River Sioux, Iowa": {
+    "state": "19",
+    "place": "67530",
+    "population": "42"
+  },
+  "Rochester, Iowa": {
+    "state": "19",
+    "place": "67890",
+    "population": "142"
+  },
+  "Roseville, Iowa": {
+    "state": "19",
+    "place": "68800",
+    "population": "39"
+  },
+  "St. Benedict, Iowa": {
+    "state": "19",
+    "place": "69825",
+    "population": "31"
+  },
+  "St. Joseph, Iowa": {
+    "state": "19",
+    "place": "70005",
+    "population": "51"
+  },
+  "Sandusky, Iowa": {
+    "state": "19",
+    "place": "70545",
+    "population": "297"
+  },
+  "Saylorville, Iowa": {
+    "state": "19",
+    "place": "70995",
+    "population": "3584"
+  },
+  "Sexton, Iowa": {
+    "state": "19",
+    "place": "71715",
+    "population": "46"
+  },
+  "South Amana, Iowa": {
+    "state": "19",
+    "place": "73965",
+    "population": "165"
+  },
+  "Sperry, Iowa": {
+    "state": "19",
+    "place": "74325",
+    "population": "124"
+  },
+  "Amana, Iowa": {
+    "state": "19",
+    "place": "01720",
+    "population": "388"
+  },
+  "Anderson, Iowa": {
+    "state": "19",
+    "place": "02035",
+    "population": "37"
+  },
+  "Argo, Iowa": {
+    "state": "19",
+    "place": "02665",
+    "population": "44"
+  },
+  "Argyle, Iowa": {
+    "state": "19",
+    "place": "02710",
+    "population": "91"
+  },
+  "Stone City, Iowa": {
+    "state": "19",
+    "place": "75540",
+    "population": "186"
+  },
+  "Sun Valley Lake, Iowa": {
+    "state": "19",
+    "place": "76415",
+    "population": "187"
+  },
+  "Swedesburg, Iowa": {
+    "state": "19",
+    "place": "76800",
+    "population": "99"
+  },
+  "Toeterville, Iowa": {
+    "state": "19",
+    "place": "78465",
+    "population": "53"
+  },
+  "Trenton, Iowa": {
+    "state": "19",
+    "place": "78780",
+    "population": "74"
+  },
+  "Twin Lakes, Iowa": {
+    "state": "19",
+    "place": "79335",
+    "population": "316"
+  },
+  "Athelstan, Iowa": {
+    "state": "19",
+    "place": "03430",
+    "population": "6"
+  },
+  "Augusta, Iowa": {
+    "state": "19",
+    "place": "03700",
+    "population": "51"
+  },
+  "Bartlett, Iowa": {
+    "state": "19",
+    "place": "04735",
+    "population": "5"
+  },
+  "Beaverdale, Iowa": {
+    "state": "19",
+    "place": "05200",
+    "population": "880"
+  },
+  "Bentley, Iowa": {
+    "state": "19",
+    "place": "05870",
+    "population": "93"
+  },
+  "Big Rock, Iowa": {
+    "state": "19",
+    "place": "06535",
+    "population": "49"
+  },
+  "Bolan, Iowa": {
+    "state": "19",
+    "place": "07255",
+    "population": "32"
+  },
+  "Washburn, Iowa": {
+    "state": "19",
+    "place": "82290",
+    "population": "870"
+  },
+  "Watkins, Iowa": {
+    "state": "19",
+    "place": "82515",
+    "population": "116"
+  },
+  "West Amana, Iowa": {
+    "state": "19",
+    "place": "83505",
+    "population": "140"
+  },
+  "Weston, Iowa": {
+    "state": "19",
+    "place": "84495",
+    "population": "78"
+  },
+  "Wever, Iowa": {
+    "state": "19",
+    "place": "84855",
+    "population": "101"
+  },
+  "Bradford, Iowa": {
+    "state": "19",
+    "place": "08020",
+    "population": "84"
+  },
+  "Burchinal, Iowa": {
+    "state": "19",
+    "place": "09415",
+    "population": "33"
+  },
+  "Burr Oak, Iowa": {
+    "state": "19",
+    "place": "09640",
+    "population": "171"
+  },
+  "California Junction, Iowa": {
+    "state": "19",
+    "place": "09910",
+    "population": "74"
+  },
+  "Center Junction, Iowa": {
+    "state": "19",
+    "place": "12225",
+    "population": "100"
+  },
+  "Chapin, Iowa": {
+    "state": "19",
+    "place": "12675",
+    "population": "71"
+  },
+  "Yarmouth, Iowa": {
+    "state": "19",
+    "place": "87330",
+    "population": "61"
+  },
+  "Climbing Hill, Iowa": {
+    "state": "19",
+    "place": "14385",
+    "population": "97"
+  },
+  "Coalville, Iowa": {
+    "state": "19",
+    "place": "14835",
+    "population": "651"
+  },
+  "Conroy, Iowa": {
+    "state": "19",
+    "place": "15870",
+    "population": "252"
+  },
+  "Corley, Iowa": {
+    "state": "19",
+    "place": "16320",
+    "population": "31"
+  },
+  "Delphos, Iowa": {
+    "state": "19",
+    "place": "19810",
+    "population": "26"
+  },
+  "Denmark, Iowa": {
+    "state": "19",
+    "place": "19990",
+    "population": "425"
+  },
+  "Diamondhead Lake, Iowa": {
+    "state": "19",
+    "place": "21320",
+    "population": "371"
+  },
+  "Douds, Iowa": {
+    "state": "19",
+    "place": "22035",
+    "population": "156"
+  },
+  "Downey, Iowa": {
+    "state": "19",
+    "place": "22260",
+    "population": "112"
+  },
+  "Duncan, Iowa": {
+    "state": "19",
+    "place": "22710",
+    "population": "57"
+  },
+  "East Amana, Iowa": {
+    "state": "19",
+    "place": "23520",
+    "population": "64"
+  },
+  "Fairport, Iowa": {
+    "state": "19",
+    "place": "26580",
+    "population": "204"
+  },
+  "Frytown, Iowa": {
+    "state": "19",
+    "place": "29325",
+    "population": "193"
+  },
+  "Garden City, Iowa": {
+    "state": "19",
+    "place": "29730",
+    "population": "100"
+  },
+  "Green Mountain, Iowa": {
+    "state": "19",
+    "place": "32925",
+    "population": "113"
+  },
+  "Hayfield, Iowa": {
+    "state": "19",
+    "place": "35490",
+    "population": "41"
+  },
+  "High Amana, Iowa": {
+    "state": "19",
+    "place": "36030",
+    "population": "113"
+  },
+  "Holiday Lake, Iowa": {
+    "state": "19",
+    "place": "36660",
+    "population": "473"
+  },
+  "Homestead, Iowa": {
+    "state": "19",
+    "place": "36975",
+    "population": "135"
+  },
+  "Hutchins, Iowa": {
+    "state": "19",
+    "place": "37875",
+    "population": "22"
+  },
+  "Irvington, Iowa": {
+    "state": "19",
+    "place": "38955",
+    "population": "36"
+  },
+  "Jacksonville, Iowa": {
+    "state": "19",
+    "place": "39180",
+    "population": "29"
+  },
+  "Kent, Iowa": {
+    "state": "19",
+    "place": "40710",
+    "population": "37"
+  },
+  "Kent Estates, Iowa": {
+    "state": "19",
+    "place": "40733",
+    "population": "2074"
+  },
+  "Kingston, Iowa": {
+    "state": "19",
+    "place": "41430",
+    "population": "81"
+  },
+  "Lake Panorama, Iowa": {
+    "state": "19",
+    "place": "42575",
+    "population": "1266"
+  },
+  "Leando, Iowa": {
+    "state": "19",
+    "place": "43950",
+    "population": "121"
+  },
+  "Little Cedar, Iowa": {
+    "state": "19",
+    "place": "45705",
+    "population": "64"
+  },
+  "Loveland, Iowa": {
+    "state": "19",
+    "place": "46785",
+    "population": "36"
+  },
+  "Lowell, Iowa": {
+    "state": "19",
+    "place": "46965",
+    "population": "70"
+  },
+  "Meyer, Iowa": {
+    "state": "19",
+    "place": "51510",
+    "population": "14"
+  },
+  "Middle Amana, Iowa": {
+    "state": "19",
+    "place": "51600",
+    "population": "543"
+  },
+  "Miller, Iowa": {
+    "state": "19",
+    "place": "52140",
+    "population": "50"
+  },
+  "Mineola, Iowa": {
+    "state": "19",
+    "place": "52635",
+    "population": "154"
+  },
+  "Mona, Iowa": {
+    "state": "19",
+    "place": "53085",
+    "population": "35"
+  },
+  "Montpelier, Iowa": {
+    "state": "19",
+    "place": "53715",
+    "population": "186"
+  },
+  "Mooar, Iowa": {
+    "state": "19",
+    "place": "53805",
+    "population": "321"
+  },
+  "Moscow, Iowa": {
+    "state": "19",
+    "place": "54345",
+    "population": "290"
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "Apple Valley, North Dakota": {
+    "state": "38",
+    "place": "02820",
+    "population": "194"
+  },
+  "Auburn, North Dakota": {
+    "state": "38",
+    "place": "03740",
+    "population": "31"
+  },
+  "Barton, North Dakota": {
+    "state": "38",
+    "place": "05220",
+    "population": "13"
+  },
+  "Belcourt, North Dakota": {
+    "state": "38",
+    "place": "05740",
+    "population": "1510"
+  },
+  "Blacktail, North Dakota": {
+    "state": "38",
+    "place": "07456",
+    "population": "61"
+  },
+  "Blanchard, North Dakota": {
+    "state": "38",
+    "place": "07620",
+    "population": "16"
+  },
+  "Brooktree Park, North Dakota": {
+    "state": "38",
+    "place": "09830",
+    "population": "76"
+  },
+  "Caledonia, North Dakota": {
+    "state": "38",
+    "place": "11500",
+    "population": "37"
+  },
+  "Cannon Ball, North Dakota": {
+    "state": "38",
+    "place": "12020",
+    "population": "864"
+  },
+  "Dahlen, North Dakota": {
+    "state": "38",
+    "place": "17620",
+    "population": "17"
+  },
+  "De Lamere, North Dakota": {
+    "state": "38",
+    "place": "18820",
+    "population": "25"
+  },
+  "Denhoff, North Dakota": {
+    "state": "38",
+    "place": "19060",
+    "population": "13"
+  },
+  "Driscoll, North Dakota": {
+    "state": "38",
+    "place": "20500",
+    "population": "68"
+  },
+  "East Dunseith, North Dakota": {
+    "state": "38",
+    "place": "21520",
+    "population": "500"
+  },
+  "East Fairview, North Dakota": {
+    "state": "38",
+    "place": "21580",
+    "population": "73"
+  },
+  "Embden, North Dakota": {
+    "state": "38",
+    "place": "24020",
+    "population": "41"
+  },
+  "Englevale, North Dakota": {
+    "state": "38",
+    "place": "24380",
+    "population": "36"
+  },
+  "Erie, North Dakota": {
+    "state": "38",
+    "place": "24620",
+    "population": "54"
+  },
+  "Fort Totten, North Dakota": {
+    "state": "38",
+    "place": "27700",
+    "population": "1160"
+  },
+  "Four Bears Village, North Dakota": {
+    "state": "38",
+    "place": "27950",
+    "population": "500"
+  },
+  "Foxholm, North Dakota": {
+    "state": "38",
+    "place": "27980",
+    "population": "56"
+  },
+  "Grand Forks AFB, North Dakota": {
+    "state": "38",
+    "place": "32140",
+    "population": "2002"
+  },
+  "Green Acres, North Dakota": {
+    "state": "38",
+    "place": "33050",
+    "population": "605"
+  },
+  "Harmon, North Dakota": {
+    "state": "38",
+    "place": "35500",
+    "population": "259"
+  },
+  "Heil, North Dakota": {
+    "state": "38",
+    "place": "36980",
+    "population": "15"
+  },
+  "Heimdal, North Dakota": {
+    "state": "38",
+    "place": "37020",
+    "population": "16"
+  },
+  "Jessie, North Dakota": {
+    "state": "38",
+    "place": "40740",
+    "population": "22"
+  },
+  "Larson, North Dakota": {
+    "state": "38",
+    "place": "45220",
+    "population": "9"
+  },
+  "Logan, North Dakota": {
+    "state": "38",
+    "place": "47540",
+    "population": "247"
+  },
+  "Long Creek, North Dakota": {
+    "state": "38",
+    "place": "47796",
+    "population": "104"
+  },
+  "McGregor, North Dakota": {
+    "state": "38",
+    "place": "49220",
+    "population": "47"
+  },
+  "McLeod, North Dakota": {
+    "state": "38",
+    "place": "49540",
+    "population": "22"
+  },
+  "Mandaree, North Dakota": {
+    "state": "38",
+    "place": "49980",
+    "population": "691"
+  },
+  "Manning, North Dakota": {
+    "state": "38",
+    "place": "50220",
+    "population": "47"
+  },
+  "Menoken, North Dakota": {
+    "state": "38",
+    "place": "52180",
+    "population": "78"
+  },
+  "Minot AFB, North Dakota": {
+    "state": "38",
+    "place": "53420",
+    "population": "5017"
+  },
+  "Nash, North Dakota": {
+    "state": "38",
+    "place": "55500",
+    "population": "13"
+  },
+  "Orrin, North Dakota": {
+    "state": "38",
+    "place": "59820",
+    "population": "7"
+  },
+  "Porcupine, North Dakota": {
+    "state": "38",
+    "place": "63700",
+    "population": "197"
+  },
+  "Raleigh, North Dakota": {
+    "state": "38",
+    "place": "65100",
+    "population": "14"
+  },
+  "Ruthville, North Dakota": {
+    "state": "38",
+    "place": "69300",
+    "population": "151"
+  },
+  "Selz, North Dakota": {
+    "state": "38",
+    "place": "71700",
+    "population": "40"
+  },
+  "Shell Valley, North Dakota": {
+    "state": "38",
+    "place": "72250",
+    "population": "1146"
+  },
+  "Spiritwood, North Dakota": {
+    "state": "38",
+    "place": "74660",
+    "population": "29"
+  },
+  "Sutton, North Dakota": {
+    "state": "38",
+    "place": "77260",
+    "population": "17"
+  },
+  "Trenton, North Dakota": {
+    "state": "38",
+    "place": "79460",
+    "population": "488"
+  },
+  "Wheatland, North Dakota": {
+    "state": "38",
+    "place": "85180",
+    "population": "92"
+  },
+  "White Shield, North Dakota": {
+    "state": "38",
+    "place": "85660",
+    "population": "363"
+  },
+  "Ypsilanti, North Dakota": {
+    "state": "38",
+    "place": "88020",
+    "population": "109"
+  }
+}
