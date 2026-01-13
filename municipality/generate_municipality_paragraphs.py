@@ -231,52 +231,58 @@ def _build_paragraph_one(
     return sentences
 
 
-def _build_paragraph_two(
-    data: Dict[str, object], place_label: str
-) -> List[Tuple[str, Set[str]]]:
-    sentences: List[Tuple[str, Set[str]]] = []
+def _build_full_pl_ref(source_url: Optional[str]) -> str:
+    detail = CITATION_DETAILS["pl"]
+    url = source_url or detail["default_url"]
+    template = _ensure_template_closed(
+        detail["template"].format(url=url, access_date=ACCESS_DATE)
+    )
+    return f'<ref name="{detail["name"]}">{template}</ref>'
 
-    race_items = []
-    race_map = [
-        ("race_white_percent", "White"),
-        ("race_black_percent", "Black or African American"),
-        ("race_aian_percent", "American Indian and Alaska Native"),
-        ("race_asian_percent", "Asian"),
-        ("race_nhpi_percent", "Native Hawaiian and Pacific Islander"),
-        ("race_some_other_percent", "from some other race"),
-        ("race_two_or_more_percent", "from two or more races"),
-    ]
-    for key, label in race_map:
-        percent = _format_percent(data.get(key))
-        if percent:
-            race_items.append(f"{percent} {label}")
-    if race_items:
-        keys = {
-            "race_white_percent",
-            "race_black_percent",
+
+def _build_race_table(data: Dict[str, object], source_url: Optional[str]) -> str:
+    rows = [
+        ("[[White Americans|White]]", "race_white_percent", False),
+        ("[[African Americans|Black or African American]]", "race_black_percent", False),
+        (
+            "[[Native Americans in the United States|American Indian and Alaska Native]]",
             "race_aian_percent",
-            "race_asian_percent",
-            "race_some_other_percent",
-            "race_two_or_more_percent",
-        }
-        keys = {k for k in keys if data.get(k) is not None}
-        sentences.append(
-            (
-                f"The racial makeup of {place_label} was " + _join_phrases(race_items) + ".",
-                keys,
-            )
-        )
+            False,
+        ),
+        ("[[Asian Americans|Asian]]", "race_asian_percent", False),
+        (
+            "[[Native Hawaiians|Native Hawaiian]] and [[Pacific Islander|Other Pacific Islander]]",
+            "race_nhpi_percent",
+            False,
+        ),
+        ("Some other race", "race_some_other_percent", False),
+        ("[[Multiracial Americans|Two or more races]]", "race_two_or_more_percent", False),
+        (
+            "[[Hispanic and Latino Americans|Hispanic or Latino]] (of any race)",
+            "hispanic_any_race_percent",
+            True,
+        ),
+    ]
+    table_rows: List[str] = []
+    for label, key, italic in rows:
+        percent = _format_percent(data.get(key))
+        if not percent:
+            continue
+        row_label = f"''{label}''" if italic else label
+        table_rows.append(f"|-\n| {row_label} || {percent}")
 
-    hispanic = _format_percent(data.get("hispanic_any_race_percent"))
-    if hispanic:
-        sentences.append(
-            (
-                f"Hispanic or Latino residents of any race comprised {hispanic} of the population.",
-                {"hispanic_any_race_percent"},
-            )
-        )
+    if not table_rows:
+        return ""
 
-    return sentences
+    ref = _build_full_pl_ref(source_url)
+    lines = [
+        '{| class="wikitable"',
+        f"|+ Racial composition as of the 2020 census{ref}",
+        "! Race !! Percent",
+        *table_rows,
+        "|}",
+    ]
+    return "\n".join(lines)
 
 
 def _build_paragraph_urbanization(data: Dict[str, object]) -> List[Tuple[str, Set[str]]]:
@@ -452,14 +458,14 @@ def generate_municipality_paragraphs(
         "pl": data.get("_pl_source_url"),
         "dhc": data.get("_dhc_source_url"),
     }
+    race_table = _build_race_table(data, source_urls.get("pl"))
     paragraph_builders = [
         _build_paragraph_one(data, place_label),
-        _build_paragraph_two(data, place_label),
         _build_paragraph_urbanization(data),
         _build_paragraph_three(data, place_label),
         _build_paragraph_four(data),
     ]
-    seen_sources: Set[str] = set()
+    seen_sources: Set[str] = {"pl"} if race_table else set()
     paragraphs: List[str] = []
     for index, builder in enumerate(paragraph_builders):
         if not builder:
@@ -482,6 +488,8 @@ def generate_municipality_paragraphs(
         )
         paragraphs.append(paragraph_text + citation)
     body = "\n\n".join(paragraphs)
+    if race_table:
+        body = "\n\n".join([body, race_table]) if body else race_table
     if body:
         return "===2020 census===\n\n" + body
     return "===2020 census==="
