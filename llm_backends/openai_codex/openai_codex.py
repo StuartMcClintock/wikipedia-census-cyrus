@@ -289,6 +289,10 @@ The content of the 2020 census section should be split into topically coherent p
 
 Ensure that adequate citation refs from the three census api refs (DP, PL, DHC) are added to backup all the factual claims made in a particular paragraph. 
 
+If there is a "Racial and ethnic composition" subsection, put it as the top subsection of the Demographics, below only the lede text. Do not generate new text to add to the lede, you may only modify or reposition existing text
+
+Tables or paragraphs on racial data for only 2020 or any other specific decade should be in their respective "20xx census" subsection, not the "Racial and ethnic composition" subsection
+
 Write only the updated demographics and related census sections to codex_out/out.txt (no commentary).
 """
     prompt = MINI_PROMPT if mini else MAX_PROMPT
