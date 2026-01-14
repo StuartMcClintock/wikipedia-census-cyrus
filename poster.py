@@ -3,7 +3,7 @@ import json
 import os
 import sys
 from pathlib import Path
-from typing import Dict, Iterable, Set, Tuple
+from typing import Dict, Iterable, Optional, Set, Tuple
 import requests
 from pprint import pprint
 from census_api.fetch_county_data import CensusFetchError
@@ -422,13 +422,89 @@ def process_state_batch(
             print(f"Failed to update '{article_title}': {exc}")
 
 
+def _resolve_municipality_type_dir(
+    state_dir: Path, municipality_type: str
+) -> Optional[Path]:
+    normalized = municipality_type.strip().lower()
+    for entry in state_dir.iterdir():
+        if entry.is_dir() and entry.name.lower() == normalized:
+            return entry
+    return None
+
+
+def process_municipality_batch(
+    state_postal: str,
+    municipality_type: str,
+    client,
+    args,
+    use_mini_prompt: bool,
+    skip_successful_articles: Iterable[str] = None,
+):
+    postal = state_postal.strip().upper()
+    state_dir = MUNICIPALITY_FIPS_DIR / postal
+    if not state_dir.exists():
+        print(f"No municipality mapping found for state '{postal}'.")
+        return
+    type_dir = _resolve_municipality_type_dir(state_dir, municipality_type)
+    if not type_dir:
+        available = sorted(
+            entry.name for entry in state_dir.iterdir() if entry.is_dir()
+        )
+        print(
+            f"No municipality type '{municipality_type}' found for state '{postal}'."
+        )
+        if available:
+            print("Available types: " + ", ".join(available))
+        return
+    path = type_dir / "places.json"
+    if not path.exists():
+        print(
+            f"No municipality mapping found for state '{postal}' and type '{type_dir.name}'."
+        )
+        return
+    place_map = json.loads(path.read_text())
+    items = sorted(place_map.items(), key=lambda kv: kv[0].lower())
+    for article_title, codes in items:
+        try:
+            raw_state = codes.get("state")
+            raw_place = codes.get("place")
+            if raw_state is None or raw_place is None:
+                raise ValueError("Missing state or place code in mapping.")
+            state_fips = str(raw_state).zfill(2)
+            place_fips = str(raw_place).zfill(5)
+            process_single_article_with_retries(
+                article_title.replace(" ", "_"),
+                state_fips,
+                place_fips,
+                args,
+                client,
+                use_mini_prompt,
+                skip_successful_articles=skip_successful_articles,
+                location_kind="municipality",
+            )
+        except CodexUsageLimitError:
+            raise
+        except Exception as exc:
+            print(f"Failed to update '{article_title}': {exc}")
+
+
 def parse_arguments():
     parser = argparse.ArgumentParser(
-        description="Update a county article with 2020 census demographics."
+        description="Update a county or municipality article with 2020 census demographics."
     )
     parser.add_argument(
         "--state-postal",
-        help="Process all counties in a state by postal code (e.g., OK).",
+        help=(
+            "Process all counties in a state by postal code (e.g., OK). "
+            "Use with --municipality-type to process municipalities instead."
+        ),
+    )
+    parser.add_argument(
+        "--municipality-type",
+        help=(
+            "When used with --state-postal, process all municipalities of this type "
+            "(e.g., city, town, CDP). Quote multi-word types like 'city and borough'."
+        ),
     )
     parser.add_argument(
         "--location",
@@ -500,7 +576,7 @@ def parse_arguments():
     parser.add_argument(
         "--skip-logged-successes",
         action="store_true",
-        help="Skip updating counties already logged as successful edits in app_logging/logs/edit.log.",
+        help="Skip updating articles already logged as successful edits in app_logging/logs/edit.log.",
     )
     args = parser.parse_args()
     has_manual_county = args.article and args.state_fips and args.county_fips
@@ -515,6 +591,8 @@ def parse_arguments():
         parser.error("--place-fips requires --article and --state-fips.")
     if args.state_postal and (args.article or args.location or args.municipality):
         parser.error("--state-postal cannot be combined with --article, --location, or --municipality.")
+    if args.municipality_type and not args.state_postal:
+        parser.error("--municipality-type can only be used with --state-postal.")
     if args.skip_location_parsing:
         if not args.article or not args.state_fips or not (args.county_fips or args.place_fips):
             parser.error(
@@ -526,6 +604,8 @@ def parse_arguments():
         parser.error("--skip-location-parsing cannot be combined with --municipality.")
     if args.start_county_fips and not args.state_postal:
         parser.error("--start-county-fips can only be used with --state-postal.")
+    if args.start_county_fips and args.municipality_type:
+        parser.error("--start-county-fips cannot be used with --municipality-type.")
     if args.start_county_fips:
         if not args.start_county_fips.isdigit():
             parser.error("--start-county-fips must be numeric (e.g., 003).")
@@ -832,14 +912,24 @@ def main():
 
     try:
         if args.state_postal:
-            process_state_batch(
-                args.state_postal,
-                client,
-                args,
-                use_mini_prompt,
-                start_county_fips=args.start_county_fips,
-                skip_successful_articles=skip_successful_articles,
-            )
+            if args.municipality_type:
+                process_municipality_batch(
+                    args.state_postal,
+                    args.municipality_type,
+                    client,
+                    args,
+                    use_mini_prompt,
+                    skip_successful_articles=skip_successful_articles,
+                )
+            else:
+                process_state_batch(
+                    args.state_postal,
+                    client,
+                    args,
+                    use_mini_prompt,
+                    start_county_fips=args.start_county_fips,
+                    skip_successful_articles=skip_successful_articles,
+                )
             return
 
         if is_municipality:
