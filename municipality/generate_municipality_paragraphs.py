@@ -94,12 +94,40 @@ def _format_int(value: Optional[int]) -> Optional[str]:
     return f"{value:,}" if value is not None else None
 
 
-def _format_percent(value: Optional[float]) -> Optional[str]:
+_PERCENT_COUNT_KEYS = {
+    "race_white_percent": "race_white_count",
+    "race_black_percent": "race_black_count",
+    "race_aian_percent": "race_aian_count",
+    "race_asian_percent": "race_asian_count",
+    "race_nhpi_percent": "race_nhpi_count",
+    "race_some_other_percent": "race_some_other_count",
+    "race_two_or_more_percent": "race_two_or_more_count",
+    "hispanic_any_race_percent": "hispanic_any_race_count",
+    "urban_population_percent": "urban_population_count",
+    "rural_population_percent": "rural_population_count",
+    "vacant_units_percent": "vacant_units_count",
+}
+
+
+def _format_percent(value: Optional[float], count: Optional[int] = None) -> Optional[str]:
     if value is None:
         return None
+    if count is not None:
+        try:
+            if int(count) == 0:
+                return "0%"
+        except (TypeError, ValueError):
+            pass
     if abs(value) < 0.05:
         return "&lt;0.1%"
     return f"{value:.1f}%"
+
+
+def _format_percent_from_data(data: Dict[str, object], key: str) -> Optional[str]:
+    value = data.get(key)
+    count_key = _PERCENT_COUNT_KEYS.get(key)
+    count = data.get(count_key) if count_key else None
+    return _format_percent(value, count)
 
 
 def _join_phrases(parts: List[str]) -> str:
@@ -182,8 +210,8 @@ def _build_paragraph_one(
             )
         )
 
-    under_18 = _format_percent(data.get("age_under_18_percent"))
-    over_65 = _format_percent(data.get("age_65_plus_percent"))
+    under_18 = _format_percent_from_data(data, "age_under_18_percent")
+    over_65 = _format_percent_from_data(data, "age_65_plus_percent")
     median_age = data.get("age_median_years")
     if median_age is not None or under_18 or over_65:
         parts = []
@@ -265,7 +293,7 @@ def _build_race_table(data: Dict[str, object], source_url: Optional[str]) -> str
     ]
     table_rows: List[str] = []
     for label, key, italic in rows:
-        percent = _format_percent(data.get(key))
+        percent = _format_percent_from_data(data, key)
         if not percent:
             continue
         row_label = f"''{label}''" if italic else label
@@ -287,8 +315,8 @@ def _build_race_table(data: Dict[str, object], source_url: Optional[str]) -> str
 
 def _build_paragraph_urbanization(data: Dict[str, object]) -> List[Tuple[str, Set[str]]]:
     sentences: List[Tuple[str, Set[str]]] = []
-    urban_pct = _format_percent(data.get("urban_population_percent"))
-    rural_pct = _format_percent(data.get("rural_population_percent"))
+    urban_pct = _format_percent_from_data(data, "urban_population_percent")
+    rural_pct = _format_percent_from_data(data, "rural_population_percent")
     if not (urban_pct or rural_pct):
         return sentences
 
@@ -316,7 +344,9 @@ def _build_paragraph_three(
     if total_households_val:
         clause_parts = []
         keys: Set[str] = {"total_households"}
-        children_pct = _format_percent(data.get("households_with_children_under_18_percent"))
+        children_pct = _format_percent_from_data(
+            data, "households_with_children_under_18_percent"
+        )
         if children_pct:
             clause_parts.append(f"{children_pct} had children under the age of 18 living in them")
             keys.add("households_with_children_under_18_percent")
@@ -325,9 +355,9 @@ def _build_paragraph_three(
             (f"There were {total_households_val} households in {place_label}{clause_text}.", keys)
         )
 
-    married_pct = _format_percent(data.get("married_couple_households_percent"))
-    male_pct = _format_percent(data.get("male_householder_no_spouse_percent"))
-    female_pct = _format_percent(data.get("female_householder_no_spouse_percent"))
+    married_pct = _format_percent_from_data(data, "married_couple_households_percent")
+    male_pct = _format_percent_from_data(data, "male_householder_no_spouse_percent")
+    female_pct = _format_percent_from_data(data, "female_householder_no_spouse_percent")
     type_parts = []
     type_keys: Set[str] = set()
     if married_pct:
@@ -346,8 +376,10 @@ def _build_paragraph_three(
     if type_parts:
         sentences.append((f"Of all households, {_join_phrases(type_parts)}.", type_keys))
 
-    one_person = _format_percent(data.get("one_person_households_percent"))
-    living_alone_65 = _format_percent(data.get("living_alone_65_plus_households_percent"))
+    one_person = _format_percent_from_data(data, "one_person_households_percent")
+    living_alone_65 = _format_percent_from_data(
+        data, "living_alone_65_plus_households_percent"
+    )
     if one_person or living_alone_65:
         clause = []
         keys = set()
@@ -406,7 +438,7 @@ def _build_paragraph_four(data: Dict[str, object]) -> List[Tuple[str, Set[str]]]
     sentences: List[Tuple[str, Set[str]]] = []
 
     total_housing_units = _format_int(data.get("total_housing_units"))
-    vacant_pct = _format_percent(data.get("vacant_units_percent"))
+    vacant_pct = _format_percent_from_data(data, "vacant_units_percent")
     if total_housing_units:
         clause = ""
         if vacant_pct:
@@ -416,8 +448,8 @@ def _build_paragraph_four(data: Dict[str, object]) -> List[Tuple[str, Set[str]]]
             keys.add("vacant_units_percent")
         sentences.append((f"There were {total_housing_units} housing units{clause}.", keys))
 
-    owner_pct = _format_percent(data.get("owner_occupied_percent"))
-    renter_pct = _format_percent(data.get("renter_occupied_percent"))
+    owner_pct = _format_percent_from_data(data, "owner_occupied_percent")
+    renter_pct = _format_percent_from_data(data, "renter_occupied_percent")
     if owner_pct or renter_pct:
         parts = []
         keys = set()
@@ -429,8 +461,8 @@ def _build_paragraph_four(data: Dict[str, object]) -> List[Tuple[str, Set[str]]]
             keys.add("renter_occupied_percent")
         sentences.append(("Among occupied housing units, " + _join_phrases(parts) + ".", keys))
 
-    homeowner_vac = _format_percent(data.get("homeowner_vacancy_rate_percent"))
-    rental_vac = _format_percent(data.get("rental_vacancy_rate_percent"))
+    homeowner_vac = _format_percent_from_data(data, "homeowner_vacancy_rate_percent")
+    rental_vac = _format_percent_from_data(data, "rental_vacancy_rate_percent")
     vac_parts = []
     if homeowner_vac:
         vac_parts.append(f"The homeowner vacancy rate was {homeowner_vac}")
