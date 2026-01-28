@@ -130,6 +130,19 @@ def _format_percent_from_data(data: Dict[str, object], key: str) -> Optional[str
     return _format_percent(value, count)
 
 
+def _format_count_from_data(data: Dict[str, object], key: str) -> Optional[str]:
+    count_key = _PERCENT_COUNT_KEYS.get(key)
+    if not count_key:
+        return None
+    count = data.get(count_key)
+    if count is None:
+        return None
+    try:
+        return _format_int(int(count))
+    except (TypeError, ValueError):
+        return None
+
+
 def _join_phrases(parts: List[str]) -> str:
     parts = [p for p in parts if p]
     if not parts:
@@ -296,8 +309,10 @@ def _build_race_table(data: Dict[str, object], source_url: Optional[str]) -> str
         percent = _format_percent_from_data(data, key)
         if not percent:
             continue
+        count = _format_count_from_data(data, key)
+        count_text = count or "N/A"
         row_label = f"''{label}''" if italic else label
-        table_rows.append(f"|-\n| {row_label} || {percent}")
+        table_rows.append(f"|-\n| {row_label} || {count_text} || {percent}")
 
     if not table_rows:
         return ""
@@ -306,7 +321,7 @@ def _build_race_table(data: Dict[str, object], source_url: Optional[str]) -> str
     lines = [
         '{| class="wikitable"',
         f"|+ Racial composition as of the 2020 census{ref}",
-        "! Race !! Percent",
+        "! Race !! Number !! Percent",
         *table_rows,
         "|}",
     ]
