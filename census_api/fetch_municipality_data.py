@@ -140,6 +140,16 @@ def get_demographic_variables(state_fips: str, place_fips: str) -> Dict[str, obj
         int(dp["DP1_0148C"]) if dp.get("DP1_0148C") not in (None, "") else int(pl["H1_002N"])
     )
 
+    race_white_count = int(pl["P1_003N"])
+    race_black_count = int(pl["P1_004N"])
+    race_aian_count = int(pl["P1_005N"])
+    race_asian_count = int(pl["P1_006N"])
+    race_nhpi_count = int(pl["P1_007N"])
+    race_some_other_count = int(pl["P1_008N"])
+    race_two_or_more_count = int(pl["P1_009N"])
+    hispanic_any_race_count = int(pl["P2_002N"])
+    hispanic_total_count = int(pl["P2_001N"])
+
     sex_male_total = int(dp["DP1_0025C"])
     owner_pct = _round1(_safe_float(dp, "DP1_0159P"))
     renter_pct = _round1(_safe_float(dp, "DP1_0160P"))
@@ -166,10 +176,12 @@ def get_demographic_variables(state_fips: str, place_fips: str) -> Dict[str, obj
     sex_male_18 = int(dp["DP1_0045C"])
     sex_female_18 = int(dp["DP1_0069C"])
 
-    urban_count = _safe_float(dhc, "P2_002N")
-    rural_count = _safe_float(dhc, "P2_003N")
-    urban_pct = _pct(int(urban_count), total_population) if urban_count is not None else None
-    rural_pct = _pct(int(rural_count), total_population) if rural_count is not None else None
+    urban_count_raw = _safe_float(dhc, "P2_002N")
+    rural_count_raw = _safe_float(dhc, "P2_003N")
+    urban_count = int(urban_count_raw) if urban_count_raw is not None else None
+    rural_count = int(rural_count_raw) if rural_count_raw is not None else None
+    urban_pct = _pct(urban_count, total_population) if urban_count is not None else None
+    rural_pct = _pct(rural_count, total_population) if rural_count is not None else None
 
     result = {
         "place_name": place_label or place_name,
@@ -177,14 +189,22 @@ def get_demographic_variables(state_fips: str, place_fips: str) -> Dict[str, obj
         "total_households": total_households,
         "total_families": None,
         "total_housing_units": total_housing_units,
-        "race_white_percent": _pct(int(pl["P1_003N"]), total_population),
-        "race_black_percent": _pct(int(pl["P1_004N"]), total_population),
-        "race_aian_percent": _pct(int(pl["P1_005N"]), total_population),
-        "race_asian_percent": _pct(int(pl["P1_006N"]), total_population),
-        "race_nhpi_percent": _pct(int(pl["P1_007N"]), total_population),
-        "race_some_other_percent": _pct(int(pl["P1_008N"]), total_population),
-        "race_two_or_more_percent": _pct(int(pl["P1_009N"]), total_population),
-        "hispanic_any_race_percent": _pct(int(pl["P2_002N"]), int(pl["P2_001N"])),
+        "race_white_percent": _pct(race_white_count, total_population),
+        "race_white_count": race_white_count,
+        "race_black_percent": _pct(race_black_count, total_population),
+        "race_black_count": race_black_count,
+        "race_aian_percent": _pct(race_aian_count, total_population),
+        "race_aian_count": race_aian_count,
+        "race_asian_percent": _pct(race_asian_count, total_population),
+        "race_asian_count": race_asian_count,
+        "race_nhpi_percent": _pct(race_nhpi_count, total_population),
+        "race_nhpi_count": race_nhpi_count,
+        "race_some_other_percent": _pct(race_some_other_count, total_population),
+        "race_some_other_count": race_some_other_count,
+        "race_two_or_more_percent": _pct(race_two_or_more_count, total_population),
+        "race_two_or_more_count": race_two_or_more_count,
+        "hispanic_any_race_percent": _pct(hispanic_any_race_count, hispanic_total_count),
+        "hispanic_any_race_count": hispanic_any_race_count,
         "households_with_children_under_18_percent": round(float(dp["DP1_0145P"]), 1),
         "married_couple_households_percent": _round1(_safe_float(dp, "DP1_0133P")),
         "female_householder_no_spouse_percent": round(float(dp["DP1_0141P"]), 1),
@@ -213,10 +233,13 @@ def get_demographic_variables(state_fips: str, place_fips: str) -> Dict[str, obj
         "owner_occupied_percent": owner_pct,
         "renter_occupied_percent": renter_pct,
         "vacant_units_percent": vacant_units_percent,
+        "vacant_units_count": int(vacant_units_dp) if vacant_units_dp is not None else None,
         "homeowner_vacancy_rate_percent": homeowner_vacancy_rate,
         "rental_vacancy_rate_percent": rental_vacancy_rate,
         "urban_population_percent": urban_pct,
+        "urban_population_count": urban_count,
         "rural_population_percent": rural_pct,
+        "rural_population_count": rural_count,
         "group_quarters_percent": group_quarters_percent,
         "institutional_group_quarters_percent": institutional_group_quarters_percent,
         "noninstitutional_group_quarters_percent": noninstitutional_group_quarters_percent,
