@@ -19,6 +19,9 @@ WIKILINK_RE = re.compile(r"\[\[([^\]|]+)(\|([^\]]+))?\]\]")
 REF_CITE_RE = re.compile(r"(<ref[^>]*>)(.*?)(</ref>)", re.IGNORECASE | re.DOTALL)
 REF_LEADING_WS_RE = re.compile(r"(\s+)(<ref[^>]*>)", re.IGNORECASE)
 CITATION_PARAM_RE = re.compile(r"(?:^|\|)\s*[A-Za-z0-9_-]+\s*=")
+AMP_ENTITY_RE = re.compile(r"&amp;?")
+EXTERNAL_LINK_RE = re.compile(r"\[https?://[^\s\]]+(?:\s+[^\]]+)?\]")
+URL_RE = re.compile(r"https?://[^\s\]|}]+")
 CITATION_SHORT_NAMES = {
     "sfn",
     "sfnp",
@@ -473,6 +476,24 @@ def move_heading_refs_to_first_paragraph(wikitext: str) -> str:
 
     parts.append(wikitext[cursor:])
     return "".join(parts)
+
+
+def _replace_amp_entities(text: str) -> str:
+    if "&amp" not in text:
+        return text
+    return AMP_ENTITY_RE.sub("&", text)
+
+
+def normalize_ampersands_in_links(wikitext: str) -> str:
+    """
+    Ensure ampersands inside link markup or URLs stay unescaped.
+    """
+    if "&amp" not in wikitext:
+        return wikitext
+    fixed = WIKILINK_RE.sub(lambda m: _replace_amp_entities(m.group(0)), wikitext)
+    fixed = EXTERNAL_LINK_RE.sub(lambda m: _replace_amp_entities(m.group(0)), fixed)
+    fixed = URL_RE.sub(lambda m: _replace_amp_entities(m.group(0)), fixed)
+    return fixed
 
 
 def _strip_template_braces(template_text: str) -> str:
