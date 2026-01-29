@@ -12,6 +12,7 @@ from .parser_utils import (
     expand_first_census_refs,
     fix_wikitable_closures,
     demote_non_demographics_h2,
+    normalize_ampersands_in_links,
 )
 
 
@@ -279,6 +280,7 @@ def fix_demographics_section_wikitext(
         fixed = func(fixed)
     if original_section_wikitext:
         fixed = restore_wikilinks_from_original(original_section_wikitext, fixed)
+    fixed = normalize_ampersands_in_links(fixed)
     return fixed
 
 
