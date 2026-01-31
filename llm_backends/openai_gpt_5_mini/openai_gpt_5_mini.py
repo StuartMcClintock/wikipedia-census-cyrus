@@ -46,6 +46,8 @@ If there is a wikitable on racial/ethnic composition across multiple decades, pu
 
 Do not remove old data (eg 2000 or 2010 census data), just move it into its own properly labeled subsection (eg "===2010 census===" or "===2000 census===")
 
+Do not delete large chunks of existing content even if it seems irrelevant to demographics (eg a "===Crime===" section). You may move, modify, and add headings - but never just delete a bunch of content.
+
 Output only the updated demographics and related census sections (no commentary).
 
 current_demographics_section:
@@ -68,7 +70,12 @@ proposed_text:
 {new_text}
 
 Does proposed_text contain any information that is not already contained in current_article? If yes, answer YES. If no, answer NO. Reply with exactly YES or NO."""
-    response = _chat_complete(prompt, max_tokens=64).strip().upper()
+    if new_text and new_text.strip() and new_text.strip() in current_article:
+        return False
+    try:
+        response = _chat_complete(prompt, max_tokens=256).strip().upper()
+    except RuntimeError:
+        return True
     return response.startswith("Y")
 
 
