@@ -283,7 +283,7 @@ Be careful to avoid creating wording like "As of the 2000 census of 2000".
 
 Be VERY careful to not delete a "</ref>" tag unless you are sure it will not break a ref. This is important!
 
-If a wikitable ends with "|}", don't remove the "|" and cause it to simply be "}". In gneral, make sure wikitables are closed properly.
+If a wikitable ends with "|}", don't remove the "|" and cause it to simply be "}". In general, make sure wikitables are closed properly.
 
 The content of the 2020 census section should be split into topically coherent paragraphs, NOT SMASHED INTO A SINGLE LARGE PARAGRAPH!
 
