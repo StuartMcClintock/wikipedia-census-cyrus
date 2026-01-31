@@ -68,7 +68,7 @@ proposed_text:
 {new_text}
 
 Does proposed_text contain any information that is not already contained in current_article? If yes, answer YES. If no, answer NO. Reply with exactly YES or NO."""
-    response = _chat_complete(prompt, max_tokens=8).strip().upper()
+    response = _chat_complete(prompt, max_tokens=64).strip().upper()
     return response.startswith("Y")
 
 
