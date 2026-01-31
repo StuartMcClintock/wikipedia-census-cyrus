@@ -283,7 +283,7 @@ Be careful to avoid creating wording like "As of the 2000 census of 2000".
 
 Be VERY careful to not delete a "</ref>" tag unless you are sure it will not break a ref. This is important!
 
-If a wikitable ends with "|}", don't remove the "|" and cause it to simply be "}"
+If a wikitable ends with "|}", don't remove the "|" and cause it to simply be "}". In gneral, make sure wikitables are closed properly.
 
 The content of the 2020 census section should be split into topically coherent paragraphs, NOT SMASHED INTO A SINGLE LARGE PARAGRAPH!
 
@@ -291,7 +291,7 @@ Ensure that adequate citation refs from the three census api refs (DP, PL, DHC) 
 
 If there is a "Racial and ethnic composition" subsection, put it as the top subsection of the Demographics, below only the lede text. Do not generate new text to add to the lede, you may only modify or reposition existing text
 
-Be careful not to remove query parameters from the census url (eg "?get="), we want to ensure that the url is usable as a source citation
+Be careful not to remove query parameters from the census url (eg "?get="), we want to ensure that the url is usable as a source citation. THIS IS IMPORTANT, DO NOT REMOVE QUERY PARAMETERS FROM CENSUS URLS
 
 Tables or paragraphs on racial data for only 2020 or any other specific decade should be in their respective "20xx census" subsection, not the "Racial and ethnic composition" subsection
 

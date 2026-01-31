@@ -219,11 +219,16 @@ def process_single_article(
     location_kind: str = "county",
 ):
     display_title = article_title.replace("_", " ")
+    ensure_us_location_title(article_title)
+    if client.is_disambiguation_page(article_title):
+        print(
+            f"Skipping '{article_title.replace('_', ' ')}' because it is a disambiguation page."
+        )
+        return
     page_wikitext = client.fetch_article_wikitext(article_title)
     if page_wikitext.lstrip().lower().startswith("#redirect"):
         print(f"Skipping '{article_title.replace('_', ' ')}' because it is a redirect.")
         return
-    ensure_us_location_title(article_title)
     parsed_article = ParsedWikitext(wikitext=page_wikitext)
     demographics_section_info = find_demographics_section(parsed_article)
     original_demographics = None
@@ -831,6 +836,27 @@ class WikipediaClient:
                 f"Wikipedia API response for '{title}' is missing revisions data: {page}."
             )
         return page['revisions'][0]['slots']['main']['content']
+
+    def is_disambiguation_page(self, title):
+        params = {
+            'action': 'query',
+            'format': 'json',
+            'redirects': 1,
+            'titles': title,
+            'prop': 'pageprops',
+            'ppprop': 'disambiguation',
+        }
+        response = self._get(params)
+        data = response.json()
+        pages = data.get('query', {}).get('pages', {})
+        if not pages:
+            raise ValueError(f"Wikipedia API returned no page data for '{title}'.")
+        page = next(iter(pages.values()))
+        if 'missing' in page:
+            raise ValueError(f"Wikipedia article '{title}' does not exist.")
+        if 'invalidreason' in page:
+            raise ValueError(f"Invalid article title '{title}': {page['invalidreason']}.")
+        return 'disambiguation' in (page.get('pageprops') or {})
 
     def edit_article_wikitext(self, title, new_text, summary):
         token = self.get_csrf_token()
