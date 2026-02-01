@@ -173,6 +173,7 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
             "The homeowner vacancy rate was 0.0% and the rental vacancy rate was 0.0%.",
             text,
         )
+        self.assertNotIn("&lt;0.1%", text)
 
     def test_includes_urban_rural_split_when_available(self):
         data = {
