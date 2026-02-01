@@ -94,6 +94,52 @@ def _format_int(value: Optional[int]) -> Optional[str]:
     return f"{value:,}" if value is not None else None
 
 
+_SMALL_HOUSEHOLD_MAX = 3
+_SMALL_HOUSING_MAX = 3
+
+
+def _coerce_int(value: Optional[object]) -> Optional[int]:
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def _count_from_percent(total: Optional[int], percent: Optional[float]) -> Optional[int]:
+    if total is None or percent is None:
+        return None
+    try:
+        count = int(round(total * float(percent) / 100.0))
+    except (TypeError, ValueError):
+        return None
+    if count < 0 or count > total:
+        return None
+    return count
+
+
+def _describe_count(
+    count: int, total: int, noun_singular: str, noun_plural: Optional[str] = None
+) -> str:
+    noun_plural = noun_plural or f"{noun_singular}s"
+    total_label = _format_int(total)
+    if count == 0:
+        return f"no {noun_plural}"
+    if count == total:
+        if total == 1:
+            return f"the {noun_singular}"
+        if total == 2:
+            return f"both {noun_plural}"
+        return f"all {total_label} {noun_plural}"
+    if total == 2 and count == 1:
+        return f"one of the two {noun_plural}"
+    if total == 3 and count == 1:
+        return f"one of the three {noun_plural}"
+    if total == 3 and count == 2:
+        return f"two of the three {noun_plural}"
+    count_label = _format_int(count)
+    return f"{count_label} of the {total_label} {noun_plural}"
+
+
 _PERCENT_COUNT_KEYS = {
     "race_white_percent": "race_white_count",
     "race_black_percent": "race_black_count",
@@ -350,63 +396,234 @@ def _build_paragraph_urbanization(data: Dict[str, object]) -> List[Tuple[str, Se
     return sentences
 
 
+def _build_small_household_sentences(
+    data: Dict[str, object], place_label: str, total_households: int
+) -> List[Tuple[str, Set[str]]]:
+    sentences: List[Tuple[str, Set[str]]] = []
+    total_households_val = _format_int(total_households)
+    children_pct = data.get("households_with_children_under_18_percent")
+    children_count = _count_from_percent(total_households, children_pct)
+
+    if total_households == 1:
+        text = f"{place_label} had {total_households_val} household"
+        keys: Set[str] = {"total_households"}
+        if children_count is not None:
+            keys.add("households_with_children_under_18_percent")
+            if children_count == 1:
+                text += ", and it included children under the age of 18"
+            else:
+                text += ", and it did not include children under the age of 18"
+        sentences.append((text + ".", keys))
+    else:
+        sentences.append(
+            (f"There were {total_households_val} households in {place_label}.", {"total_households"})
+        )
+        if children_count is not None:
+            keys = {"households_with_children_under_18_percent"}
+            if children_count == 0:
+                sentences.append(("No households had children under the age of 18.", keys))
+            elif children_count == total_households:
+                sentences.append(
+                    (f"All {total_households_val} households had children under the age of 18.", keys)
+                )
+            else:
+                phrase = _describe_count(children_count, total_households, "household")
+                sentences.append(
+                    (f"{phrase.capitalize()} had children under the age of 18.", keys)
+                )
+
+    married_pct = data.get("married_couple_households_percent")
+    male_pct = data.get("male_householder_no_spouse_percent")
+    female_pct = data.get("female_householder_no_spouse_percent")
+    married_count = _count_from_percent(total_households, married_pct)
+    male_count = _count_from_percent(total_households, male_pct)
+    female_count = _count_from_percent(total_households, female_pct)
+
+    if total_households == 1:
+        if married_count == 1:
+            sentences.append(
+                ("The household was a married couple.", {"married_couple_households_percent"})
+            )
+        elif male_count == 1:
+            sentences.append(
+                (
+                    "The household was headed by a male householder with no spouse or partner present.",
+                    {"male_householder_no_spouse_percent"},
+                )
+            )
+        elif female_count == 1:
+            sentences.append(
+                (
+                    "The household was headed by a female householder with no spouse or partner present.",
+                    {"female_householder_no_spouse_percent"},
+                )
+            )
+        if male_count == 0 and female_count == 0 and (male_pct is not None or female_pct is not None):
+            keys = set()
+            if male_pct is not None:
+                keys.add("male_householder_no_spouse_percent")
+            if female_pct is not None:
+                keys.add("female_householder_no_spouse_percent")
+            sentences.append(
+                (
+                    "There were no households headed by a single male or single female householder.",
+                    keys,
+                )
+            )
+    else:
+        if married_count is not None and married_count > 0:
+            phrase = _describe_count(married_count, total_households, "household")
+            if married_count == 1:
+                sentence = f"{phrase.capitalize()} was a married-couple household."
+            else:
+                sentence = f"{phrase.capitalize()} were married-couple households."
+            sentences.append((sentence, {"married_couple_households_percent"}))
+        if male_count is not None and male_count > 0:
+            phrase = _describe_count(male_count, total_households, "household")
+            sentences.append(
+                (
+                    f"{phrase.capitalize()} had a male householder and no spouse or partner present.",
+                    {"male_householder_no_spouse_percent"},
+                )
+            )
+        if female_count is not None and female_count > 0:
+            phrase = _describe_count(female_count, total_households, "household")
+            sentences.append(
+                (
+                    f"{phrase.capitalize()} had a female householder and no spouse or partner present.",
+                    {"female_householder_no_spouse_percent"},
+                )
+            )
+        if male_count == 0 and female_count == 0 and (male_pct is not None or female_pct is not None):
+            keys = set()
+            if male_pct is not None:
+                keys.add("male_householder_no_spouse_percent")
+            if female_pct is not None:
+                keys.add("female_householder_no_spouse_percent")
+            sentences.append(
+                (
+                    "There were no households headed by a single male or single female householder.",
+                    keys,
+                )
+            )
+
+    one_person_pct = data.get("one_person_households_percent")
+    living_alone_65_pct = data.get("living_alone_65_plus_households_percent")
+    one_person_count = _count_from_percent(total_households, one_person_pct)
+    living_alone_65_count = _count_from_percent(total_households, living_alone_65_pct)
+
+    if one_person_count is not None:
+        keys = set()
+        if one_person_pct is not None:
+            keys.add("one_person_households_percent")
+        if living_alone_65_pct is not None:
+            keys.add("living_alone_65_plus_households_percent")
+        if one_person_count == 0:
+            if living_alone_65_pct is not None:
+                sentences.append(
+                    (
+                        "There were no one-person households, including anyone living alone who was 65 years of age or older.",
+                        keys,
+                    )
+                )
+            else:
+                sentences.append(("There were no one-person households.", keys))
+        elif total_households == 1:
+            if living_alone_65_count == 1:
+                sentences.append(
+                    (
+                        "The household was made up of an individual who was 65 years of age or older.",
+                        keys,
+                    )
+                )
+            else:
+                sentences.append(("The household was made up of an individual.", keys))
+        else:
+            phrase = _describe_count(one_person_count, total_households, "household")
+            verb = "was" if one_person_count == 1 else "were"
+            sentences.append(
+                (f"{phrase.capitalize()} {verb} made up of individuals.", keys)
+            )
+            if living_alone_65_count:
+                phrase = _describe_count(living_alone_65_count, total_households, "household")
+                sentences.append(
+                    (
+                        f"{phrase.capitalize()} had someone living alone who was 65 years of age or older.",
+                        {"living_alone_65_plus_households_percent"},
+                    )
+                )
+
+    return sentences
+
+
 def _build_paragraph_three(
     data: Dict[str, object], place_label: str
 ) -> List[Tuple[str, Set[str]]]:
     sentences: List[Tuple[str, Set[str]]] = []
 
-    total_households_val = _format_int(data.get("total_households"))
+    total_households = _coerce_int(data.get("total_households"))
+    total_households_val = _format_int(total_households) if total_households is not None else None
     if total_households_val:
-        clause_parts = []
-        keys: Set[str] = {"total_households"}
-        children_pct = _format_percent_from_data(
-            data, "households_with_children_under_18_percent"
-        )
-        if children_pct:
-            clause_parts.append(f"{children_pct} had children under the age of 18 living in them")
-            keys.add("households_with_children_under_18_percent")
-        clause_text = ", of which " + _join_phrases(clause_parts) if clause_parts else ""
-        sentences.append(
-            (f"There were {total_households_val} households in {place_label}{clause_text}.", keys)
-        )
-
-    married_pct = _format_percent_from_data(data, "married_couple_households_percent")
-    male_pct = _format_percent_from_data(data, "male_householder_no_spouse_percent")
-    female_pct = _format_percent_from_data(data, "female_householder_no_spouse_percent")
-    type_parts = []
-    type_keys: Set[str] = set()
-    if married_pct:
-        type_parts.append(f"{married_pct} were married-couple households")
-        type_keys.add("married_couple_households_percent")
-    if male_pct:
-        type_parts.append(
-            f"{male_pct} were households with a male householder and no spouse or partner present"
-        )
-        type_keys.add("male_householder_no_spouse_percent")
-    if female_pct:
-        type_parts.append(
-            f"{female_pct} were households with a female householder and no spouse or partner present"
-        )
-        type_keys.add("female_householder_no_spouse_percent")
-    if type_parts:
-        sentences.append((f"Of all households, {_join_phrases(type_parts)}.", type_keys))
-
-    one_person = _format_percent_from_data(data, "one_person_households_percent")
-    living_alone_65 = _format_percent_from_data(
-        data, "living_alone_65_plus_households_percent"
-    )
-    if one_person or living_alone_65:
-        clause = []
-        keys = set()
-        if one_person:
-            clause.append(f"{one_person} of all households were made up of individuals")
-            keys.add("one_person_households_percent")
-        if living_alone_65:
-            clause.append(
-                f"{living_alone_65} had someone living alone who was 65 years of age or older"
+        if total_households <= _SMALL_HOUSEHOLD_MAX:
+            sentences.extend(_build_small_household_sentences(data, place_label, total_households))
+        else:
+            clause_parts = []
+            keys: Set[str] = {"total_households"}
+            children_pct = _format_percent_from_data(
+                data, "households_with_children_under_18_percent"
             )
-            keys.add("living_alone_65_plus_households_percent")
-        sentences.append(("About " + _join_phrases(clause) + ".", keys))
+            if children_pct:
+                clause_parts.append(
+                    f"{children_pct} had children under the age of 18 living in them"
+                )
+                keys.add("households_with_children_under_18_percent")
+            clause_text = ", of which " + _join_phrases(clause_parts) if clause_parts else ""
+            sentences.append(
+                (
+                    f"There were {total_households_val} households in {place_label}{clause_text}.",
+                    keys,
+                )
+            )
+
+            married_pct = _format_percent_from_data(data, "married_couple_households_percent")
+            male_pct = _format_percent_from_data(data, "male_householder_no_spouse_percent")
+            female_pct = _format_percent_from_data(data, "female_householder_no_spouse_percent")
+            type_parts = []
+            type_keys: Set[str] = set()
+            if married_pct:
+                type_parts.append(f"{married_pct} were married-couple households")
+                type_keys.add("married_couple_households_percent")
+            if male_pct:
+                type_parts.append(
+                    f"{male_pct} were households with a male householder and no spouse or partner present"
+                )
+                type_keys.add("male_householder_no_spouse_percent")
+            if female_pct:
+                type_parts.append(
+                    f"{female_pct} were households with a female householder and no spouse or partner present"
+                )
+                type_keys.add("female_householder_no_spouse_percent")
+            if type_parts:
+                sentences.append((f"Of all households, {_join_phrases(type_parts)}.", type_keys))
+
+            one_person = _format_percent_from_data(data, "one_person_households_percent")
+            living_alone_65 = _format_percent_from_data(
+                data, "living_alone_65_plus_households_percent"
+            )
+            if one_person or living_alone_65:
+                clause = []
+                keys = set()
+                if one_person:
+                    clause.append(
+                        f"{one_person} of all households were made up of individuals"
+                    )
+                    keys.add("one_person_households_percent")
+                if living_alone_65:
+                    clause.append(
+                        f"{living_alone_65} had someone living alone who was 65 years of age or older"
+                    )
+                    keys.add("living_alone_65_plus_households_percent")
+                sentences.append(("About " + _join_phrases(clause) + ".", keys))
 
     avg_household = data.get("average_household_size")
     avg_family = data.get("average_family_size")
@@ -452,20 +669,114 @@ def _build_paragraph_three(
 def _build_paragraph_four(data: Dict[str, object]) -> List[Tuple[str, Set[str]]]:
     sentences: List[Tuple[str, Set[str]]] = []
 
-    total_housing_units = _format_int(data.get("total_housing_units"))
+    total_housing_units = _coerce_int(data.get("total_housing_units"))
+    total_housing_units_val = (
+        _format_int(total_housing_units) if total_housing_units is not None else None
+    )
     vacant_pct = _format_percent_from_data(data, "vacant_units_percent")
-    if total_housing_units:
-        clause = ""
-        if vacant_pct:
-            clause = f", of which {vacant_pct} were vacant"
-        keys = {"total_housing_units"}
-        if vacant_pct:
-            keys.add("vacant_units_percent")
-        sentences.append((f"There were {total_housing_units} housing units{clause}.", keys))
+    vacant_count = _coerce_int(data.get("vacant_units_count"))
+    if total_housing_units_val:
+        if total_housing_units <= _SMALL_HOUSING_MAX:
+            verb = "was" if total_housing_units == 1 else "were"
+            base = f"There {verb} {total_housing_units_val} housing unit"
+            if total_housing_units != 1:
+                base += "s"
+            keys = {"total_housing_units"}
+            if vacant_count is not None:
+                vacant_label = _format_int(vacant_count)
+                keys.add("vacant_units_percent")
+                if vacant_count == 0:
+                    base += ", and none were vacant"
+                elif vacant_count == total_housing_units:
+                    base += ", and all were vacant"
+                else:
+                    base += f", and {vacant_label} were vacant"
+                if vacant_pct:
+                    base += f" ({vacant_pct})"
+            elif vacant_pct:
+                base += f", of which {vacant_pct} were vacant"
+                keys.add("vacant_units_percent")
+            sentences.append((base + ".", keys))
+        else:
+            clause = ""
+            if vacant_pct:
+                clause = f", of which {vacant_pct} were vacant"
+            keys = {"total_housing_units"}
+            if vacant_pct:
+                keys.add("vacant_units_percent")
+            sentences.append(
+                (f"There were {total_housing_units_val} housing units{clause}.", keys)
+            )
 
+    owner_pct_raw = data.get("owner_occupied_percent")
+    renter_pct_raw = data.get("renter_occupied_percent")
     owner_pct = _format_percent_from_data(data, "owner_occupied_percent")
     renter_pct = _format_percent_from_data(data, "renter_occupied_percent")
-    if owner_pct or renter_pct:
+    occupied_units = None
+    if total_housing_units is not None and vacant_count is not None:
+        occupied_units = total_housing_units - vacant_count
+    if (
+        occupied_units is not None
+        and occupied_units > 0
+        and occupied_units <= _SMALL_HOUSING_MAX
+    ):
+        owner_count = _count_from_percent(occupied_units, owner_pct_raw)
+        renter_count = _count_from_percent(occupied_units, renter_pct_raw)
+        if owner_count is not None and renter_count is not None:
+            if owner_count + renter_count == occupied_units:
+                keys = {"owner_occupied_percent", "renter_occupied_percent"}
+                occupied_units_val = _format_int(occupied_units)
+                if occupied_units == 1:
+                    if owner_count == 1:
+                        sentences.append(
+                            ("The single occupied housing unit was owner-occupied.", keys)
+                        )
+                        sentences.append(
+                            ("There were no renter-occupied units.", {"renter_occupied_percent"})
+                        )
+                    elif renter_count == 1:
+                        sentences.append(
+                            ("The single occupied housing unit was renter-occupied.", keys)
+                        )
+                        sentences.append(
+                            ("There were no owner-occupied units.", {"owner_occupied_percent"})
+                        )
+                elif owner_count == occupied_units:
+                    sentences.append(
+                        (
+                            f"All {occupied_units_val} occupied housing units were owner-occupied.",
+                            keys,
+                        )
+                    )
+                elif renter_count == occupied_units:
+                    sentences.append(
+                        (
+                            f"All {occupied_units_val} occupied housing units were renter-occupied.",
+                            keys,
+                        )
+                    )
+                else:
+                    owner_label = _format_int(owner_count)
+                    renter_label = _format_int(renter_count)
+                    owner_phrase = (
+                        "none were owner-occupied"
+                        if owner_count == 0
+                        else f"{owner_label} were owner-occupied"
+                    )
+                    renter_phrase = (
+                        "none were renter-occupied"
+                        if renter_count == 0
+                        else f"{renter_label} were renter-occupied"
+                    )
+                    sentences.append(
+                        (
+                            f"Of the {occupied_units_val} occupied housing units, {owner_phrase} and {renter_phrase}.",
+                            keys,
+                        )
+                    )
+        else:
+            occupied_units = None
+    if occupied_units is None and (owner_pct or renter_pct):
         parts = []
         keys = set()
         if owner_pct:
@@ -474,7 +785,9 @@ def _build_paragraph_four(data: Dict[str, object]) -> List[Tuple[str, Set[str]]]
         if renter_pct:
             parts.append(f"{renter_pct} were renter-occupied")
             keys.add("renter_occupied_percent")
-        sentences.append(("Among occupied housing units, " + _join_phrases(parts) + ".", keys))
+        sentences.append(
+            ("Among occupied housing units, " + _join_phrases(parts) + ".", keys)
+        )
 
     homeowner_vac = _format_percent_from_data(data, "homeowner_vacancy_rate_percent")
     rental_vac = _format_percent_from_data(data, "rental_vacancy_rate_percent")
