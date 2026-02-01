@@ -161,9 +161,14 @@ def _format_percent(value: Optional[float], count: Optional[int] = None) -> Opti
     if count is not None:
         try:
             if int(count) == 0:
-                return "0%"
+                return "0.0%"
         except (TypeError, ValueError):
             pass
+    try:
+        if float(value) == 0.0:
+            return "0.0%"
+    except (TypeError, ValueError):
+        return None
     if abs(value) < 0.05:
         return "&lt;0.1%"
     return f"{value:.1f}%"

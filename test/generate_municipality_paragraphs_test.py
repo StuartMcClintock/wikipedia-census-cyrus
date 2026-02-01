@@ -107,9 +107,10 @@ class GenerateMunicipalityParagraphsSmallCountsTests(unittest.TestCase):
         ):
             text = self._strip_refs(generate_municipality_paragraphs("01", "002"))
 
-        self.assertIn("There was 1 housing unit, and none were vacant (0%).", text)
+        self.assertIn("There was 1 housing unit, and none were vacant (0.0%).", text)
         self.assertIn("The single occupied housing unit was renter-occupied.", text)
         self.assertIn("There were no owner-occupied units.", text)
+        self.assertNotIn("&lt;0.1%", text)
 
     def test_three_households_use_specific_counts(self):
         data = deepcopy(self.base_data)
