@@ -42,50 +42,11 @@ from census_api.fetch_municipality_data import get_demographic_variables, Census
 today = datetime.date.today()
 ACCESS_DATE = f"{today.strftime('%B')} {today.day}, {today.year}"
 
-LINK_REPLACEMENTS = [
+PARAGRAPH_LINK_REPLACEMENTS = [
     (
         "2020 United States census",
         "[[2020 United States census|2020 census]]",
     ),
-    (" White", " [[White Americans|White]]"),
-    (
-        "American Indian and Alaska Native",
-        "[[Native Americans in the United States|American Indian and Alaska Native]]",
-    ),
-    ("Native Hawaiian", "[[Native Hawaiians|Native Hawaiian]]"),
-    ("Pacific Islander", "[[Pacific Islander|Pacific Islander]]"),
-    ("[[White (United States Census)|White]]", "[[White (U.S. Census)|White]]"),
-    ("[[White (U.S. Census)|White]]", "[[White (U.S. Census)|White]]"),
-    ("[[White (U.S. Census)|White]] (NH)", "[[White (U.S. Census)|White]] (NH)"),
-    (
-        "[[African American (United States Census)|Black or African American]]",
-        "[[African Americans|Black or African American]]",
-    ),
-    (
-        "[[African American (U.S. Census)|Black or African American]]",
-        "[[African Americans|Black or African American]]",
-    ),
-    (
-        "[[African American (U.S. Census)|Black or African American]] (NH)",
-        "[[African Americans|Black or African American]] (NH)",
-    ),
-    ("[[Native American (United States Census)|Native American]]", "[[Native Americans in the United States|Native American]]"),
-    ("[[Native American (U.S. Census)|Native American]]", "[[Native Americans in the United States|Native American]]"),
-    ("[[Asian (United States Census)|Asian]]", "[[Asian Americans|Asian]]"),
-    ("[[Asian (U.S. Census)|Asian]]", "[[Asian Americans|Asian]]"),
-    ("[[Asian (U.S. Census)|Asian]] (NH)", "[[Asian Americans|Asian]] (NH)"),
-    ("[[Pacific Islander (United States Census)|Pacific Islander]]", "[[Pacific Islander|Pacific Islander]]"),
-    ("[[Pacific Islander (U.S. Census)|Pacific Islander]]", "[[Pacific Islander|Pacific Islander]]"),
-    ("[[Race (United States Census)|Other/Mixed]]", "Other/Mixed"),
-    ("[[Race (U.S. Census)|Other/Mixed]]", "Other/Mixed"),
-    ("[[Hispanic (United States Census)|Hispanic]]", "[[Hispanic and Latino Americans|Hispanic]]"),
-    ("[[Hispanic (U.S. Census)|Hispanic]]", "[[Hispanic and Latino Americans|Hispanic]]"),
-    ("[[Latino (United States Census)|Latino]]", "[[Hispanic and Latino Americans|Latino]]"),
-    ("[[Latino (U.S. Census)|Latino]]", "[[Hispanic and Latino Americans|Latino]]"),
-    ("Black or African American", "[[African Americans|Black or African American]]"),
-    ("Asian", "[[Asian Americans|Asian]]"),
-    ("two or more races", "[[Multiracial Americans|two or more races]]"),
-    ("Hispanic or Latino", "[[Hispanic and Latino Americans|Hispanic or Latino]]"),
     ("group quarters", "[[Group quarters|group quarters]]"),
 ]
 
@@ -206,7 +167,7 @@ def _join_phrases(parts: List[str]) -> str:
 
 
 def _apply_links(text: str) -> str:
-    for phrase, replacement in LINK_REPLACEMENTS:
+    for phrase, replacement in PARAGRAPH_LINK_REPLACEMENTS:
         if "[[" in phrase:
             text = text.replace(phrase, replacement)
             continue

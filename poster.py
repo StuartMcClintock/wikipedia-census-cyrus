@@ -443,6 +443,7 @@ def process_municipality_batch(
     client,
     args,
     use_mini_prompt: bool,
+    start_muni_fips: str = None,
     skip_successful_articles: Iterable[str] = None,
 ):
     postal = state_postal.strip().upper()
@@ -468,7 +469,19 @@ def process_municipality_batch(
         )
         return
     place_map = json.loads(path.read_text())
-    items = sorted(place_map.items(), key=lambda kv: kv[0].lower())
+    start_threshold = start_muni_fips.zfill(5) if start_muni_fips else None
+
+    def _place_sort_key(item):
+        name, codes = item
+        raw_place = codes.get("place") if isinstance(codes, dict) else None
+        if raw_place is None:
+            return ("99999", name.lower())
+        return (str(raw_place).zfill(5), name.lower())
+
+    if start_threshold:
+        items = sorted(place_map.items(), key=_place_sort_key)
+    else:
+        items = sorted(place_map.items(), key=lambda kv: kv[0].lower())
     for article_title, codes in items:
         try:
             raw_state = codes.get("state")
@@ -477,6 +490,8 @@ def process_municipality_batch(
                 raise ValueError("Missing state or place code in mapping.")
             state_fips = str(raw_state).zfill(2)
             place_fips = str(raw_place).zfill(5)
+            if start_threshold and place_fips < start_threshold:
+                continue
             process_single_article_with_retries(
                 article_title.replace(" ", "_"),
                 state_fips,
@@ -556,6 +571,13 @@ def parse_arguments():
         ),
     )
     parser.add_argument(
+        "--start-muni-fips",
+        help=(
+            "When used with --state-postal and --municipality-type, start processing at "
+            "this 5-digit place FIPS code and continue upward (e.g., 31050)."
+        ),
+    )
+    parser.add_argument(
         "--skip-should-update-check",
         action="store_true",
         help="Skip the Codex-based update check and always apply the update.",
@@ -616,6 +638,15 @@ def parse_arguments():
             parser.error("--start-county-fips must be numeric (e.g., 003).")
         if len(args.start_county_fips) > 3:
             parser.error("--start-county-fips must be a 3-digit county code.")
+    if args.start_muni_fips and not args.state_postal:
+        parser.error("--start-muni-fips can only be used with --state-postal.")
+    if args.start_muni_fips and not args.municipality_type:
+        parser.error("--start-muni-fips requires --municipality-type.")
+    if args.start_muni_fips:
+        if not args.start_muni_fips.isdigit():
+            parser.error("--start-muni-fips must be numeric (e.g., 31050).")
+        if len(args.start_muni_fips) > 5:
+            parser.error("--start-muni-fips must be a 5-digit place code.")
     if not args.location and not args.municipality and not has_manual_county and not has_manual_place and not args.state_postal:
         parser.error(
             "Provide --location, --municipality, --state-postal, or specify --article, --state-fips, and --county-fips or --place-fips."
@@ -945,6 +976,7 @@ def main():
                     client,
                     args,
                     use_mini_prompt,
+                    start_muni_fips=args.start_muni_fips,
                     skip_successful_articles=skip_successful_articles,
                 )
             else:
