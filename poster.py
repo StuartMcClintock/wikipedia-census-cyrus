@@ -810,10 +810,11 @@ class WikipediaClient:
     Thin wrapper around the Wikipedia API that handles login, tokens, and edits.
     """
 
-    def __init__(self, user_agent):
+    def __init__(self, user_agent, log_file: Path = LOG_FILE):
         self.session = requests.Session()
         self.session.headers.update({"User-Agent": user_agent})
         self._csrf_token = None
+        self.log_file = log_file
 
     def _get(self, params):
         response = self.session.get(WIKIPEDIA_ENDPOINT, params=params)
@@ -891,6 +892,29 @@ class WikipediaClient:
             )
         return page['revisions'][0]['slots']['main']['content']
 
+    def fetch_article_lede_text(self, title):
+        params = {
+            'action': 'query',
+            'prop': 'extracts',
+            'titles': title,
+            'redirects': 1,
+            'exintro': 1,
+            'explaintext': 1,
+            'formatversion': '2',
+            'format': 'json'
+        }
+        response = self._get(params)
+        data = response.json()
+        pages = data.get('query', {}).get('pages', [])
+        if not pages:
+            raise ValueError(f"Wikipedia API returned no page data for '{title}'.")
+        page = pages[0]
+        if 'missing' in page:
+            raise ValueError(f"Wikipedia article '{title}' does not exist.")
+        if 'invalidreason' in page:
+            raise ValueError(f"Invalid article title '{title}': {page['invalidreason']}.")
+        return page.get('extract', '') or ''
+
     def is_disambiguation_page(self, title):
         params = {
             'action': 'query',
@@ -926,7 +950,7 @@ class WikipediaClient:
         }
         response = self._post(payload)
         result = response.json()
-        log_edit_article(title, result)
+        log_edit_article(title, result, log_path=self.log_file)
         return result
 
     def compare_revision_sizes(self, old_revision_id, new_revision_id):

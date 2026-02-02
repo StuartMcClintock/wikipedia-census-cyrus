@@ -78,3 +78,19 @@ def update_demographics_section(
     """
     backend = _get_backend_module()
     return backend.update_demographics_section(current_demographics_section, new_text, mini, suppress_out)
+
+
+def update_lede(current_lede_text: str, population_sentence: str, suppress_out: bool = True) -> str:
+    """
+    Update the lede/intro text of a Wikipedia article.
+
+    Args:
+        current_lede_text: Current lede wikitext
+        population_sentence: A sentence containing the 2020 census population + citation
+        suppress_out: Whether to suppress LLM output
+
+    Returns:
+        Updated lede text
+    """
+    backend = _get_backend_module()
+    return backend.update_lede(current_lede_text, population_sentence, suppress_out)

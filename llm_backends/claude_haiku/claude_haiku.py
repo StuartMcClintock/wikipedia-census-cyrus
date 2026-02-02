@@ -102,3 +102,38 @@ new_text:
     return message.content[0].text+'\n'
 
     
+def update_lede(
+    current_lede_text: str,
+    population_sentence: str,
+    suppress_out: bool = True,
+    model = 'claude-haiku-4-5-20251001',
+) -> str:
+    """
+    Update the lede/intro text of a Wikipedia municipality article.
+    """
+    PROMPT = ("""You will be given the current lede text (wikitext) of a Wikipedia municipality article.
+
+You will also be given a population_sentence that includes the 2020 census population and a citation.
+
+Integrate the population_sentence into the lede so it reads naturally. Preserve existing facts and citations.
+Do not add new facts beyond the population sentence, and do not add or remove headings.
+If the lede already clearly states the 2020 population, keep it and avoid duplication.
+
+Output only the updated lede text (no commentary).
+
+current_lede_text:
+    """+current_lede_text+"""
+
+population_sentence:
+    """+population_sentence)
+
+    client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
+
+    message = client.messages.create(
+        model=model,
+        max_tokens=2048,
+        system=("Output should be valid wikitext."),
+        messages=[ { "role": "user", "content": PROMPT } ]
+    )
+
+    return message.content[0].text+'\\n'

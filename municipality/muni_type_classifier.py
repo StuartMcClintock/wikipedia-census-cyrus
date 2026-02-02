@@ -133,6 +133,7 @@ _FILE_LINK_RE = re.compile(r"\[\[(?:File|Image):[^\]]+\]\]", re.IGNORECASE)
 _SIMPLE_TEMPLATE_RE = re.compile(r"\{\{[^{}]*\}\}", re.DOTALL)
 _WIKITABLE_RE = re.compile(r"\{\|.*?\|\}", re.DOTALL)
 _WIKILINK_RE = re.compile(r"\[\[([^|\]]+)(?:\|([^\]]+))?\]\]")
+_FOR_TEMPLATE_RE = re.compile(r"\{\{\s*For\b.*?\}\}", re.IGNORECASE | re.DOTALL)
 
 
 def strip_templates_simple(text: str, max_iters: int = 20) -> str:
@@ -272,6 +273,25 @@ def extract_lede_first_sentence(wikitext: str) -> Optional[str]:
     if m:
         return m.group(1).strip()
     return cleaned.strip()[:400]
+
+
+def _extract_lede_raw(wikitext: str) -> str:
+    if not wikitext:
+        return ""
+    split = re.split(r"\n==[^=].*?==\s*\n", wikitext, maxsplit=1)
+    lead = split[0] if split else wikitext
+    return _CATEGORY_RE.sub(" ", lead)
+
+
+def _lede_mentions_unincorporated_community(wikitext: str) -> bool:
+    lead = _extract_lede_raw(wikitext)
+    if not lead:
+        return False
+    lead = _FOR_TEMPLATE_RE.sub(" ", lead)
+    cleaned = normalize_text(lead)
+    return bool(
+        re.search(r"\bunincorporated(?:\s+rural)?\s+community\b", cleaned)
+    )
 
 
 # -----------------------------
@@ -454,7 +474,13 @@ def determine_municipality_type_from_wikitext(wikitext: str) -> Result:
     if lede_sentence:
         cands.extend(candidates_from_lede(lede_sentence))
 
-    return reconcile(cands, balance_flag)
+    result = reconcile(cands, balance_flag)
+    if result.muni_type == "unknown" and _lede_mentions_unincorporated_community(wikitext):
+        reasons = list(result.reasons) + [
+            "fallback: lede mentions unincorporated community",
+        ]
+        return Result(muni_type="CDP", confidence="low", reasons=reasons)
+    return result
 
 
 def determine_municipality_type(wikitext: str) -> Dict[str, Any]:
@@ -469,4 +495,3 @@ def determine_municipality_type(wikitext: str) -> Dict[str, Any]:
     """
     res = determine_municipality_type_from_wikitext(wikitext)
     return {"type": res.muni_type, "confidence": res.confidence, "reasons": res.reasons}
-
