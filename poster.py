@@ -10,6 +10,7 @@ from census_api.fetch_county_data import CensusFetchError
 from credentials import *  # WP_BOT_USER_NAME, WP_BOT_PASSWORD, WP_BOT_USER_AGENT, USER_SANDBOX_ARTICLE
 from county.generate_county_paragraphs import generate_county_paragraphs
 from municipality.generate_municipality_paragraphs import generate_municipality_paragraphs
+from municipality.muni_type_classifier import determine_municipality_type
 from app_logging.logger import LOG_FILE, log_edit_article
 from llm_frontend import (
     check_if_update_needed,
@@ -217,6 +218,7 @@ def process_single_article(
     client,
     use_mini_prompt: bool,
     location_kind: str = "county",
+    expected_muni_type: Optional[str] = None,
 ):
     display_title = article_title.replace("_", " ")
     ensure_us_location_title(article_title)
@@ -229,6 +231,24 @@ def process_single_article(
     if page_wikitext.lstrip().lower().startswith("#redirect"):
         print(f"Skipping '{article_title.replace('_', ' ')}' because it is a redirect.")
         return
+    if location_kind == "municipality" and expected_muni_type:
+        detected = determine_municipality_type(page_wikitext)
+        detected_type = (detected.get("type") or "").strip()
+        expected_norm = expected_muni_type.strip().lower()
+        detected_norm = detected_type.lower()
+        if expected_norm != detected_norm:
+            reasons = detected.get("reasons") or []
+            reason_text = "; ".join(reasons) if reasons else "no reasons provided"
+            print(
+                "\n\n\n"
+                "MUNICIPALITY TYPE MISMATCH - SKIPPING ARTICLE\n"
+                f"Article: {article_title.replace('_', ' ')}\n"
+                f"Expected type: {expected_muni_type}\n"
+                f"Detected type: {detected_type or 'unknown'}\n"
+                f"Classifier reasons: {reason_text}\n"
+                "\n\n\n"
+            )
+            return
     parsed_article = ParsedWikitext(wikitext=page_wikitext)
     demographics_section_info = find_demographics_section(parsed_article)
     original_demographics = None
@@ -342,6 +362,7 @@ def process_single_article_with_retries(
     use_mini_prompt: bool,
     skip_successful_articles: Iterable[str] = None,
     location_kind: str = "county",
+    expected_muni_type: Optional[str] = None,
 ):
     """
     Attempt to process a county article, retrying up to 3 times by default.
@@ -364,6 +385,7 @@ def process_single_article_with_retries(
                 client,
                 use_mini_prompt,
                 location_kind=location_kind,
+                expected_muni_type=expected_muni_type,
             )
             return
         except CodexUsageLimitError:
@@ -501,6 +523,7 @@ def process_municipality_batch(
                 use_mini_prompt,
                 skip_successful_articles=skip_successful_articles,
                 location_kind="municipality",
+                expected_muni_type=type_dir.name,
             )
         except CodexUsageLimitError:
             raise
