@@ -505,6 +505,7 @@ def process_single_article(
     population_sentence = _build_population_sentence(display_title, population, census_url)
 
     suppress_out = not args.show_codex_output
+    print(f"Updating lede for '{display_title}'...")
     updated_lede = update_lede(current_lede, population_sentence, suppress_out=suppress_out)
     if not updated_lede or not updated_lede.strip():
         print(f"Skipping '{display_title}' because the LLM returned no content.")
