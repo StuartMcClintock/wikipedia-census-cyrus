@@ -304,5 +304,23 @@ Write only the updated demographics and related census sections to codex_out/out
     codex_exec(prompt, suppress_out=suppress_out)
     return _read_codex_output()
 
+
+def update_lede(current_lede_text: str, population_sentence: str, suppress_out: bool = True) -> str:
+    prompt = """
+current_lede_text.txt contains the current lede/intro wikitext of a Wikipedia municipality article.
+
+population_sentence.txt contains a single sentence that includes the 2020 census population and a citation.
+
+Integrate the population sentence into the lede so it reads naturally, preserving existing facts and citations.
+Do not add or remove headings, and do not add any new facts beyond the population sentence.
+If the lede already clearly states the 2020 population, keep it and avoid duplication.
+
+Write only the updated lede text to codex_out/out.txt (no commentary).
+"""
+    _write_snapshot("current_lede_text.txt", current_lede_text)
+    _write_snapshot("population_sentence.txt", population_sentence)
+    codex_exec(prompt, suppress_out=suppress_out)
+    return _read_codex_output()
+
 if __name__ == '__main__':
     codex_exec("add a file within openai_codex called 'new_text.txt'")

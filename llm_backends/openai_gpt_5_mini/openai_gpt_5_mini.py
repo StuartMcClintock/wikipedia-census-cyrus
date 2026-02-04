@@ -59,6 +59,27 @@ new_text:
     return _chat_complete(prompt)+'\n'
 
 
+def update_lede(current_lede_text: str, population_sentence: str, suppress_out: bool = True) -> str:
+    prompt = f"""
+You will be given the current lede text (wikitext) of a Wikipedia municipality article.
+
+You will also be given a population_sentence that includes the 2020 census population and a citation.
+
+Integrate the population_sentence into the lede so it reads naturally. Preserve existing facts and citations - except for population counts from 2010 or earlier (eg from 2010 or 2000), which may be removed.
+Do not add new facts beyond the population sentence, and do not add or remove headings.
+If the lede already clearly states the 2020 population, keep it and avoid duplication.
+
+Output only the updated lede text (no commentary).
+
+current_lede_text:
+{current_lede_text}
+
+population_sentence:
+{population_sentence}
+"""
+    return _chat_complete(prompt, max_tokens=4000) + "\n"
+
+
 def check_if_update_needed(current_article: str, new_text: str, suppress_out: bool = True) -> bool:
     prompt = f"""
 You will be given two blocks of text.
