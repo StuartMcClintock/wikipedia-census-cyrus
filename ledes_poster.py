@@ -2,9 +2,10 @@ import argparse
 import datetime
 import json
 import os
+import re
 import sys
 from pathlib import Path
-from typing import Dict, Iterable, Optional, Set, Tuple
+from typing import Dict, Iterable, List, Optional, Set, Tuple
 from pprint import pprint
 
 import requests
@@ -627,7 +628,7 @@ def parse_arguments():
     parser.add_argument(
         "--state-postal",
         help=(
-            "Process all municipalities in a state by postal code (e.g., OK). "
+            "Process all municipalities in a state by postal code (e.g., OK or OK,TX). "
             "Requires --municipality-type."
         ),
     )
@@ -684,6 +685,8 @@ def parse_arguments():
         parser.error("--place-fips requires --article and --state-fips.")
     if args.state_postal and (args.article or args.municipality):
         parser.error("--state-postal cannot be combined with --article or --municipality.")
+    if args.state_postal and not args.municipality_type:
+        parser.error("--state-postal requires --municipality-type.")
     if args.municipality_type and not args.state_postal:
         parser.error("--municipality-type can only be used with --state-postal.")
     if args.start_muni_fips and not args.state_postal:
@@ -695,11 +698,19 @@ def parse_arguments():
             parser.error("--start-muni-fips must be numeric (e.g., 31050).")
         if len(args.start_muni_fips) > 5:
             parser.error("--start-muni-fips must be a 5-digit place code.")
+    if args.state_postal:
+        state_postals = _split_state_postals(args.state_postal)
+        if len(state_postals) > 1 and args.start_muni_fips:
+            parser.error("--start-muni-fips requires a single --state-postal value.")
     if not args.municipality and not args.place_fips and not args.state_postal:
         parser.error(
             "Provide --municipality, --state-postal with --municipality-type, or specify --article, --state-fips, and --place-fips."
         )
     return args
+
+
+def _split_state_postals(value: str) -> List[str]:
+    return [part for part in re.split(r"[,\s]+", value.strip()) if part]
 
 
 def main():
@@ -716,14 +727,16 @@ def main():
 
     try:
         if args.state_postal:
-            process_municipality_batch(
-                args.state_postal,
-                args.municipality_type,
-                client,
-                args,
-                start_muni_fips=args.start_muni_fips,
-                skip_successful_articles=skip_successful_articles,
-            )
+            state_postals = _split_state_postals(args.state_postal)
+            for state_postal in state_postals:
+                process_municipality_batch(
+                    state_postal,
+                    args.municipality_type,
+                    client,
+                    args,
+                    start_muni_fips=args.start_muni_fips,
+                    skip_successful_articles=skip_successful_articles,
+                )
             return
 
         if args.municipality:

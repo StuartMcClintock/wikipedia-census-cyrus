@@ -1,9 +1,10 @@
 import argparse
 import json
 import os
+import re
 import sys
 from pathlib import Path
-from typing import Dict, Iterable, Optional, Set, Tuple
+from typing import Dict, Iterable, List, Optional, Set, Tuple
 import requests
 from pprint import pprint
 from census_api.fetch_county_data import CensusFetchError
@@ -538,7 +539,7 @@ def parse_arguments():
     parser.add_argument(
         "--state-postal",
         help=(
-            "Process all counties in a state by postal code (e.g., OK). "
+            "Process all counties in a state by postal code (e.g., OK or OK,TX). "
             "Use with --municipality-type to process municipalities instead."
         ),
     )
@@ -670,11 +671,22 @@ def parse_arguments():
             parser.error("--start-muni-fips must be numeric (e.g., 31050).")
         if len(args.start_muni_fips) > 5:
             parser.error("--start-muni-fips must be a 5-digit place code.")
+    if args.state_postal:
+        state_postals = _split_state_postals(args.state_postal)
+        if len(state_postals) > 1:
+            if args.start_county_fips:
+                parser.error("--start-county-fips requires a single --state-postal value.")
+            if args.start_muni_fips:
+                parser.error("--start-muni-fips requires a single --state-postal value.")
     if not args.location and not args.municipality and not has_manual_county and not has_manual_place and not args.state_postal:
         parser.error(
             "Provide --location, --municipality, --state-postal, or specify --article, --state-fips, and --county-fips or --place-fips."
         )
     return args
+
+
+def _split_state_postals(value: str) -> List[str]:
+    return [part for part in re.split(r"[,\s]+", value.strip()) if part]
 
 
 def validate_fips_inputs(state_fips: str, county_fips: str) -> Tuple[str, str]:
@@ -1016,25 +1028,27 @@ def main():
 
     try:
         if args.state_postal:
-            if args.municipality_type:
-                process_municipality_batch(
-                    args.state_postal,
-                    args.municipality_type,
-                    client,
-                    args,
-                    use_mini_prompt,
-                    start_muni_fips=args.start_muni_fips,
-                    skip_successful_articles=skip_successful_articles,
-                )
-            else:
-                process_state_batch(
-                    args.state_postal,
-                    client,
-                    args,
-                    use_mini_prompt,
-                    start_county_fips=args.start_county_fips,
-                    skip_successful_articles=skip_successful_articles,
-                )
+            state_postals = _split_state_postals(args.state_postal)
+            for state_postal in state_postals:
+                if args.municipality_type:
+                    process_municipality_batch(
+                        state_postal,
+                        args.municipality_type,
+                        client,
+                        args,
+                        use_mini_prompt,
+                        start_muni_fips=args.start_muni_fips,
+                        skip_successful_articles=skip_successful_articles,
+                    )
+                else:
+                    process_state_batch(
+                        state_postal,
+                        client,
+                        args,
+                        use_mini_prompt,
+                        start_county_fips=args.start_county_fips,
+                        skip_successful_articles=skip_successful_articles,
+                    )
             return
 
         if is_municipality:
