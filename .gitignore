@@ -1,6 +1,8 @@
 # Credentials
 credentials.py
 diffs_to_check.txt
+current_lede_text.txt
+population_sentence.txt
 
 # macOS metadata
 .DS_Store
