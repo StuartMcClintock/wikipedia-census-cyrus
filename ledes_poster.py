@@ -472,9 +472,15 @@ def process_single_article(
     place_fips: str,
     args,
     client,
+    skip_successful_articles: Iterable[str] = None,
     expected_muni_type: Optional[str] = None,
 ):
     display_title = article_title.replace("_", " ")
+    if skip_successful_articles and article_title in skip_successful_articles:
+        print(
+            f"Skipping '{display_title}' (already logged as a successful edit)."
+        )
+        return
     ensure_us_location_title(article_title)
     if client.is_disambiguation_page(article_title):
         print(
@@ -534,11 +540,6 @@ def process_single_article_with_retries(
     skip_successful_articles: Iterable[str] = None,
     expected_muni_type: Optional[str] = None,
 ):
-    if skip_successful_articles and article_title in skip_successful_articles:
-        print(
-            f"Skipping '{article_title.replace('_', ' ')}' (already logged as a successful edit)."
-        )
-        return
     try:
         process_single_article(
             article_title,
@@ -546,6 +547,7 @@ def process_single_article_with_retries(
             place_fips,
             args,
             client,
+            skip_successful_articles=skip_successful_articles,
             expected_muni_type=expected_muni_type,
         )
     except Exception as exc:
