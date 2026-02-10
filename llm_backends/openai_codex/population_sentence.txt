@@ -1,1 +1,0 @@
-As of the [[2020 United States census|2020 census]], Bloomsburg had a population of 12,711.<ref name="Census2020PLLede">{{cite web|title=2020 Decennial Census Redistricting Data (Public Law 94-171)|url=https://api.census.gov/data/2020/dec/pl?get=NAME%2CP1_001N&for=place%3A07128&in=state%3A42|website=United States Census Bureau|year=2021|access-date=February 8, 2026|df=mdy}}</ref>
