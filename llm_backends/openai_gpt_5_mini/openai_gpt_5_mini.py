@@ -65,9 +65,10 @@ You will be given the current lede text (wikitext) of a Wikipedia municipality a
 
 You will also be given a population_sentence that includes the 2020 census population and a citation.
 
-Integrate the population_sentence into the lede so it reads naturally. Preserve existing facts and citations - except for population counts from 2010 or earlier (eg from 2010 or 2000), which may be removed.
+Integrate the population_sentence into the lede so it reads naturally. Preserve existing facts and citations - except for population counts from prior to 2020 (eg from 2010 or 2000), which may be removed.
 Do not add new facts beyond the population sentence, and do not add or remove headings.
 If the lede already clearly states the 2020 population, keep it and avoid duplication.
+Make sure the final text reads naturally. Do not leave behind any sentence fragments.
 
 Output only the updated lede text (no commentary).
 
