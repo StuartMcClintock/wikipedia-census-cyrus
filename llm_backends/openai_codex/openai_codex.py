@@ -295,6 +295,8 @@ Be careful not to remove query parameters from the census url (eg "?get="), we w
 
 Tables or paragraphs on racial data for only 2020 or any other specific decade should be in their respective "20xx census" subsection, not the "Racial and ethnic composition" subsection
 
+Put new 2020 census data within "===2020 census===", DO NOT put it in the lede of the demographics section
+
 Write only the updated demographics and related census sections to codex_out/out.txt (no commentary).
 """
     prompt = MINI_PROMPT if mini else MAX_PROMPT
