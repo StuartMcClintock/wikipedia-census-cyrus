@@ -33,9 +33,10 @@ sys.path.insert(0, str(ROOT_DIR))
 from credentials import WP_BOT_PASSWORD, WP_BOT_USER_AGENT, WP_BOT_USER_NAME
 
 WIKIPEDIA_ENDPOINT = "https://en.wikipedia.org/w/api.php"
-MUNICIPALITY_FIPS_DIR = (
-    ROOT_DIR / "census_api" / "fips_mappings" / "municipality_to_fips"
-)
+FIPS_MAPPING_DIR = ROOT_DIR / "census_api" / "fips_mappings"
+STATE_TO_FIPS_PATH = FIPS_MAPPING_DIR / "state_to_fips.json"
+MUNICIPALITY_FIPS_DIR = FIPS_MAPPING_DIR / "municipality_to_fips"
+NON_STATE_POSTALS = {"AS", "GU", "MP", "PR", "VI"}
 
 
 class WikipediaClient:
@@ -159,7 +160,11 @@ def load_municipality_titles(state_postal: str, muni_type: str):
 
 
 def _split_state_postals(value: str):
-    return [part for part in re.split(r"[,\s]+", value.strip()) if part]
+    parts = [part for part in re.split(r"[,\s]+", value.strip()) if part]
+    if any(part.upper() == "ALL" for part in parts):
+        data = json.loads(STATE_TO_FIPS_PATH.read_text())
+        return sorted(postal for postal in data.keys() if postal not in NON_STATE_POSTALS)
+    return [part.upper() for part in parts]
 
 
 def move_census_refs_to_footnote(wikitext: str) -> Tuple[str, int]:
@@ -235,7 +240,7 @@ def main() -> None:
     parser.add_argument(
         "--state-postal",
         required=True,
-        help="State postal code(s), comma-separated (e.g., TN or OK,TX).",
+        help="State postal code(s), comma-separated (e.g., TN, OK,TX, or ALL).",
     )
     parser.add_argument(
         "--municipality-type",

@@ -24,6 +24,7 @@ WIKIPEDIA_ENDPOINT = "https://en.wikipedia.org/w/api.php"
 FIPS_MAPPING_DIR = BASE_DIR / "census_api" / "fips_mappings"
 STATE_TO_FIPS_PATH = FIPS_MAPPING_DIR / "state_to_fips.json"
 MUNICIPALITY_FIPS_DIR = FIPS_MAPPING_DIR / "municipality_to_fips"
+NON_STATE_POSTALS = {"AS", "GU", "MP", "PR", "VI"}
 STATE_FIPS_TO_POSTAL = {
     code.split(":")[1]: postal
     for postal, code in json.loads(STATE_TO_FIPS_PATH.read_text()).items()
@@ -630,7 +631,7 @@ def parse_arguments():
     parser.add_argument(
         "--state-postal",
         help=(
-            "Process all municipalities in a state by postal code (e.g., OK or OK,TX). "
+            "Process all municipalities in a state by postal code (e.g., OK, OK,TX, or ALL). "
             "Requires --municipality-type."
         ),
     )
@@ -712,7 +713,11 @@ def parse_arguments():
 
 
 def _split_state_postals(value: str) -> List[str]:
-    return [part for part in re.split(r"[,\s]+", value.strip()) if part]
+    parts = [part for part in re.split(r"[,\s]+", value.strip()) if part]
+    if any(part.upper() == "ALL" for part in parts):
+        data = json.loads(STATE_TO_FIPS_PATH.read_text())
+        return sorted(postal for postal in data.keys() if postal not in NON_STATE_POSTALS)
+    return [part.upper() for part in parts]
 
 
 def main():

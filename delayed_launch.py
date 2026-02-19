@@ -1,4 +1,4 @@
 import os, time
 
-time.sleep(60*60*24*4+60*60*5)
-os.system("python poster.py --model gpt-5.1-codex-mini --state-postal TX --municipality-type city --skip-logged-successes")
+time.sleep(60*60*2)
+os.system("python3 poster.py --municipality-type city --model gpt-5.1-codex-mini --skip-should-update-check --skip-logged-successes --state-postal TX")
