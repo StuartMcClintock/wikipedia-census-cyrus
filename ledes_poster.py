@@ -12,12 +12,13 @@ import requests
 
 from app_logging.logger import LOG_DIR, log_edit_article
 from census_api.constants import PL_ENDPOINT, CITATION_DETAILS
-from credentials import *  # WP_BOT_USER_NAME, WP_BOT_PASSWORD, WP_BOT_USER_AGENT
+from credentials import *  # WP_BOT_USER_NAME, WP_BOT_PASSWORD, WP_BOT_USER_AGENT, CENSUS_KEY
 from llm_frontend import update_lede
 from municipality.lede_classifier import classify_lede
 from municipality.muni_type_classifier import determine_municipality_type
 from parser.parser import ParsedWikitext
 from constants import DEFAULT_CODEX_MODEL, get_all_model_options
+from census_api.utils import strip_census_key
 
 BASE_DIR = Path(__file__).resolve().parent
 WIKIPEDIA_ENDPOINT = "https://en.wikipedia.org/w/api.php"
@@ -385,7 +386,10 @@ def _fetch_place_population(state_fips: str, place_fips: str) -> Tuple[str, int,
         "for": f"place:{place}",
         "in": f"state:{state}",
     }
-    response = requests.get(PL_ENDPOINT, params=params)
+    request_params = dict(params)
+    if CENSUS_KEY:
+        request_params["key"] = CENSUS_KEY
+    response = requests.get(PL_ENDPOINT, params=request_params)
     response.raise_for_status()
     payload = response.json()
     if not payload or len(payload) < 2:
@@ -398,7 +402,7 @@ def _fetch_place_population(state_fips: str, place_fips: str) -> Tuple[str, int,
         population = int(record.get("P1_001N"))
     except (TypeError, ValueError) as exc:
         raise ValueError("Census API returned an invalid population value.") from exc
-    return name, population, response.url
+    return name, population, strip_census_key(response.url)
 
 
 def _build_population_sentence(display_title: str, population: int, census_url: str) -> str:

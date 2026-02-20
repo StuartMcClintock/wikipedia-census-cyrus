@@ -4,6 +4,8 @@ from typing import Dict
 
 import requests
 
+from credentials import CENSUS_KEY
+
 BASE_URL = "https://api.census.gov/data/2020/dec/pl"
 SCRIPT_DIR = Path(__file__).resolve().parent
 STATE_TO_FIPS_PATH = SCRIPT_DIR / "state_to_fips.json"
@@ -27,7 +29,10 @@ def fetch_counties(state_code: str) -> Dict[str, str]:
         "for": "county:*",
         "in": f"state:{state_fp}",
     }
-    response = requests.get(BASE_URL, params=params, timeout=30)
+    request_params = dict(params)
+    if CENSUS_KEY:
+        request_params["key"] = CENSUS_KEY
+    response = requests.get(BASE_URL, params=request_params, timeout=30)
     response.raise_for_status()
     if not response.text.strip():
         return {}
