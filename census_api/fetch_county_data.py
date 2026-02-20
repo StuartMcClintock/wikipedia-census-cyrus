@@ -25,6 +25,8 @@ from census_api.constants import (
     PL_ENDPOINT,
     PL_FIELDS,
 )
+from census_api.utils import strip_census_key
+from credentials import CENSUS_KEY
 from census_api.fips_mappings.get_county_fips import NON_COUNTY_POSTALS
 
 SCRIPT_DIR = Path(__file__).resolve().parent
@@ -58,14 +60,18 @@ def _county_name_from_codes(state_fips: str, county_fips: str) -> str:
 def _fetch_table(endpoint: str, params: Dict[str, str]) -> Tuple[Dict[str, str], str]:
     """Request a Census API table and return a dict mapping headers to values."""
     try:
-        response = requests.get(endpoint, params=params, timeout=30)
-        print(f"Requested: {response.url}")
+        request_params = dict(params)
+        if CENSUS_KEY:
+            request_params["key"] = CENSUS_KEY
+        response = requests.get(endpoint, params=request_params, timeout=30)
+        safe_url = strip_census_key(response.url)
+        print(f"Requested: {safe_url}")
         response.raise_for_status()
         data: List[List[str]] = response.json()
         if len(data) < 2:
             raise ValueError(f"Census API returned no data rows for {params}")
         header, row = data[0], data[1]
-        return dict(zip(header, row)), response.url
+        return dict(zip(header, row)), safe_url
     except Exception as exc:
         raise CensusFetchError(f"Failed request to {endpoint} with params {params}: {exc}") from exc
 

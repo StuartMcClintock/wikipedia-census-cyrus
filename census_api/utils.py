@@ -1,5 +1,5 @@
 import datetime
-from urllib.parse import quote
+from urllib.parse import quote, urlencode, urlparse, urlunparse, parse_qsl
 
 from census_api.constants import (
     CITATION_DETAILS,
@@ -69,6 +69,18 @@ def build_census_api_url(source_key: str, state_fips: str, county_fips: str) -> 
     return f"{endpoint}?get={fields_q}&for={for_part}&in={in_part}"
 
 
+def strip_census_key(url: str) -> str:
+    if not url:
+        return url
+    parsed = urlparse(url)
+    query = [
+        (key, value)
+        for key, value in parse_qsl(parsed.query, keep_blank_values=True)
+        if key.lower() != "key"
+    ]
+    return urlunparse(parsed._replace(query=urlencode(query, doseq=True)))
+
+
 def get_dp_ref(url: str = None, access_date: str = None, state_fips: str = None, county_fips: str = None) -> str:
     if not url and state_fips and county_fips:
         url = build_census_api_url("dp", state_fips, county_fips)
@@ -87,4 +99,11 @@ def get_dhc_ref(url: str = None, access_date: str = None, state_fips: str = None
     return build_census_ref("dhc", url=url, access_date=access_date)
 
 
-__all__ = ["build_census_ref", "get_dp_ref", "get_pl_ref", "get_dhc_ref", "build_census_api_url"]
+__all__ = [
+    "build_census_ref",
+    "get_dp_ref",
+    "get_pl_ref",
+    "get_dhc_ref",
+    "build_census_api_url",
+    "strip_census_key",
+]
