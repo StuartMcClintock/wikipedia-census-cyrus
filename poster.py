@@ -32,7 +32,7 @@ FIPS_MAPPING_DIR = BASE_DIR / "census_api" / "fips_mappings"
 STATE_TO_FIPS_PATH = FIPS_MAPPING_DIR / "state_to_fips.json"
 COUNTY_FIPS_DIR = FIPS_MAPPING_DIR / "county_to_fips"
 MUNICIPALITY_FIPS_DIR = FIPS_MAPPING_DIR / "municipality_to_fips"
-NON_STATE_POSTALS = {"AS", "GU", "MP", "PR", "VI"}
+NON_STATE_POSTALS = {"AS", "GU", "MP", "PR", "VI", "DC"}
 STATE_FIPS_TO_POSTAL = {
     code.split(":")[1]: postal
     for postal, code in json.loads(STATE_TO_FIPS_PATH.read_text()).items()
@@ -545,6 +545,10 @@ def parse_arguments():
         ),
     )
     parser.add_argument(
+        "--start-state",
+        help="When using --state-postal ALL, start at this state postal code alphabetically.",
+    )
+    parser.add_argument(
         "--municipality-type",
         help=(
             "When used with --state-postal, process all municipalities of this type "
@@ -674,6 +678,12 @@ def parse_arguments():
             parser.error("--start-muni-fips must be a 5-digit place code.")
     if args.state_postal:
         state_postals = _split_state_postals(args.state_postal)
+        if args.start_state:
+            start_state = args.start_state.upper()
+            state_postals = sorted(state_postals)
+            if start_state not in state_postals:
+                parser.error(f"--start-state '{args.start_state}' is not in the state list.")
+            state_postals = state_postals[state_postals.index(start_state):]
         if len(state_postals) > 1:
             if args.start_county_fips:
                 parser.error("--start-county-fips requires a single --state-postal value.")

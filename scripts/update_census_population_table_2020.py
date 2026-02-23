@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """
-Update 2020 census population in infoboxes for municipalities or counties.
+Update the |2020= field in {{US Census population}} templates within the
+==Demographics== section of county or municipality articles.
 
-For municipalities, validate the article type matches the expected type from
-the FIPS mapping before editing.
+If |2020= is missing, add it (using the 2020 Census PL population).
+Only operates when the template is present in the Demographics H2 section.
 
 Defaults to dry-run. Use --apply to edit Wikipedia.
 """
@@ -13,9 +14,9 @@ import json
 import re
 import sys
 import time
+from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
-from datetime import datetime
 
 import requests
 
@@ -25,6 +26,7 @@ sys.path.insert(0, str(ROOT_DIR))
 from census_api.constants import PL_ENDPOINT
 from credentials import WP_BOT_PASSWORD, WP_BOT_USER_AGENT, WP_BOT_USER_NAME, CENSUS_KEY
 from municipality.muni_type_classifier import determine_municipality_type, find_template_block
+from parser.parser import ParsedWikitext
 
 WIKIPEDIA_ENDPOINT = "https://en.wikipedia.org/w/api.php"
 FIPS_MAPPING_DIR = ROOT_DIR / "census_api" / "fips_mappings"
@@ -32,6 +34,8 @@ STATE_TO_FIPS_PATH = FIPS_MAPPING_DIR / "state_to_fips.json"
 COUNTY_FIPS_DIR = FIPS_MAPPING_DIR / "county_to_fips"
 MUNICIPALITY_FIPS_DIR = FIPS_MAPPING_DIR / "municipality_to_fips"
 NON_STATE_POSTALS = {"AS", "GU", "MP", "PR", "VI", "DC"}
+
+US_CENSUS_TEMPLATE_RE = re.compile(r"\{\{\s*US Census population", re.IGNORECASE)
 
 
 class WikipediaClient:
@@ -193,22 +197,18 @@ def _fetch_place_population(state_fips: str, place_fips: str) -> int:
     }
     if CENSUS_KEY:
         params["key"] = CENSUS_KEY
-    try:
-        response = requests.get(PL_ENDPOINT, params=params, timeout=30)
-        response.raise_for_status()
-        payload = response.json()
-    except Exception as exc:
-        raise ValueError("Census API request failed.") from exc
+    response = requests.get(PL_ENDPOINT, params=params, timeout=30)
+    response.raise_for_status()
+    payload = response.json()
     if not payload or len(payload) < 2:
         raise ValueError("Census API returned no population rows.")
     header = payload[0]
     row = payload[1]
     record = dict(zip(header, row))
     try:
-        population = int(record.get("P1_001N"))
+        return int(record.get("P1_001N"))
     except (TypeError, ValueError) as exc:
         raise ValueError("Census API returned an invalid population value.") from exc
-    return population
 
 
 def _fetch_county_population(state_fips: str, county_fips: str) -> int:
@@ -221,238 +221,235 @@ def _fetch_county_population(state_fips: str, county_fips: str) -> int:
     }
     if CENSUS_KEY:
         params["key"] = CENSUS_KEY
-    try:
-        response = requests.get(PL_ENDPOINT, params=params, timeout=30)
-        response.raise_for_status()
-        payload = response.json()
-    except Exception as exc:
-        raise ValueError("Census API request failed.") from exc
+    response = requests.get(PL_ENDPOINT, params=params, timeout=30)
+    response.raise_for_status()
+    payload = response.json()
     if not payload or len(payload) < 2:
         raise ValueError("Census API returned no population rows.")
     header = payload[0]
     row = payload[1]
     record = dict(zip(header, row))
     try:
-        population = int(record.get("P1_001N"))
+        return int(record.get("P1_001N"))
     except (TypeError, ValueError) as exc:
         raise ValueError("Census API returned an invalid population value.") from exc
-    return population
 
 
-def _find_infobox_with_population(wikitext: str) -> Optional[Tuple[int, int, str]]:
-    for match in re.finditer(r"\{\{\s*Infobox", wikitext, flags=re.IGNORECASE):
-        block = find_template_block(wikitext, match.start())
-        if not block:
-            continue
-        start, end = block
-        template = wikitext[start:end]
-        if (
-            re.search(r"^\s*\|\s*population_total\s*=", template, flags=re.IGNORECASE | re.MULTILINE)
-            or re.search(r"^\s*\|\s*population_as_of\s*=", template, flags=re.IGNORECASE | re.MULTILINE)
-            or re.search(r"^\s*\|\s*pop\s*=", template, flags=re.IGNORECASE | re.MULTILINE)
-            or re.search(r"^\s*\|\s*census\s*yr\s*=", template, flags=re.IGNORECASE | re.MULTILINE)
-        ):
-            return start, end, template
-    return None
-
-
-def _format_population(value: int, template_value: str) -> str:
-    return str(value)
-
-
-def _update_year_field(template: str, key: str) -> Tuple[str, bool]:
+def _update_2020_line(line: str, population: int) -> Tuple[str, bool]:
     pattern = re.compile(
-        rf"(^\s*\|\s*{re.escape(key)}\s*=\s*)([^\n]*?)(\s*(?:<!--.*?-->\s*)?)$",
-        flags=re.IGNORECASE | re.MULTILINE,
+        r"(^\s*\|\s*2020\s*=\s*)([^\n]*?)(\s*(?:<!--.*?-->\s*)?)$",
+        flags=re.IGNORECASE,
     )
-    match = pattern.search(template)
+    match = pattern.search(line)
     if not match:
-        return template, False
+        return line, False
     prefix, current, trailing = match.group(1), match.group(2), match.group(3)
-    if "2020" in current:
-        return template, False
-    if key.lower() == "population_as_of":
-        use_link = "[[" in current or "census" in current.lower()
-        new_value = "[[2020 United States census|2020]]" if use_link else "2020"
-    else:
-        new_value = "2020"
-    new_line = f"{prefix}{new_value}{trailing}"
-    updated = template[:match.start()] + new_line + template[match.end():]
-    return updated, True
-
-
-def _update_population_field(
-    template: str, key: str, population: int
-) -> Tuple[str, bool, bool]:
-    pattern = re.compile(
-        rf"(^\s*\|\s*{re.escape(key)}\s*=\s*)([^\n]*?)(\s*(?:<!--.*?-->\s*)?)"
-        r"(?:\n([ \t]+(?!\|)[^\n]*))?$",
-        flags=re.IGNORECASE | re.MULTILINE,
-    )
-    match = pattern.search(template)
-    if not match:
-        return template, False, False
-    prefix, current, trailing, continuation = (
-        match.group(1),
-        match.group(2),
-        match.group(3),
-        match.group(4),
-    )
-    formatted = _format_population(population, current)
-    combined = current
-    has_continuation = bool(continuation)
-    if continuation:
-        combined = (current + " " + continuation).strip()
-    combined_no_comments = re.sub(r"<!--.*?-->", "", combined, flags=re.DOTALL).strip()
-    current_number_match = re.search(r"\d[\d,]*", combined)
-    if current_number_match:
-        current_number_raw = current_number_match.group(0).replace(",", "")
+    current_number = re.search(r"\d[\d,]*", current or "")
+    if current_number:
+        raw = current_number.group(0).replace(",", "")
         try:
-            current_number = int(current_number_raw)
+            if int(raw) == population:
+                return line, False
         except ValueError:
-            current_number = None
-        if current_number == population and not has_continuation:
-            return template, False, False
-        new_value = re.sub(r"\d[\d,]*", formatted, combined, count=1)
-        normalization_only = current_number == population
-    else:
-        if combined_no_comments == "":
-            new_value = formatted
-        else:
-            new_value = (formatted + " " + current).rstrip()
-        normalization_only = False
-    if new_value == current:
-        return template, False, False
+            pass
+    new_value = str(population)
     new_line = f"{prefix}{new_value}{trailing}"
-    updated = template[:match.start()] + new_line + template[match.end():]
-    return updated, True, normalization_only
+    return new_line, True
 
 
-def _insert_population_total(template: str, population: int) -> Tuple[str, bool, bool]:
+def _split_param_line(line: str) -> List[str]:
+    if "|" not in line:
+        return [line]
+    stripped = line.lstrip()
+    if not stripped.startswith("|"):
+        return [line]
+    indent = line[: len(line) - len(stripped)]
+    positions: List[int] = []
+    depth_template = 0
+    depth_link = 0
+    i = 0
+    while i < len(line):
+        two = line[i:i + 2]
+        if two == "{{":
+            depth_template += 1
+            i += 2
+            continue
+        if two == "}}":
+            depth_template = max(0, depth_template - 1)
+            i += 2
+            continue
+        if two == "[[":
+            depth_link += 1
+            i += 2
+            continue
+        if two == "]]":
+            depth_link = max(0, depth_link - 1)
+            i += 2
+            continue
+        if line[i] == "|" and depth_template == 0 and depth_link == 0:
+            positions.append(i)
+        i += 1
+    if len(positions) <= 1:
+        return [line]
+    segments = []
+    for idx, pos in enumerate(positions):
+        end = positions[idx + 1] if idx + 1 < len(positions) else len(line)
+        segment = line[pos:end].rstrip()
+        if idx == 0:
+            segments.append(indent + segment.lstrip())
+        else:
+            segments.append(indent + segment.lstrip())
+    return segments
+
+
+def _split_template_line(line: str) -> List[str]:
+    if "|" not in line:
+        return [line]
+    stripped = line.lstrip()
+    if stripped.startswith("{{"):
+        first_pipe = line.find("|")
+        if first_pipe == -1:
+            return [line]
+        prefix = line[:first_pipe].rstrip()
+        rest = line[first_pipe:]
+        segments = _split_param_line(rest)
+        indent = re.match(r"^(\s*)", line).group(1)
+        normalized = [prefix] + [indent + seg.lstrip() for seg in segments]
+        return normalized
+    return _split_param_line(line)
+
+
+def normalize_us_census_template(template: str) -> Tuple[str, bool]:
     lines = template.splitlines()
+    changed = False
+    normalized: List[str] = []
+    for line in lines:
+        parts = _split_template_line(line)
+        if len(parts) > 1:
+            changed = True
+        normalized.extend(parts)
+    return "\n".join(normalized), changed
+
+
+def _insert_2020_line(lines: List[str], population: int) -> Tuple[List[str], bool]:
     insert_at = None
-    has_population_as_of = any(
-        re.match(r"^\s*\|\s*population_as_of\s*=", line, flags=re.IGNORECASE)
-        for line in lines
-    )
+    last_year_idx = None
     for idx, line in enumerate(lines):
-        if re.match(r"^\s*\|\s*population_as_of\s*=", line, flags=re.IGNORECASE):
+        m = re.match(r"^\s*\|\s*(\d{4})\s*=", line)
+        if not m:
+            continue
+        year = int(m.group(1))
+        if year == 2010:
             insert_at = idx + 1
             break
+        if last_year_idx is None or year > int(re.match(r"^\s*\|\s*(\d{4})\s*=", lines[last_year_idx]).group(1)):
+            last_year_idx = idx
+    if insert_at is None and last_year_idx is not None:
+        insert_at = last_year_idx + 1
     if insert_at is None:
         for idx, line in enumerate(lines):
-            if re.match(r"^\s*\|\s*census\s*yr\s*=", line, flags=re.IGNORECASE):
-                insert_at = idx + 1
-                break
-    if insert_at is None:
-        for idx, line in enumerate(lines):
-            if re.match(r"^\s*\|\s*area_", line, flags=re.IGNORECASE):
+            if re.match(r"^\s*\|\s*(estyear|estimate|estref|footnote|align|align-fn)\s*=", line, flags=re.IGNORECASE):
                 insert_at = idx
                 break
     if insert_at is None:
         insert_at = len(lines) - 1
-
-    indent_match = re.match(r"^(\s*)", lines[insert_at - 1] if insert_at > 0 else "")
-    indent = indent_match.group(1) if indent_match else ""
-    inserted_as_of = False
-    if not has_population_as_of:
-        as_of_line = f"{indent}| population_as_of = [[2020 United States census|2020]]"
-        lines.insert(insert_at, as_of_line)
-        insert_at += 1
-        inserted_as_of = True
-    new_line = f"{indent}| population_total = {population}"
-    lines.insert(insert_at, new_line)
-    return "\n".join(lines), True, inserted_as_of
+    indent = re.match(r"^(\s*)", lines[insert_at - 1] if insert_at > 0 else "").group(1)
+    lines.insert(insert_at, f"{indent}|2020= {population}")
+    return lines, True
 
 
-def _normalize_infobox_field_lines(template: str) -> Tuple[str, bool]:
-    lines = template.splitlines()
-    changed = False
-    normalized: List[str] = []
-
-    def find_field_starts(line: str) -> List[int]:
-        positions: List[int] = []
-        i = 0
-        depth = 0
-        n = len(line)
-        while i < n:
-            two = line[i:i + 2]
-            if two == "{{":
-                depth += 1
-                i += 2
-                continue
-            if two == "}}":
-                depth = max(0, depth - 1)
-                i += 2
-                continue
-            if depth == 0 and line[i] == "|":
-                if i == 0 or line[i - 1].isspace():
-                    m = re.match(r"\|\s*[^=\n|]+\s*=", line[i:])
-                    if m:
-                        positions.append(i)
-                        i += m.end()
-                        continue
-            i += 1
-        return positions
-
-    for line in lines:
-        positions = find_field_starts(line)
-        if len(positions) <= 1:
-            normalized.append(line)
-            continue
-        indent = re.match(r"^(\s*)", line).group(1)
-        for i, pos in enumerate(positions):
-            end = positions[i + 1] if i + 1 < len(positions) else len(line)
-            segment = line[pos:end]
-            if i == 0:
-                segment = line[:pos] + segment
-            else:
-                segment = indent + segment.lstrip()
-            normalized.append(segment.rstrip())
-        changed = True
-    return "\n".join(normalized), changed
-
-
-def update_infobox_population(
+def update_us_census_population_template(
     template: str, population: int
 ) -> Tuple[str, bool, bool]:
-    updated, did_normalize_lines = _normalize_infobox_field_lines(template)
-    changed = did_normalize_lines
-    non_normalization_change = False
-    formatting_change = did_normalize_lines
-    has_population_total = bool(
-        re.search(r"^\s*\|\s*population_total\s*=", updated, flags=re.IGNORECASE | re.MULTILINE)
-    )
-    if re.search(r"^\s*\|\s*population_as_of\s*=", updated, flags=re.IGNORECASE | re.MULTILINE):
-        updated, did_change = _update_year_field(updated, "population_as_of")
-        changed = changed or did_change
-        non_normalization_change = non_normalization_change or did_change
-    if re.search(r"^\s*\|\s*census\s*yr\s*=", updated, flags=re.IGNORECASE | re.MULTILINE):
-        updated, did_change = _update_year_field(updated, "census yr")
-        changed = changed or did_change
-        non_normalization_change = non_normalization_change or did_change
-
-    if has_population_total:
-        updated, did_change, normalized = _update_population_field(
-            updated, "population_total", population
-        )
-        changed = changed or did_change
-        if did_change and not normalized:
-            non_normalization_change = True
-        if did_change and normalized:
-            formatting_change = True
-    else:
-        updated, did_insert, did_insert_as_of = _insert_population_total(
-            updated, population
-        )
-        if did_insert or did_insert_as_of:
+    normalized, did_normalize = normalize_us_census_template(template)
+    lines = normalized.splitlines()
+    changed = did_normalize
+    data_changed = False
+    year_lines = [
+        i
+        for i, line in enumerate(lines)
+        if re.match(r"^\s*\|\s*2020\s*=", line, flags=re.IGNORECASE)
+    ]
+    if year_lines:
+        keep_index = year_lines[0]
+        for idx in sorted(year_lines[1:], reverse=True):
+            lines.pop(idx)
             changed = True
-            non_normalization_change = True
+            data_changed = True
+            if idx < keep_index:
+                keep_index -= 1
+        new_line, did_change = _update_2020_line(lines[keep_index], population)
+        if did_change:
+            lines[keep_index] = new_line
+            changed = True
+            data_changed = True
+        return "\n".join(lines), changed, data_changed
+    lines, did_insert = _insert_2020_line(lines, population)
+    changed = changed or did_insert
+    data_changed = data_changed or did_insert
+    return "\n".join(lines), changed, data_changed
 
-    normalization_only = changed and not non_normalization_change
-    if normalization_only and not formatting_change:
-        normalization_only = False
-    return updated, changed, normalization_only
+
+def update_census_templates_in_section(
+    section_text: str, population: int
+) -> Tuple[str, int, int]:
+    updated = []
+    cursor = 0
+    total_changes = 0
+    data_changes = 0
+    while True:
+        match = US_CENSUS_TEMPLATE_RE.search(section_text, cursor)
+        if not match:
+            updated.append(section_text[cursor:])
+            break
+        start = match.start()
+        block = find_template_block(section_text, start)
+        if not block:
+            updated.append(section_text[cursor:])
+            break
+        end = block[1]
+        updated.append(section_text[cursor:start])
+        template = section_text[start:end]
+        new_template, changed, data_changed = update_us_census_population_template(
+            template, population
+        )
+        if changed:
+            total_changes += 1
+        if data_changed:
+            data_changes += 1
+        updated.append(new_template)
+        cursor = end
+    return "".join(updated), total_changes, data_changes
+
+
+def update_demographics_section(wikitext: str, population: int) -> Tuple[str, int, int]:
+    parsed = ParsedWikitext(wikitext=wikitext)
+    for index, entry in enumerate(parsed.sections):
+        heading = entry[0]
+        if heading in {"__lead__", "__content__"}:
+            continue
+        if heading.strip().lower() != "demographics":
+            continue
+        section_text = ParsedWikitext(sections=[entry]).to_wikitext()
+        if not US_CENSUS_TEMPLATE_RE.search(section_text):
+            return wikitext, 0, 0
+        updated_section, changes, data_changes = update_census_templates_in_section(
+            section_text, population
+        )
+        if changes == 0:
+            return wikitext, 0, 0
+        fixed_sections = ParsedWikitext(wikitext=updated_section).sections
+        replacement_entry = None
+        for fixed_entry in fixed_sections:
+            if fixed_entry[0] in {"__lead__", "__content__"}:
+                continue
+            replacement_entry = fixed_entry
+            break
+        if replacement_entry is None:
+            return wikitext, 0, 0
+        parsed.sections[index] = replacement_entry
+        return parsed.to_wikitext(), changes, data_changes
+    return wikitext, 0, 0
 
 
 def _print_type_mismatch(article_title: str, expected_type: str, detected: Dict[str, object]) -> None:
@@ -477,7 +474,6 @@ def process_article(
     is_county: bool,
     apply_changes: bool,
     summary: str,
-    summary_normalize: str,
 ) -> Tuple[bool, Optional[str]]:
     title, wikitext = client.fetch_article_wikitext(article_title)
     if wikitext.lstrip().lower().startswith("#redirect"):
@@ -493,38 +489,31 @@ def process_article(
             _print_type_mismatch(title, expected_muni_type, detected)
             return False, None
 
-    infobox_block = _find_infobox_with_population(wikitext)
-    if not infobox_block:
-        return False, f"Skipping '{title}' (no infobox with population fields found)."
-    start, end, template = infobox_block
-
     population = (
         _fetch_county_population(state_fips, locality_fips)
         if is_county
         else _fetch_place_population(state_fips, locality_fips)
     )
-
-    updated_template, changed, normalization_only = update_infobox_population(
-        template, population
+    updated_text, changes, data_changes = update_demographics_section(
+        wikitext, population
     )
-    if not changed:
+    if changes == 0:
         return False, f"No change: {title}"
 
-    new_wikitext = wikitext[:start] + updated_template + wikitext[end:]
     if apply_changes:
-        summary_to_use = summary_normalize if normalization_only else summary
-        result = client.edit_article_wikitext(
-            title, new_wikitext, summary=summary_to_use
-        )
+        summary_to_use = summary
+        if data_changes == 0:
+            summary_to_use = "Normalize US Census population table formatting"
+        result = client.edit_article_wikitext(title, updated_text, summary=summary_to_use)
         if result.get("edit", {}).get("result") == "Success":
-            return True, f"Updated: {title} (population {population:,})"
+            return True, f"Updated: {title} (2020 census table)"
         return False, f"Edit failed: {title} -> {result}"
-    return True, f"Would update: {title} (population {population:,})"
+    return True, f"Would update: {title} (2020 census table)"
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Fix 2020 census population in infoboxes for municipalities or counties."
+        description="Update |2020= in US Census population templates within Demographics."
     )
     parser.add_argument(
         "--state-postal",
@@ -570,14 +559,8 @@ def main() -> None:
     parser.add_argument(
         "--summary",
         type=str,
-        default="Update 2020 census population in infobox",
+        default="Update 2020 census population in table",
         help="Edit summary for --apply.",
-    )
-    parser.add_argument(
-        "--summary-normalize",
-        type=str,
-        default="Normalize infobox population field formatting",
-        help="Edit summary when only formatting changes are applied.",
     )
     args = parser.parse_args()
 
@@ -639,7 +622,6 @@ def main() -> None:
                     is_county=is_county,
                     apply_changes=args.apply,
                     summary=args.summary,
-                    summary_normalize=args.summary_normalize,
                 )
                 if message:
                     timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
