@@ -36,7 +36,7 @@ WIKIPEDIA_ENDPOINT = "https://en.wikipedia.org/w/api.php"
 FIPS_MAPPING_DIR = ROOT_DIR / "census_api" / "fips_mappings"
 STATE_TO_FIPS_PATH = FIPS_MAPPING_DIR / "state_to_fips.json"
 MUNICIPALITY_FIPS_DIR = FIPS_MAPPING_DIR / "municipality_to_fips"
-NON_STATE_POSTALS = {"AS", "GU", "MP", "PR", "VI"}
+NON_STATE_POSTALS = {"AS", "GU", "MP", "PR", "VI", "DC"}
 
 
 class WikipediaClient:
@@ -243,6 +243,10 @@ def main() -> None:
         help="State postal code(s), comma-separated (e.g., TN, OK,TX, or ALL).",
     )
     parser.add_argument(
+        "--start-state",
+        help="When using --state-postal ALL, start at this state postal code alphabetically.",
+    )
+    parser.add_argument(
         "--municipality-type",
         required=True,
         help="Municipality type folder (e.g., city, town, CDP).",
@@ -288,6 +292,12 @@ def main() -> None:
     started = args.start_at is None
 
     state_postals = _split_state_postals(args.state_postal)
+    if args.start_state:
+        start_state = args.start_state.upper()
+        state_postals = sorted(state_postals)
+        if start_state not in state_postals:
+            parser.error(f"--start-state '{args.start_state}' is not in the state list.")
+        state_postals = state_postals[state_postals.index(start_state):]
     for state_postal in state_postals:
         try:
             titles = load_municipality_titles(state_postal, args.municipality_type)

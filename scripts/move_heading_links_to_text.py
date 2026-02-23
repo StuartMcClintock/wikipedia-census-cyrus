@@ -1,6 +1,14 @@
 #!/usr/bin/env python3
 """
-Remove Census API keys from Wikipedia articles for counties or municipalities.
+Move wikilinks from H3 headings into the first appropriate place in the text below.
+
+Example:
+    ===[[2010 United States census|2010 census]]===
+    The 2010 census recorded ...
+
+becomes:
+    ===2010 census===
+    The [[2010 United States census|2010 census]] recorded ...
 
 Defaults to dry-run. Use --apply to edit Wikipedia.
 """
@@ -20,7 +28,6 @@ ROOT_DIR = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT_DIR))
 
 from credentials import WP_BOT_PASSWORD, WP_BOT_USER_AGENT, WP_BOT_USER_NAME
-from census_api.utils import strip_census_key
 
 WIKIPEDIA_ENDPOINT = "https://en.wikipedia.org/w/api.php"
 FIPS_MAPPING_DIR = ROOT_DIR / "census_api" / "fips_mappings"
@@ -29,10 +36,8 @@ COUNTY_FIPS_DIR = FIPS_MAPPING_DIR / "county_to_fips"
 MUNICIPALITY_FIPS_DIR = FIPS_MAPPING_DIR / "municipality_to_fips"
 NON_STATE_POSTALS = {"AS", "GU", "MP", "PR", "VI", "DC"}
 
-CENSUS_URL_RE = re.compile(
-    r"https?://api\.census\.gov[^\s<>\]\|}]+",
-    flags=re.IGNORECASE,
-)
+HEADING_RE = re.compile(r"^(={3})\s*(.*?)\s*\1\s*$")
+WIKILINK_RE = re.compile(r"\[\[([^\]|]+)(?:\|([^\]]+))?\]\]")
 
 
 class WikipediaClient:
@@ -184,35 +189,144 @@ def load_county_items(state_postal: str):
         yield name, state_fips, county_fips
 
 
-def _strip_key_from_url(url: str) -> str:
-    normalized = url.replace("&amp;", "&")
-    stripped = strip_census_key(normalized)
-    if "&amp;" in url and "&" in stripped:
-        stripped = stripped.replace("&", "&amp;")
-    return stripped
+def _replace_first_outside_markup(text: str, needle: str, replacement: str) -> Tuple[str, bool]:
+    if not needle:
+        return text, False
+    n = len(text)
+    m = len(needle)
+    i = 0
+    depth_link = 0
+    depth_template = 0
+    in_ref = False
+    in_comment = False
+
+    while i <= n - m:
+        if text.startswith("<!--", i):
+            end = text.find("-->", i + 4)
+            if end == -1:
+                return text, False
+            i = end + 3
+            continue
+        if text.startswith("<ref", i):
+            end_tag = text.find(">", i + 4)
+            if end_tag == -1:
+                return text, False
+            if text[end_tag - 1] == "/":
+                i = end_tag + 1
+                continue
+            end_ref = text.find("</ref>", end_tag + 1)
+            if end_ref == -1:
+                return text, False
+            i = end_ref + 6
+            continue
+
+        two = text[i:i + 2]
+        if two == "[[":
+            depth_link += 1
+            i += 2
+            continue
+        if two == "]]":
+            depth_link = max(0, depth_link - 1)
+            i += 2
+            continue
+        if two == "{{":
+            depth_template += 1
+            i += 2
+            continue
+        if two == "}}":
+            depth_template = max(0, depth_template - 1)
+            i += 2
+            continue
+
+        if depth_link == 0 and depth_template == 0:
+            if text.startswith(needle, i):
+                before_ok = i == 0 or not text[i - 1].isalnum()
+                after_ok = i + m >= n or not text[i + m].isalnum()
+                if before_ok and after_ok:
+                    return text[:i] + replacement + text[i + m:], True
+        i += 1
+    return text, False
 
 
-def remove_census_api_keys(wikitext: str) -> Tuple[str, int]:
+def _move_heading_links(block: str, links: List[Tuple[str, str]]) -> Tuple[str, int]:
     changes = 0
+    if not links:
+        return block, changes
 
-    def replacer(match: re.Match) -> str:
-        nonlocal changes
-        url = match.group(0)
-        if "key=" not in url.lower():
-            return url
-        cleaned = _strip_key_from_url(url)
-        if cleaned != url:
+    para_end = block.find("\n\n")
+    first_para = block if para_end == -1 else block[:para_end]
+    rest = "" if para_end == -1 else block[para_end:]
+
+    for target, display in links:
+        link_markup = f"[[{target}|{display}]]" if display != target else f"[[{target}]]"
+        updated, replaced = _replace_first_outside_markup(first_para, display, link_markup)
+        if replaced:
+            first_para = updated
             changes += 1
-        return cleaned
+            block = first_para + rest
+            continue
+        updated, replaced = _replace_first_outside_markup(block, display, link_markup)
+        if replaced:
+            block = updated
+            changes += 1
+            if para_end != -1:
+                first_para = block[:para_end]
+                rest = block[para_end:]
 
-    updated = CENSUS_URL_RE.sub(replacer, wikitext)
-    return updated, changes
+    return block, changes
+
+
+def move_heading_links_to_text(wikitext: str) -> Tuple[str, int]:
+    lines = wikitext.splitlines(keepends=True)
+    i = 0
+    total_changes = 0
+
+    while i < len(lines):
+        raw_line = lines[i]
+        stripped = raw_line.rstrip("\n")
+        match = HEADING_RE.match(stripped.strip())
+        if not match:
+            i += 1
+            continue
+
+        heading_text = match.group(2)
+        links = []
+        for link_match in WIKILINK_RE.finditer(heading_text):
+            target = link_match.group(1).strip()
+            display = (link_match.group(2) or target).strip()
+            links.append((target, display))
+
+        if not links:
+            i += 1
+            continue
+
+        new_heading = WIKILINK_RE.sub(lambda m: (m.group(2) or m.group(1)).strip(), heading_text)
+        lines[i] = f"==={new_heading}===\n"
+
+        start = i + 1
+        end = start
+        while end < len(lines):
+            next_line = lines[end].rstrip("\n")
+            if re.match(r"^={2,6}.*={2,6}\s*$", next_line.strip()):
+                break
+            end += 1
+
+        block = "".join(lines[start:end])
+        updated_block, changes = _move_heading_links(block, links)
+        if changes:
+            total_changes += changes
+            new_lines = updated_block.splitlines(keepends=True)
+            lines[start:end] = new_lines
+            end = start + len(new_lines)
+
+        i = end
+
+    return "".join(lines), total_changes
 
 
 def process_article(
     article_title: str,
     client: WikipediaClient,
-    is_county: bool,
     apply_changes: bool,
     summary: str,
 ) -> Tuple[bool, Optional[str]]:
@@ -220,21 +334,21 @@ def process_article(
     if wikitext.lstrip().lower().startswith("#redirect"):
         return False, f"Skipping '{title}' because it is a redirect."
 
-    updated_text, count = remove_census_api_keys(wikitext)
+    updated_text, count = move_heading_links_to_text(wikitext)
     if count == 0:
         return False, f"No change: {title}"
 
     if apply_changes:
         result = client.edit_article_wikitext(title, updated_text, summary=summary)
         if result.get("edit", {}).get("result") == "Success":
-            return True, f"Updated: {title} (removed {count} key(s))"
+            return True, f"Updated: {title} (moved {count} link(s))"
         return False, f"Edit failed: {title} -> {result}"
-    return True, f"Would update: {title} (removed {count} key(s))"
+    return True, f"Would update: {title} (moved {count} link(s))"
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Remove Census API keys from Wikipedia articles."
+        description="Move wikilinks from H3 headers into the first paragraph below."
     )
     parser.add_argument(
         "--state-postal",
@@ -280,7 +394,7 @@ def main() -> None:
     parser.add_argument(
         "--summary",
         type=str,
-        default="Remove Census API keys from citations",
+        default="Move census link from heading into text",
         help="Edit summary for --apply.",
     )
     args = parser.parse_args()
@@ -310,10 +424,8 @@ def main() -> None:
         try:
             if args.counties:
                 items = list(load_county_items(state_postal))
-                is_county = True
             else:
                 items = list(load_municipality_items(state_postal, args.municipality_type))
-                is_county = False
         except FileNotFoundError as exc:
             errors += 1
             timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
@@ -335,7 +447,6 @@ def main() -> None:
                 ok, message = process_article(
                     name.replace(" ", "_"),
                     client,
-                    is_county=is_county,
                     apply_changes=args.apply,
                     summary=args.summary,
                 )
