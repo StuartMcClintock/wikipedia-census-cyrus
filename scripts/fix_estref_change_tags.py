@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
 """
-Add change tags (e.g., {{increase}}/{{decrease}}/{{same}}) to the estref
-field in {{US Census population}} templates within the ==Demographics== section.
+Fix misplaced {{increase}}/{{decrease}}/{{same}} tags inside multi-line estref fields
+in {{US Census population}} templates within ==Demographics==.
 
-The tag is chosen by comparing the estimate to the most recent non-estimate
-year value that precedes the estimate year.
-
+Shows the proposed change and waits for Enter before applying edits.
 Defaults to dry-run. Use --apply to edit Wikipedia.
 """
 
 import argparse
+import difflib
 import json
 import re
 import sys
@@ -36,6 +35,7 @@ MUNICIPALITY_FIPS_DIR = FIPS_MAPPING_DIR / "municipality_to_fips"
 NON_STATE_POSTALS = {"AS", "GU", "MP", "PR", "VI", "DC"}
 
 US_CENSUS_TEMPLATE_RE = re.compile(r"\{\{\s*US Census population", re.IGNORECASE)
+
 CHANGE_TAG_SYNONYMS = {
     "increase": [
         "{{increase}}",
@@ -231,55 +231,6 @@ def load_county_items(state_postal: str):
         yield name, state_fips, county_fips
 
 
-def _parse_year(value: str) -> Optional[int]:
-    match = re.search(r"\d{4}", value or "")
-    if not match:
-        return None
-    try:
-        return int(match.group(0))
-    except ValueError:
-        return None
-
-
-def _extract_first_number(value: str) -> Optional[int]:
-    if value is None:
-        return None
-    match = re.search(r"\d[\d,]*", value)
-    if not match:
-        return None
-    try:
-        return int(match.group(0).replace(",", ""))
-    except ValueError:
-        return None
-
-
-def _collect_change_tags(value: str) -> List[str]:
-    if not value:
-        return []
-    tags = []
-    for match in re.finditer(r"\{\{\s*([^}|]+)", value):
-        name = " ".join(match.group(1).replace("_", " ").lower().split())
-        tag_type = CHANGE_TAG_NAME_TO_TYPE.get(name)
-        if tag_type:
-            tags.append(tag_type)
-    return tags
-
-
-def _strip_change_tags(value: str) -> str:
-    if not value:
-        return value
-
-    def _replace(match: re.Match) -> str:
-        name = " ".join(match.group(1).replace("_", " ").lower().split())
-        if name in CHANGE_TAG_NAME_TO_TYPE:
-            return ""
-        return match.group(0)
-
-    cleaned = re.sub(r"\{\{\s*([^{}|]+)[^{}]*\}\}", _replace, value)
-    cleaned = re.sub(r"\s{2,}", " ", cleaned).strip()
-    return cleaned
-
-
 def _split_template_params(template: str) -> Tuple[str, List[str], str]:
     depth = 0
     link_depth = 0
@@ -352,16 +303,31 @@ def _render_param(param: TemplateParam) -> str:
     return f"{param.prefix}{param.value}{trailing}"
 
 
-def _collect_change_tags_with_positions(value: str) -> List[Tuple[str, int]]:
-    tags: List[Tuple[str, int]] = []
+def _collect_change_tags_with_positions(value: str) -> List[Tuple[str, int, str]]:
+    tags: List[Tuple[str, int, str]] = []
     if not value:
         return tags
     for match in re.finditer(r"\{\{\s*([^}|]+)", value):
         name = " ".join(match.group(1).replace("_", " ").lower().split())
         tag_type = CHANGE_TAG_NAME_TO_TYPE.get(name)
         if tag_type:
-            tags.append((tag_type, match.start()))
+            tags.append((tag_type, match.start(), match.group(0)))
     return tags
+
+
+def _strip_change_tags(value: str) -> str:
+    if not value:
+        return value
+
+    def _replace(match: re.Match) -> str:
+        name = " ".join(match.group(1).replace("_", " ").lower().split())
+        if name in CHANGE_TAG_NAME_TO_TYPE:
+            return ""
+        return match.group(0)
+
+    cleaned = re.sub(r"\{\{\s*([^{}|]+)[^{}]*\}\}", _replace, value)
+    cleaned = re.sub(r"\s{2,}", " ", cleaned).strip()
+    return cleaned
 
 
 def _append_tag_after_ref(value: str, tag_type: str) -> str:
@@ -389,107 +355,45 @@ def _find_ref_spans(value: str) -> List[Tuple[int, int]]:
     return spans
 
 
-def update_estimate_tag(template: str) -> Tuple[str, bool, str, bool]:
+def fix_estref_change_tag(template: str) -> Tuple[str, bool]:
     prefix, param_segments, suffix = _split_template_params(template)
     if not param_segments:
-        return template, False, "none", False
+        return template, False
 
     params = [_parse_param(seg) for seg in param_segments]
-
-    year_values = {}
-    for param in params:
-        if not param.name:
-            continue
-        if re.fullmatch(r"\d{4}", param.name):
-            year_num = _extract_first_number(param.value or "")
-            if year_num is not None:
-                year_values[int(param.name)] = year_num
-
-    estyear_param = next((p for p in params if p.name == "estyear"), None)
-    estimate_param = next((p for p in params if p.name == "estimate"), None)
     estref_param = next((p for p in params if p.name == "estref"), None)
-
-    if estyear_param is None or estimate_param is None:
-        return template, False, "none", False
-
-    estyear_value = _parse_year(estyear_param.value or "")
-    if estyear_value is None:
-        return template, False, "none", False
-
-    latest_year = max(year_values.keys(), default=None)
-    if latest_year is not None and estyear_value < latest_year:
-        params = [p for p in params if p.name not in {"estyear", "estimate", "estref"}]
-        rebuilt = prefix + "".join(_render_param(p) for p in params) + suffix
-        return rebuilt, True, "estimate_removed", False
-
-    estimate_number = _extract_first_number(estimate_param.value or "")
-    if estimate_number is None:
-        return template, False, "none", False
-
-    prev_years = [year for year in year_values.keys() if year < estyear_value]
-    if not prev_years:
-        return template, False, "none", False
-    prev_year = max(prev_years)
-    prev_value = year_values.get(prev_year)
-    if prev_value is None:
-        return template, False, "none", False
-
-    if estimate_number > prev_value:
-        desired_tag = "increase"
-    elif estimate_number < prev_value:
-        desired_tag = "decrease"
-    else:
-        desired_tag = "same"
-
-    estimate_tags = _collect_change_tags_with_positions(estimate_param.value or "")
-    estref_tags = _collect_change_tags_with_positions(estref_param.value if estref_param else "")
-    existing_tags = [t[0] for t in estimate_tags + estref_tags]
-
-    broken_ref = False
-    if estref_param and estref_tags:
-        value = estref_param.value or ""
-        ref_spans = _find_ref_spans(value)
-        if ref_spans:
-            for _, pos in estref_tags:
-                if any(start <= pos < end for start, end in ref_spans):
-                    broken_ref = True
-                    break
-
-    tags_correct = (
-        existing_tags
-        and all(tag == desired_tag for tag in existing_tags)
-        and not broken_ref
-        and not estimate_tags
-        and estref_tags
-    )
-    if tags_correct:
-        return template, False, "none", False
-
-    estimate_param.value = _strip_change_tags(estimate_param.value or "")
-
     if estref_param is None:
-        estref_param = TemplateParam(
-            name="estref",
-            raw="",
-            prefix="|estref=",
-            value="",
-            trailing="",
-        )
-        insert_at = params.index(estimate_param) + 1
-        params.insert(insert_at, estref_param)
+        return template, False
 
-    estref_param.value = _append_tag_after_ref(estref_param.value or "", desired_tag)
+    value = estref_param.value or ""
+    tags = _collect_change_tags_with_positions(value)
+    if not tags:
+        return template, False
+
+    ref_spans = _find_ref_spans(value)
+    if not ref_spans:
+        return template, False
+
+    def _inside_ref(pos: int) -> bool:
+        return any(start <= pos < end for start, end in ref_spans)
+
+    if not any(_inside_ref(pos) for _, pos, _ in tags):
+        return template, False
+
+    desired_tag = tags[0][0]
+    estref_param.value = _append_tag_after_ref(value, desired_tag)
 
     rebuilt = prefix + "".join(_render_param(p) for p in params) + suffix
-    return rebuilt, True, "tag_updated", broken_ref
+    if rebuilt == template:
+        return template, False
+    return rebuilt, True
 
 
-def update_census_templates_in_section(section_text: str) -> Tuple[str, int, int, int]:
+def update_census_templates_in_section(section_text: str) -> Tuple[str, int, List[str]]:
     updated = []
     cursor = 0
     total_changes = 0
-    removed_estimates = 0
-    broken_fixed = 0
+    diffs: List[str] = []
     while True:
         match = US_CENSUS_TEMPLATE_RE.search(section_text, cursor)
         if not match:
@@ -503,19 +407,35 @@ def update_census_templates_in_section(section_text: str) -> Tuple[str, int, int
         end = block[1]
         updated.append(section_text[cursor:start])
         template = section_text[start:end]
-        new_template, changed, change_kind, broken = update_estimate_tag(template)
+        new_template, changed = fix_estref_change_tag(template)
+        if changed and new_template == template:
+            changed = False
         if changed:
             total_changes += 1
-            if change_kind == "estimate_removed":
-                removed_estimates += 1
-            if broken:
-                broken_fixed += 1
+            diff_lines = list(
+                difflib.unified_diff(
+                    template.splitlines(),
+                    new_template.splitlines(),
+                    fromfile="before",
+                    tofile="after",
+                    lineterm="",
+                )
+            )
+            diff = "\n".join(diff_lines).strip()
+            if not diff:
+                diff = (
+                    "BEFORE:\n"
+                    f"{template}\n\n"
+                    "AFTER:\n"
+                    f"{new_template}"
+                )
+            diffs.append(diff)
         updated.append(new_template)
         cursor = end
-    return "".join(updated), total_changes, removed_estimates, broken_fixed
+    return "".join(updated), total_changes, diffs
 
 
-def update_demographics_section(wikitext: str) -> Tuple[str, int, int, int]:
+def update_demographics_section(wikitext: str) -> Tuple[str, int, List[str]]:
     parsed = ParsedWikitext(wikitext=wikitext)
     for index, entry in enumerate(parsed.sections):
         heading = entry[0]
@@ -525,10 +445,10 @@ def update_demographics_section(wikitext: str) -> Tuple[str, int, int, int]:
             continue
         section_text = ParsedWikitext(sections=[entry]).to_wikitext()
         if not US_CENSUS_TEMPLATE_RE.search(section_text):
-            return wikitext, 0, 0, 0
-        updated_section, changes, removed, broken = update_census_templates_in_section(section_text)
+            return wikitext, 0, []
+        updated_section, changes, diffs = update_census_templates_in_section(section_text)
         if changes == 0:
-            return wikitext, 0, 0, 0
+            return wikitext, 0, []
         fixed_sections = ParsedWikitext(wikitext=updated_section).sections
         replacement_entry = None
         for fixed_entry in fixed_sections:
@@ -537,16 +457,15 @@ def update_demographics_section(wikitext: str) -> Tuple[str, int, int, int]:
             replacement_entry = fixed_entry
             break
         if replacement_entry is None:
-            return wikitext, 0, 0, 0
+            return wikitext, 0, []
         parsed.sections[index] = replacement_entry
-        return parsed.to_wikitext(), changes, removed, broken
-    return wikitext, 0, 0, 0
+        return parsed.to_wikitext(), changes, diffs
+    return wikitext, 0, []
 
 
 def process_article(
     article_title: str,
     client: WikipediaClient,
-    is_county: bool,
     apply_changes: bool,
     summary: str,
 ) -> Tuple[bool, Optional[str]]:
@@ -554,47 +473,30 @@ def process_article(
     if wikitext.lstrip().lower().startswith("#redirect"):
         return False, f"Skipping '{title}' because it is a redirect."
 
-    updated_text, changes, removed, broken = update_demographics_section(wikitext)
+    updated_text, changes, diffs = update_demographics_section(wikitext)
     if changes == 0:
         return False, f"No change: {title}"
 
-    if apply_changes:
-        summary_to_use = summary
-        if removed and removed == changes:
-            summary_to_use = "Remove outdated estimate fields from census table"
-        elif broken and broken == changes:
-            summary_to_use = "Fix estimate change tag formatting in census table"
-        elif removed:
-            summary_to_use = "Update estimate change tag and remove outdated estimate fields"
-        elif broken:
-            summary_to_use = "Update estimate change tag and fix estref formatting"
+    if diffs:
+        print(f"\nProposed changes for: {title}\n")
+        for diff in diffs:
+            print(diff)
+            print()
 
-        result = client.edit_article_wikitext(title, updated_text, summary=summary_to_use)
+    if apply_changes:
+        response = input("Press Enter to apply this change (or type anything to skip): ")
+        if response.strip():
+            return False, f"Skipped: {title}"
+        result = client.edit_article_wikitext(title, updated_text, summary=summary)
         if result.get("edit", {}).get("result") == "Success":
-            if removed and removed == changes:
-                return True, f"Removed outdated estimate fields: {title}"
-            if broken and broken == changes:
-                return True, f"Fixed estref change tag formatting: {title}"
-            if removed:
-                return True, f"Updated: {title} (estimate change tag + removed outdated estimate fields)"
-            if broken:
-                return True, f"Updated: {title} (estimate change tag + fixed estref formatting)"
-            return True, f"Updated: {title} (estimate change tag)"
+            return True, f"Updated: {title} (fixed estref change tag formatting)"
         return False, f"Edit failed: {title} -> {result}"
-    if removed and removed == changes:
-        return True, f"Would remove outdated estimate fields: {title}"
-    if broken and broken == changes:
-        return True, f"Would fix estref change tag formatting: {title}"
-    if removed:
-        return True, f"Would update: {title} (estimate change tag + removed outdated estimate fields)"
-    if broken:
-        return True, f"Would update: {title} (estimate change tag + fixed estref formatting)"
-    return True, f"Would update: {title} (estimate change tag)"
+    return True, f"Would update: {title} (fixed estref change tag formatting)"
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Add increase/decrease/same tags to estimate field in US Census population tables."
+        description="Fix misplaced estimate change tags inside estref fields."
     )
     parser.add_argument(
         "--state-postal",
@@ -640,7 +542,7 @@ def main() -> None:
     parser.add_argument(
         "--summary",
         type=str,
-        default="Add estimate change tag to census table",
+        default="Fix estimate change tag formatting in census table",
         help="Edit summary for --apply.",
     )
     args = parser.parse_args()
@@ -693,7 +595,6 @@ def main() -> None:
                 ok, message = process_article(
                     name.replace(" ", "_"),
                     client,
-                    is_county=args.counties,
                     apply_changes=args.apply,
                     summary=args.summary,
                 )

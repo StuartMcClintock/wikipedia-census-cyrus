@@ -1,4 +1,5 @@
 import argparse
+import difflib
 import json
 import os
 import re
@@ -346,10 +347,32 @@ def process_single_article(
             state_fips=fix_state_fips,
             county_fips=fix_county_fips,
         )
+    summary = "Add 2020 census data"
+    if args.manual_review:
+        summary = f"{summary} (manual)"
+        diff_lines = list(
+            difflib.unified_diff(
+                page_wikitext.splitlines(),
+                updated_article.splitlines(),
+                fromfile="before",
+                tofile="after",
+                lineterm="",
+            )
+        )
+        diff_text = "\n".join(diff_lines).strip()
+        if not diff_text:
+            diff_text = "No diff output (content appears identical)."
+        print(f"\nProposed changes for: {article_title.replace('_', ' ')}\n")
+        print(diff_text)
+        print()
+        response = input("Press Enter to apply this change (or type anything to skip): ")
+        if response.strip():
+            print(f"Skipping '{article_title.replace('_', ' ')}' (manual review).")
+            return
     result = client.edit_article_wikitext(
         article_title,
         updated_article,
-        "Add 2020 census data",
+        summary,
     )
     _append_diff_link(article_title, result)
     pprint(result)
@@ -633,6 +656,11 @@ def parse_arguments():
         "--skip-logged-successes",
         action="store_true",
         help="Skip updating articles already logged as successful edits in app_logging/logs/edit.log.",
+    )
+    parser.add_argument(
+        "--manual-review",
+        action="store_true",
+        help="Show a diff and require pressing Enter before applying each edit.",
     )
     args = parser.parse_args()
     has_manual_county = args.article and args.state_fips and args.county_fips
