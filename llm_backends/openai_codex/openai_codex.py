@@ -299,7 +299,7 @@ Put new 2020 census data within "===2020 census===", DO NOT put it in the lede o
 
 Write only the updated demographics and related census sections to codex_out/out.txt (no commentary).
 """
-    prompt = MINI_PROMPT if mini else MAX_PROMPT
+    prompt = MINI_PROMPT #if mini else MAX_PROMPT
 
     _write_snapshot("current_demographics_section.txt", current_demographics_section)
     _write_snapshot("new_text.txt", new_text)
