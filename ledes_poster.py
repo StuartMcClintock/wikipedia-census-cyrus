@@ -2,13 +2,19 @@ import argparse
 import datetime
 import json
 import os
+import random
 import re
 import sys
+import time
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Set, Tuple
 from pprint import pprint
 
 import requests
+try:
+    import openai
+except Exception:  # pragma: no cover - optional import guard for non-OpenAI runs
+    openai = None
 
 from app_logging.logger import LOG_DIR, log_edit_article
 from census_api.constants import PL_ENDPOINT, CITATION_DETAILS
@@ -98,6 +104,70 @@ today = datetime.date.today()
 ACCESS_DATE = f"{today.strftime('%B')} {today.day}, {today.year}"
 DIFF_LOG_PATH = BASE_DIR / "diffs_to_check.txt"
 _SUCCESS_RESULT_KEY = "Success"
+DEFAULT_EDIT_SUMMARY = "Update 2020 census population in lede"
+MANUAL_REVIEW_EDIT_SUMMARY = "Update 2020 census population in lede (manual review)"
+_QUOTA_ERROR_CODES = {"insufficient_quota", "billing_hard_limit_reached"}
+_QUOTA_ERROR_MARKERS = (
+    "you exceeded your current quota",
+    "out of credits",
+    "usage limit",
+)
+
+
+class LLMQuotaExceededError(RuntimeError):
+    """Raised when the active LLM backend reports exhausted credits/quota."""
+    pass
+
+
+def _build_edit_summary(custom_summary: Optional[str], manual_review: bool) -> str:
+    if manual_review:
+        return MANUAL_REVIEW_EDIT_SUMMARY
+    return custom_summary or DEFAULT_EDIT_SUMMARY
+
+
+def _is_llm_quota_exhausted_error(exc: Exception) -> bool:
+    current: Optional[Exception] = exc
+    visited = set()
+
+    while current and id(current) not in visited:
+        visited.add(id(current))
+
+        # Structured OpenAI SDK detection: prefer machine-readable error codes.
+        if openai and isinstance(current, getattr(openai, "RateLimitError", ())):
+            codes = set()
+            code = getattr(current, "code", None)
+            if code:
+                codes.add(str(code).lower())
+            body = getattr(current, "body", None)
+            if isinstance(body, dict):
+                for key in ("code", "type"):
+                    if body.get(key):
+                        codes.add(str(body[key]).lower())
+                nested = body.get("error")
+                if isinstance(nested, dict):
+                    for key in ("code", "type"):
+                        if nested.get(key):
+                            codes.add(str(nested[key]).lower())
+            if codes & _QUOTA_ERROR_CODES:
+                return True
+
+        # Codex backend throws a specific usage-limit exception class.
+        if current.__class__.__name__ == "CodexUsageLimitError":
+            return True
+
+        parts = [
+            current.__class__.__name__,
+            str(getattr(current, "code", "") or ""),
+            str(getattr(current, "message", "") or ""),
+            str(current),
+        ]
+        haystack = " ".join(parts).lower()
+        if any(marker in haystack for marker in _QUOTA_ERROR_MARKERS):
+            return True
+
+        current = current.__cause__ or current.__context__
+
+    return False
 
 
 def _load_successful_articles(log_path: Path = LEDE_LOG_FILE) -> Set[str]:
@@ -485,33 +555,33 @@ def process_single_article(
         print(
             f"Skipping '{display_title}' (already logged as a successful edit)."
         )
-        return
+        return False
     ensure_us_location_title(article_title)
     if client.is_disambiguation_page(article_title):
         print(
             f"Skipping '{display_title}' because it is a disambiguation page."
         )
-        return
+        return False
     page_wikitext = client.fetch_article_wikitext(article_title)
     if page_wikitext.lstrip().lower().startswith("#redirect"):
         print(f"Skipping '{display_title}' because it is a redirect.")
-        return
+        return False
     if expected_muni_type:
         detected = determine_municipality_type(page_wikitext)
         if detected.get("type", "").lower().strip() != expected_muni_type.lower().strip():
             _print_type_mismatch(article_title, expected_muni_type, detected)
-            return
+            return False
 
     lede_plain_text = client.fetch_article_lede_text(article_title)
     decision = classify_lede(lede_plain_text)
     if decision == "SKIP":
         print(f"Skipping '{display_title}' (lede already contains a 2020+ population).")
-        return
+        return False
 
     current_lede = _extract_lede_wikitext(ParsedWikitext(wikitext=page_wikitext))
     if not current_lede.strip():
         print(f"Skipping '{display_title}' because no lede text was found.")
-        return
+        return False
 
     _, population, census_url = _fetch_place_population(state_fips, place_fips)
     population_sentence = _build_population_sentence(display_title, population, census_url)
@@ -521,19 +591,42 @@ def process_single_article(
     updated_lede = update_lede(current_lede, population_sentence, suppress_out=suppress_out)
     if not updated_lede or not updated_lede.strip():
         print(f"Skipping '{display_title}' because the LLM returned no content.")
-        return
+        return False
     if updated_lede.strip() == current_lede.strip():
         print(f"No lede updates needed for '{display_title}'.")
-        return
+        return False
 
     updated_article = _replace_lede_in_article(page_wikitext, updated_lede)
+
+    summary = _build_edit_summary(args.edit_summary, args.manual_review)
+    if args.manual_review:
+        import difflib
+        diff_lines = list(
+            difflib.unified_diff(
+                page_wikitext.splitlines(),
+                updated_article.splitlines(),
+                fromfile="before",
+                tofile="after",
+                lineterm="",
+            )
+        )
+        diff_text = "\n".join(diff_lines)
+        print(f"\nProposed changes for: {display_title}\n")
+        print(diff_text)
+        print()
+        response = input("Press Enter to apply this change (or type anything to skip): ")
+        if response.strip():
+            print(f"Skipping '{display_title}' (manual review).")
+            return False
+
     result = client.edit_article_wikitext(
         article_title,
         updated_article,
-        "Update 2020 census population in lede",
+        summary,
     )
     _append_diff_link(article_title, result)
     pprint(result)
+    return result.get("edit", {}).get("result") == _SUCCESS_RESULT_KEY
 
 
 def process_single_article_with_retries(
@@ -546,7 +639,7 @@ def process_single_article_with_retries(
     expected_muni_type: Optional[str] = None,
 ):
     try:
-        process_single_article(
+        return process_single_article(
             article_title,
             state_fips,
             place_fips,
@@ -556,8 +649,13 @@ def process_single_article_with_retries(
             expected_muni_type=expected_muni_type,
         )
     except Exception as exc:
+        if _is_llm_quota_exhausted_error(exc):
+            raise LLMQuotaExceededError(
+                "LLM quota exhausted (account appears out of API credits). Terminating run."
+            ) from exc
         display_title = article_title.replace("_", " ")
         print(f"Failed to update '{display_title}': {exc}")
+        return False
 
 
 def process_municipality_batch(
@@ -615,7 +713,7 @@ def process_municipality_batch(
             place_fips = str(raw_place).zfill(5)
             if start_threshold and place_fips < start_threshold:
                 continue
-            process_single_article_with_retries(
+            posted_successfully = process_single_article_with_retries(
                 article_title.replace(" ", "_"),
                 state_fips,
                 place_fips,
@@ -624,7 +722,19 @@ def process_municipality_batch(
                 skip_successful_articles=skip_successful_articles,
                 expected_muni_type=type_dir.name,
             )
+
+            # Add random delay only after a successful post.
+            if args.random_delay and posted_successfully:
+                delay_seconds = random.uniform(30, 60)
+                print(f"Waiting {delay_seconds:.1f} seconds before next article...")
+                time.sleep(delay_seconds)
+        except LLMQuotaExceededError:
+            raise
         except Exception as exc:
+            if _is_llm_quota_exhausted_error(exc):
+                raise LLMQuotaExceededError(
+                    "LLM quota exhausted (account appears out of API credits). Terminating run."
+                ) from exc
             print(f"Failed to update '{article_title}': {exc}")
 
 
@@ -688,6 +798,20 @@ def parse_arguments():
         action="store_true",
         help="Display LLM output to stdout instead of suppressing it.",
     )
+    parser.add_argument(
+        "--random-delay",
+        action="store_true",
+        help="Add a random delay between 30 and 60 seconds between each article edit.",
+    )
+    parser.add_argument(
+        "--manual-review",
+        action="store_true",
+        help="Show a diff and require pressing Enter before applying each edit.",
+    )
+    parser.add_argument(
+        "--edit-summary",
+        help="Custom edit summary for Wikipedia edits (ignored when --manual-review is set).",
+    )
     args = parser.parse_args()
 
     if args.municipality and args.place_fips:
@@ -719,6 +843,9 @@ def parse_arguments():
             state_postals = state_postals[state_postals.index(start_state):]
         if len(state_postals) > 1 and args.start_muni_fips:
             parser.error("--start-muni-fips requires a single --state-postal value.")
+        args.state_postals = state_postals
+    else:
+        args.state_postals = None
     if not args.municipality and not args.place_fips and not args.state_postal:
         parser.error(
             "Provide --municipality, --state-postal with --municipality-type, or specify --article, --state-fips, and --place-fips."
@@ -748,8 +875,7 @@ def main():
 
     try:
         if args.state_postal:
-            state_postals = _split_state_postals(args.state_postal)
-            for state_postal in state_postals:
+            for state_postal in args.state_postals:
                 process_municipality_batch(
                     state_postal,
                     args.municipality_type,
@@ -787,6 +913,9 @@ def main():
             client,
             skip_successful_articles=skip_successful_articles,
         )
+    except LLMQuotaExceededError as exc:
+        print(exc)
+        raise SystemExit(1) from exc
     except Exception as exc:
         print(f"Failed to update: {exc}")
 

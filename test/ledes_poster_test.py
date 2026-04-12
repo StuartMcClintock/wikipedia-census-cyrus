@@ -1,12 +1,22 @@
 import unittest
-from unittest.mock import patch
+import json
+import tempfile
+import types
+from pathlib import Path
+from unittest.mock import Mock, patch
 
+import ledes_poster
 from ledes_poster import (
     _build_population_sentence,
     _fetch_place_population,
     _replace_lede_in_article,
     _extract_lede_wikitext,
     _append_diff_link,
+    LLMQuotaExceededError,
+    main,
+    parse_arguments,
+    process_municipality_batch,
+    process_single_article_with_retries,
 )
 from parser.parser import ParsedWikitext
 
@@ -109,6 +119,129 @@ class LedesPosterTests(unittest.TestCase):
                 response = {"edit": {"result": "Failure", "oldrevid": 1, "newrevid": 2}}
                 _append_diff_link("Sample_Town,_Test", response)
                 self.assertEqual(buffer, [])
+
+    def test_random_delay_runs_only_after_successful_post(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            places_dir = root / "OK" / "city"
+            places_dir.mkdir(parents=True, exist_ok=True)
+            (places_dir / "places.json").write_text(
+                json.dumps(
+                    {
+                        "Sampleville, Oklahoma": {"state": "40", "place": "12345"},
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            args = types.SimpleNamespace(random_delay=True)
+
+            with patch("ledes_poster.MUNICIPALITY_FIPS_DIR", root):
+                with patch("ledes_poster.process_single_article_with_retries", return_value=False):
+                    with patch("ledes_poster.random.uniform", return_value=31.5):
+                        with patch("ledes_poster.time.sleep") as sleep_mock:
+                            process_municipality_batch("OK", "city", client=None, args=args)
+                            sleep_mock.assert_not_called()
+
+                with patch("ledes_poster.process_single_article_with_retries", return_value=True):
+                    with patch("ledes_poster.random.uniform", return_value=31.5):
+                        with patch("ledes_poster.time.sleep") as sleep_mock:
+                            process_municipality_batch("OK", "city", client=None, args=args)
+                            sleep_mock.assert_called_once_with(31.5)
+
+    def test_process_single_article_with_retries_raises_on_quota_error(self):
+        with patch(
+            "ledes_poster.process_single_article",
+            side_effect=RuntimeError("insufficient_quota: account out of credits"),
+        ):
+            with self.assertRaises(LLMQuotaExceededError):
+                process_single_article_with_retries(
+                    "Sampleville,_Oklahoma",
+                    "40",
+                    "12345",
+                    args=types.SimpleNamespace(),
+                    client=None,
+                )
+
+    def test_process_single_article_with_retries_raises_on_openai_rate_limit_quota_error(self):
+        import httpx
+        import openai
+
+        req = httpx.Request("POST", "https://api.openai.com/v1/chat/completions")
+        resp = httpx.Response(429, request=req)
+        err = openai.RateLimitError(
+            "You exceeded your current quota.",
+            response=resp,
+            body={"code": "insufficient_quota"},
+        )
+
+        with patch("ledes_poster.process_single_article", side_effect=err):
+            with self.assertRaises(LLMQuotaExceededError):
+                process_single_article_with_retries(
+                    "Sampleville,_Oklahoma",
+                    "40",
+                    "12345",
+                    args=types.SimpleNamespace(),
+                    client=None,
+                )
+
+    def test_process_municipality_batch_raises_on_quota_error(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            places_dir = root / "OK" / "city"
+            places_dir.mkdir(parents=True, exist_ok=True)
+            (places_dir / "places.json").write_text(
+                json.dumps(
+                    {
+                        "Sampleville, Oklahoma": {"state": "40", "place": "12345"},
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            args = types.SimpleNamespace(random_delay=False)
+            with patch("ledes_poster.MUNICIPALITY_FIPS_DIR", root):
+                with patch(
+                    "ledes_poster.process_single_article_with_retries",
+                    side_effect=LLMQuotaExceededError("LLM quota exhausted"),
+                ):
+                    with self.assertRaises(LLMQuotaExceededError):
+                        process_municipality_batch("OK", "city", client=None, args=args)
+
+    def test_parse_arguments_start_state_sets_filtered_state_postals(self):
+        with patch('sys.argv', [
+            'ledes_poster.py',
+            '--state-postal', 'ALL',
+            '--municipality-type', 'city',
+            '--start-state', 'CO',
+        ]):
+            args = parse_arguments()
+        self.assertEqual(args.state_postals[0], 'CO')
+        self.assertNotIn('CA', args.state_postals)
+
+    def test_main_uses_filtered_state_postals(self):
+        args = Mock(
+            model=None,
+            skip_logged_successes=False,
+            state_postal='ALL',
+            state_postals=['CO', 'CT'],
+            municipality_type='city',
+            start_muni_fips=None,
+            municipality=None,
+            place_fips=None,
+        )
+        client = Mock()
+
+        with patch.object(ledes_poster, 'parse_arguments', return_value=args):
+            with patch.object(ledes_poster, 'WikipediaClient', return_value=client):
+                with patch.object(ledes_poster, 'process_municipality_batch') as process_batch:
+                    main()
+
+        client.login.assert_called_once()
+        self.assertEqual(
+            [call.args[0] for call in process_batch.call_args_list],
+            ['CO', 'CT'],
+        )
 
 
 if __name__ == "__main__":

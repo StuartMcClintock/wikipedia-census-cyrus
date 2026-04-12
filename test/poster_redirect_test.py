@@ -9,6 +9,9 @@ class DummyClient:
         self.fetches = 0
         self.edits = 0
 
+    def is_disambiguation_page(self, _title):
+        return False
+
     def fetch_article_wikitext(self, title):
         self.fetches += 1
         return self.wikitext
@@ -32,7 +35,7 @@ def test_process_single_article_skips_redirect(monkeypatch):
     monkeypatch.setattr("poster.update_wp_page", lambda *a, **k: "")
 
     process_single_article(
-        "Some_County,_State",
+        "Some_County,_Oklahoma",
         "00",
         "000",
         args,
