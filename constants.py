@@ -1,4 +1,8 @@
-codex_models = ["gpt-5.1-codex-mini", "gpt-5.1-codex-max"]
+codex_models = [
+    "gpt-5.1-codex-mini",
+    "gpt-5.1-codex-max",
+    "gpt-5.3-codex-spark",
+]
 openai_gpt_models = ["gpt-5.1", "gpt-5-mini"]
 open_ai_models = codex_models + openai_gpt_models
 

@@ -134,6 +134,9 @@ _SIMPLE_TEMPLATE_RE = re.compile(r"\{\{[^{}]*\}\}", re.DOTALL)
 _WIKITABLE_RE = re.compile(r"\{\|.*?\|\}", re.DOTALL)
 _WIKILINK_RE = re.compile(r"\[\[([^|\]]+)(?:\|([^\]]+))?\]\]")
 _FOR_TEMPLATE_RE = re.compile(r"\{\{\s*For\b.*?\}\}", re.IGNORECASE | re.DOTALL)
+_US_CENSUS_TEMPLATE_START_RE = re.compile(r"\{\{\s*US Census population\b", re.IGNORECASE)
+_US_CENSUS_YEAR_VALUE_RE = re.compile(r"\|\s*(\d{4})\s*=\s*([^\n|}]*)")
+_POPULATION_TOKEN_RE = re.compile(r"\d[\d,]*")
 
 
 def strip_templates_simple(text: str, max_iters: int = 20) -> str:
@@ -292,6 +295,108 @@ def _lede_mentions_unincorporated_community(wikitext: str) -> bool:
     return bool(
         re.search(r"\bunincorporated(?:\s+rural)?\s+community\b", cleaned)
     )
+
+
+def _parse_population_value(raw_value: str) -> Optional[int]:
+    if not raw_value:
+        return None
+    value = raw_value
+    value = _REF_TAG_RE.sub(" ", value)
+    value = _REF_SELF_CLOSING_RE.sub(" ", value)
+    value = strip_templates_simple(value, max_iters=10)
+    value = value.replace("[[", " ").replace("]]", " ")
+    token = _POPULATION_TOKEN_RE.search(value)
+    if not token:
+        return None
+    digits = token.group(0).replace(",", "").strip()
+    if not digits.isdigit():
+        return None
+    parsed = int(digits)
+    return parsed if parsed > 0 else None
+
+
+def extract_most_recent_population_from_history(wikitext: str) -> Optional[Tuple[int, int]]:
+    """
+    Extract the most recent population value from any {{US Census population}} template.
+
+    Returns:
+      (year, population) when found; otherwise None.
+    """
+    if not wikitext:
+        return None
+
+    candidates: List[Tuple[int, int]] = []
+    for match in _US_CENSUS_TEMPLATE_START_RE.finditer(wikitext):
+        block = find_template_block(wikitext, match.start())
+        if not block:
+            continue
+        template_text = wikitext[block[0]:block[1]]
+        for year_str, raw_value in _US_CENSUS_YEAR_VALUE_RE.findall(template_text):
+            try:
+                year = int(year_str)
+            except ValueError:
+                continue
+            pop_value = _parse_population_value(raw_value)
+            if pop_value is None:
+                continue
+            candidates.append((year, pop_value))
+
+    if not candidates:
+        return None
+    return max(candidates, key=lambda item: item[0])
+
+
+def check_population_ballpark_against_history(
+    wikitext: str,
+    mapper_population: Optional[int],
+    min_ratio: float = 0.25,
+    max_ratio: float = 4.0,
+) -> Dict[str, Any]:
+    """
+    Compare mapper population to the latest population in article history template.
+
+    The check is optional-by-design:
+      - If mapper_population is missing/invalid, or no history value is found, it skips.
+      - If history value exists, it verifies mapper/article ratio is within [min_ratio, max_ratio].
+    """
+    result: Dict[str, Any] = {
+        "check_performed": False,
+        "in_ballpark": True,
+        "reason": "",
+        "mapper_population": mapper_population,
+        "article_population": None,
+        "article_population_year": None,
+        "ratio": None,
+    }
+
+    if mapper_population is None or mapper_population <= 0:
+        result["reason"] = "mapper population unavailable"
+        return result
+
+    latest = extract_most_recent_population_from_history(wikitext)
+    if not latest:
+        result["reason"] = "no population history value found in article"
+        return result
+
+    year, article_population = latest
+    if article_population <= 0:
+        result["reason"] = "article population history value invalid"
+        return result
+
+    ratio = mapper_population / article_population
+    in_ballpark = min_ratio <= ratio <= max_ratio
+
+    result.update(
+        {
+            "check_performed": True,
+            "in_ballpark": in_ballpark,
+            "reason": "ok" if in_ballpark else "mapper and article populations are not in the same ballpark",
+            "article_population": article_population,
+            "article_population_year": year,
+            "ratio": ratio,
+        }
+    )
+    return result
 
 
 # -----------------------------

@@ -1,7 +1,10 @@
 import json
+import os
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict
+
+from constants import DEFAULT_CODEX_MODEL
 
 LOG_DIR = Path(__file__).resolve().parent / "logs"
 LOG_FILE = LOG_DIR / "edit.log"
@@ -18,6 +21,7 @@ def log_edit_article(
         entry = {
             "timestamp": datetime.utcnow().isoformat() + "Z",
             "article": title,
+            "model": os.getenv("ACTIVE_MODEL", DEFAULT_CODEX_MODEL),
             "result": response or {},
         }
         with log_path.open("a", encoding="utf-8") as fh:

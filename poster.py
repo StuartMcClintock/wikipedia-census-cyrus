@@ -12,7 +12,10 @@ from census_api.fetch_county_data import CensusFetchError
 from credentials import *  # WP_BOT_USER_NAME, WP_BOT_PASSWORD, WP_BOT_USER_AGENT, USER_SANDBOX_ARTICLE
 from county.generate_county_paragraphs import generate_county_paragraphs
 from municipality.generate_municipality_paragraphs import generate_municipality_paragraphs
-from municipality.muni_type_classifier import determine_municipality_type
+from municipality.muni_type_classifier import (
+    check_population_ballpark_against_history,
+    determine_municipality_type,
+)
 from app_logging.logger import LOG_FILE, log_edit_article
 from llm_frontend import (
     check_if_update_needed,
@@ -106,6 +109,48 @@ _SECTION_SENTINELS = {"__lead__", "__content__"}
 _DISABLE_RETRY_ENV = "DISABLE_COUNTY_RETRIES"
 _SUCCESS_RESULT_KEY = "Success"
 DIFF_LOG_PATH = BASE_DIR / "diffs_to_check.txt"
+DEFAULT_EDIT_SUMMARY = "Add 2020 census data"
+MANUAL_REVIEW_EDIT_SUMMARY = "Add 2020 census data (manual review)"
+
+
+def _build_edit_summary(custom_summary: Optional[str], manual_review: bool) -> str:
+    if manual_review:
+        return MANUAL_REVIEW_EDIT_SUMMARY
+    return custom_summary or DEFAULT_EDIT_SUMMARY
+
+
+def _should_skip_municipality_for_population_thresholds(
+    display_title: str,
+    mapper_population: Optional[int],
+    min_muni_population: Optional[int],
+    max_muni_population: Optional[int],
+) -> bool:
+    if min_muni_population is None and max_muni_population is None:
+        return False
+    if mapper_population is None:
+        threshold_flags = []
+        if min_muni_population is not None:
+            threshold_flags.append("--min-muni-population")
+        if max_muni_population is not None:
+            threshold_flags.append("--max-muni-population")
+        print(
+            f"Skipping '{display_title}' because mapper population is unavailable "
+            f"and {' and '.join(threshold_flags)} is set."
+        )
+        return True
+    if min_muni_population is not None and mapper_population < min_muni_population:
+        print(
+            f"Skipping '{display_title}' because mapper population "
+            f"{mapper_population:,} is below threshold {min_muni_population:,}."
+        )
+        return True
+    if max_muni_population is not None and mapper_population > max_muni_population:
+        print(
+            f"Skipping '{display_title}' because mapper population "
+            f"{mapper_population:,} is above threshold {max_muni_population:,}."
+        )
+        return True
+    return False
 
 
 def find_demographics_section(parsed_article: ParsedWikitext):
@@ -222,6 +267,8 @@ def process_single_article(
     use_mini_prompt: bool,
     location_kind: str = "county",
     expected_muni_type: Optional[str] = None,
+    expected_mapper_population: Optional[int] = None,
+    use_population_ballpark_check: bool = False,
 ):
     display_title = article_title.replace("_", " ")
     ensure_us_location_title(article_title)
@@ -249,6 +296,28 @@ def process_single_article(
                 f"Expected type: {expected_muni_type}\n"
                 f"Detected type: {detected_type or 'unknown'}\n"
                 f"Classifier reasons: {reason_text}\n"
+                "\n\n\n"
+            )
+            return
+    if location_kind == "municipality" and use_population_ballpark_check:
+        pop_check = check_population_ballpark_against_history(
+            page_wikitext,
+            expected_mapper_population,
+        )
+        if pop_check.get("check_performed") and not pop_check.get("in_ballpark"):
+            ratio = pop_check.get("ratio")
+            ratio_text = f"{ratio:.2f}" if isinstance(ratio, (int, float)) else "N/A"
+            article_pop = pop_check.get("article_population")
+            article_year = pop_check.get("article_population_year")
+            mapper_pop = pop_check.get("mapper_population")
+            print(
+                "\n\n\n"
+                "MUNICIPALITY POPULATION BALLPARK MISMATCH - SKIPPING ARTICLE\n"
+                f"Article: {article_title.replace('_', ' ')}\n"
+                f"Mapper population: {mapper_pop}\n"
+                f"Article population history (most recent): {article_pop} ({article_year})\n"
+                f"Population ratio (mapper/article): {ratio_text}\n"
+                f"Reason: {pop_check.get('reason')}\n"
                 "\n\n\n"
             )
             return
@@ -347,9 +416,8 @@ def process_single_article(
             state_fips=fix_state_fips,
             county_fips=fix_county_fips,
         )
-    summary = "Add 2020 census data"
+    summary = _build_edit_summary(args.edit_summary, args.manual_review)
     if args.manual_review:
-        summary = f"{summary} (manual)"
         diff_lines = list(
             difflib.unified_diff(
                 page_wikitext.splitlines(),
@@ -388,6 +456,8 @@ def process_single_article_with_retries(
     skip_successful_articles: Iterable[str] = None,
     location_kind: str = "county",
     expected_muni_type: Optional[str] = None,
+    expected_mapper_population: Optional[int] = None,
+    use_population_ballpark_check: bool = False,
 ):
     """
     Attempt to process a county article, retrying up to 3 times by default.
@@ -411,6 +481,8 @@ def process_single_article_with_retries(
                 use_mini_prompt,
                 location_kind=location_kind,
                 expected_muni_type=expected_muni_type,
+                expected_mapper_population=expected_mapper_population,
+                use_population_ballpark_check=use_population_ballpark_check,
             )
             return
         except CodexUsageLimitError:
@@ -537,6 +609,14 @@ def process_municipality_batch(
                 raise ValueError("Missing state or place code in mapping.")
             state_fips = str(raw_state).zfill(2)
             place_fips = str(raw_place).zfill(5)
+            mapper_population = _parse_mapper_population(codes.get("population"))
+            if _should_skip_municipality_for_population_thresholds(
+                article_title,
+                mapper_population,
+                getattr(args, "min_muni_population", None),
+                getattr(args, "max_muni_population", None),
+            ):
+                continue
             if start_threshold and place_fips < start_threshold:
                 continue
             process_single_article_with_retries(
@@ -549,6 +629,8 @@ def process_municipality_batch(
                 skip_successful_articles=skip_successful_articles,
                 location_kind="municipality",
                 expected_muni_type=type_dir.name,
+                expected_mapper_population=mapper_population,
+                use_population_ballpark_check=True,
             )
         except CodexUsageLimitError:
             raise
@@ -630,6 +712,22 @@ def parse_arguments():
         ),
     )
     parser.add_argument(
+        "--min-muni-population",
+        type=int,
+        help=(
+            "When updating municipalities, skip entries whose mapper population is below "
+            "this threshold."
+        ),
+    )
+    parser.add_argument(
+        "--max-muni-population",
+        type=int,
+        help=(
+            "When updating municipalities, skip entries whose mapper population is above "
+            "this threshold."
+        ),
+    )
+    parser.add_argument(
         "--skip-should-update-check",
         action="store_true",
         help="Skip the Codex-based update check and always apply the update.",
@@ -661,6 +759,10 @@ def parse_arguments():
         "--manual-review",
         action="store_true",
         help="Show a diff and require pressing Enter before applying each edit.",
+    )
+    parser.add_argument(
+        "--edit-summary",
+        help="Custom edit summary (ignored when --manual-review is set).",
     )
     args = parser.parse_args()
     has_manual_county = args.article and args.state_fips and args.county_fips
@@ -704,6 +806,24 @@ def parse_arguments():
             parser.error("--start-muni-fips must be numeric (e.g., 31050).")
         if len(args.start_muni_fips) > 5:
             parser.error("--start-muni-fips must be a 5-digit place code.")
+    if args.min_muni_population is not None:
+        if args.min_muni_population < 0:
+            parser.error("--min-muni-population must be non-negative.")
+    if args.max_muni_population is not None:
+        if args.max_muni_population < 0:
+            parser.error("--max-muni-population must be non-negative.")
+    if args.min_muni_population is not None or args.max_muni_population is not None:
+        is_muni_run = bool(args.municipality_type or args.municipality or args.place_fips)
+        if not is_muni_run:
+            parser.error(
+                "--min-muni-population and --max-muni-population can only be used for municipality updates."
+            )
+    if (
+        args.min_muni_population is not None
+        and args.max_muni_population is not None
+        and args.min_muni_population > args.max_muni_population
+    ):
+        parser.error("--min-muni-population cannot be greater than --max-muni-population.")
     if args.state_postal:
         state_postals = _split_state_postals(args.state_postal)
         if args.start_state:
@@ -717,6 +837,9 @@ def parse_arguments():
                 parser.error("--start-county-fips requires a single --state-postal value.")
             if args.start_muni_fips:
                 parser.error("--start-muni-fips requires a single --state-postal value.")
+        args.state_postals = state_postals
+    else:
+        args.state_postals = None
     if not args.location and not args.municipality and not has_manual_county and not has_manual_place and not args.state_postal:
         parser.error(
             "Provide --location, --municipality, --state-postal, or specify --article, --state-fips, and --county-fips or --place-fips."
@@ -775,6 +898,42 @@ def validate_place_inputs(state_fips: str, place_fips: str) -> Tuple[str, str]:
     raise ValueError(
         f"Place FIPS '{place_fips}' does not belong to state '{postal}'."
     )
+
+
+def _parse_mapper_population(raw_value) -> Optional[int]:
+    if raw_value is None:
+        return None
+    cleaned = str(raw_value).replace(",", "").strip()
+    if not cleaned.isdigit():
+        return None
+    parsed = int(cleaned)
+    return parsed if parsed > 0 else None
+
+
+def lookup_municipality_mapper_population(
+    state_fips: str, place_fips: str
+) -> Optional[int]:
+    state_code = state_fips.zfill(2)
+    place_code = place_fips.zfill(5)
+    postal = STATE_FIPS_TO_POSTAL.get(state_code)
+    if not postal:
+        return None
+    state_dir = MUNICIPALITY_FIPS_DIR / postal
+    if not state_dir.exists():
+        return None
+    for type_dir in state_dir.iterdir():
+        if not type_dir.is_dir():
+            continue
+        path = type_dir / "places.json"
+        if not path.exists():
+            continue
+        mapping = json.loads(path.read_text())
+        for codes in mapping.values():
+            mapped_state = str(codes.get("state", "")).zfill(2)
+            mapped_place = str(codes.get("place", "")).zfill(5)
+            if mapped_state == state_code and mapped_place == place_code:
+                return _parse_mapper_population(codes.get("population"))
+    return None
 
 
 def _normalize_location_key(value: str) -> str:
@@ -892,6 +1051,8 @@ class WikipediaClient:
         return response.json()['query']['tokens']['logintoken']
 
     def login(self, username, password):
+        if not username or not password:
+            raise ValueError("Wikipedia login requires both username and password.")
         login_token = self.get_login_token()
         payload = {
             'action': 'login',
@@ -902,8 +1063,20 @@ class WikipediaClient:
         }
         response = self._post(payload)
         data = response.json()
-        if data['login']['result'] != 'Success':
-            raise Exception(f"Login failed: {data['login']['result']}")
+        login = data.get('login')
+        if not isinstance(login, dict):
+            api_error = data.get('error', {})
+            if isinstance(api_error, dict) and api_error:
+                code = api_error.get('code', 'unknown')
+                info = api_error.get('info', 'No API error detail provided.')
+                raise RuntimeError(f"Wikipedia login API error ({code}): {info}")
+            raise RuntimeError(
+                "Unexpected login response from Wikipedia API (missing 'login' key): "
+                f"{data}"
+            )
+        if login.get('result') != 'Success':
+            reason = login.get('reason', 'No reason provided by API.')
+            raise RuntimeError(f"Login failed: {login.get('result')} ({reason})")
         print(f"Successfully logged in as {username}")
         return data
 
@@ -1071,8 +1244,7 @@ def main():
 
     try:
         if args.state_postal:
-            state_postals = _split_state_postals(args.state_postal)
-            for state_postal in state_postals:
+            for state_postal in args.state_postals:
                 if args.municipality_type:
                     process_municipality_batch(
                         state_postal,
@@ -1113,6 +1285,17 @@ def main():
                     print(f"FIPS validation failed: {exc}")
                     return
                 article_title = args.article.replace(" ", "_")
+            mapper_population = lookup_municipality_mapper_population(
+                state_fips,
+                place_fips,
+            )
+            if _should_skip_municipality_for_population_thresholds(
+                article_title.replace("_", " "),
+                mapper_population,
+                getattr(args, "min_muni_population", None),
+                getattr(args, "max_muni_population", None),
+            ):
+                return
 
             process_single_article_with_retries(
                 article_title,
@@ -1123,6 +1306,8 @@ def main():
                 use_mini_prompt,
                 skip_successful_articles=skip_successful_articles,
                 location_kind="municipality",
+                expected_mapper_population=mapper_population,
+                use_population_ballpark_check=True,
             )
         else:
             if args.location and not args.skip_location_parsing:

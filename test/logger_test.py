@@ -1,0 +1,26 @@
+import json
+
+from app_logging.logger import log_edit_article
+from constants import DEFAULT_CODEX_MODEL
+
+
+def test_log_edit_article_records_active_model(tmp_path, monkeypatch):
+    monkeypatch.setenv("ACTIVE_MODEL", "gpt-5.1")
+
+    log_path = tmp_path / "edit.log"
+    log_edit_article("Sample_Town,_Test", {"edit": {"result": "Success"}}, log_path=log_path)
+
+    entry = json.loads(log_path.read_text(encoding="utf-8").strip())
+    assert entry["article"] == "Sample_Town,_Test"
+    assert entry["model"] == "gpt-5.1"
+    assert entry["result"]["edit"]["result"] == "Success"
+
+
+def test_log_edit_article_records_default_model_when_unset(tmp_path, monkeypatch):
+    monkeypatch.delenv("ACTIVE_MODEL", raising=False)
+
+    log_path = tmp_path / "edit.log"
+    log_edit_article("Sample_Town,_Test", {"edit": {"result": "Success"}}, log_path=log_path)
+
+    entry = json.loads(log_path.read_text(encoding="utf-8").strip())
+    assert entry["model"] == DEFAULT_CODEX_MODEL

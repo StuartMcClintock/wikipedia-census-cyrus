@@ -3,14 +3,17 @@ import unittest
 from unittest.mock import Mock, patch
 
 from poster import (
+    _build_edit_summary,
     apply_demographics_section_override,
     demographics_section_to_wikitext,
     find_demographics_section,
+    main,
     WikipediaClient,
     WIKIPEDIA_ENDPOINT,
     ensure_us_location_title,
     parse_arguments,
 )
+import poster
 from parser.parser import ParsedWikitext
 
 
@@ -76,6 +79,108 @@ class WikipediaClientTests(unittest.TestCase):
         self.assertEqual(args.article, 'Sample County, Oklahoma')
         self.assertEqual(args.state_fips, '40')
         self.assertEqual(args.county_fips, '029')
+
+    def test_parse_arguments_accepts_custom_edit_summary(self):
+        with patch('sys.argv', [
+            'poster.py',
+            '--location', 'Sample County, Oklahoma',
+            '--edit-summary', 'Custom 2020 census update',
+        ]):
+            args = parse_arguments()
+        self.assertEqual(args.edit_summary, 'Custom 2020 census update')
+
+    def test_parse_arguments_accepts_min_muni_population_for_municipality_run(self):
+        with patch('sys.argv', [
+            'poster.py',
+            '--municipality', 'Oktaha, Oklahoma',
+            '--min-muni-population', '1000',
+        ]):
+            args = parse_arguments()
+        self.assertEqual(args.min_muni_population, 1000)
+
+    def test_parse_arguments_accepts_max_muni_population_for_municipality_run(self):
+        with patch('sys.argv', [
+            'poster.py',
+            '--municipality', 'Oktaha, Oklahoma',
+            '--max-muni-population', '5000',
+        ]):
+            args = parse_arguments()
+        self.assertEqual(args.max_muni_population, 5000)
+
+    def test_parse_arguments_rejects_min_muni_population_for_county_run(self):
+        with patch('sys.argv', [
+            'poster.py',
+            '--location', 'Coal County, Oklahoma',
+            '--min-muni-population', '1000',
+        ]):
+            with self.assertRaises(SystemExit):
+                parse_arguments()
+
+    def test_parse_arguments_rejects_max_muni_population_for_county_run(self):
+        with patch('sys.argv', [
+            'poster.py',
+            '--location', 'Coal County, Oklahoma',
+            '--max-muni-population', '5000',
+        ]):
+            with self.assertRaises(SystemExit):
+                parse_arguments()
+
+    def test_parse_arguments_rejects_min_above_max_for_municipality_run(self):
+        with patch('sys.argv', [
+            'poster.py',
+            '--municipality', 'Oktaha, Oklahoma',
+            '--min-muni-population', '5000',
+            '--max-muni-population', '1000',
+        ]):
+            with self.assertRaises(SystemExit):
+                parse_arguments()
+
+    def test_parse_arguments_start_state_sets_filtered_state_postals(self):
+        with patch('sys.argv', [
+            'poster.py',
+            '--state-postal', 'ALL',
+            '--start-state', 'CO',
+        ]):
+            args = parse_arguments()
+        self.assertEqual(args.state_postals[0], 'CO')
+        self.assertNotIn('CA', args.state_postals)
+
+    def test_main_uses_filtered_state_postals(self):
+        args = Mock(
+            model=None,
+            skip_logged_successes=False,
+            municipality=None,
+            place_fips=None,
+            state_postal='ALL',
+            state_postals=['CO', 'CT'],
+            municipality_type=None,
+            start_county_fips=None,
+            start_muni_fips=None,
+        )
+        client = Mock()
+
+        with patch.object(poster, 'parse_arguments', return_value=args):
+            with patch.object(poster, 'WikipediaClient', return_value=client):
+                with patch.object(poster, 'process_state_batch') as process_state_batch:
+                    main()
+
+        client.login.assert_called_once()
+        self.assertEqual(
+            [call.args[0] for call in process_state_batch.call_args_list],
+            ['CO', 'CT'],
+        )
+
+    def test_build_edit_summary_uses_custom_when_not_manual(self):
+        summary = _build_edit_summary('Custom 2020 census update', manual_review=False)
+        self.assertEqual(summary, 'Custom 2020 census update')
+
+    def test_build_edit_summary_uses_default_when_no_custom(self):
+        summary = _build_edit_summary(None, manual_review=False)
+        self.assertEqual(summary, 'Add 2020 census data')
+
+    def test_build_edit_summary_manual_review_overrides_custom(self):
+        summary = _build_edit_summary('Custom 2020 census update', manual_review=True)
+        self.assertEqual(summary, 'Add 2020 census data (manual review)')
 
     def test_ensure_us_location_title_accepts_us_titles(self):
         ensure_us_location_title("Coalgate,_Oklahoma")
