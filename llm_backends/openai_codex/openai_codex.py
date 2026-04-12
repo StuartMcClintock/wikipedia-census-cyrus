@@ -242,6 +242,10 @@ If an article has a pre-2020 estimate for a specific datapoint and the new text 
 
 Prefer the phrasing "As of the [[2020 United States census|2020 census]]" when referencing official census counts. Ensure every new or modified sentence retains or adds appropriate references.
 
+If a 2020 race table already exists, do not append another one.
+
+If there is a banner in the existing wikitext indicating that demographic/census data is out of date, remove it.
+
 Make sure that headings in the Demographics section are in chronological order ("2020 census" should come above "2010 census"; if there is a "2021 estimates" section is should come above "2020 census")
 
 If you mix with existing content, do not remove the references for the existing data.
@@ -260,6 +264,10 @@ If the existing demographics section contains any 2020 Census information that i
 If an article has a pre-2020 estimate for a specific datapoint and the new text includes the official 2020 decennial value for that same datapoint, remove the estimate and any associated references so only the official 2020 figure remains. If there is no official 2020 replacement for that datapoint, leave the estimate untouched.
 
 Prefer the phrasing "As of the [[2020 United States census|2020 census]]" when referencing official census counts. Ensure every new or modified sentence retains or adds appropriate references.
+
+If a 2020 race table already exists, do not append another one.
+
+If there is a banner in the existing wikitext indicating that demographic/census data is out of date, remove it.
 
 If you modify any tags like </small> or <br>, make sure the outcome is valid (eg. "</small)" is not okay)
 
