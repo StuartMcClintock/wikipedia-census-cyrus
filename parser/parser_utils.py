@@ -512,15 +512,26 @@ def _build_full_census_ref(
     ref_name: str,
     state_fips: str = None,
     county_fips: str = None,
+    place_fips: str = None,
     url_override: str = None,
 ) -> str:
     builder = _REF_BUILDERS.get(ref_name)
     if not builder:
         return None
-    return builder(state_fips=state_fips, county_fips=county_fips, url=url_override)
+    return builder(
+        state_fips=state_fips,
+        county_fips=county_fips,
+        place_fips=place_fips,
+        url=url_override,
+    )
 
 
-def expand_first_census_refs(wikitext: str, state_fips: str = None, county_fips: str = None) -> str:
+def expand_first_census_refs(
+    wikitext: str,
+    state_fips: str = None,
+    county_fips: str = None,
+    place_fips: str = None,
+) -> str:
     """
     Ensure the first DP/PL/DHC ref uses the full citation; leave later refs short.
     """
@@ -543,7 +554,6 @@ def expand_first_census_refs(wikitext: str, state_fips: str = None, county_fips:
         if re.search(r"url\s*=\s*[^|}]*\?", template_text, re.IGNORECASE) or "for=" in template_text or "%3A" in template_text:
             canonical_template_by_name[name] = template_text
 
-    names_with_full = set(canonical_template_by_name.keys())
     seen = set()
 
     def replacer(match: re.Match) -> str:
@@ -551,13 +561,18 @@ def expand_first_census_refs(wikitext: str, state_fips: str = None, county_fips:
         body = match.group("body")
         url_override = None
         source_key = _REF_NAME_TO_SOURCE.get(name)
-        if source_key and state_fips and county_fips:
+        if source_key and state_fips and (county_fips or place_fips):
             try:
-                url_override = build_census_api_url(source_key, state_fips, county_fips)
+                url_override = build_census_api_url(
+                    source_key,
+                    state_fips,
+                    county_fips=county_fips,
+                    place_fips=place_fips,
+                )
             except Exception:
                 url_override = None
         if name in seen:
-            return match.group(0)
+            return f'<ref name="{name}"/>'
         seen.add(name)
 
         # Prefer a deterministic full ref (with correct URL) when we have an override,
@@ -567,12 +582,10 @@ def expand_first_census_refs(wikitext: str, state_fips: str = None, county_fips:
                 name,
                 state_fips=state_fips,
                 county_fips=county_fips,
+                place_fips=place_fips,
                 url_override=url_override,
             )
             return full_ref or match.group(0)
-
-        if name in names_with_full:
-            return match.group(0)
 
         canonical_template = canonical_template_by_name.get(name)
         if canonical_template:
@@ -584,6 +597,7 @@ def expand_first_census_refs(wikitext: str, state_fips: str = None, county_fips:
                 name,
                 state_fips=state_fips,
                 county_fips=county_fips,
+                place_fips=place_fips,
                 url_override=url_override,
             )
             return full_ref or match.group(0)
@@ -592,6 +606,7 @@ def expand_first_census_refs(wikitext: str, state_fips: str = None, county_fips:
             name,
             state_fips=state_fips,
             county_fips=county_fips,
+            place_fips=place_fips,
             url_override=url_override,
         )
         return full_ref or match.group(0)

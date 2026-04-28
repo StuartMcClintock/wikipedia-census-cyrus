@@ -23,12 +23,18 @@ from llm_frontend import (
     update_wp_page,
 )
 from llm_backends.openai_codex.openai_codex import (
+    CODEX_OUTPUT_SLOT_ENV,
     CodexOutputMissingError,
     CodexUsageLimitError,
+    RUN_ARTIFACT_DIR_ENV,
+)
+from llm_backends.claude_code.claude_code import (
+    CLAUDE_CODE_WAIT_FOR_LIMIT_RESET_ENV,
+    ClaudeCodeUsageLimitError,
 )
 from constants import DEFAULT_CODEX_MODEL, DEFAULT_ANTHROPIC_MODEL
 from parser.parser import ParsedWikitext, fix_demographics_section_in_article
-from constants import get_all_model_options
+from constants import get_all_model_options, is_mini_model
 
 BASE_DIR = Path(__file__).resolve().parent
 WIKIPEDIA_ENDPOINT = "https://en.wikipedia.org/w/api.php"
@@ -371,7 +377,7 @@ def process_single_article(
                 f"Demographics-only update skipped for '{article_title.replace('_', ' ')}' because Codex output was missing ({exc})."
             )
             return
-        except CodexUsageLimitError:
+        except (CodexUsageLimitError, ClaudeCodeUsageLimitError):
             raise
         except RuntimeError as exc:
             if "response missing content" in str(exc).lower():
@@ -408,13 +414,15 @@ def process_single_article(
         )
 
     if not args.skip_deterministic_fixes:
-        fix_state_fips = state_fips if location_kind == "county" else None
+        fix_state_fips = state_fips
         fix_county_fips = county_fips if location_kind == "county" else None
+        fix_place_fips = county_fips if location_kind == "municipality" else None
         updated_article = fix_demographics_section_in_article(
             updated_article,
             original_demographics_wikitext=original_demographics,
             state_fips=fix_state_fips,
             county_fips=fix_county_fips,
+            place_fips=fix_place_fips,
         )
     summary = _build_edit_summary(args.edit_summary, args.manual_review)
     if args.manual_review:
@@ -485,7 +493,7 @@ def process_single_article_with_retries(
                 use_population_ballpark_check=use_population_ballpark_check,
             )
             return
-        except CodexUsageLimitError:
+        except (CodexUsageLimitError, ClaudeCodeUsageLimitError):
             raise
         except CensusFetchError as exc:
             display_title = article_title.replace("_", " ")
@@ -540,20 +548,25 @@ def process_state_batch(
                 use_mini_prompt,
                 skip_successful_articles=skip_successful_articles,
             )
-        except CodexUsageLimitError:
+        except (CodexUsageLimitError, ClaudeCodeUsageLimitError):
             raise
         except Exception as exc:
             print(f"Failed to update '{article_title}': {exc}")
 
 
-def _resolve_municipality_type_dir(
+def _resolve_municipality_type_dirs(
     state_dir: Path, municipality_type: str
-) -> Optional[Path]:
+) -> List[Path]:
     normalized = municipality_type.strip().lower()
+    if normalized == "all":
+        return sorted(
+            [entry for entry in state_dir.iterdir() if entry.is_dir()],
+            key=lambda entry: entry.name.lower(),
+        )
     for entry in state_dir.iterdir():
         if entry.is_dir() and entry.name.lower() == normalized:
-            return entry
-    return None
+            return [entry]
+    return []
 
 
 def process_municipality_batch(
@@ -570,8 +583,8 @@ def process_municipality_batch(
     if not state_dir.exists():
         print(f"No municipality mapping found for state '{postal}'.")
         return
-    type_dir = _resolve_municipality_type_dir(state_dir, municipality_type)
-    if not type_dir:
+    type_dirs = _resolve_municipality_type_dirs(state_dir, municipality_type)
+    if not type_dirs:
         available = sorted(
             entry.name for entry in state_dir.iterdir() if entry.is_dir()
         )
@@ -581,27 +594,32 @@ def process_municipality_batch(
         if available:
             print("Available types: " + ", ".join(available))
         return
-    path = type_dir / "places.json"
-    if not path.exists():
-        print(
-            f"No municipality mapping found for state '{postal}' and type '{type_dir.name}'."
-        )
-        return
-    place_map = json.loads(path.read_text())
     start_threshold = start_muni_fips.zfill(5) if start_muni_fips else None
+    items = []
+
+    for type_dir in type_dirs:
+        path = type_dir / "places.json"
+        if not path.exists():
+            print(
+                f"No municipality mapping found for state '{postal}' and type '{type_dir.name}'."
+            )
+            continue
+        place_map = json.loads(path.read_text())
+        for article_title, codes in place_map.items():
+            items.append((article_title, codes, type_dir.name))
 
     def _place_sort_key(item):
-        name, codes = item
+        name, codes, _type_name = item
         raw_place = codes.get("place") if isinstance(codes, dict) else None
         if raw_place is None:
             return ("99999", name.lower())
         return (str(raw_place).zfill(5), name.lower())
 
     if start_threshold:
-        items = sorted(place_map.items(), key=_place_sort_key)
+        items = sorted(items, key=_place_sort_key)
     else:
-        items = sorted(place_map.items(), key=lambda kv: kv[0].lower())
-    for article_title, codes in items:
+        items = sorted(items, key=lambda item: item[0].lower())
+    for article_title, codes, type_name in items:
         try:
             raw_state = codes.get("state")
             raw_place = codes.get("place")
@@ -628,11 +646,11 @@ def process_municipality_batch(
                 use_mini_prompt,
                 skip_successful_articles=skip_successful_articles,
                 location_kind="municipality",
-                expected_muni_type=type_dir.name,
+                expected_muni_type=type_name,
                 expected_mapper_population=mapper_population,
                 use_population_ballpark_check=True,
             )
-        except CodexUsageLimitError:
+        except (CodexUsageLimitError, ClaudeCodeUsageLimitError):
             raise
         except Exception as exc:
             print(f"Failed to update '{article_title}': {exc}")
@@ -695,7 +713,7 @@ def parse_arguments():
     parser.add_argument(
         "--model",
         choices=get_all_model_options(),
-        help="Override the model (default: gpt-5.1-codex-max).",
+        help=f"Override the model (default: {DEFAULT_CODEX_MODEL}).",
     )
     parser.add_argument(
         "--start-county-fips",
@@ -741,6 +759,37 @@ def parse_arguments():
         "--show-codex-output",
         action="store_true",
         help="Display Codex output to stdout instead of suppressing it.",
+    )
+    parser.add_argument(
+        "--run-artifact-dir",
+        help=(
+            "Directory for per-run LLM scratch files/output so multiple poster runs "
+            "can execute concurrently without clobbering each other."
+        ),
+    )
+    parser.add_argument(
+        "--codex-home-dir",
+        help=(
+            "Directory to use as CODEX_HOME so concurrent Codex CLI runs keep "
+            "separate session/thread state."
+        ),
+    )
+    parser.add_argument(
+        "--codex-output-slot",
+        type=int,
+        choices=(1, 2),
+        help=(
+            "Select which fixed Codex scratch/output file set to use in the trusted "
+            "repo workspace. Slot 2 uses alternate filenames like codex_out_2.txt."
+        ),
+    )
+    parser.add_argument(
+        "--wait-for-claude-limit-reset",
+        action="store_true",
+        help=(
+            "When using Claude Code CLI models, automatically wait until one minute "
+            "after a reported reset time and then retry."
+        ),
     )
     parser.add_argument(
         "--disable-county-retries",
@@ -1231,9 +1280,27 @@ def main():
     args = parse_arguments()
     if args.model:
         os.environ["ACTIVE_MODEL"] = args.model
+    run_artifact_dir = getattr(args, "run_artifact_dir", None)
+    if isinstance(run_artifact_dir, str) and run_artifact_dir:
+        os.environ[RUN_ARTIFACT_DIR_ENV] = run_artifact_dir
+    else:
+        os.environ.pop(RUN_ARTIFACT_DIR_ENV, None)
+    codex_home_dir = getattr(args, "codex_home_dir", None)
+    if isinstance(codex_home_dir, str) and codex_home_dir:
+        Path(codex_home_dir).expanduser().mkdir(parents=True, exist_ok=True)
+        os.environ["CODEX_HOME"] = codex_home_dir
+    codex_output_slot = getattr(args, "codex_output_slot", None)
+    if isinstance(codex_output_slot, int):
+        os.environ[CODEX_OUTPUT_SLOT_ENV] = str(codex_output_slot)
+    else:
+        os.environ.pop(CODEX_OUTPUT_SLOT_ENV, None)
+    if getattr(args, "wait_for_claude_limit_reset", False):
+        os.environ[CLAUDE_CODE_WAIT_FOR_LIMIT_RESET_ENV] = "1"
+    else:
+        os.environ.pop(CLAUDE_CODE_WAIT_FOR_LIMIT_RESET_ENV, None)
 
     active_model = os.getenv("ACTIVE_MODEL", DEFAULT_CODEX_MODEL)
-    use_mini_prompt = active_model == "gpt-5.1-codex-mini"
+    use_mini_prompt = is_mini_model(active_model)
     skip_successful_articles = (
         _load_successful_articles() if args.skip_logged_successes else set()
     )
@@ -1338,8 +1405,8 @@ def main():
                 use_mini_prompt,
                 skip_successful_articles=skip_successful_articles,
             )
-    except CodexUsageLimitError:
-        print("Codex usage limit reached; stopping further processing.")
+    except (CodexUsageLimitError, ClaudeCodeUsageLimitError) as exc:
+        print(str(exc))
         sys.exit(1)
 
 

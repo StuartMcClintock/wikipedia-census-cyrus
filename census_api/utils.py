@@ -44,12 +44,16 @@ def build_census_ref(source_key: str, url: str = None, access_date: str = None) 
     return f'<ref name="{detail["name"]}">{_ensure_template_closed(template)}</ref>'
 
 
-def build_census_api_url(source_key: str, state_fips: str, county_fips: str) -> str:
+def build_census_api_url(
+    source_key: str,
+    state_fips: str,
+    county_fips: str = None,
+    place_fips: str = None,
+) -> str:
     """
     Construct a census API URL with query params for the given source and FIPS codes.
     """
     state = state_fips.zfill(2)
-    county = county_fips.zfill(3)
 
     if source_key == "dp":
         endpoint = DP_ENDPOINT
@@ -63,8 +67,15 @@ def build_census_api_url(source_key: str, state_fips: str, county_fips: str) -> 
     else:
         raise ValueError(f"Unsupported source key '{source_key}'")
 
+    if county_fips:
+        for_value = f"county:{county_fips.zfill(3)}"
+    elif place_fips:
+        for_value = f"place:{place_fips.zfill(5)}"
+    else:
+        raise ValueError("build_census_api_url requires county_fips or place_fips")
+
     fields_q = quote(fields, safe=",_")
-    for_part = quote(f"county:{county}")
+    for_part = quote(for_value)
     in_part = quote(f"state:{state}")
     return f"{endpoint}?get={fields_q}&for={for_part}&in={in_part}"
 
@@ -81,21 +92,54 @@ def strip_census_key(url: str) -> str:
     return urlunparse(parsed._replace(query=urlencode(query, doseq=True)))
 
 
-def get_dp_ref(url: str = None, access_date: str = None, state_fips: str = None, county_fips: str = None) -> str:
-    if not url and state_fips and county_fips:
-        url = build_census_api_url("dp", state_fips, county_fips)
+def get_dp_ref(
+    url: str = None,
+    access_date: str = None,
+    state_fips: str = None,
+    county_fips: str = None,
+    place_fips: str = None,
+) -> str:
+    if not url and state_fips and (county_fips or place_fips):
+        url = build_census_api_url(
+            "dp",
+            state_fips,
+            county_fips=county_fips,
+            place_fips=place_fips,
+        )
     return build_census_ref("dp", url=url, access_date=access_date)
 
 
-def get_pl_ref(url: str = None, access_date: str = None, state_fips: str = None, county_fips: str = None) -> str:
-    if not url and state_fips and county_fips:
-        url = build_census_api_url("pl", state_fips, county_fips)
+def get_pl_ref(
+    url: str = None,
+    access_date: str = None,
+    state_fips: str = None,
+    county_fips: str = None,
+    place_fips: str = None,
+) -> str:
+    if not url and state_fips and (county_fips or place_fips):
+        url = build_census_api_url(
+            "pl",
+            state_fips,
+            county_fips=county_fips,
+            place_fips=place_fips,
+        )
     return build_census_ref("pl", url=url, access_date=access_date)
 
 
-def get_dhc_ref(url: str = None, access_date: str = None, state_fips: str = None, county_fips: str = None) -> str:
-    if not url and state_fips and county_fips:
-        url = build_census_api_url("dhc", state_fips, county_fips)
+def get_dhc_ref(
+    url: str = None,
+    access_date: str = None,
+    state_fips: str = None,
+    county_fips: str = None,
+    place_fips: str = None,
+) -> str:
+    if not url and state_fips and (county_fips or place_fips):
+        url = build_census_api_url(
+            "dhc",
+            state_fips,
+            county_fips=county_fips,
+            place_fips=place_fips,
+        )
     return build_census_ref("dhc", url=url, access_date=access_date)
 
 

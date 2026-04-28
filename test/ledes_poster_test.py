@@ -1,5 +1,6 @@
 import unittest
 import json
+import os
 import tempfile
 import types
 from pathlib import Path
@@ -17,6 +18,13 @@ from ledes_poster import (
     parse_arguments,
     process_municipality_batch,
     process_single_article_with_retries,
+)
+from llm_backends.claude_code.claude_code import (
+    CLAUDE_CODE_WAIT_FOR_LIMIT_RESET_ENV,
+)
+from llm_backends.openai_codex.openai_codex import (
+    CODEX_OUTPUT_SLOT_ENV,
+    RUN_ARTIFACT_DIR_ENV,
 )
 from parser.parser import ParsedWikitext
 
@@ -219,6 +227,16 @@ class LedesPosterTests(unittest.TestCase):
         self.assertEqual(args.state_postals[0], 'CO')
         self.assertNotIn('CA', args.state_postals)
 
+    def test_parse_arguments_accepts_codex_output_slot(self):
+        with patch('sys.argv', [
+            'ledes_poster.py',
+            '--state-postal', 'OR',
+            '--municipality-type', 'city',
+            '--codex-output-slot', '2',
+        ]):
+            args = parse_arguments()
+        self.assertEqual(args.codex_output_slot, 2)
+
     def test_main_uses_filtered_state_postals(self):
         args = Mock(
             model=None,
@@ -242,6 +260,116 @@ class LedesPosterTests(unittest.TestCase):
             [call.args[0] for call in process_batch.call_args_list],
             ['CO', 'CT'],
         )
+
+    def test_main_sets_claude_limit_reset_env_when_requested(self):
+        args = Mock(
+            model='claude-sonnet-4-6',
+            run_artifact_dir=None,
+            wait_for_claude_limit_reset=True,
+            skip_logged_successes=False,
+            state_postal='OR',
+            state_postals=['OR'],
+            municipality_type='city',
+            start_muni_fips=None,
+            municipality=None,
+            place_fips=None,
+        )
+        client = Mock()
+
+        with patch.dict(os.environ, {}, clear=False):
+            with patch.object(ledes_poster, 'parse_arguments', return_value=args):
+                with patch.object(ledes_poster, 'WikipediaClient', return_value=client):
+                    with patch.object(ledes_poster, 'process_municipality_batch'):
+                        main()
+
+            self.assertEqual(
+                os.environ.get(CLAUDE_CODE_WAIT_FOR_LIMIT_RESET_ENV),
+                '1',
+            )
+
+    def test_main_sets_run_artifact_dir_env_when_requested(self):
+        args = Mock(
+            model=None,
+            run_artifact_dir='/tmp/ledes-run-b',
+            codex_home_dir=None,
+            codex_output_slot=None,
+            wait_for_claude_limit_reset=False,
+            skip_logged_successes=False,
+            state_postal='OR',
+            state_postals=['OR'],
+            municipality_type='city',
+            start_muni_fips=None,
+            municipality=None,
+            place_fips=None,
+        )
+        client = Mock()
+
+        with patch.dict(os.environ, {}, clear=False):
+            with patch.object(ledes_poster, 'parse_arguments', return_value=args):
+                with patch.object(ledes_poster, 'WikipediaClient', return_value=client):
+                    with patch.object(ledes_poster, 'process_municipality_batch'):
+                        main()
+
+            self.assertEqual(
+                os.environ.get(RUN_ARTIFACT_DIR_ENV),
+                '/tmp/ledes-run-b',
+            )
+
+    def test_main_sets_codex_home_env_when_requested(self):
+        args = Mock(
+            model=None,
+            run_artifact_dir=None,
+            codex_home_dir='/tmp/codex-home-b',
+            codex_output_slot=None,
+            wait_for_claude_limit_reset=False,
+            skip_logged_successes=False,
+            state_postal='OR',
+            state_postals=['OR'],
+            municipality_type='city',
+            start_muni_fips=None,
+            municipality=None,
+            place_fips=None,
+        )
+        client = Mock()
+
+        with patch.dict(os.environ, {}, clear=False):
+            with patch.object(ledes_poster, 'parse_arguments', return_value=args):
+                with patch.object(ledes_poster, 'WikipediaClient', return_value=client):
+                    with patch.object(ledes_poster, 'process_municipality_batch'):
+                        main()
+
+            self.assertEqual(
+                os.environ.get("CODEX_HOME"),
+                '/tmp/codex-home-b',
+            )
+
+    def test_main_sets_codex_output_slot_env_when_requested(self):
+        args = Mock(
+            model=None,
+            run_artifact_dir=None,
+            codex_home_dir=None,
+            codex_output_slot=2,
+            wait_for_claude_limit_reset=False,
+            skip_logged_successes=False,
+            state_postal='OR',
+            state_postals=['OR'],
+            municipality_type='city',
+            start_muni_fips=None,
+            municipality=None,
+            place_fips=None,
+        )
+        client = Mock()
+
+        with patch.dict(os.environ, {}, clear=False):
+            with patch.object(ledes_poster, 'parse_arguments', return_value=args):
+                with patch.object(ledes_poster, 'WikipediaClient', return_value=client):
+                    with patch.object(ledes_poster, 'process_municipality_batch'):
+                        main()
+
+            self.assertEqual(
+                os.environ.get(CODEX_OUTPUT_SLOT_ENV),
+                '2',
+            )
 
 
 if __name__ == "__main__":

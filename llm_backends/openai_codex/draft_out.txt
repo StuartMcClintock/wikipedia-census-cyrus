@@ -1,0 +1,121 @@
+==Demographics==
+[[File:Pike Road Alabama Post Office.JPG|thumb|Pike Road Post Office]]
+{{US Census population
+|2000= 310
+|2010= 5406
+|2020= 9439
+|estyear=2024
+|estimate=11500
+|estref=<ref name="USCensusEst2024">{{cite web|title=City and Town Population Totals: 2020-2024 |url=https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html |publisher=United States Census Bureau |access-date=May 23, 2025}}</ref> {{increase}}
+|align-fn=center
+|footnote=U.S. Decennial Census<ref>{{cite web|title=Decennial Census of Population and Housing |url=https://www.census.gov/programs-surveys/decennial-census.html |publisher=United States Census Bureau |website=www.census.gov |access-date=June 4, 2015}}</ref><br>2020 Census<ref name="2020 Census (City)"/>
+}}
+
+As of the 2023 [[American Community Survey]], there are 3,491 estimated households in Pike Road with an average of 2.89 persons per household. The town has a median household income of $121,687. Approximately 4.8% of the town's population lives at or below the [[Poverty in the United States|poverty line]]. Pike Road has an estimated 70.6% employment rate, with 59.0% of the population holding a bachelor's degree or higher and 97.1% holding a high school diploma.<ref name="QF">{{Cite web|title=U.S. Census Bureau QuickFacts: Pike Road town, Alabama |url=https://www.census.gov/quickfacts/fact/table/pikeroadtownalabama/PST045224 |access-date=May 23, 2025 |website=www.census.gov |language=en}}</ref>
+
+The top five reported ancestries (people were allowed to report up to two ancestries, thus the figures will generally add to more than 100%) were English (91.6%), Spanish (1.3%), Indo-European (1.1%), Asian and Pacific Islander (6.0%), and Other (0.0%).
+
+The median age in the town was 36.1 years.
+
+{| class="wikitable"
+|+<big>Pike Road, Alabama – racial and ethnic composition</big><br><small>{{nobold|''Note: the US Census treats Hispanic/Latino as an ethnic category. This table excludes Latinos from the racial categories and assigns them to a separate category. Hispanics/Latinos may be of any race.''}}</small>
+! Race / ethnicity <small>(''NH = non-Hispanic'')</small>
+! Pop. 2000<ref name=2000CensusP004>{{Cite web|title=P004: Hispanic or Latino, and Not Hispanic or Latino by Race – 2000: DEC Summary File 1 – Pike Road town, Alabama|url=https://data.census.gov/table/DECENNIALSF12000.P004?g=160XX00US0159760|publisher=[[United States Census Bureau]]|access-date=May 23, 2025}}</ref>
+! Pop. 2010<ref name=2010CensusP2>{{Cite web|title=P2: Hispanic or Latino, and Not Hispanic or Latino by Race – 2010: DEC Redistricting Data (PL 94-171) – Pike Road town, Alabama|url=https://data.census.gov/table?q=p2&g=160XX00US0159760&tid=DECENNIALPL2010.P2|publisher=[[United States Census Bureau]]|access-date=May 23, 2025}}</ref>
+! {{partial|Pop. 2020}}<ref name=2020CensusP2>{{Cite web|title=P2: Hispanic or Latino, and Not Hispanic or Latino by Race – 2020: DEC Redistricting Data (PL 94-171) – Pike Road town, Alabama|url=https://data.census.gov/cedsci/table?q=p2&g=160XX00US0159760&tid=DECENNIALPL2020.P2|publisher=[[United States Census Bureau]]|access-date=May 23, 2025}}</ref>
+! % 2000
+! % 2010
+! {{partial|% 2020}}
+|-
+| [[Non-Hispanic or Latino whites|White]] alone (NH)
+| 183
+| 3,672
+| style='background: #ffffe6; |5,385
+| 59.03%
+| 67.92%
+| style='background: #ffffe6; |57.05%
+|-
+| [[Non-Hispanic or Latino African Americans|Black or African American]] alone (NH)
+| 125
+| 1,542
+| style='background: #ffffe6; |2,970
+| 40.32%
+| 28.52%
+| style='background: #ffffe6; |31.47%
+|-
+| [[Native Americans in the United States|Native American]] or [[Alaska Native]] alone (NH)
+| 0
+| 7
+| style='background: #ffffe6; |13
+| 0.00%
+| 0.13%
+| style='background: #ffffe6; |0.14%
+|-
+| [[Asian Americans|Asian]] alone (NH)
+| 1
+| 76
+| style='background: #ffffe6; |548
+| 0.32%
+| 1.41%
+| style='background: #ffffe6; |5.81%
+|-
+| [[Pacific Islander Americans|Pacific Islander]] alone (NH)
+| 0
+| 1
+| style='background: #ffffe6; |3
+| 0.00%
+| 0.02%
+| style='background: #ffffe6; |0.03%
+|-
+| [[Race and ethnicity in the United States census|Other race]] alone (NH)
+| 0
+| 0
+| style='background: #ffffe6; |36
+| 0.00%
+| 0.00%
+| style='background: #ffffe6; |0.38%
+|-
+| [[Multiracial Americans|Mixed race or multiracial]] (NH)
+| 1
+| 39
+| style='background: #ffffe6; |252
+| 0.32%
+| 0.72%
+| style='background: #ffffe6; |2.67%
+|-
+| [[Hispanic and Latino Americans|Hispanic or Latino]] (any race)
+| 0
+| 69
+| style='background: #ffffe6; |232
+| 0.00%
+| 1.28%
+| style='background: #ffffe6; |2.46%
+|-
+|'''Total'''
+|'''310'''
+|'''5,406'''
+|style='background: #ffffe6; |'''9,439'''
+|'''100.00%'''
+|'''100.00%'''
+|style='background: #ffffe6; |'''100.00%'''
+|}
+
+===2020 census===
+As of the [[2020 United States census|2020 census]], there were 9,439 people, 3,271 households, and 2,719 families residing in the town.<ref>{{Cite web|title=US Census Bureau, Table P16: Household Type |url=https://data.census.gov/table?q=Pike%20Road%20city,%20Alabama%20P16 |access-date=May 23, 2025 |publisher=United States Census Bureau}}</ref> The [[population density]] was {{convert|283.9|PD/sqmi|PD/km2|1}}. There were 3,415 housing units at an average density of {{convert|102.7|/sqmi|/km2|1}}. The racial makeup of the town was 57.56% [[White (U.S. Census)|White]], 31.68% [[African American (U.S. Census)|African American]], 0.23% [[Native American (U.S. Census)|Native American]], 5.84% [[Asian (U.S. Census)|Asian]], 0.04% [[Race (U.S. Census)|Pacific Islander]], 0.84% from some other races and 3.81% from two or more races. [[Hispanic and Latino Americans|Hispanic or Latino]] people of any race were 2.46% of the population.<ref>{{Cite web|title=How many people live in Pike Road town, Alabama |url=https://data.usatoday.com/census/total-population/total-population-change/pike-road-town-alabama/160-0159760/ |access-date=May 23, 2025 |publisher=USA Today}}</ref>
+
+===2010 census===
+As of the [[2010 United States census|2010 census]], there were 5,406 people, 1,933 households, and 1,606 families residing in the town. The population density was {{convert|170.8|PD/sqmi|PD/km2|1}}. There were 2,064 housing units at an average density of {{convert|65.23|/sqmi|/km2|1}}. The racial makeup of the town was 68.48% [[White (U.S. Census)|White]], 28.69% [[African American (U.S. Census)|African American]], 0.13% [[Native American (U.S. Census)|Native American]], 1.41% [[Asian (U.S. Census)|Asian]], 0.04% [[Race (U.S. Census)|Pacific Islander]], 0.50% from some other races and 0.76% from two or more races. [[Hispanic and Latino Americans|Hispanic or Latino]] people of any race were 1.28% of the population.
+
+The town's population grew almost 20-fold since the 2000 census, making it one of the fastest growing incorporated places in Alabama with a population of over 5,000 in 2010.
+
+===2000 census===
+As of the [[2000 United States census|2000 census]], there were 310 people, 110 households, and 95 families residing in the town. The population density was {{convert|83.7|PD/sqmi|PD/km2|1}}. There were 114 housing units at an average density of {{convert|30.8|/sqmi|/km2|1}}. The racial makeup of the town was 59.03% [[White (U.S. Census)|White]], 40.32% [[African American (U.S. Census)|African American]], 0.00% [[Native American (U.S. Census)|Native American]], 0.32% [[Asian (U.S. Census)|Asian]], 0.00% [[Race (U.S. Census)|Pacific Islander]], 0.00% from some other races and 0.32% from two or more races. [[Hispanic and Latino Americans|Hispanic or Latino]] people of any race were 0.00% of the population.
+
+There are 110 households out of which 37.3% have children under the age of 18 living with them, 68.2% are [[Marriage|married couples]] living together, 12.7% have a female householder with no husband present, and 13.6% are non-families. 12.7% of all households are made up of individuals and 2.7% have someone living alone who is 65 years of age or older. The average household size is 2.82 and the average family size is 3.07.
+
+The age distribution was 25.8% under the age of 18, 8.7% from 18 to 24, 24.8% from 25 to 44, 33.5% from 45 to 64, and 7.1% who are 65 years of age or older. The median age is 40 years. For every 100 females there are 96.2 males. For every 100 females age 18 and over, there are 101.8 males.
+
+The median income for a household in the town is $86,492, and the median income for a family is $105,116. Males have a median income of $88,307 versus $17,321 for females. The [[per capita income]] for the town is $36,912. 19.8% of the population and 13.7% of families are below the [[Poverty threshold|poverty line]]. Out of the total people living in poverty, 38.6% are under the age of 18 and 0.0% are 65 or older.
+
+The population has since grown as communities that were unincorporated joined Pike Road.
+

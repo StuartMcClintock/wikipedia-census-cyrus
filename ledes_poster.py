@@ -20,6 +20,13 @@ from app_logging.logger import LOG_DIR, log_edit_article
 from census_api.constants import PL_ENDPOINT, CITATION_DETAILS
 from credentials import *  # WP_BOT_USER_NAME, WP_BOT_PASSWORD, WP_BOT_USER_AGENT, CENSUS_KEY
 from llm_frontend import update_lede
+from llm_backends.claude_code.claude_code import (
+    CLAUDE_CODE_WAIT_FOR_LIMIT_RESET_ENV,
+)
+from llm_backends.openai_codex.openai_codex import (
+    CODEX_OUTPUT_SLOT_ENV,
+    RUN_ARTIFACT_DIR_ENV,
+)
 from municipality.lede_classifier import classify_lede
 from municipality.muni_type_classifier import determine_municipality_type
 from parser.parser import ParsedWikitext
@@ -650,9 +657,7 @@ def process_single_article_with_retries(
         )
     except Exception as exc:
         if _is_llm_quota_exhausted_error(exc):
-            raise LLMQuotaExceededError(
-                "LLM quota exhausted (account appears out of API credits). Terminating run."
-            ) from exc
+            raise LLMQuotaExceededError(str(exc)) from exc
         display_title = article_title.replace("_", " ")
         print(f"Failed to update '{display_title}': {exc}")
         return False
@@ -732,9 +737,7 @@ def process_municipality_batch(
             raise
         except Exception as exc:
             if _is_llm_quota_exhausted_error(exc):
-                raise LLMQuotaExceededError(
-                    "LLM quota exhausted (account appears out of API credits). Terminating run."
-                ) from exc
+                raise LLMQuotaExceededError(str(exc)) from exc
             print(f"Failed to update '{article_title}': {exc}")
 
 
@@ -779,7 +782,7 @@ def parse_arguments():
     parser.add_argument(
         "--model",
         choices=get_all_model_options(),
-        help="Override the model (default: gpt-5.1-codex-max).",
+        help=f"Override the model (default: {DEFAULT_CODEX_MODEL}).",
     )
     parser.add_argument(
         "--start-muni-fips",
@@ -797,6 +800,37 @@ def parse_arguments():
         "--show-codex-output",
         action="store_true",
         help="Display LLM output to stdout instead of suppressing it.",
+    )
+    parser.add_argument(
+        "--run-artifact-dir",
+        help=(
+            "Directory for per-run LLM scratch files/output so multiple runs "
+            "can execute concurrently without clobbering each other."
+        ),
+    )
+    parser.add_argument(
+        "--codex-home-dir",
+        help=(
+            "Directory to use as CODEX_HOME so concurrent Codex CLI runs keep "
+            "separate session/thread state."
+        ),
+    )
+    parser.add_argument(
+        "--codex-output-slot",
+        type=int,
+        choices=(1, 2),
+        help=(
+            "Select which fixed Codex scratch/output file set to use in the trusted "
+            "repo workspace. Slot 2 uses alternate filenames like codex_out_2.txt."
+        ),
+    )
+    parser.add_argument(
+        "--wait-for-claude-limit-reset",
+        action="store_true",
+        help=(
+            "When using Claude Code CLI models, automatically wait until one minute "
+            "after a reported reset time and then retry."
+        ),
     )
     parser.add_argument(
         "--random-delay",
@@ -865,6 +899,24 @@ def main():
     args = parse_arguments()
     if args.model:
         os.environ["ACTIVE_MODEL"] = args.model
+    run_artifact_dir = getattr(args, "run_artifact_dir", None)
+    if isinstance(run_artifact_dir, str) and run_artifact_dir:
+        os.environ[RUN_ARTIFACT_DIR_ENV] = run_artifact_dir
+    else:
+        os.environ.pop(RUN_ARTIFACT_DIR_ENV, None)
+    codex_home_dir = getattr(args, "codex_home_dir", None)
+    if isinstance(codex_home_dir, str) and codex_home_dir:
+        Path(codex_home_dir).expanduser().mkdir(parents=True, exist_ok=True)
+        os.environ["CODEX_HOME"] = codex_home_dir
+    codex_output_slot = getattr(args, "codex_output_slot", None)
+    if isinstance(codex_output_slot, int):
+        os.environ[CODEX_OUTPUT_SLOT_ENV] = str(codex_output_slot)
+    else:
+        os.environ.pop(CODEX_OUTPUT_SLOT_ENV, None)
+    if getattr(args, "wait_for_claude_limit_reset", False):
+        os.environ[CLAUDE_CODE_WAIT_FOR_LIMIT_RESET_ENV] = "1"
+    else:
+        os.environ.pop(CLAUDE_CODE_WAIT_FOR_LIMIT_RESET_ENV, None)
 
     skip_successful_articles = (
         _load_successful_articles() if args.skip_logged_successes else set()

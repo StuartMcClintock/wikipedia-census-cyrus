@@ -182,6 +182,33 @@ Content"""
         # History/Economy section formatting preserved
         self.assertIn("==Economy==\nContent", fixed)
 
+    def test_restores_census_query_params_for_municipality_first_full_ref(self):
+        article = """==Demographics==
+===2020 census===
+As of the [[2020 United States census|2020 census]], Hoot Owl had a population of 0.<ref name="Census2020DP">{{cite web|title=2020 Decennial Census Demographic Profile (DP1)|url=https://api.census.gov/data/2020/dec/dp|website=United States Census Bureau|year=2021|access-date=April 25, 2026|df=mdy}}</ref><ref name="Census2020PL"/>
+"""
+        fixed = fix_demographics_section_in_article(
+            article,
+            state_fips="40",
+            place_fips="36020",
+        )
+        self.assertIn("url=https://api.census.gov/data/2020/dec/dp?get=", fixed)
+        self.assertIn("&for=place%3A36020&in=state%3A40", fixed)
+        self.assertIn('<ref name="Census2020PL">{{cite web|title=2020 Decennial Census Redistricting Data (Public Law 94-171)|url=https://api.census.gov/data/2020/dec/pl?get=', fixed)
+
+    def test_collapses_duplicate_full_census2020pl_defs_in_demographics(self):
+        article = """==Demographics==
+===2020 census===
+As of the [[2020 United States census|2020 census]], Hoot Owl had a population of 0.<ref name="Census2020PL"/>
+
+{| class="wikitable"
+|+ Racial composition as of the 2020 census<ref name="Census2020PL">{{cite web|title=2020 Decennial Census Redistricting Data (Public Law 94-171)|url=https://api.census.gov/data/2020/dec/pl?get=NAME%2CP1_001N&for=place%3A36020&in=state%3A40|website=United States Census Bureau|year=2021|access-date=April 25, 2026|df=mdy}}</ref>
+|}"""
+        fixed = fix_demographics_section_in_article(article)
+        self.assertEqual(fixed.count('<ref name="Census2020PL">{{cite web|'), 1)
+        self.assertIn('As of the [[2020 United States census|2020 census]], Hoot Owl had a population of 0.<ref name="Census2020PL">{{cite web|', fixed)
+        self.assertIn('|+ Racial composition as of the 2020 census<ref name="Census2020PL"/>', fixed)
+
 
 if __name__ == "__main__":
     unittest.main()

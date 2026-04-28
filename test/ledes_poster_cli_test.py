@@ -34,6 +34,41 @@ class LedesPosterCliTests(unittest.TestCase):
                 with self.assertRaises(SystemExit):
                     ledes_poster.parse_arguments()
 
+    def test_wait_for_claude_limit_reset_flag_is_accepted(self):
+        argv = [
+            "ledes_poster.py",
+            "--municipality",
+            "Oktaha, Oklahoma",
+            "--wait-for-claude-limit-reset",
+        ]
+        with patch.object(sys, "argv", argv):
+            args = ledes_poster.parse_arguments()
+        self.assertTrue(args.wait_for_claude_limit_reset)
+
+    def test_run_artifact_dir_flag_is_accepted(self):
+        argv = [
+            "ledes_poster.py",
+            "--municipality",
+            "Oktaha, Oklahoma",
+            "--run-artifact-dir",
+            "/tmp/ledes-run-a",
+        ]
+        with patch.object(sys, "argv", argv):
+            args = ledes_poster.parse_arguments()
+        self.assertEqual(args.run_artifact_dir, "/tmp/ledes-run-a")
+
+    def test_codex_home_dir_flag_is_accepted(self):
+        argv = [
+            "ledes_poster.py",
+            "--municipality",
+            "Oktaha, Oklahoma",
+            "--codex-home-dir",
+            "/tmp/codex-home-a",
+        ]
+        with patch.object(sys, "argv", argv):
+            args = ledes_poster.parse_arguments()
+        self.assertEqual(args.codex_home_dir, "/tmp/codex-home-a")
+
     def test_main_passes_start_and_skip_logged(self):
         argv = [
             "ledes_poster.py",

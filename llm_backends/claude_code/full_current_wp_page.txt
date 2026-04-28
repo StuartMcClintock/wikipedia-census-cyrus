@@ -1,0 +1,128 @@
+{{Short description|Town in Oklahoma, US}}
+{{Use American English|date=July 2025}}
+{{Use mdy dates|date=May 2024}}
+{{Infobox settlement
+|name                     = Sweetwater, Oklahoma
+|settlement_type          = Town
+|nickname                 = 
+|motto                    =
+
+<!-- Images -->
+|image_skyline            = Sweetwater, Oklahoma.JPG
+|imagesize                = 225px
+|image_caption            = Looking east on Oklahoma State Highway 152
+|image_flag               = 
+|image_seal               =
+
+<!-- Maps -->
+|image_map                = Beckham County Oklahoma incorporated and unincorporated areas Sweetwater highlighted.svg
+|mapsize                  = 260px
+|map_caption              = Location in [[Beckham County, Oklahoma|Beckham]] and [[Roger Mills County, Oklahoma|Roger Mills]] counties and the state of [[Oklahoma]]
+
+<!-- Location -->
+|subdivision_type         = Country
+|subdivision_name         = United States
+|subdivision_type1        = [[U.S. state|State]]
+|subdivision_name1        = [[Oklahoma]]
+|subdivision_type2        = [[List of counties in Oklahoma|County]]
+|subdivision_name2        = [[Beckham County, Oklahoma|Beckham]], [[Roger Mills County, Oklahoma|Roger Mills]]
+|government_footnotes     = 
+|government_type          = 
+|leader_title             = 
+|leader_name              = 
+|leader_title1            = 
+|leader_name1             = 
+|established_title        = 
+|established_date         =
+
+<!-- Area -->
+|unit_pref                = Imperial
+|area_footnotes           = <ref name="TigerWebMapServer">{{cite web|title=ArcGIS REST Services Directory|url=https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Places_CouSub_ConCity_SubMCD/MapServer|publisher=United States Census Bureau|accessdate=September 20, 2022}}</ref>
+|area_magnitude           = 
+|area_total_km2           = 41.11
+|area_land_km2            = 41.07
+|area_water_km2           = 0.04
+
+<!-- Population -->
+|population_as_of         = [[2020 United States Census|2020]]
+|population_footnotes     = 
+|population_total         = 102
+|population_density_km2   = 2.48
+
+<!-- General information -->
+|timezone                 = [[Central Time Zone (Americas)|Central (CST)]]
+|utc_offset               = -6
+|timezone_DST             = CDT
+|utc_offset_DST           = -5
+|elevation_footnotes      = <ref name=gnis/>
+|elevation_ft             = 2172
+|coordinates              = {{coord|35|25|20|N|99|54|42|W|region:US_type:city|display=inline,title}}
+
+<!-- Area/postal codes & others -->
+|postal_code_type         = [[ZIP code]]s
+|postal_code              = 73666
+|area_code                = 
+|blank_name               = [[Federal Information Processing Standard|FIPS code]]
+|blank_info               = 40-71900
+|blank1_name              = [[Geographic Names Information System|GNIS]] feature ID 
+|blank1_info              = 2413357<ref name=gnis>{{GNIS|2413357}}</ref>
+|website                  = 
+|pop_est_as_of = 
+|pop_est_footnotes = 
+|population_est = 
+|area_total_sq_mi = 15.87
+|area_land_sq_mi = 15.86
+|area_water_sq_mi = 0.02
+|population_density_sq_mi = 6.43
+}}
+
+'''Sweetwater''' is a town in [[Beckham County, Oklahoma|Beckham]] and [[Roger Mills County, Oklahoma|Roger Mills]] Counties in the [[U.S. state]] of [[Oklahoma]].  As of the [[2020 United States census|2020 census]], its population was 102.<ref>{{cite web|url=  https://www.census.gov/search-results.html?searchType=web&cssp=SERP&q=Sweetwater%20town,%20Oklahoma |title=Sweetwater  (town), Oklahoma|publisher=United States Census Bureau|accessdate=August 29, 2023}}</ref> an increase of 17.2% over the 87 reported in the [[2010 United States census|2010 census]].<ref name="Census 2010">{{cite web| url=http://factfinder.census.gov/bkmk/table/1.0/en/DEC/10_DP/G001/1600000US4071900| archive-url=https://archive.today/20200212195946/http://factfinder.census.gov/bkmk/table/1.0/en/DEC/10_DP/G001/1600000US4071900| url-status=dead| archive-date=February 12, 2020| title=Geographic Identifiers: 2010 Demographic Profile Data (G001): Sweetwater town, Oklahoma| publisher=U.S. Census Bureau, American Factfinder| accessdate=February 24, 2014}}</ref>
+
+==History==
+It was incorporated in 1998.<ref>{{cite web|url=https://www.census.gov/popest/geographic/boundary_changes/index.html |title=Boundary Changes |work=Geographic Change Notes: Oklahoma |publisher=Population Division, United States Census Bureau |date=May 19, 2006 |access-date=July 2, 2008 |url-status=dead |archive-url=https://web.archive.org/web/20100806133317/http://www.census.gov/popest/geographic/boundary_changes/index.html |archive-date=August 6, 2010 |df= }}</ref>
+
+Named for nearby [[Sweetwater Creek (Gray County, Texas)|Sweetwater Creek]], the town is at the junction of [[Oklahoma State Highway 30|State Highway 30]] and [[Oklahoma State Highway 152|State Highway 152]]. Sweetwater originated around the time of the Cheyenne-Arapaho land opening in 1892. A post office for Sweetwater was established September 27, 1894 (current zip code 73666). By 1910, the community had an estimated population of 50, two general stores, a dry goods–grocery store, a cotton gin, and a fuel company. The residents expected the construction of a railroad through the area, but none was built, which limited further growth.  The town did expand to about 100 people around the time of World War I, based on being an agricultural service center for the surrounding township, and the postmaster estimated 150 in the 1930s.  However, the population started a decline even before World War II, as improved roads and automobile transportation carried business south to [[Erick, Oklahoma|Erick]] or east to [[Elk City, Oklahoma|Elk City]].<ref name="OHS">{{cite web|url=https://www.okhistory.org/publications/enc/entry.php?entry=SW008| title= Sweetwater|publisher=Oklahoma Historical Society|accessdate=March 6, 2020}}</ref>
+
+On [[Tornado outbreak of May 4–6, 2007|May 5, 2007]], a [[tornado]], rated EF3 on the [[enhanced Fujita scale]], traveled on a path around {{convert|100|to|150|yd}} wide and {{convert|7.5|mi}} long. It began about {{convert|2.5|mi}} south of Sweetwater and ended roughly {{convert|5|mi|0}} north of Sweetwater, following State Highway 30. EF3 wind speeds range from {{convert|136|to|165|mph}}. It severely damaged several buildings in the town, including the church and high school, and destroyed eight homes.<ref>[http://www.srh.noaa.gov/oun/wxevents/20070505/ May 5, 2007 Sweetwater, Oklahoma Tornado Rated As EF3 at the National Weather Center (NOAA)]</ref><ref>[http://www.cnn.com/2007/WEATHER/05/05/severe.weather/index.html?eref=rss_topstories Second wave of tornadoes rakes Plains - CNN]</ref>
+
+<!-- expand for 83 people? ==Demographics==
+{{US Census population
+|2020= 102
+|footnote=U.S. Decennial Census<ref name="DecennialCensus">{{cite web|url=http://www.census.gov/prod/www/decennial.html|title=Census of Population and Housing|publisher=Census.gov|accessdate=June 4, 2016}}</ref>
+}}
+{{expand section|<nowiki>Demo data</nowiki>|date=July 2015}}
+{{US Census population
+|1990= 238
+|2000= 226
+|2010= 87
+|estyear=2019
+|estimate=83
+|estref=<ref name="USCensusEst2019CenPopScriptOnlyDirtyFixDoNotUse">{{cite web|url=https://www.census.gov/programs-surveys/popest/data/tables.2019.html|date=May 24, 2020|title=Population and Housing Unit Estimates|publisher=United States Census Bureau|accessdate=May 27, 2020}}</ref>
+|footnote=U.S. Decennial Census<ref name="DecennialCensus">{{cite web|url=https://www.census.gov/programs-surveys/decennial-census.html|title=Census of Population and Housing|publisher=Census.gov|accessdate=June 4, 2015}}</ref>
+}}
+ -->
+
+==Education==
+The [[Sweetwater Public Schools|Sweetwater Public School District]],<ref>{{cite web|url=https://www2.census.gov/geo/maps/DC2020/PL20/st40_ok/schooldistrict_maps/c40009_beckham/DC20SD_C40009.pdf|title=2020 CENSUS - SCHOOL DISTRICT REFERENCE MAP: Beckham County, OK|publisher=[[U.S. Census Bureau]]|access-date=2024-10-13}} - [https://www2.census.gov/geo/maps/DC2020/PL20/st40_ok/schooldistrict_maps/c40009_beckham/DC20SD_C40009_SD2MS.txt Text list]</ref><ref>{{cite web|url=https://www2.census.gov/geo/maps/DC2020/PL20/st40_ok/schooldistrict_maps/c40129_roger_mills/DC20SD_C40129.pdf|title=2020 CENSUS - SCHOOL DISTRICT REFERENCE MAP: Roger Mills County, OK|publisher=[[U.S. Census Bureau]]|access-date=2024-10-13}} - [https://www2.census.gov/geo/maps/DC2020/PL20/st40_ok/schooldistrict_maps/c40129_roger_mills/DC20SD_C40129_SD2MS.txt Text list]</ref> which covers the town, is one of the smallest public school districts in Oklahoma.{{fact|date=October 2024}}<!--Dont just cite raw stats. Cite a journalist who says this--> For 2007, it tied with [[Boley, Oklahoma|Boley]] for the smallest high school with 15 students. For a combined district, K-12, Sweetwater finished third behind [[Boley, Oklahoma|Boley]] (51) and [[Clarita, Oklahoma|Clarita]] (58), with 60 students.<ref>[http://sde.state.ok.us/home/defaultie.html School District Database at the Oklahoma State Department of Education (OSDE)] {{Webarchive|url=https://web.archive.org/web/20070802034339/http://www.sde.state.ok.us/home/defaultie.html |date=August 2, 2007 }}</ref>
+
+==Transportation==
+[[Oklahoma State Highway 6]] and [[Oklahoma State Highway 152|152]] run concurrently east-west through the town.<ref name=Map1>{{cite web|url= https://www.google.com/maps/place/Sweetwater,+OK+73666/@35.4166833,-99.9864655,12z/data=!4m5!3m4!1s0x87aa2b57a4e81cbd:0x727ae8e14658201f!8m2!3d35.4222722!4d-99.9114975!5m1!1e4?hl=en-US |title=Sweetwater, OK|publisher=Google Maps|accessdate=October 21, 2021}}</ref>   [[Oklahoma State Highway 30]] runs north-south through town.<ref name=Map1/>  The Texas border is just to the west.<ref name=Map1/>
+
+Hobart Regional Airport (KHBR, or FAA ID: HBR) is about 74 miles southeast.<ref name=AirNav>{{cite web|url= https://www.airnav.com/airport/KHBR |title=Hobart Regional Airport|publisher=AirNav.com|accessdate=October 21, 2021}}</ref><ref>{{cite web|url= https://www.google.com/maps/dir/Hobart+Regional+Airport-Hbr,+S+Grant+St,+Hobart,+OK/Sweetwater,+OK+73666/@35.190373,-99.7646535,10z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x87ac7b0c088b364f:0x5d3c63b292e37f75!2m2!1d-99.0560358!2d34.9910106!1m5!1m1!1s0x87aa2b57a4e81cbd:0x727ae8e14658201f!2m2!1d-99.9114975!2d35.4222722!5m1!1e4?hl=en-US |title=Hobart Regional Airport to Sweetwater, Oklahoma|publisher=Google Maps|accessdate=October 21, 2021}}</ref>  It features two paved runways, the largest 5507’ by 100’.<ref name=AirNav/>
+
+The nearest major airport to Sweetwater with commercial connections is [[Rick Husband Amarillo International Airport]], about 125 miles to the west.<ref>{{cite web|url= https://www.travelmath.com/nearest-airport/Sweetwater,+OK |title=Major airports near Sweetwater, Oklahoma|publisher=travelmath.com|accessdate=October 21, 2021}}</ref>
+
+==References==
+{{Reflist}}
+
+==External links==
+*[http://www.theburningbush.org/Sweetwater.html Information on Sweetwater]
+
+{{Beckham County, Oklahoma}}
+{{Roger Mills County, Oklahoma}}
+{{Authority control}}
+
+[[Category:Towns in Beckham County, Oklahoma]]
+[[Category:Towns in Roger Mills County, Oklahoma]]
+[[Category:Towns in Oklahoma]]
+[[Category:Populated places established in 2003]]
