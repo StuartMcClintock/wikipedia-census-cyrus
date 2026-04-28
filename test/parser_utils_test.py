@@ -125,13 +125,30 @@ class ExpandFirstCensusRefsTests(unittest.TestCase):
         full = '<ref name="Census2020DHC">{{cite web|title=2020 Decennial Census Demographic and Housing Characteristics (DHC)|url=https://api.census.gov/data/2020/dec/dhc?get=NAME%2CP2_002N%2CP2_003N&for=county%3A001&in=state%3A32|website=United States Census Bureau|year=2023|access-date=13 December 2025|df=mdy}}</ref>'
         wikitext = f'Text <ref name="Census2020DHC"/> more {full}'
         fixed = expand_first_census_refs(wikitext)
-        self.assertIn(full, fixed)
+        self.assertEqual(fixed, f"Text {full} more <ref name=\"Census2020DHC\"/>")
 
     def test_overwrites_partial_body_without_full_url(self):
         partial = '<ref name="Census2020DHC">{{cite web|title=2020 Decennial Census Demographic and Housing Characteristics (DHC)|url=https://api.census.gov/data/2020/dec/dhc|website=United States Census Bureau|year=2023|access-date=13 December 2025|df=mdy}}</ref>'
         wikitext = f"Start {partial} then <ref name=\"Census2020DHC\"/>"
         fixed = expand_first_census_refs(wikitext)
         self.assertIn('<ref name="Census2020DHC">{{cite web|title=2020 Decennial Census Demographic and Housing Characteristics (DHC)', fixed)
+
+    def test_collapses_later_full_ref_to_short_ref(self):
+        full = '<ref name="Census2020PL">{{cite web|title=2020 Decennial Census Redistricting Data (Public Law 94-171)|url=https://api.census.gov/data/2020/dec/pl?get=NAME%2CP1_001N&for=place%3A68352&in=state%3A01|website=United States Census Bureau|year=2021|access-date=13 December 2025|df=mdy}}</ref>'
+        wikitext = f'Lead <ref name="Census2020PL"/> table {full}'
+        fixed = expand_first_census_refs(wikitext)
+        self.assertEqual(fixed, f'Lead {full} table <ref name="Census2020PL"/>')
+
+    def test_restores_place_query_params_on_first_full_ref(self):
+        partial = '<ref name="Census2020DP">{{cite web|title=2020 Decennial Census Demographic Profile (DP1)|url=https://api.census.gov/data/2020/dec/dp|website=United States Census Bureau|year=2021|access-date=13 December 2025|df=mdy}}</ref>'
+        wikitext = f"Start {partial} then <ref name=\"Census2020DP\"/>"
+        fixed = expand_first_census_refs(
+            wikitext,
+            state_fips="40",
+            place_fips="36020",
+        )
+        self.assertIn("https://api.census.gov/data/2020/dec/dp?get=", fixed)
+        self.assertIn("&for=place%3A36020&in=state%3A40", fixed)
 
 
 class EnforceRefCitationTemplateBracesTests(unittest.TestCase):

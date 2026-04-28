@@ -1,0 +1,163 @@
+==Demographics==
+{{US Census population
+|1980= 12450
+|1990= 9481
+|2000= 10581
+|2010= 10866
+|2020= 10243
+|estyear=
+|estimate=
+|estref=
+|align-fn=center
+|footnote=U.S. Decennial Census<ref name="DecennialCensus">{{cite web|url=https://www.census.gov/programs-surveys/decennial-census/decade.html|title=Decennial Census by Decade|website=[[United States Census Bureau]]|access-date=}}</ref><br> 1860–1870<ref name=1870CensusCA1>{{Cite web|title= 1870 Census of Population - Population of Civil Divisions less than Counties - California - Almeda County to Sutter County |url=https://www2.census.gov/library/publications/decennial/1870/population/1870a-12.pdf|website=[[United States Census Bureau]]|via= [[Wayback Machine]] |archive-url=https://web.archive.org/web/20250126025002/https://www2.census.gov/library/publications/decennial/1870/population/1870a-12.pdf| archive-date=January 26, 2025}}</ref><ref name=1870CensusCA2>{{Cite web|title= 1870 Census of Population - Population of Civil Divisions less than Counties - California - Tehama County to Yuba County  |url=https://www2.census.gov/library/publications/decennial/1870/population/1870a-13.pdf|website=[[United States Census Bureau]]|via= [[Wayback Machine]] |archive-url=https://web.archive.org/web/20250202095153/https://www2.census.gov/library/publications/decennial/1870/population/1870a-13.pdf| archive-date=February 2, 2025}}</ref> 1880-1890<ref name=1890CensusCA>{{Cite web|title= 1890 Census of Population - Population of California by Minor Civil Divisions |url=https://www2.census.gov/library/publications/decennial/1890/bulletins/demographics/134-population-of-ca.pdf|website=[[United States Census Bureau]]|via= [[Wayback Machine]] |archive-url=https://web.archive.org/web/20250311213742/https://www2.census.gov/library/publications/decennial/1890/bulletins/demographics/134-population-of-ca.pdf| archive-date=March 11, 2025}}</ref><br> 1900<ref name=1900CensusCA>{{Cite web|title= 1900 Census of Population - Population of California by Counties and Minor Civil Divisions |url=https://www2.census.gov/library/publications/decennial/1900/bulletins/demographic/10-population-ca.pdf|website=[[United States Census Bureau]]|via= [[Wayback Machine]] |archive-url=https://web.archive.org/web/20250304013034/https://www2.census.gov/library/publications/decennial/1900/bulletins/demographic/10-population-ca.pdf| archive-date=March 4, 2025}}</ref> 1910<ref name=1910CensusCA>{{Cite web|title=1910 Census of Population - Supplement for California|url=https://www2.census.gov/library/publications/decennial/1910/abstract/supplement-ca.pdf|website=[[United States Census Bureau]]|access-date=February 4, 2025|via= [[Wayback Machine]] |archive-url=https://web.archive.org/web/20250404180724/https://web.archive.org/web/20240823050629/https://www2.census.gov/library/publications/decennial/1910/abstract/supplement-ca.pdf| archive-date= April 4, 2025}}</ref> 1920<ref name=1920CensusCA>{{Cite web|title= 1920 Census of Population - Number of Inhabitants - California |url=https://www2.census.gov/library/publications/decennial/1920/bulletins/demographics/population-ca-number-of-inhabitants.pdf|website=[[United States Census Bureau]] |via= [[Wayback Machine]] |archive-url=https://web.archive.org/web/20250428023259/https://www2.census.gov/library/publications/decennial/1920/bulletins/demographics/population-ca-number-of-inhabitants.pdf| archive-date=April 28, 2025}}</ref><br> 1930<ref name=1930CensusCA>{{Cite web|title= 1930 Census of Population - Number and Distribution of Inhabitants - California |url=https://www2.census.gov/library/publications/decennial/1930/population-volume-1/03815512v1ch03.pdf|website=[[United States Census Bureau]] |via= [[Wayback Machine]] |archive-url=https://web.archive.org/web/20250317202706/https://www2.census.gov/library/publications/decennial/1930/population-volume-1/03815512v1ch03.pdf| archive-date= March 17, 2025}}</ref> 1940<ref name=1940CensusCA>{{Cite web|title= 1940 Census of Population - Number of Inhabitants - California |url=https://www2.census.gov/library/publications/decennial/1940/population-volume-1/33973538v1ch03.pdf|website=[[United States Census Bureau]] |via= [[Wayback Machine]] |archive-url=https://web.archive.org/web/20250126024959/https://www2.census.gov/library/publications/decennial/1940/population-volume-1/33973538v1ch03.pdf | archive-date=January 26, 2025}}</ref> 1950<ref name=1950CensusCA>{{Cite web|title= 1950 Census of Population - Number of Inhabitants - California |url=https://www2.census.gov/library/publications/decennial/1950/population-volume-1/vol-01-08.pdf|website=[[United States Census Bureau]] |via= [[Wayback Machine]] |archive-url=https://web.archive.org/web/20250219112141/https://www2.census.gov/library/publications/decennial/1950/population-volume-1/vol-01-08.pdf | archive-date=February 19, 2025}}</ref><br> 1960<ref name=1960CensusCA>{{Cite web|title= 1960 Census of Population - Number of Inhabitants - California |url=https://www2.census.gov/library/publications/decennial/1960/population-volume-1/vol-01-06-c.pdf|website=[[United States Census Bureau]] |via= [[Wayback Machine]] |archive-url=https://web.archive.org/web/20250322000358/https://www2.census.gov/library/publications/decennial/1960/population-volume-1/vol-01-06-c.pdf| archive-date=March 22, 2025}}</ref><ref name=1960CensusCA1>{{Cite web|title= 1960 Census of Population - General population Characteristics - California |url=https://www2.census.gov/library/publications/decennial/1960/population-volume-1/vol-01-06-d.pdf|website=[[United States Census Bureau]] |via= [[Wayback Machine]] |archive-url=https://web.archive.org/web/20250322000356/https://www2.census.gov/library/publications/decennial/1960/population-volume-1/vol-01-06-d.pdf | archive-date=March 22, 2025}}</ref> 1970<ref name=1970CensusCA>{{Cite web|title= 1970 Census of Population - Number of Inhabitants - California |url=https://www2.census.gov/prod2/decennial/documents/1970a_ca1-01.pdf|website=[[United States Census Bureau]] |via= [[Wayback Machine]] |archive-url=https://web.archive.org/web/20250226084958/https://www2.census.gov/prod2/decennial/documents/1970a_ca1-01.pdf | archive-date=February 26, 2025}}</ref> 1980<ref name=1980CensusCA>{{Cite web|title= 1980 Census of Population - Number of Inhabitants - California |url=https://www2.census.gov/prod2/decennial/documents/1980a_caAB-01.pdf|website=[[United States Census Bureau]] |via= [[Wayback Machine]] |archive-url=https://web.archive.org/web/20250126024959/https://www2.census.gov/prod2/decennial/documents/1980a_caAB-01.pdf | archive-date=January 26, 2025}}</ref><br> 1990<ref name=1990CensusCA>{{Cite web|title= 1990 Census of Population - Population and Housing Unit Counts - California |url=https://www2.census.gov/prod2/cen1990/cph2/cph-2-6.pdf|website=[[United States Census Bureau]] |via= [[Wayback Machine]] |archive-url=https://web.archive.org/web/20250126025005/https://www2.census.gov/prod2/cen1990/cph2/cph-2-6.pdf| archive-date=January 26, 2025}}</ref> 2000<ref name=2000CensusCA>{{Cite web|title= 2000 Census of Population - Population and Housing Unit Counts - California |url=https://www2.census.gov/library/publications/2003/dec/phc-3-6.pdf|website=[[United States Census Bureau]] |via= [[Wayback Machine]] |archive-url=https://web.archive.org/web/20250322000357/https://www2.census.gov/library/publications/2003/dec/phc-3-6.pdf| archive-date=March 22, 2025}}</ref> 2010<ref name=2010CensusCA>{{Cite web|title= 2010 Census of Population - Population and Housing Unit Counts - California |url=https://www2.census.gov/library/publications/decennial/2010/cph-2/cph-2-6.pdf|website=[[United States Census Bureau]] |via= [[Wayback Machine]] |archive-url=https://web.archive.org/web/20250328034325/https://www2.census.gov/library/publications/decennial/2010/cph-2/cph-2-6.pdf| archive-date=March 28, 2025}}</ref><br> 2020<ref name=2020CensusP2/>
+}}
+
+Citrus first appeared as a [[census designated place]] in the [[1980 United States census]] as part of the East San Gabriel Valley census county division.<ref name=1980CensusCA/>
+
+{| class="wikitable" style="text-align:center;"
+|+'''Citrus CDP, California – Racial and ethnic composition'''<br><small>{{nobold|''Note: the US Census treats Hispanic/Latino as an ethnic category. This table excludes Latinos from the racial categories and assigns them to a separate category. Hispanics/Latinos may be of any race.''}}</small>
+!Race / Ethnicity <small>(''NH = Non-Hispanic'')</small>
+!Pop 1980<ref>{{Cite web |title=ca 1980 census |url=https://www2.census.gov/prod2/decennial/documents/1980a_caCs1-01.pdf}}</ref>
+!Pop 1990<ref>{{Cite web |title=ca 1990 census |url=https://www2.census.gov/library/publications/decennial/1990/cp-1/cp-1-6-1.pdf}}</ref>
+!Pop 2000<ref name=2000CensusP004>{{Cite web|title=P004: Hispanic or Latino, and Not Hispanic or Latino by Race – 2000: DEC Summary File 1 – Citrus CDP, California |url=https://data.census.gov/table?g=160XX00US0613560&tid=DECENNIALSF12000.P004|website=[[United States Census Bureau]] |access-date= }}</ref>
+!Pop 2010<ref name=2010CensusP2>{{Cite web|title=P2: Hispanic or Latino, and Not Hispanic or Latino by Race – 2010: DEC Redistricting Data (PL 94-171) – Citrus CDP, California |url=https://data.census.gov/cedsci/table?q=p2&g=160XX00US0613560&tid=DECENNIALPL2010.P2|website=[[United States Census Bureau]] |access-date= }}</ref>
+!{{partial|Pop 2020}}<ref name=2020CensusP2>{{Cite web|title=P2: Hispanic or Latino, and Not Hispanic or Latino by Race – 2020: DEC Redistricting Data (PL 94-171) – Citrus CDP, California |url=https://data.census.gov/cedsci/table?q=p2&g=160XX00US0613560&tid=DECENNIALPL2020.P2|website=[[United States Census Bureau]] |access-date= }}</ref>
+!% 1980
+!% 1990
+!% 2000
+!% 2010
+!{{partial|% 2020}}
+|-
+|[[Non-Hispanic or Latino whites|White]] alone (NH)
+|8,636
+|3,947
+|2,515
+|1,748
+|style='background: #ffffe6; |1,183
+|69.37%
+|41.63%
+|23.77%
+|16.09%
+|style='background: #ffffe6; |11.55%
+|-
+|[[Non-Hispanic or Latino African Americans|Black or African American]] alone (NH)
+|120
+|318
+|305
+|198
+|style='background: #ffffe6; |169
+|0.96%
+|3.35%
+|2.88%
+|1.82%
+|style='background: #ffffe6; |1.65%
+|-
+|[[Native Americans in the United States|Native American]] or [[Alaska Native]] alone (NH)
+|116
+|43
+|41
+|22
+|style='background: #ffffe6; |36
+|0.93%
+|0.45%
+|0.39%
+|0.20%
+|style='background: #ffffe6; |0.35%
+|-
+|[[Asian Americans|Asian]] alone (NH)
+| rowspan="2" |299
+| rowspan="2" |600
+|678
+|837
+|style='background: #ffffe6; |818
+| rowspan="2" |2.40%
+| rowspan="2" |6.33%
+|6.41%
+|7.70%
+|style='background: #ffffe6; |7.99%
+|-
+|[[Native Hawaiian]] or [[Pacific Islander Americans|Pacific Islander]] alone (NH)
+|1
+|4
+|style='background: #ffffe6; |6
+|0.01%
+|0.04%
+|style='background: #ffffe6; |0.06%
+|-
+|[[Race and ethnicity in the United States census|Other race]] alone (NH)
+|34
+|16
+|10
+|20
+|style='background: #ffffe6; |65
+|0.27%
+|0.17%
+|0.09%
+|0.18%
+|style='background: #ffffe6; |0.63%
+|-
+|[[Multiracial Americans|Mixed race or Multiracial]] (NH)
+|x
+|x
+|170
+|126
+|style='background: #ffffe6; |160
+|x
+|x
+|1.61%
+|1.16%
+|style='background: #ffffe6; |1.56%
+|-
+|[[Hispanic and Latino Americans|Hispanic or Latino]] (any race)
+|3,245
+|4,557
+|6,861
+|7,911
+|style='background: #ffffe6; |7,806
+|26.06%
+|48.06%
+|64.84%
+|72.81%
+|style='background: #ffffe6; |76.21%
+|-
+|'''Total'''
+|'''12,450'''
+|'''9,481'''
+|'''10,581'''
+|'''10,866'''
+|style='background: #ffffe6; |'''10,243'''
+|'''100.00%'''
+|'''100.00%'''
+|'''100.00%'''
+|'''100.00%'''
+|style='background: #ffffe6; |'''100.00%'''
+|}
+
+===2020===
+The [[2020 United States census]] reported that Citrus had a population of 10,243. The population density was {{convert|11,692.9|PD/sqmi|PD/km2|sp=us|adj=off}}. The racial makeup of Citrus was 26.0% [[White Americans|White]], 2.0% [[African Americans|African American]], 3.3% [[Native Americans in the United States|Native American]], 8.2% [[Asian Americans|Asian]], 0.1% [[Pacific Islander Americans|Pacific Islander]], 35.5% from [[Race (United States Census)|other races]], and 24.8% from two or more races. [[Hispanic and Latino Americans|Hispanic or Latino]] of any race were 76.2% of the population.<ref name=DP1>{{cite web |title=Citrus CDP, California; DP1: Profile of General Population and Housing Characteristics - 2020 Census of Population and Housing |url=https://data.census.gov/table/DECENNIALDP2020.DP1?g=1600000US0613560 |website=US Census Bureau |access-date=June 11, 2025}}</ref>
+
+The census reported that 99.8% of the population lived in households, 0.2% lived in non-institutionalized group quarters, and no one was institutionalized.<ref name=DP1/>
+
+There were 2,616 households, out of which 45.1% included children under the age of 18, 54.9% were married-couple households, 6.6% were [[cohabitation|cohabiting]] couple households, 23.4% had a female householder with no partner present, and 15.1% had a male householder with no partner present. 10.7% of households were one person, and 3.8% were one person aged 65 or older. The average household size was 3.91.<ref name=DP1/> There were 2,218 [[family (U.S. Census)|families]] (84.8% of all households).<ref>{{cite web |title=Citrus CDP, California; P16: Household Type - 2020 Census of Population and Housing |url=https://data.census.gov/table/DECENNIALDHC2020.P16?g=1600000US0613560 |website=US Census Bureau |access-date=June 11, 2025}}</ref>
+
+The age distribution was 22.7% under the age of 18, 11.4% aged 18 to 24, 29.5% aged 25 to 44, 25.3% aged 45 to 64, and 11.0% who were 65{{nbsp}}years of age or older. The median age was 34.9{{nbsp}}years. For every 100 females, there were 99.7 males.<ref name=DP1/>
+
+There were 2,684 housing units at an average density of {{convert|3,063.9|/mi2|/km2|disp=preunit|units&nbsp;|units|}}, of which 2,616 (97.5%) were occupied. Of these, 72.0% were owner-occupied, and 28.0% were occupied by renters.<ref name=DP1/>
+
+In 2023, the US Census Bureau estimated that the median household income was $101,179, and the [[per capita income]] was $27,712. About 5.5% of families and 9.3% of the population were below the poverty line.<ref>{{cite web |title=Citrus CDP, California; DP03: Selected Economic Characteristics - 2023 ACS 5-Year Estimates Comparison Profiles |url=https://data.census.gov/table/ACSDP5Y2023.DP03?g=1600000US0613560 |website=US Census Bureau |access-date=June 11, 2025}}</ref>
+
+===2010===
+At the [[2010 United States Census|2010 census]] Citrus had a population of 10,866. The population density was {{convert|12,231.0|PD/sqmi|PD/km2|sp=us|adj=off}}. The racial makeup of Citrus was 5,898 (54.3%) White (16.1% Non-Hispanic White),<ref name="quickfacts.census.gov">{{cite web|url=http://quickfacts.census.gov/qfd/states/06/0613560.html|title=Citrus CDP QuickFacts from the US Census Bureau|access-date=2013-12-01|archive-url=https://web.archive.org/web/20120702003059/http://quickfacts.census.gov/qfd/states/06/0613560.html|archive-date=2012-07-02|url-status=dead}}</ref> 240 (2.2%) African American, 120 (1.1%) Native American, 860 (7.9%) Asian, 4 (0.0%) Pacific Islander, 3,302 (30.4%) from other races, and 442 (4.1%) from two or more races.  Hispanic or Latino of any race were 7,911 persons (72.8%).<ref>{{cite web|url=http://www.census.gov/2010census/popmap/ipmtext.php?fl=06:0613560|archive-url=https://archive.today/20140715031821/http://www.census.gov/2010census/popmap/ipmtext.php?fl=06:0613560|url-status=dead|archive-date=July 15, 2014|title=2010 Census Interactive Population Search: CA - Citrus CDP|publisher=U.S. Census Bureau|access-date=July 12, 2014}}</ref>
+
+The census reported that 10,841 people (99.8% of the population) lived in households, 25 (0.2%) lived in non-institutionalized group quarters, and no one was institutionalized.
+
+There were 2,615 households, 1,364 (52.2%) had children under the age of 18 living in them, 1,524 (58.3%) were [[marriage|opposite-sex married couples]] living together, 442 (16.9%) had a female householder with no husband present, 229 (8.8%) had a male householder with no wife present.  There were 152 (5.8%) [[POSSLQ|unmarried opposite-sex partnerships]], and 24 (0.9%) [[same-sex partnerships|same-sex married couples or partnerships]]. 278 households (10.6%) were one person and 94 (3.6%) had someone living alone who was 65 or older. The average household size was 4.15.  There were 2,195 families (83.9% of households); the average family size was 4.33.
+
+The age distribution was 3,083 people (28.4%) under the age of 18, 1,322 people (12.2%) aged 18 to 24, 3,208 people (29.5%) aged 25 to 44, 2,402 people (22.1%) aged 45 to 64, and 851 people (7.8%) who were 65 or older.  The median age was 30.7 years. For every 100 females, there were 102.2 males.  For every 100 females age 18 and over, there were 101.1 males.
+
+There were 2,701 housing units at an average density of 3,040.3 per square mile, of the occupied units 1,854 (70.9%) were owner-occupied and 761 (29.1%) were rented. The homeowner vacancy rate was 1.7%; the rental vacancy rate was 3.5%.  7,841 people (72.2% of the population) lived in owner-occupied housing units and 3,000 people (27.6%) lived in rental housing units.
+
+According to the 2010 United States Census, the median household income was $59,919, with 10.9% of the population living below the federal poverty line.<ref name="quickfacts.census.gov"/>
+
+In 2000, [[Mexican Americans|Mexican]] and [[German Americans|German]] were the most common ancestries. [[Mexico]] and the [[Philippines]] were the most common foreign places of birth.<ref>{{Cite web |title=Citrus |url=https://maps.latimes.com/neighborhoods/neighborhood/citrus/ |access-date=2025-01-06 |website=Mapping L.A.}}</ref>
+

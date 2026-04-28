@@ -258,6 +258,7 @@ def fix_demographics_section_wikitext(
     original_section_wikitext: str = None,
     state_fips: str = None,
     county_fips: str = None,
+    place_fips: str = None,
 ) -> str:
     """
     Apply deterministic fixes to a demographics section wikitext block.
@@ -269,7 +270,10 @@ def fix_demographics_section_wikitext(
         strip_whitespace_before_citation_refs,
         move_heading_refs_to_first_paragraph,
         lambda text: expand_first_census_refs(
-            text, state_fips=state_fips, county_fips=county_fips
+            text,
+            state_fips=state_fips,
+            county_fips=county_fips,
+            place_fips=place_fips,
         ),
         collapse_extra_newlines,
         fix_wikitable_closures,
@@ -289,6 +293,7 @@ def fix_demographics_section_in_article(
     original_demographics_wikitext: str = None,
     state_fips: str = None,
     county_fips: str = None,
+    place_fips: str = None,
 ) -> str:
     """
     Locate the demographics section in an article wikitext and apply
@@ -307,6 +312,7 @@ def fix_demographics_section_in_article(
             original_section_wikitext=original_demographics_wikitext,
             state_fips=state_fips,
             county_fips=county_fips,
+            place_fips=place_fips,
         )
 
         if fixed_section_text == section_text:

@@ -1,14 +1,23 @@
 #from credentials import OPEN_AI_KEY
 import subprocess
 import os
+import time
 from pathlib import Path
 from typing import Optional, List, Tuple
 from constants import DEFAULT_CODEX_MODEL, codex_models
 
 BASE_DIR = Path(__file__).resolve().parent
-CANDIDATE_OUT_PATHS = [BASE_DIR / "codex_out" / "out.txt"]
+RUN_ARTIFACT_DIR_ENV = "LLM_RUN_ARTIFACT_DIR"
+CODEX_OUTPUT_SLOT_ENV = "CODEX_OUTPUT_SLOT"
+_RUNS_DIR = BASE_DIR / ".runs"
+_DEFAULT_RUN_TOKEN = f"run-{os.getpid()}-{int(time.time() * 1000)}"
+_LEGACY_OUT_PATH = BASE_DIR / "codex_out" / "out.txt"
+CANDIDATE_OUT_PATHS = [_LEGACY_OUT_PATH]
 MIN_NODE_MAJOR = 18
 USAGE_LIMIT_MESSAGE = "ERROR: You've hit your usage limit."
+CHATGPT_ACCOUNT_UNSUPPORTED_MARKER = (
+    "model is not supported when using codex with a chatgpt account"
+)
 
 
 class CodexOutputMissingError(FileNotFoundError):
@@ -21,18 +30,75 @@ class CodexUsageLimitError(Exception):
     pass
 
 
+def _get_output_slot() -> int:
+    return 2 if os.getenv(CODEX_OUTPUT_SLOT_ENV) == "2" else 1
+
+
+def _using_fixed_slot_workspace() -> bool:
+    return bool(os.getenv(CODEX_OUTPUT_SLOT_ENV)) and not os.getenv(RUN_ARTIFACT_DIR_ENV)
+
+
+def _get_slot_filename(filename: str) -> str:
+    if _get_output_slot() == 1:
+        return filename
+    path = Path(filename)
+    return f"{path.stem}_2{path.suffix}"
+
+
+def _get_output_relative_path() -> Path:
+    if _get_output_slot() == 2:
+        return Path("codex_out_2.txt")
+    return Path("codex_out") / "out.txt"
+
+
+def _get_output_display_name() -> str:
+    return _get_output_relative_path().as_posix()
+
+
+def _render_prompt(prompt: str) -> str:
+    replacements = {
+        "full_current_wp_page.txt": _get_slot_filename("full_current_wp_page.txt"),
+        "new_text.txt": _get_slot_filename("new_text.txt"),
+        "current_demographics_section.txt": _get_slot_filename("current_demographics_section.txt"),
+        "current_lede_text.txt": _get_slot_filename("current_lede_text.txt"),
+        "population_sentence.txt": _get_slot_filename("population_sentence.txt"),
+        "codex_out/out.txt": _get_output_display_name(),
+    }
+    for source, target in replacements.items():
+        prompt = prompt.replace(source, target)
+    return prompt
+
+
+def _get_run_work_dir() -> Path:
+    override = os.getenv(RUN_ARTIFACT_DIR_ENV)
+    if override:
+        path = Path(override).expanduser()
+    elif _using_fixed_slot_workspace():
+        path = BASE_DIR
+    else:
+        path = _RUNS_DIR / _DEFAULT_RUN_TOKEN
+    path.mkdir(parents=True, exist_ok=True)
+    return path
+
+
+def _get_candidate_out_paths() -> List[Path]:
+    if CANDIDATE_OUT_PATHS != [_LEGACY_OUT_PATH]:
+        return CANDIDATE_OUT_PATHS
+    return [_get_run_work_dir() / _get_output_relative_path()]
+
+
 def _write_snapshot(filename: str, content: str) -> None:
     """Persist content for inspection/debugging."""
-    (BASE_DIR / filename).write_text(content)
+    (_get_run_work_dir() / _get_slot_filename(filename)).write_text(content)
 
 
 def _read_codex_output() -> str:
     path = _locate_codex_output(require_nonempty=True)
     if path:
         return path.read_text()
-    candidates = ", ".join(str(p) for p in CANDIDATE_OUT_PATHS)
+    candidates = ", ".join(str(p) for p in _get_candidate_out_paths())
     raise CodexOutputMissingError(
-        f"codex_out/out.txt not found in any known location (checked: {candidates})"
+        f"{_get_output_display_name()} not found in any known location (checked: {candidates})"
     )
 
 
@@ -54,7 +120,7 @@ def _clear_codex_output() -> None:
     """
     Remove any existing Codex output so a failed run cannot reuse stale data.
     """
-    for path in CANDIDATE_OUT_PATHS:
+    for path in _get_candidate_out_paths():
         try:
             path.parent.mkdir(parents=True, exist_ok=True)
             if path.exists():
@@ -65,7 +131,7 @@ def _clear_codex_output() -> None:
 
 def _locate_codex_output(require_nonempty: bool = False) -> Optional[Path]:
     """Return the first existing codex_out file, or None if missing."""
-    for path in CANDIDATE_OUT_PATHS:
+    for path in _get_candidate_out_paths():
         if not path.exists():
             continue
         if require_nonempty and path.stat().st_size == 0:
@@ -76,9 +142,9 @@ def _locate_codex_output(require_nonempty: bool = False) -> Optional[Path]:
 
 def _ensure_codex_out_placeholder() -> Path:
     """
-    Create an empty codex_out/out.txt placeholder to unblock a retry attempt.
+    Create an empty Codex output placeholder to unblock a retry attempt.
     """
-    target = CANDIDATE_OUT_PATHS[0]
+    target = _get_candidate_out_paths()[0]
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text("")
     return target
@@ -134,17 +200,22 @@ def _raise_if_usage_limited(stdout: str, stderr: str) -> None:
         )
 
 
+def _is_chatgpt_account_model_rejection(stdout: str, stderr: str) -> bool:
+    combined = "\n".join(part for part in (stdout, stderr) if part).lower()
+    return CHATGPT_ACCOUNT_UNSUPPORTED_MARKER in combined
+
+
 def codex_exec(text: str, suppress_out=True) -> None:
     # Check ACTIVE_MODEL first (new architecture), fall back to CODEX_MODEL (backward compatibility)
     model = _resolve_model()
-    cmd = ["codex", "exec", "-m", model]
-    cmd.append(text)
     attempt_details = []
     _clear_codex_output()
+    attempted_chatgpt_fallback = False
     for attempt in (1, 2):
+        cmd = ["codex", "exec", "-m", model, "--skip-git-repo-check", text]
         result = subprocess.run(
             cmd,
-            cwd=BASE_DIR,
+            cwd=_get_run_work_dir(),
             capture_output=True,
             text=True,
             env=_build_codex_env(),
@@ -155,6 +226,21 @@ def codex_exec(text: str, suppress_out=True) -> None:
             f"stderr: {result.stderr.strip() if result.stderr else '<empty>'}"
         )
         if result.returncode != 0:
+            if (
+                not attempted_chatgpt_fallback
+                and model != DEFAULT_CODEX_MODEL
+                and _is_chatgpt_account_model_rejection(
+                    result.stdout or "", result.stderr or ""
+                )
+            ):
+                original_model = model
+                model = DEFAULT_CODEX_MODEL
+                attempted_chatgpt_fallback = True
+                print(
+                    f"Codex rejected {original_model} for this ChatGPT account; "
+                    f"retrying with {DEFAULT_CODEX_MODEL}."
+                )
+                continue
             raise RuntimeError(
                 f"codex exec failed (model={model}, rc={result.returncode}): {result.stderr or result.stdout}"
             )
@@ -163,9 +249,9 @@ def codex_exec(text: str, suppress_out=True) -> None:
         if attempt == 1:
             _ensure_codex_out_placeholder()
             continue
-        candidates = ", ".join(str(p) for p in CANDIDATE_OUT_PATHS)
+        candidates = ", ".join(str(p) for p in _get_candidate_out_paths())
         raise CodexOutputMissingError(
-            f"codex exec succeeded but codex_out/out.txt is missing or empty after 2 attempts "
+            f"codex exec succeeded but {_get_output_display_name()} is missing or empty after 2 attempts "
             f"(checked: {candidates}; {attempt_details[0]} | {attempt_details[1]})"
         )
     if not suppress_out:
@@ -179,7 +265,8 @@ def check_if_update_needed(current_article: str, new_text: str, suppress_out: bo
     _write_snapshot("full_current_wp_page.txt", current_article)
     _write_snapshot("new_text.txt", new_text)
     codex_exec(
-        """
+        _render_prompt(
+            """
 full_current_wp_page.txt contains the current text for the Wikipedia page for a county or municipality in the United States.
 
 new_text.txt contains proposed new text that I am considering to add to the Wikipedia page. It is composed entirely of data from the 2020 US Census.
@@ -188,6 +275,7 @@ Does new_text.txt contain any information that is not already contained in full_
 
 Be sure to not confuse the decade that a particular census fact is from; if there is already data for a field from 2010, the 2020 data for that field is considered different.
 """
+        )
     , suppress_out=suppress_out)
     try:
         return _read_codex_output().strip() == "YES"
@@ -199,7 +287,8 @@ def update_wp_page(current_article: str, new_text: str, suppress_out: bool = Tru
     _write_snapshot("full_current_wp_page.txt", current_article)
     _write_snapshot("new_text.txt", new_text)
     codex_exec(
-        """
+        _render_prompt(
+            """
 full_current_wp_page.txt contains the current text for the Wikipedia page for a county or municipality in the United States.
 
 new_text.txt contains proposed new text that I am going to add to the Wikipedia page. It is composed entirely of data from the 2020 US Census.
@@ -224,6 +313,7 @@ Make sure that headings in the Demographics section are in chronological order (
 
 Write the output to codex_out/out.txt. The output should contain the full text of the updated article and nothing that should not be in the updated article.
 """
+        )
     , suppress_out=suppress_out)
     return _read_codex_output()
 
@@ -271,7 +361,7 @@ If there is a banner in the existing wikitext indicating that demographic/census
 
 If you modify any tags like </small> or <br>, make sure the outcome is valid (eg. "</small)" is not okay)
 
-You do not need to delete data that does not come from a decennial census as long as it is appropriately cited - but make sure it has an appropriately descriptive H3 header.
+DO NOT remove non-decennial demographic data solely because it is not from the 2020 Census. Preserve cited ACS, Census Bureau estimates, QuickFacts, income, poverty, age, household, housing, employment, ancestry, language, education, and similar socioeconomic/demographic content unless the new 2020 decennial census text contains an official replacement for the exact same datapoint. If preserved content does not fit under a census-year heading, move it under an appropriate H3 such as ===Income and poverty===, ===Demographic estimates===, ===Households and housing===, or another accurate descriptive heading.
 
 DO NOT remove any data or sources from the "US Census population" table. The "US Census population" table should remain as it starts.
 
@@ -295,7 +385,7 @@ If a wikitable ends with "|}", don't remove the "|" and cause it to simply be "}
 
 The content of the 2020 census section should be split into topically coherent paragraphs, NOT SMASHED INTO A SINGLE LARGE PARAGRAPH!
 
-Ensure that adequate citation refs from the three census api refs (DP, PL, DHC) are added to backup all the factual claims made in a particular paragraph. 
+Ensure that adequate citation refs from the three census api refs (DP, PL, DHC) are added to backup all the factual claims made in a particular paragraph.
 
 If there is a "Racial and ethnic composition" subsection, put it as the top subsection of the Demographics, below only the lede text. Do not generate new text to add to the lede, you may only modify or reposition existing text
 
@@ -305,13 +395,19 @@ Tables or paragraphs on racial data for only 2020 or any other specific decade s
 
 Put new 2020 census data within "===2020 census===", DO NOT put it in the lede of the demographics section
 
+Preserve existing cited 2020 details that are more specific than new_text.txt—for example age buckets, household/family size, housing density, and population density—unless they directly conflict with official 2020 Census data.
+
+Only place actual 2020 Census demographic claims under ===2020 census===; keep non-census civic/service/location text outside census-year subsections.
+
+Before outputting, check that no non-redundant cited demographic detail was removed.
+
 Write only the updated demographics and related census sections to codex_out/out.txt (no commentary).
 """
     prompt = MINI_PROMPT #if mini else MAX_PROMPT
 
     _write_snapshot("current_demographics_section.txt", current_demographics_section)
     _write_snapshot("new_text.txt", new_text)
-    codex_exec(prompt, suppress_out=suppress_out)
+    codex_exec(_render_prompt(prompt), suppress_out=suppress_out)
     return _read_codex_output()
 
 
@@ -329,7 +425,7 @@ Write only the updated lede text to codex_out/out.txt (no commentary).
 """
     _write_snapshot("current_lede_text.txt", current_lede_text)
     _write_snapshot("population_sentence.txt", population_sentence)
-    codex_exec(prompt, suppress_out=suppress_out)
+    codex_exec(_render_prompt(prompt), suppress_out=suppress_out)
     return _read_codex_output()
 
 if __name__ == '__main__':

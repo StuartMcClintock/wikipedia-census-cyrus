@@ -1,4 +1,7 @@
 from pathlib import Path
+import json
+import os
+import tempfile
 import unittest
 from unittest.mock import Mock, patch
 
@@ -14,6 +17,12 @@ from poster import (
     parse_arguments,
 )
 import poster
+from constants import DEFAULT_CODEX_MODEL
+from llm_backends.claude_code.claude_code import (
+    CLAUDE_CODE_WAIT_FOR_LIMIT_RESET_ENV,
+)
+from llm_backends.openai_codex.openai_codex import RUN_ARTIFACT_DIR_ENV
+from llm_backends.openai_codex.openai_codex import CODEX_OUTPUT_SLOT_ENV
 from parser.parser import ParsedWikitext
 
 
@@ -68,7 +77,6 @@ class WikipediaClientTests(unittest.TestCase):
     def test_skip_location_parsing_accepts_manual_inputs(self):
         with patch('sys.argv', [
             'poster.py',
-            '--location', 'Sample, Oklahoma',
             '--skip-location-parsing',
             '--article', 'Sample County, Oklahoma',
             '--state-fips', '40',
@@ -88,6 +96,42 @@ class WikipediaClientTests(unittest.TestCase):
         ]):
             args = parse_arguments()
         self.assertEqual(args.edit_summary, 'Custom 2020 census update')
+
+    def test_parse_arguments_accepts_wait_for_claude_limit_reset(self):
+        with patch('sys.argv', [
+            'poster.py',
+            '--location', 'Sample County, Oklahoma',
+            '--wait-for-claude-limit-reset',
+        ]):
+            args = parse_arguments()
+        self.assertTrue(args.wait_for_claude_limit_reset)
+
+    def test_parse_arguments_accepts_run_artifact_dir(self):
+        with patch('sys.argv', [
+            'poster.py',
+            '--location', 'Sample County, Oklahoma',
+            '--run-artifact-dir', '/tmp/poster-run-a',
+        ]):
+            args = parse_arguments()
+        self.assertEqual(args.run_artifact_dir, '/tmp/poster-run-a')
+
+    def test_parse_arguments_accepts_codex_home_dir(self):
+        with patch('sys.argv', [
+            'poster.py',
+            '--location', 'Sample County, Oklahoma',
+            '--codex-home-dir', '/tmp/codex-home-a',
+        ]):
+            args = parse_arguments()
+        self.assertEqual(args.codex_home_dir, '/tmp/codex-home-a')
+
+    def test_parse_arguments_accepts_codex_output_slot(self):
+        with patch('sys.argv', [
+            'poster.py',
+            '--location', 'Sample County, Oklahoma',
+            '--codex-output-slot', '2',
+        ]):
+            args = parse_arguments()
+        self.assertEqual(args.codex_output_slot, 2)
 
     def test_parse_arguments_accepts_min_muni_population_for_municipality_run(self):
         with patch('sys.argv', [
@@ -169,6 +213,240 @@ class WikipediaClientTests(unittest.TestCase):
             [call.args[0] for call in process_state_batch.call_args_list],
             ['CO', 'CT'],
         )
+
+    def test_main_sets_claude_limit_reset_env_when_requested(self):
+        args = Mock(
+            model='claude-sonnet-4-6',
+            run_artifact_dir=None,
+            wait_for_claude_limit_reset=True,
+            skip_logged_successes=False,
+            municipality=None,
+            place_fips=None,
+            state_postal='OK',
+            state_postals=['OK'],
+            municipality_type=None,
+            start_county_fips=None,
+            start_muni_fips=None,
+        )
+        client = Mock()
+
+        with patch.dict(os.environ, {}, clear=False):
+            with patch.object(poster, 'parse_arguments', return_value=args):
+                with patch.object(poster, 'WikipediaClient', return_value=client):
+                    with patch.object(poster, 'process_state_batch'):
+                        main()
+
+            self.assertEqual(
+                os.environ.get(CLAUDE_CODE_WAIT_FOR_LIMIT_RESET_ENV),
+                '1',
+            )
+
+    def test_main_sets_run_artifact_dir_env_when_requested(self):
+        args = Mock(
+            model=None,
+            run_artifact_dir='/tmp/poster-run-b',
+            codex_home_dir=None,
+            codex_output_slot=None,
+            wait_for_claude_limit_reset=False,
+            skip_logged_successes=False,
+            municipality=None,
+            place_fips=None,
+            state_postal='OK',
+            state_postals=['OK'],
+            municipality_type=None,
+            start_county_fips=None,
+            start_muni_fips=None,
+        )
+        client = Mock()
+
+        with patch.dict(os.environ, {}, clear=False):
+            with patch.object(poster, 'parse_arguments', return_value=args):
+                with patch.object(poster, 'WikipediaClient', return_value=client):
+                    with patch.object(poster, 'process_state_batch'):
+                        main()
+
+            self.assertEqual(
+                os.environ.get(RUN_ARTIFACT_DIR_ENV),
+                '/tmp/poster-run-b',
+            )
+
+    def test_main_sets_codex_home_env_when_requested(self):
+        args = Mock(
+            model=None,
+            run_artifact_dir=None,
+            codex_home_dir='/tmp/codex-home-b',
+            codex_output_slot=None,
+            wait_for_claude_limit_reset=False,
+            skip_logged_successes=False,
+            municipality=None,
+            place_fips=None,
+            state_postal='OK',
+            state_postals=['OK'],
+            municipality_type=None,
+            start_county_fips=None,
+            start_muni_fips=None,
+        )
+        client = Mock()
+
+        with patch.dict(os.environ, {}, clear=False):
+            with patch.object(poster, 'parse_arguments', return_value=args):
+                with patch.object(poster, 'WikipediaClient', return_value=client):
+                    with patch.object(poster, 'process_state_batch'):
+                        main()
+
+            self.assertEqual(
+                os.environ.get("CODEX_HOME"),
+                '/tmp/codex-home-b',
+            )
+
+    def test_main_sets_codex_output_slot_env_when_requested(self):
+        args = Mock(
+            model=None,
+            run_artifact_dir=None,
+            codex_home_dir=None,
+            codex_output_slot=2,
+            wait_for_claude_limit_reset=False,
+            skip_logged_successes=False,
+            municipality=None,
+            place_fips=None,
+            state_postal='OK',
+            state_postals=['OK'],
+            municipality_type=None,
+            start_county_fips=None,
+            start_muni_fips=None,
+        )
+        client = Mock()
+
+        with patch.dict(os.environ, {}, clear=False):
+            with patch.object(poster, 'parse_arguments', return_value=args):
+                with patch.object(poster, 'WikipediaClient', return_value=client):
+                    with patch.object(poster, 'process_state_batch'):
+                        main()
+
+            self.assertEqual(
+                os.environ.get(CODEX_OUTPUT_SLOT_ENV),
+                '2',
+            )
+
+    def test_parse_arguments_accepts_supported_new_model(self):
+        with patch('sys.argv', [
+            'poster.py',
+            '--location', 'Coal County, Oklahoma',
+            '--model', 'gpt-5.4',
+        ]):
+            args = parse_arguments()
+        self.assertEqual(args.model, 'gpt-5.4')
+
+    def test_parse_arguments_accepts_claude_cli_haiku_alias(self):
+        with patch('sys.argv', [
+            'poster.py',
+            '--location', 'Coal County, Oklahoma',
+            '--model', 'haiku',
+        ]):
+            args = parse_arguments()
+        self.assertEqual(args.model, 'haiku')
+
+    def test_main_uses_mini_prompt_for_mini_models(self):
+        args = Mock(
+            model='gpt-5.4-mini',
+            skip_logged_successes=False,
+            municipality=None,
+            place_fips=None,
+            state_postal='OK',
+            state_postals=['OK'],
+            municipality_type=None,
+            start_county_fips=None,
+            start_muni_fips=None,
+        )
+        client = Mock()
+
+        with patch.object(poster, 'parse_arguments', return_value=args):
+            with patch.object(poster, 'WikipediaClient', return_value=client):
+                with patch.object(poster, 'process_state_batch') as process_state_batch:
+                    main()
+
+        self.assertEqual(process_state_batch.call_args.args[3], True)
+
+    def test_process_municipality_batch_accepts_all_types(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            city_dir = root / "CA" / "city"
+            town_dir = root / "CA" / "town"
+            city_dir.mkdir(parents=True, exist_ok=True)
+            town_dir.mkdir(parents=True, exist_ok=True)
+            (city_dir / "places.json").write_text(
+                json.dumps(
+                    {
+                        "Alpha, California": {
+                            "state": "06",
+                            "place": "00100",
+                            "population": "100",
+                        }
+                    }
+                ),
+                encoding="utf-8",
+            )
+            (town_dir / "places.json").write_text(
+                json.dumps(
+                    {
+                        "Beta, California": {
+                            "state": "06",
+                            "place": "00200",
+                            "population": "200",
+                        }
+                    }
+                ),
+                encoding="utf-8",
+            )
+
+            args = Mock(min_muni_population=None, max_muni_population=None)
+            calls = []
+
+            def fake_process(
+                article_title,
+                state_fips,
+                place_fips,
+                args,
+                client,
+                use_mini_prompt,
+                skip_successful_articles=None,
+                location_kind="county",
+                expected_muni_type=None,
+                expected_mapper_population=None,
+                use_population_ballpark_check=False,
+            ):
+                calls.append(
+                    (
+                        article_title,
+                        state_fips,
+                        place_fips,
+                        expected_muni_type,
+                        expected_mapper_population,
+                        use_population_ballpark_check,
+                    )
+                )
+
+            with patch.object(poster, "MUNICIPALITY_FIPS_DIR", root):
+                with patch.object(
+                    poster,
+                    "process_single_article_with_retries",
+                    side_effect=fake_process,
+                ):
+                    poster.process_municipality_batch(
+                        "CA",
+                        "ALL",
+                        client=None,
+                        args=args,
+                        use_mini_prompt=False,
+                    )
+
+            self.assertEqual(
+                calls,
+                [
+                    ("Alpha,_California", "06", "00100", "city", 100, True),
+                    ("Beta,_California", "06", "00200", "town", 200, True),
+                ],
+            )
 
     def test_build_edit_summary_uses_custom_when_not_manual(self):
         summary = _build_edit_summary('Custom 2020 census update', manual_review=False)

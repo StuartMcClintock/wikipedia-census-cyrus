@@ -4,7 +4,13 @@ Acts as an interface between poster.py and the actual LLM backends.
 """
 
 import os
-from constants import DEFAULT_CODEX_MODEL, codex_models, openai_gpt_models, anthropic_models
+from constants import (
+    DEFAULT_CODEX_MODEL,
+    codex_models,
+    openai_gpt_models,
+    anthropic_models,
+    claude_code_models,
+)
 
 
 def _get_backend_module():
@@ -23,9 +29,13 @@ def _get_backend_module():
     elif active_model in anthropic_models:
         from llm_backends.claude_haiku import claude_haiku
         return claude_haiku
+    elif active_model in claude_code_models:
+        from llm_backends.claude_code import claude_code
+        return claude_code
     else:
         raise ValueError(
-            f"Unknown model '{active_model}'. Must be one of {codex_models + openai_gpt_models + anthropic_models}"
+            f"Unknown model '{active_model}'. Must be one of "
+            f"{codex_models + openai_gpt_models + anthropic_models + claude_code_models}"
         )
 
 
