@@ -19,7 +19,7 @@ except Exception:  # pragma: no cover - optional import guard for non-OpenAI run
 from app_logging.logger import LOG_DIR, log_edit_article
 from census_api.constants import PL_ENDPOINT, CITATION_DETAILS
 from credentials import *  # WP_BOT_USER_NAME, WP_BOT_PASSWORD, WP_BOT_USER_AGENT, CENSUS_KEY
-from llm_frontend import update_lede
+from llm_frontend import ENABLE_TASK_MODEL_ROUTING_ENV, update_lede
 from llm_backends.claude_code.claude_code import (
     CLAUDE_CODE_WAIT_FOR_LIMIT_RESET_ENV,
 )
@@ -785,6 +785,14 @@ def parse_arguments():
         help=f"Override the model (default: {DEFAULT_CODEX_MODEL}).",
     )
     parser.add_argument(
+        "--enable-model-routing",
+        action="store_true",
+        help=(
+            "Enable task-based model routing so lightweight checks can use a faster "
+            "model while heavier article updates stay on the selected model path."
+        ),
+    )
+    parser.add_argument(
         "--start-muni-fips",
         help=(
             "When used with --state-postal and --municipality-type, start processing at "
@@ -818,10 +826,11 @@ def parse_arguments():
     parser.add_argument(
         "--codex-output-slot",
         type=int,
-        choices=(1, 2),
+        choices=(1, 2, 3),
         help=(
             "Select which fixed Codex scratch/output file set to use in the trusted "
-            "repo workspace. Slot 2 uses alternate filenames like codex_out_2.txt."
+            "repo workspace. Slots 2 and 3 use alternate filenames like "
+            "codex_out_2.txt and codex_out_3.txt."
         ),
     )
     parser.add_argument(
@@ -899,6 +908,10 @@ def main():
     args = parse_arguments()
     if args.model:
         os.environ["ACTIVE_MODEL"] = args.model
+    if getattr(args, "enable_model_routing", False) is True:
+        os.environ[ENABLE_TASK_MODEL_ROUTING_ENV] = "1"
+    else:
+        os.environ.pop(ENABLE_TASK_MODEL_ROUTING_ENV, None)
     run_artifact_dir = getattr(args, "run_artifact_dir", None)
     if isinstance(run_artifact_dir, str) and run_artifact_dir:
         os.environ[RUN_ARTIFACT_DIR_ENV] = run_artifact_dir

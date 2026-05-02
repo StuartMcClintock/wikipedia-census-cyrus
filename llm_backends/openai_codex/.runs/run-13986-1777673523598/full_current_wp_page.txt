@@ -1,0 +1,313 @@
+{{Short description|Census-designated place in Alaska, United States}}
+{{Use American English|date=July 2025}}
+{{Use mdy dates|date=April 2024}}
+{{Infobox settlement
+|official_name            = Alcan Border, Alaska
+|settlement_type          = [[Census-designated place|CDP]]
+|nickname                 = 
+|motto                    =
+
+<!-- Images -->
+|image_skyline            = File:Portalcan.jpg
+|imagesize                = 240px
+|image_caption            = The [[Canada–United States border]] crossing at Alcan Border
+|image_flag               = 
+|image_seal               =
+
+<!-- Maps -->
+||pushpin_map            = Alaska
+|pushpin_label_position = left <!-- the position of the pushpin label: left, right, top, bottom, none -->
+|pushpin_map_caption    = Location within the state of Alaska
+|pushpin_mapsize        = 
+|image_map                =  
+|mapsize                  = 
+|map_caption              = 
+|image_map1               = 
+|mapsize1                 = 
+|map_caption1             =
+
+<!-- Location -->
+|subdivision_type         = Country
+|subdivision_name         = [[United States]]
+|subdivision_type1        = [[U.S. state|State]]
+|subdivision_name1        = [[Alaska]]
+|subdivision_type2        = [[List of boroughs and census areas in Alaska|Census Area]]
+|subdivision_name2        = [[Southeast Fairbanks Census Area, Alaska|Southeast Fairbanks]]
+|government_footnotes     = 
+|government_type          = 
+|leader_title             = [[Alaska Senate|State senator]]
+|leader_name              = [[Click Bishop]] ([[Republican Party (United States)|R]])
+|leader_title1            = [[Alaska House of Representatives|State rep.]]
+|leader_name1             = [[Mike Cronk]] (R)
+|established_title        = 
+|established_date         =
+
+<!-- Area -->
+|area_magnitude           = 
+|area_footnotes           = <ref name="CenPopGazetteer2020">{{cite web|title=2020 U.S. Gazetteer Files|url=https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2020_Gazetteer/2020_gaz_place_02.txt|publisher=United States Census Bureau|accessdate=October 29, 2021}}</ref>
+|area_total_km2           = 395.25
+|area_land_km2            = 393.01
+|area_water_km2           = 2.24
+|area_total_sq_mi         = 152.61
+|area_land_sq_mi          = 151.74
+|area_water_sq_mi         = 0.86
+
+<!-- Population -->
+|population_as_of         = [[2020 United States census|2020]]
+|population_footnotes     = 
+|population_total         = 36
+
+<!-- General information -->
+|timezone                 = [[Alaska Time Zone|Alaska (AKST)]]
+|utc_offset               = -9
+|timezone_DST             = AKDT
+|utc_offset_DST           = -8
+|elevation_footnotes      = 
+|elevation_m              = 
+|elevation_ft             = 
+|coordinates              = {{coord|62|41|35|N|141|11|56|W|region:US-AK|display=inline}}
+|postal_code_type                = [[ZIP code]]
+|postal_code              = 99780<ref>{{cite web|url=https://www.zipdatamaps.com/99780|title=Alcan Border AK ZIP Code|publisher=zipdatamaps.com|year=2023|access-date=June 16, 2023}}</ref>
+|area_code                = [[Area code 907|907]]
+|blank_name               = [[Federal Information Processing Standard|FIPS code]]
+|blank_info               = 02-01390
+|blank1_name              = 
+|blank1_info              = 
+|website                  = 
+|footnotes                = 
+|pop_est_as_of = 
+|pop_est_footnotes = 
+|population_est = 
+|unit_pref = Imperial
+|population_density_sq_mi = 0.24
+|population_density_km2 = 0.09
+}}
+'''Alcan Border''', also known as '''Port Alcan''', is a [[census-designated place]] in the [[Southeast Fairbanks Census Area, Alaska|Southeast Fairbanks Census Area]] in the U.S. state of [[Alaska]]. Part of the [[Unorganized Borough]], Alcan Border is the site of the [[Alcan - Beaver Creek Border Crossing]], the main U.S. [[port of entry]] for people arriving in Alaska by road. As of the [[2020 United States census|2020 census]], Alcan Border had a population of 36.<ref name="Census2020PLLede">{{cite web|title=2020 Decennial Census Redistricting Data (Public Law 94-171)|url=https://api.census.gov/data/2020/dec/pl?get=NAME%2CP1_001N&for=place%3A01390&in=state%3A02|website=United States Census Bureau|year=2021|access-date=March 6, 2026|df=mdy}}</ref>
+==Location and climate==
+Alcan Border is located at {{coord|62|39|42|N|141|9|40|W|type:city_region:US-AK|display=inline,title}} (Sec. 04, T026N, R022E, Copper River Meridian) in the Fairbanks [[Recording District (Alaska)|Recording District]]. It is just inside the Alaska-[[Canada]] border, southeast of [[Northway, Alaska|Northway]] and northwest of [[Beaver Creek, Yukon]], along the [[Alaska Highway]].
+
+Alcan Border has a dry-winter [[continental subarctic climate]] ([[Köppen climate classification|Köppen]] ''Dwc'').
+
+According to the [[United States Census Bureau]], the CDP has a total area of {{convert|148.6|sqmi|km2}}, of which {{convert|147.9|sqmi|km2}} is land and {{convert|0.7|sqmi|km2}} (0.50%) is water.
+
+{{Weather box
+|location = Port Alcan, Alaska, 1991–2020 normals, extremes 1985–present
+|single line = Yes
+
+|Jan record high F = 45
+|Feb record high F = 47
+|Mar record high F = 52
+|Apr record high F = 70
+|May record high F = 82
+|Jun record high F = 88
+|Jul record high F = 94
+|Aug record high F = 89
+|Sep record high F = 78
+|Oct record high F = 60
+|Nov record high F = 44
+|Dec record high F = 55
+
+|Jan avg record high F = 20.4
+|Feb avg record high F = 26.5
+|Mar avg record high F = 42.5
+|Apr avg record high F = 56.4
+|May avg record high F = 73.9
+|Jun avg record high F = 80.6
+|Jul avg record high F = 80.7
+|Aug avg record high F = 78.3
+|Sep avg record high F = 67.1
+|Oct avg record high F = 50.9
+|Nov avg record high F = 25.7
+|Dec avg record high F = 20.7
+|year avg record high F = 82.9
+
+|Jan high F = -5.3
+|Feb high F = 6.1
+|Mar high F = 22.9
+|Apr high F = 42.8
+|May high F = 57.9
+|Jun high F = 67.0
+|Jul high F = 69.3
+|Aug high F = 65.0
+|Sep high F = 52.9
+|Oct high F = 31.0
+|Nov high F = 7.5
+|Dec high F = -2.4
+|year high F =
+
+|Jan mean F = -12.1
+|Feb mean F = -3.4
+|Mar mean F = 8.4
+|Apr mean F = 29.7
+|May mean F = 45.6
+|Jun mean F = 55.3
+|Jul mean F = 57.9
+|Aug mean F = 53.0
+|Sep mean F = 41.5
+|Oct mean F = 22.6
+|Nov mean F = 0.3
+|Dec mean F = -9.3
+|year mean F =
+
+|Jan low F = -19.0
+|Feb low F = -12.9
+|Mar low F = -6.0
+|Apr low F = 16.7
+|May low F = 33.2
+|Jun low F = 43.6
+|Jul low F = 46.6
+|Aug low F = 41.0
+|Sep low F = 30.2
+|Oct low F = 14.3
+|Nov low F = -7.0
+|Dec low F = -16.1
+|year low F =
+
+|Jan avg record low F = -41.7
+|Feb avg record low F = -37.5
+|Mar avg record low F = -28.5
+|Apr avg record low F = -1.8
+|May avg record low F = 22.1
+|Jun avg record low F = 33.0
+|Jul avg record low F = 37.7
+|Aug avg record low F = 31.1
+|Sep avg record low F = 19.1
+|Oct avg record low F = -1.9
+|Nov avg record low F = -27.9
+|Dec avg record low F = -34.4
+|year avg record low F = -46.9
+
+|Jan record low F = -55
+|Feb record low F = -56
+|Mar record low F = -49
+|Apr record low F = -29
+|May record low F = 10
+|Jun record low F = 26
+|Jul record low F = 32
+|Aug record low F = 24
+|Sep record low F = 0
+|Oct record low F = -26
+|Nov record low F = -47
+|Dec record low F = -52
+
+|precipitation colour = green
+|Jan precipitation inch = 0.26
+|Feb precipitation inch = 0.26
+|Mar precipitation inch = 0.14
+|Apr precipitation inch = 0.21
+|May precipitation inch = 0.88
+|Jun precipitation inch = 2.23
+|Jul precipitation inch = 2.71
+|Aug precipitation inch = 1.73
+|Sep precipitation inch = 1.02
+|Oct precipitation inch = 0.51
+|Nov precipitation inch = 0.65
+|Dec precipitation inch = 0.39
+|year precipitation inch =
+
+|unit precipitation days = 0.01 in
+|Jan precipitation days = 3.7
+|Feb precipitation days = 3.1
+|Mar precipitation days = 2.3
+|Apr precipitation days = 2.4
+|May precipitation days = 5.7
+|Jun precipitation days = 12.5
+|Jul precipitation days = 13.0
+|Aug precipitation days = 11.0
+|Sep precipitation days = 8.0
+|Oct precipitation days = 5.4
+|Nov precipitation days = 5.6
+|Dec precipitation days = 4.6
+
+|Jan snow inch = 3.5
+|Feb snow inch = 2.9
+|Mar snow inch = 3.0
+|Apr snow inch = 0.9
+|May snow inch = 0.7
+|Jun snow inch = 0.0
+|Jul snow inch = 0.0
+|Aug snow inch = 0.0
+|Sep snow inch = 0.5
+|Oct snow inch = 4.1
+|Nov snow inch = 7.1
+|Dec snow inch = 4.7
+|year snow inch =
+
+|unit snow days = 0.1 in
+|Jan snow days = 3.9
+|Feb snow days = 3.1
+|Mar snow days = 2.4
+|Apr snow days = 1.1
+|May snow days = 0.5
+|Jun snow days = 0.0
+|Jul snow days = 0.0
+|Aug snow days = 0.0
+|Sep snow days = 0.6
+|Oct snow days = 4.1
+|Nov snow days = 5.3
+|Dec snow days = 4.4
+
+|source 1 = NOAA<ref name = NOAA>
+{{cite web
+|url = https://www.ncei.noaa.gov/access/services/data/v1?dataset=normals-monthly-1991-2020&stations=USC00507513&format=pdf&dataTypes=MLY-TMAX-NORMAL,MLY-TMIN-NORMAL,MLY-TAVG-NORMAL,MLY-PRCP-NORMAL,MLY-SNOW-NORMAL
+|publisher = National Oceanic and Atmospheric Administration
+|title = U.S. Climate Normals Quick Access – Station: Port Alcan, AK
+|access-date = February 21, 2023
+}}
+</ref>
+|source 2 = National Weather Service (mean maxima/minima 2006&ndash;2020)<ref name = NOWData>
+{{cite web
+|url = https://www.weather.gov/wrh/climate?wfo=afg
+|publisher = National Weather Service
+|title = NOAA Online Weather Data – NWS Fairbanks
+|access-date = February 21, 2023
+}}
+</ref>
+}}
+
+==History, culture and demographics==
+{{US Census population
+|align=left
+|1990= 27
+|2000= 21
+|2010= 33
+|2020= 36
+|align-fn=center
+|footnote=U.S. Decennial Census<ref>{{cite web|url=https://www.census.gov/programs-surveys/decennial-census.html|title=U.S. Decennial Census|publisher=Census.gov|accessdate=June 6, 2013}}</ref>
+}}
+Alcan Border first appeared on the 1990 U.S. Census as the census-designated place (CDP) of "Alcan."<ref>[https://www.census.gov/prod/cen1990/cph5/cph-5-3.pdf Census data] census.gov</ref> The name was changed to Alcan Border with the 2000 census.<ref>{{Cite web |url=https://www.census.gov/prod/cen2000/phc-1-3.pdf |title=2000 Census of Population and Housing - Alaska |author=U.S. Census Bureau |access-date=October 13, 2019 |archive-date=March 18, 2021 |archive-url=https://web.archive.org/web/20210318011024/https://www.census.gov/prod/cen2000/phc-1-3.pdf |url-status=dead }}</ref>
+
+The name is derived from the Alaska-Canadian (Alcan) highway, now the [[Alaska Highway]], and the fact that its eastern boundary (as defined by the Census Bureau) is the [[Yukon]] Territory, [[Canada]] border.
+
+The Alcan community consists of families employed by federal customs at the entry point into the U.S. and Alaska from Canada. Students attend school in Northway or are home-schooled through correspondence study. During the 2000 U.S. Census, total housing units numbered 13, and vacant housing units numbered 4. Vacant housing units used only seasonally numbered 2.  Census data showed 11 residents as employed. The unemployment rate at that time was 0 percent, although 35.29 percent of all adults were not in the work force. The median household income was $65,000, per capita income was $21,938, and 0 percent of residents were living below the poverty level.
+
+As of the [[census]]<ref name="GR2">{{cite web|url=https://www.census.gov |publisher=[[United States Census Bureau]] |accessdate=January 31, 2008 |title=U.S. Census website }}</ref> of 2000, there were 21 people, 9 households, and 6 families residing in the CDP. The population density was {{convert|0.1|PD/sqmi|PD/km2|sp=us|adj=off}}. There were 13 housing units at an average density of {{convert|0.1|/sqmi|/km2|sp=us|adj=off}}. The racial makeup of the CDP was 66.67% [[Race (United States Census)|White]], 23.81% [[Race (United States Census)|Native American]], 4.76% [[Race (United States Census)|Asian]], 4.76% from [[Race (United States Census)|other races]]. 9.52% of the population were [[Race (United States Census)|Hispanic]] or [[Race (United States Census)|Latino]] of any race.
+
+There were 9 households, out of which 33.3% had children under the age of 18 living with them, 66.7% were [[Marriage|married couples]] living together, and 33.3% were non-families. 33.3% of all households were made up of individuals, and none had someone living alone who was 65 years of age or older. The average household size was 2.33 and the average family size was 3.00.
+
+In the CDP, the population was spread out, with 28.6% under the age of 18, 33.3% from 25 to 44, and 38.1% from 45 to 64. The median age was 35 years.
+
+The median income for a household in the CDP was $65,000, and the median income for a family was $87,041. Males had a median income of $77,036 versus $0 for females. The [[per capita income]] for the CDP was $21,938. None of the population and none of the families were below the [[poverty line]].
+
+==Facilities and infrastructure==
+Alcan residents derive water from a piped community well system and individual wells. Approximately 60% of the homes have complete plumbing. A piped community sewage system serves the majority of households, and outhouses or individual septic tanks are also used. A central generator distributes electrical power. Electricity is provided by Alaska Power & Telephone. There are no state operated schools in the community. The nearest healthcare facilities are in  [[Northway, Alaska|Northway]] or [[Tok, Alaska|Tok]]. Alcan is classified as an isolated village, it is found in EMS Region 1C in the Interior Region. Emergency services have highway and air access. Emergency service is provided by volunteers.
+
+Alcan Border is part of the [[Alaska Gateway School District]]. Walter Northway School, a K-12 campus, serves community students.
+
+Alaska does not have a [[state sales tax]] and Alcan Border is in the [[Unorganized Borough]] and therefore has no local tax authority.
+
+==References==
+{{reflist}}
+
+==External links==
+{{Portal|Alaska|Politics}}
+* [https://www.commerce.alaska.gov/dcra/DCRAExternal/community/Details/659d30fc-23d2-41bb-811e-ada67194df1b Alcan Border] {{Webarchive|url=https://web.archive.org/web/20161225185950/https://www.commerce.alaska.gov/dcra/DCRAExternal/community/Details/659d30fc-23d2-41bb-811e-ada67194df1b |date=December 25, 2016 }} at the Community Database Online from the [[Alaska Department of Commerce, Community and Economic Development|Alaska Division of Community and Regional Affairs]]
+* Maps from the [[Alaska Department of Labor and Workforce Development]]: [https://web.archive.org/web/20160304195548/http://labor.alaska.gov/research/census/placemaps/01390.pdf 2010]
+
+{{Southeast Fairbanks Census Area, Alaska}}
+
+{{authority control}}
+
+[[Category:Census-designated places in Alaska]]
+[[Category:Census-designated places in Southeast Fairbanks Census Area, Alaska]]
+[[Category:Census-designated places in Unorganized Borough, Alaska]]

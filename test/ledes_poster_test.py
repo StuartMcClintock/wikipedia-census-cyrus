@@ -19,6 +19,7 @@ from ledes_poster import (
     process_municipality_batch,
     process_single_article_with_retries,
 )
+from llm_frontend import ENABLE_TASK_MODEL_ROUTING_ENV
 from llm_backends.claude_code.claude_code import (
     CLAUDE_CODE_WAIT_FOR_LIMIT_RESET_ENV,
 )
@@ -232,10 +233,20 @@ class LedesPosterTests(unittest.TestCase):
             'ledes_poster.py',
             '--state-postal', 'OR',
             '--municipality-type', 'city',
-            '--codex-output-slot', '2',
+            '--codex-output-slot', '3',
         ]):
             args = parse_arguments()
-        self.assertEqual(args.codex_output_slot, 2)
+        self.assertEqual(args.codex_output_slot, 3)
+
+    def test_parse_arguments_accepts_enable_model_routing(self):
+        with patch('sys.argv', [
+            'ledes_poster.py',
+            '--state-postal', 'OR',
+            '--municipality-type', 'city',
+            '--enable-model-routing',
+        ]):
+            args = parse_arguments()
+        self.assertTrue(args.enable_model_routing)
 
     def test_main_uses_filtered_state_postals(self):
         args = Mock(
@@ -348,7 +359,7 @@ class LedesPosterTests(unittest.TestCase):
             model=None,
             run_artifact_dir=None,
             codex_home_dir=None,
-            codex_output_slot=2,
+            codex_output_slot=3,
             wait_for_claude_limit_reset=False,
             skip_logged_successes=False,
             state_postal='OR',
@@ -368,7 +379,36 @@ class LedesPosterTests(unittest.TestCase):
 
             self.assertEqual(
                 os.environ.get(CODEX_OUTPUT_SLOT_ENV),
-                '2',
+                '3',
+            )
+
+    def test_main_sets_model_routing_env_when_requested(self):
+        args = Mock(
+            model=None,
+            enable_model_routing=True,
+            run_artifact_dir=None,
+            codex_home_dir=None,
+            codex_output_slot=None,
+            wait_for_claude_limit_reset=False,
+            skip_logged_successes=False,
+            state_postal='OR',
+            state_postals=['OR'],
+            municipality_type='city',
+            start_muni_fips=None,
+            municipality=None,
+            place_fips=None,
+        )
+        client = Mock()
+
+        with patch.dict(os.environ, {}, clear=False):
+            with patch.object(ledes_poster, 'parse_arguments', return_value=args):
+                with patch.object(ledes_poster, 'WikipediaClient', return_value=client):
+                    with patch.object(ledes_poster, 'process_municipality_batch'):
+                        main()
+
+            self.assertEqual(
+                os.environ.get(ENABLE_TASK_MODEL_ROUTING_ENV),
+                '1',
             )
 
 

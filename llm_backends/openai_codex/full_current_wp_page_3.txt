@@ -1,0 +1,122 @@
+{{Use American English|date=June 2025}}
+{{Use mdy dates|date=July 2023}}
+{{Infobox settlement
+|official_name            = Spiritwood Lake
+|settlement_type          = [[City]]
+|nickname                 = 
+|motto                    = 
+<!-- Images --------------->
+|image_skyline            = Sign in Spiritwood Lake, North Dakota 6-9-2008.jpg
+|imagesize                = 
+|image_caption            = Sign in Spiritwood Lake
+|image_flag               = 
+|image_seal               = 
+<!-- Maps ----------------->
+|image_map                = ND Stutsman County Spiritwood Lake.svg
+|mapsize                  = 250px
+|map_caption              = Location of Spiritwood Lake, North Dakota
+|image_map1               = 
+|mapsize1                 = 
+|map_caption1             = 
+<!-- Location ------------->
+|subdivision_type         = Country
+|subdivision_name         = United States
+|subdivision_type1        = [[U.S. state|State]]
+|subdivision_name1        = [[North Dakota]]
+|subdivision_type2        = [[List of counties in North Dakota|County]]
+|subdivision_name2        = [[Stutsman County, North Dakota|Stutsman]]
+<!-- Government ----------->
+|government_footnotes     = 
+|government_type          = 
+|leader_title             = 
+|leader_name              = 
+|leader_title1            = 
+|leader_name1             = 
+|established_title        = Founded
+|established_date         = 1873
+|established_title1       = [[Municipal corporation|Incorporated]]
+|established_date1        = October 1, 1935
+<!-- Area ----------------->
+|unit_pref                = Imperial
+|area_footnotes           = <ref name="TigerWebMapServer">{{cite web|title=ArcGIS REST Services Directory|url=https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Places_CouSub_ConCity_SubMCD/MapServer|publisher=United States Census Bureau|accessdate=September 20, 2022}}</ref>
+|area_magnitude           = 
+|area_total_km2           = 4.83
+|area_land_km2            = 2.96
+|area_water_km2           = 1.87
+|area_total_sq_mi         = 1.86
+|area_land_sq_mi          = 1.14
+|area_water_sq_mi         = 0.72
+<!-- Population ----------->
+|population_as_of         = [[2020 United States census|2020]]
+|population_est           = 92
+|pop_est_as_of            = 2022
+|pop_est_footnotes        = <ref name="USCensusEst2022"/>
+|population_footnotes     = <ref name="2020 Census (City)"/>
+|population_total         = 97
+|population_density_km2   = 32.82
+|population_density_sq_mi = 85.01
+<!-- General information -->
+|timezone                 = [[Central Time Zone|Central (CST)]]
+|utc_offset               = -6
+|timezone_DST             = CDT
+|utc_offset_DST           = -5
+|elevation_footnotes      = <ref name=gnis/>
+|elevation_m              = 437
+|elevation_ft             = 1434
+|coordinates              = {{coord|47|04|28|N|98|35|12|W|region:US_type:city|display=inline,title}}
+|postal_code_type         = [[ZIP code]]
+|postal_code              = 58401
+|area_code                = [[Area code 701|701]]
+|blank_name               = [[Federal Information Processing Standard|FIPS code]]
+|blank_info               = 38-74740
+|blank1_name              = [[Geographic Names Information System|GNIS]] feature ID
+|blank1_info              = 1036282<ref name=gnis>{{GNIS|1036282}}</ref>
+|website                  = 
+|footnotes                = 
+}}
+
+'''Spiritwood Lake''' is a city in [[Stutsman County, North Dakota|Stutsman County]], [[North Dakota]], United States. The population was 97 at the [[2020 United States census|2020 census]].<ref name="2020 Census (City)">{{cite web|title=Explore Census Data |url=https://data.census.gov/profile/Spiritwood_Lake_city,_North_Dakota?g=160XX00US3874740 |publisher=[[United States Census Bureau]] |access-date=December 14, 2023}}</ref>
+
+==Geography==
+According to the [[United States Census Bureau]], the city has a total area of {{convert|1.79|sqmi|sqkm|2}}, of which {{convert|1.07|sqmi|sqkm|2}} is land and {{convert|0.72|sqmi|sqkm|2}} is water.<ref name="Gazetteer files">{{cite web|title=US Gazetteer files 2010|url=https://www.census.gov/geo/www/gazetteer/files/Gaz_places_national.txt|publisher=[[United States Census Bureau]]|access-date=June 14, 2012|url-status=dead|archive-url=https://web.archive.org/web/20120125061959/http://www.census.gov/geo/www/gazetteer/files/Gaz_places_national.txt|archive-date=January 25, 2012}}</ref>
+
+==Demographics==
+{{US Census population
+|1880= 50
+|1980= 50
+|1990= 61
+|2000= 72
+|2010= 90
+|2020= 97
+|estyear=2022
+|estimate=92
+|estref=<ref name="USCensusEst2022">{{cite web|url=https://www.census.gov/data/tables/time-series/demo/popest/2020s-total-cities-and-towns.html |date=December 14, 2023|title=City and Town Population Totals: 2020-2022|publisher=United States Census Bureau|accessdate=December 14, 2023}}</ref>
+|align-fn=center
+|footnote=U.S. Decennial Census<ref>{{cite web|url=https://www.census.gov/programs-surveys/decennial-census.html|title=Census of Population and Housing|author=United States Census Bureau|author-link=United States Census Bureau|accessdate=October 31, 2013}}</ref><br/>2020 Census<ref name="2020 Census (City)"/>
+}}
+
+===2010 census===
+As of the [[census]] of 2010, there were 90 people, 40 households, and 33 families residing in the city. The [[population density]] was {{convert|84.1|PD/sqmi|PD/km2|1}}. There were 99 housing units at an average density of {{convert|92.5|/sqmi|/km2|1}}. The racial makeup of the city was 100.0% [[White (U.S. Census)|White]].
+
+There were 40 households, of which 20.0% had children under the age of 18 living with them, 77.5% were [[Marriage|married couples]] living together, 5.0% had a female householder with no husband present, and 17.5% were non-families. 17.5% of all households were made up of individuals, and 10% had someone living alone who was 65 years of age or older. The average household size was 2.25 and the average family size was 2.48.
+
+The median age in the city was 55.3 years. 12.2% of residents were under the age of 18; 4.4% were between the ages of 18 and 24; 17.7% were from 25 to 44; 37.7% were from 45 to 64; and 27.8% were 65 years of age or older. The gender makeup of the city was 50.0% male and 50.0% female.
+
+===2000 census===
+As of the [[census]] of 2000, there were 72 people, 31 households, and 23 families residing in the city. The population density was {{convert|66.5|PD/sqmi|PD/km2|sp=us|adj=off}}. There were 63 housing units at an average density of {{convert|58.2|/sqmi|/km2|sp=us|adj=off}}. The racial makeup of the city was 100.00% [[White (U.S. Census)|White]].
+
+There were 31 households, out of which 25.8% had children under the age of 18 living with them, 74.2% were [[Marriage|married couples]] living together, 3.2% had a female householder with no husband present, and 22.6% were non-families. 19.4% of all households were made up of individuals, and 6.5% had someone living alone who was 65 years of age or older. The average household size was 2.32 and the average family size was 2.67.
+
+In the city, the population was spread out, with 19.4% under the age of 18, 1.4% from 18 to 24, 25.0% from 25 to 44, 37.5% from 45 to 64, and 16.7% who were 65 years of age or older. The median age was 47 years. For every 100 females, there were 125.0 males. For every 100 females age 18 and over, there were 114.8 males.
+
+The median income for a household in the city was $43,500, and the median income for a family was $45,625. Males had a median income of $22,500 versus $14,375 for females. The [[per capita income]] for the city was $24,637. None of the population and none of the families were below the [[poverty line]].
+
+==References==
+{{Reflist}}
+
+{{Stutsman County, North Dakota}}
+
+{{Authority control}}
+
+[[Category:Cities in Stutsman County, North Dakota]]
+[[Category:Cities in North Dakota]]

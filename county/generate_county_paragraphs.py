@@ -68,6 +68,13 @@ def _format_percent(value: Optional[float]) -> Optional[str]:
     return f"{value:.1f}%"
 
 
+def _coerce_float(value: Optional[object]) -> Optional[float]:
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
 def _join_phrases(parts: List[str]) -> str:
     parts = [p for p in parts if p]
     if not parts:
@@ -243,19 +250,31 @@ def _build_paragraph_two(data: Dict[str, object]) -> List[Tuple[str, Set[str]]]:
 
 def _build_paragraph_urbanization(data: Dict[str, object]) -> List[Tuple[str, Set[str]]]:
     sentences: List[Tuple[str, Set[str]]] = []
+    urban_value = _coerce_float(data.get("urban_population_percent"))
+    rural_value = _coerce_float(data.get("rural_population_percent"))
     urban_pct = _format_percent(data.get("urban_population_percent"))
     rural_pct = _format_percent(data.get("rural_population_percent"))
     if not (urban_pct or rural_pct):
         return sentences
 
-    parts = []
     keys: Set[str] = set()
     if urban_pct:
-        parts.append(f"{urban_pct} of residents lived in urban areas")
         keys.add("urban_population_percent")
     if rural_pct:
-        parts.append(f"{rural_pct} lived in rural areas")
         keys.add("rural_population_percent")
+
+    if rural_value == 100.0 and urban_value in (None, 0.0):
+        sentences.append(("All residents lived in rural areas.", keys))
+        return sentences
+    if urban_value == 100.0 and rural_value in (None, 0.0):
+        sentences.append(("All residents lived in urban areas.", keys))
+        return sentences
+
+    parts = []
+    if urban_pct:
+        parts.append(f"{urban_pct} of residents lived in urban areas")
+    if rural_pct:
+        parts.append(f"{rural_pct} lived in rural areas")
     if len(parts) == 2:
         sentences.append((f"{parts[0]}, while {parts[1]}.", keys))
     else:

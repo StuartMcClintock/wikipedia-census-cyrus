@@ -8,6 +8,7 @@ from constants import DEFAULT_CODEX_MODEL
 
 LOG_DIR = Path(__file__).resolve().parent / "logs"
 LOG_FILE = LOG_DIR / "edit.log"
+PRECOMPUTE_LOG_FILE = LOG_DIR / "precompute.log"
 
 
 def log_edit_article(
@@ -23,6 +24,27 @@ def log_edit_article(
             "article": title,
             "model": os.getenv("ACTIVE_MODEL", DEFAULT_CODEX_MODEL),
             "result": response or {},
+        }
+        with log_path.open("a", encoding="utf-8") as fh:
+            fh.write(json.dumps(entry) + "\n")
+    except Exception:
+        # Logging should never break the caller.
+        pass
+
+
+def log_precomputed_article(
+    title: str, metadata: Dict[str, Any], log_path: Path = PRECOMPUTE_LOG_FILE
+) -> None:
+    """
+    Append a log entry for a precomputed demographics section.
+    """
+    try:
+        log_path.parent.mkdir(parents=True, exist_ok=True)
+        entry = {
+            "timestamp": datetime.utcnow().isoformat() + "Z",
+            "article": title,
+            "model": os.getenv("ACTIVE_MODEL", DEFAULT_CODEX_MODEL),
+            "metadata": metadata or {},
         }
         with log_path.open("a", encoding="utf-8") as fh:
             fh.write(json.dumps(entry) + "\n")
