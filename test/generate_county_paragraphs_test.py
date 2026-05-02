@@ -236,6 +236,27 @@ class GenerateCountyParagraphsTests(unittest.TestCase):
             text,
         )
 
+    def test_all_rural_urbanization_sentence_reads_naturally(self):
+        data = {
+            "total_population": 1000,
+            "urban_population_percent": 0.0,
+            "rural_population_percent": 100.0,
+            "_dp_source_url": "dp",
+            "_pl_source_url": "pl",
+            "_dhc_source_url": "dhc",
+        }
+        with patch(
+            "county.generate_county_paragraphs.get_demographic_variables",
+            return_value=data,
+        ):
+            text = self._strip_refs(generate_county_paragraphs("20", "001"))
+
+        self.assertIn("All residents lived in rural areas.", text)
+        self.assertNotIn(
+            "0.0% of residents lived in urban areas, while 100.0% lived in rural areas.",
+            text,
+        )
+
     def test_census_link_replacements(self):
         cases = [
             (

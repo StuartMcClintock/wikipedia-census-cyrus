@@ -169,7 +169,7 @@ def _parse_wikitext(wikitext):
     """
     Parse wikitext into nested tuples keyed by headings while preserving order.
     """
-    heading_pattern = re.compile(r"^(=+)\s*(.*?)\s*\1\s*$")
+    heading_pattern = re.compile(r"^(=+)\s*(.*?)\s*\1\s*(?:<!--.*?-->\s*)*$")
     max_heading_level = 6
 
     class Section:

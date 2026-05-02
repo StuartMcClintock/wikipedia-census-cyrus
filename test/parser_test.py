@@ -209,6 +209,20 @@ As of the [[2020 United States census|2020 census]], Hoot Owl had a population o
         self.assertIn('As of the [[2020 United States census|2020 census]], Hoot Owl had a population of 0.<ref name="Census2020PL">{{cite web|', fixed)
         self.assertIn('|+ Racial composition as of the 2020 census<ref name="Census2020PL"/>', fixed)
 
+    def test_preserves_sections_with_heading_comments_after_demographics_fix(self):
+        article = """==Demographics==
+Population data  
+<ref>{{Cite web|title=Test}}</ref>
+==Parks and recreation==<!--consensus reached to standardize this heading per WP:WikiProject Cities/US Guideline -->
+Park text
+==References==
+Ref text
+"""
+        fixed = fix_demographics_section_in_article(article)
+        self.assertIn("Population data<ref>{{Cite web|title=Test}}</ref>", fixed)
+        self.assertIn("==Parks and recreation==\nPark text", fixed)
+        self.assertIn("==References==\nRef text", fixed)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -3,7 +3,9 @@ import difflib
 import json
 import os
 import re
+import signal
 import sys
+from datetime import datetime
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Set, Tuple
 import requests
@@ -16,8 +18,14 @@ from municipality.muni_type_classifier import (
     check_population_ballpark_against_history,
     determine_municipality_type,
 )
-from app_logging.logger import LOG_FILE, log_edit_article
+from app_logging.logger import (
+    LOG_FILE,
+    PRECOMPUTE_LOG_FILE,
+    log_edit_article,
+    log_precomputed_article,
+)
 from llm_frontend import (
+    ENABLE_TASK_MODEL_ROUTING_ENV,
     check_if_update_needed,
     update_demographics_section,
     update_wp_page,
@@ -33,7 +41,11 @@ from llm_backends.claude_code.claude_code import (
     ClaudeCodeUsageLimitError,
 )
 from constants import DEFAULT_CODEX_MODEL, DEFAULT_ANTHROPIC_MODEL
-from parser.parser import ParsedWikitext, fix_demographics_section_in_article
+from parser.parser import (
+    ParsedWikitext,
+    fix_demographics_section_in_article,
+    fix_demographics_section_wikitext,
+)
 from constants import get_all_model_options, is_mini_model
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -115,14 +127,202 @@ _SECTION_SENTINELS = {"__lead__", "__content__"}
 _DISABLE_RETRY_ENV = "DISABLE_COUNTY_RETRIES"
 _SUCCESS_RESULT_KEY = "Success"
 DIFF_LOG_PATH = BASE_DIR / "diffs_to_check.txt"
+PRECOMPUTED_ROOT = BASE_DIR / ".poster-runs" / "precomputed"
 DEFAULT_EDIT_SUMMARY = "Add 2020 census data"
 MANUAL_REVIEW_EDIT_SUMMARY = "Add 2020 census data (manual review)"
+_STOP_AFTER_CURRENT_ARTICLE = False
+_SIGINT_COUNT = 0
 
 
 def _build_edit_summary(custom_summary: Optional[str], manual_review: bool) -> str:
     if manual_review:
         return MANUAL_REVIEW_EDIT_SUMMARY
     return custom_summary or DEFAULT_EDIT_SUMMARY
+
+
+def _reset_interrupt_state() -> None:
+    global _STOP_AFTER_CURRENT_ARTICLE, _SIGINT_COUNT
+    _STOP_AFTER_CURRENT_ARTICLE = False
+    _SIGINT_COUNT = 0
+
+
+def _handle_sigint(signum, frame) -> None:
+    global _STOP_AFTER_CURRENT_ARTICLE, _SIGINT_COUNT
+    _SIGINT_COUNT += 1
+    if _SIGINT_COUNT == 1:
+        _STOP_AFTER_CURRENT_ARTICLE = True
+        print(
+            "\nCtrl-C received. poster.py will stop after the current article finishes. "
+            "Press Ctrl-C again to exit immediately."
+        )
+        return
+    signal.default_int_handler(signum, frame)
+
+
+def _should_stop_after_current_article() -> bool:
+    return _STOP_AFTER_CURRENT_ARTICLE
+
+
+def _arg_flag_enabled(args, name: str) -> bool:
+    return getattr(args, name, False) is True
+
+
+def _utc_timestamp() -> str:
+    return datetime.utcnow().isoformat() + "Z"
+
+
+def _safe_title_slug(article_title: str) -> str:
+    return re.sub(r"[^A-Za-z0-9._-]+", "_", article_title).strip("_") or "article"
+
+
+def _precomputed_root_from_args(args) -> Path:
+    raw = getattr(args, "precomputed_root", None)
+    if isinstance(raw, str) and raw.strip():
+        return Path(raw).expanduser()
+    return PRECOMPUTED_ROOT
+
+
+def _precomputed_article_dir(
+    article_title: str,
+    location_kind: str,
+    state_fips: str,
+    target_fips: str,
+    args,
+) -> Path:
+    return (
+        _precomputed_root_from_args(args)
+        / location_kind
+        / state_fips.zfill(2)
+        / str(target_fips)
+        / _safe_title_slug(article_title)
+    )
+
+
+def _precomputed_manifest_path(
+    article_title: str,
+    location_kind: str,
+    state_fips: str,
+    target_fips: str,
+    args,
+) -> Path:
+    return _precomputed_article_dir(
+        article_title, location_kind, state_fips, target_fips, args
+    ) / "manifest.json"
+
+
+def _precomputed_section_path(
+    article_title: str,
+    location_kind: str,
+    state_fips: str,
+    target_fips: str,
+    args,
+) -> Path:
+    return _precomputed_article_dir(
+        article_title, location_kind, state_fips, target_fips, args
+    ) / "demographics_section.wikitext"
+
+
+def _build_precomputed_metadata(
+    article_title: str,
+    location_kind: str,
+    state_fips: str,
+    target_fips: str,
+    section_text: str,
+    had_demographics_section: bool,
+    args,
+    expected_muni_type: Optional[str] = None,
+    expected_mapper_population: Optional[int] = None,
+) -> Dict[str, object]:
+    section_path = _precomputed_section_path(
+        article_title, location_kind, state_fips, target_fips, args
+    )
+    manifest_path = _precomputed_manifest_path(
+        article_title, location_kind, state_fips, target_fips, args
+    )
+    return {
+        "version": 1,
+        "timestamp": _utc_timestamp(),
+        "article": article_title,
+        "location_kind": location_kind,
+        "state_fips": state_fips.zfill(2),
+        "target_fips": str(target_fips),
+        "state_postal": STATE_FIPS_TO_POSTAL.get(state_fips.zfill(2)),
+        "expected_muni_type": expected_muni_type,
+        "expected_mapper_population": expected_mapper_population,
+        "had_demographics_section": had_demographics_section,
+        "section_path": str(section_path),
+        "manifest_path": str(manifest_path),
+        "section_bytes": len(section_text.encode("utf-8")),
+        "model": os.getenv("ACTIVE_MODEL", DEFAULT_CODEX_MODEL),
+        "edit_summary": _build_edit_summary(args.edit_summary, args.manual_review),
+    }
+
+
+def write_precomputed_section(
+    article_title: str,
+    location_kind: str,
+    state_fips: str,
+    target_fips: str,
+    section_text: str,
+    had_demographics_section: bool,
+    args,
+    expected_muni_type: Optional[str] = None,
+    expected_mapper_population: Optional[int] = None,
+) -> Dict[str, object]:
+    section_path = _precomputed_section_path(
+        article_title, location_kind, state_fips, target_fips, args
+    )
+    manifest_path = _precomputed_manifest_path(
+        article_title, location_kind, state_fips, target_fips, args
+    )
+    section_path.parent.mkdir(parents=True, exist_ok=True)
+    if section_text and not section_text.endswith("\n"):
+        section_text += "\n"
+    section_path.write_text(section_text, encoding="utf-8")
+    metadata = _build_precomputed_metadata(
+        article_title=article_title,
+        location_kind=location_kind,
+        state_fips=state_fips,
+        target_fips=target_fips,
+        section_text=section_text,
+        had_demographics_section=had_demographics_section,
+        args=args,
+        expected_muni_type=expected_muni_type,
+        expected_mapper_population=expected_mapper_population,
+    )
+    manifest_path.write_text(json.dumps(metadata, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    log_precomputed_article(
+        article_title,
+        metadata,
+        log_path=PRECOMPUTE_LOG_FILE,
+    )
+    return metadata
+
+
+def load_precomputed_section(
+    article_title: str,
+    location_kind: str,
+    state_fips: str,
+    target_fips: str,
+    args,
+) -> Tuple[Dict[str, object], str]:
+    manifest_path = _precomputed_manifest_path(
+        article_title, location_kind, state_fips, target_fips, args
+    )
+    section_path = _precomputed_section_path(
+        article_title, location_kind, state_fips, target_fips, args
+    )
+    if not manifest_path.exists():
+        raise FileNotFoundError(
+            f"Missing precomputed manifest for '{article_title}' at {manifest_path}."
+        )
+    if not section_path.exists():
+        raise FileNotFoundError(
+            f"Missing precomputed section for '{article_title}' at {section_path}."
+        )
+    metadata = json.loads(manifest_path.read_text(encoding="utf-8"))
+    section_text = section_path.read_text(encoding="utf-8")
+    return metadata, section_text
 
 
 def _should_skip_municipality_for_population_thresholds(
@@ -210,6 +410,28 @@ def _load_successful_articles(log_path: Path = LOG_FILE) -> Set[str]:
     return successes
 
 
+def _load_precomputed_articles(log_path: Path = PRECOMPUTE_LOG_FILE) -> Set[str]:
+    """
+    Read precompute.log and return a set of article titles with cached sections.
+    """
+    precomputed: Set[str] = set()
+    try:
+        if not log_path.exists():
+            return precomputed
+        with log_path.open("r", encoding="utf-8") as fh:
+            for line in fh:
+                try:
+                    entry = json.loads(line)
+                    article = entry.get("article")
+                    if article:
+                        precomputed.add(article)
+                except Exception:
+                    continue
+    except Exception:
+        pass
+    return precomputed
+
+
 def demographics_section_to_wikitext(section_entry):
     """
     Render a demographics section tuple back to raw wikitext.
@@ -238,6 +460,87 @@ def apply_demographics_section_override(
     updated_article = parsed_article.clone()
     updated_article.sections[section_index] = replacement_entry
     return updated_article
+
+
+_TAIL_SECTION_INSERT_BEFORE = {
+    "notes",
+    "references",
+    "bibliography",
+    "sources",
+    "further reading",
+    "see also",
+    "external links",
+}
+
+
+def _build_new_demographics_section_text(proposed_text: str) -> str:
+    body = proposed_text.lstrip()
+    if body and not body.endswith("\n"):
+        body += "\n"
+    return f"==Demographics==\n{body}"
+
+
+def _find_demographics_insert_index(parsed_article: ParsedWikitext) -> int:
+    for index, entry in enumerate(parsed_article.sections):
+        heading = entry[0]
+        if heading in _SECTION_SENTINELS:
+            continue
+        if heading.strip().lower() in _TAIL_SECTION_INSERT_BEFORE:
+            return index
+    return len(parsed_article.sections)
+
+
+def insert_demographics_section(
+    parsed_article: ParsedWikitext, proposed_text: str
+) -> ParsedWikitext:
+    """
+    Return a clone of parsed_article with a new Demographics section inserted.
+    """
+    new_section_text = _build_new_demographics_section_text(proposed_text)
+    replacement_entry = _extract_single_section(new_section_text)
+    updated_article = parsed_article.clone()
+    insert_index = _find_demographics_insert_index(updated_article)
+    updated_article.sections.insert(insert_index, replacement_entry)
+    return updated_article
+
+
+def apply_precomputed_demographics_section(
+    parsed_article: ParsedWikitext, precomputed_section_text: str
+) -> ParsedWikitext:
+    """
+    Apply a precomputed Demographics H2 section to the current article.
+    """
+    updated_article = parsed_article.clone()
+    demographics_section_info = find_demographics_section(updated_article)
+    if demographics_section_info:
+        section_index, _section_entry = demographics_section_info
+        updated_article.sections[section_index] = _extract_single_section(
+            precomputed_section_text
+        )
+        return updated_article
+    replacement_entry = _extract_single_section(precomputed_section_text)
+    insert_index = _find_demographics_insert_index(updated_article)
+    updated_article.sections.insert(insert_index, replacement_entry)
+    return updated_article
+
+
+def _finalize_demographics_section_text(
+    section_text: str,
+    original_demographics_wikitext: str = None,
+    state_fips: str = None,
+    county_fips: str = None,
+    place_fips: str = None,
+) -> str:
+    fixed_text = fix_demographics_section_wikitext(
+        section_text,
+        original_section_wikitext=original_demographics_wikitext,
+        state_fips=state_fips,
+        county_fips=county_fips,
+        place_fips=place_fips,
+    )
+    if fixed_text and not fixed_text.endswith("\n"):
+        fixed_text += "\n"
+    return fixed_text
 
 
 def _append_diff_link(article_title: str, edit_response: dict) -> None:
@@ -286,6 +589,51 @@ def process_single_article(
     page_wikitext = client.fetch_article_wikitext(article_title)
     if page_wikitext.lstrip().lower().startswith("#redirect"):
         print(f"Skipping '{article_title.replace('_', ' ')}' because it is a redirect.")
+        return
+    if _arg_flag_enabled(args, "post_precomputed"):
+        try:
+            metadata, precomputed_section_text = load_precomputed_section(
+                article_title=article_title,
+                location_kind=location_kind,
+                state_fips=state_fips,
+                target_fips=county_fips,
+                args=args,
+            )
+        except FileNotFoundError as exc:
+            print(str(exc))
+            return
+        parsed_article = ParsedWikitext(wikitext=page_wikitext)
+        updated_article = apply_precomputed_demographics_section(
+            parsed_article, precomputed_section_text
+        ).to_wikitext()
+        summary = str(metadata.get("edit_summary") or _build_edit_summary(args.edit_summary, args.manual_review))
+        if args.manual_review:
+            diff_lines = list(
+                difflib.unified_diff(
+                    page_wikitext.splitlines(),
+                    updated_article.splitlines(),
+                    fromfile="before",
+                    tofile="after",
+                    lineterm="",
+                )
+            )
+            diff_text = "\n".join(diff_lines).strip()
+            if not diff_text:
+                diff_text = "No diff output (content appears identical)."
+            print(f"\nProposed changes for: {display_title}\n")
+            print(diff_text)
+            print()
+            response = input("Press Enter to apply this change (or type anything to skip): ")
+            if response.strip():
+                print(f"Skipping '{display_title}' (manual review).")
+                return
+        result = client.edit_article_wikitext(
+            article_title,
+            updated_article,
+            summary,
+        )
+        _append_diff_link(article_title, result)
+        pprint(result)
         return
     if location_kind == "municipality" and expected_muni_type:
         detected = determine_municipality_type(page_wikitext)
@@ -355,6 +703,7 @@ def process_single_article(
         return
 
     updated_article = None
+    final_demographics_section = None
     if demographics_section_info:
         section_index, section_entry = demographics_section_info
         current_demographics = demographics_section_to_wikitext(section_entry)
@@ -366,12 +715,20 @@ def process_single_article(
                 mini=use_mini_prompt,
                 suppress_out=suppress_codex_out,
             )
-            updated_parsed_article = apply_demographics_section_override(
-                parsed_article,
-                section_index,
-                new_demographics_section,
-            )
-            updated_article = updated_parsed_article.to_wikitext()
+            if args.skip_deterministic_fixes:
+                final_demographics_section = new_demographics_section
+                if final_demographics_section and not final_demographics_section.endswith("\n"):
+                    final_demographics_section += "\n"
+            else:
+                fix_county_fips = county_fips if location_kind == "county" else None
+                fix_place_fips = county_fips if location_kind == "municipality" else None
+                final_demographics_section = _finalize_demographics_section_text(
+                    new_demographics_section,
+                    original_demographics_wikitext=original_demographics,
+                    state_fips=state_fips,
+                    county_fips=fix_county_fips,
+                    place_fips=fix_place_fips,
+                )
         except CodexOutputMissingError as exc:
             print(
                 f"Demographics-only update skipped for '{article_title.replace('_', ' ')}' because Codex output was missing ({exc})."
@@ -400,6 +757,11 @@ def process_single_article(
                 sys.exit(1)
             raise
         except Exception as exc:
+            if _arg_flag_enabled(args, "precompute_only"):
+                print(
+                    f"Precompute skipped for '{display_title}' because demographics-only update failed: {exc}"
+                )
+                return
             banner = "!" * 72
             print(
                 f"\n{banner}\n"
@@ -408,12 +770,48 @@ def process_single_article(
                 f"Error: {exc}\n"
                 f"{banner}\n"
             )
+    else:
+        new_demographics_section = _build_new_demographics_section_text(proposed_text)
+        if args.skip_deterministic_fixes:
+            final_demographics_section = new_demographics_section
+            if final_demographics_section and not final_demographics_section.endswith("\n"):
+                final_demographics_section += "\n"
+        else:
+            fix_county_fips = county_fips if location_kind == "county" else None
+            fix_place_fips = county_fips if location_kind == "municipality" else None
+            final_demographics_section = _finalize_demographics_section_text(
+                new_demographics_section,
+                original_demographics_wikitext=None,
+                state_fips=state_fips,
+                county_fips=fix_county_fips,
+                place_fips=fix_place_fips,
+            )
+    if final_demographics_section is not None:
+        if _arg_flag_enabled(args, "precompute_only"):
+            metadata = write_precomputed_section(
+                article_title=article_title,
+                location_kind=location_kind,
+                state_fips=state_fips,
+                target_fips=county_fips,
+                section_text=final_demographics_section,
+                had_demographics_section=bool(demographics_section_info),
+                args=args,
+                expected_muni_type=expected_muni_type,
+                expected_mapper_population=expected_mapper_population,
+            )
+            print(
+                f"Precomputed demographics section for '{display_title}' -> {metadata['section_path']}"
+            )
+            return
+        updated_article = apply_precomputed_demographics_section(
+            parsed_article, final_demographics_section
+        ).to_wikitext()
     if updated_article is None:
         updated_article = update_wp_page(
             page_wikitext, proposed_text, suppress_out=suppress_codex_out
         )
 
-    if not args.skip_deterministic_fixes:
+    if not args.skip_deterministic_fixes and final_demographics_section is None:
         fix_state_fips = state_fips
         fix_county_fips = county_fips if location_kind == "county" else None
         fix_place_fips = county_fips if location_kind == "municipality" else None
@@ -529,6 +927,9 @@ def process_state_batch(
     items = sorted(county_map.items(), key=lambda kv: kv[1])
     start_threshold = start_county_fips.zfill(3) if start_county_fips else None
     for article_title, code in items:
+        if _should_stop_after_current_article():
+            print("Stopping before next article due to Ctrl-C request.")
+            return
         try:
             if not code.startswith("county:"):
                 raise ValueError(f"Unexpected FIPS mapping value '{code}'")
@@ -548,10 +949,16 @@ def process_state_batch(
                 use_mini_prompt,
                 skip_successful_articles=skip_successful_articles,
             )
+            if _should_stop_after_current_article():
+                print("Stopping after current article due to Ctrl-C request.")
+                return
         except (CodexUsageLimitError, ClaudeCodeUsageLimitError):
             raise
         except Exception as exc:
             print(f"Failed to update '{article_title}': {exc}")
+            if _should_stop_after_current_article():
+                print("Stopping after current article due to Ctrl-C request.")
+                return
 
 
 def _resolve_municipality_type_dirs(
@@ -620,6 +1027,9 @@ def process_municipality_batch(
     else:
         items = sorted(items, key=lambda item: item[0].lower())
     for article_title, codes, type_name in items:
+        if _should_stop_after_current_article():
+            print("Stopping before next article due to Ctrl-C request.")
+            return
         try:
             raw_state = codes.get("state")
             raw_place = codes.get("place")
@@ -650,10 +1060,16 @@ def process_municipality_batch(
                 expected_mapper_population=mapper_population,
                 use_population_ballpark_check=True,
             )
+            if _should_stop_after_current_article():
+                print("Stopping after current article due to Ctrl-C request.")
+                return
         except (CodexUsageLimitError, ClaudeCodeUsageLimitError):
             raise
         except Exception as exc:
             print(f"Failed to update '{article_title}': {exc}")
+            if _should_stop_after_current_article():
+                print("Stopping after current article due to Ctrl-C request.")
+                return
 
 
 def parse_arguments():
@@ -714,6 +1130,14 @@ def parse_arguments():
         "--model",
         choices=get_all_model_options(),
         help=f"Override the model (default: {DEFAULT_CODEX_MODEL}).",
+    )
+    parser.add_argument(
+        "--enable-model-routing",
+        action="store_true",
+        help=(
+            "Enable task-based model routing so lightweight checks can use a faster "
+            "model while heavier article updates stay on the selected model path."
+        ),
     )
     parser.add_argument(
         "--start-county-fips",
@@ -777,10 +1201,11 @@ def parse_arguments():
     parser.add_argument(
         "--codex-output-slot",
         type=int,
-        choices=(1, 2),
+        choices=(1, 2, 3),
         help=(
             "Select which fixed Codex scratch/output file set to use in the trusted "
-            "repo workspace. Slot 2 uses alternate filenames like codex_out_2.txt."
+            "repo workspace. Slots 2 and 3 use alternate filenames like "
+            "codex_out_2.txt and codex_out_3.txt."
         ),
     )
     parser.add_argument(
@@ -805,6 +1230,37 @@ def parse_arguments():
         help="Skip updating articles already logged as successful edits in app_logging/logs/edit.log.",
     )
     parser.add_argument(
+        "--skip-logged-or-precomputed",
+        action="store_true",
+        help=(
+            "Skip articles that either already have a successful edit.log entry "
+            "or already have a precompute.log entry."
+        ),
+    )
+    parser.add_argument(
+        "--precompute-only",
+        action="store_true",
+        help=(
+            "Compute and cache finalized demographics sections locally without "
+            "posting edits to Wikipedia."
+        ),
+    )
+    parser.add_argument(
+        "--post-precomputed",
+        action="store_true",
+        help=(
+            "Post using only previously cached demographics sections from disk, "
+            "without regenerating them."
+        ),
+    )
+    parser.add_argument(
+        "--precomputed-root",
+        help=(
+            "Root directory for cached precomputed demographics sections "
+            f"(default: {PRECOMPUTED_ROOT})."
+        ),
+    )
+    parser.add_argument(
         "--manual-review",
         action="store_true",
         help="Show a diff and require pressing Enter before applying each edit.",
@@ -814,6 +1270,10 @@ def parse_arguments():
         help="Custom edit summary (ignored when --manual-review is set).",
     )
     args = parser.parse_args()
+    if args.precompute_only and args.post_precomputed:
+        parser.error("--precompute-only cannot be combined with --post-precomputed.")
+    if args.post_precomputed and args.skip_logged_or_precomputed:
+        parser.error("--skip-logged-or-precomputed cannot be combined with --post-precomputed.")
     has_manual_county = args.article and args.state_fips and args.county_fips
     has_manual_place = args.article and args.state_fips and args.place_fips
     if args.county_fips and args.place_fips:
@@ -1277,41 +1737,55 @@ class WikipediaClient:
 
 
 def main():
-    args = parse_arguments()
-    if args.model:
-        os.environ["ACTIVE_MODEL"] = args.model
-    run_artifact_dir = getattr(args, "run_artifact_dir", None)
-    if isinstance(run_artifact_dir, str) and run_artifact_dir:
-        os.environ[RUN_ARTIFACT_DIR_ENV] = run_artifact_dir
-    else:
-        os.environ.pop(RUN_ARTIFACT_DIR_ENV, None)
-    codex_home_dir = getattr(args, "codex_home_dir", None)
-    if isinstance(codex_home_dir, str) and codex_home_dir:
-        Path(codex_home_dir).expanduser().mkdir(parents=True, exist_ok=True)
-        os.environ["CODEX_HOME"] = codex_home_dir
-    codex_output_slot = getattr(args, "codex_output_slot", None)
-    if isinstance(codex_output_slot, int):
-        os.environ[CODEX_OUTPUT_SLOT_ENV] = str(codex_output_slot)
-    else:
-        os.environ.pop(CODEX_OUTPUT_SLOT_ENV, None)
-    if getattr(args, "wait_for_claude_limit_reset", False):
-        os.environ[CLAUDE_CODE_WAIT_FOR_LIMIT_RESET_ENV] = "1"
-    else:
-        os.environ.pop(CLAUDE_CODE_WAIT_FOR_LIMIT_RESET_ENV, None)
-
-    active_model = os.getenv("ACTIVE_MODEL", DEFAULT_CODEX_MODEL)
-    use_mini_prompt = is_mini_model(active_model)
-    skip_successful_articles = (
-        _load_successful_articles() if args.skip_logged_successes else set()
-    )
-    is_municipality = bool(args.municipality or args.place_fips)
-
-    client = WikipediaClient(WP_BOT_USER_AGENT)
-    client.login(WP_BOT_USER_NAME, WP_BOT_PASSWORD)
-
+    _reset_interrupt_state()
+    previous_sigint_handler = signal.getsignal(signal.SIGINT)
+    signal.signal(signal.SIGINT, _handle_sigint)
     try:
+        args = parse_arguments()
+        if args.model:
+            os.environ["ACTIVE_MODEL"] = args.model
+        if getattr(args, "enable_model_routing", False) is True:
+            os.environ[ENABLE_TASK_MODEL_ROUTING_ENV] = "1"
+        else:
+            os.environ.pop(ENABLE_TASK_MODEL_ROUTING_ENV, None)
+        run_artifact_dir = getattr(args, "run_artifact_dir", None)
+        if isinstance(run_artifact_dir, str) and run_artifact_dir:
+            os.environ[RUN_ARTIFACT_DIR_ENV] = run_artifact_dir
+        else:
+            os.environ.pop(RUN_ARTIFACT_DIR_ENV, None)
+        codex_home_dir = getattr(args, "codex_home_dir", None)
+        if isinstance(codex_home_dir, str) and codex_home_dir:
+            Path(codex_home_dir).expanduser().mkdir(parents=True, exist_ok=True)
+            os.environ["CODEX_HOME"] = codex_home_dir
+        codex_output_slot = getattr(args, "codex_output_slot", None)
+        if isinstance(codex_output_slot, int):
+            os.environ[CODEX_OUTPUT_SLOT_ENV] = str(codex_output_slot)
+        else:
+            os.environ.pop(CODEX_OUTPUT_SLOT_ENV, None)
+        if getattr(args, "wait_for_claude_limit_reset", False):
+            os.environ[CLAUDE_CODE_WAIT_FOR_LIMIT_RESET_ENV] = "1"
+        else:
+            os.environ.pop(CLAUDE_CODE_WAIT_FOR_LIMIT_RESET_ENV, None)
+
+        active_model = os.getenv("ACTIVE_MODEL", DEFAULT_CODEX_MODEL)
+        use_mini_prompt = is_mini_model(active_model)
+        skip_successful_articles: Set[str] = set()
+        if args.skip_logged_successes:
+            skip_successful_articles.update(_load_successful_articles())
+        if args.skip_logged_or_precomputed:
+            skip_successful_articles.update(_load_successful_articles())
+            skip_successful_articles.update(_load_precomputed_articles())
+        is_municipality = bool(args.municipality or args.place_fips)
+
+        client = WikipediaClient(WP_BOT_USER_AGENT)
+        if not _arg_flag_enabled(args, "precompute_only"):
+            client.login(WP_BOT_USER_NAME, WP_BOT_PASSWORD)
+
         if args.state_postal:
             for state_postal in args.state_postals:
+                if _should_stop_after_current_article():
+                    print("Stopping before next state due to Ctrl-C request.")
+                    return
                 if args.municipality_type:
                     process_municipality_batch(
                         state_postal,
@@ -1331,6 +1805,9 @@ def main():
                         start_county_fips=args.start_county_fips,
                         skip_successful_articles=skip_successful_articles,
                     )
+                if _should_stop_after_current_article():
+                    print("Stopping after current article due to Ctrl-C request.")
+                    return
             return
 
         if is_municipality:
@@ -1408,6 +1885,8 @@ def main():
     except (CodexUsageLimitError, ClaudeCodeUsageLimitError) as exc:
         print(str(exc))
         sys.exit(1)
+    finally:
+        signal.signal(signal.SIGINT, previous_sigint_handler)
 
 
 if __name__ == '__main__':

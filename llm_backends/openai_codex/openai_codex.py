@@ -31,7 +31,14 @@ class CodexUsageLimitError(Exception):
 
 
 def _get_output_slot() -> int:
-    return 2 if os.getenv(CODEX_OUTPUT_SLOT_ENV) == "2" else 1
+    raw = os.getenv(CODEX_OUTPUT_SLOT_ENV)
+    if not raw:
+        return 1
+    try:
+        slot = int(raw)
+    except ValueError:
+        return 1
+    return slot if slot >= 1 else 1
 
 
 def _using_fixed_slot_workspace() -> bool:
@@ -39,15 +46,17 @@ def _using_fixed_slot_workspace() -> bool:
 
 
 def _get_slot_filename(filename: str) -> str:
-    if _get_output_slot() == 1:
+    slot = _get_output_slot()
+    if slot == 1:
         return filename
     path = Path(filename)
-    return f"{path.stem}_2{path.suffix}"
+    return f"{path.stem}_{slot}{path.suffix}"
 
 
 def _get_output_relative_path() -> Path:
-    if _get_output_slot() == 2:
-        return Path("codex_out_2.txt")
+    slot = _get_output_slot()
+    if slot > 1:
+        return Path(f"codex_out_{slot}.txt")
     return Path("codex_out") / "out.txt"
 
 

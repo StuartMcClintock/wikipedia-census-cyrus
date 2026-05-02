@@ -178,6 +178,37 @@ def test_codex_exec_uses_fixed_slot_two_workspace_and_output(monkeypatch):
             out_file.unlink()
 
 
+def test_codex_exec_uses_fixed_slot_three_workspace_and_output(monkeypatch):
+    calls = []
+
+    def fake_run(cmd, cwd=None, capture_output=False, text=False, env=None):
+        calls.append((cmd, cwd))
+        out_file = codex.BASE_DIR / "codex_out_3.txt"
+        out_file.write_text("YES")
+
+        class R:
+            returncode = 0
+            stdout = ""
+            stderr = ""
+
+        return R()
+
+    monkeypatch.setenv("ACTIVE_MODEL", codex.DEFAULT_CODEX_MODEL)
+    monkeypatch.delenv(codex.RUN_ARTIFACT_DIR_ENV, raising=False)
+    monkeypatch.setenv(codex.CODEX_OUTPUT_SLOT_ENV, "3")
+    monkeypatch.setattr(codex.subprocess, "run", fake_run)
+
+    try:
+        codex.codex_exec("hello", suppress_out=True)
+        assert calls
+        assert calls[0][1] == codex.BASE_DIR
+        assert (codex.BASE_DIR / "codex_out_3.txt").read_text() == "YES"
+    finally:
+        out_file = codex.BASE_DIR / "codex_out_3.txt"
+        if out_file.exists():
+            out_file.unlink()
+
+
 def test_check_if_update_needed_slot_two_uses_alternate_prompt_filenames(monkeypatch):
     prompt_calls = []
 
@@ -195,3 +226,22 @@ def test_check_if_update_needed_slot_two_uses_alternate_prompt_filenames(monkeyp
     assert "full_current_wp_page_2.txt" in prompt_calls[0]
     assert "new_text_2.txt" in prompt_calls[0]
     assert "codex_out_2.txt" in prompt_calls[0]
+
+
+def test_check_if_update_needed_slot_three_uses_alternate_prompt_filenames(monkeypatch):
+    prompt_calls = []
+
+    monkeypatch.setenv(codex.CODEX_OUTPUT_SLOT_ENV, "3")
+    monkeypatch.delenv(codex.RUN_ARTIFACT_DIR_ENV, raising=False)
+    monkeypatch.setattr(codex, "_write_snapshot", lambda *args: None)
+    monkeypatch.setattr(codex, "_read_codex_output", lambda: "YES")
+
+    def fake_codex_exec(prompt, suppress_out=True):
+        prompt_calls.append(prompt)
+
+    monkeypatch.setattr(codex, "codex_exec", fake_codex_exec)
+
+    assert codex.check_if_update_needed("current text", "new text") is True
+    assert "full_current_wp_page_3.txt" in prompt_calls[0]
+    assert "new_text_3.txt" in prompt_calls[0]
+    assert "codex_out_3.txt" in prompt_calls[0]

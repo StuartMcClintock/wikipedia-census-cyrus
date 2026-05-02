@@ -142,6 +142,27 @@ class GenerateMunicipalityParagraphsSmallCountsTests(unittest.TestCase):
             text,
         )
 
+    def test_all_rural_urbanization_sentence_reads_naturally(self):
+        data = deepcopy(self.base_data)
+        data.update(
+            {
+                "total_population": 1000,
+                "urban_population_percent": 0.0,
+                "rural_population_percent": 100.0,
+            }
+        )
+        with patch(
+            "municipality.generate_municipality_paragraphs.get_demographic_variables",
+            return_value=data,
+        ):
+            text = self._strip_refs(generate_municipality_paragraphs("20", "12345"))
+
+        self.assertIn("All residents lived in rural areas.", text)
+        self.assertNotIn(
+            "0.0% of residents lived in urban areas, while 100.0% lived in rural areas.",
+            text,
+        )
+
     @staticmethod
     def _strip_refs(text: str) -> str:
         return re.sub(r"<ref[^>]*>.*?</ref>|<ref[^>]*/>", "", text, flags=re.DOTALL)
