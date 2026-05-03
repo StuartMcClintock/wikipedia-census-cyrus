@@ -1,0 +1,67 @@
+=== Demographics ===
+{{US Census population
+|1880= 122
+|1890= 187
+|1900= 382
+|1910= 659
+|1920= 602
+|1930= 399
+|1940= 322
+|1950= 248
+|1960= 202
+|1970= 165
+|1980= 205
+|1990= 151
+|2000= 109
+|2010= 92
+|2020= 68
+|footnote=U.S. Decennial Census<ref name="DecennialCensus">{{cite web|url=https://www.census.gov/programs-surveys/decennial-census.html|title=Census of Population and Housing|publisher=Census.gov|accessdate=June 4, 2015}}</ref><ref name=cen2020/>
+| align = right
+| align-fn = center
+}}
+
+===2020 census===
+As of the [[2020 United States census|2020 census]], Numa had a population of 68 people.<ref name="Census2020PL">{{cite web|title=2020 Decennial Census Redistricting Data (Public Law 94-171)|url=https://api.census.gov/data/2020/dec/pl?get=NAME,P1_001N,P1_003N,P1_004N,P1_005N,P1_006N,P1_007N,P1_008N,P1_009N,P2_001N,P2_002N,H1_001N,H1_002N&for=place%3A57945&in=state%3A19|website=United States Census Bureau|year=2021|access-date=May 1, 2026|df=mdy}}</ref> The median age was 52.0 years, and 8.8% of residents were under age 18. For every 100 females, there were 78.9 males, and for every 100 females age 18 and over there were 67.6 males.<ref name="Census2020DP">{{cite web|title=2020 Decennial Census Demographic Profile (DP1)|url=https://api.census.gov/data/2020/dec/dp?get=NAME,DP1_0021P,DP1_0024P,DP1_0025C,DP1_0049C,DP1_0045C,DP1_0069C,DP1_0073C,DP1_0125P,DP1_0126P,DP1_0129P,DP1_0133P,DP1_0137P,DP1_0138P,DP1_0139P,DP1_0141P,DP1_0142P,DP1_0143P,DP1_0145P,DP1_0146P,DP1_0147C,DP1_0148C,DP1_0149C,DP1_0156C,DP1_0157C,DP1_0158C,DP1_0159P,DP1_0160P&for=place%3A57945&in=state%3A19|website=United States Census Bureau|year=2021|access-date=May 1, 2026|df=mdy}}</ref> All residents lived in rural areas.<ref name="Census2020DHC">{{cite web|title=2020 Decennial Census Demographic and Housing Characteristics (DHC)|url=https://api.census.gov/data/2020/dec/dhc?get=NAME,P2_002N,P2_003N&for=place%3A57945&in=state%3A19|website=United States Census Bureau|year=2023|access-date=May 1, 2026|df=mdy}}</ref>
+
+The [[population density]] was 152.4 inhabitants per square mile (58.8/km<sup>2</sup>). The age distribution was 10.3% under age 20, 2.9% from age 20 to 24, 17.6% from age 25 to 44, 39.7% from age 45 to 64, and 29.4% age 65 or older. The gender makeup was 44.1% male and 55.9% female.<ref name="Census2020DP"/><ref name="Census2020PL"/>
+
+There were 37 households and 28 families in Numa, of which 29.7% had children under age 18 living in them. Of all households, 48.6% were married-couple households, 5.4% were households with a male householder and no spouse or partner present, and 40.5% were households with a female householder and no spouse or partner present. About 24.3% of households were non-families, 16.2% were made up of individuals, and 16.2% had someone living alone who was age 65 or older.<ref name="Census2020DP"/>
+
+There were 39 housing units, with an average density of 87.4 per square mile (33.7/km<sup>2</sup>). Of the housing units, 5.1% were vacant. The homeowner vacancy rate was 3.2% and the rental vacancy rate was 0.0%.<ref name="Census2020DP"/><ref name="Census2020PL"/>
+
+{| class="wikitable"
+|+ Racial composition as of the 2020 census<ref name="Census2020PL"/>
+! Race !! Number !! Percent
+|-
+| [[White Americans|White]] || 66 || 97.1%
+|-
+| [[African Americans|Black or African American]] || 0 || 0.0%
+|-
+| [[Native Americans in the United States|American Indian and Alaska Native]] || 0 || 0.0%
+|-
+| [[Asian Americans|Asian]] || 0 || 0.0%
+|-
+| [[Native Hawaiians|Native Hawaiian]] and [[Pacific Islander|Other Pacific Islander]] || 0 || 0.0%
+|-
+| Some other race || 0 || 0.0%
+|-
+| [[Multiracial Americans|Two or more races]] || 2 || 2.9%
+|-
+| ''[[Hispanic and Latino Americans|Hispanic or Latino]] (of any race)'' || 2 || 2.9%
+|}
+
+===2010 census===
+As of the [[census]]<ref name ="wwwcensusgov">{{cite web|title=U.S. Census website|url=https://www.census.gov|publisher=[[United States Census Bureau]]|accessdate=2012-05-11}}</ref> of 2010, there were 92 people, 44 households, and 26 families living in the city. The [[population density]] was {{convert|209.1|PD/sqmi|PD/km2|1}}. There were 52 housing units at an average density of {{convert|118.2|/sqmi|/km2|1}}. The racial makeup of the city was 100.0% [[White (U.S. Census)|White]].
+
+There were 44 households, of which 22.7% had children under the age of 18 living with them, 36.4% were [[Marriage|married couples]] living together, 9.1% had a female householder with no husband present, 13.6% had a male householder with no wife present, and 40.9% were non-families. 34.1% of all households were made up of individuals, and 18.1% had someone living alone who was 65 years of age or older. The average household size was 2.09 and the average family size was 2.58.
+
+The median age in the city was 47 years. 15.2% of residents were under the age of 18; 7.6% were between the ages of 18 and 24; 23.9% were from 25 to 44; 30.4% were from 45 to 64; and 22.8% were 65 years of age or older. The gender makeup of the city was 55.4% male and 44.6% female.
+
+===2000 census===
+As of the census<ref name="GR2">{{cite web|url=https://www.census.gov|publisher=[[United States Census Bureau]]|accessdate=2008-01-31|title=U.S. Census website}}</ref> of 2000, there were 109 people, 48 households, and 31 families living in the city. The population density was {{convert|245.7|PD/sqmi|PD/km2|sp=us|adj=off}}. There were 66 housing units at an average density of {{convert|148.8|/sqmi|/km2|sp=us|adj=off}}. The racial makeup of the city was 99.08% [[White (U.S. Census)|White]], and 0.92% from two or more races. [[Hispanic (U.S. Census)|Hispanic]] or [[Latino (U.S. Census)|Latino]] of any race were 3.67% of the population.
+
+There were 48 households, out of which 25.0% had children under the age of 18 living with them, 58.3% were married couples living together, 4.2% had a female householder with no husband present, and 35.4% were non-families. 29.2% of all households were made up of individuals, and 14.6% had someone living alone who was 65 years of age or older. The average household size was 2.27 and the average family size was 2.81.
+
+In the city, the population was spread out, with 20.2% under the age of 18, 6.4% from 18 to 24, 33.9% from 25 to 44, 24.8% from 45 to 64, and 14.7% who were 65 years of age or older. The median age was 38 years. For every 100 females, there were 113.7 males. For every 100 females age 18 and over, there were 117.5 males.
+
+The median income for a household in the city was $26,625, and the median income for a family was $27,344. Males had a median income of $21,000 versus $16,250 for females. The per capita income for the city was $15,694. There were 8.1% of families and 10.7% of the population living below the poverty line, including 50.0% of under eighteens and 15.4% of those over 64.

@@ -1,0 +1,17 @@
+{
+  "article": "Argo,_Iowa",
+  "edit_summary": "Add 2020 census data",
+  "expected_mapper_population": 44,
+  "expected_muni_type": "CDP",
+  "had_demographics_section": true,
+  "location_kind": "municipality",
+  "manifest_path": "/Users/stuartmcclintock/Desktop/wikipedia-census-cyrus/.poster-runs/precomputed/municipality/19/02665/Argo__Iowa/manifest.json",
+  "model": "gpt-5.3-codex",
+  "section_bytes": 3829,
+  "section_path": "/Users/stuartmcclintock/Desktop/wikipedia-census-cyrus/.poster-runs/precomputed/municipality/19/02665/Argo__Iowa/demographics_section.wikitext",
+  "state_fips": "19",
+  "state_postal": "IA",
+  "target_fips": "02665",
+  "timestamp": "2026-05-02T02:52:32.245391Z",
+  "version": 1
+}

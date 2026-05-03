@@ -1,0 +1,38 @@
+=== Demographics ===
+{{US Census population
+|2010= 91
+|2020= 77
+|footnote=U.S. Decennial Census<ref name="DecennialCensus">{{cite web|url=http://www.census.gov/prod/www/decennial.html|title=Census of Population and Housing|publisher=Census.gov|accessdate=June 4, 2016}}</ref>
+| align = right
+| align-fn = center
+}}
+
+===2020 census===
+As of the [[2020 United States census|2020 census]], New Haven had a population of 77, including 43 households and 24 families.<ref name="Census2020DP">{{cite web|title=2020 Decennial Census Demographic Profile (DP1)|url=https://api.census.gov/data/2020/dec/dp?get=NAME,DP1_0021P,DP1_0024P,DP1_0025C,DP1_0049C,DP1_0045C,DP1_0069C,DP1_0073C,DP1_0125P,DP1_0126P,DP1_0129P,DP1_0133P,DP1_0137P,DP1_0138P,DP1_0139P,DP1_0141P,DP1_0142P,DP1_0143P,DP1_0145P,DP1_0146P,DP1_0147C,DP1_0148C,DP1_0149C,DP1_0156C,DP1_0157C,DP1_0158C,DP1_0159P,DP1_0160P&for=place%3A56190&in=state%3A19|website=United States Census Bureau|year=2021|access-date=May 1, 2026|df=mdy}}</ref><ref name="Census2020PL">{{cite web|title=2020 Decennial Census Redistricting Data (Public Law 94-171)|url=https://api.census.gov/data/2020/dec/pl?get=NAME,P1_001N,P1_003N,P1_004N,P1_005N,P1_006N,P1_007N,P1_008N,P1_009N,P2_001N,P2_002N,H1_001N,H1_002N&for=place%3A56190&in=state%3A19|website=United States Census Bureau|year=2021|access-date=May 1, 2026|df=mdy}}</ref> The [[population density]] was 40.0 inhabitants per square mile (15.4/km<sup>2</sup>). There were 43 housing units at an average density of 22.3 per square mile (8.6/km<sup>2</sup>).<ref name="Census2020DP"/>
+
+The median age was 39.8 years. 23.4% of residents were under the age of 18 and 14.3% were 65 years of age or older. By broader age groups, 31.2% of residents were under the age of 20, 6.5% were from 20 to 24, 15.6% were from 25 to 44, and 32.5% were from 45 to 64. For every 100 females there were 102.6 males, and for every 100 females age 18 and over there were 73.5 males age 18 and over. The population was 50.6% male and 49.4% female.<ref name="Census2020DP"/>
+
+Of the 43 households, 11.6% had children under the age of 18 living in them. Of all households, 51.2% were married-couple households, 4.7% were cohabiting-couple households, 27.9% had a male householder with no spouse or partner present, and 16.3% had a female householder with no spouse or partner present. About 44.2% of households were non-families, 44.2% were made up of individuals, and 18.6% had someone living alone who was 65 years of age or older.<ref name="Census2020DP"/>
+
+There were 43 housing units, of which 0.0% were vacant. The homeowner vacancy rate was 0.0% and the rental vacancy rate was 0.0%. All residents lived in rural areas.<ref name="Census2020DP"/><ref name="Census2020DHC">{{cite web|title=2020 Decennial Census Demographic and Housing Characteristics (DHC)|url=https://api.census.gov/data/2020/dec/dhc?get=NAME,P2_002N,P2_003N&for=place%3A56190&in=state%3A19|website=United States Census Bureau|year=2023|access-date=May 1, 2026|df=mdy}}</ref>
+
+{| class="wikitable"
+|+ Racial composition as of the 2020 census<ref name="Census2020PL"/>
+! Race !! Number !! Percent
+|-
+| [[White Americans|White]] || 73 || 94.8%
+|-
+| [[African Americans|Black or African American]] || 0 || 0.0%
+|-
+| [[Native Americans in the United States|American Indian and Alaska Native]] || 0 || 0.0%
+|-
+| [[Asian Americans|Asian]] || 0 || 0.0%
+|-
+| [[Native Hawaiians|Native Hawaiian]] and [[Pacific Islander|Other Pacific Islander]] || 0 || 0.0%
+|-
+| Some other race || 4 || 5.2%
+|-
+| [[Multiracial Americans|Two or more races]] || 0 || 0.0%
+|-
+| ''[[Hispanic and Latino Americans|Hispanic or Latino]] (of any race)'' || 1 || 1.3%
+|}

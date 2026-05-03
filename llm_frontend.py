@@ -9,6 +9,7 @@ from constants import (
     DEFAULT_CODEX_MODEL,
     codex_models,
     openai_gpt_models,
+    fine_tuned_models,
     anthropic_models,
     claude_code_models,
 )
@@ -32,6 +33,9 @@ def _get_backend_module_for_model(active_model: str):
     elif active_model in openai_gpt_models:
         from llm_backends.openai_gpt_5_mini import openai_gpt_5_mini
         return openai_gpt_5_mini
+    elif active_model in fine_tuned_models:
+        from llm_backends.openai_gpt_4_1_mini_ft import openai_gpt_4_1_mini_ft
+        return openai_gpt_4_1_mini_ft
     elif active_model in anthropic_models:
         from llm_backends.claude_haiku import claude_haiku
         return claude_haiku
@@ -41,7 +45,7 @@ def _get_backend_module_for_model(active_model: str):
     else:
         raise ValueError(
             f"Unknown model '{active_model}'. Must be one of "
-            f"{codex_models + openai_gpt_models + anthropic_models + claude_code_models}"
+            f"{codex_models + openai_gpt_models + fine_tuned_models + anthropic_models + claude_code_models}"
         )
 
 

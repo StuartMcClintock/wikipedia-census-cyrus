@@ -1,0 +1,17 @@
+{
+  "article": "Hansell,_Iowa",
+  "edit_summary": "Add 2020 census data",
+  "expected_mapper_population": 82,
+  "expected_muni_type": "city",
+  "had_demographics_section": true,
+  "location_kind": "municipality",
+  "manifest_path": "/Users/stuartmcclintock/Desktop/wikipedia-census-cyrus/.poster-runs/precomputed/municipality/19/34365/Hansell__Iowa/manifest.json",
+  "model": "gpt-5.3-codex",
+  "section_bytes": 7266,
+  "section_path": "/Users/stuartmcclintock/Desktop/wikipedia-census-cyrus/.poster-runs/precomputed/municipality/19/34365/Hansell__Iowa/demographics_section.wikitext",
+  "state_fips": "19",
+  "state_postal": "IA",
+  "target_fips": "34365",
+  "timestamp": "2026-05-02T02:05:35.212514Z",
+  "version": 1
+}

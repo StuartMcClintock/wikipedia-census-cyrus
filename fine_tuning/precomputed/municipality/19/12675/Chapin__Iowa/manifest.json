@@ -1,0 +1,17 @@
+{
+  "article": "Chapin,_Iowa",
+  "edit_summary": "Add 2020 census data",
+  "expected_mapper_population": 71,
+  "expected_muni_type": "CDP",
+  "had_demographics_section": true,
+  "location_kind": "municipality",
+  "manifest_path": "/Users/stuartmcclintock/Desktop/wikipedia-census-cyrus/.poster-runs/precomputed/municipality/19/12675/Chapin__Iowa/manifest.json",
+  "model": "gpt-5.3-codex",
+  "section_bytes": 4171,
+  "section_path": "/Users/stuartmcclintock/Desktop/wikipedia-census-cyrus/.poster-runs/precomputed/municipality/19/12675/Chapin__Iowa/demographics_section.wikitext",
+  "state_fips": "19",
+  "state_postal": "IA",
+  "target_fips": "12675",
+  "timestamp": "2026-05-02T02:18:21.695628Z",
+  "version": 1
+}

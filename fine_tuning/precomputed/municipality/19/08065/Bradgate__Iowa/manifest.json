@@ -1,0 +1,17 @@
+{
+  "article": "Bradgate,_Iowa",
+  "edit_summary": "Add 2020 census data",
+  "expected_mapper_population": 75,
+  "expected_muni_type": "city",
+  "had_demographics_section": true,
+  "location_kind": "municipality",
+  "manifest_path": "/Users/stuartmcclintock/Desktop/wikipedia-census-cyrus/.poster-runs/precomputed/municipality/19/08065/Bradgate__Iowa/manifest.json",
+  "model": "gpt-5.3-codex",
+  "section_bytes": 6883,
+  "section_path": "/Users/stuartmcclintock/Desktop/wikipedia-census-cyrus/.poster-runs/precomputed/municipality/19/08065/Bradgate__Iowa/demographics_section.wikitext",
+  "state_fips": "19",
+  "state_postal": "IA",
+  "target_fips": "08065",
+  "timestamp": "2026-05-02T02:14:01.049456Z",
+  "version": 1
+}
