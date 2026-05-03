@@ -1,0 +1,44 @@
+=== Demographics ===
+{{US Census population
+|align = right
+| 1902 = 27
+| 1925 = 225
+| 1940 = 36
+| 1950 = 42
+| 1960 = 37
+| 1970 = 23
+| 1980 = 45
+| 2020 = 19
+| footnote = U.S. Decennial Census<ref name="DecennialCensus">{{cite web|url=https://www.census.gov/programs-surveys/decennial-census/decade.html|title=Decennial Census by Decade|website=[[United States Census Bureau]]|access-date=February 21, 2025}}</ref>
+| align-fn = center
+}}
+
+===2020 census===
+As of the [[2020 United States census|2020 census]], Plainview had a population of 19, with 11 households and 9 families.<ref name="Census2020DP">{{cite web|title=2020 Decennial Census Demographic Profile (DP1)|url=https://api.census.gov/data/2020/dec/dp?get=NAME,DP1_0021P,DP1_0024P,DP1_0025C,DP1_0049C,DP1_0045C,DP1_0069C,DP1_0073C,DP1_0125P,DP1_0126P,DP1_0129P,DP1_0133P,DP1_0137P,DP1_0138P,DP1_0139P,DP1_0141P,DP1_0142P,DP1_0143P,DP1_0145P,DP1_0146P,DP1_0147C,DP1_0148C,DP1_0149C,DP1_0156C,DP1_0157C,DP1_0158C,DP1_0159P,DP1_0160P&for=place%3A63300&in=state%3A19|website=United States Census Bureau|year=2021|access-date=May 2, 2026|df=mdy}}</ref><ref name="Census2020PL">{{cite web|title=2020 Decennial Census Redistricting Data (Public Law 94-171)|url=https://api.census.gov/data/2020/dec/pl?get=NAME,P1_001N,P1_003N,P1_004N,P1_005N,P1_006N,P1_007N,P1_008N,P1_009N,P2_001N,P2_002N,H1_001N,H1_002N&for=place%3A63300&in=state%3A19|website=United States Census Bureau|year=2021|access-date=May 2, 2026|df=mdy}}</ref> The [[population density]] was 34.4 inhabitants per square mile (13.3/km<sup>2</sup>). There were 12 housing units at an average density of 21.7 per square mile (8.4/km<sup>2</sup>), of which 8.3% were vacant. The homeowner vacancy rate was 0.0% and the rental vacancy rate was 0.0%.<ref name="Census2020DP"/>
+
+Of the 11 households, 54.5% had children under the age of 18 living with them. Of all households, 81.8% were [[Marriage|married-couple]] households, 0.0% were cohabiting-couple households, 0.0% had a female householder with no spouse or partner present, and 18.2% had a male householder with no spouse or partner present. Non-family households made up 18.2% of all households. About 18.2% of all households were made up of individuals, and 0.0% had someone living alone who was 65 years of age or older.<ref name="Census2020DP"/>
+
+The median age was 57.3 years. Age distribution was 5.3% under 20, 0.0% from 20 to 24, 31.6% from 25 to 44, 26.3% from 45 to 64, and 36.8% aged 65 or older. 5.3% of residents were under the age of 18. For every 100 females there were 137.5 males, and for every 100 females age 18 and over there were 125.0 males age 18 and over.<ref name="Census2020DP"/>
+
+All residents lived in rural areas.<ref name="Census2020DHC">{{cite web|title=2020 Decennial Census Demographic and Housing Characteristics (DHC)|url=https://api.census.gov/data/2020/dec/dhc?get=NAME,P2_002N,P2_003N&for=place%3A63300&in=state%3A19|website=United States Census Bureau|year=2023|access-date=May 2, 2026|df=mdy}}</ref>
+
+{| class="wikitable"
+|+ Racial composition as of the 2020 census<ref name="Census2020PL"/>
+! Race !! Number !! Percent
+|-
+| [[White Americans|White]] || 17 || 89.5%
+|-
+| [[African Americans|Black or African American]] || 0 || 0.0%
+|-
+| [[Native Americans in the United States|American Indian and Alaska Native]] || 0 || 0.0%
+|-
+| [[Asian Americans|Asian]] || 0 || 0.0%
+|-
+| [[Native Hawaiians|Native Hawaiian]] and [[Pacific Islander|Other Pacific Islander]] || 0 || 0.0%
+|-
+| Some other race || 0 || 0.0%
+|-
+| [[Multiracial Americans|Two or more races]] || 2 || 10.5%
+|-
+| ''[[Hispanic and Latino Americans|Hispanic or Latino]] (of any race)'' || 0 || 0.0%
+|}

@@ -1,0 +1,17 @@
+{
+  "article": "Lowell,_Iowa",
+  "edit_summary": "Add 2020 census data",
+  "expected_mapper_population": 70,
+  "expected_muni_type": "CDP",
+  "had_demographics_section": true,
+  "location_kind": "municipality",
+  "manifest_path": "/Users/stuartmcclintock/Desktop/wikipedia-census-cyrus/.poster-runs/precomputed/municipality/19/46965/Lowell__Iowa/manifest.json",
+  "model": "gpt-5.3-codex",
+  "section_bytes": 3655,
+  "section_path": "/Users/stuartmcclintock/Desktop/wikipedia-census-cyrus/.poster-runs/precomputed/municipality/19/46965/Lowell__Iowa/demographics_section.wikitext",
+  "state_fips": "19",
+  "state_postal": "IA",
+  "target_fips": "46965",
+  "timestamp": "2026-05-02T02:56:23.169241Z",
+  "version": 1
+}

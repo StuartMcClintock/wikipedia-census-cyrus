@@ -1,0 +1,17 @@
+{
+  "article": "Mount_Sterling,_Iowa",
+  "edit_summary": "Add 2020 census data",
+  "expected_mapper_population": 33,
+  "expected_muni_type": "CDP",
+  "had_demographics_section": true,
+  "location_kind": "municipality",
+  "manifest_path": "/Users/stuartmcclintock/Desktop/wikipedia-census-cyrus/.poster-runs/precomputed/municipality/19/54750/Mount_Sterling__Iowa/manifest.json",
+  "model": "gpt-5.3-codex",
+  "section_bytes": 6887,
+  "section_path": "/Users/stuartmcclintock/Desktop/wikipedia-census-cyrus/.poster-runs/precomputed/municipality/19/54750/Mount_Sterling__Iowa/demographics_section.wikitext",
+  "state_fips": "19",
+  "state_postal": "IA",
+  "target_fips": "54750",
+  "timestamp": "2026-05-02T04:28:09.139166Z",
+  "version": 1
+}

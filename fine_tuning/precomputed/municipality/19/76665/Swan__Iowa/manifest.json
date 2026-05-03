@@ -1,0 +1,17 @@
+{
+  "article": "Swan,_Iowa",
+  "edit_summary": "Add 2020 census data",
+  "expected_mapper_population": 76,
+  "expected_muni_type": "city",
+  "had_demographics_section": true,
+  "location_kind": "municipality",
+  "manifest_path": "/Users/stuartmcclintock/Desktop/wikipedia-census-cyrus/.poster-runs/precomputed/municipality/19/76665/Swan__Iowa/manifest.json",
+  "model": "gpt-5.3-codex",
+  "section_bytes": 7454,
+  "section_path": "/Users/stuartmcclintock/Desktop/wikipedia-census-cyrus/.poster-runs/precomputed/municipality/19/76665/Swan__Iowa/demographics_section.wikitext",
+  "state_fips": "19",
+  "state_postal": "IA",
+  "target_fips": "76665",
+  "timestamp": "2026-05-02T02:49:20.404673Z",
+  "version": 1
+}

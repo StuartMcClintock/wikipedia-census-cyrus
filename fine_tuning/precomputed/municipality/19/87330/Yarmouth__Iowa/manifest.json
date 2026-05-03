@@ -1,0 +1,17 @@
+{
+  "article": "Yarmouth,_Iowa",
+  "edit_summary": "Add 2020 census data",
+  "expected_mapper_population": 61,
+  "expected_muni_type": "CDP",
+  "had_demographics_section": true,
+  "location_kind": "municipality",
+  "manifest_path": "/Users/stuartmcclintock/Desktop/wikipedia-census-cyrus/.poster-runs/precomputed/municipality/19/87330/Yarmouth__Iowa/manifest.json",
+  "model": "gpt-5.3-codex",
+  "section_bytes": 3572,
+  "section_path": "/Users/stuartmcclintock/Desktop/wikipedia-census-cyrus/.poster-runs/precomputed/municipality/19/87330/Yarmouth__Iowa/demographics_section.wikitext",
+  "state_fips": "19",
+  "state_postal": "IA",
+  "target_fips": "87330",
+  "timestamp": "2026-05-02T04:04:46.375116Z",
+  "version": 1
+}

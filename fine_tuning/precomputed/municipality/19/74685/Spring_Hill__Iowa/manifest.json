@@ -1,0 +1,17 @@
+{
+  "article": "Spring_Hill,_Iowa",
+  "edit_summary": "Add 2020 census data",
+  "expected_mapper_population": 68,
+  "expected_muni_type": "city",
+  "had_demographics_section": true,
+  "location_kind": "municipality",
+  "manifest_path": "/Users/stuartmcclintock/Desktop/wikipedia-census-cyrus/.poster-runs/precomputed/municipality/19/74685/Spring_Hill__Iowa/manifest.json",
+  "model": "gpt-5.3-codex",
+  "section_bytes": 6977,
+  "section_path": "/Users/stuartmcclintock/Desktop/wikipedia-census-cyrus/.poster-runs/precomputed/municipality/19/74685/Spring_Hill__Iowa/demographics_section.wikitext",
+  "state_fips": "19",
+  "state_postal": "IA",
+  "target_fips": "74685",
+  "timestamp": "2026-05-02T03:34:54.718923Z",
+  "version": 1
+}
